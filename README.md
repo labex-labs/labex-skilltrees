@@ -2,6 +2,8 @@
 
 LabEx Skill Trees is an open catalog of technology skills designed for hands-on learning and skill assessment.
 
+> [LabEx Skill Trees V2: A More Precise Skill Model for Hands-On Learning](https://support.labex.io/en/news/labex-skill-trees-v2)
+
 The repository contains the public source data behind the LabEx skill assessment model: each skill tree describes the stable, assessable capabilities in one technical domain such as Linux, Python, Docker, Git, Kubernetes, SQL, or cybersecurity. The model is intended to help individuals, educators, and organizations map learning content, practice labs, challenge labs, and assessment evidence to a shared skill taxonomy.
 
 ## What Is a Skill Tree?
