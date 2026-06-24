@@ -1,0 +1,169 @@
+{
+  "key": "mysql",
+  "slug": "mysql",
+  "name": "MySQL",
+  "skills": [
+    {
+      "key": "mysql/use_database",
+      "slug": "use_database",
+      "name": "Database Selection",
+      "desc": "Database selection involves using the 'USE' statement to specify the database with which you want to work."
+    },
+    {
+      "key": "mysql/create_database",
+      "slug": "create_database",
+      "name": "Database Creation",
+      "desc": "Database creation encompasses the 'CREATE DATABASE' statement, allowing you to create new databases."
+    },
+    {
+      "key": "mysql/drop_database",
+      "slug": "drop_database",
+      "name": "Database Deletion",
+      "desc": "Database deletion involves the 'DROP DATABASE' statement to remove databases when needed."
+    },
+    {
+      "key": "mysql/create_table",
+      "slug": "create_table",
+      "name": "Table Creation",
+      "desc": "Table creation involves defining the structure of database tables using SQL statements like 'CREATE TABLE'."
+    },
+    {
+      "key": "mysql/drop_table",
+      "slug": "drop_table",
+      "name": "Table Removal",
+      "desc": "Table removal is the process of deleting database tables using SQL statements like 'DROP TABLE'."
+    },
+    {
+      "key": "mysql/alter_table",
+      "slug": "alter_table",
+      "name": "Table Modification",
+      "desc": "Table modification includes altering the structure of existing database tables, using SQL statements like 'ALTER TABLE'."
+    },
+    {
+      "key": "mysql/select",
+      "slug": "select",
+      "name": "Data Retrieval",
+      "desc": "Data retrieval involves fetching data from database tables using SQL queries, primarily 'SELECT' statements."
+    },
+    {
+      "key": "mysql/insert",
+      "slug": "insert",
+      "name": "Data Insertion",
+      "desc": "Data insertion is the process of adding new data records to database tables using SQL 'INSERT' statements."
+    },
+    {
+      "key": "mysql/update",
+      "slug": "update",
+      "name": "Data Update",
+      "desc": "Data update involves modifying existing data in database tables using SQL 'UPDATE' statements."
+    },
+    {
+      "key": "mysql/delete",
+      "slug": "delete",
+      "name": "Data Deletion",
+      "desc": "Data deletion is the process of removing data records from database tables using SQL 'DELETE' statements."
+    },
+    {
+      "key": "mysql/source",
+      "slug": "source",
+      "name": "External Code Execution",
+      "desc": "Understanding and executing external code within MySQL, enhancing database functionality."
+    },
+    {
+      "key": "mysql/database",
+      "slug": "database",
+      "name": "DB Function - Info Retrieval",
+      "desc": "This skill involves using database functions to retrieve information about the database and its objects."
+    },
+    {
+      "key": "mysql/user",
+      "slug": "user",
+      "name": "User Info Function",
+      "desc": "User info functions provide information about database users and their privileges."
+    },
+    {
+      "key": "mysql/version",
+      "slug": "version",
+      "name": "DB Version Check",
+      "desc": "Checking the version of the MySQL database being used."
+    },
+    {
+      "key": "mysql/int",
+      "slug": "int",
+      "name": "Integer Type",
+      "desc": "Understanding and working with integer data types in MySQL."
+    },
+    {
+      "key": "mysql/varchar",
+      "slug": "varchar",
+      "name": "Variable Character Type",
+      "desc": "Managing variable character data types, such as VARCHAR, in MySQL."
+    },
+    {
+      "key": "mysql/date",
+      "slug": "date",
+      "name": "Date Type",
+      "desc": "Working with date and time data types in MySQL."
+    },
+    {
+      "key": "mysql/index",
+      "slug": "index",
+      "name": "Index Management",
+      "desc": "Index management involves creating and maintaining indexes on database tables to speed up query performance."
+    },
+    {
+      "key": "mysql/identified_by",
+      "slug": "identified_by",
+      "name": "User Authentication",
+      "desc": "Implementing user authentication mechanisms to control access to the database."
+    },
+    {
+      "key": "mysql/grant_permission",
+      "slug": "grant_permission",
+      "name": "Permission Granting",
+      "desc": "Granting specific permissions to database users for various operations."
+    },
+    {
+      "key": "mysql/revoke_permission",
+      "slug": "revoke_permission",
+      "name": "Permission Revocation",
+      "desc": "Revoking previously granted permissions to restrict or change user access."
+    },
+    {
+      "key": "mysql/mysqldump",
+      "slug": "mysqldump",
+      "name": "Data Export Utility",
+      "desc": "Using utilities to export data from MySQL databases to external files or formats."
+    },
+    {
+      "key": "mysql/show_status",
+      "slug": "show_status",
+      "name": "Status Overview",
+      "desc": "Obtaining an overview of the current status and health of the MySQL server."
+    },
+    {
+      "key": "mysql/show_variables",
+      "slug": "show_variables",
+      "name": "Configuration Overview",
+      "desc": "Reviewing and configuring the MySQL server settings."
+    },
+    {
+      "key": "mysql/mysqladmin",
+      "slug": "mysqladmin",
+      "name": "Admin Utility",
+      "desc": "Using administrative utilities to manage and monitor the MySQL server."
+    },
+    {
+      "key": "mysql/stored_procedures",
+      "slug": "stored_procedures",
+      "name": "Procedure Management",
+      "desc": "Procedure management involves creating and managing stored procedures in MySQL, which are reusable blocks of SQL code."
+    },
+    {
+      "key": "mysql/views",
+      "slug": "views",
+      "name": "View Management",
+      "desc": "View management covers creating and managing database views, which are virtual tables based on the result of a SQL query."
+    }
+  ]
+}

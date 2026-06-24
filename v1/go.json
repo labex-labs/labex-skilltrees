@@ -1,0 +1,277 @@
+{
+  "key": "go",
+  "slug": "go",
+  "name": "Golang",
+  "skills": [
+    {
+      "key": "go/values",
+      "slug": "values",
+      "name": "Values",
+      "desc": "Values are fundamental data entities in Go, representing various types of information such as numbers, strings, and boolean values."
+    },
+    {
+      "key": "go/constants",
+      "slug": "constants",
+      "name": "Constants",
+      "desc": "Constants are immutable values in Go that do not change during program execution and are declared using the 'const' keyword."
+    },
+    {
+      "key": "go/variables",
+      "slug": "variables",
+      "name": "Variables",
+      "desc": "Variables in Go are used to store and manage data that can change during program execution. They are declared using the 'var' keyword."
+    },
+    {
+      "key": "go/strings",
+      "slug": "strings",
+      "name": "Strings",
+      "desc": "Strings are sequences of characters and are used to represent text in Go. They are immutable and can be manipulated using various built-in functions."
+    },
+    {
+      "key": "go/arrays",
+      "slug": "arrays",
+      "name": "Arrays",
+      "desc": "Arrays are fixed-size collections of elements with the same data type. The size of an array is specified at declaration and cannot be changed."
+    },
+    {
+      "key": "go/slices",
+      "slug": "slices",
+      "name": "Slices",
+      "desc": "Slices are dynamic, variable-length sequences built on top of arrays. They are more flexible and commonly used than arrays in Go."
+    },
+    {
+      "key": "go/maps",
+      "slug": "maps",
+      "name": "Maps",
+      "desc": "Maps are key-value pairs data structures in Go, also known as dictionaries or associative arrays in other languages."
+    },
+    {
+      "key": "go/structs",
+      "slug": "structs",
+      "name": "Structs",
+      "desc": "Structs are composite data types that group together variables of different data types. They are often used to define custom data structures."
+    },
+    {
+      "key": "go/pointers",
+      "slug": "pointers",
+      "name": "Pointers",
+      "desc": "Pointers are variables that store memory addresses of other variables. They are used to work with data indirectly and can be crucial for efficiency."
+    },
+    {
+      "key": "go/for",
+      "slug": "for",
+      "name": "For",
+      "desc": "'For' loops are used for repetitive tasks and iterating over collections or ranges in Go."
+    },
+    {
+      "key": "go/if_else",
+      "slug": "if_else",
+      "name": "If Else",
+      "desc": "Conditional statements like 'if' and 'else' are used to make decisions and execute different code blocks based on conditions."
+    },
+    {
+      "key": "go/switch",
+      "slug": "switch",
+      "name": "Switch",
+      "desc": "'Switch' statements are used for multi-way branching, allowing different code paths based on the value of an expression."
+    },
+    {
+      "key": "go/functions",
+      "slug": "functions",
+      "name": "Functions",
+      "desc": "Functions are blocks of reusable code that perform specific tasks and can accept parameters and return values."
+    },
+    {
+      "key": "go/range",
+      "slug": "range",
+      "name": "Range",
+      "desc": "'Range' is used for iterating over data structures like arrays, slices, maps, and channels, providing a convenient way to access elements."
+    },
+    {
+      "key": "go/closures",
+      "slug": "closures",
+      "name": "Closures",
+      "desc": "Closures are anonymous functions that capture and retain the variables from their containing function's scope."
+    },
+    {
+      "key": "go/methods",
+      "slug": "methods",
+      "name": "Methods",
+      "desc": "Methods are functions associated with structs or types, enabling behavior and functionality for specific data structures."
+    },
+    {
+      "key": "go/interfaces",
+      "slug": "interfaces",
+      "name": "Interfaces",
+      "desc": "Interfaces define sets of methods that types can implement. They allow polymorphism and decoupling in Go programs."
+    },
+    {
+      "key": "go/struct_embedding",
+      "slug": "struct_embedding",
+      "name": "Struct Embedding",
+      "desc": "Struct embedding is a technique that allows a struct to inherit fields and methods from other structs, promoting code reuse."
+    },
+    {
+      "key": "go/errors",
+      "slug": "errors",
+      "name": "Errors",
+      "desc": "Errors in Go are values representing exceptional conditions that can be returned from functions to indicate failure."
+    },
+    {
+      "key": "go/panic",
+      "slug": "panic",
+      "name": "Panic",
+      "desc": "Panic is a built-in function that stops the normal execution of a Go program and triggers a stack unwinding process."
+    },
+    {
+      "key": "go/goroutines",
+      "slug": "goroutines",
+      "name": "Goroutines",
+      "desc": "Goroutines are lightweight threads of execution in Go, allowing concurrent execution of code."
+    },
+    {
+      "key": "go/channels",
+      "slug": "channels",
+      "name": "Channels",
+      "desc": "Channels are used for communication and synchronization between goroutines, facilitating safe concurrent programming."
+    },
+    {
+      "key": "go/select",
+      "slug": "select",
+      "name": "Select",
+      "desc": "'Select' is used for multiplexing and handling multiple communication operations on channels."
+    },
+    {
+      "key": "go/waitgroups",
+      "slug": "waitgroups",
+      "name": "Waitgroups",
+      "desc": "Waitgroups are used to wait for a collection of goroutines to finish their execution before proceeding."
+    },
+    {
+      "key": "go/mutexes",
+      "slug": "mutexes",
+      "name": "Mutexes",
+      "desc": "Mutexes (short for mutual exclusion) are synchronization primitives used to protect critical sections of code from concurrent access."
+    },
+    {
+      "key": "go/reading_files",
+      "slug": "reading_files",
+      "name": "Reading Files",
+      "desc": "Reading files involves opening a file, reading its content, and processing the data within the file."
+    },
+    {
+      "key": "go/writing_files",
+      "slug": "writing_files",
+      "name": "Writing Files",
+      "desc": "Writing files involves creating, opening, and writing data to a file, allowing the storage of information persistently."
+    },
+    {
+      "key": "go/file_paths",
+      "slug": "file_paths",
+      "name": "File Paths",
+      "desc": "Working with file paths includes manipulating and constructing paths for file and directory operations."
+    },
+    {
+      "key": "go/directories",
+      "slug": "directories",
+      "name": "Directories",
+      "desc": "Directories in Go are used for organizing and managing collections of files. Operations include listing, creating, and removing directories."
+    },
+    {
+      "key": "go/temporary_files_and_directories",
+      "slug": "temporary_files_and_directories",
+      "name": "Temporary Files and Directories",
+      "desc": "Temporary files and directories are used for storing data temporarily and are automatically cleaned up when no longer needed."
+    },
+    {
+      "key": "go/sorting",
+      "slug": "sorting",
+      "name": "Sorting",
+      "desc": "Sorting involves arranging data in a specific order, and Go provides sorting functions for various data types."
+    },
+    {
+      "key": "go/text_templates",
+      "slug": "text_templates",
+      "name": "Text Templates",
+      "desc": "Text templates are used for generating structured text output, often for generating HTML or other text-based formats."
+    },
+    {
+      "key": "go/regular_expressions",
+      "slug": "regular_expressions",
+      "name": "Regular Expressions",
+      "desc": "Regular expressions enable pattern matching and text manipulation, providing powerful tools for string manipulation."
+    },
+    {
+      "key": "go/json",
+      "slug": "json",
+      "name": "JSON",
+      "desc": "JSON (JavaScript Object Notation) is a widely used data interchange format, and Go provides libraries for encoding and decoding JSON data."
+    },
+    {
+      "key": "go/time",
+      "slug": "time",
+      "name": "Time",
+      "desc": "Working with time and dates, including operations like parsing, formatting, and time zone handling."
+    },
+    {
+      "key": "go/time_formatting_parsing",
+      "slug": "time_formatting_parsing",
+      "name": "Time Formatting Parsing",
+      "desc": "Formatting and parsing time values is essential for displaying and working with timestamps in various formats."
+    },
+    {
+      "key": "go/number_parsing",
+      "slug": "number_parsing",
+      "name": "Number Parsing",
+      "desc": "Number parsing involves converting strings to numerical data types, which is common in input validation and data processing."
+    },
+    {
+      "key": "go/url_parsing",
+      "slug": "url_parsing",
+      "name": "URL Parsing",
+      "desc": "URL parsing is used for extracting and manipulating components of URLs, making it easier to work with web-related tasks."
+    },
+    {
+      "key": "go/base64_encoding",
+      "slug": "base64_encoding",
+      "name": "base64 Encoding",
+      "desc": "base64 encoding is used for converting binary data into a text format, commonly used for encoding binary data in text-based formats like JSON."
+    },
+    {
+      "key": "go/testing_and_benchmarking",
+      "slug": "testing_and_benchmarking",
+      "name": "Testing and Benchmarking",
+      "desc": "Testing and benchmarking are crucial for ensuring the correctness and performance of Go code under various conditions."
+    },
+    {
+      "key": "go/command_line",
+      "slug": "command_line",
+      "name": "Command Line",
+      "desc": "Command line programming involves interacting with the command line interface (CLI) and parsing command-line arguments in Go applications."
+    },
+    {
+      "key": "go/environment_variables",
+      "slug": "environment_variables",
+      "name": "Environment Variables",
+      "desc": "Environment variables are used to configure and control the behavior of Go applications based on the surrounding environment."
+    },
+    {
+      "key": "go/http_client",
+      "slug": "http_client",
+      "name": "HTTP Client",
+      "desc": "Using the HTTP client in Go to make HTTP requests and interact with remote servers and APIs."
+    },
+    {
+      "key": "go/processes",
+      "slug": "processes",
+      "name": "Processes",
+      "desc": "Managing external processes and executing system commands from a Go program."
+    },
+    {
+      "key": "go/exit",
+      "slug": "exit",
+      "name": "Exit",
+      "desc": "Exiting Go programs gracefully and handling program termination with control over exit status."
+    }
+  ]
+}

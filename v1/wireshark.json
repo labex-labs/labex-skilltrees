@@ -1,0 +1,85 @@
+{
+  "key": "wireshark",
+  "slug": "wireshark",
+  "name": "Wireshark",
+  "skills": [
+    {
+      "key": "wireshark/installation",
+      "slug": "installation",
+      "name": "Installation and Setup",
+      "desc": "This skill covers the process of installing Wireshark on various operating systems and configuring it for optimal performance. It includes setting up capture interfaces, adjusting preferences, and ensuring necessary permissions for network packet capture."
+    },
+    {
+      "key": "wireshark/interface",
+      "slug": "interface",
+      "name": "Interface Overview",
+      "desc": "This skill introduces the Wireshark user interface, explaining the different panels, windows, and their functionalities. It helps users navigate the interface effectively and understand the layout for efficient packet analysis."
+    },
+    {
+      "key": "wireshark/packet_capture",
+      "slug": "packet_capture",
+      "name": "Packet Capture",
+      "desc": "This skill focuses on capturing network packets using Wireshark. It covers various capture modes, filtering options, and techniques for capturing specific traffic types or network segments."
+    },
+    {
+      "key": "wireshark/display_filters",
+      "slug": "display_filters",
+      "name": "Display Filters",
+      "desc": "Display filters in Wireshark allow users to narrow down the displayed packets based on specific criteria. This skill teaches how to create and apply display filters to isolate relevant traffic for analysis."
+    },
+    {
+      "key": "wireshark/capture_filters",
+      "slug": "capture_filters",
+      "name": "Capture Filters",
+      "desc": "Capture filters in Wireshark are used to selectively capture packets based on defined rules. This skill covers the syntax and usage of capture filters to focus on specific network traffic during the capture process."
+    },
+    {
+      "key": "wireshark/colorizing_rules",
+      "slug": "colorizing_rules",
+      "name": "Colorizing Rules",
+      "desc": "Colorizing rules in Wireshark allow users to visually differentiate packets based on custom rules. This skill teaches how to create and apply colorizing rules to enhance packet analysis and identify patterns more easily."
+    },
+    {
+      "key": "wireshark/protocol_dissection",
+      "slug": "protocol_dissection",
+      "name": "Protocol Dissection",
+      "desc": "Wireshark provides deep protocol dissection capabilities, allowing users to analyze packet details at various layers. This skill covers interpreting protocol information, understanding protocol fields, and identifying potential issues or anomalies."
+    },
+    {
+      "key": "wireshark/follow_tcp_stream",
+      "slug": "follow_tcp_stream",
+      "name": "Follow TCP Stream",
+      "desc": "The 'Follow TCP Stream' feature in Wireshark allows users to reconstruct and view the data stream of a TCP conversation. This skill teaches how to use this feature for analyzing application-level protocols and payload data."
+    },
+    {
+      "key": "wireshark/export_packets",
+      "slug": "export_packets",
+      "name": "Exporting Packets",
+      "desc": "Wireshark provides options to export captured packets in various formats for further analysis or sharing. This skill covers exporting techniques, such as saving capture files, exporting specific packet ranges, or generating packet logs."
+    },
+    {
+      "key": "wireshark/packet_analysis",
+      "slug": "packet_analysis",
+      "name": "Packet Analysis",
+      "desc": "This skill focuses on performing in-depth packet analysis using Wireshark. It covers techniques for identifying network issues, security threats, performance bottlenecks, and extracting relevant information from captured traffic."
+    },
+    {
+      "key": "wireshark/decrypt_ssl_tls",
+      "slug": "decrypt_ssl_tls",
+      "name": "Decrypting SSL/TLS",
+      "desc": "Wireshark has the ability to decrypt SSL/TLS traffic with the appropriate key material. This skill covers configuring Wireshark for SSL/TLS decryption, providing keys or passwords, and analyzing decrypted traffic."
+    },
+    {
+      "key": "wireshark/ipv6_support",
+      "slug": "ipv6_support",
+      "name": "IPv6 Support",
+      "desc": "With the increasing adoption of IPv6, Wireshark provides support for capturing and analyzing IPv6 traffic. This skill covers understanding IPv6 packet structure, applying IPv6-specific filters, and troubleshooting IPv6 network issues using Wireshark."
+    },
+    {
+      "key": "wireshark/commandline_usage",
+      "slug": "commandline_usage",
+      "name": "Command Line Usage",
+      "desc": "Wireshark can be run from the command line, enabling automation and integration with scripts. This skill covers using Wireshark from the command line, passing arguments, and incorporating it into automation workflows."
+    }
+  ]
+}

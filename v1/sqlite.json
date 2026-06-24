@@ -1,0 +1,139 @@
+{
+  "key": "sqlite",
+  "slug": "sqlite",
+  "name": "SQLite",
+  "skills": [
+    {
+      "key": "sqlite/init_db",
+      "slug": "init_db",
+      "name": "Create SQLite Database",
+      "desc": "Create a new SQLite database file."
+    },
+    {
+      "key": "sqlite/link_db",
+      "slug": "link_db",
+      "name": "Connect To Database",
+      "desc": "Establish a connection to a SQLite database."
+    },
+    {
+      "key": "sqlite/make_table",
+      "slug": "make_table",
+      "name": "Create New Table",
+      "desc": "Build a new table in a SQLite database."
+    },
+    {
+      "key": "sqlite/key_set",
+      "slug": "key_set",
+      "name": "Set Primary Key",
+      "desc": "Define a primary key in a SQLite table."
+    },
+    {
+      "key": "sqlite/add_row",
+      "slug": "add_row",
+      "name": "Insert Single Row",
+      "desc": "Insert one row of data into a SQLite table."
+    },
+    {
+      "key": "sqlite/add_rows",
+      "slug": "add_rows",
+      "name": "Insert Multiple Rows",
+      "desc": "Insert multiple rows into a SQLite table."
+    },
+    {
+      "key": "sqlite/get_all",
+      "slug": "get_all",
+      "name": "Select All Rows",
+      "desc": "Retrieve all rows from a SQLite table."
+    },
+    {
+      "key": "sqlite/query_where",
+      "slug": "query_where",
+      "name": "Filter With WHERE",
+      "desc": "Filter SQLite query results using a WHERE clause."
+    },
+    {
+      "key": "sqlite/sort_data",
+      "slug": "sort_data",
+      "name": "Sort With ORDER BY",
+      "desc": "Sort SQLite query results with ORDER BY."
+    },
+    {
+      "key": "sqlite/edit_row",
+      "slug": "edit_row",
+      "name": "Update Single Row",
+      "desc": "Update one row in a SQLite table."
+    },
+    {
+      "key": "sqlite/drop_row",
+      "slug": "drop_row",
+      "name": "Delete Single Row",
+      "desc": "Delete one row from a SQLite table."
+    },
+    {
+      "key": "sqlite/append_col",
+      "slug": "append_col",
+      "name": "Add New Column",
+      "desc": "Add a new column to an existing SQLite table."
+    },
+    {
+      "key": "sqlite/build_index",
+      "slug": "build_index",
+      "name": "Create Single Index",
+      "desc": "Create an index on a SQLite table column."
+    },
+    {
+      "key": "sqlite/clear_index",
+      "slug": "clear_index",
+      "name": "Drop Single Index",
+      "desc": "Drop an index from a SQLite table."
+    },
+    {
+      "key": "sqlite/make_view",
+      "slug": "make_view",
+      "name": "Create Simple View",
+      "desc": "Create a simple view in a SQLite database."
+    },
+    {
+      "key": "sqlite/remove_view",
+      "slug": "remove_view",
+      "name": "Drop Simple View",
+      "desc": "Drop a view from a SQLite database."
+    },
+    {
+      "key": "sqlite/start_trans",
+      "slug": "start_trans",
+      "name": "Begin New Transaction",
+      "desc": "Start a new transaction in SQLite."
+    },
+    {
+      "key": "sqlite/save_trans",
+      "slug": "save_trans",
+      "name": "Commit Transaction",
+      "desc": "Commit changes in a SQLite transaction."
+    },
+    {
+      "key": "sqlite/undo_trans",
+      "slug": "undo_trans",
+      "name": "Rollback Transaction",
+      "desc": "Roll back changes in a SQLite transaction."
+    },
+    {
+      "key": "sqlite/verify_table",
+      "slug": "verify_table",
+      "name": "Check Table Existence",
+      "desc": "Verify if a table exists in a SQLite database."
+    },
+    {
+      "key": "sqlite/check_version",
+      "slug": "check_version",
+      "name": "Get SQLite Version",
+      "desc": "Retrieve the version of the SQLite engine."
+    },
+    {
+      "key": "sqlite/end_db",
+      "slug": "end_db",
+      "name": "Close Database Connection",
+      "desc": "Close the connection to a SQLite database."
+    }
+  ]
+}

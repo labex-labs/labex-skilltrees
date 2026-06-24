@@ -1,0 +1,967 @@
+{
+  "key": "hydra",
+  "slug": "hydra",
+  "name": "Hydra",
+  "skills": [
+    {
+      "key": "hydra/authorization_scope",
+      "slug": "authorization_scope",
+      "name": "Authorization Scope",
+      "desc": "Authorization scope covers defining allowed targets, accounts, services, and testing boundaries.",
+      "i18n": {
+        "zh": {
+          "name": "授权范围",
+          "desc": "授权范围包括定义允许的目标、账户、服务和测试边界。"
+        },
+        "es": {
+          "name": "Alcance de la autorización",
+          "desc": "El alcance de la autorización cubre la definición de objetivos, cuentas, servicios y límites de prueba permitidos."
+        },
+        "fr": {
+          "name": "Portée de l'autorisation",
+          "desc": "La portée de l'autorisation couvre la définition des cibles, des comptes, des services et des limites de test autorisés."
+        },
+        "de": {
+          "name": "Autorisierungsumfang",
+          "desc": "Der Autorisierungsbereich umfasst die Definition zulässiger Ziele, Konten, Dienste und Testgrenzen."
+        },
+        "ja": {
+          "name": "認可範囲",
+          "desc": "認可範囲には、許可されるターゲット、アカウント、サービス、およびテスト境界の定義が含まれます。"
+        },
+        "ru": {
+          "name": "Область полномочий",
+          "desc": "Область полномочий включает определение разрешенных целей, учетных записей, служб и границ тестирования."
+        },
+        "ko": {
+          "name": "권한 범위",
+          "desc": "권한 범위는 허용된 대상, 계정, 서비스 및 테스트 경계 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Escopo de autorização",
+          "desc": "O escopo da autorização abrange a definição de alvos, contas, serviços e limites de teste permitidos."
+        }
+      }
+    },
+    {
+      "key": "hydra/command_structure",
+      "slug": "command_structure",
+      "name": "Command Structure",
+      "desc": "Command structure covers Hydra option organization and how inputs describe an audit run.",
+      "i18n": {
+        "zh": {
+          "name": "命令结构",
+          "desc": "命令结构涵盖 Hydra 选项组织以及输入如何描述审计运行。"
+        },
+        "es": {
+          "name": "Estructura de comandos",
+          "desc": "La estructura de comando cubre la organización de opciones Hydra y cómo las entradas describen una ejecución de auditoría."
+        },
+        "fr": {
+          "name": "Structure des commandes",
+          "desc": "La structure des commandes couvre l'organisation des options Hydra et la façon dont les entrées décrivent une exécution d'audit."
+        },
+        "de": {
+          "name": "Befehlsstruktur",
+          "desc": "Die Befehlsstruktur umfasst die Organisation von Hydra-Optionen und wie Eingaben einen Prüflauf beschreiben."
+        },
+        "ja": {
+          "name": "コマンド構造",
+          "desc": "コマンド構造には、Hydra オプションの構成と、入力が監査実行をどのように記述するかが含まれます。"
+        },
+        "ru": {
+          "name": "Структура команд",
+          "desc": "Структура команд охватывает организацию опций Hydra и то, как входные данные описывают выполнение аудита."
+        },
+        "ko": {
+          "name": "명령 구조",
+          "desc": "명령 구조는 Hydra 옵션 구성과 입력이 감사 실행을 설명하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Estrutura de Comando",
+          "desc": "A estrutura de comando cobre a organização de opções Hydra e como as entradas descrevem uma execução de auditoria."
+        }
+      }
+    },
+    {
+      "key": "hydra/target_specification",
+      "slug": "target_specification",
+      "name": "Target Specification",
+      "desc": "Target specification covers specifying authorized hosts, ports, and network locations for testing.",
+      "i18n": {
+        "zh": {
+          "name": "目标规范",
+          "desc": "目标规范涵盖指定用于测试的授权主机、端口和网络位置。"
+        },
+        "es": {
+          "name": "Especificación de destino",
+          "desc": "La especificación de destino cubre la especificación de hosts, puertos y ubicaciones de red autorizados para las pruebas."
+        },
+        "fr": {
+          "name": "Spécification cible",
+          "desc": "La spécification cible couvre la spécification des hôtes, des ports et des emplacements réseau autorisés pour les tests."
+        },
+        "de": {
+          "name": "Zielvorgabe",
+          "desc": "Die Zielspezifikation umfasst die Angabe autorisierter Hosts, Ports und Netzwerkstandorte für Tests."
+        },
+        "ja": {
+          "name": "ターゲット仕様",
+          "desc": "ターゲット仕様には、テスト用に許可されたホスト、ポート、およびネットワークの場所の指定が含まれます。"
+        },
+        "ru": {
+          "name": "Целевая спецификация",
+          "desc": "Целевая спецификация включает указание авторизованных хостов, портов и сетевых расположений для тестирования."
+        },
+        "ko": {
+          "name": "대상 사양",
+          "desc": "대상 사양은 테스트 권한이 있는 호스트, 포트 및 네트워크 위치 지정을 다룹니다."
+        },
+        "pt": {
+          "name": "Especificação de destino",
+          "desc": "A especificação de destino abrange a especificação de hosts, portas e locais de rede autorizados para teste."
+        }
+      }
+    },
+    {
+      "key": "hydra/service_modules",
+      "slug": "service_modules",
+      "name": "Service Modules",
+      "desc": "Service modules cover choosing the protocol module that matches the authorized authentication service.",
+      "i18n": {
+        "zh": {
+          "name": "服务模块",
+          "desc": "服务模块包括选择与授权认证服务相匹配的协议模块。"
+        },
+        "es": {
+          "name": "Módulos de servicio",
+          "desc": "Los módulos de servicio cubren la elección del módulo de protocolo que coincida con el servicio de autenticación autorizado."
+        },
+        "fr": {
+          "name": "Modules de services",
+          "desc": "Les modules de service couvrent le choix du module de protocole qui correspond au service d'authentification autorisé."
+        },
+        "de": {
+          "name": "Servicemodule",
+          "desc": "Servicemodule umfassen die Auswahl des Protokollmoduls, das dem autorisierten Authentifizierungsdienst entspricht."
+        },
+        "ja": {
+          "name": "サービスモジュール",
+          "desc": "サービスモジュールでは、認可された認証サービスに一致するプロトコルモジュールの選択について説明します。"
+        },
+        "ru": {
+          "name": "Сервисные модули",
+          "desc": "Сервисные модули охватывают выбор модуля протокола, соответствующего авторизованной службе аутентификации."
+        },
+        "ko": {
+          "name": "서비스 모듈",
+          "desc": "서비스 모듈은 권한 범위 내 인증 서비스와 일치하는 프로토콜 모듈 선택을 다룹니다."
+        },
+        "pt": {
+          "name": "Módulos de serviço",
+          "desc": "Os módulos de serviço abrangem a escolha do módulo de protocolo que corresponde ao serviço de autenticação autorizado."
+        }
+      }
+    },
+    {
+      "key": "hydra/username_inputs",
+      "slug": "username_inputs",
+      "name": "Username Inputs",
+      "desc": "Username inputs cover preparing account identifiers for approved credential checks.",
+      "i18n": {
+        "zh": {
+          "name": "用户名输入",
+          "desc": "用户名输入包括为授权凭据检查准备账户标识符。"
+        },
+        "es": {
+          "name": "Entradas de nombre de usuario",
+          "desc": "Las entradas de nombres de usuario cubren la preparación de identificadores de cuentas para verificaciones de credenciales aprobadas."
+        },
+        "fr": {
+          "name": "Entrées de noms d'utilisateur",
+          "desc": "Les entrées de nom d’utilisateur couvrent la préparation des identifiants de compte pour les vérifications d’identifiants approuvées."
+        },
+        "de": {
+          "name": "Benutzernameneingaben",
+          "desc": "Benutzernameneingaben umfassen die Vorbereitung von Kontokennungen für genehmigte Zugangsdatenprüfungen."
+        },
+        "ja": {
+          "name": "ユーザー名の入力",
+          "desc": "ユーザー名の入力は、許可された認証情報チェック用のアカウント ID の準備を扱います。"
+        },
+        "ru": {
+          "name": "Ввод имени пользователя",
+          "desc": "Ввод имени пользователя включает подготовку идентификаторов учетных записей для утвержденных проверок учетных данных."
+        },
+        "ko": {
+          "name": "사용자 이름 입력",
+          "desc": "사용자 이름 입력은 승인된 자격 증명 확인을 위한 계정 식별자 준비를 다룹니다."
+        },
+        "pt": {
+          "name": "Entradas de nome de usuário",
+          "desc": "As entradas de nome de usuário cobrem a preparação de identificadores de conta para verificações de credenciais aprovadas."
+        }
+      }
+    },
+    {
+      "key": "hydra/password_inputs",
+      "slug": "password_inputs",
+      "name": "Password Inputs",
+      "desc": "Password inputs cover preparing candidate passwords for approved strength assessment.",
+      "i18n": {
+        "zh": {
+          "name": "密码输入",
+          "desc": "密码输入包括为授权的强度评估准备候选密码。"
+        },
+        "es": {
+          "name": "Entradas de contraseña",
+          "desc": "Las entradas de contraseñas cubren la preparación de contraseñas candidatas para una evaluación de seguridad aprobada."
+        },
+        "fr": {
+          "name": "Entrées de mots de passe",
+          "desc": "Les entrées de mots de passe couvrent la préparation de mots de passe candidats pour une évaluation de robustesse approuvée."
+        },
+        "de": {
+          "name": "Passworteingaben",
+          "desc": "Passworteingaben umfassen die Vorbereitung von Passwortkandidaten für eine genehmigte Stärkeprüfung."
+        },
+        "ja": {
+          "name": "パスワードの入力",
+          "desc": "パスワードの入力は、許可された強度評価のための候補パスワードの準備を扱います。"
+        },
+        "ru": {
+          "name": "Ввод пароля",
+          "desc": "Ввод паролей включает подготовку паролей-кандидатов для утвержденной оценки надежности."
+        },
+        "ko": {
+          "name": "비밀번호 입력",
+          "desc": "비밀번호 입력은 권한이 있는 강도 평가를 위한 후보 비밀번호 준비를 다룹니다."
+        },
+        "pt": {
+          "name": "Entradas de senha",
+          "desc": "As entradas de senha cobrem a preparação de senhas candidatas para avaliação de força aprovada."
+        }
+      }
+    },
+    {
+      "key": "hydra/single_credential_tests",
+      "slug": "single_credential_tests",
+      "name": "Single Credential Tests",
+      "desc": "Single credential tests cover checking one known username or password against authorized services.",
+      "i18n": {
+        "zh": {
+          "name": "单一凭据测试",
+          "desc": "单一凭据测试包括在授权服务上检查一个已知用户名或密码。"
+        },
+        "es": {
+          "name": "Pruebas de credencial única",
+          "desc": "Las pruebas de credencial única cubren la verificación de un nombre de usuario o contraseña conocidos con servicios autorizados."
+        },
+        "fr": {
+          "name": "Tests d’identifiant unique",
+          "desc": "Les tests d’identifiant unique couvrent la vérification d’un nom d’utilisateur ou d’un mot de passe connu sur des services autorisés."
+        },
+        "de": {
+          "name": "Einzelprüfung von Zugangsdaten",
+          "desc": "Einzelprüfungen von Zugangsdaten umfassen die Überprüfung eines bekannten Benutzernamens oder Passworts bei autorisierten Diensten."
+        },
+        "ja": {
+          "name": "単一資格情報テスト",
+          "desc": "単一資格情報テストでは、1 つの既知のユーザー名またはパスワードを許可されたサービスと照合してチェックします。"
+        },
+        "ru": {
+          "name": "Проверки одних учетных данных",
+          "desc": "Проверки одних учетных данных охватывают проверку одного известного имени пользователя или пароля на авторизованных службах."
+        },
+        "ko": {
+          "name": "단일 자격 증명 테스트",
+          "desc": "단일 자격 증명 테스트는 권한 범위 내 서비스에 대해 알려진 하나의 사용자 이름이나 비밀번호를 확인하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Testes de credencial única",
+          "desc": "Os testes de credencial única abrangem a verificação de um nome de usuário ou senha conhecido em serviços autorizados."
+        }
+      }
+    },
+    {
+      "key": "hydra/credential_pairing",
+      "slug": "credential_pairing",
+      "name": "Credential Pairing",
+      "desc": "Credential pairing covers controlling how usernames and passwords are combined during an audit.",
+      "i18n": {
+        "zh": {
+          "name": "凭据配对",
+          "desc": "凭据配对涵盖控制审计期间如何组合用户名和密码。"
+        },
+        "es": {
+          "name": "Emparejamiento de credenciales",
+          "desc": "El emparejamiento de credenciales cubre el control de cómo se combinan los nombres de usuario y las contraseñas durante una auditoría."
+        },
+        "fr": {
+          "name": "Association d’identifiants",
+          "desc": "L’association d’identifiants couvre le contrôle de la manière dont les noms d’utilisateur et les mots de passe sont combinés lors d’un audit."
+        },
+        "de": {
+          "name": "Zuordnung von Zugangsdaten",
+          "desc": "Die Zuordnung von Zugangsdaten steuert, wie Benutzernamen und Passwörter während einer Prüfung kombiniert werden."
+        },
+        "ja": {
+          "name": "資格情報のペアリング",
+          "desc": "資格情報のペアリングでは、監査中にユーザー名とパスワードを組み合わせる方法を制御します。"
+        },
+        "ru": {
+          "name": "Сопоставление учетных данных",
+          "desc": "Сопоставление учетных данных охватывает контроль над тем, как имена пользователей и пароли объединяются во время аудита."
+        },
+        "ko": {
+          "name": "자격 증명 페어링",
+          "desc": "자격 증명 페어링은 감사 중 사용자 이름과 비밀번호가 결합되는 방식을 제어하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Emparelhamento de credenciais",
+          "desc": "O emparelhamento de credenciais abrange o controle de como nomes de usuários e senhas são combinados durante uma auditoria."
+        }
+      }
+    },
+    {
+      "key": "hydra/credential_handling",
+      "slug": "credential_handling",
+      "name": "Credential Handling",
+      "desc": "Credential handling covers using sensitive test data carefully and removing it after use.",
+      "i18n": {
+        "zh": {
+          "name": "凭据处理",
+          "desc": "凭据处理包括仔细使用敏感测试数据并在使用后将其删除。"
+        },
+        "es": {
+          "name": "Manejo de credenciales",
+          "desc": "El manejo de credenciales cubre el uso cuidadoso de datos de prueba confidenciales y su eliminación después de su uso."
+        },
+        "fr": {
+          "name": "Gestion des identifiants",
+          "desc": "La gestion des identifiants couvre l’utilisation prudente des données de test sensibles et leur suppression après utilisation."
+        },
+        "de": {
+          "name": "Umgang mit Zugangsdaten",
+          "desc": "Der Umgang mit Zugangsdaten umfasst die sorgfältige Nutzung sensibler Testdaten und deren Entfernung nach der Verwendung."
+        },
+        "ja": {
+          "name": "資格情報の処理",
+          "desc": "認証情報の取り扱いには、機密テストデータを慎重に使用し、使用後に削除することが含まれます。"
+        },
+        "ru": {
+          "name": "Обработка учетных данных",
+          "desc": "Обработка учетных данных включает осторожное использование конфиденциальных тестовых данных и их удаление после использования."
+        },
+        "ko": {
+          "name": "자격 증명 처리",
+          "desc": "자격 증명 처리는 민감한 테스트 데이터를 신중하게 사용하고 사용 후 제거하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Tratamento de credenciais",
+          "desc": "O manuseio de credenciais abrange o uso cuidadoso de dados de teste confidenciais e sua remoção após o uso."
+        }
+      }
+    },
+    {
+      "key": "hydra/ssh_auditing",
+      "slug": "ssh_auditing",
+      "name": "SSH Auditing",
+      "desc": "SSH auditing covers authorized credential checks against SSH authentication endpoints.",
+      "i18n": {
+        "zh": {
+          "name": "SSH 审计",
+          "desc": "SSH 审计涵盖针对 SSH 身份验证端点的授权凭据检查。"
+        },
+        "es": {
+          "name": "Auditoría SSH",
+          "desc": "La auditoría SSH cubre verificaciones de credenciales autorizadas contra puntos finales de autenticación SSH."
+        },
+        "fr": {
+          "name": "Audit SSH",
+          "desc": "L’audit SSH couvre les vérifications d’identifiants autorisées sur les points de terminaison d’authentification SSH."
+        },
+        "de": {
+          "name": "SSH-Prüfung",
+          "desc": "Die SSH-Prüfung umfasst autorisierte Zugangsdatenprüfungen anhand von SSH-Authentifizierungsendpunkten."
+        },
+        "ja": {
+          "name": "SSH 監査",
+          "desc": "SSH 監査は、許可された範囲で SSH 認証エンドポイントに対する認証情報チェックを扱います。"
+        },
+        "ru": {
+          "name": "Аудит SSH",
+          "desc": "Аудит SSH охватывает авторизованные проверки учетных данных на конечных точках аутентификации SSH."
+        },
+        "ko": {
+          "name": "SSH 감사",
+          "desc": "SSH 감사는 SSH 인증 엔드포인트에 대한 승인된 자격 증명 확인을 다룹니다."
+        },
+        "pt": {
+          "name": "Auditoria SSH",
+          "desc": "A auditoria SSH cobre verificações de credenciais autorizadas em pontos de extremidade de autenticação SSH."
+        }
+      }
+    },
+    {
+      "key": "hydra/ftp_auditing",
+      "slug": "ftp_auditing",
+      "name": "FTP Auditing",
+      "desc": "FTP auditing covers authorized credential checks against FTP authentication endpoints.",
+      "i18n": {
+        "zh": {
+          "name": "FTP 审计",
+          "desc": "FTP 审计涵盖针对 FTP 身份验证端点的授权凭据检查。"
+        },
+        "es": {
+          "name": "Auditoría FTP",
+          "desc": "La auditoría FTP cubre verificaciones de credenciales autorizadas contra puntos finales de autenticación FTP."
+        },
+        "fr": {
+          "name": "Audit FTP",
+          "desc": "L’audit FTP couvre les vérifications d’identifiants autorisées sur les points de terminaison d’authentification FTP."
+        },
+        "de": {
+          "name": "FTP-Prüfung",
+          "desc": "Die FTP-Prüfung umfasst autorisierte Zugangsdatenprüfungen anhand von FTP-Authentifizierungsendpunkten."
+        },
+        "ja": {
+          "name": "FTP 監査",
+          "desc": "FTP 監査は、許可された範囲で FTP 認証エンドポイントに対する認証情報チェックを扱います。"
+        },
+        "ru": {
+          "name": "Аудит FTP",
+          "desc": "Аудит FTP охватывает авторизованные проверки учетных данных на конечных точках аутентификации FTP."
+        },
+        "ko": {
+          "name": "FTP 감사",
+          "desc": "FTP 감사는 FTP 인증 엔드포인트에 대한 승인된 자격 증명 확인을 다룹니다."
+        },
+        "pt": {
+          "name": "Auditoria FTP",
+          "desc": "A auditoria FTP cobre verificações de credenciais autorizadas em pontos de extremidade de autenticação FTP."
+        }
+      }
+    },
+    {
+      "key": "hydra/http_auth_auditing",
+      "slug": "http_auth_auditing",
+      "name": "HTTP Authentication Auditing",
+      "desc": "HTTP authentication auditing covers testing basic or digest authentication within authorized scope.",
+      "i18n": {
+        "zh": {
+          "name": "HTTP 认证审计",
+          "desc": "HTTP 身份验证审计涵盖在授权范围内测试基本身份验证或摘要身份验证。"
+        },
+        "es": {
+          "name": "Auditoría de autenticación HTTP",
+          "desc": "La auditoría de autenticación HTTP cubre las pruebas de autenticación básica o digest dentro del alcance autorizado."
+        },
+        "fr": {
+          "name": "Audit d’authentification HTTP",
+          "desc": "L'audit d'authentification HTTP couvre le test de l'authentification de base ou digest dans la portée autorisée."
+        },
+        "de": {
+          "name": "HTTP-Authentifizierungsprüfung",
+          "desc": "Die HTTP-Authentifizierungsprüfung umfasst das Testen der Basic- oder Digest-Authentifizierung innerhalb des autorisierten Bereichs."
+        },
+        "ja": {
+          "name": "HTTP 認証監査",
+          "desc": "HTTP 認証監査には、許可された範囲内での基本認証またはダイジェスト認証のテストが含まれます。"
+        },
+        "ru": {
+          "name": "Аудит HTTP-аутентификации",
+          "desc": "Аудит HTTP-аутентификации охватывает тестирование базовой или дайджест-аутентификации в пределах разрешенной области."
+        },
+        "ko": {
+          "name": "HTTP 인증 감사",
+          "desc": "HTTP 인증 감사에는 승인된 범위 내에서 기본 인증 또는 다이제스트 인증 테스트가 포함됩니다."
+        },
+        "pt": {
+          "name": "Auditoria de autenticação HTTP",
+          "desc": "A auditoria de autenticação HTTP cobre o teste de autenticação básica ou digest dentro do escopo autorizado."
+        }
+      }
+    },
+    {
+      "key": "hydra/http_form_auditing",
+      "slug": "http_form_auditing",
+      "name": "HTTP Form Auditing",
+      "desc": "HTTP form auditing covers modeling web form authentication for approved testing.",
+      "i18n": {
+        "zh": {
+          "name": "HTTP 表单审计",
+          "desc": "HTTP 表单审计涵盖为授权测试建模 Web 表单身份验证。"
+        },
+        "es": {
+          "name": "Auditoría de formularios HTTP",
+          "desc": "La auditoría de formularios HTTP cubre el modelado de autenticación de formularios web para pruebas aprobadas."
+        },
+        "fr": {
+          "name": "Audit de formulaire HTTP",
+          "desc": "L'audit de formulaire HTTP couvre la modélisation de l'authentification par formulaire Web pour les tests approuvés."
+        },
+        "de": {
+          "name": "HTTP-Formularprüfung",
+          "desc": "Die HTTP-Formularprüfung umfasst die Modellierung der Webformularauthentifizierung für genehmigte Tests."
+        },
+        "ja": {
+          "name": "HTTP フォームの監査",
+          "desc": "HTTP フォーム監査では、許可されたテストのために Web フォーム認証をモデル化する方法を扱います。"
+        },
+        "ru": {
+          "name": "Аудит HTTP-форм",
+          "desc": "Аудит HTTP-форм включает моделирование аутентификации веб-форм для утвержденного тестирования."
+        },
+        "ko": {
+          "name": "HTTP 양식 감사",
+          "desc": "HTTP 양식 감사는 권한이 있는 테스트를 위한 웹 양식 인증 모델링을 다룹니다."
+        },
+        "pt": {
+          "name": "Auditoria de formulário HTTP",
+          "desc": "A auditoria de formulários HTTP abrange a modelagem de autenticação de formulários da web para testes aprovados."
+        }
+      }
+    },
+    {
+      "key": "hydra/database_service_auditing",
+      "slug": "database_service_auditing",
+      "name": "Database Service Auditing",
+      "desc": "Database service auditing covers authorized credential checks against supported database protocols.",
+      "i18n": {
+        "zh": {
+          "name": "数据库服务审计",
+          "desc": "数据库服务审计涵盖针对支持的数据库协议的授权凭据检查。"
+        },
+        "es": {
+          "name": "Auditoría del servicio de base de datos",
+          "desc": "La auditoría del servicio de bases de datos cubre verificaciones de credenciales autorizadas frente a los protocolos de bases de datos admitidos."
+        },
+        "fr": {
+          "name": "Audit des services de base de données",
+          "desc": "L’audit des services de base de données couvre les vérifications d’identifiants autorisées sur les protocoles de base de données pris en charge."
+        },
+        "de": {
+          "name": "Datenbankdienst-Audit",
+          "desc": "Das Datenbankdienst-Audit umfasst autorisierte Zugangsdatenprüfungen anhand unterstützter Datenbankprotokolle."
+        },
+        "ja": {
+          "name": "データベースサービスの監査",
+          "desc": "データベースサービスの監査は、許可された範囲で対応データベースプロトコルに対する認証情報チェックを扱います。"
+        },
+        "ru": {
+          "name": "Аудит службы базы данных",
+          "desc": "Аудит службы базы данных включает проверки авторизованных учетных данных по поддерживаемым протоколам базы данных."
+        },
+        "ko": {
+          "name": "데이터베이스 서비스 감사",
+          "desc": "데이터베이스 서비스 감사는 지원되는 데이터베이스 프로토콜에 대한 승인된 자격 증명 검사를 다룹니다."
+        },
+        "pt": {
+          "name": "Auditoria de serviço de banco de dados",
+          "desc": "A auditoria de serviço de banco de dados abrange verificações de credenciais autorizadas em relação aos protocolos de banco de dados suportados."
+        }
+      }
+    },
+    {
+      "key": "hydra/module_options",
+      "slug": "module_options",
+      "name": "Module Options",
+      "desc": "Module options cover service-specific settings required to model authentication behavior accurately.",
+      "i18n": {
+        "zh": {
+          "name": "模块选项",
+          "desc": "模块选项涵盖了准确建模身份验证行为所需的特定于服务的设置。"
+        },
+        "es": {
+          "name": "Opciones del módulo",
+          "desc": "Las opciones del módulo cubren configuraciones específicas del servicio necesarias para modelar el comportamiento de autenticación con precisión."
+        },
+        "fr": {
+          "name": "Options des modules",
+          "desc": "Les options du module couvrent les paramètres spécifiques au service requis pour modéliser avec précision le comportement d'authentification."
+        },
+        "de": {
+          "name": "Moduloptionen",
+          "desc": "Die Moduloptionen umfassen dienstspezifische Einstellungen, die zur genauen Modellierung des Authentifizierungsverhaltens erforderlich sind."
+        },
+        "ja": {
+          "name": "モジュールオプション",
+          "desc": "モジュールオプションは、認証動作を正確にモデル化するために必要なサービス固有の設定を扱います。"
+        },
+        "ru": {
+          "name": "Опции модуля",
+          "desc": "Параметры модуля охватывают настройки конкретной службы, необходимые для точного моделирования поведения аутентификации."
+        },
+        "ko": {
+          "name": "모듈 옵션",
+          "desc": "모듈 옵션은 인증 동작을 정확하게 모델링하는 데 필요한 서비스별 설정을 다룹니다."
+        },
+        "pt": {
+          "name": "Opções de módulo",
+          "desc": "As opções do módulo abrangem configurações específicas do serviço necessárias para modelar o comportamento de autenticação com precisão."
+        }
+      }
+    },
+    {
+      "key": "hydra/custom_ports",
+      "slug": "custom_ports",
+      "name": "Custom Ports",
+      "desc": "Custom ports cover testing services running on non-default network ports.",
+      "i18n": {
+        "zh": {
+          "name": "自定义端口",
+          "desc": "自定义端口涵盖测试运行在非默认网络端口上的服务。"
+        },
+        "es": {
+          "name": "Puertos personalizados",
+          "desc": "Los puertos personalizados cubren probar servicios que se ejecutan en puertos de red no predeterminados."
+        },
+        "fr": {
+          "name": "Ports personnalisés",
+          "desc": "Les ports personnalisés couvrent le test de services exécutés sur des ports réseau non par défaut."
+        },
+        "de": {
+          "name": "Benutzerdefinierte Ports",
+          "desc": "Benutzerdefinierte Ports umfassen das Testen von Diensten, die auf nicht standardmäßigen Netzwerkports ausgeführt werden."
+        },
+        "ja": {
+          "name": "カスタムポート",
+          "desc": "カスタムポートは、デフォルト以外のネットワークポートで実行されているサービスのテストを扱います。"
+        },
+        "ru": {
+          "name": "Пользовательские порты",
+          "desc": "Пользовательские порты охватывают тестирование служб, работающих на нестандартных сетевых портах."
+        },
+        "ko": {
+          "name": "맞춤형 포트",
+          "desc": "사용자 정의 포트는 기본이 아닌 네트워크 포트에서 실행되는 서비스를 테스트하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Portas personalizadas",
+          "desc": "As portas personalizadas abrangem testar serviços executados em portas de rede não padrão."
+        }
+      }
+    },
+    {
+      "key": "hydra/concurrency_control",
+      "slug": "concurrency_control",
+      "name": "Concurrency Control",
+      "desc": "Concurrency control covers managing parallel attempts and resource usage during an audit.",
+      "i18n": {
+        "zh": {
+          "name": "并发控制",
+          "desc": "并发控制涵盖审计期间管理并行尝试和资源使用。"
+        },
+        "es": {
+          "name": "Control de concurrencia",
+          "desc": "El control de concurrencia cubre la gestión de intentos paralelos y el uso de recursos durante una auditoría."
+        },
+        "fr": {
+          "name": "Contrôle de concurrence",
+          "desc": "Le contrôle de concurrence couvre la gestion des tentatives parallèles et de l’utilisation des ressources lors d’un audit."
+        },
+        "de": {
+          "name": "Parallelitätskontrolle",
+          "desc": "Die Parallelitätskontrolle umfasst die Verwaltung paralleler Versuche und der Ressourcennutzung während einer Prüfung."
+        },
+        "ja": {
+          "name": "同時実行制御",
+          "desc": "同時実行制御には、監査中の並列試行とリソース使用量の管理が含まれます。"
+        },
+        "ru": {
+          "name": "Управление параллелизмом",
+          "desc": "Управление параллелизмом охватывает управление параллельными попытками и использованием ресурсов во время аудита."
+        },
+        "ko": {
+          "name": "동시성 제어",
+          "desc": "동시성 제어에는 감사 중 병렬 시도 및 리소스 사용량 관리가 포함됩니다."
+        },
+        "pt": {
+          "name": "Controle de simultaneidade",
+          "desc": "O controle de simultaneidade abrange o gerenciamento de tentativas paralelas e o uso de recursos durante uma auditoria."
+        }
+      }
+    },
+    {
+      "key": "hydra/timeout_control",
+      "slug": "timeout_control",
+      "name": "Timeout Control",
+      "desc": "Timeout control covers setting connection and response wait limits for tested services.",
+      "i18n": {
+        "zh": {
+          "name": "超时控制",
+          "desc": "超时控制包括为被测服务设置连接和响应等待上限。"
+        },
+        "es": {
+          "name": "Control de tiempo de espera",
+          "desc": "El control de tiempo de espera cubre la configuración de límites de espera de conexión y respuesta para servicios probados."
+        },
+        "fr": {
+          "name": "Contrôle du délai d'attente",
+          "desc": "Le contrôle du délai d'attente couvre la définition des limites d'attente de connexion et de réponse pour les services testés."
+        },
+        "de": {
+          "name": "Timeout-Kontrolle",
+          "desc": "Die Zeitüberschreitungskontrolle umfasst das Festlegen von Verbindungs- und Antwortwartegrenzen für getestete Dienste."
+        },
+        "ja": {
+          "name": "タイムアウト制御",
+          "desc": "タイムアウト制御は、テスト対象サービスの接続待ち時間と応答待ち時間の上限設定を扱います。"
+        },
+        "ru": {
+          "name": "Контроль тайм-аута",
+          "desc": "Управление тайм-аутом включает настройку лимитов ожидания подключения и ответа для тестируемых служб."
+        },
+        "ko": {
+          "name": "시간 초과 제어",
+          "desc": "시간 초과 제어는 테스트 대상 서비스의 연결 및 응답 대기 제한 설정을 다룹니다."
+        },
+        "pt": {
+          "name": "Controle de tempo limite",
+          "desc": "O controle de tempo limite abrange a configuração de limites de espera de conexão e resposta para serviços testados."
+        }
+      }
+    },
+    {
+      "key": "hydra/rate_limiting",
+      "slug": "rate_limiting",
+      "name": "Rate Limiting",
+      "desc": "Rate limiting covers slowing attempts to reduce operational disruption and account lockout risk.",
+      "i18n": {
+        "zh": {
+          "name": "速率限制",
+          "desc": "速率限制涵盖降低尝试速度，以减少运营中断和账户锁定风险。"
+        },
+        "es": {
+          "name": "Limitación de velocidad",
+          "desc": "La limitación de velocidad cubre ralentizar los intentos para reducir interrupciones operativas y el riesgo de bloqueo de cuentas."
+        },
+        "fr": {
+          "name": "Limitation du débit",
+          "desc": "La limitation du débit couvre le ralentissement des tentatives afin de réduire les perturbations opérationnelles et le risque de verrouillage de compte."
+        },
+        "de": {
+          "name": "Ratenbegrenzung",
+          "desc": "Die Ratenbegrenzung umfasst die Verlangsamung von Versuchen, Betriebsunterbrechungen und das Risiko einer Kontosperrung zu reduzieren."
+        },
+        "ja": {
+          "name": "レート制限",
+          "desc": "レート制限は、運用の中断とアカウントロックアウトのリスクを軽減するための速度の低下を扱います。"
+        },
+        "ru": {
+          "name": "Ограничение скорости",
+          "desc": "Ограничение скорости охватывает замедление попыток, чтобы снизить операционные сбои и риск блокировки учетной записи."
+        },
+        "ko": {
+          "name": "속도 제한",
+          "desc": "속도 제한은 운영 중단과 계정 잠금 위험을 줄이기 위해 시도 속도를 늦추는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Limitação de taxa",
+          "desc": "A limitação de taxa cobre desacelerar as tentativas para reduzir interrupções operacionais e o risco de bloqueio de conta."
+        }
+      }
+    },
+    {
+      "key": "hydra/multiple_targets",
+      "slug": "multiple_targets",
+      "name": "Multiple Targets",
+      "desc": "Multiple targets cover handling approved target sets while preserving clear scope boundaries.",
+      "i18n": {
+        "zh": {
+          "name": "多目标",
+          "desc": "多目标涵盖在保持清晰范围边界的同时处理已授权的目标集合。"
+        },
+        "es": {
+          "name": "Múltiples objetivos",
+          "desc": "Múltiples objetivos cubren el manejo de conjuntos de objetivos aprobados y al mismo tiempo preservan límites claros del alcance."
+        },
+        "fr": {
+          "name": "Cibles multiples",
+          "desc": "Les cibles multiples couvrent la gestion d’ensembles de cibles autorisés tout en préservant des limites de portée claires."
+        },
+        "de": {
+          "name": "Mehrere Ziele",
+          "desc": "Mehrere Ziele umfassen die Handhabung genehmigter Zielsätze unter Wahrung klarer Umfangsgrenzen."
+        },
+        "ja": {
+          "name": "複数のターゲット",
+          "desc": "複数のターゲットは、明確な範囲の境界を維持しながら、承認されたターゲットセットの処理を扱います。"
+        },
+        "ru": {
+          "name": "Несколько целей",
+          "desc": "Множественные цели охватывают обработку утвержденных наборов целей при сохранении четких границ области действия."
+        },
+        "ko": {
+          "name": "다중 대상",
+          "desc": "다중 대상은 명확한 범위 경계를 유지하면서 권한이 있는 대상 집합을 처리하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Vários alvos",
+          "desc": "Múltiplos alvos abrangem o tratamento de conjuntos de alvos aprovados, preservando limites de escopo claros."
+        }
+      }
+    },
+    {
+      "key": "hydra/session_resumption",
+      "slug": "session_resumption",
+      "name": "Session Resumption",
+      "desc": "Session resumption covers preserving progress for interrupted authorized audits.",
+      "i18n": {
+        "zh": {
+          "name": "会话恢复",
+          "desc": "会话恢复包括保留中断的授权审计的进度。"
+        },
+        "es": {
+          "name": "Reanudación de sesión",
+          "desc": "La reanudación de la sesión cubre la preservación del progreso de las auditorías autorizadas interrumpidas."
+        },
+        "fr": {
+          "name": "Reprise de session",
+          "desc": "La reprise de session couvre la préservation de la progression des audits autorisés interrompus."
+        },
+        "de": {
+          "name": "Sitzungswiederaufnahme",
+          "desc": "Die Wiederaufnahme der Sitzung umfasst die Beibehaltung des Fortschritts für unterbrochene autorisierte Audits."
+        },
+        "ja": {
+          "name": "セッションの再開",
+          "desc": "セッションの再開には、中断された承認済み監査の進行状況の保存が含まれます。"
+        },
+        "ru": {
+          "name": "Возобновление сеанса",
+          "desc": "Возобновление сеанса включает сохранение прогресса для прерванных санкционированных аудитов."
+        },
+        "ko": {
+          "name": "세션 재개",
+          "desc": "세션 재개에는 중단된 승인 감사에 대한 진행 상황 보존이 포함됩니다."
+        },
+        "pt": {
+          "name": "Retomada da Sessão",
+          "desc": "A retomada da sessão cobre a preservação do progresso de auditorias autorizadas interrompidas."
+        }
+      }
+    },
+    {
+      "key": "hydra/output_review",
+      "slug": "output_review",
+      "name": "Output Review",
+      "desc": "Output review covers saving, reading, and interpreting credential-audit results.",
+      "i18n": {
+        "zh": {
+          "name": "输出复核",
+          "desc": "输出复核包括保存、读取和解释凭据审计结果。"
+        },
+        "es": {
+          "name": "Revisión de resultados",
+          "desc": "La revisión de resultados cubre guardar, leer e interpretar los resultados de la auditoría de credenciales."
+        },
+        "fr": {
+          "name": "Examen des résultats",
+          "desc": "L’examen des résultats couvre la sauvegarde, la lecture et l’interprétation des résultats de l’audit d’identifiants."
+        },
+        "de": {
+          "name": "Ausgabeüberprüfung",
+          "desc": "Die Ausgabeüberprüfung umfasst das Speichern, Lesen und Interpretieren der Ergebnisse der Zugangsdatenprüfung."
+        },
+        "ja": {
+          "name": "アウトプットレビュー",
+          "desc": "出力レビューには、資格情報監査結果の保存、読み取り、解釈が含まれます。"
+        },
+        "ru": {
+          "name": "Обзор результатов",
+          "desc": "Проверка выходных данных включает сохранение, чтение и интерпретацию результатов аудита учетных данных."
+        },
+        "ko": {
+          "name": "출력 검토",
+          "desc": "출력 검토는 자격 증명 감사 결과 저장, 읽기 및 해석을 다룹니다."
+        },
+        "pt": {
+          "name": "Revisão de resultados",
+          "desc": "A revisão de resultados abrange salvar, ler e interpretar resultados de auditoria de credenciais."
+        }
+      }
+    },
+    {
+      "key": "hydra/success_detection",
+      "slug": "success_detection",
+      "name": "Success Detection",
+      "desc": "Success detection covers recognizing valid authentication results and avoiding false positives.",
+      "i18n": {
+        "zh": {
+          "name": "成功检测",
+          "desc": "成功检测包括识别有效认证结果并避免误报。"
+        },
+        "es": {
+          "name": "Detección de éxito",
+          "desc": "La detección de éxito abarca reconocer resultados de autenticación válidos y evitar falsos positivos."
+        },
+        "fr": {
+          "name": "Détection de réussite",
+          "desc": "La détection du succès consiste à reconnaître les résultats d'authentification valides et à éviter les faux positifs."
+        },
+        "de": {
+          "name": "Erfolgserkennung",
+          "desc": "Bei der Erfolgserkennung geht es darum, gültige Authentifizierungsergebnisse zu erkennen und Fehlalarme zu vermeiden."
+        },
+        "ja": {
+          "name": "成功の検出",
+          "desc": "成功の検出には、有効な認証結果の認識と誤検知の回避が含まれます。"
+        },
+        "ru": {
+          "name": "Обнаружение успеха",
+          "desc": "Обнаружение успеха включает в себя распознавание действительных результатов аутентификации и предотвращение ложных срабатываний."
+        },
+        "ko": {
+          "name": "성공 감지",
+          "desc": "성공 감지는 유효한 인증 결과를 인식하고 오탐지를 방지하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Detecção de sucesso",
+          "desc": "A detecção de sucesso abrange o reconhecimento de resultados de autenticação válidos e a prevenção de falsos positivos."
+        }
+      }
+    },
+    {
+      "key": "hydra/error_diagnosis",
+      "slug": "error_diagnosis",
+      "name": "Error Diagnosis",
+      "desc": "Error diagnosis covers distinguishing network, protocol, credential, and service failures.",
+      "i18n": {
+        "zh": {
+          "name": "错误诊断",
+          "desc": "错误诊断包括区分网络、协议、凭据和服务故障。"
+        },
+        "es": {
+          "name": "Diagnóstico de errores",
+          "desc": "El diagnóstico de errores cubre la distinción de fallas de red, protocolo, credenciales y servicios."
+        },
+        "fr": {
+          "name": "Diagnostic d'erreur",
+          "desc": "Le diagnostic des erreurs permet de distinguer les échecs réseau, protocole, identifiants et service."
+        },
+        "de": {
+          "name": "Fehlerdiagnose",
+          "desc": "Die Fehlerdiagnose umfasst die Unterscheidung von Netzwerk-, Protokoll-, Anmeldeinformations- und Dienstfehlern."
+        },
+        "ja": {
+          "name": "エラー診断",
+          "desc": "エラー診断では、ネットワーク、プロトコル、認証情報、サービスの失敗を区別します。"
+        },
+        "ru": {
+          "name": "Диагностика ошибок",
+          "desc": "Диагностика ошибок включает в себя определение сбоев сети, протокола, учетных данных и служб."
+        },
+        "ko": {
+          "name": "오류 진단",
+          "desc": "오류 진단은 네트워크, 프로토콜, 자격 증명 및 서비스 실패를 구별하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Diagnóstico de erro",
+          "desc": "O diagnóstico de erros abrange a distinção de falhas de rede, protocolo, credenciais e serviços."
+        }
+      }
+    }
+  ]
+}

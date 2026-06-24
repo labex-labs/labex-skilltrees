@@ -1,0 +1,175 @@
+{
+  "key": "html",
+  "slug": "html",
+  "name": "HTML",
+  "skills": [
+    {
+      "key": "html/basic_elems",
+      "slug": "basic_elems",
+      "name": "Basic Elements",
+      "desc": "Basic HTML elements such as <html>, <head>, <title>, and <body> are essential components of any HTML document, providing the overall structure and content."
+    },
+    {
+      "key": "html/head_elems",
+      "slug": "head_elems",
+      "name": "Head Elements",
+      "desc": "Head elements like <meta>, <link>, and <script> are used to define metadata, link external resources, and include scripts in the document's head section."
+    },
+    {
+      "key": "html/charset",
+      "slug": "charset",
+      "name": "Character Encoding",
+      "desc": "Character encoding, specified with <meta charset>, determines how characters are represented in the document, ensuring proper text rendering."
+    },
+    {
+      "key": "html/lang_decl",
+      "slug": "lang_decl",
+      "name": "Language Declaration",
+      "desc": "The <html> tag's 'lang' attribute declares the language of the document, aiding in accessibility and proper rendering for different languages."
+    },
+    {
+      "key": "html/viewport",
+      "slug": "viewport",
+      "name": "Viewport Declaration",
+      "desc": "Viewport declarations using the <meta viewport> tag help control how the web page is displayed on various devices, enhancing responsiveness."
+    },
+    {
+      "key": "html/text_head",
+      "slug": "text_head",
+      "name": "Text and Headings",
+      "desc": "HTML provides tags like <p>, <h1> to <h6>, and <span> for organizing and formatting text, including headings of various levels."
+    },
+    {
+      "key": "html/para_br",
+      "slug": "para_br",
+      "name": "Paragraphs and Line Breaks",
+      "desc": "The <p> tag is used for paragraphs, while <br> is used for line breaks to control the layout and presentation of text."
+    },
+    {
+      "key": "html/lists_desc",
+      "slug": "lists_desc",
+      "name": "Lists and Descriptions",
+      "desc": "HTML supports ordered (<ol>) and unordered (<ul>) lists, as well as definition lists (<dl>) for organizing content."
+    },
+    {
+      "key": "html/quotes",
+      "slug": "quotes",
+      "name": "Quotations",
+      "desc": "Quotations can be marked up using <blockquote> and <q> tags, providing semantic meaning to quoted content."
+    },
+    {
+      "key": "html/text_dir",
+      "slug": "text_dir",
+      "name": "Text Direction",
+      "desc": "The 'dir' attribute and <bdo> tag enable control over the text direction, useful for multilingual content."
+    },
+    {
+      "key": "html/layout",
+      "slug": "layout",
+      "name": "Layout Elements",
+      "desc": "Layout elements such as <header>, <footer>, <nav>, and <main> help structure and organize the layout of web pages."
+    },
+    {
+      "key": "html/nav_links",
+      "slug": "nav_links",
+      "name": "Navigation and Links",
+      "desc": "Navigation elements like <a> (anchor) tags are used to create links within and between web pages, aiding in user navigation."
+    },
+    {
+      "key": "html/doc_flow",
+      "slug": "doc_flow",
+      "name": "Document Flow Understanding",
+      "desc": "Understanding the natural document flow and display properties of HTML elements is essential for creating cohesive and responsive layouts."
+    },
+    {
+      "key": "html/access_cons",
+      "slug": "access_cons",
+      "name": "Accessibility Considerations",
+      "desc": "Considering accessibility throughout the HTML structure, including landmarks like <header> and ARIA attributes, ensures inclusivity for all users."
+    },
+    {
+      "key": "html/multimedia",
+      "slug": "multimedia",
+      "name": "Multimedia Elements",
+      "desc": "Multimedia elements, such as <img>, allow the inclusion of images, audio, and video content within web pages."
+    },
+    {
+      "key": "html/img_maps",
+      "slug": "img_maps",
+      "name": "Image Maps",
+      "desc": "Image maps created with <map> and <area> tags enable clickable regions on an image, often used for navigation."
+    },
+    {
+      "key": "html/fig_cap",
+      "slug": "fig_cap",
+      "name": "Figure and Caption Association",
+      "desc": "The <figure> and <figcaption> elements are used to associate captions with images or other multimedia content for better accessibility and semantics."
+    },
+    {
+      "key": "html/embed_media",
+      "slug": "embed_media",
+      "name": "Embedding External Media",
+      "desc": "External media content like videos from YouTube or audio clips can be embedded using <iframe> and <audio> or <video> tags."
+    },
+    {
+      "key": "html/tables",
+      "slug": "tables",
+      "name": "Table Structure",
+      "desc": "Tables are created using <table>, <tr>, <th>, and <td> elements to organize data into rows and columns for tabular representation."
+    },
+    {
+      "key": "html/complex_tbl",
+      "slug": "complex_tbl",
+      "name": "Complex Tables",
+      "desc": "Complex tables involve spanning cells, headers, and captions, offering advanced structuring and presentation options."
+    },
+    {
+      "key": "html/tbl_access",
+      "slug": "tbl_access",
+      "name": "Table Accessibility",
+      "desc": "Ensuring tables are accessible with appropriate headers and markup is vital for assistive technologies and users with disabilities."
+    },
+    {
+      "key": "html/forms",
+      "slug": "forms",
+      "name": "Form Elements",
+      "desc": "HTML provides a range of form elements like <input>, <textarea>, and <select> for gathering user input and submitting data."
+    },
+    {
+      "key": "html/form_valid",
+      "slug": "form_valid",
+      "name": "Form Validation",
+      "desc": "Form validation using attributes like 'required' and JavaScript enables client-side validation, enhancing data quality."
+    },
+    {
+      "key": "html/form_group",
+      "slug": "form_group",
+      "name": "Grouping Form Elements",
+      "desc": "Grouping form elements within <fieldset> and <legend> tags enhances form organization and accessibility."
+    },
+    {
+      "key": "html/form_access",
+      "slug": "form_access",
+      "name": "Accessibility in Forms",
+      "desc": "Ensuring forms are accessible with proper labels and ARIA attributes is crucial for users with disabilities to navigate and use forms."
+    },
+    {
+      "key": "html/inter_elems",
+      "slug": "inter_elems",
+      "name": "Interactive and Dynamic Elements",
+      "desc": "Interactive and dynamic elements, such as <iframe>, <audio>, <video>, and <canvas>, enable the creation of engaging and interactive web content that responds to user actions."
+    },
+    {
+      "key": "html/custom_attr",
+      "slug": "custom_attr",
+      "name": "Custom Data Attributes",
+      "desc": "Custom data attributes (data-* attributes) provide a way to store custom data for JavaScript or CSS use without affecting HTML semantics."
+    },
+    {
+      "key": "html/templating",
+      "slug": "templating",
+      "name": "HTML Templating",
+      "desc": "HTML templates, often used with <template> tags, allow developers to define reusable content that can be cloned and inserted dynamically with JavaScript."
+    }
+  ]
+}

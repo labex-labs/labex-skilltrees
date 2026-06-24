@@ -1,0 +1,1367 @@
+{
+  "key": "html",
+  "slug": "html",
+  "name": "HTML",
+  "skills": [
+    {
+      "key": "html/document_structure",
+      "slug": "document_structure",
+      "name": "Document Structure",
+      "desc": "Document structure covers organizing HTML documents with doctype, root elements, head content, and body content.",
+      "i18n": {
+        "zh": {
+          "name": "文档结构",
+          "desc": "文档结构涵盖使用 doctype、根元素、head 内容和 body 内容组织 HTML 文档。"
+        },
+        "es": {
+          "name": "Estructura del documento",
+          "desc": "La estructura del documento cubre la organización de documentos HTML con doctype, elementos raíz, contenido de head y contenido de body."
+        },
+        "fr": {
+          "name": "Structure du document",
+          "desc": "La structure du document couvre l’organisation des documents HTML avec doctype, éléments racine, contenu head et contenu body."
+        },
+        "de": {
+          "name": "Dokumentstruktur",
+          "desc": "Die Dokumentstruktur umfasst das Organisieren von HTML-Dokumenten mit Doctype, Stammelementen, head-Inhalt und body-Inhalt."
+        },
+        "ja": {
+          "name": "文書構造",
+          "desc": "文書構造には、Doctype、ルート要素、ヘッドコンテンツ、ボディコンテンツを含むHTMLドキュメントの編成が含まれます。"
+        },
+        "ru": {
+          "name": "Структура документа",
+          "desc": "Структура документа охватывает организацию документов HTML с помощью типа документа, корневых элементов, содержимого заголовка и содержимого тела."
+        },
+        "ko": {
+          "name": "문서 구조",
+          "desc": "문서 구조는 doctype, 루트 요소, head 콘텐츠 및 body 콘텐츠로 HTML 문서를 구성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Estrutura do Documento",
+          "desc": "A estrutura do documento cobre a organização de documentos HTML com doctype, elementos raiz, conteúdo de head e conteúdo de body."
+        }
+      }
+    },
+    {
+      "key": "html/document_metadata",
+      "slug": "document_metadata",
+      "name": "Document Metadata",
+      "desc": "Document metadata covers titles, character encoding, viewport settings, descriptions, and other head-level information.",
+      "i18n": {
+        "zh": {
+          "name": "文档元数据",
+          "desc": "文档元数据涵盖标题、字符编码、视口设置、描述和其他 head 级信息。"
+        },
+        "es": {
+          "name": "Metadatos del documento",
+          "desc": "Los metadatos del documento cubren títulos, codificación de caracteres, configuraciones de viewport, descripciones y otra información de nivel head."
+        },
+        "fr": {
+          "name": "Métadonnées du document",
+          "desc": "Les métadonnées du document couvrent les titres, le codage des caractères, les paramètres de viewport, les descriptions et d’autres informations de niveau head."
+        },
+        "de": {
+          "name": "Dokumentmetadaten",
+          "desc": "Dokumentmetadaten umfassen Titel, Zeichenkodierung, Viewport-Einstellungen, Beschreibungen und andere Informationen auf head-Ebene."
+        },
+        "ja": {
+          "name": "ドキュメントのメタデータ",
+          "desc": "ドキュメントのメタデータには、タイトル、文字エンコーディング、ビューポート設定、説明、その他のヘッドレベルの情報が含まれます。"
+        },
+        "ru": {
+          "name": "Метаданные документа",
+          "desc": "Метаданные документа включают заголовки, кодировку символов, настройки области просмотра, описания и другую информацию на уровне заголовка."
+        },
+        "ko": {
+          "name": "문서 메타데이터",
+          "desc": "문서 메타데이터에는 제목, 문자 인코딩, 뷰포트 설정, 설명 및 기타 헤드 수준 정보가 포함됩니다."
+        },
+        "pt": {
+          "name": "Metadados do documento",
+          "desc": "Os metadados do documento abrangem títulos, codificação de caracteres, configurações de viewport, descrições e outras informações de nível head."
+        }
+      }
+    },
+    {
+      "key": "html/element_model",
+      "slug": "element_model",
+      "name": "Element Model",
+      "desc": "Element model covers tags, attributes, nesting, void elements, and the relationship between elements and content.",
+      "i18n": {
+        "zh": {
+          "name": "元素模型",
+          "desc": "元素模型涵盖标签、属性、嵌套、空元素以及元素与内容之间的关系。"
+        },
+        "es": {
+          "name": "Modelo de elemento",
+          "desc": "El modelo de elementos cubre etiquetas, atributos, anidamiento, elementos vacíos y la relación entre elementos y contenido."
+        },
+        "fr": {
+          "name": "Modèle d'élément",
+          "desc": "Le modèle d'élément couvre les balises, les attributs, l'imbrication, les éléments vides et la relation entre les éléments et le contenu."
+        },
+        "de": {
+          "name": "Elementmodell",
+          "desc": "Das Elementmodell umfasst Tags, Attribute, Verschachtelung, Void-Elemente und die Beziehung zwischen Elementen und Inhalt."
+        },
+        "ja": {
+          "name": "要素モデル",
+          "desc": "要素モデルは、タグ、属性、ネスト、void 要素、および要素とコンテンツの関係を扱います。"
+        },
+        "ru": {
+          "name": "Модель элемента",
+          "desc": "Модель элемента охватывает теги, атрибуты, вложенность, пустые элементы и отношения между элементами и содержимым."
+        },
+        "ko": {
+          "name": "요소 모델",
+          "desc": "요소 모델은 태그, 속성, 중첩, 무효 요소 및 요소와 콘텐츠 간의 관계를 다룹니다."
+        },
+        "pt": {
+          "name": "Modelo de Elemento",
+          "desc": "O modelo de elemento cobre tags, atributos, aninhamento, elementos vazios e o relacionamento entre elementos e conteúdo."
+        }
+      }
+    },
+    {
+      "key": "html/text_semantics",
+      "slug": "text_semantics",
+      "name": "Text Semantics",
+      "desc": "Text semantics cover marking paragraphs, emphasis, quotations, abbreviations, code, and other inline meaning.",
+      "i18n": {
+        "zh": {
+          "name": "文本语义",
+          "desc": "文本语义涵盖标记段落、强调、引用、缩写、代码和其他内联含义。"
+        },
+        "es": {
+          "name": "Semántica del texto",
+          "desc": "La semántica del texto cubre el marcado de párrafos, énfasis, citas, abreviaturas, código y otros significados en línea."
+        },
+        "fr": {
+          "name": "Sémantique du texte",
+          "desc": "La sémantique du texte couvre le marquage des paragraphes, l'emphase, les citations, les abréviations, le code et toute autre signification en ligne."
+        },
+        "de": {
+          "name": "Textsemantik",
+          "desc": "Die Textsemantik umfasst die Markierung von Absätzen, Hervorhebungen, Zitate, Abkürzungen, Code und andere Inline-Bedeutungen."
+        },
+        "ja": {
+          "name": "テキストのセマンティクス",
+          "desc": "テキストのセマンティクスは、段落、強調、引用、略語、コード、その他のインラインの意味をマークアップする方法を扱います。"
+        },
+        "ru": {
+          "name": "Текстовая семантика",
+          "desc": "Семантика текста включает в себя выделение абзацев, выделение, цитаты, сокращения, код и другие встроенные значения."
+        },
+        "ko": {
+          "name": "텍스트 의미론",
+          "desc": "텍스트 의미론은 단락 표시, 강조, 인용, 약어, 코드 및 기타 인라인 의미를 다룹니다."
+        },
+        "pt": {
+          "name": "Semântica de Texto",
+          "desc": "A semântica do texto cobre a marcação de parágrafos, ênfases, citações, abreviações, código e outros significados embutidos."
+        }
+      }
+    },
+    {
+      "key": "html/heading_structure",
+      "slug": "heading_structure",
+      "name": "Heading Structure",
+      "desc": "Heading structure covers organizing page content with meaningful heading levels and section hierarchy.",
+      "i18n": {
+        "zh": {
+          "name": "标题结构",
+          "desc": "标题结构涵盖使用有意义的标题级别和部分层次结构来组织页面内容。"
+        },
+        "es": {
+          "name": "Estructura de encabezado",
+          "desc": "La estructura de encabezado cubre la organización del contenido de la página con niveles de encabezado significativos y jerarquía de secciones."
+        },
+        "fr": {
+          "name": "Structure des titres",
+          "desc": "La structure des titres couvre l’organisation du contenu de la page avec des niveaux de titres et une hiérarchie de sections significatifs."
+        },
+        "de": {
+          "name": "Überschriftenstruktur",
+          "desc": "Die Überschriftenstruktur umfasst die Organisation von Seiteninhalten mit sinnvollen Überschriftenebenen und Abschnittshierarchien."
+        },
+        "ja": {
+          "name": "見出し構造",
+          "desc": "見出し構造では、意味のある見出しレベルとセクション階層を使用してページコンテンツを整理します。"
+        },
+        "ru": {
+          "name": "Структура заголовка",
+          "desc": "Структура заголовков охватывает организацию содержимого страницы с помощью значимых уровней заголовков и иерархии разделов."
+        },
+        "ko": {
+          "name": "제목 구조",
+          "desc": "제목 구조는 의미 있는 제목 수준과 섹션 계층 구조로 페이지 콘텐츠를 구성하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Estrutura de título",
+          "desc": "A estrutura de títulos cobre a organização do conteúdo da página com níveis de títulos significativos e hierarquia de seções."
+        }
+      }
+    },
+    {
+      "key": "html/sectioning_content",
+      "slug": "sectioning_content",
+      "name": "Sectioning Content",
+      "desc": "Sectioning content covers semantic regions such as header, nav, main, section, article, aside, and footer.",
+      "i18n": {
+        "zh": {
+          "name": "分区内容",
+          "desc": "分区内容涵盖 header、nav、main、section、article、aside 和 footer 等语义区域。"
+        },
+        "es": {
+          "name": "Contenido seccionado",
+          "desc": "El contenido seccionado cubre regiones semánticas como header, nav, main, section, article, aside y footer."
+        },
+        "fr": {
+          "name": "Contenu de sectionnement",
+          "desc": "Le contenu de sectionnement couvre les régions sémantiques telles que header, nav, main, section, article, aside et footer."
+        },
+        "de": {
+          "name": "Sectioning Content",
+          "desc": "Sectioning Content umfasst semantische Bereiche wie header, nav, main, section, article, aside und footer."
+        },
+        "ja": {
+          "name": "コンテンツのセクション化",
+          "desc": "コンテンツのセクション化では、header、nav、main、section、article、aside、footer などのセマンティック領域を扱います。"
+        },
+        "ru": {
+          "name": "Разделение контента",
+          "desc": "Секционное содержимое охватывает семантические области, такие как header, nav, main, section, article, aside и footer."
+        },
+        "ko": {
+          "name": "섹션화 콘텐츠",
+          "desc": "섹션화 콘텐츠는 header, nav, main, section, article, aside, footer 같은 의미 영역을 다룹니다."
+        },
+        "pt": {
+          "name": "Conteúdo seccionado",
+          "desc": "O conteúdo seccionado cobre regiões semânticas como header, nav, main, section, article, aside e footer."
+        }
+      }
+    },
+    {
+      "key": "html/lists",
+      "slug": "lists",
+      "name": "Lists",
+      "desc": "Lists cover ordered, unordered, and description list structures for grouped content.",
+      "i18n": {
+        "zh": {
+          "name": "列表",
+          "desc": "列表涵盖分组内容的有序、无序和描述列表结构。"
+        },
+        "es": {
+          "name": "Listas",
+          "desc": "Las listas cubren estructuras de listas ordenadas, desordenadas y descriptivas para contenido agrupado."
+        },
+        "fr": {
+          "name": "Listes",
+          "desc": "Les listes couvrent les structures de listes ordonnées, non ordonnées et de description pour le contenu groupé."
+        },
+        "de": {
+          "name": "Listen",
+          "desc": "Listen umfassen geordnete, ungeordnete und Beschreibungslistenstrukturen für gruppierten Inhalt."
+        },
+        "ja": {
+          "name": "リスト",
+          "desc": "リストには、グループ化されたコンテンツの順序付きリスト構造、順序なしリスト構造、および説明リスト構造が含まれます。"
+        },
+        "ru": {
+          "name": "Списки",
+          "desc": "Списки охватывают упорядоченные, неупорядоченные структуры и структуры списков описаний для сгруппированного контента."
+        },
+        "ko": {
+          "name": "목록",
+          "desc": "목록은 그룹화된 콘텐츠를 위한 순서 있는 목록, 순서 없는 목록 및 설명 목록 구조를 다룹니다."
+        },
+        "pt": {
+          "name": "Listas",
+          "desc": "As listas cobrem estruturas de listas ordenadas, não ordenadas e de descrição para conteúdo agrupado."
+        }
+      }
+    },
+    {
+      "key": "html/links",
+      "slug": "links",
+      "name": "Links",
+      "desc": "Links cover navigational anchors, link targets, link text, downloads, and relationship attributes.",
+      "i18n": {
+        "zh": {
+          "name": "链接",
+          "desc": "链接涵盖导航锚点、链接目标、链接文本、下载和关系属性。"
+        },
+        "es": {
+          "name": "Enlaces",
+          "desc": "Los enlaces cubren anclajes de navegación, destinos de enlaces, texto de enlaces, descargas y atributos de relación."
+        },
+        "fr": {
+          "name": "Liens",
+          "desc": "Les liens couvrent les ancres de navigation, les cibles de lien, le texte du lien, les téléchargements et les attributs de relation."
+        },
+        "de": {
+          "name": "Links",
+          "desc": "Links umfassen Navigationsanker, Linkziele, Linktext, Downloads und Beziehungsattribute."
+        },
+        "ja": {
+          "name": "リンク",
+          "desc": "リンクには、ナビゲーションアンカー、リンクターゲット、リンクテキスト、ダウンロード、および関係属性が含まれます。"
+        },
+        "ru": {
+          "name": "Ссылки",
+          "desc": "Ссылки охватывают навигационные привязки, цели ссылок, текст ссылки, загрузки и атрибуты отношений."
+        },
+        "ko": {
+          "name": "링크",
+          "desc": "링크에는 탐색 앵커, 링크 대상, 링크 텍스트, 다운로드 및 관계 속성이 포함됩니다."
+        },
+        "pt": {
+          "name": "Ligações",
+          "desc": "Os links cobrem âncoras de navegação, destinos de links, texto de links, downloads e atributos de relacionamento."
+        }
+      }
+    },
+    {
+      "key": "html/url_references",
+      "slug": "url_references",
+      "name": "URL References",
+      "desc": "URL references cover absolute URLs, relative URLs, fragments, and resource path resolution in HTML attributes.",
+      "i18n": {
+        "zh": {
+          "name": "URL 引用",
+          "desc": "URL 引用涵盖 HTML 属性中的绝对 URL、相对 URL、片段和资源路径解析。"
+        },
+        "es": {
+          "name": "Referencias URL",
+          "desc": "Las referencias URL cubren URL absolutas, URL relativas, fragmentos y resolución de rutas de recursos en atributos HTML."
+        },
+        "fr": {
+          "name": "Références URL",
+          "desc": "Les références URL couvrent les URL absolues, les URL relatives, les fragments et la résolution des chemins de ressources dans les attributs HTML."
+        },
+        "de": {
+          "name": "URL-Referenzen",
+          "desc": "URL-Referenzen decken absolute URLs, relative URLs, Fragmente und die Auflösung von Ressourcenpfaden in HTML-Attributen ab."
+        },
+        "ja": {
+          "name": "URL 参照",
+          "desc": "URL 参照では、絶対 URL、相対 URL、フラグメント、および HTML 属性のリソースパス解決を扱います。"
+        },
+        "ru": {
+          "name": "URL-ссылки",
+          "desc": "URL-ссылки охватывают абсолютные URL, относительные URL, фрагменты и разрешение путей к ресурсам в HTML-атрибутах."
+        },
+        "ko": {
+          "name": "URL 참조",
+          "desc": "URL 참조는 HTML 속성의 절대 URL, 상대 URL, 프래그먼트 및 리소스 경로 해석을 다룹니다."
+        },
+        "pt": {
+          "name": "Referências URL",
+          "desc": "As referências URL cobrem URLs absolutos, URLs relativos, fragmentos e resolução de caminho de recurso em atributos HTML."
+        }
+      }
+    },
+    {
+      "key": "html/images",
+      "slug": "images",
+      "name": "Images",
+      "desc": "Images cover embedding visual content with sources, dimensions, alternative text, and loading behavior.",
+      "i18n": {
+        "zh": {
+          "name": "图像",
+          "desc": "图像涵盖使用源地址、尺寸、替代文本和加载行为嵌入视觉内容。"
+        },
+        "es": {
+          "name": "Imágenes",
+          "desc": "Las imágenes cubren la incorporación de contenido visual con fuentes, dimensiones, texto alternativo y comportamiento de carga."
+        },
+        "fr": {
+          "name": "Images",
+          "desc": "Les images couvrent l'intégration de contenu visuel avec des sources, des dimensions, du texte alternatif et un comportement de chargement."
+        },
+        "de": {
+          "name": "Bilder",
+          "desc": "Bilder behandeln das Einbetten visueller Inhalte mit Quellen, Abmessungen, alternativem Text und Ladeverhalten."
+        },
+        "ja": {
+          "name": "画像",
+          "desc": "画像では、ソース、寸法、代替テキスト、読み込み動作を含むビジュアルコンテンツの埋め込みについて説明します。"
+        },
+        "ru": {
+          "name": "Изображения",
+          "desc": "Изображения охватывают встраивание визуального контента с источниками, размерами, альтернативным текстом и поведением загрузки."
+        },
+        "ko": {
+          "name": "이미지",
+          "desc": "이미지에는 소스, 크기, 대체 텍스트 및 로드 동작이 포함된 시각적 콘텐츠가 포함되어 있습니다."
+        },
+        "pt": {
+          "name": "Imagens",
+          "desc": "As imagens cobrem a incorporação de conteúdo visual com fontes, dimensões, texto alternativo e comportamento de carregamento."
+        }
+      }
+    },
+    {
+      "key": "html/responsive_images",
+      "slug": "responsive_images",
+      "name": "Responsive Images",
+      "desc": "Responsive images cover choosing image resources with srcset, sizes, and picture elements.",
+      "i18n": {
+        "zh": {
+          "name": "响应式图像",
+          "desc": "响应式图像涵盖通过 srcset、sizes 和 picture 元素选择图像资源。"
+        },
+        "es": {
+          "name": "Imágenes responsivas",
+          "desc": "Las imágenes responsivas cubren la elección de recursos de imagen con srcset, sizes y elementos picture."
+        },
+        "fr": {
+          "name": "Images adaptatives",
+          "desc": "Les images adaptatives couvrent le choix des ressources d’image avec srcset, sizes et l’élément picture."
+        },
+        "de": {
+          "name": "Responsive Bilder",
+          "desc": "Responsive Bilder umfassen die Auswahl von Bildressourcen mit srcset, sizes und dem picture-Element."
+        },
+        "ja": {
+          "name": "レスポンシブ画像",
+          "desc": "レスポンシブ画像では、srcset、sizes、picture 要素を使用した画像リソースの選択を扱います。"
+        },
+        "ru": {
+          "name": "Адаптивные изображения",
+          "desc": "Адаптивные изображения охватывают выбор ресурсов изображения с помощью srcset, sizes и элементов picture."
+        },
+        "ko": {
+          "name": "반응형 이미지",
+          "desc": "반응형 이미지는 srcset, sizes 및 picture 요소를 사용해 이미지 리소스를 선택하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Imagens responsivas",
+          "desc": "Imagens responsivas abrangem a escolha de recursos de imagem com srcset, sizes e elementos picture."
+        }
+      }
+    },
+    {
+      "key": "html/audio_video",
+      "slug": "audio_video",
+      "name": "Audio and Video",
+      "desc": "Audio and video cover embedding media, controls, sources, captions, and fallback content.",
+      "i18n": {
+        "zh": {
+          "name": "音频和视频",
+          "desc": "音频和视频涵盖嵌入媒体、控件、源、字幕和后备内容。"
+        },
+        "es": {
+          "name": "Audio y Vídeo",
+          "desc": "El audio y el vídeo cubren la incorporación de medios, controles, fuentes, subtítulos y contenido alternativo."
+        },
+        "fr": {
+          "name": "Audio et vidéo",
+          "desc": "Couverture audio et vidéo intégrant des médias, des commandes, des sources, des sous-titres et du contenu de secours."
+        },
+        "de": {
+          "name": "Audio und Video",
+          "desc": "Audio und Video umfassen die Einbettung von Medien, Steuerelementen, Quellen, Untertiteln und Fallback-Inhalten."
+        },
+        "ja": {
+          "name": "オーディオとビデオ",
+          "desc": "オーディオとビデオには、埋め込みメディア、コントロール、ソース、キャプション、フォールバックコンテンツが含まれます。"
+        },
+        "ru": {
+          "name": "Аудио и видео",
+          "desc": "Аудио и видео охватывают встраивание мультимедиа, элементов управления, источников, подписей и резервного контента."
+        },
+        "ko": {
+          "name": "오디오 및 비디오",
+          "desc": "오디오 및 비디오에는 미디어, 컨트롤, 소스, 캡션 및 대체 콘텐츠가 포함되어 있습니다."
+        },
+        "pt": {
+          "name": "Áudio e Vídeo",
+          "desc": "Áudio e vídeo abrangem mídia incorporada, controles, fontes, legendas e conteúdo substituto."
+        }
+      }
+    },
+    {
+      "key": "html/embedded_content",
+      "slug": "embedded_content",
+      "name": "Embedded Content",
+      "desc": "Embedded content covers iframes and external resources placed inside HTML documents.",
+      "i18n": {
+        "zh": {
+          "name": "嵌入内容",
+          "desc": "嵌入内容涵盖 iframe 和放置在 HTML 文档内的外部资源。"
+        },
+        "es": {
+          "name": "Contenido incrustado",
+          "desc": "El contenido incrustado cubre iframes y recursos externos ubicados dentro de documentos HTML."
+        },
+        "fr": {
+          "name": "Contenu intégré",
+          "desc": "Le contenu intégré couvre les iframes et les ressources externes placées dans les documents HTML."
+        },
+        "de": {
+          "name": "Eingebetteter Inhalt",
+          "desc": "Eingebetteter Inhalt umfasst iFrames und externe Ressourcen, die in HTML-Dokumenten platziert werden."
+        },
+        "ja": {
+          "name": "埋め込みコンテンツ",
+          "desc": "埋め込みコンテンツには、HTMLドキュメント内に配置された iframe と外部リソースが含まれます。"
+        },
+        "ru": {
+          "name": "Встроенный контент",
+          "desc": "Встроенный контент включает в себя iframe и внешние ресурсы, размещенные внутри документов HTML."
+        },
+        "ko": {
+          "name": "내장된 콘텐츠",
+          "desc": "삽입된 콘텐츠에는 HTML 문서 내부에 있는 iframe 및 외부 리소스가 포함됩니다."
+        },
+        "pt": {
+          "name": "Conteúdo incorporado",
+          "desc": "O conteúdo incorporado abrange iframes e recursos externos colocados em documentos HTML."
+        }
+      }
+    },
+    {
+      "key": "html/tables",
+      "slug": "tables",
+      "name": "Tables",
+      "desc": "Tables cover representing tabular data with captions, headers, rows, cells, and structural grouping.",
+      "i18n": {
+        "zh": {
+          "name": "表格",
+          "desc": "表格涵盖用表题、表头、行、单元格和结构分组来表示表格数据。"
+        },
+        "es": {
+          "name": "Tablas",
+          "desc": "Las tablas cubren la representación de datos tabulares con títulos, encabezados, filas, celdas y agrupaciones estructurales."
+        },
+        "fr": {
+          "name": "Tableaux",
+          "desc": "Les tableaux couvrent la représentation des données tabulaires avec des légendes, des en-têtes, des lignes, des cellules et un regroupement structurel."
+        },
+        "de": {
+          "name": "Tabellen",
+          "desc": "Tabellen umfassen die Darstellung tabellarischer Daten mit Beschriftungen, Kopfzeilen, Zeilen, Zellen und struktureller Gruppierung."
+        },
+        "ja": {
+          "name": "テーブル",
+          "desc": "テーブルでは、キャプション、ヘッダー、行、セル、および構造グループを含む表形式データの表現について説明します。"
+        },
+        "ru": {
+          "name": "Таблицы",
+          "desc": "Таблицы охватывают представление табличных данных с подписями, заголовками, строками, ячейками и структурной группировкой."
+        },
+        "ko": {
+          "name": "테이블",
+          "desc": "표는 캡션, 머리글, 행, 셀 및 구조적 그룹화를 사용하여 표 형식 데이터를 나타내는 내용을 다룹니다."
+        },
+        "pt": {
+          "name": "Tabelas",
+          "desc": "As tabelas cobrem a representação de dados tabulares com legendas, cabeçalhos, linhas, células e agrupamento estrutural."
+        }
+      }
+    },
+    {
+      "key": "html/form_structure",
+      "slug": "form_structure",
+      "name": "Form Structure",
+      "desc": "Form structure covers grouping controls, form ownership, submission targets, and form-level attributes.",
+      "i18n": {
+        "zh": {
+          "name": "表单结构",
+          "desc": "表单结构涵盖控件分组、表单关联、提交目标和表单级属性。"
+        },
+        "es": {
+          "name": "Estructura del formulario",
+          "desc": "La estructura del formulario cubre controles de agrupación, asociación con formularios, objetivos de envío y atributos a nivel de formulario."
+        },
+        "fr": {
+          "name": "Structure du formulaire",
+          "desc": "La structure du formulaire couvre les contrôles de regroupement, l’association aux formulaires, les cibles de soumission et les attributs au niveau du formulaire."
+        },
+        "de": {
+          "name": "Formularstruktur",
+          "desc": "Die Formularstruktur umfasst Gruppierungssteuerelemente, Formularzuordnung, Übermittlungsziele und Attribute auf Formularebene."
+        },
+        "ja": {
+          "name": "フォーム構造",
+          "desc": "フォーム構造は、コントロールのグループ化、フォームとの関連付け、送信先、フォームレベル属性を扱います。"
+        },
+        "ru": {
+          "name": "Структура формы",
+          "desc": "Структура формы охватывает группировку элементов управления, связь с формой, цели отправки и атрибуты уровня формы."
+        },
+        "ko": {
+          "name": "양식 구조",
+          "desc": "양식 구조는 컨트롤 그룹화, 양식 연결, 제출 대상 및 양식 수준 속성을 다룹니다."
+        },
+        "pt": {
+          "name": "Estrutura do formulário",
+          "desc": "A estrutura do formulário abrange controles de agrupamento, associação ao formulário, alvos de envio e atributos no nível do formulário."
+        }
+      }
+    },
+    {
+      "key": "html/form_controls",
+      "slug": "form_controls",
+      "name": "Form Controls",
+      "desc": "Form controls cover inputs, selects, textareas, buttons, and control-specific attributes.",
+      "i18n": {
+        "zh": {
+          "name": "表单控件",
+          "desc": "表单控件涵盖输入、选择、文本区域、按钮和控件特定的属性。"
+        },
+        "es": {
+          "name": "Controles de formulario",
+          "desc": "Los controles de formulario cubren input, select, textarea, button y atributos específicos de cada control."
+        },
+        "fr": {
+          "name": "Contrôles de formulaire",
+          "desc": "Les contrôles de formulaire couvrent input, select, textarea, button et les attributs propres à chaque contrôle."
+        },
+        "de": {
+          "name": "Formularsteuerelemente",
+          "desc": "Formularsteuerelemente umfassen input, select, textarea, button und controlspezifische Attribute."
+        },
+        "ja": {
+          "name": "フォームコントロール",
+          "desc": "フォームコントロールは、input、select、textarea、button、およびコントロール固有の属性を扱います。"
+        },
+        "ru": {
+          "name": "Элементы управления формой",
+          "desc": "Элементы управления формой охватывают input, select, textarea, button и атрибуты, специфичные для каждого элемента управления."
+        },
+        "ko": {
+          "name": "양식 컨트롤",
+          "desc": "양식 컨트롤은 input, select, textarea, button 및 컨트롤별 속성을 다룹니다."
+        },
+        "pt": {
+          "name": "Controles de formulário",
+          "desc": "Os controles de formulário cobrem input, select, textarea, button e atributos específicos de cada controle."
+        }
+      }
+    },
+    {
+      "key": "html/input_types",
+      "slug": "input_types",
+      "name": "Input Types",
+      "desc": "Input types cover choosing appropriate input behavior for text, numbers, dates, files, choices, and other data.",
+      "i18n": {
+        "zh": {
+          "name": "输入类型",
+          "desc": "输入类型包括为文本、数字、日期、文件、选择和其他数据选择适当的输入行为。"
+        },
+        "es": {
+          "name": "Tipos de entrada",
+          "desc": "Los tipos de entrada cubren la elección del comportamiento de entrada apropiado para texto, números, fechas, archivos, opciones y otros datos."
+        },
+        "fr": {
+          "name": "Types d'entrée",
+          "desc": "Les types de saisie couvrent le choix du comportement de saisie approprié pour le texte, les nombres, les dates, les fichiers, les choix et autres données."
+        },
+        "de": {
+          "name": "Eingabetypen",
+          "desc": "Eingabetypen umfassen die Auswahl des geeigneten Eingabeverhaltens für Text, Zahlen, Datumsangaben, Dateien, Auswahlmöglichkeiten und andere Daten."
+        },
+        "ja": {
+          "name": "入力タイプ",
+          "desc": "入力タイプには、テキスト、数値、日付、ファイル、選択肢、その他のデータに対する適切な入力動作の選択が含まれます。"
+        },
+        "ru": {
+          "name": "Типы ввода",
+          "desc": "Типы ввода охватывают выбор подходящего поведения ввода для текста, чисел, дат, файлов, вариантов выбора и других данных."
+        },
+        "ko": {
+          "name": "입력 유형",
+          "desc": "입력 유형에는 텍스트, 숫자, 날짜, 파일, 선택 사항 및 기타 데이터에 대한 적절한 입력 동작 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Tipos de entrada",
+          "desc": "Os tipos de entrada abrangem a escolha do comportamento de entrada apropriado para texto, números, datas, arquivos, opções e outros dados."
+        }
+      }
+    },
+    {
+      "key": "html/labels",
+      "slug": "labels",
+      "name": "Labels",
+      "desc": "Labels cover associating form controls with accessible names and visible instructions.",
+      "i18n": {
+        "zh": {
+          "name": "标签",
+          "desc": "标签涵盖将表单控件与可访问的名称和可见的说明相关联。"
+        },
+        "es": {
+          "name": "Etiquetas",
+          "desc": "Las etiquetas cubren la asociación de controles de formulario con nombres accesibles e instrucciones visibles."
+        },
+        "fr": {
+          "name": "Libellés",
+          "desc": "Les libellés couvrent l’association des contrôles de formulaire avec des noms accessibles et des instructions visibles."
+        },
+        "de": {
+          "name": "Beschriftungen",
+          "desc": "Beschriftungen decken die Zuordnung von Formularsteuerelementen zu zugänglichen Namen und sichtbaren Anweisungen ab."
+        },
+        "ja": {
+          "name": "ラベル",
+          "desc": "ラベルは、フォームコントロールとアクセス可能な名前および表示される指示の関連付けを扱います。"
+        },
+        "ru": {
+          "name": "Метки",
+          "desc": "Метки позволяют связать элементы управления формы с доступными именами и видимыми инструкциями."
+        },
+        "ko": {
+          "name": "라벨",
+          "desc": "레이블은 접근 가능한 이름 및 눈에 보이는 지침과 양식 컨트롤을 연결하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Etiquetas",
+          "desc": "Os rótulos cobrem a associação de controles de formulário com nomes acessíveis e instruções visíveis."
+        }
+      }
+    },
+    {
+      "key": "html/form_validation",
+      "slug": "form_validation",
+      "name": "Form Validation",
+      "desc": "Form validation covers required fields, constraints, validation messages, and browser validation behavior.",
+      "i18n": {
+        "zh": {
+          "name": "表单验证",
+          "desc": "表单验证涵盖必填字段、约束、验证消息和浏览器验证行为。"
+        },
+        "es": {
+          "name": "Validación de formulario",
+          "desc": "La validación de formularios cubre campos obligatorios, restricciones, mensajes de validación y comportamiento de validación del navegador."
+        },
+        "fr": {
+          "name": "Validation du formulaire",
+          "desc": "La validation du formulaire couvre les champs obligatoires, les contraintes, les messages de validation et le comportement de validation du navigateur."
+        },
+        "de": {
+          "name": "Formularvalidierung",
+          "desc": "Die Formularvalidierung umfasst erforderliche Felder, Einschränkungen, Validierungsmeldungen und das Browservalidierungsverhalten."
+        },
+        "ja": {
+          "name": "フォームの検証",
+          "desc": "フォーム検証には、必須フィールド、制約、検証メッセージ、ブラウザ検証動作が含まれます。"
+        },
+        "ru": {
+          "name": "Проверка формы",
+          "desc": "Проверка формы охватывает обязательные поля, ограничения, сообщения проверки и поведение проверки браузера."
+        },
+        "ko": {
+          "name": "양식 검증",
+          "desc": "양식 유효성 검사에는 필수 필드, 제약 조건, 유효성 검사 메시지 및 브라우저 유효성 검사 동작이 포함됩니다."
+        },
+        "pt": {
+          "name": "Validação de formulário",
+          "desc": "A validação do formulário abrange campos obrigatórios, restrições, mensagens de validação e comportamento de validação do navegador."
+        }
+      }
+    },
+    {
+      "key": "html/form_submission",
+      "slug": "form_submission",
+      "name": "Form Submission",
+      "desc": "Form submission covers methods, encodings, submit controls, and how browsers send form data.",
+      "i18n": {
+        "zh": {
+          "name": "表单提交",
+          "desc": "表单提交涵盖了方法、编码、提交控件以及浏览器如何发送表单数据。"
+        },
+        "es": {
+          "name": "Envío de formulario",
+          "desc": "El envío de formularios cubre métodos, codificaciones, controles de envío y cómo los navegadores envían datos del formulario."
+        },
+        "fr": {
+          "name": "Soumission du formulaire",
+          "desc": "La soumission de formulaire couvre les méthodes, les encodages, les contrôles de soumission et la manière dont les navigateurs envoient les données du formulaire."
+        },
+        "de": {
+          "name": "Formularübermittlung",
+          "desc": "Die Formularübermittlung umfasst Methoden, Kodierungen, Sendesteuerelemente und die Art und Weise, wie Browser Formulardaten senden."
+        },
+        "ja": {
+          "name": "フォームの送信",
+          "desc": "フォームの送信には、メソッド、エンコーディング、送信コントロール、ブラウザーがフォームデータを送信する方法が含まれます。"
+        },
+        "ru": {
+          "name": "Отправка формы",
+          "desc": "Отправка формы охватывает методы, кодировки, элементы управления отправкой и то, как браузеры отправляют данные формы."
+        },
+        "ko": {
+          "name": "양식 제출",
+          "desc": "양식 제출에는 방법, 인코딩, 제출 제어 및 브라우저가 양식 데이터를 보내는 방법이 포함됩니다."
+        },
+        "pt": {
+          "name": "Envio de formulário",
+          "desc": "O envio de formulários abrange métodos, codificações, controles de envio e como os navegadores enviam dados de formulário."
+        }
+      }
+    },
+    {
+      "key": "html/global_attributes",
+      "slug": "global_attributes",
+      "name": "Global Attributes",
+      "desc": "Global attributes cover shared element attributes such as id, class, title, hidden, tabindex, and contenteditable.",
+      "i18n": {
+        "zh": {
+          "name": "全局属性",
+          "desc": "全局属性涵盖 id、class、title、hidden、tabindex 和 contenteditable 等共享元素属性。"
+        },
+        "es": {
+          "name": "Atributos globales",
+          "desc": "Los atributos globales cubren atributos compartidos de elementos como id, class, title, hidden, tabindex y contenteditable."
+        },
+        "fr": {
+          "name": "Attributs globaux",
+          "desc": "Les attributs globaux couvrent les attributs d'éléments partagés tels que id, class, title, hidden, tabindex et contenteditable."
+        },
+        "de": {
+          "name": "Globale Attribute",
+          "desc": "Globale Attribute umfassen gemeinsam genutzte Elementattribute wie id, class, title, hidden, tabindex und contenteditable."
+        },
+        "ja": {
+          "name": "グローバル属性",
+          "desc": "グローバル属性は、id、class、title、hidden、tabindex、contenteditable などの共有要素属性を扱います。"
+        },
+        "ru": {
+          "name": "Глобальные атрибуты",
+          "desc": "Глобальные атрибуты охватывают общие атрибуты элементов, такие как id, class, title, hidden, tabindex и contenteditable."
+        },
+        "ko": {
+          "name": "전역 속성",
+          "desc": "전역 속성은 id, class, title, hidden, tabindex, contenteditable과 같은 공유 요소 속성을 다룹니다."
+        },
+        "pt": {
+          "name": "Atributos Globais",
+          "desc": "Atributos globais abrangem atributos de elementos compartilhados, como id, class, title, hidden, tabindex e contenteditable."
+        }
+      }
+    },
+    {
+      "key": "html/data_attributes",
+      "slug": "data_attributes",
+      "name": "Data Attributes",
+      "desc": "Data attributes cover storing custom element data for scripts, styling hooks, and integration points.",
+      "i18n": {
+        "zh": {
+          "name": "数据属性",
+          "desc": "数据属性涵盖为脚本、样式钩子和集成点存储自定义元素数据。"
+        },
+        "es": {
+          "name": "Atributos de datos",
+          "desc": "Los atributos de datos cubren el almacenamiento de datos personalizados de elementos para scripts, puntos de estilo y puntos de integración."
+        },
+        "fr": {
+          "name": "Attributs de données",
+          "desc": "Les attributs de données couvrent le stockage de données d'élément personnalisées pour les scripts, les points de style et les points d'intégration."
+        },
+        "de": {
+          "name": "Datenattribute",
+          "desc": "Datenattribute umfassen das Speichern benutzerdefinierter Elementdaten für Skripte, Styling-Anknüpfungspunkte und Integrationspunkte."
+        },
+        "ja": {
+          "name": "データ属性",
+          "desc": "データ属性は、スクリプト、スタイル用フック、統合ポイントのためにカスタム要素データを保存する方法を扱います。"
+        },
+        "ru": {
+          "name": "Атрибуты данных",
+          "desc": "Атрибуты данных охватывают хранение пользовательских данных элементов для скриптов, точек стилизации и точек интеграции."
+        },
+        "ko": {
+          "name": "데이터 속성",
+          "desc": "데이터 속성은 스크립트, 스타일링 훅 및 통합 지점을 위한 사용자 정의 요소 데이터 저장을 다룹니다."
+        },
+        "pt": {
+          "name": "Atributos de dados",
+          "desc": "Os atributos de dados abrangem o armazenamento de dados personalizados de elementos para scripts, pontos de estilo e pontos de integração."
+        }
+      }
+    },
+    {
+      "key": "html/language_direction",
+      "slug": "language_direction",
+      "name": "Language and Direction",
+      "desc": "Language and direction cover declaring document language, text direction, and localized content boundaries.",
+      "i18n": {
+        "zh": {
+          "name": "语言和方向",
+          "desc": "语言和方向包括声明文档语言、文本方向和本地化内容边界。"
+        },
+        "es": {
+          "name": "Idioma y Dirección",
+          "desc": "Idioma y dirección cubren la declaración del idioma del documento, la dirección del texto y los límites del contenido localizado."
+        },
+        "fr": {
+          "name": "Langue et direction",
+          "desc": "La langue et la direction couvrent la déclaration de la langue du document, de la direction du texte et des limites du contenu localisé."
+        },
+        "de": {
+          "name": "Sprache und Richtung",
+          "desc": "Sprache und Richtung umfassen die Angabe der Dokumentsprache, der Textrichtung und lokalisierter Inhaltsgrenzen."
+        },
+        "ja": {
+          "name": "言語と方向性",
+          "desc": "言語と方向には、ドキュメント言語、テキストの方向、およびローカライズされたコンテンツ境界の宣言が含まれます。"
+        },
+        "ru": {
+          "name": "Язык и направление",
+          "desc": "Язык и направление охватывают объявление языка документа, направления текста и границ локализованного контента."
+        },
+        "ko": {
+          "name": "언어와 방향",
+          "desc": "언어 및 방향에는 문서 언어, 텍스트 방향 및 지역화된 콘텐츠 경계 선언이 포함됩니다."
+        },
+        "pt": {
+          "name": "Linguagem e direção",
+          "desc": "Idioma e direção cobrem a declaração do idioma do documento, direção do texto e limites de conteúdo localizado."
+        }
+      }
+    },
+    {
+      "key": "html/accessibility_semantics",
+      "slug": "accessibility_semantics",
+      "name": "Accessibility Semantics",
+      "desc": "Accessibility semantics cover exposing meaningful structure and control roles to assistive technologies.",
+      "i18n": {
+        "zh": {
+          "name": "可访问性语义",
+          "desc": "可访问性语义涵盖向辅助技术公开有意义的结构和控制角色。"
+        },
+        "es": {
+          "name": "Semántica de accesibilidad",
+          "desc": "La semántica de accesibilidad cubre la exposición de estructuras significativas y roles de control a las tecnologías de asistencia."
+        },
+        "fr": {
+          "name": "Sémantique de l'accessibilité",
+          "desc": "La sémantique de l’accessibilité couvre l’exposition de structures significatives et de rôles de contrôle aux technologies d’assistance."
+        },
+        "de": {
+          "name": "Semantik der Barrierefreiheit",
+          "desc": "Die Barrierefreiheitssemantik umfasst das Offenlegen sinnvoller Struktur- und Kontrollrollen für unterstützende Technologien."
+        },
+        "ja": {
+          "name": "アクセシビリティのセマンティクス",
+          "desc": "アクセシビリティセマンティクスは、意味のある構造と制御の役割を支援技術に公開することを扱います。"
+        },
+        "ru": {
+          "name": "Семантика доступности",
+          "desc": "Семантика доступности охватывает раскрытие значимой структуры и управляющих ролей для вспомогательных технологий."
+        },
+        "ko": {
+          "name": "접근성 의미론",
+          "desc": "접근성 의미론은 보조 기술에 의미 있는 구조 및 제어 역할을 노출하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Semântica de acessibilidade",
+          "desc": "A semântica de acessibilidade cobre a exposição de estruturas significativas e funções de controle para tecnologias assistivas."
+        }
+      }
+    },
+    {
+      "key": "html/accessible_names",
+      "slug": "accessible_names",
+      "name": "Accessible Names",
+      "desc": "Accessible names cover how controls, links, images, and regions receive labels for assistive technologies.",
+      "i18n": {
+        "zh": {
+          "name": "无障碍名称",
+          "desc": "无障碍名称涵盖控件、链接、图像和区域如何为辅助技术获得标签。"
+        },
+        "es": {
+          "name": "Nombres accesibles",
+          "desc": "Los nombres accesibles cubren cómo los controles, enlaces, imágenes y regiones reciben etiquetas para tecnologías de asistencia."
+        },
+        "fr": {
+          "name": "Noms accessibles",
+          "desc": "Les noms accessibles couvrent la manière dont les contrôles, les liens, les images et les régions reçoivent des étiquettes pour les technologies d'assistance."
+        },
+        "de": {
+          "name": "Zugängliche Namen",
+          "desc": "Zugängliche Namen behandeln, wie Steuerelemente, Links, Bilder und Regionen Bezeichnungen für assistive Technologien erhalten."
+        },
+        "ja": {
+          "name": "アクセシブルな名前",
+          "desc": "アクセシブルな名前には、コントロール、リンク、画像、領域が支援技術のラベルを受け取る方法が含まれます。"
+        },
+        "ru": {
+          "name": "Доступные имена",
+          "desc": "Доступные имена охватывают то, как элементы управления, ссылки, изображения и регионы получают метки для вспомогательных технологий."
+        },
+        "ko": {
+          "name": "접근 가능한 이름",
+          "desc": "접근 가능한 이름은 컨트롤, 링크, 이미지 및 영역이 보조 기술용 레이블을 얻는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Nomes acessíveis",
+          "desc": "Os nomes acessíveis abrangem como controles, links, imagens e regiões recebem rótulos para tecnologias assistivas."
+        }
+      }
+    },
+    {
+      "key": "html/focus_order",
+      "slug": "focus_order",
+      "name": "Focus Order",
+      "desc": "Focus order covers preserving logical keyboard navigation through document structure and focusable elements.",
+      "i18n": {
+        "zh": {
+          "name": "焦点顺序",
+          "desc": "焦点顺序涵盖通过文档结构和可聚焦元素保留逻辑键盘导航。"
+        },
+        "es": {
+          "name": "Orden de foco",
+          "desc": "El orden de enfoque cubre la preservación de la navegación lógica del teclado a través de la estructura del documento y los elementos enfocables."
+        },
+        "fr": {
+          "name": "Ordre de focus",
+          "desc": "L’ordre de focus couvre la préservation de la navigation logique au clavier à travers la structure du document et les éléments focalisables."
+        },
+        "de": {
+          "name": "Fokusreihenfolge",
+          "desc": "Die Fokusreihenfolge umfasst die Beibehaltung der logischen Tastaturnavigation durch die Dokumentstruktur und fokussierbare Elemente."
+        },
+        "ja": {
+          "name": "フォーカスの順序",
+          "desc": "フォーカス順序には、文書構造とフォーカス可能な要素による論理キーボードナビゲーションの保持が含まれます。"
+        },
+        "ru": {
+          "name": "Порядок фокусировки",
+          "desc": "Порядок фокусировки включает сохранение логической навигации с клавиатуры по структуре документа и фокусируемым элементам."
+        },
+        "ko": {
+          "name": "포커스 순서",
+          "desc": "포커스 순서는 문서 구조 및 포커스 가능한 요소를 통해 논리적 키보드 탐색을 유지하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Ordem de foco",
+          "desc": "A ordem de foco abrange a preservação da navegação lógica do teclado por meio da estrutura do documento e dos elementos focáveis."
+        }
+      }
+    },
+    {
+      "key": "html/aria_integration",
+      "slug": "aria_integration",
+      "name": "ARIA Integration",
+      "desc": "ARIA integration covers adding roles, states, and properties when native HTML semantics are insufficient.",
+      "i18n": {
+        "zh": {
+          "name": "ARIA 整合",
+          "desc": "ARIA 集成涵盖了在原生 HTML 语义不足时添加角色、状态和属性。"
+        },
+        "es": {
+          "name": "Integración ARIA",
+          "desc": "La integración ARIA cubre la adición de roles, estados y propiedades cuando la semántica nativa HTML es insuficiente."
+        },
+        "fr": {
+          "name": "Intégration ARIA",
+          "desc": "L'intégration ARIA couvre l'ajout de rôles, d'états et de propriétés lorsque la sémantique HTML native est insuffisante."
+        },
+        "de": {
+          "name": "ARIA-Integration",
+          "desc": "Die ARIA-Integration umfasst das Hinzufügen von Rollen, Zuständen und Eigenschaften, wenn die native HTML-Semantik nicht ausreicht."
+        },
+        "ja": {
+          "name": "ARIA 統合",
+          "desc": "ARIA 統合では、ネイティブ HTML セマンティクスが不十分な場合のロール、状態、プロパティの追加を扱います。"
+        },
+        "ru": {
+          "name": "Интеграция ARIA",
+          "desc": "Интеграция ARIA охватывает добавление ролей, состояний и свойств, когда встроенной семантики HTML недостаточно."
+        },
+        "ko": {
+          "name": "ARIA 통합",
+          "desc": "ARIA 통합에는 기본 HTML 의미 체계가 불충분할 때 역할, 상태 및 속성을 추가하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Integração ARIA",
+          "desc": "A integração ARIA cobre a adição de funções, estados e propriedades quando a semântica HTML nativa é insuficiente."
+        }
+      }
+    },
+    {
+      "key": "html/script_loading",
+      "slug": "script_loading",
+      "name": "Script Loading",
+      "desc": "Script loading covers connecting JavaScript resources with script elements, module scripts, defer, and async behavior.",
+      "i18n": {
+        "zh": {
+          "name": "脚本加载",
+          "desc": "脚本加载涵盖通过 script 元素、module 脚本、defer 和 async 行为连接 JavaScript 资源。"
+        },
+        "es": {
+          "name": "Carga de scripts",
+          "desc": "La carga de scripts cubre la conexión de recursos JavaScript con elementos script, scripts de módulo, defer y comportamiento async."
+        },
+        "fr": {
+          "name": "Chargement du script",
+          "desc": "Le chargement de script couvre la connexion des ressources JavaScript avec des éléments script, des scripts de module, defer et le comportement async."
+        },
+        "de": {
+          "name": "Skriptladen",
+          "desc": "Das Laden von Skripten umfasst das Verbinden von JavaScript-Ressourcen mit script-Elementen, Modulskripten, defer und async-Verhalten."
+        },
+        "ja": {
+          "name": "スクリプトの読み込み",
+          "desc": "スクリプトの読み込みでは、JavaScript リソースと script 要素、module スクリプト、defer、async 動作の接続を扱います。"
+        },
+        "ru": {
+          "name": "Загрузка скрипта",
+          "desc": "Загрузка скриптов охватывает подключение ресурсов JavaScript к элементам скрипта, скриптам модулей, отложенному и асинхронному поведению."
+        },
+        "ko": {
+          "name": "스크립트 로딩",
+          "desc": "스크립트 로딩은 JavaScript 리소스를 script 요소, module 스크립트, defer 및 async 동작과 연결하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Carregamento de scripts",
+          "desc": "O carregamento de script cobre a conexão de recursos JavaScript com elementos script, scripts de módulo, defer e comportamento async."
+        }
+      }
+    },
+    {
+      "key": "html/stylesheet_loading",
+      "slug": "stylesheet_loading",
+      "name": "Stylesheet Loading",
+      "desc": "Stylesheet loading covers connecting CSS resources with link and style elements.",
+      "i18n": {
+        "zh": {
+          "name": "样式表加载",
+          "desc": "样式表加载涵盖使用 link 和 style 元素连接 CSS 资源。"
+        },
+        "es": {
+          "name": "Carga de hojas de estilo",
+          "desc": "La carga de hojas de estilo cubre la conexión de recursos CSS con elementos link y style."
+        },
+        "fr": {
+          "name": "Chargement de la feuille de style",
+          "desc": "Le chargement des feuilles de style couvre la connexion des ressources CSS avec des éléments link et style."
+        },
+        "de": {
+          "name": "Stylesheet-Laden",
+          "desc": "Das Laden von Stylesheets umfasst das Verbinden von CSS-Ressourcen mit link- und style-Elementen."
+        },
+        "ja": {
+          "name": "スタイルシートの読み込み",
+          "desc": "スタイルシートの読み込みでは、CSS リソースと link および style 要素の接続を扱います。"
+        },
+        "ru": {
+          "name": "Загрузка таблицы стилей",
+          "desc": "Загрузка таблицы стилей включает в себя подключение ресурсов CSS с элементами ссылок и стилей."
+        },
+        "ko": {
+          "name": "스타일시트 로딩",
+          "desc": "스타일시트 로딩은 CSS 리소스를 link 및 style 요소와 연결하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Carregamento de folha de estilo",
+          "desc": "O carregamento da folha de estilo abrange a conexão de recursos CSS com elementos link e style."
+        }
+      }
+    },
+    {
+      "key": "html/resource_hints",
+      "slug": "resource_hints",
+      "name": "Resource Hints",
+      "desc": "Resource hints cover preloading, preconnecting, and other browser hints that affect resource discovery.",
+      "i18n": {
+        "zh": {
+          "name": "资源提示",
+          "desc": "资源提示涵盖预加载、预连接和其他影响资源发现的浏览器提示。"
+        },
+        "es": {
+          "name": "Indicaciones de carga de recursos",
+          "desc": "Las indicaciones de recursos cubren preload, preconnect y otras indicaciones del navegador que afectan el descubrimiento de recursos."
+        },
+        "fr": {
+          "name": "Indications de ressources",
+          "desc": "Les indications de ressources couvrent preload, preconnect et d'autres indications du navigateur qui affectent la découverte des ressources."
+        },
+        "de": {
+          "name": "Ressourcenhinweise",
+          "desc": "Ressourcenhinweise umfassen das Vorladen, das Vorverbinden und andere Browserhinweise, die sich auf die Ressourcenerkennung auswirken."
+        },
+        "ja": {
+          "name": "リソースのヒント",
+          "desc": "リソースヒントは、preload、preconnect、およびリソース検出に影響するその他のブラウザーヒントを扱います。"
+        },
+        "ru": {
+          "name": "Подсказки ресурсов",
+          "desc": "Подсказки ресурсов охватывают preload, preconnect и другие подсказки браузера, влияющие на обнаружение ресурсов."
+        },
+        "ko": {
+          "name": "리소스 힌트",
+          "desc": "리소스 힌트는 preload, preconnect 및 리소스 검색에 영향을 미치는 기타 브라우저 힌트를 다룹니다."
+        },
+        "pt": {
+          "name": "Indicações de carregamento de recursos",
+          "desc": "As indicações de recursos abrangem preload, preconnect e outras indicações do navegador que afetam a descoberta de recursos."
+        }
+      }
+    },
+    {
+      "key": "html/seo_metadata",
+      "slug": "seo_metadata",
+      "name": "SEO Metadata",
+      "desc": "SEO metadata covers search-facing titles, descriptions, canonical links, robots directives, and preview metadata.",
+      "i18n": {
+        "zh": {
+          "name": "SEO 元数据",
+          "desc": "SEO 元数据涵盖面向搜索的标题、描述、canonical 链接、robots 指令和预览元数据。"
+        },
+        "es": {
+          "name": "Metadatos SEO",
+          "desc": "Los metadatos de SEO cubren títulos de búsqueda, descripciones, enlaces canónicos, directivas de robots y metadatos de vista previa."
+        },
+        "fr": {
+          "name": "Métadonnées SEO",
+          "desc": "Les métadonnées SEO couvrent les titres, les descriptions, les liens canoniques, les directives des robots et les métadonnées d'aperçu orientées vers la recherche."
+        },
+        "de": {
+          "name": "SEO-Metadaten",
+          "desc": "SEO-Metadaten umfassen suchbezogene Titel, Beschreibungen, Canonical-Links, robots-Anweisungen und Vorschau-Metadaten."
+        },
+        "ja": {
+          "name": "SEO メタデータ",
+          "desc": "SEO メタデータには、検索向けのタイトル、説明、正規リンク、ロボットディレクティブ、プレビューメタデータが含まれます。"
+        },
+        "ru": {
+          "name": "SEO-метаданные",
+          "desc": "Метаданные SEO включают в себя заголовки, описания, канонические ссылки, директивы роботов и метаданные предварительного просмотра, ориентированные на поиск."
+        },
+        "ko": {
+          "name": "SEO 메타데이터",
+          "desc": "SEO 메타데이터는 검색용 제목, 설명, canonical 링크, robots 지시문 및 미리보기 메타데이터를 다룹니다."
+        },
+        "pt": {
+          "name": "Metadados de SEO",
+          "desc": "Os metadados de SEO abrangem títulos voltados para pesquisa, descrições, links canônicos, diretivas de robôs e metadados de visualização."
+        }
+      }
+    },
+    {
+      "key": "html/browser_parsing",
+      "slug": "browser_parsing",
+      "name": "Browser Parsing",
+      "desc": "Browser parsing covers how browsers construct documents from markup and recover from invalid nesting.",
+      "i18n": {
+        "zh": {
+          "name": "浏览器解析",
+          "desc": "浏览器解析涵盖了浏览器如何从标记构建文档以及如何从无效嵌套中恢复。"
+        },
+        "es": {
+          "name": "Análisis del navegador",
+          "desc": "El análisis del navegador cubre cómo los navegadores construyen documentos a partir del marcado y se recuperan de un anidamiento no válido."
+        },
+        "fr": {
+          "name": "Analyse du navigateur",
+          "desc": "L'analyse du navigateur couvre la manière dont les navigateurs construisent des documents à partir du balisage et récupèrent d'une imbrication non valide."
+        },
+        "de": {
+          "name": "Browser-Analyse",
+          "desc": "Beim Browser-Parsing geht es darum, wie Browser Dokumente aus Markup erstellen und nach ungültiger Verschachtelung wiederherstellen."
+        },
+        "ja": {
+          "name": "ブラウザの解析",
+          "desc": "ブラウザーの解析では、ブラウザーがマークアップからドキュメントを構築し、無効なネストから回復する方法について説明します。"
+        },
+        "ru": {
+          "name": "Парсинг браузера",
+          "desc": "Анализ браузера описывает, как браузеры создают документы из разметки и восстанавливаются после недопустимой вложенности."
+        },
+        "ko": {
+          "name": "브라우저 구문 분석",
+          "desc": "브라우저 구문 분석은 브라우저가 마크업에서 문서를 구성하고 잘못된 중첩을 복구하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Análise do navegador",
+          "desc": "A análise do navegador aborda como os navegadores constroem documentos a partir de marcação e se recuperam de aninhamentos inválidos."
+        }
+      }
+    },
+    {
+      "key": "html/document_validation",
+      "slug": "document_validation",
+      "name": "Document Validation",
+      "desc": "Document validation covers checking markup correctness, conformance, and compatibility with HTML rules.",
+      "i18n": {
+        "zh": {
+          "name": "文件验证",
+          "desc": "文档验证包括检查标记的正确性、一致性以及与 HTML 规则的兼容性。"
+        },
+        "es": {
+          "name": "Validación de documentos",
+          "desc": "La validación de documentos cubre la verificación de la corrección, conformidad y compatibilidad del marcado con las reglas HTML."
+        },
+        "fr": {
+          "name": "Validation des documents",
+          "desc": "La validation du document couvre la vérification de l'exactitude, de la conformité et de la compatibilité du balisage avec les règles HTML."
+        },
+        "de": {
+          "name": "Dokumentenvalidierung",
+          "desc": "Die Dokumentenvalidierung umfasst die Überprüfung der Markup-Korrektheit, Konformität und Kompatibilität mit den HTML-Regeln."
+        },
+        "ja": {
+          "name": "文書の検証",
+          "desc": "ドキュメントの検証には、マークアップの正確性、適合性、および HTML ルールとの互換性のチェックが含まれます。"
+        },
+        "ru": {
+          "name": "Проверка документов",
+          "desc": "Проверка документа включает проверку правильности разметки, соответствия и совместимости с правилами HTML."
+        },
+        "ko": {
+          "name": "문서 검증",
+          "desc": "문서 유효성 검사에는 마크업 정확성, 적합성 및 HTML 규칙과의 호환성 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Validação de Documentos",
+          "desc": "A validação de documentos abrange a verificação da correção, conformidade e compatibilidade da marcação com as regras HTML."
+        }
+      }
+    },
+    {
+      "key": "html/progressive_enhancement",
+      "slug": "progressive_enhancement",
+      "name": "Progressive Enhancement",
+      "desc": "Progressive enhancement covers preserving usable content and controls before optional styling or scripting is applied.",
+      "i18n": {
+        "zh": {
+          "name": "渐进增强",
+          "desc": "渐进式增强包括在应用可选样式或脚本之前保留可用内容和控件。"
+        },
+        "es": {
+          "name": "Mejora progresiva",
+          "desc": "La mejora progresiva cubre la preservación del contenido y los controles utilizables antes de aplicar estilos o secuencias de comandos opcionales."
+        },
+        "fr": {
+          "name": "Amélioration progressive",
+          "desc": "L'amélioration progressive couvre la préservation du contenu et des contrôles utilisables avant l'application d'un style ou d'un script facultatif."
+        },
+        "de": {
+          "name": "Progressive Verbesserung",
+          "desc": "Die progressive Verbesserung umfasst die Beibehaltung verwendbarer Inhalte und Steuerelemente, bevor optionales Styling oder Skripting angewendet wird."
+        },
+        "ja": {
+          "name": "プログレッシブエンハンスメント",
+          "desc": "プログレッシブエンハンスメントでは、任意のスタイルやスクリプトが適用される前でも、利用可能なコンテンツとコントロールを保つことを扱います。"
+        },
+        "ru": {
+          "name": "Прогрессивное улучшение",
+          "desc": "Прогрессивное улучшение включает сохранение полезного контента и элементов управления перед применением дополнительных стилей или сценариев."
+        },
+        "ko": {
+          "name": "점진적 향상",
+          "desc": "점진적 향상은 선택적 스타일링이나 스크립팅이 적용되기 전에도 사용 가능한 콘텐츠와 컨트롤을 유지하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Aprimoramento Progressivo",
+          "desc": "O aprimoramento progressivo abrange a preservação do conteúdo e dos controles utilizáveis antes da aplicação de estilos ou scripts opcionais."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2327 @@
+{
+  "key": "javascript",
+  "slug": "javascript",
+  "name": "JavaScript",
+  "skills": [
+    {
+      "key": "javascript/runtime_model",
+      "slug": "runtime_model",
+      "name": "Runtime Model",
+      "desc": "Runtime model covers how JavaScript code is parsed, executed, and connected to browser environments.",
+      "i18n": {
+        "zh": {
+          "name": "运行时模型",
+          "desc": "运行时模型涵盖 JavaScript 代码如何解析、执行以及连接到浏览器环境。"
+        },
+        "es": {
+          "name": "Modelo de tiempo de ejecución",
+          "desc": "El modelo de tiempo de ejecución cubre cómo se analiza, ejecuta y conecta el código JavaScript a los entornos del navegador."
+        },
+        "fr": {
+          "name": "Modèle d'exécution",
+          "desc": "Le modèle d'exécution couvre la manière dont le code JavaScript est analysé, exécuté et connecté aux environnements de navigateur."
+        },
+        "de": {
+          "name": "Laufzeitmodell",
+          "desc": "Das Laufzeitmodell deckt ab, wie JavaScript-Code analysiert, ausgeführt und mit Browserumgebungen verbunden wird."
+        },
+        "ja": {
+          "name": "ランタイムモデル",
+          "desc": "ランタイムモデルは、JavaScript コードがどのように解析、実行され、ブラウザ環境に接続されるかを扱います。"
+        },
+        "ru": {
+          "name": "Модель времени выполнения",
+          "desc": "Модель времени выполнения описывает, как код JavaScript анализируется, выполняется и подключается к среде браузера."
+        },
+        "ko": {
+          "name": "런타임 모델",
+          "desc": "런타임 모델은 JavaScript 코드가 구문 분석되고, 실행되고, 브라우저 환경에 연결되는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelo de tempo de execução",
+          "desc": "O modelo de tempo de execução cobre como o código JavaScript é analisado, executado e conectado aos ambientes do navegador."
+        }
+      }
+    },
+    {
+      "key": "javascript/variables_scope",
+      "slug": "variables_scope",
+      "name": "Variables and Scope",
+      "desc": "Variables and scope cover declaring bindings, block scope, function scope, global scope, and shadowing.",
+      "i18n": {
+        "zh": {
+          "name": "变量和作用域",
+          "desc": "变量和作用域涵盖声明绑定、块作用域、函数作用域、全局作用域和遮蔽。"
+        },
+        "es": {
+          "name": "Variables y alcance",
+          "desc": "Las variables y el alcance cubren la declaración de enlaces, el alcance del bloque, el alcance de la función, el alcance global y el sombreado."
+        },
+        "fr": {
+          "name": "Variables et portée",
+          "desc": "Les variables et la portée couvrent la déclaration des liaisons, la portée du bloc, la portée de la fonction, la portée globale et le masquage."
+        },
+        "de": {
+          "name": "Variablen und Gültigkeitsbereich",
+          "desc": "Variablen und Gültigkeitsbereiche umfassen die Deklaration von Bindungen, Blockgültigkeitsbereich, Funktionsgültigkeitsbereich, globalen Gültigkeitsbereich und Variablenverschattung."
+        },
+        "ja": {
+          "name": "変数とスコープ",
+          "desc": "変数とスコープには、バインディングの宣言、ブロックスコープ、関数スコープ、グローバルスコープ、シャドウイングが含まれます。"
+        },
+        "ru": {
+          "name": "Переменные и область видимости",
+          "desc": "Переменные и область видимости охватывают объявление привязок, область действия блока, область действия функции, глобальную область видимости и затенение."
+        },
+        "ko": {
+          "name": "변수 및 범위",
+          "desc": "변수 및 범위에는 바인딩, 블록 범위, 함수 범위, 전역 범위 및 섀도잉 선언이 포함됩니다."
+        },
+        "pt": {
+          "name": "Variáveis e Escopo",
+          "desc": "Variáveis e escopo cobrem declarações de vinculações, escopo de bloco, escopo de função, escopo global e sombreamento."
+        }
+      }
+    },
+    {
+      "key": "javascript/primitive_types",
+      "slug": "primitive_types",
+      "name": "Primitive Types",
+      "desc": "Primitive types cover strings, numbers, bigints, booleans, symbols, null, undefined, and type behavior.",
+      "i18n": {
+        "zh": {
+          "name": "原始类型",
+          "desc": "基本类型涵盖字符串、数字、bigint、布尔值、符号、null、未定义和类型行为。"
+        },
+        "es": {
+          "name": "Tipos primitivos",
+          "desc": "Los tipos primitivos cubren cadenas, números, bigints, booleanos, símbolos, nulos, indefinidos y comportamiento de tipos."
+        },
+        "fr": {
+          "name": "Types primitifs",
+          "desc": "Les types primitifs couvrent les chaînes, les nombres, les bigints, les booléens, les symboles, les valeurs nulles, non définies et le comportement des types."
+        },
+        "de": {
+          "name": "Primitive Typen",
+          "desc": "Primitive Typen umfassen Zeichenfolgen, Zahlen, Bigints, Boolesche Werte, Symbole, Null, Undefiniert und Typverhalten."
+        },
+        "ja": {
+          "name": "プリミティブ型",
+          "desc": "プリミティブ型は、文字列、数値、bigint、ブール値、記号、null、未定義、および型の動作を扱います。"
+        },
+        "ru": {
+          "name": "Примитивные типы",
+          "desc": "Примитивные типы охватывают строки, числа, bigint, логические значения, символы, значения null, undefined и поведение типов."
+        },
+        "ko": {
+          "name": "기본 유형",
+          "desc": "기본 유형에는 문자열, 숫자, bigint, 부울, 기호, null, 정의되지 않음 및 유형 동작이 포함됩니다."
+        },
+        "pt": {
+          "name": "Tipos Primitivos",
+          "desc": "Os tipos primitivos cobrem strings, números, bigints, booleanos, símbolos, nulos, indefinidos e comportamento de tipo."
+        }
+      }
+    },
+    {
+      "key": "javascript/objects",
+      "slug": "objects",
+      "name": "Objects",
+      "desc": "Objects cover property storage, property access, descriptors, object literals, and object identity.",
+      "i18n": {
+        "zh": {
+          "name": "对象",
+          "desc": "对象涵盖属性存储、属性访问、描述符、对象文字和对象标识。"
+        },
+        "es": {
+          "name": "Objetos",
+          "desc": "Los objetos cubren el almacenamiento de propiedades, el acceso a las propiedades, los descriptores, los literales de los objetos y la identidad del objeto."
+        },
+        "fr": {
+          "name": "Objets",
+          "desc": "Les objets couvrent le stockage des propriétés, l'accès aux propriétés, les descripteurs, les littéraux d'objet et l'identité de l'objet."
+        },
+        "de": {
+          "name": "Objekte",
+          "desc": "Objekte umfassen Eigenschaftsspeicher, Eigenschaftszugriff, Deskriptoren, Objektliterale und Objektidentität."
+        },
+        "ja": {
+          "name": "オブジェクト",
+          "desc": "オブジェクトには、プロパティストレージ、プロパティアクセス、記述子、オブジェクトリテラル、およびオブジェクト ID が含まれます。"
+        },
+        "ru": {
+          "name": "Объекты",
+          "desc": "Объекты охватывают хранение свойств, доступ к свойствам, дескрипторы, литералы объектов и идентификаторы объектов."
+        },
+        "ko": {
+          "name": "객체",
+          "desc": "객체에는 속성 저장, 속성 액세스, 설명자, 객체 리터럴 및 객체 ID가 포함됩니다."
+        },
+        "pt": {
+          "name": "Objetos",
+          "desc": "Os objetos abrangem armazenamento de propriedades, acesso a propriedades, descritores, literais de objetos e identidade de objetos."
+        }
+      }
+    },
+    {
+      "key": "javascript/arrays",
+      "slug": "arrays",
+      "name": "Arrays",
+      "desc": "Arrays cover ordered collections, indexed access, mutation, iteration, and array methods.",
+      "i18n": {
+        "zh": {
+          "name": "数组",
+          "desc": "数组涵盖有序集合、索引访问、变异、迭代和数组方法。"
+        },
+        "es": {
+          "name": "Arreglos",
+          "desc": "Los arreglos cubren colecciones ordenadas, acceso indexado, mutación, iteración y métodos de arreglo."
+        },
+        "fr": {
+          "name": "Tableaux",
+          "desc": "Les tableaux couvrent les collections ordonnées, l'accès indexé, la mutation, l'itération et les méthodes de tableau."
+        },
+        "de": {
+          "name": "Arrays",
+          "desc": "Arrays umfassen geordnete Sammlungen, indizierten Zugriff, Mutation, Iteration und Array-Methoden."
+        },
+        "ja": {
+          "name": "配列",
+          "desc": "配列は、順序付けされたコレクション、インデックス付きアクセス、ミューテーション、反復、および配列メソッドを扱います。"
+        },
+        "ru": {
+          "name": "Массивы",
+          "desc": "Массивы охватывают упорядоченные коллекции, индексированный доступ, мутации, итерации и методы массивов."
+        },
+        "ko": {
+          "name": "배열",
+          "desc": "배열은 정렬된 컬렉션, 인덱스 접근, 변경, 반복 및 배열 메서드를 다룹니다."
+        },
+        "pt": {
+          "name": "Vetores",
+          "desc": "Vetores cobrem coleções ordenadas, acesso indexado, mutação, iteração e métodos de vetor."
+        }
+      }
+    },
+    {
+      "key": "javascript/functions",
+      "slug": "functions",
+      "name": "Functions",
+      "desc": "Functions cover declarations, expressions, parameters, return values, and reusable behavior.",
+      "i18n": {
+        "zh": {
+          "name": "函数",
+          "desc": "函数涵盖声明、表达式、参数、返回值和可重用行为。"
+        },
+        "es": {
+          "name": "Funciones",
+          "desc": "Las funciones cubren declaraciones, expresiones, parámetros, valores de retorno y comportamiento reutilizable."
+        },
+        "fr": {
+          "name": "Fonctions",
+          "desc": "Les fonctions couvrent les déclarations, les expressions, les paramètres, les valeurs de retour et le comportement réutilisable."
+        },
+        "de": {
+          "name": "Funktionen",
+          "desc": "Funktionen umfassen Deklarationen, Ausdrücke, Parameter, Rückgabewerte und wiederverwendbares Verhalten."
+        },
+        "ja": {
+          "name": "関数",
+          "desc": "関数には、宣言、式、パラメータ、戻り値、および再利用可能な動作が含まれます。"
+        },
+        "ru": {
+          "name": "Функции",
+          "desc": "Функции охватывают объявления, выражения, параметры, возвращаемые значения и многократно используемое поведение."
+        },
+        "ko": {
+          "name": "함수",
+          "desc": "함수에는 선언, 표현식, 매개변수, 반환 값 및 재사용 가능한 동작이 포함됩니다."
+        },
+        "pt": {
+          "name": "Funções",
+          "desc": "As funções cobrem declarações, expressões, parâmetros, valores de retorno e comportamento reutilizável."
+        }
+      }
+    },
+    {
+      "key": "javascript/arrow_functions",
+      "slug": "arrow_functions",
+      "name": "Arrow Functions",
+      "desc": "Arrow functions cover concise callable values and lexical this behavior.",
+      "i18n": {
+        "zh": {
+          "name": "箭头函数",
+          "desc": "箭头函数涵盖简洁的可调用值和词法 this 行为。"
+        },
+        "es": {
+          "name": "Funciones de flecha",
+          "desc": "Las funciones flecha cubren valores invocables concisos y el comportamiento de this léxico."
+        },
+        "fr": {
+          "name": "Fonctions fléchées",
+          "desc": "Les fonctions fléchées couvrent des valeurs appelables concises et le comportement lexical de this."
+        },
+        "de": {
+          "name": "Pfeilfunktionen",
+          "desc": "Pfeilfunktionen behandeln prägnante aufrufbare Werte und lexikalisches this-Verhalten."
+        },
+        "ja": {
+          "name": "アロー関数",
+          "desc": "アロー関数は、簡潔な呼び出し可能値と this のレキシカルな扱いを扱います。"
+        },
+        "ru": {
+          "name": "Стрелочные функции",
+          "desc": "Стрелочные функции охватывают краткие вызываемые значения и лексическое поведение."
+        },
+        "ko": {
+          "name": "화살표 함수",
+          "desc": "화살표 함수는 간결한 호출 가능 값과 렉시컬 this 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Funções de seta",
+          "desc": "As arrow functions cobrem valores chamáveis concisos e o comportamento de this léxico."
+        }
+      }
+    },
+    {
+      "key": "javascript/closures",
+      "slug": "closures",
+      "name": "Closures",
+      "desc": "Closures cover functions that retain access to surrounding lexical state.",
+      "i18n": {
+        "zh": {
+          "name": "闭包",
+          "desc": "闭包涵盖保留对周围词法环境访问能力的函数。"
+        },
+        "es": {
+          "name": "Clausuras",
+          "desc": "Las clausuras cubren funciones que retienen el acceso al estado léxico circundante."
+        },
+        "fr": {
+          "name": "Closures",
+          "desc": "Les closures couvrent les fonctions qui conservent l'accès à l'état lexical environnant."
+        },
+        "de": {
+          "name": "Closures",
+          "desc": "Closures behandeln Funktionen, die den Zugriff auf den umgebenden lexikalischen Zustand beibehalten."
+        },
+        "ja": {
+          "name": "クロージャ",
+          "desc": "クロージャは、周囲のレキシカル環境へのアクセスを保持する関数を扱います。"
+        },
+        "ru": {
+          "name": "Замыкания",
+          "desc": "Замыкания охватывают функции, которые сохраняют доступ к окружающему лексическому состоянию."
+        },
+        "ko": {
+          "name": "클로저",
+          "desc": "클로저는 주변 렉시컬 상태에 대한 접근을 유지하는 함수를 다룹니다."
+        },
+        "pt": {
+          "name": "Closures",
+          "desc": "Closures cobrem funções que mantêm acesso ao estado léxico ao redor."
+        }
+      }
+    },
+    {
+      "key": "javascript/this_binding",
+      "slug": "this_binding",
+      "name": "This Binding",
+      "desc": "This binding covers how call sites, methods, constructors, and explicit binding affect this.",
+      "i18n": {
+        "zh": {
+          "name": "this 绑定",
+          "desc": "this 绑定涵盖调用位置、方法、构造函数和显式绑定如何影响 this。"
+        },
+        "es": {
+          "name": "Enlace de this",
+          "desc": "El enlace de this cubre cómo los sitios de llamada, los métodos, los constructores y el enlace explícito afectan a this."
+        },
+        "fr": {
+          "name": "Liaison de this",
+          "desc": "La liaison de this couvre la manière dont les sites d’appel, les méthodes, les constructeurs et la liaison explicite affectent this."
+        },
+        "de": {
+          "name": "this-Bindung",
+          "desc": "this-Bindung behandelt, wie Aufrufstellen, Methoden, Konstruktoren und explizite Bindung this beeinflussen."
+        },
+        "ja": {
+          "name": "this バインディング",
+          "desc": "this バインディングでは、呼び出し位置、メソッド、コンストラクター、明示的なバインディングが this にどのように影響するかを扱います。"
+        },
+        "ru": {
+          "name": "Привязка this",
+          "desc": "Привязка this описывает, как место вызова, методы, конструкторы и явная привязка влияют на this."
+        },
+        "ko": {
+          "name": "this 바인딩",
+          "desc": "this 바인딩은 호출 위치, 메서드, 생성자 및 명시적 바인딩이 this에 미치는 영향을 다룹니다."
+        },
+        "pt": {
+          "name": "Vinculação de this",
+          "desc": "A vinculação de this cobre como locais de chamada, métodos, construtores e vinculação explícita afetam this."
+        }
+      }
+    },
+    {
+      "key": "javascript/prototypes",
+      "slug": "prototypes",
+      "name": "Prototypes",
+      "desc": "Prototypes cover object delegation, prototype chains, inherited properties, and shared behavior.",
+      "i18n": {
+        "zh": {
+          "name": "原型",
+          "desc": "原型涵盖对象委托、原型链、继承属性和共享行为。"
+        },
+        "es": {
+          "name": "Prototipos",
+          "desc": "Los prototipos cubren la delegación de objetos, cadenas de prototipos, propiedades heredadas y comportamiento compartido."
+        },
+        "fr": {
+          "name": "Prototypes",
+          "desc": "Les prototypes couvrent la délégation d'objets, les chaînes de prototypes, les propriétés héritées et le comportement partagé."
+        },
+        "de": {
+          "name": "Prototypen",
+          "desc": "Prototypen umfassen Objektdelegierung, Prototypketten, geerbte Eigenschaften und gemeinsames Verhalten."
+        },
+        "ja": {
+          "name": "プロトタイプ",
+          "desc": "プロトタイプには、オブジェクトの委任、プロトタイプチェーン、継承されたプロパティ、および共有動作が含まれます。"
+        },
+        "ru": {
+          "name": "Прототипы",
+          "desc": "Прототипы охватывают делегирование объектов, цепочки прототипов, унаследованные свойства и общее поведение."
+        },
+        "ko": {
+          "name": "프로토타입",
+          "desc": "프로토타입은 객체 위임, 프로토타입 체인, 상속된 속성 및 공유 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Protótipos",
+          "desc": "Os protótipos cobrem delegação de objetos, cadeias de protótipos, propriedades herdadas e comportamento compartilhado."
+        }
+      }
+    },
+    {
+      "key": "javascript/classes",
+      "slug": "classes",
+      "name": "Classes",
+      "desc": "Classes cover constructor syntax, methods, fields, inheritance, and private members.",
+      "i18n": {
+        "zh": {
+          "name": "类",
+          "desc": "类涵盖构造函数语法、方法、字段、继承和私有成员。"
+        },
+        "es": {
+          "name": "Clases",
+          "desc": "Las clases cubren la sintaxis del constructor, métodos, campos, herencia y miembros privados."
+        },
+        "fr": {
+          "name": "Classes",
+          "desc": "Les classes couvrent la syntaxe du constructeur, les méthodes, les champs, l'héritage et les membres privés."
+        },
+        "de": {
+          "name": "Klassen",
+          "desc": "Die Klassen umfassen Konstruktorsyntax, Methoden, Felder, Vererbung und private Mitglieder."
+        },
+        "ja": {
+          "name": "クラス",
+          "desc": "クラスには、コンストラクター構文、メソッド、フィールド、継承、プライベートメンバーが含まれます。"
+        },
+        "ru": {
+          "name": "Классы",
+          "desc": "Классы охватывают синтаксис конструктора, методы, поля, наследование и частные члены."
+        },
+        "ko": {
+          "name": "클래스",
+          "desc": "클래스에는 생성자 구문, 메서드, 필드, 상속 및 전용 멤버가 포함됩니다."
+        },
+        "pt": {
+          "name": "Classes",
+          "desc": "As classes cobrem sintaxe do construtor, métodos, campos, herança e membros privados."
+        }
+      }
+    },
+    {
+      "key": "javascript/modules",
+      "slug": "modules",
+      "name": "Modules",
+      "desc": "Modules cover exporting, importing, module scope, dependency graphs, and browser module loading.",
+      "i18n": {
+        "zh": {
+          "name": "模块",
+          "desc": "模块涵盖导出、导入、模块作用域、依赖图和浏览器中的模块加载。"
+        },
+        "es": {
+          "name": "Módulos",
+          "desc": "Los módulos cubren exportaciones, importaciones, alcance de módulo, grafos de dependencias y carga de módulos en el navegador."
+        },
+        "fr": {
+          "name": "Modules",
+          "desc": "Les modules couvrent les exports, les imports, la portée de module, les graphes de dépendances et le chargement des modules dans le navigateur."
+        },
+        "de": {
+          "name": "Module",
+          "desc": "Die Module umfassen Exportieren, Importieren, Modulumfang, Abhängigkeitsdiagramme und das Laden von Browsermodulen."
+        },
+        "ja": {
+          "name": "モジュール",
+          "desc": "モジュールには、エクスポート、インポート、モジュールスコープ、依存関係グラフ、ブラウザモジュールの読み込みが含まれます。"
+        },
+        "ru": {
+          "name": "Модули",
+          "desc": "Модули охватывают экспорт, импорт, область видимости модуля, графы зависимостей и загрузку модулей в браузере."
+        },
+        "ko": {
+          "name": "모듈",
+          "desc": "모듈은 export, import, 모듈 스코프, 의존성 그래프 및 브라우저의 모듈 로딩을 다룹니다."
+        },
+        "pt": {
+          "name": "Módulos",
+          "desc": "Os módulos cobrem exportações, importações, escopo de módulo, grafos de dependência e carregamento de módulos no navegador."
+        }
+      }
+    },
+    {
+      "key": "javascript/expressions_operators",
+      "slug": "expressions_operators",
+      "name": "Expressions and Operators",
+      "desc": "Expressions and operators cover evaluation, arithmetic, comparison, logical behavior, precedence, and assignment.",
+      "i18n": {
+        "zh": {
+          "name": "表达式和运算符",
+          "desc": "表达式和运算符涵盖求值、算术、比较、逻辑行为、优先级和赋值。"
+        },
+        "es": {
+          "name": "Expresiones y operadores",
+          "desc": "Las expresiones y operadores cubren evaluación, aritmética, comparación, comportamiento lógico, precedencia y asignación."
+        },
+        "fr": {
+          "name": "Expressions et opérateurs",
+          "desc": "Les expressions et les opérateurs couvrent l'évaluation, l'arithmétique, la comparaison, le comportement logique, la priorité et l'affectation."
+        },
+        "de": {
+          "name": "Ausdrücke und Operatoren",
+          "desc": "Ausdrücke und Operatoren umfassen Auswertung, Arithmetik, Vergleich, logisches Verhalten, Rangfolge und Zuweisung."
+        },
+        "ja": {
+          "name": "式と演算子",
+          "desc": "式と演算子には、評価、算術、比較、論理動作、優先順位、割り当てが含まれます。"
+        },
+        "ru": {
+          "name": "Выражения и операторы",
+          "desc": "Выражения и операторы охватывают вычисления, арифметику, сравнение, логическое поведение, приоритет и присваивание."
+        },
+        "ko": {
+          "name": "표현식 및 연산자",
+          "desc": "표현식과 연산자는 평가, 산술, 비교, 논리적 동작, 우선 순위 및 할당을 다룹니다."
+        },
+        "pt": {
+          "name": "Expressões e Operadores",
+          "desc": "Expressões e operadores abrangem avaliação, aritmética, comparação, comportamento lógico, precedência e atribuição."
+        }
+      }
+    },
+    {
+      "key": "javascript/control_flow",
+      "slug": "control_flow",
+      "name": "Control Flow",
+      "desc": "Control flow covers conditional branching, switch statements, early returns, and structured decision making.",
+      "i18n": {
+        "zh": {
+          "name": "控制流",
+          "desc": "控制流涵盖条件分支、switch 语句、早期返回和结构化决策。"
+        },
+        "es": {
+          "name": "Flujo de control",
+          "desc": "El flujo de control cubre ramificaciones condicionales, sentencias switch, retornos anticipados y toma de decisiones estructurada."
+        },
+        "fr": {
+          "name": "Flux de contrôle",
+          "desc": "Le flux de contrôle couvre le branchement conditionnel, les instructions de commutation, les retours anticipés et la prise de décision structurée."
+        },
+        "de": {
+          "name": "Kontrollfluss",
+          "desc": "Der Kontrollfluss umfasst bedingte Verzweigungen, Switch-Anweisungen, frühe Rückgaben und strukturierte Entscheidungsfindung."
+        },
+        "ja": {
+          "name": "制御フロー",
+          "desc": "制御フローには、条件付き分岐、switch ステートメント、早期リターン、構造化された意思決定が含まれます。"
+        },
+        "ru": {
+          "name": "Поток управления",
+          "desc": "Поток управления охватывает условное ветвление, операторы переключения, ранние возвраты и структурированное принятие решений."
+        },
+        "ko": {
+          "name": "제어 흐름",
+          "desc": "제어 흐름에는 조건부 분기, 스위치 문, 조기 반환 및 구조화된 의사 결정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Fluxo de controle",
+          "desc": "O fluxo de controle abrange ramificações condicionais, instruções switch, retornos antecipados e tomada de decisão estruturada."
+        }
+      }
+    },
+    {
+      "key": "javascript/iteration",
+      "slug": "iteration",
+      "name": "Iteration",
+      "desc": "Iteration covers loops, iterable values, for-of behavior, and controlled repetition.",
+      "i18n": {
+        "zh": {
+          "name": "迭代",
+          "desc": "迭代涵盖循环、可迭代值、for-of 行为和受控重复。"
+        },
+        "es": {
+          "name": "Iteración",
+          "desc": "La iteración cubre bucles, valores iterables, comportamiento for-of y repetición controlada."
+        },
+        "fr": {
+          "name": "Itération",
+          "desc": "L'itération couvre les boucles, les valeurs itérables, le comportement for-of et la répétition contrôlée."
+        },
+        "de": {
+          "name": "Iteration",
+          "desc": "Die Iteration umfasst Schleifen, iterierbare Werte, For-of-Verhalten und kontrollierte Wiederholung."
+        },
+        "ja": {
+          "name": "反復",
+          "desc": "反復では、ループ、反復可能な値、for-of 動作、および制御された繰り返しを扱います。"
+        },
+        "ru": {
+          "name": "Итерация",
+          "desc": "Итерация охватывает циклы, итерируемые значения, поведение for-of и контролируемое повторение."
+        },
+        "ko": {
+          "name": "반복",
+          "desc": "반복에는 루프, 반복 가능한 값, for-of 동작 및 제어된 반복이 포함됩니다."
+        },
+        "pt": {
+          "name": "Iteração",
+          "desc": "A iteração cobre loops, valores iteráveis, comportamento for-of e repetição controlada."
+        }
+      }
+    },
+    {
+      "key": "javascript/destructuring_spread",
+      "slug": "destructuring_spread",
+      "name": "Destructuring and Spread",
+      "desc": "Destructuring and spread cover extracting values and expanding arrays or objects in expressions.",
+      "i18n": {
+        "zh": {
+          "name": "解构与展开",
+          "desc": "解构与展开涵盖提取值以及在表达式中展开数组或对象。"
+        },
+        "es": {
+          "name": "Desestructuración y spread",
+          "desc": "La desestructuración y spread cubren la extracción de valores y la expansión de arrays u objetos en expresiones."
+        },
+        "fr": {
+          "name": "Déstructuration et spread",
+          "desc": "La déstructuration et le spread couvrent l'extraction de valeurs et l'expansion de tableaux ou d'objets dans des expressions."
+        },
+        "de": {
+          "name": "Destrukturierung und Spread",
+          "desc": "Destrukturierung und Spread umfassen das Extrahieren von Werten und das Erweitern von Arrays oder Objekten in Ausdrücken."
+        },
+        "ja": {
+          "name": "分割代入とスプレッド",
+          "desc": "分割代入とスプレッドでは、値の抽出と式内での配列またはオブジェクトの展開を扱います。"
+        },
+        "ru": {
+          "name": "Деструктуризация и spread",
+          "desc": "Деструктуризация и spread охватывают извлечение значений и расширение массивов или объектов в выражениях."
+        },
+        "ko": {
+          "name": "구조 분해와 스프레드",
+          "desc": "구조 분해와 스프레드는 값 추출과 표현식에서 배열 또는 객체를 펼치는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Desestruturação e spread",
+          "desc": "Desestruturação e spread abrangem a extração de valores e a expansão de arrays ou objetos em expressões."
+        }
+      }
+    },
+    {
+      "key": "javascript/template_literals",
+      "slug": "template_literals",
+      "name": "Template Literals",
+      "desc": "Template literals cover interpolated strings, multiline strings, and tagged template behavior.",
+      "i18n": {
+        "zh": {
+          "name": "模板字面量",
+          "desc": "模板字面量涵盖插值字符串、多行字符串和带标签模板的行为。"
+        },
+        "es": {
+          "name": "Cadenas de plantilla",
+          "desc": "Las cadenas de plantilla cubren cadenas interpoladas, cadenas multilínea y el comportamiento de plantillas etiquetadas."
+        },
+        "fr": {
+          "name": "Littéraux de gabarit",
+          "desc": "Les littéraux de gabarit couvrent les chaînes interpolées, les chaînes multilignes et le comportement des gabarits étiquetés."
+        },
+        "de": {
+          "name": "Template-Literale",
+          "desc": "Template-Literale behandeln interpolierte Zeichenketten, mehrzeilige Zeichenketten und das Verhalten getaggter Templates."
+        },
+        "ja": {
+          "name": "テンプレートリテラル",
+          "desc": "テンプレートリテラルは、補間文字列、複数行文字列、およびタグ付きテンプレートの動作を扱います。"
+        },
+        "ru": {
+          "name": "Шаблонные литералы",
+          "desc": "Шаблонные литералы охватывают интерполированные строки, многострочные строки и поведение тегированных шаблонов."
+        },
+        "ko": {
+          "name": "템플릿 리터럴",
+          "desc": "템플릿 리터럴은 보간된 문자열, 여러 줄 문자열 및 태그가 지정된 템플릿 동작을 포함합니다."
+        },
+        "pt": {
+          "name": "Literais de template",
+          "desc": "Literais de template cobrem cadeias interpoladas, cadeias multilinha e o comportamento de templates marcados."
+        }
+      }
+    },
+    {
+      "key": "javascript/nullish_optional",
+      "slug": "nullish_optional",
+      "name": "Nullish and Optional Access",
+      "desc": "Nullish and optional access cover safe property access and defaulting around null or undefined values.",
+      "i18n": {
+        "zh": {
+          "name": "Nullish 与可选访问",
+          "desc": "Nullish 与可选访问涵盖安全访问属性，并围绕 null 或 undefined 设置默认值。"
+        },
+        "es": {
+          "name": "Acceso opcional y valores nulos",
+          "desc": "El acceso opcional y los valores nulos cubren el acceso seguro a propiedades y los valores predeterminados para null o undefined."
+        },
+        "fr": {
+          "name": "Accès optionnel et valeurs nulles",
+          "desc": "L’accès optionnel et les valeurs nulles couvrent l’accès sécurisé aux propriétés et les valeurs par défaut pour null ou undefined."
+        },
+        "de": {
+          "name": "Optionaler Zugriff und Nullwerte",
+          "desc": "Optionaler Zugriff und Nullwerte behandeln sicheren Zugriff auf Eigenschaften und Standardwerte für null oder undefined."
+        },
+        "ja": {
+          "name": "null/undefined とオプショナルアクセス",
+          "desc": "null/undefined とオプショナルアクセスは、安全なプロパティアクセスと、null または undefined 値に対するデフォルト値を扱います。"
+        },
+        "ru": {
+          "name": "Опциональный доступ и значения null/undefined",
+          "desc": "Опциональный доступ и значения null/undefined охватывают безопасный доступ к свойствам и значения по умолчанию для null или undefined."
+        },
+        "ko": {
+          "name": "null/undefined 및 선택적 접근",
+          "desc": "null/undefined 및 선택적 접근은 안전한 속성 접근과 null 또는 undefined 값의 기본값 설정을 다룹니다."
+        },
+        "pt": {
+          "name": "Acesso opcional e valores nulos",
+          "desc": "O acesso opcional e valores nulos cobre acesso seguro a propriedades e padrões para valores null ou undefined."
+        }
+      }
+    },
+    {
+      "key": "javascript/errors_exceptions",
+      "slug": "errors_exceptions",
+      "name": "Errors and Exceptions",
+      "desc": "Errors and exceptions cover throwing, catching, custom errors, stack traces, and failure propagation.",
+      "i18n": {
+        "zh": {
+          "name": "错误和异常",
+          "desc": "错误和异常包括抛出、捕获、自定义错误、堆栈跟踪和故障传播。"
+        },
+        "es": {
+          "name": "Errores y excepciones",
+          "desc": "Los errores y excepciones cubren la generación, captura, errores personalizados, seguimientos de pila y propagación de fallas."
+        },
+        "fr": {
+          "name": "Erreurs et exceptions",
+          "desc": "Les erreurs et exceptions couvrent le lancement, la capture, les erreurs personnalisées, les traces de pile et la propagation des échecs."
+        },
+        "de": {
+          "name": "Fehler und Ausnahmen",
+          "desc": "Fehler und Ausnahmen umfassen das Auslösen, Abfangen, benutzerdefinierte Fehler, Stack-Traces und die Fehlerweitergabe."
+        },
+        "ja": {
+          "name": "エラーと例外",
+          "desc": "エラーと例外には、スロー、キャッチ、カスタムエラー、スタックトレース、障害の伝播が含まれます。"
+        },
+        "ru": {
+          "name": "Ошибки и исключения",
+          "desc": "Ошибки и исключения охватывают выдачу, перехват, пользовательские ошибки, трассировку стека и распространение ошибок."
+        },
+        "ko": {
+          "name": "오류 및 예외",
+          "desc": "오류와 예외는 JavaScript 실패 조건을 throw하고 catch하고 전파하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Erros e exceções",
+          "desc": "Erros e exceções abrangem lançamento, captura, erros personalizados, rastreamentos de pilha e propagação de falhas."
+        }
+      }
+    },
+    {
+      "key": "javascript/promises",
+      "slug": "promises",
+      "name": "Promises",
+      "desc": "Promises cover asynchronous results, chaining, rejection handling, and promise composition.",
+      "i18n": {
+        "zh": {
+          "name": "Promises",
+          "desc": "Promises 涵盖异步结果、链式调用、拒绝处理和 Promise 组合。"
+        },
+        "es": {
+          "name": "Promises",
+          "desc": "Promises cubre resultados asíncronos, encadenamiento, manejo de rechazos y composición de promesas."
+        },
+        "fr": {
+          "name": "Promises",
+          "desc": "Promises couvrent les résultats asynchrones, le chaînage, la gestion des rejets et la composition de promesses."
+        },
+        "de": {
+          "name": "Promises",
+          "desc": "Promises behandeln asynchrone Ergebnisse, Verkettung, Fehlerbehandlung bei Rejections und Promise-Komposition."
+        },
+        "ja": {
+          "name": "Promises",
+          "desc": "Promises は、非同期結果、チェーン、rejection 処理、Promise の合成を扱います。"
+        },
+        "ru": {
+          "name": "Promises",
+          "desc": "Promises охватывают асинхронные результаты, цепочки, обработку отклонений и композицию промисов."
+        },
+        "ko": {
+          "name": "Promises",
+          "desc": "Promises는 비동기 결과, 체이닝, rejection 처리, Promise 조합을 다룹니다."
+        },
+        "pt": {
+          "name": "Promises",
+          "desc": "Promises cobrem resultados assíncronos, encadeamento, tratamento de rejeições e composição de promises."
+        }
+      }
+    },
+    {
+      "key": "javascript/async_await",
+      "slug": "async_await",
+      "name": "Async and Await",
+      "desc": "Async and await cover writing asynchronous control flow with promise-based functions.",
+      "i18n": {
+        "zh": {
+          "name": "async 和 await",
+          "desc": "async 和 await 涵盖使用 Promise 函数编写异步控制流。"
+        },
+        "es": {
+          "name": "async y await",
+          "desc": "async y await cubren la escritura de flujo de control asíncrono con funciones basadas en Promise."
+        },
+        "fr": {
+          "name": "async et await",
+          "desc": "async et await couvrent l’écriture d’un flux de contrôle asynchrone avec des fonctions basées sur les Promise."
+        },
+        "de": {
+          "name": "async und await",
+          "desc": "async und await behandeln das Schreiben asynchroner Kontrollflüsse mit Promise-basierten Funktionen."
+        },
+        "ja": {
+          "name": "async と await",
+          "desc": "async と await は、Promise ベースの関数で非同期制御フローを書く方法を扱います。"
+        },
+        "ru": {
+          "name": "async и await",
+          "desc": "async и await охватывают написание асинхронного потока управления с функциями на основе Promise."
+        },
+        "ko": {
+          "name": "async와 await",
+          "desc": "async와 await는 Promise 기반 함수로 비동기 제어 흐름을 작성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "async e await",
+          "desc": "async e await cobrem a escrita de fluxo de controle assíncrono com funções baseadas em Promise."
+        }
+      }
+    },
+    {
+      "key": "javascript/event_loop",
+      "slug": "event_loop",
+      "name": "Event Loop",
+      "desc": "Event loop covers tasks, microtasks, rendering opportunities, and asynchronous scheduling behavior.",
+      "i18n": {
+        "zh": {
+          "name": "事件循环",
+          "desc": "事件循环涵盖任务、微任务、渲染机会和异步调度行为。"
+        },
+        "es": {
+          "name": "Bucle de eventos",
+          "desc": "El bucle de eventos cubre tareas, microtareas, oportunidades de renderizado y comportamiento de programación asincrónica."
+        },
+        "fr": {
+          "name": "Boucle d'événement",
+          "desc": "La boucle d'événements couvre les tâches, les microtâches, les opportunités de rendu et le comportement de planification asynchrone."
+        },
+        "de": {
+          "name": "Ereignisschleife",
+          "desc": "Die Ereignisschleife umfasst Aufgaben, Mikrotasks, Rendering-Möglichkeiten und asynchrones Planungsverhalten."
+        },
+        "ja": {
+          "name": "イベントループ",
+          "desc": "イベントループには、タスク、マイクロタスク、レンダリング機会、および非同期スケジューリング動作が含まれます。"
+        },
+        "ru": {
+          "name": "Цикл событий",
+          "desc": "Цикл событий охватывает задачи, микрозадачи, возможности рендеринга и поведение асинхронного планирования."
+        },
+        "ko": {
+          "name": "이벤트 루프",
+          "desc": "이벤트 루프는 태스크, 마이크로태스크, 렌더링 기회 및 비동기 스케줄링 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Ciclo de eventos",
+          "desc": "O loop de eventos abrange tarefas, microtarefas, oportunidades de renderização e comportamento de agendamento assíncrono."
+        }
+      }
+    },
+    {
+      "key": "javascript/timers",
+      "slug": "timers",
+      "name": "Timers",
+      "desc": "Timers cover delayed and repeated execution with browser scheduling APIs.",
+      "i18n": {
+        "zh": {
+          "name": "定时器",
+          "desc": "定时器涵盖通过浏览器调度 API 延迟执行和重复执行代码。"
+        },
+        "es": {
+          "name": "Temporizadores",
+          "desc": "Los temporizadores cubren ejecuciones retrasadas y repetidas con API de programación del navegador."
+        },
+        "fr": {
+          "name": "Minuteries",
+          "desc": "Les minuteries couvrent les exécutions retardées et répétées grâce aux API de planification du navigateur."
+        },
+        "de": {
+          "name": "Timer",
+          "desc": "Timer decken verzögerte und wiederholte Ausführung mit Browser-Planungs-APIs ab."
+        },
+        "ja": {
+          "name": "タイマー",
+          "desc": "タイマーは、ブラウザースケジューリング API による遅延実行と繰り返し実行を扱います。"
+        },
+        "ru": {
+          "name": "Таймеры",
+          "desc": "Таймеры охватывают отложенное и повторное выполнение с помощью API планирования браузера."
+        },
+        "ko": {
+          "name": "타이머",
+          "desc": "타이머는 브라우저 예약 API를 사용하여 지연되고 반복되는 실행을 다룹니다."
+        },
+        "pt": {
+          "name": "Temporizadores",
+          "desc": "Os temporizadores cobrem a execução atrasada e repetida com APIs de agendamento do navegador."
+        }
+      }
+    },
+    {
+      "key": "javascript/json_data",
+      "slug": "json_data",
+      "name": "JSON Data",
+      "desc": "JSON data covers parsing, serializing, validating, and exchanging structured text data.",
+      "i18n": {
+        "zh": {
+          "name": "JSON 数据",
+          "desc": "JSON 数据涵盖解析、序列化、验证和交换结构化文本数据。"
+        },
+        "es": {
+          "name": "Datos JSON",
+          "desc": "Los datos JSON cubren el análisis, la serialización, la validación y el intercambio de datos de texto estructurado."
+        },
+        "fr": {
+          "name": "Données JSON",
+          "desc": "Les données JSON couvrent l'analyse, la sérialisation, la validation et l'échange de données textuelles structurées."
+        },
+        "de": {
+          "name": "JSON-Daten",
+          "desc": "JSON-Daten umfassen das Parsen, Serialisieren, Validieren und Austauschen strukturierter Textdaten."
+        },
+        "ja": {
+          "name": "JSON データ",
+          "desc": "JSON データは、構造化テキストデータの解析、シリアル化、検証、交換を扱います。"
+        },
+        "ru": {
+          "name": "Данные JSON",
+          "desc": "Данные JSON охватывают разбор, сериализацию, проверку и обмен структурированными текстовыми данными."
+        },
+        "ko": {
+          "name": "JSON 데이터",
+          "desc": "JSON 데이터에는 구조화된 텍스트 데이터의 구문 분석, 직렬화, 유효성 검사 및 교환이 포함됩니다."
+        },
+        "pt": {
+          "name": "Dados JSON",
+          "desc": "Dados JSON abrangem análise, serialização, validação e troca de dados de texto estruturado."
+        }
+      }
+    },
+    {
+      "key": "javascript/dates_times",
+      "slug": "dates_times",
+      "name": "Dates and Times",
+      "desc": "Dates and times cover representing moments, formatting values, and handling time-related calculations.",
+      "i18n": {
+        "zh": {
+          "name": "日期和时间",
+          "desc": "日期和时间涵盖表示时刻、格式化值以及处理与时间相关的计算。"
+        },
+        "es": {
+          "name": "Fechas y Horarios",
+          "desc": "Las fechas y horas cubren la representación de momentos, el formato de valores y el manejo de cálculos relacionados con el tiempo."
+        },
+        "fr": {
+          "name": "Dates et heures",
+          "desc": "Les dates et heures couvrent la représentation des moments, le formatage des valeurs et la gestion des calculs liés au temps."
+        },
+        "de": {
+          "name": "Daten und Zeiten",
+          "desc": "Bei Datums- und Uhrzeitangaben geht es um die Darstellung von Momenten, die Formatierung von Werten und die Handhabung zeitbezogener Berechnungen."
+        },
+        "ja": {
+          "name": "日付と時刻",
+          "desc": "日付と時刻では、瞬間の表現、値の書式設定、時間関連の計算の処理について説明します。"
+        },
+        "ru": {
+          "name": "Даты и время",
+          "desc": "Даты и время охватывают представление моментов, форматирование значений и обработку вычислений, связанных со временем."
+        },
+        "ko": {
+          "name": "날짜 및 시간",
+          "desc": "날짜 및 시간에는 순간 표현, 값 형식 지정 및 시간 관련 계산 처리가 포함됩니다."
+        },
+        "pt": {
+          "name": "Datas e horários",
+          "desc": "As datas e horas abrangem a representação de momentos, a formatação de valores e o tratamento de cálculos relacionados ao tempo."
+        }
+      }
+    },
+    {
+      "key": "javascript/regular_expressions",
+      "slug": "regular_expressions",
+      "name": "Regular Expressions",
+      "desc": "Regular expressions cover matching, extracting, replacing, and validating text patterns.",
+      "i18n": {
+        "zh": {
+          "name": "正则表达式",
+          "desc": "正则表达式涵盖匹配、提取、替换和验证文本模式。"
+        },
+        "es": {
+          "name": "Expresiones regulares",
+          "desc": "Las expresiones regulares cubren hacer coincidir, extraer, reemplazar y validar patrones de texto."
+        },
+        "fr": {
+          "name": "Expressions régulières",
+          "desc": "Les expressions régulières couvrent la correspondance, l'extraction, le remplacement et la validation de modèles de texte."
+        },
+        "de": {
+          "name": "Reguläre Ausdrücke",
+          "desc": "Reguläre Ausdrücke umfassen das Abgleichen, Extrahieren, Ersetzen und Validieren von Textmustern."
+        },
+        "ja": {
+          "name": "正規表現",
+          "desc": "正規表現には、テキストパターンの照合、抽出、置換、検証が含まれます。"
+        },
+        "ru": {
+          "name": "Регулярные выражения",
+          "desc": "Регулярные выражения охватывают сопоставление, извлечение, замену и проверку текстовых шаблонов."
+        },
+        "ko": {
+          "name": "정규 표현식",
+          "desc": "정규식에는 텍스트 패턴 일치, 추출, 교체 및 유효성 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Expressões Regulares",
+          "desc": "Expressões regulares cobrem correspondência, extração, substituição e validação de padrões de texto."
+        }
+      }
+    },
+    {
+      "key": "javascript/maps_sets",
+      "slug": "maps_sets",
+      "name": "Maps and Sets",
+      "desc": "Maps and sets cover keyed collections, unique values, weak references, and collection iteration.",
+      "i18n": {
+        "zh": {
+          "name": "Map 和 Set",
+          "desc": "Map 和 Set 涵盖键控集合、唯一值、弱引用和集合迭代。"
+        },
+        "es": {
+          "name": "Map y Set",
+          "desc": "Los mapas y conjuntos cubren colecciones con claves, valores únicos, referencias débiles e iteraciones de colecciones."
+        },
+        "fr": {
+          "name": "Map et Set",
+          "desc": "Map et Set couvrent les collections à clé, les valeurs uniques, les références faibles et l’itération de collections."
+        },
+        "de": {
+          "name": "Map und Set",
+          "desc": "Map und Set decken Collections mit Schlüsselzugriff, eindeutige Werte, schwache Referenzen und Collection-Iteration ab."
+        },
+        "ja": {
+          "name": "Map と Set",
+          "desc": "マップとセットは、キー付きコレクション、一意の値、弱い参照、およびコレクションの反復を扱います。"
+        },
+        "ru": {
+          "name": "Map и Set",
+          "desc": "Map и Set охватывают коллекции с ключами, уникальные значения, слабые ссылки и итерацию коллекций."
+        },
+        "ko": {
+          "name": "Map과 Set",
+          "desc": "맵과 세트는 키가 지정된 컬렉션, 고유 값, 약한 참조 및 컬렉션 반복을 다룹니다."
+        },
+        "pt": {
+          "name": "Map e Set",
+          "desc": "Mapas e conjuntos cobrem coleções chaveadas, valores únicos, referências fracas e iteração de coleções."
+        }
+      }
+    },
+    {
+      "key": "javascript/iterators_generators",
+      "slug": "iterators_generators",
+      "name": "Iterators and Generators",
+      "desc": "Iterators and generators cover custom iteration protocols and pausable sequence generation.",
+      "i18n": {
+        "zh": {
+          "name": "迭代器和生成器",
+          "desc": "迭代器和生成器涵盖自定义迭代协议和可暂停序列生成。"
+        },
+        "es": {
+          "name": "Iteradores y generadores",
+          "desc": "Los iteradores y generadores cubren protocolos de iteración personalizados y generación de secuencias pausables."
+        },
+        "fr": {
+          "name": "Itérateurs et générateurs",
+          "desc": "Les itérateurs et les générateurs couvrent les protocoles d'itération personnalisés et la génération de séquences pouvant être suspendues."
+        },
+        "de": {
+          "name": "Iteratoren und Generatoren",
+          "desc": "Iteratoren und Generatoren decken benutzerdefinierte Iterationsprotokolle und die Generierung pausierbarer Sequenzen ab."
+        },
+        "ja": {
+          "name": "イテレータとジェネレータ",
+          "desc": "イテレーターとジェネレーターは、カスタム反復プロトコルと一時停止可能なシーケンス生成を扱います。"
+        },
+        "ru": {
+          "name": "Итераторы и генераторы",
+          "desc": "Итераторы и генераторы охватывают специальные протоколы итераций и генерацию приостанавливаемых последовательностей."
+        },
+        "ko": {
+          "name": "반복자와 생성기",
+          "desc": "반복자와 생성기는 사용자 정의 반복 프로토콜과 일시 중지 가능한 시퀀스 생성을 다룹니다."
+        },
+        "pt": {
+          "name": "Iteradores e Geradores",
+          "desc": "Iteradores e geradores cobrem protocolos de iteração personalizados e geração de sequências pausáveis."
+        }
+      }
+    },
+    {
+      "key": "javascript/dom_tree",
+      "slug": "dom_tree",
+      "name": "DOM Tree",
+      "desc": "DOM tree covers the browser document object model and relationships between nodes and elements.",
+      "i18n": {
+        "zh": {
+          "name": "DOM 树",
+          "desc": "DOM 树涵盖了浏览器文档对象模型以及节点和元素之间的关系。"
+        },
+        "es": {
+          "name": "Árbol DOM",
+          "desc": "El árbol DOM cubre el modelo de objetos del documento del navegador y las relaciones entre nodos y elementos."
+        },
+        "fr": {
+          "name": "Arbre DOM",
+          "desc": "L'arborescence DOM couvre le modèle objet du document du navigateur et les relations entre les nœuds et les éléments."
+        },
+        "de": {
+          "name": "DOM-Baum",
+          "desc": "Der DOM-Baum deckt das Browser-Dokumentobjektmodell und die Beziehungen zwischen Knoten und Elementen ab."
+        },
+        "ja": {
+          "name": "DOM 木",
+          "desc": "DOM ツリーは、ブラウザードキュメントのオブジェクトモデルと、ノードと要素間の関係を扱います。"
+        },
+        "ru": {
+          "name": "Дерево DOM",
+          "desc": "Дерево DOM охватывает объектную модель документа браузера и отношения между узлами и элементами."
+        },
+        "ko": {
+          "name": "DOM 트리",
+          "desc": "DOM 트리는 브라우저 문서 개체 모델과 노드와 요소 간의 관계를 다룹니다."
+        },
+        "pt": {
+          "name": "Árvore DOM",
+          "desc": "A árvore DOM cobre o modelo de objeto do documento do navegador e os relacionamentos entre nós e elementos."
+        }
+      }
+    },
+    {
+      "key": "javascript/dom_selection",
+      "slug": "dom_selection",
+      "name": "DOM Selection",
+      "desc": "DOM selection covers finding elements and nodes with selectors, traversal, and document APIs.",
+      "i18n": {
+        "zh": {
+          "name": "DOM 选择",
+          "desc": "DOM 选择涵盖使用选择器、遍历和 document API 查找元素和节点。"
+        },
+        "es": {
+          "name": "Selección del DOM",
+          "desc": "La selección DOM cubre la búsqueda de elementos y nodos con selectores, recorrido y API de documentos."
+        },
+        "fr": {
+          "name": "Sélection du DOM",
+          "desc": "La sélection DOM couvre la recherche d'éléments et de nœuds avec des sélecteurs, des API de parcours et de document."
+        },
+        "de": {
+          "name": "DOM-Auswahl",
+          "desc": "Die DOM-Auswahl umfasst das Finden von Elementen und Knoten mit Selektoren, Traversal und Dokument-APIs."
+        },
+        "ja": {
+          "name": "DOM セレクション",
+          "desc": "DOM 選択には、セレクター、トラバーサル、およびドキュメント API を使用した要素とノードの検索が含まれます。"
+        },
+        "ru": {
+          "name": "Выбор DOM",
+          "desc": "Выбор DOM охватывает поиск элементов и узлов с помощью селекторов, обхода и API документов."
+        },
+        "ko": {
+          "name": "DOM 선택",
+          "desc": "DOM 선택은 선택기, 순회 및 문서 API를 사용하여 요소와 노드를 찾는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Seleção do DOM",
+          "desc": "A seleção do DOM cobre a localização de elementos e nós com seletores, travessia e APIs de documento."
+        }
+      }
+    },
+    {
+      "key": "javascript/dom_manipulation",
+      "slug": "dom_manipulation",
+      "name": "DOM Manipulation",
+      "desc": "DOM manipulation covers creating, updating, moving, and removing document nodes.",
+      "i18n": {
+        "zh": {
+          "name": "DOM 操作",
+          "desc": "DOM 操作涵盖创建、更新、移动和删除文档节点。"
+        },
+        "es": {
+          "name": "Manipulación del DOM",
+          "desc": "La manipulación del DOM cubre la creación, actualización, movimiento y eliminación de nodos de documentos."
+        },
+        "fr": {
+          "name": "Manipulation du DOM",
+          "desc": "La manipulation du DOM couvre la création, la mise à jour, le déplacement et la suppression de nœuds de document."
+        },
+        "de": {
+          "name": "DOM-Manipulation",
+          "desc": "DOM-Manipulation umfasst das Erstellen, Aktualisieren, Verschieben und Entfernen von Dokumentknoten."
+        },
+        "ja": {
+          "name": "DOM 操作",
+          "desc": "DOM 操作には、ドキュメントノードの作成、更新、移動、および削除が含まれます。"
+        },
+        "ru": {
+          "name": "Манипуляции с DOM",
+          "desc": "DOM манипуляции охватывают создание, обновление, перемещение и удаление узлов документа."
+        },
+        "ko": {
+          "name": "DOM 조작",
+          "desc": "DOM 조작에는 문서 노드 생성, 업데이트, 이동 및 제거가 포함됩니다."
+        },
+        "pt": {
+          "name": "Manipulação do DOM",
+          "desc": "A manipulação DOM abrange a criação, atualização, movimentação e remoção de nós de documentos."
+        }
+      }
+    },
+    {
+      "key": "javascript/attributes_dataset",
+      "slug": "attributes_dataset",
+      "name": "Attributes and Dataset",
+      "desc": "Attributes and dataset cover reading and updating element attributes, properties, and custom data.",
+      "i18n": {
+        "zh": {
+          "name": "属性和 dataset",
+          "desc": "属性和 dataset 涵盖读取和更新元素 attributes、DOM properties 和自定义数据。"
+        },
+        "es": {
+          "name": "Atributos y dataset",
+          "desc": "Los atributos y dataset cubren la lectura y actualización de atributos de elementos, propiedades y datos personalizados."
+        },
+        "fr": {
+          "name": "Attributs et dataset",
+          "desc": "Les attributs et dataset couvrent la lecture et la mise à jour des attributs d’éléments, des propriétés et des données personnalisées."
+        },
+        "de": {
+          "name": "Attribute und dataset",
+          "desc": "Attribute und dataset behandeln das Lesen und Aktualisieren von Elementattributen, Eigenschaften und benutzerdefinierten Daten."
+        },
+        "ja": {
+          "name": "属性と dataset",
+          "desc": "属性と dataset は、要素の属性、プロパティ、カスタムデータの読み取りと更新を扱います。"
+        },
+        "ru": {
+          "name": "Атрибуты и dataset",
+          "desc": "Атрибуты и dataset охватывают чтение и обновление атрибутов элементов, свойств и пользовательских данных."
+        },
+        "ko": {
+          "name": "속성과 dataset",
+          "desc": "속성과 dataset은 요소 속성, 프로퍼티, 사용자 정의 데이터를 읽고 업데이트하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Atributos e dataset",
+          "desc": "Atributos e dataset cobrem a leitura e atualização de atributos de elementos, propriedades e dados personalizados."
+        }
+      }
+    },
+    {
+      "key": "javascript/events",
+      "slug": "events",
+      "name": "Events",
+      "desc": "Events cover listening for browser and user interactions and responding with event handlers.",
+      "i18n": {
+        "zh": {
+          "name": "事件",
+          "desc": "事件包括监听浏览器和用户交互以及使用事件处理程序进行响应。"
+        },
+        "es": {
+          "name": "Eventos",
+          "desc": "Los eventos cubren escuchar las interacciones del navegador y del usuario y responder con controladores de eventos."
+        },
+        "fr": {
+          "name": "Événements",
+          "desc": "Les événements couvrent l'écoute des interactions du navigateur et des utilisateurs et la réponse avec les gestionnaires d'événements."
+        },
+        "de": {
+          "name": "Ereignisse",
+          "desc": "Ereignisse umfassen das Abhören von Browser- und Benutzerinteraktionen sowie das Reagieren mit Ereignishandlern."
+        },
+        "ja": {
+          "name": "イベント",
+          "desc": "イベントには、ブラウザーとユーザーの対話のリッスンと、イベントハンドラーによる応答が含まれます。"
+        },
+        "ru": {
+          "name": "События",
+          "desc": "События охватывают прослушивание действий браузера и пользователя и реагирование с помощью обработчиков событий."
+        },
+        "ko": {
+          "name": "이벤트",
+          "desc": "이벤트에는 브라우저 및 사용자 상호 작용을 수신하고 이벤트 핸들러로 응답하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Eventos",
+          "desc": "Os eventos abrangem a escuta das interações do navegador e do usuário e a resposta com manipuladores de eventos."
+        }
+      }
+    },
+    {
+      "key": "javascript/event_propagation",
+      "slug": "event_propagation",
+      "name": "Event Propagation",
+      "desc": "Event propagation covers capturing, bubbling, default actions, cancellation, and event targets.",
+      "i18n": {
+        "zh": {
+          "name": "事件传播",
+          "desc": "事件传播涵盖捕获、冒泡、默认操作、取消和事件目标。"
+        },
+        "es": {
+          "name": "Propagación de eventos",
+          "desc": "La propagación de eventos cubre la captura, el bubbling, las acciones predeterminadas, la cancelación y los objetivos de eventos."
+        },
+        "fr": {
+          "name": "Propagation d'événements",
+          "desc": "La propagation des événements couvre la capture, le bubbling, les actions par défaut, l’annulation et les cibles d’événements."
+        },
+        "de": {
+          "name": "Ereignisausbreitung",
+          "desc": "Die Ereignisweitergabe umfasst Erfassung, Bubbling, Standardaktionen, Abbruch und Ereignisziele."
+        },
+        "ja": {
+          "name": "イベントの伝播",
+          "desc": "イベントの伝播には、キャプチャ、バブリング、デフォルトのアクション、キャンセル、およびイベントターゲットが含まれます。"
+        },
+        "ru": {
+          "name": "Распространение событий",
+          "desc": "Распространение событий охватывает захват, всплывание, действия по умолчанию, отмену и цели событий."
+        },
+        "ko": {
+          "name": "이벤트 전파",
+          "desc": "이벤트 전파에는 캡처, 버블링, 기본 작업, 취소 및 이벤트 대상이 포함됩니다."
+        },
+        "pt": {
+          "name": "Propagação de Eventos",
+          "desc": "A propagação de eventos abrange captura, bubbling, ações padrão, cancelamento e alvos de eventos."
+        }
+      }
+    },
+    {
+      "key": "javascript/event_delegation",
+      "slug": "event_delegation",
+      "name": "Event Delegation",
+      "desc": "Event delegation covers handling repeated or dynamic elements through shared ancestor listeners.",
+      "i18n": {
+        "zh": {
+          "name": "事件委托",
+          "desc": "事件委托涵盖通过共享的祖先元素监听器处理重复或动态元素。"
+        },
+        "es": {
+          "name": "Delegación de Eventos",
+          "desc": "La delegación de eventos cubre el manejo de elementos repetidos o dinámicos a través de oyentes ancestros compartidos."
+        },
+        "fr": {
+          "name": "Délégation d'événement",
+          "desc": "La délégation d'événements couvre la gestion d'éléments répétés ou dynamiques via des écouteurs placés sur un ancêtre commun."
+        },
+        "de": {
+          "name": "Ereignisdelegation",
+          "desc": "Die Ereignisdelegation umfasst die Behandlung wiederholter oder dynamischer Elemente über Listener an einem gemeinsamen Vorfahren."
+        },
+        "ja": {
+          "name": "イベントの委任",
+          "desc": "イベント委任は、共有祖先リスナーを介した繰り返し要素または動的要素の処理を扱います。"
+        },
+        "ru": {
+          "name": "Делегирование событий",
+          "desc": "Делегирование событий охватывает обработку повторяющихся или динамических элементов через обработчики на общем предке."
+        },
+        "ko": {
+          "name": "이벤트 위임",
+          "desc": "이벤트 위임에는 공유된 상위 리스너를 통해 반복되거나 동적 요소를 처리하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Delegação de Eventos",
+          "desc": "A delegação de eventos abrange o tratamento de elementos repetidos ou dinâmicos por meio de ouvintes ancestrais compartilhados."
+        }
+      }
+    },
+    {
+      "key": "javascript/form_interaction",
+      "slug": "form_interaction",
+      "name": "Form Interaction",
+      "desc": "Form interaction covers reading controls, validating input, handling submission, and updating feedback.",
+      "i18n": {
+        "zh": {
+          "name": "表单交互",
+          "desc": "表单交互包括读取控件、验证输入、处理提交和更新反馈。"
+        },
+        "es": {
+          "name": "Interacción de formulario",
+          "desc": "La interacción del formulario cubre la lectura de controles, la validación de entradas, el manejo del envío y la actualización de comentarios."
+        },
+        "fr": {
+          "name": "Interaction avec les formulaires",
+          "desc": "L'interaction avec le formulaire couvre les contrôles de lecture, la validation des entrées, la gestion de la soumission et la mise à jour des commentaires."
+        },
+        "de": {
+          "name": "Formularinteraktion",
+          "desc": "Die Formularinteraktion umfasst das Lesen von Steuerelementen, die Validierung von Eingaben, die Bearbeitung von Übermittlungen und die Aktualisierung von Feedback."
+        },
+        "ja": {
+          "name": "フォームインタラクション",
+          "desc": "フォームの操作には、コントロールの読み取り、入力の検証、送信の処理、フィードバックの更新が含まれます。"
+        },
+        "ru": {
+          "name": "Форма взаимодействия",
+          "desc": "Взаимодействие с формой охватывает элементы управления чтением, проверку ввода, обработку отправки и обновление обратной связи."
+        },
+        "ko": {
+          "name": "양식 상호 작용",
+          "desc": "양식 상호 작용에는 읽기 제어, 입력 유효성 검사, 제출 처리 및 피드백 업데이트가 포함됩니다."
+        },
+        "pt": {
+          "name": "Interação de formulário",
+          "desc": "A interação do formulário abrange controles de leitura, validação de entrada, tratamento de envio e atualização de feedback."
+        }
+      }
+    },
+    {
+      "key": "javascript/browser_navigation",
+      "slug": "browser_navigation",
+      "name": "Browser Navigation",
+      "desc": "Browser navigation covers location, history, URL state, navigation events, and page transitions.",
+      "i18n": {
+        "zh": {
+          "name": "浏览器导航",
+          "desc": "浏览器导航涵盖位置、历史记录、URL 状态、导航事件和页面转换。"
+        },
+        "es": {
+          "name": "Navegación del navegador",
+          "desc": "La navegación del navegador cubre la ubicación, el historial, el estado URL, los eventos de navegación y las transiciones de página."
+        },
+        "fr": {
+          "name": "Navigation dans le navigateur",
+          "desc": "La navigation dans le navigateur couvre l'emplacement, l'historique, l'état URL, les événements de navigation et les transitions de page."
+        },
+        "de": {
+          "name": "Browsernavigation",
+          "desc": "Die Browsernavigation umfasst Standort, Verlauf, URL Status, Navigationsereignisse und Seitenübergänge."
+        },
+        "ja": {
+          "name": "ブラウザナビゲーション",
+          "desc": "ブラウザのナビゲーションには、位置、履歴、URL 状態、ナビゲーションイベント、ページ遷移が含まれます。"
+        },
+        "ru": {
+          "name": "Навигация в браузере",
+          "desc": "Навигация в браузере охватывает местоположение, историю, состояние URL, события навигации и переходы между страницами."
+        },
+        "ko": {
+          "name": "브라우저 탐색",
+          "desc": "브라우저 탐색에는 위치, 기록, URL 상태, 탐색 이벤트 및 페이지 전환이 포함됩니다."
+        },
+        "pt": {
+          "name": "Navegação no navegador",
+          "desc": "A navegação do navegador cobre localização, histórico, estado URL, eventos de navegação e transições de página."
+        }
+      }
+    },
+    {
+      "key": "javascript/url_handling",
+      "slug": "url_handling",
+      "name": "URL Handling",
+      "desc": "URL handling covers constructing, parsing, and updating URLs and query parameters.",
+      "i18n": {
+        "zh": {
+          "name": "URL 处理",
+          "desc": "URL 处理涵盖构造、解析和更新 URL 和查询参数。"
+        },
+        "es": {
+          "name": "Gestión de URL",
+          "desc": "La gestión de URL cubre la construcción, el análisis y la actualización de URL y parámetros de consulta."
+        },
+        "fr": {
+          "name": "Gestion des URL",
+          "desc": "La gestion des URL couvre la construction, l’analyse et la mise à jour des URL et des paramètres de requête."
+        },
+        "de": {
+          "name": "URL-Verarbeitung",
+          "desc": "URL-Verarbeitung umfasst das Erstellen, Parsen und Aktualisieren von URLs und Abfrageparametern."
+        },
+        "ja": {
+          "name": "URL の処理",
+          "desc": "URL の処理には、URL とクエリパラメーターの構築、解析、更新が含まれます。"
+        },
+        "ru": {
+          "name": "Обработка URL",
+          "desc": "Обработка URL охватывает создание, анализ и обновление URL-адресов и параметров запроса."
+        },
+        "ko": {
+          "name": "URL 처리",
+          "desc": "URL 처리에는 URL 및 쿼리 매개변수 구성, 구문 분석, 업데이트가 포함됩니다."
+        },
+        "pt": {
+          "name": "Tratamento de URL",
+          "desc": "O tratamento de URLs abrange a construção, análise e atualização de URLs e parâmetros de consulta."
+        }
+      }
+    },
+    {
+      "key": "javascript/fetch_requests",
+      "slug": "fetch_requests",
+      "name": "Fetch Requests",
+      "desc": "Fetch requests cover sending HTTP requests, reading responses, and handling request outcomes.",
+      "i18n": {
+        "zh": {
+          "name": "Fetch 请求",
+          "desc": "Fetch 请求涵盖发送 HTTP 请求、读取响应和处理请求结果。"
+        },
+        "es": {
+          "name": "Peticiones fetch",
+          "desc": "Las solicitudes fetch cubren el envío de solicitudes HTTP, la lectura de respuestas y el manejo de los resultados de las solicitudes."
+        },
+        "fr": {
+          "name": "Requêtes fetch",
+          "desc": "Les requêtes fetch couvrent l'envoi de requêtes HTTP, la lecture des réponses et la gestion des résultats des requêtes."
+        },
+        "de": {
+          "name": "Fetch-Anfragen",
+          "desc": "Fetch-Anfragen umfassen das Senden von HTTP-Anfragen, das Lesen von Antworten und die Bearbeitung von Anfrageergebnissen."
+        },
+        "ja": {
+          "name": "フェッチリクエスト",
+          "desc": "フェッチリクエストには、HTTP リクエストの送信、応答の読み取り、リクエスト結果の処理が含まれます。"
+        },
+        "ru": {
+          "name": "Fetch-запросы",
+          "desc": "Fetch-запросы охватывают отправку HTTP-запросов, чтение ответов и обработку результатов запросов."
+        },
+        "ko": {
+          "name": "fetch 요청",
+          "desc": "fetch 요청은 HTTP 요청 보내기, 응답 읽기, 요청 결과 처리를 다룹니다."
+        },
+        "pt": {
+          "name": "Requisições fetch",
+          "desc": "As requisições fetch cobrem o envio de requisições HTTP, a leitura das respostas e o tratamento dos resultados das requisições."
+        }
+      }
+    },
+    {
+      "key": "javascript/request_cancellation",
+      "slug": "request_cancellation",
+      "name": "Request Cancellation",
+      "desc": "Request cancellation covers aborting asynchronous browser operations and cleaning up pending work.",
+      "i18n": {
+        "zh": {
+          "name": "请求取消",
+          "desc": "请求取消包括中止异步浏览器操作和清理挂起的工作。"
+        },
+        "es": {
+          "name": "Cancelación de solicitudes",
+          "desc": "La cancelación de solicitudes cubre la cancelación de operaciones asincrónicas del navegador y la limpieza del trabajo pendiente."
+        },
+        "fr": {
+          "name": "Annulation de requêtes",
+          "desc": "L’annulation de requêtes couvre l’abandon des opérations asynchrones du navigateur et le nettoyage des travaux en attente."
+        },
+        "de": {
+          "name": "Abbruch von Anfragen",
+          "desc": "Der Abbruch von Anfragen umfasst das Abbrechen asynchroner Browservorgänge und das Bereinigen ausstehender Arbeiten."
+        },
+        "ja": {
+          "name": "リクエストのキャンセル",
+          "desc": "リクエストのキャンセルには、ブラウザの非同期操作の中止と保留中の作業のクリーンアップが含まれます。"
+        },
+        "ru": {
+          "name": "Отмена запросов",
+          "desc": "Отмена запроса включает в себя прерывание асинхронных операций браузера и очистку отложенной работы."
+        },
+        "ko": {
+          "name": "요청 취소",
+          "desc": "요청 취소에는 비동기 브라우저 작업 중단 및 보류 중인 작업 정리가 포함됩니다."
+        },
+        "pt": {
+          "name": "Cancelamento de solicitações",
+          "desc": "O cancelamento de solicitação abrange o cancelamento de operações assíncronas do navegador e a limpeza de trabalhos pendentes."
+        }
+      }
+    },
+    {
+      "key": "javascript/web_storage",
+      "slug": "web_storage",
+      "name": "Web Storage",
+      "desc": "Web storage covers persisting string data with local storage and session storage.",
+      "i18n": {
+        "zh": {
+          "name": "Web Storage",
+          "desc": "Web Storage 涵盖使用 localStorage 和 sessionStorage 持久化字符串数据。"
+        },
+        "es": {
+          "name": "Almacenamiento web",
+          "desc": "El almacenamiento web cubre datos de cadenas persistentes con almacenamiento local y almacenamiento de sesión."
+        },
+        "fr": {
+          "name": "Stockage Web",
+          "desc": "Le stockage Web couvre les données de chaîne persistantes avec le stockage local et le stockage de session."
+        },
+        "de": {
+          "name": "Webspeicher",
+          "desc": "Webspeicher umfasst persistente String-Daten mit lokalem Speicher und Sitzungsspeicher."
+        },
+        "ja": {
+          "name": "ウェブストレージ",
+          "desc": "Web ストレージは、ローカルストレージとセッションストレージを使用して永続化された文字列データを扱います。"
+        },
+        "ru": {
+          "name": "Веб-хранилище",
+          "desc": "Веб-хранилище охватывает сохранение строковых данных с помощью localStorage и sessionStorage."
+        },
+        "ko": {
+          "name": "웹 스토리지",
+          "desc": "웹 스토리지는 localStorage와 sessionStorage를 사용해 문자열 데이터를 영구 저장하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Armazenamento na Web",
+          "desc": "O armazenamento na Web cobre dados de string persistentes com armazenamento local e armazenamento de sessão."
+        }
+      }
+    },
+    {
+      "key": "javascript/cookies",
+      "slug": "cookies",
+      "name": "Cookies",
+      "desc": "Cookies cover browser-managed key-value data, expiration, scope, security flags, and request behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Cookies",
+          "desc": "Cookie 涵盖浏览器管理的键值数据、过期时间、范围、安全标志和请求行为。"
+        },
+        "es": {
+          "name": "Cookies",
+          "desc": "Las cookies cubren datos clave-valor administrados por el navegador, caducidad, alcance, flags de seguridad y comportamiento de solicitudes."
+        },
+        "fr": {
+          "name": "Cookies",
+          "desc": "Les cookies couvrent les données clé-valeur gérées par le navigateur, l’expiration, la portée, les flags de sécurité et le comportement des requêtes."
+        },
+        "de": {
+          "name": "Cookies",
+          "desc": "Cookies umfassen vom Browser verwaltete Schlüsselwertdaten, Ablauf, Umfang, Sicherheitsflags und Anforderungsverhalten."
+        },
+        "ja": {
+          "name": "クッキー",
+          "desc": "Cookie には、ブラウザーで管理されるキーと値のデータ、有効期限、スコープ、セキュリティフラグ、およびリクエストの動作が含まれます。"
+        },
+        "ru": {
+          "name": "Файлы cookie",
+          "desc": "Файлы cookie охватывают данные «ключ-значение», управляемые браузером, срок действия, область действия, флаги безопасности и поведение запросов."
+        },
+        "ko": {
+          "name": "쿠키",
+          "desc": "쿠키에는 브라우저 관리 키-값 데이터, 만료, 범위, 보안 플래그 및 요청 동작이 포함됩니다."
+        },
+        "pt": {
+          "name": "Cookies",
+          "desc": "Cookies cobrem dados chave-valor gerenciados pelo navegador, expiração, escopo, flags de segurança e comportamento de requisições."
+        }
+      }
+    },
+    {
+      "key": "javascript/browser_security_model",
+      "slug": "browser_security_model",
+      "name": "Browser Security Model",
+      "desc": "Browser security model covers same-origin boundaries, permissions, sandboxing, and safe browser interactions.",
+      "i18n": {
+        "zh": {
+          "name": "浏览器安全模型",
+          "desc": "浏览器安全模型涵盖同源边界、权限、沙箱和安全浏览器交互。"
+        },
+        "es": {
+          "name": "Modelo de seguridad del navegador",
+          "desc": "El modelo de seguridad del navegador cubre límites del mismo origen, permisos, zonas de pruebas e interacciones seguras del navegador."
+        },
+        "fr": {
+          "name": "Modèle de sécurité du navigateur",
+          "desc": "Le modèle de sécurité du navigateur couvre les limites, les autorisations, le sandboxing et les interactions sécurisées du navigateur de même origine."
+        },
+        "de": {
+          "name": "Browser-Sicherheitsmodell",
+          "desc": "Das Browser-Sicherheitsmodell deckt Same-Origin-Grenzen, Berechtigungen, Sandboxing und sichere Browser-Interaktionen ab."
+        },
+        "ja": {
+          "name": "ブラウザのセキュリティモデル",
+          "desc": "ブラウザのセキュリティモデルは、同一オリジンの境界、権限、サンドボックス化、および安全なブラウザの操作を扱います。"
+        },
+        "ru": {
+          "name": "Модель безопасности браузера",
+          "desc": "Модель безопасности браузера охватывает границы одного происхождения, разрешения, изолированную программную среду и безопасное взаимодействие с браузером."
+        },
+        "ko": {
+          "name": "브라우저 보안 모델",
+          "desc": "브라우저 보안 모델은 동일 출처 경계, 권한, 샌드박싱 및 안전한 브라우저 상호 작용을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelo de segurança do navegador",
+          "desc": "O modelo de segurança do navegador cobre limites de mesma origem, permissões, sandbox e interações seguras do navegador."
+        }
+      }
+    },
+    {
+      "key": "javascript/cors",
+      "slug": "cors",
+      "name": "CORS",
+      "desc": "CORS covers cross-origin request rules, preflight behavior, response headers, and browser enforcement.",
+      "i18n": {
+        "zh": {
+          "name": "CORS",
+          "desc": "CORS 涵盖跨源请求规则、预检行为、响应标头和浏览器强制执行。"
+        },
+        "es": {
+          "name": "CORS",
+          "desc": "CORS cubre reglas de solicitud entre orígenes, comportamiento de verificación previa, encabezados de respuesta y aplicación del navegador."
+        },
+        "fr": {
+          "name": "CORS",
+          "desc": "CORS couvre les règles de requête multi-origine, le comportement de contrôle en amont, les en-têtes de réponse et l'application du navigateur."
+        },
+        "de": {
+          "name": "CORS",
+          "desc": "CORS behandelt ursprungsübergreifende Anforderungsregeln, Preflight-Verhalten, Antwortheader und Browser-Durchsetzung."
+        },
+        "ja": {
+          "name": "CORS",
+          "desc": "CORS では、クロスオリジン要求ルール、プリフライト動作、応答ヘッダー、およびブラウザーの強制について説明します。"
+        },
+        "ru": {
+          "name": "CORS",
+          "desc": "CORS охватывает правила запросов между источниками, предполетное поведение, заголовки ответов и принудительное применение браузера."
+        },
+        "ko": {
+          "name": "CORS",
+          "desc": "CORS는 교차 출처 요청 규칙, 프리플라이트 동작, 응답 헤더 및 브라우저 적용을 다룹니다."
+        },
+        "pt": {
+          "name": "CORS",
+          "desc": "CORS cobre regras de solicitação entre origens, comportamento de preflight, cabeçalhos de resposta e aplicação pelo navegador."
+        }
+      }
+    },
+    {
+      "key": "javascript/mutation_observers",
+      "slug": "mutation_observers",
+      "name": "Mutation Observers",
+      "desc": "Mutation observers cover reacting to DOM changes without repeatedly polling document state.",
+      "i18n": {
+        "zh": {
+          "name": "Mutation Observer",
+          "desc": "Mutation Observer 涵盖在不反复轮询文档状态的情况下响应 DOM 变化。"
+        },
+        "es": {
+          "name": "Observadores de mutaciones",
+          "desc": "Los MutationObserver cubren la reacción a cambios del DOM sin sondear repetidamente el estado del documento."
+        },
+        "fr": {
+          "name": "Observateurs de mutations",
+          "desc": "Les MutationObserver couvrent la réaction aux changements du DOM sans interroger à répétition l'état du document."
+        },
+        "de": {
+          "name": "Mutation Observer",
+          "desc": "Mutation Observer behandeln die Reaktion auf DOM-Änderungen, ohne den Dokumentstatus wiederholt abzufragen."
+        },
+        "ja": {
+          "name": "Mutation Observer",
+          "desc": "Mutation Observer は、ドキュメント状態を繰り返しポーリングせずに DOM の変更へ反応する方法を扱います。"
+        },
+        "ru": {
+          "name": "Mutation Observer",
+          "desc": "Mutation Observer позволяют реагировать на изменения DOM без повторного опроса состояния документа."
+        },
+        "ko": {
+          "name": "Mutation Observer",
+          "desc": "Mutation Observer는 문서 상태를 반복적으로 폴링하지 않고 DOM 변경에 반응하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Mutation Observer",
+          "desc": "Mutation Observer cobre a reação a mudanças no DOM sem consultar repetidamente o estado do documento."
+        }
+      }
+    },
+    {
+      "key": "javascript/intersection_observers",
+      "slug": "intersection_observers",
+      "name": "Intersection Observers",
+      "desc": "Intersection observers cover detecting element visibility relative to viewports or containers.",
+      "i18n": {
+        "zh": {
+          "name": "Intersection Observer",
+          "desc": "Intersection Observer 涵盖检测元素相对于视口或容器的可见性。"
+        },
+        "es": {
+          "name": "Intersection Observer",
+          "desc": "Intersection Observer cubre la detección de visibilidad de elementos en relación con viewports o contenedores."
+        },
+        "fr": {
+          "name": "Intersection Observer",
+          "desc": "Intersection Observer couvre la détection de la visibilité des éléments par rapport aux viewports ou aux conteneurs."
+        },
+        "de": {
+          "name": "Intersection Observer",
+          "desc": "Intersection Observer behandelt die Erkennung der Sichtbarkeit von Elementen relativ zu Viewports oder Containern."
+        },
+        "ja": {
+          "name": "Intersection Observer",
+          "desc": "Intersection Observer は、ビューポートまたはコンテナーに対する要素の可視性の検出を扱います。"
+        },
+        "ru": {
+          "name": "Intersection Observer",
+          "desc": "Intersection Observer охватывает определение видимости элемента относительно viewport или контейнера."
+        },
+        "ko": {
+          "name": "Intersection Observer",
+          "desc": "Intersection Observer는 뷰포트 또는 컨테이너를 기준으로 요소의 가시성을 감지하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Intersection Observer",
+          "desc": "Intersection Observer cobre a detecção da visibilidade de elementos em relação a viewports ou contêineres."
+        }
+      }
+    },
+    {
+      "key": "javascript/file_blob_apis",
+      "slug": "file_blob_apis",
+      "name": "File and Blob APIs",
+      "desc": "File and Blob APIs cover reading selected files, representing binary data, and creating object URLs.",
+      "i18n": {
+        "zh": {
+          "name": "文件和 Blob API",
+          "desc": "File 和 Blob API 涵盖读取用户选择的文件、表示二进制数据以及创建 object URL。"
+        },
+        "es": {
+          "name": "API de archivos y blobs",
+          "desc": "Las API de archivos y blobs cubren la lectura de archivos seleccionados, la representación de datos binarios y la creación de URL de objetos."
+        },
+        "fr": {
+          "name": "API de fichiers et de blobs",
+          "desc": "Les API File et Blob couvrent la lecture des fichiers sélectionnés, la représentation des données binaires et la création d'URL d'objets."
+        },
+        "de": {
+          "name": "Datei- und Blob-APIs",
+          "desc": "Datei- und Blob-APIs umfassen das Lesen ausgewählter Dateien, die Darstellung von Binärdaten und die Erstellung von Objekt-URLs."
+        },
+        "ja": {
+          "name": "File と Blob API",
+          "desc": "File API と Blob API は、選択したファイルの読み取り、バイナリデータの表現、オブジェクト URL の作成を扱います。"
+        },
+        "ru": {
+          "name": "API файлов и BLOB-объектов",
+          "desc": "API-интерфейсы файлов и BLOB-объектов охватывают чтение выбранных файлов, представление двоичных данных и создание URL-адресов объектов."
+        },
+        "ko": {
+          "name": "파일 및 Blob API",
+          "desc": "File 및 Blob API는 선택한 파일 읽기, 바이너리 데이터 표현 및 object URL 생성을 다룹니다."
+        },
+        "pt": {
+          "name": "APIs de arquivos e blobs",
+          "desc": "As APIs de arquivos e blobs abrangem a leitura de arquivos selecionados, a representação de dados binários e a criação de URLs de objetos."
+        }
+      }
+    },
+    {
+      "key": "javascript/clipboard_api",
+      "slug": "clipboard_api",
+      "name": "Clipboard API",
+      "desc": "Clipboard API covers reading or writing clipboard data within browser permission constraints.",
+      "i18n": {
+        "zh": {
+          "name": "剪贴板 API",
+          "desc": "剪贴板 API 涵盖在浏览器权限限制内读取或写入剪贴板数据。"
+        },
+        "es": {
+          "name": "Clipboard API",
+          "desc": "Clipboard API cubre la lectura o escritura de datos del portapapeles dentro de las restricciones de permisos del navegador."
+        },
+        "fr": {
+          "name": "Clipboard API",
+          "desc": "Clipboard API couvre la lecture ou l’écriture de données du presse-papiers dans le cadre des contraintes d’autorisation du navigateur."
+        },
+        "de": {
+          "name": "Clipboard API",
+          "desc": "Clipboard API behandelt das Lesen oder Schreiben von Zwischenablagedaten innerhalb der Browser-Berechtigungsbeschränkungen."
+        },
+        "ja": {
+          "name": "クリップボード API",
+          "desc": "クリップボード API では、ブラウザー権限の制約内でのクリップボードデータの読み取りまたは書き込みについて説明します。"
+        },
+        "ru": {
+          "name": "Clipboard API",
+          "desc": "Clipboard API охватывает чтение или запись данных буфера обмена в рамках ограничений разрешений браузера."
+        },
+        "ko": {
+          "name": "클립보드 API",
+          "desc": "클립보드 API는 브라우저 권한 제약 내에서 클립보드 데이터 읽기 또는 쓰기를 다룹니다."
+        },
+        "pt": {
+          "name": "Clipboard API",
+          "desc": "A API da área de transferência cobre a leitura ou gravação de dados da área de transferência dentro das restrições de permissão do navegador."
+        }
+      }
+    },
+    {
+      "key": "javascript/rendering_performance",
+      "slug": "rendering_performance",
+      "name": "Rendering Performance",
+      "desc": "Rendering performance covers reducing layout work, batching DOM updates, and avoiding slow interaction paths.",
+      "i18n": {
+        "zh": {
+          "name": "渲染性能",
+          "desc": "渲染性能涵盖减少布局计算、批量处理 DOM 更新以及避免缓慢的交互路径。"
+        },
+        "es": {
+          "name": "Rendimiento de renderizado",
+          "desc": "El rendimiento de renderizado cubre la reducción del trabajo de layout, el procesamiento por lotes de actualizaciones del DOM y la evitación de rutas de interacción lentas."
+        },
+        "fr": {
+          "name": "Performances de rendu",
+          "desc": "Les performances de rendu couvrent la réduction du travail de mise en page, le regroupement des mises à jour DOM et l'évitement des chemins d'interaction lents."
+        },
+        "de": {
+          "name": "Rendering-Leistung",
+          "desc": "Die Rendering-Leistung umfasst die Reduzierung des Layout-Aufwands, die Stapelung von DOM-Updates und die Vermeidung langsamer Interaktionspfade."
+        },
+        "ja": {
+          "name": "レンダリングパフォーマンス",
+          "desc": "レンダリングのパフォーマンスには、レイアウト作業の削減、DOM 更新のバッチ処理、遅い対話パスの回避が含まれます。"
+        },
+        "ru": {
+          "name": "Производительность рендеринга",
+          "desc": "Производительность рендеринга включает сокращение работы по макету, пакетную обработку обновлений DOM и избежание медленных путей взаимодействия."
+        },
+        "ko": {
+          "name": "렌더링 성능",
+          "desc": "렌더링 성능에는 레이아웃 작업 감소, DOM 업데이트 일괄 처리 및 느린 상호 작용 경로 방지가 포함됩니다."
+        },
+        "pt": {
+          "name": "Desempenho de renderização",
+          "desc": "O desempenho de renderização abrange a redução do trabalho de layout, o processamento em lote de atualizações do DOM e a prevenção de caminhos de interação lentos."
+        }
+      }
+    },
+    {
+      "key": "javascript/npm_dependencies",
+      "slug": "npm_dependencies",
+      "name": "npm Dependencies",
+      "desc": "npm dependencies cover installing, updating, and recording JavaScript packages for frontend projects.",
+      "i18n": {
+        "zh": {
+          "name": "npm 依赖",
+          "desc": "npm 依赖项涵盖为前端项目安装、更新和记录 JavaScript 包。"
+        },
+        "es": {
+          "name": "Dependencias npm",
+          "desc": "Las dependencias npm cubren la instalación, actualización y registro de paquetes JavaScript para proyectos frontend."
+        },
+        "fr": {
+          "name": "Dépendances npm",
+          "desc": "Les dépendances npm couvrent l’installation, la mise à jour et l’enregistrement des paquets JavaScript pour les projets frontend."
+        },
+        "de": {
+          "name": "npm-Abhängigkeiten",
+          "desc": "npm-Abhängigkeiten behandeln das Installieren, Aktualisieren und Erfassen von JavaScript-Paketen für Frontend-Projekte."
+        },
+        "ja": {
+          "name": "npm 依存関係",
+          "desc": "npm 依存関係は、フロントエンドプロジェクト向け JavaScript パッケージのインストール、更新、記録を扱います。"
+        },
+        "ru": {
+          "name": "npm-зависимости",
+          "desc": "npm-зависимости охватывают установку, обновление и фиксацию JavaScript-пакетов для frontend-проектов."
+        },
+        "ko": {
+          "name": "npm 종속성",
+          "desc": "npm 종속성은 프런트엔드 프로젝트용 JavaScript 패키지 설치, 업데이트 및 기록을 다룹니다."
+        },
+        "pt": {
+          "name": "Dependências npm",
+          "desc": "As dependências npm cobrem instalação, atualização e registro de pacotes JavaScript para projetos frontend."
+        }
+      }
+    },
+    {
+      "key": "javascript/package_scripts",
+      "slug": "package_scripts",
+      "name": "Package Scripts",
+      "desc": "Package scripts cover automating development, build, test, and maintenance tasks through package metadata.",
+      "i18n": {
+        "zh": {
+          "name": "package scripts",
+          "desc": "package scripts 涵盖通过 package.json 元数据自动执行开发、构建、测试和维护任务。"
+        },
+        "es": {
+          "name": "Scripts de paquete",
+          "desc": "Los scripts de paquetes cubren la automatización de tareas de desarrollo, compilación, prueba y mantenimiento a través de metadatos de paquetes."
+        },
+        "fr": {
+          "name": "Scripts de package",
+          "desc": "Les scripts de package couvrent l’automatisation des tâches de développement, de build, de test et de maintenance via les métadonnées du package."
+        },
+        "de": {
+          "name": "package scripts",
+          "desc": "package scripts decken die Automatisierung von Entwicklungs-, Build-, Test- und Wartungsaufgaben mithilfe von package.json-Metadaten ab."
+        },
+        "ja": {
+          "name": "パッケージスクリプト",
+          "desc": "パッケージスクリプトは、パッケージメタデータを通じて開発、ビルド、テスト、メンテナンスのタスクの自動化を扱います。"
+        },
+        "ru": {
+          "name": "Скрипты пакета",
+          "desc": "Скрипты package.json охватывают автоматизацию задач разработки, сборки, тестирования и обслуживания с помощью метаданных пакета."
+        },
+        "ko": {
+          "name": "패키지 스크립트",
+          "desc": "패키지 스크립트는 패키지 메타데이터를 통해 개발, 빌드, 테스트 및 유지 관리 작업 자동화를 다룹니다."
+        },
+        "pt": {
+          "name": "Scripts de pacote",
+          "desc": "Os scripts de pacote cobrem a automação de tarefas de desenvolvimento, construção, teste e manutenção por meio de metadados de pacote."
+        }
+      }
+    },
+    {
+      "key": "javascript/bundling",
+      "slug": "bundling",
+      "name": "Bundling",
+      "desc": "Bundling covers combining modules, assets, and dependencies into browser-ready application output.",
+      "i18n": {
+        "zh": {
+          "name": "Bundling",
+          "desc": "Bundling 涵盖将模块、资源和依赖项组合成可在浏览器中运行的应用输出。"
+        },
+        "es": {
+          "name": "Empaquetado",
+          "desc": "El empaquetado cubre la combinación de módulos, recursos y dependencias en una salida de aplicación lista para el navegador."
+        },
+        "fr": {
+          "name": "Bundling",
+          "desc": "Le bundling couvre la combinaison de modules, d’assets et de dépendances dans une sortie d’application prête pour le navigateur."
+        },
+        "de": {
+          "name": "Bündelung",
+          "desc": "Die Bündelung umfasst die Kombination von Modulen, Assets und Abhängigkeiten zu einer browserbereiten Anwendungsausgabe."
+        },
+        "ja": {
+          "name": "バンドリング",
+          "desc": "バンドリングでは、モジュール、アセット、依存関係をブラウザーで利用できるアプリケーション出力にまとめます。"
+        },
+        "ru": {
+          "name": "Бандлинг",
+          "desc": "Бандлинг охватывает объединение модулей, ресурсов и зависимостей в готовый для браузера результат приложения."
+        },
+        "ko": {
+          "name": "번들링",
+          "desc": "번들링에는 모듈, 자산 및 종속성을 브라우저에서 사용할 수 있는 애플리케이션 출력으로 결합하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Empacotamento",
+          "desc": "O empacotamento abrange a combinação de módulos, ativos e dependências em uma saída de aplicativo pronta para o navegador."
+        }
+      }
+    },
+    {
+      "key": "javascript/transpilation",
+      "slug": "transpilation",
+      "name": "Transpilation",
+      "desc": "Transpilation covers converting modern JavaScript syntax for target browser compatibility.",
+      "i18n": {
+        "zh": {
+          "name": "转译",
+          "desc": "转译涵盖转换现代 JavaScript 语法以实现目标浏览器兼容性。"
+        },
+        "es": {
+          "name": "Transpilación",
+          "desc": "La transpilación cubre la conversión de la sintaxis JavaScript moderna para la compatibilidad del navegador de destino."
+        },
+        "fr": {
+          "name": "Transpilation",
+          "desc": "La transpilation couvre la conversion de la syntaxe moderne JavaScript pour la compatibilité du navigateur cible."
+        },
+        "de": {
+          "name": "Transpilation",
+          "desc": "Die Transpilierung umfasst die Konvertierung der modernen JavaScript-Syntax für die Kompatibilität mit Zielbrowsern."
+        },
+        "ja": {
+          "name": "トランスパイル",
+          "desc": "トランスパイルでは、ターゲットブラウザーとの互換性のために最新の JavaScript 構文を変換します。"
+        },
+        "ru": {
+          "name": "Транспиляция",
+          "desc": "Транспиляция включает преобразование современного синтаксиса JavaScript для совместимости с целевым браузером."
+        },
+        "ko": {
+          "name": "트랜스파일",
+          "desc": "트랜스파일은 대상 브라우저 호환성을 위해 최신 JavaScript 구문을 변환하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Transpilação",
+          "desc": "A transpilação cobre a conversão da sintaxe JavaScript moderna para compatibilidade do navegador de destino."
+        }
+      }
+    },
+    {
+      "key": "javascript/linting_formatting",
+      "slug": "linting_formatting",
+      "name": "Linting and Formatting",
+      "desc": "Linting and formatting cover detecting code issues and keeping JavaScript style consistent.",
+      "i18n": {
+        "zh": {
+          "name": "Linting 和格式化",
+          "desc": "Linting 和格式化涵盖检测代码问题并保持 JavaScript 风格一致。"
+        },
+        "es": {
+          "name": "Linting y formato",
+          "desc": "Linting y formateo cubren la detección de problemas de código y mantienen el estilo JavaScript consistente."
+        },
+        "fr": {
+          "name": "Linting et formatage",
+          "desc": "Le linting et le formatage couvrent la détection des problèmes de code et le maintien de la cohérence du style JavaScript."
+        },
+        "de": {
+          "name": "Linting und Formatierung",
+          "desc": "Linting und Formatierung decken das Erkennen von Codeproblemen und die Aufrechterhaltung eines konsistenten JavaScript-Stils ab."
+        },
+        "ja": {
+          "name": "リンティングとフォーマット",
+          "desc": "リンティングとフォーマットは、コードの問題の検出と JavaScript スタイルの一貫性の維持を扱います。"
+        },
+        "ru": {
+          "name": "Линтинг и форматирование",
+          "desc": "Линтинг и форматирование позволяют обнаружить проблемы с кодом и сохранить единообразие стиля JavaScript."
+        },
+        "ko": {
+          "name": "린팅 및 포매팅",
+          "desc": "린팅 및 포매팅은 코드 문제를 감지하고 JavaScript 스타일을 일관되게 유지하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Linting e formatação",
+          "desc": "Linting e formatação cobrem a detecção de problemas de código e a manutenção do estilo JavaScript consistente."
+        }
+      }
+    },
+    {
+      "key": "javascript/browser_debugging",
+      "slug": "browser_debugging",
+      "name": "Browser Debugging",
+      "desc": "Browser debugging covers inspecting runtime state, breakpoints, console output, sources, and network behavior.",
+      "i18n": {
+        "zh": {
+          "name": "浏览器调试",
+          "desc": "浏览器调试涵盖检查运行时状态、断点、控制台输出、源代码和网络行为。"
+        },
+        "es": {
+          "name": "Depuración del navegador",
+          "desc": "La depuración del navegador cubre la inspección del estado en tiempo de ejecución, breakpoints, salida de la consola, archivos fuente y comportamiento de red."
+        },
+        "fr": {
+          "name": "Débogage du navigateur",
+          "desc": "Le débogage du navigateur couvre l’inspection de l’état d’exécution, des breakpoints, de la sortie de la console, des sources et du comportement réseau."
+        },
+        "de": {
+          "name": "Browser-Debugging",
+          "desc": "Das Browser-Debugging umfasst die Überprüfung des Laufzeitstatus, der Haltepunkte, der Konsolenausgabe, der Quellen und des Netzwerkverhaltens."
+        },
+        "ja": {
+          "name": "ブラウザのデバッグ",
+          "desc": "ブラウザのデバッグでは、ランタイム状態、ブレークポイント、コンソール出力、ソース、ネットワーク動作の検査が行われます。"
+        },
+        "ru": {
+          "name": "Отладка браузера",
+          "desc": "Отладка браузера включает проверку состояния времени выполнения, точек останова, вывода консоли, источников и поведения сети."
+        },
+        "ko": {
+          "name": "브라우저 디버깅",
+          "desc": "브라우저 디버깅에는 런타임 상태, 중단점, 콘솔 출력, 소스 및 네트워크 동작 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Depuração do navegador",
+          "desc": "A depuração do navegador abrange a inspeção do estado em tempo de execução, breakpoints, saída do console, arquivos fonte e comportamento de rede."
+        }
+      }
+    },
+    {
+      "key": "javascript/unit_testing",
+      "slug": "unit_testing",
+      "name": "Unit Testing",
+      "desc": "Unit testing covers verifying JavaScript functions and modules with repeatable assertions.",
+      "i18n": {
+        "zh": {
+          "name": "单元测试",
+          "desc": "单元测试涵盖通过重点自动化测试来验证 JavaScript 函数和模块。"
+        },
+        "es": {
+          "name": "Pruebas unitarias",
+          "desc": "Las pruebas unitarias cubren la verificación de funciones y módulos JavaScript con aserciones repetibles."
+        },
+        "fr": {
+          "name": "Tests unitaires",
+          "desc": "Les tests unitaires couvrent la vérification des fonctions et modules JavaScript avec des assertions répétables."
+        },
+        "de": {
+          "name": "Unit-Tests",
+          "desc": "Unit-Tests umfassen die Überprüfung von JavaScript-Funktionen und -Modulen mit wiederholbaren Assertions."
+        },
+        "ja": {
+          "name": "単体テスト",
+          "desc": "単体テストでは、反復可能なアサーションを備えた JavaScript 関数とモジュールの検証が行われます。"
+        },
+        "ru": {
+          "name": "Модульное тестирование",
+          "desc": "Модульное тестирование охватывает проверку JavaScript функций и модулей с повторяемыми утверждениями."
+        },
+        "ko": {
+          "name": "단위 테스트",
+          "desc": "단위 테스트는 반복 가능한 어설션으로 JavaScript 함수와 모듈을 검증하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Teste de Unidade",
+          "desc": "O teste de unidade cobre a verificação de funções e módulos JavaScript com asserções repetíveis."
+        }
+      }
+    },
+    {
+      "key": "javascript/dom_testing",
+      "slug": "dom_testing",
+      "name": "DOM Testing",
+      "desc": "DOM testing covers verifying browser-facing behavior through rendered elements, events, and document state.",
+      "i18n": {
+        "zh": {
+          "name": "DOM 测试",
+          "desc": "DOM 测试涵盖通过呈现的元素、事件和文档状态验证面向浏览器的行为。"
+        },
+        "es": {
+          "name": "Pruebas DOM",
+          "desc": "Las pruebas DOM cubren la verificación del comportamiento del navegador a través de elementos representados, eventos y estado del documento."
+        },
+        "fr": {
+          "name": "Tests DOM",
+          "desc": "Les tests DOM couvrent la vérification du comportement du navigateur via les éléments rendus, les événements et l'état du document."
+        },
+        "de": {
+          "name": "DOM-Tests",
+          "desc": "DOM-Tests umfassen die Überprüfung des browserseitigen Verhaltens anhand gerenderter Elemente, Ereignisse und des Dokumentstatus."
+        },
+        "ja": {
+          "name": "DOM テスト",
+          "desc": "DOM テストでは、レンダリングされた要素、イベント、ドキュメントの状態を通じてブラウザーでの動作を検証することが含まれます。"
+        },
+        "ru": {
+          "name": "DOM Тестирование",
+          "desc": "DOM тестирование охватывает проверку поведения при работе с браузером посредством отображаемых элементов, событий и состояния документа."
+        },
+        "ko": {
+          "name": "DOM 테스트",
+          "desc": "DOM 테스트에는 렌더링된 요소, 이벤트 및 문서 상태를 통해 브라우저에 표시되는 동작을 확인하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Testes DOM",
+          "desc": "O teste DOM cobre a verificação do comportamento do navegador por meio de elementos renderizados, eventos e estado do documento."
+        }
+      }
+    },
+    {
+      "key": "javascript/error_logging",
+      "slug": "error_logging",
+      "name": "Error Logging",
+      "desc": "Error logging covers capturing, reporting, and diagnosing runtime failures in browser applications.",
+      "i18n": {
+        "zh": {
+          "name": "错误记录",
+          "desc": "错误日志记录涵盖捕获、报告和诊断浏览器应用程序中的运行时故障。"
+        },
+        "es": {
+          "name": "Registro de errores",
+          "desc": "El registro de errores cubre la captura, generación de informes y diagnóstico de fallas en tiempo de ejecución en aplicaciones de navegador."
+        },
+        "fr": {
+          "name": "Journalisation des erreurs",
+          "desc": "La journalisation des erreurs couvre la capture, le reporting et le diagnostic des échecs d'exécution dans les applications de navigateur."
+        },
+        "de": {
+          "name": "Fehlerprotokollierung",
+          "desc": "Die Fehlerprotokollierung umfasst die Erfassung, Meldung und Diagnose von Laufzeitfehlern in Browseranwendungen."
+        },
+        "ja": {
+          "name": "エラーログ",
+          "desc": "エラーログには、ブラウザアプリケーションの実行時エラーのキャプチャ、レポート、診断が含まれます。"
+        },
+        "ru": {
+          "name": "Регистрация ошибок",
+          "desc": "Ведение журнала ошибок охватывает сбор, составление отчетов и диагностику сбоев во время выполнения в приложениях браузера."
+        },
+        "ko": {
+          "name": "오류 로깅",
+          "desc": "오류 로깅에는 브라우저 애플리케이션의 런타임 오류 캡처, 보고 및 진단이 포함됩니다."
+        },
+        "pt": {
+          "name": "Registro de erros",
+          "desc": "O registro de erros abrange a captura, o relatório e o diagnóstico de falhas de tempo de execução em aplicativos de navegador."
+        }
+      }
+    }
+  ]
+}

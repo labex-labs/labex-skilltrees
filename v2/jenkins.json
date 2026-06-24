@@ -1,0 +1,1367 @@
+{
+  "key": "jenkins",
+  "slug": "jenkins",
+  "name": "Jenkins",
+  "skills": [
+    {
+      "key": "jenkins/controller_installation",
+      "slug": "controller_installation",
+      "name": "Controller Installation",
+      "desc": "Controller installation covers preparing and installing the Jenkins controller for reliable automation service.",
+      "i18n": {
+        "zh": {
+          "name": "控制器安装",
+          "desc": "控制器安装包括准备和安装 Jenkins 控制器，以实现可靠的自动化服务。"
+        },
+        "es": {
+          "name": "Instalación del controlador",
+          "desc": "La instalación del controlador cubre la preparación e instalación del controlador Jenkins para un servicio de automatización confiable."
+        },
+        "fr": {
+          "name": "Installation du contrôleur",
+          "desc": "L'installation du contrôleur couvre la préparation et l'installation du contrôleur Jenkins pour un service d'automatisation fiable."
+        },
+        "de": {
+          "name": "Controller-Installation",
+          "desc": "Die Controller-Installation umfasst die Vorbereitung und Installation des Jenkins-Controllers für einen zuverlässigen Automatisierungsdienst."
+        },
+        "ja": {
+          "name": "コントローラーのインストール",
+          "desc": "コントローラーのインストールでは、信頼性の高い自動化サービスのために Jenkins コントローラーを準備してインストールする方法を扱います。"
+        },
+        "ru": {
+          "name": "Установка контроллера",
+          "desc": "Установка контроллера включает подготовку и установку контроллера Jenkins для надежной работы системы автоматизации."
+        },
+        "ko": {
+          "name": "컨트롤러 설치",
+          "desc": "컨트롤러 설치에는 안정적인 자동화 서비스를 위한 Jenkins 컨트롤러 준비 및 설치가 포함됩니다."
+        },
+        "pt": {
+          "name": "Instalação do controlador",
+          "desc": "A instalação do controlador abrange a preparação e instalação do controlador Jenkins para um serviço de automação confiável."
+        }
+      }
+    },
+    {
+      "key": "jenkins/initial_configuration",
+      "slug": "initial_configuration",
+      "name": "Initial Configuration",
+      "desc": "Initial configuration covers unlocking Jenkins, establishing administrative access, and reaching a usable controller state.",
+      "i18n": {
+        "zh": {
+          "name": "初始配置",
+          "desc": "初始配置包括解锁 Jenkins、建立管理访问权限以及达到可用的控制器状态。"
+        },
+        "es": {
+          "name": "Configuración inicial",
+          "desc": "La configuración inicial cubre el desbloqueo de Jenkins, el establecimiento de acceso administrativo y el logro de un estado de controlador utilizable."
+        },
+        "fr": {
+          "name": "Configuration initiale",
+          "desc": "La configuration initiale couvre le déverrouillage Jenkins, l'établissement de l'accès administratif et l'atteinte d'un état de contrôleur utilisable."
+        },
+        "de": {
+          "name": "Erstkonfiguration",
+          "desc": "Die Erstkonfiguration umfasst das Entsperren von Jenkins, das Einrichten des Administratorzugriffs und das Erreichen eines nutzbaren Controller-Status."
+        },
+        "ja": {
+          "name": "初期設定",
+          "desc": "初期設定には、Jenkins のロック解除、管理アクセスの確立、および使用可能なコントローラー状態への到達が含まれます。"
+        },
+        "ru": {
+          "name": "Начальная конфигурация",
+          "desc": "Первоначальная настройка включает разблокировку Jenkins, установление административного доступа и достижение работоспособного состояния контроллера."
+        },
+        "ko": {
+          "name": "초기 구성",
+          "desc": "초기 구성은 Jenkins 잠금 해제, 관리자 액세스 설정, 사용 가능한 컨트롤러 상태 도달을 다룹니다."
+        },
+        "pt": {
+          "name": "Configuração inicial",
+          "desc": "A configuração inicial abrange o desbloqueio de Jenkins, o estabelecimento de acesso administrativo e o alcance de um estado de controlador utilizável."
+        }
+      }
+    },
+    {
+      "key": "jenkins/jenkins_interface",
+      "slug": "jenkins_interface",
+      "name": "Jenkins Interface",
+      "desc": "Jenkins interface covers locating jobs, build queues, run details, configuration areas, and administrative views.",
+      "i18n": {
+        "zh": {
+          "name": "Jenkins 接口",
+          "desc": "Jenkins 界面涵盖定位作业、构建队列、运行详细信息、配置区域和管理视图。"
+        },
+        "es": {
+          "name": "Interfaz de Jenkins",
+          "desc": "La interfaz de Jenkins cubre la localización de trabajos, colas de compilación, detalles de ejecución, áreas de configuración y vistas administrativas."
+        },
+        "fr": {
+          "name": "Interface Jenkins",
+          "desc": "L’interface Jenkins couvre la localisation des tâches, les files d’attente de compilation, les détails d’exécution, les zones de configuration et les vues d’administration."
+        },
+        "de": {
+          "name": "Jenkins-Schnittstelle",
+          "desc": "Die Jenkins-Schnittstelle umfasst das Auffinden von Jobs, Build-Warteschlangen, Ausführungsdetails, Konfigurationsbereichen und Verwaltungsansichten."
+        },
+        "ja": {
+          "name": "Jenkins インターフェース",
+          "desc": "Jenkins インターフェースは、ジョブの検索、ビルドキュー、実行の詳細、構成領域、管理ビューを扱います。"
+        },
+        "ru": {
+          "name": "Интерфейс Jenkins",
+          "desc": "Интерфейс Jenkins охватывает поиск заданий, очереди сборки, детали запуска, области конфигурации и административные представления."
+        },
+        "ko": {
+          "name": "Jenkins 인터페이스",
+          "desc": "Jenkins 인터페이스는 작업 찾기, 빌드 대기열, 실행 세부 정보, 구성 영역 및 관리 보기를 다룹니다."
+        },
+        "pt": {
+          "name": "Interface Jenkins",
+          "desc": "A interface Jenkins cobre a localização de tarefas, filas de compilação, detalhes de execução, áreas de configuração e visualizações administrativas."
+        }
+      }
+    },
+    {
+      "key": "jenkins/job_types",
+      "slug": "job_types",
+      "name": "Job Types",
+      "desc": "Job types cover freestyle, pipeline, multibranch, and folder-based job organization in Jenkins.",
+      "i18n": {
+        "zh": {
+          "name": "作业类型",
+          "desc": "Jenkins 中的作业类型涵盖 freestyle、Pipeline、multibranch 和基于文件夹的作业组织。"
+        },
+        "es": {
+          "name": "Tipos de trabajos",
+          "desc": "Los tipos de trabajos cubren la organización de trabajos freestyle, Pipeline, multibranch y basada en carpetas en Jenkins."
+        },
+        "fr": {
+          "name": "Types de tâches",
+          "desc": "Les types de tâches couvrent l’organisation des tâches freestyle, Pipeline, multibranch et basées sur des dossiers dans Jenkins."
+        },
+        "de": {
+          "name": "Jobtypen",
+          "desc": "Zu den Jobtypen gehören Freestyle-, Pipeline-, Multibranch- und ordnerbasierte Joborganisation in Jenkins."
+        },
+        "ja": {
+          "name": "ジョブタイプ",
+          "desc": "ジョブタイプには、Jenkins でのフリースタイル、パイプライン、マルチブランチ、フォルダーベースのジョブ組織が含まれます。"
+        },
+        "ru": {
+          "name": "Типы заданий",
+          "desc": "Типы заданий охватывают freestyle, Pipeline, multibranch и организацию заданий на основе папок в Jenkins."
+        },
+        "ko": {
+          "name": "작업 유형",
+          "desc": "작업 유형은 Jenkins의 freestyle, Pipeline, multibranch 및 폴더 기반 작업 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Tipos de tarefas",
+          "desc": "Os tipos de tarefas abrangem a organização de tarefas freestyle, Pipeline, multibranch e baseada em pastas no Jenkins."
+        }
+      }
+    },
+    {
+      "key": "jenkins/build_runs",
+      "slug": "build_runs",
+      "name": "Build Runs",
+      "desc": "Build runs cover inspecting execution status, logs, artifacts, timing, and historical results.",
+      "i18n": {
+        "zh": {
+          "name": "构建运行",
+          "desc": "构建运行包括检查执行状态、日志、工件、计时和历史结果。"
+        },
+        "es": {
+          "name": "Ejecuciones de compilación",
+          "desc": "Las ejecuciones de compilación cubren la inspección del estado de ejecución, registros, artefactos, tiempos y resultados históricos."
+        },
+        "fr": {
+          "name": "Exécutions de compilation",
+          "desc": "Les exécutions de compilation couvrent l’inspection de l’état d’exécution, des journaux, des artefacts, de la durée et des résultats historiques."
+        },
+        "de": {
+          "name": "Build-Läufe",
+          "desc": "Build-Läufe umfassen die Überprüfung des Ausführungsstatus, der Protokolle, Artefakte, des Timings und der historischen Ergebnisse."
+        },
+        "ja": {
+          "name": "ビルド実行",
+          "desc": "ビルドの実行では、実行ステータス、ログ、アーティファクト、タイミング、履歴結果の検査が行われます。"
+        },
+        "ru": {
+          "name": "Запуски сборки",
+          "desc": "Запуски сборки включают проверку состояния выполнения, журналов, артефактов, времени и исторических результатов."
+        },
+        "ko": {
+          "name": "빌드 실행",
+          "desc": "빌드 실행에는 실행 상태, 로그, 아티팩트, 타이밍 및 기록 결과 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Execuções de compilação",
+          "desc": "As execuções de compilação abrangem a inspeção do status de execução, registros, artefatos, duração e resultados históricos."
+        }
+      }
+    },
+    {
+      "key": "jenkins/build_triggers",
+      "slug": "build_triggers",
+      "name": "Build Triggers",
+      "desc": "Build triggers cover scheduled, manual, webhook, upstream, and source-change conditions that start Jenkins work.",
+      "i18n": {
+        "zh": {
+          "name": "构建触发器",
+          "desc": "构建触发器涵盖启动 Jenkins 作业的计划、手动、Webhook、上游和源代码变更条件。"
+        },
+        "es": {
+          "name": "Activadores de compilación",
+          "desc": "Los activadores de compilación cubren condiciones programadas, manuales, de webhook, upstream y de cambio de código fuente que inician trabajos de Jenkins."
+        },
+        "fr": {
+          "name": "Déclencheurs de compilation",
+          "desc": "Les déclencheurs de compilation couvrent les conditions planifiées, manuelles, webhook, upstream et de changement de source qui démarrent des tâches Jenkins."
+        },
+        "de": {
+          "name": "Build-Trigger",
+          "desc": "Build-Trigger decken geplante, manuelle, Webhook-, Upstream- und Quellenänderungsbedingungen ab, die Jenkins-Jobs starten."
+        },
+        "ja": {
+          "name": "ビルドトリガー",
+          "desc": "ビルドトリガーは、Jenkins ジョブを開始するスケジュール、手動、Webhook、アップストリーム、およびソース変更条件を扱います。"
+        },
+        "ru": {
+          "name": "Триггеры сборки",
+          "desc": "Триггеры сборки охватывают расписание, ручной запуск, webhook, upstream-задания и изменения исходного кода, которые запускают задания Jenkins."
+        },
+        "ko": {
+          "name": "빌드 트리거",
+          "desc": "빌드 트리거는 Jenkins 작업을 시작하는 예약, 수동, webhook, 업스트림 및 소스 변경 조건을 다룹니다."
+        },
+        "pt": {
+          "name": "Acionadores de compilação",
+          "desc": "Acionadores de compilação cobrem condições agendadas, manuais, webhook, upstream e de mudança no código-fonte que iniciam tarefas Jenkins."
+        }
+      }
+    },
+    {
+      "key": "jenkins/parameterized_builds",
+      "slug": "parameterized_builds",
+      "name": "Parameterized Builds",
+      "desc": "Parameterized builds cover typed inputs that alter job or pipeline behavior at run time.",
+      "i18n": {
+        "zh": {
+          "name": "参数化构建",
+          "desc": "参数化构建涵盖在运行时改变作业或 Pipeline 行为的类型化输入。"
+        },
+        "es": {
+          "name": "Compilaciones parametrizadas",
+          "desc": "Las compilaciones parametrizadas cubren entradas tipadas que alteran el comportamiento del trabajo o del Pipeline en tiempo de ejecución."
+        },
+        "fr": {
+          "name": "Compilations paramétrées",
+          "desc": "Les compilations paramétrées couvrent les entrées typées qui modifient le comportement de la tâche ou du Pipeline au moment de l'exécution."
+        },
+        "de": {
+          "name": "Parametrisierte Builds",
+          "desc": "Parametrisierte Builds umfassen typisierte Eingaben, die das Job- oder Pipeline-Verhalten zur Laufzeit ändern."
+        },
+        "ja": {
+          "name": "パラメータ化されたビルド",
+          "desc": "パラメーター化されたビルドは、実行時にジョブまたはパイプラインの動作を変更する型指定された入力を扱います。"
+        },
+        "ru": {
+          "name": "Параметризованные сборки",
+          "desc": "Параметризованные сборки охватывают типизированные входные данные, которые изменяют поведение задания или конвейера во время выполнения."
+        },
+        "ko": {
+          "name": "매개변수화된 빌드",
+          "desc": "매개변수화된 빌드는 런타임 시 작업 또는 파이프라인 동작을 변경하는 형식화된 입력을 다룹니다."
+        },
+        "pt": {
+          "name": "Compilações parametrizadas",
+          "desc": "Compilações parametrizadas abrangem entradas tipadas que alteram o comportamento da tarefa ou do Pipeline em tempo de execução."
+        }
+      }
+    },
+    {
+      "key": "jenkins/environment_variables",
+      "slug": "environment_variables",
+      "name": "Environment Variables",
+      "desc": "Environment variables cover runtime configuration exposed to Jenkins jobs and pipeline steps.",
+      "i18n": {
+        "zh": {
+          "name": "环境变量",
+          "desc": "环境变量涵盖暴露给 Jenkins 作业和 Pipeline 步骤的运行时配置。"
+        },
+        "es": {
+          "name": "Variables de entorno",
+          "desc": "Las variables de entorno cubren la configuración de tiempo de ejecución expuesta a trabajos de Jenkins y pasos de Pipeline."
+        },
+        "fr": {
+          "name": "Variables d'environnement",
+          "desc": "Les variables d’environnement couvrent la configuration d’exécution exposée aux tâches Jenkins et aux étapes de Pipeline."
+        },
+        "de": {
+          "name": "Umgebungsvariablen",
+          "desc": "Umgebungsvariablen decken die Laufzeitkonfiguration ab, die Jenkins-Jobs und Pipeline-Schritten ausgesetzt ist."
+        },
+        "ja": {
+          "name": "環境変数",
+          "desc": "環境変数は、Jenkins ジョブおよびパイプラインステップに公開されるランタイム設定を扱います。"
+        },
+        "ru": {
+          "name": "Переменные среды",
+          "desc": "Переменные среды охватывают конфигурацию времени выполнения, доступную заданиям Jenkins и шагам Pipeline."
+        },
+        "ko": {
+          "name": "환경 변수",
+          "desc": "환경 변수는 Jenkins 작업 및 파이프라인 단계에 노출된 런타임 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Variáveis de ambiente",
+          "desc": "As variáveis de ambiente cobrem a configuração de tempo de execução exposta a tarefas do Jenkins e etapas de Pipeline."
+        }
+      }
+    },
+    {
+      "key": "jenkins/workspace_handling",
+      "slug": "workspace_handling",
+      "name": "Workspace Handling",
+      "desc": "Workspace handling covers source files, generated outputs, cleanup behavior, and workspace reuse between runs.",
+      "i18n": {
+        "zh": {
+          "name": "工作区处理",
+          "desc": "工作区处理涵盖源文件、生成的输出、清理行为以及运行之间的工作区重用。"
+        },
+        "es": {
+          "name": "Gestión del espacio de trabajo",
+          "desc": "El manejo del espacio de trabajo cubre archivos fuente, resultados generados, comportamiento de limpieza y reutilización del espacio de trabajo entre ejecuciones."
+        },
+        "fr": {
+          "name": "Gestion de l'espace de travail",
+          "desc": "La gestion de l'espace de travail couvre les fichiers sources, les sorties générées, le comportement de nettoyage et la réutilisation de l'espace de travail entre les exécutions."
+        },
+        "de": {
+          "name": "Workspace-Verwaltung",
+          "desc": "Die Arbeitsbereichsverwaltung umfasst Quelldateien, generierte Ausgaben, Bereinigungsverhalten und die Wiederverwendung des Arbeitsbereichs zwischen Läufen."
+        },
+        "ja": {
+          "name": "ワークスペースの処理",
+          "desc": "ワークスペースの処理には、ソースファイル、生成された出力、クリーンアップ動作、および実行間のワークスペースの再利用が含まれます。"
+        },
+        "ru": {
+          "name": "Обработка рабочей области",
+          "desc": "Обработка рабочей области охватывает исходные файлы, сгенерированные выходные данные, поведение очистки и повторное использование рабочей области между запусками."
+        },
+        "ko": {
+          "name": "작업 공간 처리",
+          "desc": "작업 공간 처리에는 소스 파일, 생성된 출력, 정리 동작 및 실행 간 작업 공간 재사용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Tratamento do espaço de trabalho",
+          "desc": "A manipulação do espaço de trabalho abrange arquivos de origem, saídas geradas, comportamento de limpeza e reutilização do espaço de trabalho entre execuções."
+        }
+      }
+    },
+    {
+      "key": "jenkins/post_build_actions",
+      "slug": "post_build_actions",
+      "name": "Post-Build Actions",
+      "desc": "Post-build actions cover publishing outputs, notifying teams, and triggering follow-up work after execution.",
+      "i18n": {
+        "zh": {
+          "name": "构建后操作",
+          "desc": "构建后操作包括发布输出、通知团队以及执行后触发后续工作。"
+        },
+        "es": {
+          "name": "Acciones posteriores a la compilación",
+          "desc": "Las acciones posteriores a la compilación cubren la publicación de resultados, la notificación a equipos y la activación de trabajos posteriores después de la ejecución."
+        },
+        "fr": {
+          "name": "Actions après compilation",
+          "desc": "Les actions après compilation couvrent la publication des sorties, la notification des équipes et le déclenchement de tâches de suivi après l’exécution."
+        },
+        "de": {
+          "name": "Post-Build-Aktionen",
+          "desc": "Zu den Post-Build-Aktionen gehören die Veröffentlichung von Ausgaben, die Benachrichtigung von Teams und die Auslösung von Folgearbeiten nach der Ausführung."
+        },
+        "ja": {
+          "name": "ビルド後のアクション",
+          "desc": "ビルド後のアクションには、出力の公開、チームへの通知、実行後のフォローアップ作業のトリガーが含まれます。"
+        },
+        "ru": {
+          "name": "Действия после сборки",
+          "desc": "Действия после сборки включают публикацию результатов, уведомление команд и запуск последующих работ после выполнения."
+        },
+        "ko": {
+          "name": "빌드 후 작업",
+          "desc": "빌드 후 작업에는 출력 게시, 팀에 알리기, 실행 후 후속 작업 트리거가 포함됩니다."
+        },
+        "pt": {
+          "name": "Ações pós-compilação",
+          "desc": "As ações pós-compilação abrangem a publicação de resultados, a notificação de equipes e o acionamento de tarefas de acompanhamento após a execução."
+        }
+      }
+    },
+    {
+      "key": "jenkins/jenkinsfile_structure",
+      "slug": "jenkinsfile_structure",
+      "name": "Jenkinsfile Structure",
+      "desc": "Jenkinsfile structure covers source-controlled pipeline definitions, required sections, stages, and reusable conventions.",
+      "i18n": {
+        "zh": {
+          "name": "Jenkinsfile 结构",
+          "desc": "Jenkinsfile 结构涵盖由版本控制管理的 Pipeline 定义、必需部分、stage 和可复用约定。"
+        },
+        "es": {
+          "name": "Estructura de Jenkinsfile",
+          "desc": "La estructura de Jenkinsfile cubre definiciones de Pipeline controladas por código fuente, secciones requeridas, etapas y convenciones reutilizables."
+        },
+        "fr": {
+          "name": "Structure Jenkinsfile",
+          "desc": "La structure Jenkinsfile couvre les définitions de Pipeline versionnées, les sections obligatoires, les stages et les conventions réutilisables."
+        },
+        "de": {
+          "name": "Jenkinsfile-Struktur",
+          "desc": "Die Jenkinsfile-Struktur umfasst quellgesteuerte Pipeline-Definitionen, erforderliche Abschnitte, Phasen und wiederverwendbare Konventionen."
+        },
+        "ja": {
+          "name": "Jenkinsfile 構造",
+          "desc": "Jenkinsfile の構造には、ソース管理されたパイプライン定義、必要なセクション、ステージ、および再利用可能な規約が含まれています。"
+        },
+        "ru": {
+          "name": "Структура Jenkinsfile",
+          "desc": "Структура Jenkinsfile охватывает определения Pipeline, управляемые исходным кодом, необходимые разделы, этапы и соглашения многократного использования."
+        },
+        "ko": {
+          "name": "Jenkinsfile 구조",
+          "desc": "Jenkinsfile 구조는 소스 제어 파이프라인 정의, 필수 섹션, 단계 및 재사용 가능한 규칙을 다룹니다."
+        },
+        "pt": {
+          "name": "Estrutura de Jenkinsfile",
+          "desc": "A estrutura do Jenkinsfile cobre definições de Pipeline versionadas, seções obrigatórias, stages e convenções reutilizáveis."
+        }
+      }
+    },
+    {
+      "key": "jenkins/declarative_pipeline",
+      "slug": "declarative_pipeline",
+      "name": "Declarative Pipeline",
+      "desc": "Declarative pipeline covers stages, steps, agents, options, environment, and post conditions.",
+      "i18n": {
+        "zh": {
+          "name": "声明式 Pipeline",
+          "desc": "声明式 Pipeline 涵盖 stages、steps、agent、options、environment 和 post 条件。"
+        },
+        "es": {
+          "name": "Pipeline declarativo",
+          "desc": "El Pipeline declarativo cubre etapas, pasos, agentes, opciones, entorno y condiciones post."
+        },
+        "fr": {
+          "name": "Pipeline déclaratif",
+          "desc": "Le Pipeline déclaratif couvre les stages, steps, agents, options, environment et conditions post."
+        },
+        "de": {
+          "name": "Deklarative Pipeline",
+          "desc": "Die deklarative Pipeline umfasst Phasen, Schritte, Agenten, Optionen, Umgebung und Post-Bedingungen."
+        },
+        "ja": {
+          "name": "宣言型 Pipeline",
+          "desc": "宣言型 Pipeline は、ステージ、ステップ、エージェント、オプション、環境、post 条件を扱います。"
+        },
+        "ru": {
+          "name": "Декларативный Pipeline",
+          "desc": "Декларативный Pipeline охватывает этапы, шаги, агентов, параметры, среду и post-условия."
+        },
+        "ko": {
+          "name": "선언형 Pipeline",
+          "desc": "선언형 Pipeline은 stages, steps, agent, options, environment 및 post 조건을 다룹니다."
+        },
+        "pt": {
+          "name": "Pipeline declarativo",
+          "desc": "O Pipeline declarativo cobre stages, steps, agents, options, environment e condições post."
+        }
+      }
+    },
+    {
+      "key": "jenkins/scripted_pipeline",
+      "slug": "scripted_pipeline",
+      "name": "Scripted Pipeline",
+      "desc": "Scripted pipeline covers programmatic pipeline control using Groovy-based Jenkins pipeline syntax.",
+      "i18n": {
+        "zh": {
+          "name": "脚本化 Pipeline",
+          "desc": "脚本化 Pipeline 涵盖使用基于 Groovy 的 Jenkins Pipeline 语法进行程序化 Pipeline 控制。"
+        },
+        "es": {
+          "name": "Pipeline con script",
+          "desc": "El Pipeline con script cubre el control programático del Pipeline usando la sintaxis de Jenkins Pipeline basada en Groovy."
+        },
+        "fr": {
+          "name": "Pipeline scripté",
+          "desc": "Le pipeline scripté couvre le contrôle programmatique du pipeline à l'aide de la syntaxe de pipeline Jenkins basée sur Groovy."
+        },
+        "de": {
+          "name": "Geskriptete Pipeline",
+          "desc": "Die skriptbasierte Pipeline umfasst die programmatische Pipeline-Steuerung mithilfe der Groovy-basierten Jenkins-Pipeline-Syntax."
+        },
+        "ja": {
+          "name": "スクリプト化 Pipeline",
+          "desc": "スクリプト化 Pipeline は、Groovy ベースの Jenkins Pipeline 構文を使用したプログラムによる Pipeline 制御を扱います。"
+        },
+        "ru": {
+          "name": "Скриптовый Pipeline",
+          "desc": "Скриптовый Pipeline охватывает программное управление Pipeline с использованием синтаксиса Jenkins Pipeline на основе Groovy."
+        },
+        "ko": {
+          "name": "스크립트형 Pipeline",
+          "desc": "스크립트형 Pipeline은 Groovy 기반 Jenkins Pipeline 구문을 사용한 프로그래밍 방식의 Pipeline 제어를 다룹니다."
+        },
+        "pt": {
+          "name": "Pipeline com script",
+          "desc": "O pipeline com script cobre o controle programático do pipeline usando a sintaxe do pipeline Jenkins baseada em Groovy."
+        }
+      }
+    },
+    {
+      "key": "jenkins/pipeline_stages",
+      "slug": "pipeline_stages",
+      "name": "Pipeline Stages",
+      "desc": "Pipeline stages cover organizing build, test, package, release, and deploy work into visible phases.",
+      "i18n": {
+        "zh": {
+          "name": "Pipeline 阶段",
+          "desc": "Pipeline stage 涵盖将构建、测试、打包、发布和部署工作组织成可见阶段。"
+        },
+        "es": {
+          "name": "Etapas de Pipeline",
+          "desc": "Las etapas de Pipeline cubren la organización del trabajo de compilación, prueba, empaquetado, lanzamiento e implementación en fases visibles."
+        },
+        "fr": {
+          "name": "Étapes de Pipeline",
+          "desc": "Les étapes de Pipeline couvrent l’organisation des travaux de compilation, de test, de packaging, de publication et de déploiement en phases visibles."
+        },
+        "de": {
+          "name": "Pipeline-Phasen",
+          "desc": "Pipeline-Phasen umfassen die Organisation von Build-, Test-, Paket-, Release- und Bereitstellungsarbeiten in sichtbaren Phasen."
+        },
+        "ja": {
+          "name": "Pipeline ステージ",
+          "desc": "Pipeline のステージでは、ビルド、テスト、パッケージ化、リリース、デプロイの作業を目に見えるフェーズに整理することを扱います。"
+        },
+        "ru": {
+          "name": "Этапы Pipeline",
+          "desc": "Этапы Pipeline охватывают организацию сборки, тестирования, упаковки, выпуска и развертывания в видимые этапы."
+        },
+        "ko": {
+          "name": "Pipeline 스테이지",
+          "desc": "Pipeline stage는 빌드, 테스트, 패키징, 릴리스 및 배포 작업을 가시적인 단계로 구성하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Estágios de Pipeline",
+          "desc": "Os stages de Pipeline cobrem a organização de build, teste, empacotamento, release e deploy em fases visíveis."
+        }
+      }
+    },
+    {
+      "key": "jenkins/pipeline_steps",
+      "slug": "pipeline_steps",
+      "name": "Pipeline Steps",
+      "desc": "Pipeline steps cover invoking Jenkins-supported commands, tools, credentials, artifacts, and plugins.",
+      "i18n": {
+        "zh": {
+          "name": "Pipeline 步骤",
+          "desc": "Pipeline 步骤涵盖调用 Jenkins 支持的命令、工具、凭据、工件和插件。"
+        },
+        "es": {
+          "name": "Pasos de Pipeline",
+          "desc": "Los pasos de pipeline cubren la invocación de comandos, herramientas, credenciales, artefactos y complementos compatibles con Jenkins."
+        },
+        "fr": {
+          "name": "Pas de Pipeline",
+          "desc": "Les pas de Pipeline couvrent l’appel de commandes, d’outils, de credentials, d’artefacts et de plugins pris en charge par Jenkins."
+        },
+        "de": {
+          "name": "Pipeline-Schritte",
+          "desc": "Pipeline-Schritte umfassen das Aufrufen von Jenkins-unterstützten Befehlen, Tools, Anmeldeinformationen, Artefakten und Plugins."
+        },
+        "ja": {
+          "name": "Pipeline ステップ",
+          "desc": "Pipeline ステップは、Jenkins がサポートするコマンド、ツール、認証情報、アーティファクト、プラグインの呼び出しを扱います。"
+        },
+        "ru": {
+          "name": "Шаги Pipeline",
+          "desc": "Шаги Pipeline охватывают вызов команд, инструментов, учетных данных, артефактов и плагинов, поддерживаемых Jenkins."
+        },
+        "ko": {
+          "name": "Pipeline 스텝",
+          "desc": "Pipeline step은 Jenkins가 지원하는 명령, 도구, credentials, 아티팩트 및 플러그인 호출을 다룹니다."
+        },
+        "pt": {
+          "name": "Passos de Pipeline",
+          "desc": "Os passos de Pipeline cobrem a invocação de comandos, ferramentas, credentials, artefatos e plugins suportados pelo Jenkins."
+        }
+      }
+    },
+    {
+      "key": "jenkins/shared_libraries",
+      "slug": "shared_libraries",
+      "name": "Shared Libraries",
+      "desc": "Shared libraries cover reusable pipeline code that standardizes logic across Jenkins jobs.",
+      "i18n": {
+        "zh": {
+          "name": "共享库",
+          "desc": "共享库涵盖可重用的 Pipeline 代码，用于在多个 Jenkins 作业之间标准化逻辑。"
+        },
+        "es": {
+          "name": "Bibliotecas compartidas",
+          "desc": "Las bibliotecas compartidas cubren código de Pipeline reutilizable que estandariza la lógica entre trabajos Jenkins."
+        },
+        "fr": {
+          "name": "Bibliothèques partagées",
+          "desc": "Les bibliothèques partagées couvrent le code de Pipeline réutilisable qui standardise la logique entre tâches Jenkins."
+        },
+        "de": {
+          "name": "Gemeinsame Bibliotheken",
+          "desc": "Gemeinsame Bibliotheken decken wiederverwendbaren Pipeline-Code ab, der die Logik über Jenkins-Jobs hinweg standardisiert."
+        },
+        "ja": {
+          "name": "共有ライブラリ",
+          "desc": "共有ライブラリは、Jenkins ジョブ全体でロジックを標準化する再利用可能なパイプラインコードを扱います。"
+        },
+        "ru": {
+          "name": "Общие библиотеки",
+          "desc": "Общие библиотеки охватывают многократно используемый код Pipeline, который стандартизирует логику для заданий Jenkins."
+        },
+        "ko": {
+          "name": "공유 라이브러리",
+          "desc": "공유 라이브러리는 Jenkins 작업 전반에 걸쳐 로직을 표준화하는 재사용 가능한 파이프라인 코드를 다룹니다."
+        },
+        "pt": {
+          "name": "Bibliotecas Compartilhadas",
+          "desc": "Bibliotecas compartilhadas cobrem código de Pipeline reutilizável que padroniza a lógica entre tarefas do Jenkins."
+        }
+      }
+    },
+    {
+      "key": "jenkins/source_control_integration",
+      "slug": "source_control_integration",
+      "name": "Source Control Integration",
+      "desc": "Source control integration covers retrieving repository content and revisions needed for Jenkins automation.",
+      "i18n": {
+        "zh": {
+          "name": "源码管理集成",
+          "desc": "源码管理集成涵盖检出仓库内容和 Jenkins 自动化所需的 revision。"
+        },
+        "es": {
+          "name": "Integración con control de versiones",
+          "desc": "La integración con control de versiones cubre la obtención del contenido del repositorio y las revisiones necesarias para la automatización de Jenkins."
+        },
+        "fr": {
+          "name": "Intégration au contrôle de version",
+          "desc": "L'intégration au contrôle de version couvre la récupération du contenu du dépôt et des révisions nécessaires à l'automatisation Jenkins."
+        },
+        "de": {
+          "name": "Integration der Quellcodeverwaltung",
+          "desc": "Die Integration der Quellcodeverwaltung umfasst das Abrufen von Repository-Inhalten und Revisionen, die für die Jenkins-Automatisierung erforderlich sind."
+        },
+        "ja": {
+          "name": "ソースコード管理連携",
+          "desc": "ソースコード管理連携では、Jenkins 自動化に必要なリポジトリ内容とリビジョンの取得を扱います。"
+        },
+        "ru": {
+          "name": "Интеграция системы управления версиями",
+          "desc": "Интеграция системы контроля версий охватывает получение содержимого репозитория и изменений, необходимых для автоматизации Jenkins."
+        },
+        "ko": {
+          "name": "소스 코드 관리 통합",
+          "desc": "소스 코드 관리 통합은 Jenkins 자동화에 필요한 저장소 콘텐츠와 revision을 가져오는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Integração com controle de versão",
+          "desc": "A integração com controle de versão cobre a obtenção do conteúdo do repositório e das revisões necessárias para a automação do Jenkins."
+        }
+      }
+    },
+    {
+      "key": "jenkins/webhook_integration",
+      "slug": "webhook_integration",
+      "name": "Webhook Integration",
+      "desc": "Webhook integration covers connecting repository or external events to Jenkins builds.",
+      "i18n": {
+        "zh": {
+          "name": "Webhook 集成",
+          "desc": "Webhook 集成涵盖将仓库或外部事件连接到 Jenkins 构建。"
+        },
+        "es": {
+          "name": "Integración de webhook",
+          "desc": "La integración de webhook cubre la conexión de repositorios o eventos externos a compilaciones de Jenkins."
+        },
+        "fr": {
+          "name": "Intégration de webhooks",
+          "desc": "L'intégration de webhooks couvre la connexion du référentiel ou des événements externes aux compilations Jenkins."
+        },
+        "de": {
+          "name": "Webhook-Integration",
+          "desc": "Die Webhook-Integration umfasst die Verbindung von Repository- oder externen Ereignissen mit Jenkins-Builds."
+        },
+        "ja": {
+          "name": "Webhook の統合",
+          "desc": "Webhook の統合では、リポジトリまたは外部イベントを Jenkins ビルドに接続することができます。"
+        },
+        "ru": {
+          "name": "Интеграция вебхука",
+          "desc": "Интеграция вебхуков охватывает подключение репозитория или внешних событий к сборкам Jenkins."
+        },
+        "ko": {
+          "name": "웹훅 통합",
+          "desc": "웹훅 통합에는 저장소 또는 외부 이벤트를 Jenkins 빌드에 연결하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Integração de webhook",
+          "desc": "A integração de webhooks cobre a conexão do repositório ou eventos externos às compilações Jenkins."
+        }
+      }
+    },
+    {
+      "key": "jenkins/multibranch_pipelines",
+      "slug": "multibranch_pipelines",
+      "name": "Multibranch Pipelines",
+      "desc": "Multibranch pipelines cover discovering branches and pull requests as separate pipeline runs.",
+      "i18n": {
+        "zh": {
+          "name": "多分支 Pipeline",
+          "desc": "多分支 Pipeline 涵盖将分支和拉取请求识别为独立的 Pipeline 运行。"
+        },
+        "es": {
+          "name": "Pipelines multibranch",
+          "desc": "Los pipelines multibranch cubren el descubrimiento de ramas y solicitudes de extracción como ejecuciones de Pipeline separadas."
+        },
+        "fr": {
+          "name": "Pipelines multibranches",
+          "desc": "Les pipelines multibranches couvrent la découverte des branches et des demandes de tirage en tant qu’exécutions de Pipeline distinctes."
+        },
+        "de": {
+          "name": "Multibranch-Pipelines",
+          "desc": "Multibranch-Pipelines umfassen das Erkennen von Branches und Pull Requests als separate Pipeline-Läufe."
+        },
+        "ja": {
+          "name": "マルチブランチ Pipeline",
+          "desc": "マルチブランチ Pipeline は、ブランチとプルリクエストを個別の Pipeline 実行として検出することを扱います。"
+        },
+        "ru": {
+          "name": "Мультиветочные Pipeline",
+          "desc": "Мультиветочные Pipeline охватывают обнаружение веток и запросов на слияние как отдельных запусков Pipeline."
+        },
+        "ko": {
+          "name": "멀티브랜치 Pipeline",
+          "desc": "멀티브랜치 Pipeline은 브랜치와 풀 리퀘스트를 별도의 Pipeline 실행으로 발견하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Pipelines multibranch",
+          "desc": "Pipelines multibranch cobrem a descoberta de branches e solicitações de pull como execuções de Pipeline separadas."
+        }
+      }
+    },
+    {
+      "key": "jenkins/agent_nodes",
+      "slug": "agent_nodes",
+      "name": "Agent Nodes",
+      "desc": "Agent nodes cover distributing work from a controller to execution machines.",
+      "i18n": {
+        "zh": {
+          "name": "Agent 节点",
+          "desc": "Agent 节点涵盖将工作从 controller 分配到执行机器。"
+        },
+        "es": {
+          "name": "Nodos de agente",
+          "desc": "Los nodos de agente cubren la distribución del trabajo desde un controlador a las máquinas de ejecución."
+        },
+        "fr": {
+          "name": "Nœuds d'agent",
+          "desc": "Les nœuds d'agent couvrent la distribution du travail d'un contrôleur vers les machines d'exécution."
+        },
+        "de": {
+          "name": "Agentenknoten",
+          "desc": "Agentenknoten decken die Verteilung der Arbeit von einem Controller auf Ausführungsmaschinen ab."
+        },
+        "ja": {
+          "name": "エージェントノード",
+          "desc": "エージェントノードは、コントローラーから実行マシンへの作業の分散を扱います。"
+        },
+        "ru": {
+          "name": "Узлы агентов",
+          "desc": "Узлы агентов обеспечивают распределение работы от контроллера к исполнительным машинам."
+        },
+        "ko": {
+          "name": "에이전트 노드",
+          "desc": "에이전트 노드는 컨트롤러에서 실행 머신으로 작업을 분산하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Nós de agente",
+          "desc": "Os nós de agente cobrem a distribuição do trabalho de um controlador para máquinas de execução."
+        }
+      }
+    },
+    {
+      "key": "jenkins/agent_labels",
+      "slug": "agent_labels",
+      "name": "Agent Labels",
+      "desc": "Agent labels cover selecting build environments by capability or platform.",
+      "i18n": {
+        "zh": {
+          "name": "Agent 标签",
+          "desc": "Agent 标签涵盖按能力或平台选择构建环境。"
+        },
+        "es": {
+          "name": "Etiquetas de agente",
+          "desc": "Las etiquetas de los agentes cubren la selección de entornos de compilación por capacidad o plataforma."
+        },
+        "fr": {
+          "name": "Étiquettes d'agent",
+          "desc": "Les étiquettes d’agent couvrent la sélection des environnements de compilation par capacité ou plateforme."
+        },
+        "de": {
+          "name": "Agent-Labels",
+          "desc": "Agent-Labels decken die Auswahl von Build-Umgebungen nach Fähigkeit oder Plattform ab."
+        },
+        "ja": {
+          "name": "エージェントラベル",
+          "desc": "エージェントラベルには、機能またはプラットフォームごとのビルド環境の選択が含まれています。"
+        },
+        "ru": {
+          "name": "Метки агентов",
+          "desc": "Метки агентов охватывают выбор сред сборки по возможностям или платформе."
+        },
+        "ko": {
+          "name": "에이전트 라벨",
+          "desc": "에이전트 레이블은 기능 또는 플랫폼에 따라 빌드 환경을 선택하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Etiquetas de agente",
+          "desc": "Os rótulos dos agentes abrangem a seleção de ambientes de compilação por capacidade ou plataforma."
+        }
+      }
+    },
+    {
+      "key": "jenkins/tool_configuration",
+      "slug": "tool_configuration",
+      "name": "Tool Configuration",
+      "desc": "Tool configuration covers defining build tools and installations that jobs can use.",
+      "i18n": {
+        "zh": {
+          "name": "工具配置",
+          "desc": "工具配置涵盖定义作业可以使用的构建工具和工具安装项。"
+        },
+        "es": {
+          "name": "Configuración de herramientas",
+          "desc": "La configuración de herramientas cubre la definición de herramientas de construcción e instalaciones que los trabajos pueden usar."
+        },
+        "fr": {
+          "name": "Configuration des outils",
+          "desc": "La configuration des outils couvre la définition des outils de compilation et des installations que les tâches peuvent utiliser."
+        },
+        "de": {
+          "name": "Tool-Konfiguration",
+          "desc": "Die Tool-Konfiguration behandelt die Definition von Build-Tools und Installationen, die Jobs verwenden können."
+        },
+        "ja": {
+          "name": "ツール構成",
+          "desc": "ツール構成には、ジョブが使用できるビルドツールとインストールの定義が含まれます。"
+        },
+        "ru": {
+          "name": "Конфигурация инструментов",
+          "desc": "Конфигурация инструментов включает в себя определение инструментов сборки и установок, которые могут использовать задания."
+        },
+        "ko": {
+          "name": "도구 구성",
+          "desc": "도구 구성에서는 작업에서 사용할 수 있는 빌드 도구 및 설치 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Configuração da ferramenta",
+          "desc": "A configuração da ferramenta abrange a definição de ferramentas de construção e instalações que os trabalhos podem usar."
+        }
+      }
+    },
+    {
+      "key": "jenkins/container_agents",
+      "slug": "container_agents",
+      "name": "Container Agents",
+      "desc": "Container agents cover running Jenkins build steps inside containerized execution environments.",
+      "i18n": {
+        "zh": {
+          "name": "容器 Agent",
+          "desc": "容器 Agent 涵盖在容器化执行环境中运行 Jenkins 构建步骤。"
+        },
+        "es": {
+          "name": "Agentes de contenedores",
+          "desc": "Los agentes de contenedores cubren la ejecución de pasos de compilación de Jenkins dentro de entornos de ejecución en contenedores."
+        },
+        "fr": {
+          "name": "Agents de conteneurs",
+          "desc": "Les agents de conteneur couvrent l'exécution d'étapes de compilation Jenkins dans des environnements d'exécution conteneurisés."
+        },
+        "de": {
+          "name": "Container-Agenten",
+          "desc": "Container-Agenten decken die Ausführung von Jenkins-Build-Schritten in containerisierten Ausführungsumgebungen ab."
+        },
+        "ja": {
+          "name": "コンテナエージェント",
+          "desc": "コンテナーエージェントは、コンテナー化された実行環境内で Jenkins のビルドステップを実行することを扱います。"
+        },
+        "ru": {
+          "name": "Контейнерные агенты",
+          "desc": "Контейнерные агенты охватывают выполнение этапов сборки Jenkins внутри контейнерных сред выполнения."
+        },
+        "ko": {
+          "name": "컨테이너 에이전트",
+          "desc": "컨테이너 에이전트는 컨테이너화된 실행 환경 내에서 Jenkins 빌드 단계 실행을 다룹니다."
+        },
+        "pt": {
+          "name": "Agentes de Contêiner",
+          "desc": "Agentes de contêiner cobrem a execução de etapas de compilação do Jenkins dentro de ambientes de execução conteinerizados."
+        }
+      }
+    },
+    {
+      "key": "jenkins/plugin_lifecycle",
+      "slug": "plugin_lifecycle",
+      "name": "Plugin Lifecycle",
+      "desc": "Plugin lifecycle covers selecting, installing, updating, and retiring Jenkins plugins safely.",
+      "i18n": {
+        "zh": {
+          "name": "插件生命周期",
+          "desc": "插件生命周期涵盖安全地选择、安装、更新和停用 Jenkins 插件。"
+        },
+        "es": {
+          "name": "Ciclo de vida del complemento",
+          "desc": "El ciclo de vida de los complementos abarca la selección, instalación, actualización y retirada segura de complementos de Jenkins."
+        },
+        "fr": {
+          "name": "Cycle de vie des plugins",
+          "desc": "Le cycle de vie des plugins couvre la sélection, l'installation, la mise à jour et le retrait sécurisé des plugins Jenkins."
+        },
+        "de": {
+          "name": "Plugin-Lebenszyklus",
+          "desc": "Der Plugin-Lebenszyklus umfasst die sichere Auswahl, Installation, Aktualisierung und Außerbetriebnahme von Jenkins-Plugins."
+        },
+        "ja": {
+          "name": "プラグインのライフサイクル",
+          "desc": "プラグインのライフサイクルには、Jenkins プラグインの安全な選択、インストール、更新、および廃止が含まれます。"
+        },
+        "ru": {
+          "name": "Жизненный цикл плагина",
+          "desc": "Жизненный цикл плагина охватывает безопасный выбор, установку, обновление и удаление плагинов Jenkins."
+        },
+        "ko": {
+          "name": "플러그인 수명주기",
+          "desc": "플러그인 수명 주기에는 Jenkins 플러그인을 안전하게 선택, 설치, 업데이트 및 폐기하는 과정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida do plug-in",
+          "desc": "O ciclo de vida do plug-in cobre a seleção, instalação, atualização e desativação segura dos plug-ins do Jenkins."
+        }
+      }
+    },
+    {
+      "key": "jenkins/credential_storage",
+      "slug": "credential_storage",
+      "name": "Credential Storage",
+      "desc": "Credential storage covers storing secrets in Jenkins credential stores.",
+      "i18n": {
+        "zh": {
+          "name": "凭据存储",
+          "desc": "凭据存储涵盖在 Jenkins credential store 中保存 secrets。"
+        },
+        "es": {
+          "name": "Almacenamiento de credenciales",
+          "desc": "El almacenamiento de credenciales cubre el almacenamiento de secretos en los almacenes de credenciales de Jenkins."
+        },
+        "fr": {
+          "name": "Stockage des credentials",
+          "desc": "Le stockage des credentials couvre l'enregistrement des secrets dans les magasins de credentials Jenkins."
+        },
+        "de": {
+          "name": "Anmeldeinformationsspeicher",
+          "desc": "Die Speicherung von Anmeldeinformationen umfasst das Speichern vertraulicher Werte in Jenkins-Anmeldeinformationsspeichern."
+        },
+        "ja": {
+          "name": "Credentials の保存",
+          "desc": "Credentials の保存は、Jenkins の credentials store にシークレットを保存することを扱います。"
+        },
+        "ru": {
+          "name": "Хранилище учетных данных",
+          "desc": "Хранилище учетных данных охватывает хранение секретов в хранилищах учетных данных Jenkins."
+        },
+        "ko": {
+          "name": "Credentials 저장소",
+          "desc": "Credentials 저장소는 Jenkins credentials store에 secrets를 저장하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Armazenamento de credenciais",
+          "desc": "O armazenamento de credenciais cobre o armazenamento de valores confidenciais nos armazenamentos de credenciais do Jenkins."
+        }
+      }
+    },
+    {
+      "key": "jenkins/credential_binding",
+      "slug": "credential_binding",
+      "name": "Credential Binding",
+      "desc": "Credential binding covers exposing secrets to builds only where needed.",
+      "i18n": {
+        "zh": {
+          "name": "凭据绑定",
+          "desc": "凭据绑定涵盖仅在需要的位置向构建暴露 secrets。"
+        },
+        "es": {
+          "name": "Vinculación de credenciales",
+          "desc": "La vinculación de credenciales cubre exponer secretos a compilaciones solo cuando sea necesario."
+        },
+        "fr": {
+          "name": "Binding des credentials",
+          "desc": "Le binding des credentials couvre l'exposition des secrets aux builds seulement aux emplacements nécessaires."
+        },
+        "de": {
+          "name": "Anmeldeinformationsbindung",
+          "desc": "Die Anmeldeinformationsbindung umfasst das Offenlegen vertraulicher Werte für Builds nur bei Bedarf."
+        },
+        "ja": {
+          "name": "Credentials Binding",
+          "desc": "Credentials Binding は、必要な場所でのみビルドにシークレットを公開することを扱います。"
+        },
+        "ru": {
+          "name": "Привязка учетных данных",
+          "desc": "Привязка учетных данных охватывает раскрытие секретов сборкам только там, где это необходимо."
+        },
+        "ko": {
+          "name": "Credentials Binding",
+          "desc": "Credentials Binding은 필요한 위치에서만 빌드에 secrets를 노출하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Vinculação de credenciais",
+          "desc": "A vinculação de credenciais cobre a exposição de valores confidenciais a compilações somente quando necessário."
+        }
+      }
+    },
+    {
+      "key": "jenkins/roles_permissions",
+      "slug": "roles_permissions",
+      "name": "Roles and Permissions",
+      "desc": "Roles and permissions cover controlling who can configure, run, and view Jenkins resources.",
+      "i18n": {
+        "zh": {
+          "name": "角色和权限",
+          "desc": "角色和权限涵盖控制谁可以配置、运行和查看 Jenkins 资源。"
+        },
+        "es": {
+          "name": "Roles y permisos",
+          "desc": "Los roles y permisos cubren el control de quién puede configurar, ejecutar y ver recursos de Jenkins."
+        },
+        "fr": {
+          "name": "Rôles et autorisations",
+          "desc": "Les rôles et autorisations couvrent le contrôle des personnes pouvant configurer, exécuter et consulter les ressources Jenkins."
+        },
+        "de": {
+          "name": "Rollen und Berechtigungen",
+          "desc": "Rollen und Berechtigungen umfassen die Steuerung, wer Jenkins-Ressourcen konfigurieren, ausführen und anzeigen kann."
+        },
+        "ja": {
+          "name": "役割と権限",
+          "desc": "役割と権限には、Jenkins リソースを構成、実行、表示できるユーザーの制御が含まれます。"
+        },
+        "ru": {
+          "name": "Роли и разрешения",
+          "desc": "Роли и разрешения охватывают контроль над тем, кто может настраивать, запускать и просматривать ресурсы Jenkins."
+        },
+        "ko": {
+          "name": "역할 및 권한",
+          "desc": "역할 및 권한은 Jenkins 리소스를 구성, 실행, 조회할 수 있는 사용자를 제어하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Funções e permissões",
+          "desc": "Funções e permissões abrangem o controle de quem pode configurar, executar e visualizar recursos do Jenkins."
+        }
+      }
+    },
+    {
+      "key": "jenkins/secret_handling",
+      "slug": "secret_handling",
+      "name": "Secret Handling",
+      "desc": "Secret handling covers preventing sensitive values from leaking through logs, files, parameters, or artifacts.",
+      "i18n": {
+        "zh": {
+          "name": "Secrets 处理",
+          "desc": "Secrets 处理涵盖防止敏感值通过日志、文件、参数或工件泄漏。"
+        },
+        "es": {
+          "name": "Gestión de secretos",
+          "desc": "La gestión de secretos cubre evitar que los valores sensibles se filtren mediante registros, archivos, parámetros o artefactos."
+        },
+        "fr": {
+          "name": "Gestion des secrets",
+          "desc": "La gestion des secrets couvre la prévention des fuites de valeurs sensibles via les journaux, les fichiers, les paramètres ou les artefacts."
+        },
+        "de": {
+          "name": "Umgang mit vertraulichen Werten",
+          "desc": "Der Umgang mit vertraulichen Werten umfasst das Verhindern, dass vertrauliche Werte durch Protokolle, Dateien, Parameter oder Artefakte durchsickern."
+        },
+        "ja": {
+          "name": "シークレットの扱い",
+          "desc": "シークレットの扱いでは、ログ、ファイル、パラメータ、アーティファクトを通じて機密値が漏洩するのを防ぐ方法を扱います。"
+        },
+        "ru": {
+          "name": "Обработка секретов",
+          "desc": "Обработка секретов охватывает предотвращение утечек конфиденциальных значений через логи, файлы, параметры или артефакты."
+        },
+        "ko": {
+          "name": "Secrets 처리",
+          "desc": "Secrets 처리는 민감한 값이 로그, 파일, 매개변수 또는 아티팩트를 통해 유출되지 않도록 방지하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Tratamento de valores confidenciais",
+          "desc": "O tratamento de valores confidenciais cobre impedir que valores sensíveis vazem por registros, arquivos, parâmetros ou artefatos."
+        }
+      }
+    },
+    {
+      "key": "jenkins/artifact_archiving",
+      "slug": "artifact_archiving",
+      "name": "Artifact Archiving",
+      "desc": "Artifact archiving covers preserving build outputs for download, release, or later stages.",
+      "i18n": {
+        "zh": {
+          "name": "工件归档",
+          "desc": "工件归档涵盖保存构建输出，以供下载、发布或后续 stage 使用。"
+        },
+        "es": {
+          "name": "Archivo de artefactos",
+          "desc": "El archivado de artefactos cubre la preservación de los resultados de la compilación para su descarga, lanzamiento o etapas posteriores."
+        },
+        "fr": {
+          "name": "Archivage d'artefacts",
+          "desc": "L'archivage des artefacts couvre la préservation des sorties de compilation pour le téléchargement, la publication ou les étapes ultérieures."
+        },
+        "de": {
+          "name": "Artefaktarchivierung",
+          "desc": "Die Artefaktarchivierung umfasst die Aufbewahrung von Build-Ausgaben für den Download, die Veröffentlichung oder spätere Phasen."
+        },
+        "ja": {
+          "name": "アーティファクトのアーカイブ",
+          "desc": "アーティファクトのアーカイブには、ダウンロード、リリース、またはその後の段階のためにビルド出力を保存することが含まれます。"
+        },
+        "ru": {
+          "name": "Архивирование артефактов",
+          "desc": "Архивирование артефактов включает сохранение результатов сборки для загрузки, выпуска или последующих этапов."
+        },
+        "ko": {
+          "name": "아티팩트 보관",
+          "desc": "아티팩트 보관은 다운로드, 릴리스 또는 이후 단계를 위해 빌드 출력을 보존하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Arquivamento de artefatos",
+          "desc": "O arquivamento de artefatos abrange a preservação de saídas de compilação para download, publicação ou estágios posteriores."
+        }
+      }
+    },
+    {
+      "key": "jenkins/test_reports",
+      "slug": "test_reports",
+      "name": "Test Reports",
+      "desc": "Test reports cover publishing automated test results for build visibility.",
+      "i18n": {
+        "zh": {
+          "name": "测试报告",
+          "desc": "测试报告涵盖发布自动化测试结果以提高构建可见性。"
+        },
+        "es": {
+          "name": "Informes de prueba",
+          "desc": "Los informes de prueba cubren la publicación de resultados de pruebas automatizados para la visibilidad de la compilación."
+        },
+        "fr": {
+          "name": "Rapports de tests",
+          "desc": "Les rapports de test couvrent la publication des résultats de tests automatisés pour la visibilité de la compilation."
+        },
+        "de": {
+          "name": "Testberichte",
+          "desc": "Testberichte umfassen die Veröffentlichung automatisierter Testergebnisse zur Verbesserung der Build-Transparenz."
+        },
+        "ja": {
+          "name": "テストレポート",
+          "desc": "テストレポートでは、ビルドを可視化するための自動テスト結果の公開について説明します。"
+        },
+        "ru": {
+          "name": "Отчеты о тестах",
+          "desc": "Отчеты о тестах охватывают публикацию результатов автоматизированных тестов для видимости сборки."
+        },
+        "ko": {
+          "name": "테스트 보고서",
+          "desc": "테스트 보고서에는 빌드 가시성을 위한 자동화된 테스트 결과 게시가 포함됩니다."
+        },
+        "pt": {
+          "name": "Relatórios de teste",
+          "desc": "Os relatórios de teste cobrem a publicação de resultados de testes automatizados para visibilidade da compilação."
+        }
+      }
+    },
+    {
+      "key": "jenkins/notifications",
+      "slug": "notifications",
+      "name": "Notifications",
+      "desc": "Notifications cover sending build status to developers and collaboration systems.",
+      "i18n": {
+        "zh": {
+          "name": "通知",
+          "desc": "通知包括向开发人员和协作系统发送构建状态。"
+        },
+        "es": {
+          "name": "Notificaciones",
+          "desc": "Las notificaciones cubren el envío del estado de compilación a desarrolladores y sistemas de colaboración."
+        },
+        "fr": {
+          "name": "Notifications",
+          "desc": "Les notifications couvrent l’envoi de l’état de compilation aux développeurs et aux systèmes de collaboration."
+        },
+        "de": {
+          "name": "Benachrichtigungen",
+          "desc": "Benachrichtigungen umfassen das Senden des Build-Status an Entwickler und Kollaborationssysteme."
+        },
+        "ja": {
+          "name": "通知",
+          "desc": "通知には、開発者およびコラボレーションシステムへのビルドステータスの送信が含まれます。"
+        },
+        "ru": {
+          "name": "Уведомления",
+          "desc": "Уведомления охватывают отправку статуса сборки разработчикам и системам совместной работы."
+        },
+        "ko": {
+          "name": "알림",
+          "desc": "알림에는 개발자 및 협업 시스템에 빌드 상태를 보내는 내용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Notificações",
+          "desc": "As notificações cobrem o envio do status da compilação para desenvolvedores e sistemas de colaboração."
+        }
+      }
+    },
+    {
+      "key": "jenkins/backup_restore",
+      "slug": "backup_restore",
+      "name": "Backup and Restore",
+      "desc": "Backup and restore cover protecting Jenkins configuration, jobs, credentials, and build metadata.",
+      "i18n": {
+        "zh": {
+          "name": "备份与恢复",
+          "desc": "备份和恢复涵盖保护 Jenkins 配置、作业、凭据和构建元数据。"
+        },
+        "es": {
+          "name": "Copia de seguridad y restauración",
+          "desc": "La copia de seguridad y restauración cubre la protección de la configuración de Jenkins, trabajos, credenciales y metadatos de compilación."
+        },
+        "fr": {
+          "name": "Sauvegarde et restauration",
+          "desc": "La sauvegarde et la restauration couvrent la protection de la configuration Jenkins, des tâches, des identifiants et des métadonnées de compilation."
+        },
+        "de": {
+          "name": "Sichern und Wiederherstellen",
+          "desc": "Sichern und Wiederherstellen umfasst den Schutz von Jenkins-Konfiguration, Jobs, Anmeldeinformationen und Build-Metadaten."
+        },
+        "ja": {
+          "name": "バックアップと復元",
+          "desc": "バックアップと復元は、Jenkins の構成、ジョブ、資格情報、ビルドメタデータの保護を扱います。"
+        },
+        "ru": {
+          "name": "Резервное копирование и восстановление",
+          "desc": "Резервное копирование и восстановление обеспечивают защиту конфигурации Jenkins, заданий, учетных данных и метаданных сборки."
+        },
+        "ko": {
+          "name": "백업 및 복원",
+          "desc": "백업 및 복원은 Jenkins 구성, 작업, 자격 증명 및 빌드 메타데이터 보호를 다룹니다."
+        },
+        "pt": {
+          "name": "Backup e restauração",
+          "desc": "Backup e restauração abrangem a proteção da configuração do Jenkins, tarefas, credenciais e metadados de compilação."
+        }
+      }
+    },
+    {
+      "key": "jenkins/controller_maintenance",
+      "slug": "controller_maintenance",
+      "name": "Controller Maintenance",
+      "desc": "Controller maintenance covers managing updates, disk usage, security settings, and service health.",
+      "i18n": {
+        "zh": {
+          "name": "控制器维护",
+          "desc": "控制器维护包括管理更新、磁盘使用、安全设置和服务运行状况。"
+        },
+        "es": {
+          "name": "Mantenimiento del controlador",
+          "desc": "El mantenimiento del controlador cubre la gestión de actualizaciones, el uso del disco, la configuración de seguridad y el estado del servicio."
+        },
+        "fr": {
+          "name": "Entretien du contrôleur",
+          "desc": "La maintenance du contrôleur couvre la gestion des mises à jour, l'utilisation du disque, les paramètres de sécurité et l'état du service."
+        },
+        "de": {
+          "name": "Controller-Wartung",
+          "desc": "Die Controller-Wartung umfasst die Verwaltung von Updates, Festplattennutzung, Sicherheitseinstellungen und Dienstzustand."
+        },
+        "ja": {
+          "name": "コントローラのメンテナンス",
+          "desc": "コントローラーのメンテナンスには、更新、ディスク使用状況、セキュリティ設定、サービスの健全性の管理が含まれます。"
+        },
+        "ru": {
+          "name": "Техническое обслуживание контроллера",
+          "desc": "Обслуживание контроллера включает управление обновлениями, использованием диска, настройками безопасности и работоспособностью служб."
+        },
+        "ko": {
+          "name": "컨트롤러 유지 관리",
+          "desc": "컨트롤러 유지 관리에는 업데이트, 디스크 사용량, 보안 설정 및 서비스 상태 관리가 포함됩니다."
+        },
+        "pt": {
+          "name": "Manutenção do controlador",
+          "desc": "A manutenção do controlador abrange o gerenciamento de atualizações, uso de disco, configurações de segurança e integridade do serviço."
+        }
+      }
+    },
+    {
+      "key": "jenkins/pipeline_visualization",
+      "slug": "pipeline_visualization",
+      "name": "Pipeline Visualization",
+      "desc": "Pipeline visualization covers reading stage views and activity timelines to understand delivery flow.",
+      "i18n": {
+        "zh": {
+          "name": "Pipeline 可视化",
+          "desc": "Pipeline 可视化涵盖阅读 stage 视图和活动时间线，以了解交付流程。"
+        },
+        "es": {
+          "name": "Visualización de pipelines",
+          "desc": "La visualización de Pipeline cubre la lectura de vistas de stages y líneas de tiempo de actividad para comprender el flujo de entrega."
+        },
+        "fr": {
+          "name": "Visualisation des pipelines",
+          "desc": "La visualisation des pipelines couvre la lecture des vues des étapes et des chronologies d’activité pour comprendre le flux de livraison."
+        },
+        "de": {
+          "name": "Pipeline-Visualisierung",
+          "desc": "Die Pipeline-Visualisierung umfasst das Lesen von Stage-Ansichten und Aktivitätszeitleisten, um den Lieferfluss zu verstehen."
+        },
+        "ja": {
+          "name": "Pipeline の可視化",
+          "desc": "Pipeline の可視化では、ステージビューとアクティビティタイムラインを読んでデリバリーフローを理解します。"
+        },
+        "ru": {
+          "name": "Визуализация Pipeline",
+          "desc": "Визуализация Pipeline включает чтение представлений этапов и временных шкал активности, чтобы понимать поток доставки."
+        },
+        "ko": {
+          "name": "Pipeline 시각화",
+          "desc": "Pipeline 시각화는 전달 흐름을 이해하기 위해 stage view와 활동 타임라인을 읽는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Visualização de Pipeline",
+          "desc": "A visualização de Pipeline abrange a leitura de visualizações de stages e linhas do tempo de atividade para entender o fluxo de entrega."
+        }
+      }
+    }
+  ]
+}

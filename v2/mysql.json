@@ -1,0 +1,1527 @@
+{
+  "key": "mysql",
+  "slug": "mysql",
+  "name": "MySQL",
+  "skills": [
+    {
+      "key": "mysql/server_connection",
+      "slug": "server_connection",
+      "name": "Server Connection",
+      "desc": "Server connection covers connecting to MySQL instances and selecting the active database context.",
+      "i18n": {
+        "zh": {
+          "name": "服务器连接",
+          "desc": "服务器连接涵盖连接到 MySQL 实例并选择当前数据库上下文。"
+        },
+        "es": {
+          "name": "Conexión del servidor",
+          "desc": "La conexión del servidor cubre la conexión a instancias MySQL y la selección del contexto de la base de datos activa."
+        },
+        "fr": {
+          "name": "Connexion au serveur",
+          "desc": "La connexion au serveur couvre la connexion aux instances MySQL et la sélection du contexte de base de données actif."
+        },
+        "de": {
+          "name": "Serververbindung",
+          "desc": "Die Serververbindung umfasst die Verbindung zu MySQL-Instanzen und die Auswahl des aktiven Datenbankkontexts."
+        },
+        "ja": {
+          "name": "サーバー接続",
+          "desc": "サーバー接続では、MySQL インスタンスへの接続とアクティブなデータベースコンテキストの選択について説明します。"
+        },
+        "ru": {
+          "name": "Подключение к серверу",
+          "desc": "Подключение к серверу включает подключение к экземплярам MySQL и выбор активного контекста базы данных."
+        },
+        "ko": {
+          "name": "서버 연결",
+          "desc": "서버 연결에는 MySQL 인스턴스 연결 및 활성 데이터베이스 컨텍스트 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Conexão do servidor",
+          "desc": "A conexão do servidor abrange a conexão com instâncias MySQL e a seleção do contexto do banco de dados ativo."
+        }
+      }
+    },
+    {
+      "key": "mysql/database_lifecycle",
+      "slug": "database_lifecycle",
+      "name": "Database Lifecycle",
+      "desc": "Database lifecycle covers creating, selecting, altering, and dropping databases.",
+      "i18n": {
+        "zh": {
+          "name": "数据库生命周期",
+          "desc": "数据库生命周期涵盖创建、选择、更改和删除数据库。"
+        },
+        "es": {
+          "name": "Ciclo de vida de la base de datos",
+          "desc": "El ciclo de vida de la base de datos cubre la creación, selección, modificación y eliminación de bases de datos."
+        },
+        "fr": {
+          "name": "Cycle de vie de la base de données",
+          "desc": "Le cycle de vie d'une base de données couvre la création, la sélection, la modification et la suppression de bases de données."
+        },
+        "de": {
+          "name": "Datenbanklebenszyklus",
+          "desc": "Der Datenbanklebenszyklus umfasst das Erstellen, Auswählen, Ändern und Löschen von Datenbanken."
+        },
+        "ja": {
+          "name": "データベースのライフサイクル",
+          "desc": "データベースのライフサイクルには、データベースの作成、選択、変更、削除が含まれます。"
+        },
+        "ru": {
+          "name": "Жизненный цикл базы данных",
+          "desc": "Жизненный цикл базы данных охватывает создание, выбор, изменение и удаление баз данных."
+        },
+        "ko": {
+          "name": "데이터베이스 수명주기",
+          "desc": "데이터베이스 수명주기에는 데이터베이스 생성, 선택, 변경 및 삭제가 포함됩니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida do banco de dados",
+          "desc": "O ciclo de vida do banco de dados abrange a criação, seleção, alteração e eliminação de bancos de dados."
+        }
+      }
+    },
+    {
+      "key": "mysql/table_design",
+      "slug": "table_design",
+      "name": "Table Design",
+      "desc": "Table design covers defining tables, columns, defaults, and schema structure.",
+      "i18n": {
+        "zh": {
+          "name": "表设计",
+          "desc": "表设计涵盖定义 MySQL 表、列、默认值和模式结构。"
+        },
+        "es": {
+          "name": "Diseño de tablas",
+          "desc": "El diseño de tablas cubre la definición de tablas, columnas, valores predeterminados y estructura de esquema en MySQL."
+        },
+        "fr": {
+          "name": "Conception de tables",
+          "desc": "La conception de tables couvre la définition des tables, des colonnes, des valeurs par défaut et de la structure de schéma dans MySQL."
+        },
+        "de": {
+          "name": "Tabellendesign",
+          "desc": "Tabellendesign behandelt das Definieren von MySQL-Tabellen, Spalten, Standardwerten und Schemastruktur."
+        },
+        "ja": {
+          "name": "テーブル設計",
+          "desc": "MySQL のテーブル、列、デフォルト値、スキーマ構造の定義を扱います。"
+        },
+        "ru": {
+          "name": "Проектирование таблиц",
+          "desc": "Проектирование таблиц охватывает определение таблиц MySQL, столбцов, значений по умолчанию и структуры схемы."
+        },
+        "ko": {
+          "name": "테이블 설계",
+          "desc": "MySQL 테이블, 열, 기본값 및 스키마 구조 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Design de tabelas",
+          "desc": "O design de tabelas abrange a definição de tabelas, colunas, valores padrão e estrutura de esquema no MySQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/table_modification",
+      "slug": "table_modification",
+      "name": "Table Modification",
+      "desc": "Table modification covers changing existing table definitions safely.",
+      "i18n": {
+        "zh": {
+          "name": "表修改",
+          "desc": "表修改涵盖安全地更改现有表定义。"
+        },
+        "es": {
+          "name": "Modificación de tabla",
+          "desc": "La modificación de tablas cubre el cambio de definiciones de tablas existentes de forma segura."
+        },
+        "fr": {
+          "name": "Modification de table",
+          "desc": "La modification de table couvre la modification des définitions de table existantes en toute sécurité."
+        },
+        "de": {
+          "name": "Tabellenänderung",
+          "desc": "Bei der Tabellenänderung handelt es sich um die sichere Änderung bestehender Tabellendefinitionen."
+        },
+        "ja": {
+          "name": "テーブルの変更",
+          "desc": "テーブルの変更では、既存のテーブル定義を安全に変更できます。"
+        },
+        "ru": {
+          "name": "Модификация таблицы",
+          "desc": "Модификация таблицы включает безопасное изменение существующих определений таблиц."
+        },
+        "ko": {
+          "name": "테이블 수정",
+          "desc": "테이블 수정에는 기존 테이블 정의를 안전하게 변경하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Modificação de tabela",
+          "desc": "A modificação da tabela abrange a alteração segura das definições da tabela existente."
+        }
+      }
+    },
+    {
+      "key": "mysql/data_types",
+      "slug": "data_types",
+      "name": "Data Types",
+      "desc": "Data types cover choosing MySQL column types and understanding storage implications.",
+      "i18n": {
+        "zh": {
+          "name": "数据类型",
+          "desc": "数据类型涵盖选择 MySQL 列类型并理解存储影响。"
+        },
+        "es": {
+          "name": "Tipos de datos",
+          "desc": "Los tipos de datos cubren la elección de tipos de columnas MySQL y la comprensión de las implicaciones del almacenamiento."
+        },
+        "fr": {
+          "name": "Types de données",
+          "desc": "Les types de données couvrent le choix des types de colonnes MySQL et la compréhension des implications de stockage."
+        },
+        "de": {
+          "name": "Datentypen",
+          "desc": "Zu den Datentypen gehören die Auswahl von MySQL-Spaltentypen und das Verständnis der Speicherauswirkungen."
+        },
+        "ja": {
+          "name": "データ型",
+          "desc": "データ型では、MySQL 列型の選択とストレージへの影響について説明します。"
+        },
+        "ru": {
+          "name": "Типы данных",
+          "desc": "Типы данных охватывают выбор типов столбцов MySQL и понимание последствий хранения."
+        },
+        "ko": {
+          "name": "데이터 유형",
+          "desc": "데이터 유형에는 MySQL 열 유형 선택 및 저장 의미 이해가 포함됩니다."
+        },
+        "pt": {
+          "name": "Tipos de dados",
+          "desc": "Os tipos de dados abrangem a escolha de tipos de colunas MySQL e a compreensão das implicações de armazenamento."
+        }
+      }
+    },
+    {
+      "key": "mysql/character_sets_collations",
+      "slug": "character_sets_collations",
+      "name": "Character Sets and Collations",
+      "desc": "Character sets and collations cover text encoding and comparison behavior in MySQL.",
+      "i18n": {
+        "zh": {
+          "name": "字符集和排序规则",
+          "desc": "字符集和排序规则涵盖了 MySQL 中的文本编码和比较行为。"
+        },
+        "es": {
+          "name": "Conjuntos de caracteres y colaciones",
+          "desc": "Los juegos de caracteres y las intercalaciones cubren la codificación de texto y el comportamiento de comparación en MySQL."
+        },
+        "fr": {
+          "name": "Jeux de caractères et collations",
+          "desc": "Les jeux de caractères et les collations couvrent l’encodage du texte et le comportement de comparaison dans MySQL."
+        },
+        "de": {
+          "name": "Zeichensätze und Sortierungen",
+          "desc": "Zeichensätze und Sortierungen decken das Textkodierungs- und Vergleichsverhalten in MySQL ab."
+        },
+        "ja": {
+          "name": "文字セットと照合順序",
+          "desc": "文字セットと照合順序は、MySQL でのテキストエンコーディングと比較動作を扱います。"
+        },
+        "ru": {
+          "name": "Наборы символов и сопоставления",
+          "desc": "Наборы символов и параметры сортировки охватывают кодирование текста и поведение сравнения в MySQL."
+        },
+        "ko": {
+          "name": "문자 세트 및 collation",
+          "desc": "문자 세트 및 collation은 MySQL의 텍스트 인코딩 및 비교 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Conjuntos de caracteres e collations",
+          "desc": "Conjuntos de caracteres e collations cobrem a codificação de texto e o comportamento de comparação no MySQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/primary_keys",
+      "slug": "primary_keys",
+      "name": "Primary Keys",
+      "desc": "Primary keys cover uniquely identifying rows and supporting relational design.",
+      "i18n": {
+        "zh": {
+          "name": "主键",
+          "desc": "主键涵盖唯一标识行和支持关系设计。"
+        },
+        "es": {
+          "name": "Claves primarias",
+          "desc": "Las claves primarias cubren la identificación única de filas y respaldan el diseño relacional."
+        },
+        "fr": {
+          "name": "Clés primaires",
+          "desc": "Les clés primaires couvrent l’identification unique des lignes et prennent en charge la conception relationnelle."
+        },
+        "de": {
+          "name": "Primärschlüssel",
+          "desc": "Primärschlüssel decken die eindeutige Identifizierung von Zeilen und die Unterstützung des relationalen Designs ab."
+        },
+        "ja": {
+          "name": "主キー",
+          "desc": "主キーは行を一意に識別し、リレーショナル設計をサポートします。"
+        },
+        "ru": {
+          "name": "Первичные ключи",
+          "desc": "Первичные ключи обеспечивают уникальную идентификацию строк и поддержку реляционного дизайна."
+        },
+        "ko": {
+          "name": "기본 키",
+          "desc": "기본 키는 고유하게 식별되는 행을 다루고 관계형 디자인을 지원합니다."
+        },
+        "pt": {
+          "name": "Chaves primárias",
+          "desc": "As chaves primárias cobrem a identificação exclusiva de linhas e o suporte ao design relacional."
+        }
+      }
+    },
+    {
+      "key": "mysql/foreign_keys",
+      "slug": "foreign_keys",
+      "name": "Foreign Keys",
+      "desc": "Foreign keys cover defining and enforcing relationships between MySQL tables.",
+      "i18n": {
+        "zh": {
+          "name": "外键",
+          "desc": "外键涵盖定义和强制 MySQL 表之间的关系。"
+        },
+        "es": {
+          "name": "Claves foráneas",
+          "desc": "Las claves externas cubren la definición y aplicación de relaciones entre tablas MySQL."
+        },
+        "fr": {
+          "name": "Clés étrangères",
+          "desc": "Les clés étrangères couvrent la définition et l'application des relations entre les tables MySQL."
+        },
+        "de": {
+          "name": "Fremdschlüssel",
+          "desc": "Fremdschlüssel decken das Definieren und Durchsetzen von Beziehungen zwischen MySQL-Tabellen ab."
+        },
+        "ja": {
+          "name": "外部キー",
+          "desc": "外部キーは、MySQL テーブル間の関係の定義と強制を扱います。"
+        },
+        "ru": {
+          "name": "Внешние ключи",
+          "desc": "Внешние ключи охватывают определение и обеспечение связей между таблицами MySQL."
+        },
+        "ko": {
+          "name": "외래 키",
+          "desc": "외래 키는 MySQL 테이블 간의 관계 정의 및 적용을 다룹니다."
+        },
+        "pt": {
+          "name": "Chaves Estrangeiras",
+          "desc": "As chaves estrangeiras cobrem a definição e a aplicação de relacionamentos entre tabelas MySQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/constraints",
+      "slug": "constraints",
+      "name": "Constraints",
+      "desc": "Constraints cover rules such as uniqueness, nullability, and checks that protect data validity during writes.",
+      "i18n": {
+        "zh": {
+          "name": "约束",
+          "desc": "约束涵盖唯一性、可空性和 CHECK 等在写入期间保护数据有效性的规则。"
+        },
+        "es": {
+          "name": "Restricciones",
+          "desc": "Las restricciones cubren reglas como la unicidad, la nulidad y las comprobaciones que protegen la validez de los datos durante las escrituras."
+        },
+        "fr": {
+          "name": "Contraintes",
+          "desc": "Les contraintes couvrent des règles telles que l'unicité, la nullité et les vérifications qui protègent la validité des données lors des écritures."
+        },
+        "de": {
+          "name": "Constraints",
+          "desc": "Constraints umfassen Regeln wie Eindeutigkeit, NULL-Zulässigkeit und CHECK-Prüfungen, die die Datengültigkeit während Schreibvorgängen schützen."
+        },
+        "ja": {
+          "name": "制約",
+          "desc": "制約には、一意性、NULL 可能性、書き込み中のデータの有効性を保護するチェックなどのルールが含まれます。"
+        },
+        "ru": {
+          "name": "Ограничения",
+          "desc": "Ограничения охватывают такие правила, как уникальность, допустимость NULL и CHECK-проверки, защищающие корректность данных во время записи."
+        },
+        "ko": {
+          "name": "제약",
+          "desc": "제약 조건은 쓰기 중 데이터 유효성을 보호하는 고유성, Null 허용 여부 및 검사와 같은 규칙을 다룹니다."
+        },
+        "pt": {
+          "name": "Restrições",
+          "desc": "As restrições abrangem regras como exclusividade, nulidade e verificações que protegem a validade dos dados durante gravações."
+        }
+      }
+    },
+    {
+      "key": "mysql/select_queries",
+      "slug": "select_queries",
+      "name": "Select Queries",
+      "desc": "Select queries cover retrieving rows and columns from MySQL tables.",
+      "i18n": {
+        "zh": {
+          "name": "SELECT 查询",
+          "desc": "SELECT 查询涵盖从 MySQL 表中检索行和列。"
+        },
+        "es": {
+          "name": "Consultas SELECT",
+          "desc": "Las consultas SELECT cubren la recuperación de filas y columnas de tablas MySQL."
+        },
+        "fr": {
+          "name": "Requêtes SELECT",
+          "desc": "Les requêtes SELECT couvrent la récupération des lignes et des colonnes des tables MySQL."
+        },
+        "de": {
+          "name": "SELECT-Abfragen",
+          "desc": "SELECT-Abfragen umfassen das Abrufen von Zeilen und Spalten aus MySQL-Tabellen."
+        },
+        "ja": {
+          "name": "SELECT クエリ",
+          "desc": "SELECT クエリは、MySQL テーブルから行と列を取得する方法を扱います。"
+        },
+        "ru": {
+          "name": "SELECT-запросы",
+          "desc": "Выборочные запросы охватывают извлечение строк и столбцов из таблиц MySQL."
+        },
+        "ko": {
+          "name": "SELECT 쿼리",
+          "desc": "SELECT 쿼리는 MySQL 테이블에서 행과 열을 검색하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas SELECT",
+          "desc": "Consultas SELECT abrangem a recuperação de linhas e colunas de tabelas MySQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/query_filtering_sorting",
+      "slug": "query_filtering_sorting",
+      "name": "Query Filtering and Sorting",
+      "desc": "Query filtering and sorting cover narrowing, ordering, and limiting result sets.",
+      "i18n": {
+        "zh": {
+          "name": "查询过滤和排序",
+          "desc": "查询过滤和排序涵盖筛选、排序和限制结果集。"
+        },
+        "es": {
+          "name": "Filtrado y ordenación de consultas",
+          "desc": "El filtrado y la ordenación de consultas abarcan acotar, ordenar y limitar conjuntos de resultados."
+        },
+        "fr": {
+          "name": "Filtrage et tri des requêtes",
+          "desc": "Le filtrage et le tri des requêtes couvrent la réduction, le tri et la limitation des ensembles de résultats."
+        },
+        "de": {
+          "name": "Abfragefilterung und -sortierung",
+          "desc": "Das Filtern und Sortieren von Abfragen umfasst das Eingrenzen, Ordnen und Einschränken von Ergebnismengen."
+        },
+        "ja": {
+          "name": "クエリのフィルタリングと並べ替え",
+          "desc": "クエリのフィルタリングと並べ替えでは、結果セットの絞り込み、順序付け、制限が行われます。"
+        },
+        "ru": {
+          "name": "Фильтрация и сортировка запросов",
+          "desc": "Фильтрация и сортировка запросов позволяют сужать, упорядочивать и ограничивать наборы результатов."
+        },
+        "ko": {
+          "name": "쿼리 필터링 및 정렬",
+          "desc": "쿼리 필터링 및 정렬에는 결과 집합 축소, 정렬 및 제한이 포함됩니다."
+        },
+        "pt": {
+          "name": "Filtragem e ordenação de consultas",
+          "desc": "A filtragem e ordenação de consultas abrangem restringir, ordenar e limitar conjuntos de resultados."
+        }
+      }
+    },
+    {
+      "key": "mysql/aggregate_queries",
+      "slug": "aggregate_queries",
+      "name": "Aggregate Queries",
+      "desc": "Aggregate queries cover summarizing rows with aggregate functions and grouping.",
+      "i18n": {
+        "zh": {
+          "name": "聚合查询",
+          "desc": "聚合查询涵盖使用聚合函数和分组来汇总行。"
+        },
+        "es": {
+          "name": "Consultas agregadas",
+          "desc": "Las consultas agregadas cubren el resumen de filas con funciones agregadas y agrupación."
+        },
+        "fr": {
+          "name": "Requêtes agrégées",
+          "desc": "Les requêtes d'agrégation couvrent la synthèse des lignes avec des fonctions d'agrégation et de regroupement."
+        },
+        "de": {
+          "name": "Aggregierte Abfragen",
+          "desc": "Aggregatabfragen umfassen das Zusammenfassen von Zeilen mit Aggregatfunktionen und Gruppierung."
+        },
+        "ja": {
+          "name": "集計クエリ",
+          "desc": "集計クエリは、集計関数を使用した行の集計とグループ化を扱います。"
+        },
+        "ru": {
+          "name": "Агрегированные запросы",
+          "desc": "Агрегатные запросы охватывают суммирование строк с помощью агрегатных функций и группировки."
+        },
+        "ko": {
+          "name": "집계 쿼리",
+          "desc": "집계 쿼리는 집계 함수 및 그룹화를 사용하여 행 요약을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas agregadas",
+          "desc": "As consultas agregadas abrangem o resumo de linhas com funções agregadas e agrupamento."
+        }
+      }
+    },
+    {
+      "key": "mysql/subqueries",
+      "slug": "subqueries",
+      "name": "Subqueries",
+      "desc": "Subqueries cover nesting query results inside other MySQL statements.",
+      "i18n": {
+        "zh": {
+          "name": "子查询",
+          "desc": "子查询涵盖在其他 MySQL 语句内嵌套查询结果。"
+        },
+        "es": {
+          "name": "Subconsultas",
+          "desc": "Las subconsultas cubren el anidamiento de resultados de consultas dentro de otras sentencias MySQL."
+        },
+        "fr": {
+          "name": "Sous-requêtes",
+          "desc": "Les sous-requêtes couvrent les résultats des requêtes imbriquées dans d'autres instructions MySQL."
+        },
+        "de": {
+          "name": "Unterabfragen",
+          "desc": "Unterabfragen decken die Verschachtelung von Abfrageergebnissen in anderen MySQL-Anweisungen ab."
+        },
+        "ja": {
+          "name": "サブクエリ",
+          "desc": "サブクエリは、他の MySQL ステートメント内のクエリ結果のネストを扱います。"
+        },
+        "ru": {
+          "name": "Подзапросы",
+          "desc": "Подзапросы охватывают вложенные результаты запроса внутри других операторов MySQL."
+        },
+        "ko": {
+          "name": "하위 쿼리",
+          "desc": "하위 쿼리는 다른 MySQL 문 내부의 중첩 쿼리 결과를 다룹니다."
+        },
+        "pt": {
+          "name": "Subconsultas",
+          "desc": "As subconsultas cobrem os resultados da consulta aninhada dentro de outras instruções MySQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/joins",
+      "slug": "joins",
+      "name": "Joins",
+      "desc": "Joins cover combining related rows across tables with inner and outer join patterns.",
+      "i18n": {
+        "zh": {
+          "name": "连接",
+          "desc": "连接涵盖使用内连接和外连接模式组合跨表的相关行。"
+        },
+        "es": {
+          "name": "Joins",
+          "desc": "Los joins cubren la combinación de filas relacionadas entre tablas mediante patrones inner join y outer join."
+        },
+        "fr": {
+          "name": "Jointures",
+          "desc": "Les jointures couvrent la combinaison de lignes associées dans des tables avec des modèles de jointure internes et externes."
+        },
+        "de": {
+          "name": "Joins",
+          "desc": "Bei Joins geht es um das Kombinieren verwandter Zeilen über Tabellen hinweg mit inneren und äußeren Join-Mustern."
+        },
+        "ja": {
+          "name": "結合",
+          "desc": "結合は、MySQL クエリで関連する行をテーブル間で組み合わせる方法を扱います。"
+        },
+        "ru": {
+          "name": "Соединения",
+          "desc": "Соединения охватывают объединение связанных строк между таблицами с помощью шаблонов inner join и outer join."
+        },
+        "ko": {
+          "name": "조인",
+          "desc": "조인은 MySQL 쿼리에서 테이블 간 관련 행을 결합하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Junções",
+          "desc": "As junções cobrem a combinação de linhas relacionadas em tabelas com padrões de junção internos e externos."
+        }
+      }
+    },
+    {
+      "key": "mysql/data_insertion",
+      "slug": "data_insertion",
+      "name": "Data Insertion",
+      "desc": "Data insertion covers adding rows while respecting defaults, constraints, and type behavior.",
+      "i18n": {
+        "zh": {
+          "name": "数据插入",
+          "desc": "数据插入包括在尊重默认值、约束和类型行为的同时添加行。"
+        },
+        "es": {
+          "name": "Inserción de datos",
+          "desc": "La inserción de datos cubre la adición de filas respetando los valores predeterminados, las restricciones y el comportamiento de los tipos."
+        },
+        "fr": {
+          "name": "Insertion de données",
+          "desc": "L'insertion de données couvre l'ajout de lignes tout en respectant les valeurs par défaut, les contraintes et le comportement du type."
+        },
+        "de": {
+          "name": "Dateneinfügung",
+          "desc": "Das Einfügen von Daten umfasst das Hinzufügen von Zeilen unter Berücksichtigung von Standardeinstellungen, Einschränkungen und Typverhalten."
+        },
+        "ja": {
+          "name": "データの挿入",
+          "desc": "データ挿入では、デフォルト、制約、および型の動作を尊重しながら行を追加します。"
+        },
+        "ru": {
+          "name": "Вставка данных",
+          "desc": "Вставка данных включает добавление строк с соблюдением значений по умолчанию, ограничений и поведения типов."
+        },
+        "ko": {
+          "name": "데이터 삽입",
+          "desc": "데이터 삽입에는 기본값, 제약 조건 및 유형 동작을 존중하면서 행을 추가하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Inserção de dados",
+          "desc": "A inserção de dados abrange a adição de linhas respeitando padrões, restrições e comportamento de tipo."
+        }
+      }
+    },
+    {
+      "key": "mysql/data_updates",
+      "slug": "data_updates",
+      "name": "Data Updates",
+      "desc": "Data updates cover changing existing rows safely and deliberately.",
+      "i18n": {
+        "zh": {
+          "name": "数据更新",
+          "desc": "数据更新涵盖安全且有意地更改现有行。"
+        },
+        "es": {
+          "name": "Actualizaciones de datos",
+          "desc": "Las actualizaciones de datos cubren el cambio de filas existentes de forma segura y deliberada."
+        },
+        "fr": {
+          "name": "Mises à jour des données",
+          "desc": "Les mises à jour des données couvrent la modification des lignes existantes en toute sécurité et délibérément."
+        },
+        "de": {
+          "name": "Datenaktualisierungen",
+          "desc": "Datenaktualisierungen umfassen die sichere und gezielte Änderung vorhandener Zeilen."
+        },
+        "ja": {
+          "name": "データの更新",
+          "desc": "データ更新では、既存の行を安全かつ意図的に変更します。"
+        },
+        "ru": {
+          "name": "Обновления данных",
+          "desc": "Обновления данных охватывают безопасное и целенаправленное изменение существующих строк."
+        },
+        "ko": {
+          "name": "데이터 업데이트",
+          "desc": "데이터 업데이트에는 기존 행을 안전하고 의도적으로 변경하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Atualizações de dados",
+          "desc": "As atualizações de dados cobrem a alteração de linhas existentes de forma segura e deliberada."
+        }
+      }
+    },
+    {
+      "key": "mysql/data_deletion",
+      "slug": "data_deletion",
+      "name": "Data Deletion",
+      "desc": "Data deletion covers removing rows while understanding constraints and transaction safety.",
+      "i18n": {
+        "zh": {
+          "name": "数据删除",
+          "desc": "数据删除包括删除行，同时了解约束和事务安全。"
+        },
+        "es": {
+          "name": "Eliminación de datos",
+          "desc": "La eliminación de datos abarca la eliminación de filas y, al mismo tiempo, la comprensión de las limitaciones y la seguridad de las transacciones."
+        },
+        "fr": {
+          "name": "Suppression des données",
+          "desc": "La suppression des données couvre la suppression des lignes tout en comprenant les contraintes et la sécurité des transactions."
+        },
+        "de": {
+          "name": "Datenlöschung",
+          "desc": "Das Löschen von Daten umfasst das Entfernen von Zeilen unter Berücksichtigung von Einschränkungen und Transaktionssicherheit."
+        },
+        "ja": {
+          "name": "データの削除",
+          "desc": "データの削除では、制約とトランザクションの安全性を理解しながら行を削除します。"
+        },
+        "ru": {
+          "name": "Удаление данных",
+          "desc": "Удаление данных подразумевает удаление строк с учетом ограничений и безопасности транзакций."
+        },
+        "ko": {
+          "name": "데이터 삭제",
+          "desc": "데이터 삭제에는 제약 조건과 트랜잭션 안전성을 이해하면서 행을 제거하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Exclusão de dados",
+          "desc": "A exclusão de dados abrange a remoção de linhas enquanto se entende as restrições e a segurança das transações."
+        }
+      }
+    },
+    {
+      "key": "mysql/bulk_loading",
+      "slug": "bulk_loading",
+      "name": "Bulk Loading",
+      "desc": "Bulk loading covers importing large data sets efficiently into MySQL tables.",
+      "i18n": {
+        "zh": {
+          "name": "批量加载",
+          "desc": "批量加载涵盖将大型数据集有效导入到 MySQL 表中。"
+        },
+        "es": {
+          "name": "Carga masiva",
+          "desc": "La carga masiva cubre la importación eficiente de grandes conjuntos de datos en tablas MySQL."
+        },
+        "fr": {
+          "name": "Chargement en masse",
+          "desc": "Le chargement en masse couvre l’importation efficace de grands ensembles de données dans des tables MySQL."
+        },
+        "de": {
+          "name": "Massenimport",
+          "desc": "Massenimport behandelt den effizienten Import großer Datensätze in MySQL-Tabellen."
+        },
+        "ja": {
+          "name": "一括ロード",
+          "desc": "一括ロードでは、大規模なデータセットを MySQL テーブルに効率的にインポートすることができます。"
+        },
+        "ru": {
+          "name": "Массовая загрузка",
+          "desc": "Массовая загрузка обеспечивает эффективный импорт больших наборов данных в таблицы MySQL."
+        },
+        "ko": {
+          "name": "대량 로딩",
+          "desc": "대량 로드에는 대규모 데이터 세트를 MySQL 테이블로 효율적으로 가져오는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Carregamento em massa",
+          "desc": "O carregamento em massa abrange a importação eficiente de grandes conjuntos de dados para tabelas MySQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/upserts",
+      "slug": "upserts",
+      "name": "Upserts",
+      "desc": "Upserts cover inserting or updating rows based on key conflicts.",
+      "i18n": {
+        "zh": {
+          "name": "Upsert",
+          "desc": "Upsert 涵盖根据键冲突插入或更新行。"
+        },
+        "es": {
+          "name": "Upserts",
+          "desc": "Los upserts cubren la inserción o actualización de filas en función de conflictos de clave."
+        },
+        "fr": {
+          "name": "Upserts",
+          "desc": "Les upserts couvrent l'insertion ou la mise à jour de lignes en fonction de conflits de clés."
+        },
+        "de": {
+          "name": "Upserts",
+          "desc": "Upserts umfassen das Einfügen oder Aktualisieren von Zeilen basierend auf Schlüsselkonflikten."
+        },
+        "ja": {
+          "name": "アップサート",
+          "desc": "Upsert は、キーの競合に基づく行の挿入または更新を扱います。"
+        },
+        "ru": {
+          "name": "UPSERT-операции",
+          "desc": "UPSERT-операции охватывают вставку или обновление строк на основе конфликтов ключей."
+        },
+        "ko": {
+          "name": "업서트",
+          "desc": "Upsert는 키 충돌을 기반으로 행을 삽입하거나 업데이트하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Upserts",
+          "desc": "Upserts cobrem a inserção ou atualização de linhas com base em conflitos de chave."
+        }
+      }
+    },
+    {
+      "key": "mysql/safe_updates",
+      "slug": "safe_updates",
+      "name": "Safe Updates",
+      "desc": "Safe updates cover reducing accidental broad changes during updates and deletes.",
+      "i18n": {
+        "zh": {
+          "name": "安全更新",
+          "desc": "安全更新包括减少更新和删除期间的意外广泛更改。"
+        },
+        "es": {
+          "name": "Actualizaciones seguras",
+          "desc": "Las actualizaciones seguras cubren la reducción de cambios amplios accidentales durante las actualizaciones y eliminaciones."
+        },
+        "fr": {
+          "name": "Mises à jour sécurisées",
+          "desc": "Les mises à jour sécurisées couvrent la réduction des modifications trop larges accidentelles lors des mises à jour et des suppressions."
+        },
+        "de": {
+          "name": "Sichere Updates",
+          "desc": "Bei sicheren Updates geht es darum, versehentliche umfassende Änderungen während Aktualisierungen und Löschungen zu reduzieren."
+        },
+        "ja": {
+          "name": "安全なアップデート",
+          "desc": "安全な更新では、更新および削除中の偶発的な広範な変更の削減を扱います。"
+        },
+        "ru": {
+          "name": "Безопасные обновления",
+          "desc": "Безопасные обновления позволяют избежать случайных масштабных изменений во время обновлений и удалений."
+        },
+        "ko": {
+          "name": "안전한 업데이트",
+          "desc": "안전한 업데이트에는 업데이트 및 삭제 중에 실수로 인한 광범위한 변경을 줄이는 것이 포함됩니다."
+        },
+        "pt": {
+          "name": "Atualizações seguras",
+          "desc": "As atualizações seguras cobrem a redução de grandes alterações acidentais durante atualizações e exclusões."
+        }
+      }
+    },
+    {
+      "key": "mysql/views",
+      "slug": "views",
+      "name": "Views",
+      "desc": "Views cover stored query definitions used to simplify data access.",
+      "i18n": {
+        "zh": {
+          "name": "视图",
+          "desc": "视图涵盖用于简化数据访问的存储查询定义。"
+        },
+        "es": {
+          "name": "Vistas",
+          "desc": "Las vistas cubren definiciones de consultas almacenadas que se utilizan para simplificar el acceso a los datos."
+        },
+        "fr": {
+          "name": "Vues",
+          "desc": "Les vues couvrent les définitions de requêtes stockées utilisées pour simplifier l'accès aux données."
+        },
+        "de": {
+          "name": "Ansichten",
+          "desc": "Ansichten umfassen gespeicherte Abfragedefinitionen, die zur Vereinfachung des Datenzugriffs verwendet werden."
+        },
+        "ja": {
+          "name": "ビュー",
+          "desc": "ビューには、データアクセスを簡素化するために使用される保存されたクエリ定義が含まれます。"
+        },
+        "ru": {
+          "name": "Представления",
+          "desc": "Представления охватывают сохраненные определения запросов, используемые для упрощения доступа к данным."
+        },
+        "ko": {
+          "name": "뷰",
+          "desc": "뷰는 데이터 액세스를 단순화하는 데 사용되는 저장된 쿼리 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Visualizações",
+          "desc": "As visualizações abrangem definições de consulta armazenadas usadas para simplificar o acesso aos dados."
+        }
+      }
+    },
+    {
+      "key": "mysql/stored_programs",
+      "slug": "stored_programs",
+      "name": "Stored Programs",
+      "desc": "Stored programs cover procedures and functions executed inside MySQL.",
+      "i18n": {
+        "zh": {
+          "name": "存储程序",
+          "desc": "存储程序涵盖 MySQL 内部执行的过程和函数。"
+        },
+        "es": {
+          "name": "Programas almacenados",
+          "desc": "Los programas almacenados cubren procedimientos y funciones ejecutadas dentro de MySQL."
+        },
+        "fr": {
+          "name": "Programmes stockés",
+          "desc": "Les programmes stockés couvrent les procédures et les fonctions exécutées dans MySQL."
+        },
+        "de": {
+          "name": "Gespeicherte Programme",
+          "desc": "Gespeicherte Programme umfassen Prozeduren und Funktionen, die in MySQL ausgeführt werden."
+        },
+        "ja": {
+          "name": "ストアドプログラム",
+          "desc": "ストアドプログラムには、MySQL 内で実行されるプロシージャと関数が含まれます。"
+        },
+        "ru": {
+          "name": "Сохраненные программы",
+          "desc": "Сохраненные программы охватывают процедуры и функции, выполняемые внутри MySQL."
+        },
+        "ko": {
+          "name": "저장된 프로그램",
+          "desc": "저장 프로그램은 MySQL 내부에서 실행되는 프로시저와 함수를 다룹니다."
+        },
+        "pt": {
+          "name": "Programas armazenados",
+          "desc": "Os programas armazenados cobrem procedimentos e funções executados dentro do MySQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/triggers",
+      "slug": "triggers",
+      "name": "Triggers",
+      "desc": "Triggers cover automatic actions caused by table changes.",
+      "i18n": {
+        "zh": {
+          "name": "触发器",
+          "desc": "触发器涵盖由表更改引起的自动操作。"
+        },
+        "es": {
+          "name": "Disparadores",
+          "desc": "Los disparadores cubren acciones automáticas causadas por cambios en la tabla."
+        },
+        "fr": {
+          "name": "Déclencheurs",
+          "desc": "Les déclencheurs couvrent les actions automatiques provoquées par les modifications de table."
+        },
+        "de": {
+          "name": "Trigger",
+          "desc": "Trigger umfassen automatische Aktionen, die durch Tabellenänderungen verursacht werden."
+        },
+        "ja": {
+          "name": "トリガー",
+          "desc": "トリガーは、テーブルの変更によって引き起こされる自動アクションを扱います。"
+        },
+        "ru": {
+          "name": "Триггеры",
+          "desc": "Триггеры охватывают автоматические действия, вызванные изменениями таблицы."
+        },
+        "ko": {
+          "name": "트리거",
+          "desc": "트리거는 테이블 변경으로 인한 자동 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Gatilhos",
+          "desc": "Gatilhos cobrem ações automáticas causadas por alterações na tabela."
+        }
+      }
+    },
+    {
+      "key": "mysql/index_design",
+      "slug": "index_design",
+      "name": "Index Design",
+      "desc": "Index design covers creating indexes to support lookup, join, ordering, and uniqueness needs.",
+      "i18n": {
+        "zh": {
+          "name": "索引设计",
+          "desc": "索引设计涵盖创建索引以支持查找、JOIN、排序和唯一性需求。"
+        },
+        "es": {
+          "name": "Diseño de índice",
+          "desc": "El diseño de índices cubre la creación de índices para respaldar las necesidades de búsqueda, joins, ordenación y unicidad."
+        },
+        "fr": {
+          "name": "Conception d'index",
+          "desc": "La conception d’index couvre la création d’index pour prendre en charge les besoins de recherche, de jointure, de tri et d’unicité."
+        },
+        "de": {
+          "name": "Indexdesign",
+          "desc": "Das Indexdesign umfasst die Erstellung von Indizes zur Unterstützung von Such-, Verknüpfungs-, Sortier- und Eindeutigkeitsanforderungen."
+        },
+        "ja": {
+          "name": "インデックスのデザイン",
+          "desc": "インデックスの設計では、検索、結合、順序付け、および一意性のニーズをサポートするインデックスの作成を扱います。"
+        },
+        "ru": {
+          "name": "Индексный дизайн",
+          "desc": "Проектирование индексов включает создание индексов для поддержки поиска, соединений, упорядочивания и уникальности."
+        },
+        "ko": {
+          "name": "인덱스 디자인",
+          "desc": "인덱스 디자인에는 조회, 조인, 순서 및 고유성 요구 사항을 지원하기 위한 인덱스 생성이 포함됩니다."
+        },
+        "pt": {
+          "name": "Design de índice",
+          "desc": "O design do índice abrange a criação de índices para dar suporte às necessidades de pesquisa, junção, ordenação e exclusividade."
+        }
+      }
+    },
+    {
+      "key": "mysql/query_plans",
+      "slug": "query_plans",
+      "name": "Query Plans",
+      "desc": "Query plans cover interpreting MySQL execution choices for SQL statements.",
+      "i18n": {
+        "zh": {
+          "name": "查询计划",
+          "desc": "查询计划涵盖解释 SQL 语句的 MySQL 执行选择。"
+        },
+        "es": {
+          "name": "Planes de consulta",
+          "desc": "Los planes de consulta cubren la interpretación de las opciones de ejecución de MySQL para sentencias SQL."
+        },
+        "fr": {
+          "name": "Plans de requête",
+          "desc": "Les plans de requête couvrent l'interprétation des choix d'exécution de MySQL pour les instructions SQL."
+        },
+        "de": {
+          "name": "Abfragepläne",
+          "desc": "Abfragepläne umfassen die Interpretation der MySQL-Ausführungsoptionen für SQL-Anweisungen."
+        },
+        "ja": {
+          "name": "クエリプラン",
+          "desc": "クエリプランは、SQL ステートメントの MySQL 実行選択肢の解釈を扱います。"
+        },
+        "ru": {
+          "name": "Планы запросов",
+          "desc": "Планы запросов охватывают интерпретацию вариантов выполнения MySQL для операторов SQL."
+        },
+        "ko": {
+          "name": "쿼리 계획",
+          "desc": "쿼리 계획은 SQL 문에 대한 MySQL 실행 선택 해석을 다룹니다."
+        },
+        "pt": {
+          "name": "Planos de consulta",
+          "desc": "Os planos de consulta cobrem a interpretação das opções de execução do MySQL para instruções SQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/query_optimization",
+      "slug": "query_optimization",
+      "name": "Query Optimization",
+      "desc": "Query optimization covers improving MySQL query performance using indexes, plans, and query structure.",
+      "i18n": {
+        "zh": {
+          "name": "查询优化",
+          "desc": "查询优化涵盖使用索引、计划和查询结构提高 MySQL 查询性能。"
+        },
+        "es": {
+          "name": "Optimización de consultas",
+          "desc": "La optimización de consultas cubre la mejora del rendimiento de consultas MySQL mediante índices, planes y estructura de consultas."
+        },
+        "fr": {
+          "name": "Optimisation des requêtes",
+          "desc": "L'optimisation des requêtes couvre l'amélioration des performances des requêtes MySQL à l'aide d'index, de plans et de la structure des requêtes."
+        },
+        "de": {
+          "name": "Abfrageoptimierung",
+          "desc": "Die Abfrageoptimierung umfasst die Verbesserung der Abfrageleistung um MySQL mithilfe von Indizes, Plänen und Abfragestruktur."
+        },
+        "ja": {
+          "name": "クエリの最適化",
+          "desc": "クエリの最適化では、インデックス、プラン、クエリ構造を使用して MySQL クエリのパフォーマンスを改善します。"
+        },
+        "ru": {
+          "name": "Оптимизация запросов",
+          "desc": "Оптимизация запросов включает в себя повышение производительности запросов MySQL с помощью индексов, планов и структуры запросов."
+        },
+        "ko": {
+          "name": "쿼리 최적화",
+          "desc": "쿼리 최적화에는 인덱스, 계획 및 쿼리 구조를 사용하여 MySQL 쿼리 성능 개선이 포함됩니다."
+        },
+        "pt": {
+          "name": "Otimização de consulta",
+          "desc": "A otimização de consultas abrange a melhoria do desempenho de consultas MySQL usando índices, planos e estrutura de consultas."
+        }
+      }
+    },
+    {
+      "key": "mysql/transactions",
+      "slug": "transactions",
+      "name": "Transactions",
+      "desc": "Transactions cover grouping changes atomically with commit and rollback behavior.",
+      "i18n": {
+        "zh": {
+          "name": "事务",
+          "desc": "事务涵盖通过提交和回滚行为以原子方式对更改进行分组。"
+        },
+        "es": {
+          "name": "Transacciones",
+          "desc": "Las transacciones cubren la agrupación de cambios de forma atómica con comportamiento de commit y rollback."
+        },
+        "fr": {
+          "name": "Transactions",
+          "desc": "Les transactions couvrent le regroupement atomique des modifications avec un comportement de commit et de rollback."
+        },
+        "de": {
+          "name": "Transaktionen",
+          "desc": "Transaktionen umfassen das atomare Gruppieren von Änderungen mit Commit- und Rollback-Verhalten."
+        },
+        "ja": {
+          "name": "トランザクション",
+          "desc": "トランザクションは、コミットおよびロールバック動作によって複数の変更をアトミックにグループ化する方法を扱います。"
+        },
+        "ru": {
+          "name": "Транзакции",
+          "desc": "Транзакции охватывают атомарную группировку изменений с поведением фиксации и отката."
+        },
+        "ko": {
+          "name": "트랜잭션",
+          "desc": "트랜잭션은 커밋 및 롤백 동작을 통해 변경 사항을 원자적으로 그룹화하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Transações",
+          "desc": "As transações cobrem o agrupamento atômico de alterações com comportamento de commit e rollback."
+        }
+      }
+    },
+    {
+      "key": "mysql/isolation_locks",
+      "slug": "isolation_locks",
+      "name": "Isolation and Locks",
+      "desc": "Isolation and locks cover concurrency behavior, transaction isolation, and lock contention.",
+      "i18n": {
+        "zh": {
+          "name": "隔离和锁",
+          "desc": "隔离和锁涵盖并发行为、事务隔离和锁争用。"
+        },
+        "es": {
+          "name": "Aislamiento y bloqueos",
+          "desc": "El aislamiento y los bloqueos cubren el comportamiento de concurrencia, el aislamiento de transacciones y la contención de bloqueos."
+        },
+        "fr": {
+          "name": "Isolation et verrous",
+          "desc": "L'isolation et les verrous couvrent le comportement de concurrence, l'isolation des transactions et les conflits de verrouillage."
+        },
+        "de": {
+          "name": "Isolation und Sperren",
+          "desc": "Isolation und Sperren umfassen Parallelitätsverhalten, Transaktionsisolation und Sperrenkonflikte."
+        },
+        "ja": {
+          "name": "分離とロック",
+          "desc": "分離とロックでは、同時実行動作、トランザクション分離、およびロック競合を扱います。"
+        },
+        "ru": {
+          "name": "Изоляция и блокировки",
+          "desc": "Изоляция и блокировки охватывают параллелизм, изоляцию транзакций и конфликты блокировок."
+        },
+        "ko": {
+          "name": "격리 및 잠금",
+          "desc": "격리 및 잠금에는 동시성 동작, 트랜잭션 격리 및 잠금 경합이 포함됩니다."
+        },
+        "pt": {
+          "name": "Isolamento e Bloqueios",
+          "desc": "O isolamento e os bloqueios abrangem o comportamento de simultaneidade, o isolamento de transações e a contenção de bloqueios."
+        }
+      }
+    },
+    {
+      "key": "mysql/storage_engines",
+      "slug": "storage_engines",
+      "name": "Storage Engines",
+      "desc": "Storage engines cover MySQL engine behavior and its effect on transactions, locking, and storage.",
+      "i18n": {
+        "zh": {
+          "name": "存储引擎",
+          "desc": "存储引擎涵盖 MySQL 引擎行为及其对事务、锁定和存储的影响。"
+        },
+        "es": {
+          "name": "Motores de almacenamiento",
+          "desc": "Los motores de almacenamiento cubren el comportamiento del motor MySQL y su efecto en las transacciones, el bloqueo y el almacenamiento."
+        },
+        "fr": {
+          "name": "Moteurs de stockage",
+          "desc": "Les moteurs de stockage couvrent le comportement du moteur MySQL et son effet sur les transactions, le verrouillage et le stockage."
+        },
+        "de": {
+          "name": "Speicher-Engines",
+          "desc": "Speicher-Engines decken das Verhalten der MySQL-Engine und ihre Auswirkungen auf Transaktionen, Sperren und Speicherung ab."
+        },
+        "ja": {
+          "name": "ストレージエンジン",
+          "desc": "ストレージエンジンでは、MySQL エンジンの動作と、その動作がトランザクション、ロック、ストレージに及ぼす影響について説明します。"
+        },
+        "ru": {
+          "name": "Механизмы хранения данных",
+          "desc": "Механизмы хранения охватывают поведение механизма MySQL и его влияние на транзакции, блокировки и хранение."
+        },
+        "ko": {
+          "name": "스토리지 엔진",
+          "desc": "스토리지 엔진은 MySQL 엔진 동작과 트랜잭션, 잠금 및 스토리지에 미치는 영향을 다룹니다."
+        },
+        "pt": {
+          "name": "Mecanismos de armazenamento",
+          "desc": "Os mecanismos de armazenamento cobrem o comportamento do mecanismo MySQL e seu efeito nas transações, bloqueio e armazenamento."
+        }
+      }
+    },
+    {
+      "key": "mysql/user_accounts",
+      "slug": "user_accounts",
+      "name": "User Accounts",
+      "desc": "User accounts cover creating and managing identities for MySQL access.",
+      "i18n": {
+        "zh": {
+          "name": "用户账户",
+          "desc": "用户账户涵盖创建和管理 MySQL 访问权限的身份。"
+        },
+        "es": {
+          "name": "Cuentas de usuario",
+          "desc": "Las cuentas de usuario cubren la creación y administración de identidades para acceso MySQL."
+        },
+        "fr": {
+          "name": "Comptes d'utilisateurs",
+          "desc": "Les comptes d'utilisateurs couvrent la création et la gestion des identités pour un accès MySQL."
+        },
+        "de": {
+          "name": "Benutzerkonten",
+          "desc": "Benutzerkonten umfassen das Erstellen und Verwalten von Identitäten für den MySQL-Zugriff."
+        },
+        "ja": {
+          "name": "ユーザーアカウント",
+          "desc": "ユーザーアカウントは、MySQL アクセスのための ID の作成と管理を扱います。"
+        },
+        "ru": {
+          "name": "Учетные записи пользователей",
+          "desc": "Учетные записи пользователей охватывают создание и управление удостоверениями для доступа MySQL."
+        },
+        "ko": {
+          "name": "사용자 계정",
+          "desc": "사용자 계정에는 MySQL 액세스를 위한 ID 생성 및 관리가 포함됩니다."
+        },
+        "pt": {
+          "name": "Contas de usuário",
+          "desc": "As contas de usuário cobrem a criação e o gerenciamento de identidades para acesso MySQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/privileges",
+      "slug": "privileges",
+      "name": "Privileges",
+      "desc": "Privileges cover granting and revoking permissions on MySQL objects.",
+      "i18n": {
+        "zh": {
+          "name": "权限",
+          "desc": "权限涵盖授予和撤销对 MySQL 对象的访问权限。"
+        },
+        "es": {
+          "name": "Privilegios",
+          "desc": "Los privilegios cubren la concesión y revocación de permisos sobre objetos MySQL."
+        },
+        "fr": {
+          "name": "Privilèges",
+          "desc": "Les privilèges couvrent l'octroi et la révocation d'autorisations sur objets MySQL."
+        },
+        "de": {
+          "name": "Privilegien",
+          "desc": "Privilegien umfassen das Erteilen und Entziehen von Berechtigungen für MySQL-Objekte."
+        },
+        "ja": {
+          "name": "特権",
+          "desc": "権限には、MySQL オブジェクトに対する権限の付与と取り消しが含まれます。"
+        },
+        "ru": {
+          "name": "Привилегии",
+          "desc": "Привилегии охватывают предоставление и отзыв разрешений на объекты MySQL."
+        },
+        "ko": {
+          "name": "권한",
+          "desc": "권한은 MySQL 객체에 대한 권한 부여 및 취소를 다룹니다."
+        },
+        "pt": {
+          "name": "Privilégios",
+          "desc": "Os privilégios cobrem a concessão e revogação de permissões em objetos MySQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/authentication",
+      "slug": "authentication",
+      "name": "Authentication",
+      "desc": "Authentication covers MySQL login methods and account access behavior.",
+      "i18n": {
+        "zh": {
+          "name": "认证",
+          "desc": "认证涵盖 MySQL 登录方式和账户访问行为。"
+        },
+        "es": {
+          "name": "Autenticación",
+          "desc": "La autenticación cubre métodos de inicio de sesión MySQL y comportamiento de acceso a la cuenta."
+        },
+        "fr": {
+          "name": "Authentification",
+          "desc": "L'authentification couvre les méthodes de connexion MySQL et le comportement d'accès au compte."
+        },
+        "de": {
+          "name": "Authentifizierung",
+          "desc": "Die Authentifizierung umfasst MySQL Anmeldemethoden und Kontozugriffsverhalten."
+        },
+        "ja": {
+          "name": "認証",
+          "desc": "認証には、MySQL ログイン方法とアカウントアクセス動作が含まれます。"
+        },
+        "ru": {
+          "name": "Аутентификация",
+          "desc": "Аутентификация охватывает MySQL способы входа в систему и поведение при доступе к учетной записи."
+        },
+        "ko": {
+          "name": "인증",
+          "desc": "인증에는 MySQL 로그인 방법 및 계정 액세스 동작이 포함됩니다."
+        },
+        "pt": {
+          "name": "Autenticação",
+          "desc": "A autenticação abrange métodos de login MySQL e comportamento de acesso à conta."
+        }
+      }
+    },
+    {
+      "key": "mysql/mysql_client",
+      "slug": "mysql_client",
+      "name": "MySQL Client",
+      "desc": "MySQL client covers using command-line clients and session commands effectively.",
+      "i18n": {
+        "zh": {
+          "name": "MySQL 客户端",
+          "desc": "MySQL 客户端涵盖有效使用命令行客户端和会话命令。"
+        },
+        "es": {
+          "name": "Cliente MySQL",
+          "desc": "El cliente MySQL cubre el uso eficaz de clientes de línea de comandos y comandos de sesión."
+        },
+        "fr": {
+          "name": "Client MySQL",
+          "desc": "Le client MySQL couvre l'utilisation efficace des clients de ligne de commande et des commandes de session."
+        },
+        "de": {
+          "name": "MySQL-Client",
+          "desc": "Der MySQL-Client behandelt die effektive Verwendung von Befehlszeilen-Clients und Sitzungsbefehlen."
+        },
+        "ja": {
+          "name": "MySQL クライアント",
+          "desc": "MySQL クライアントでは、コマンドラインクライアントとセッションコマンドの効果的な使用について説明します。"
+        },
+        "ru": {
+          "name": "Клиент MySQL",
+          "desc": "Клиент MySQL охватывает эффективное использование клиентов командной строки и команд сеанса."
+        },
+        "ko": {
+          "name": "MySQL 클라이언트",
+          "desc": "MySQL 클라이언트에서는 명령줄 클라이언트와 세션 명령을 효과적으로 사용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Cliente MySQL",
+          "desc": "O cliente MySQL cobre o uso eficaz de clientes de linha de comando e comandos de sessão."
+        }
+      }
+    },
+    {
+      "key": "mysql/server_configuration",
+      "slug": "server_configuration",
+      "name": "Server Configuration",
+      "desc": "Server configuration covers MySQL settings that affect behavior, security, and performance.",
+      "i18n": {
+        "zh": {
+          "name": "服务器配置",
+          "desc": "服务器配置涵盖影响行为、安全性和性能的 MySQL 设置。"
+        },
+        "es": {
+          "name": "Configuración del servidor",
+          "desc": "La configuración del servidor cubre configuraciones de MySQL que afectan el comportamiento, la seguridad y el rendimiento."
+        },
+        "fr": {
+          "name": "Configuration du serveur",
+          "desc": "La configuration du serveur couvre les paramètres MySQL qui affectent le comportement, la sécurité et les performances."
+        },
+        "de": {
+          "name": "Serverkonfiguration",
+          "desc": "Die Serverkonfiguration umfasst MySQL-Einstellungen, die sich auf Verhalten, Sicherheit und Leistung auswirken."
+        },
+        "ja": {
+          "name": "サーバー構成",
+          "desc": "サーバー構成には、動作、セキュリティ、パフォーマンスに影響を与える MySQL 設定が含まれます。"
+        },
+        "ru": {
+          "name": "Конфигурация сервера",
+          "desc": "Конфигурация сервера включает настройки MySQL, влияющие на поведение, безопасность и производительность."
+        },
+        "ko": {
+          "name": "서버 구성",
+          "desc": "서버 구성에는 동작, 보안 및 성능에 영향을 미치는 MySQL 설정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Configuração do servidor",
+          "desc": "A configuração do servidor abrange configurações do MySQL que afetam o comportamento, a segurança e o desempenho."
+        }
+      }
+    },
+    {
+      "key": "mysql/runtime_status",
+      "slug": "runtime_status",
+      "name": "Runtime Status",
+      "desc": "Runtime status covers inspecting MySQL metrics, sessions, and status variables.",
+      "i18n": {
+        "zh": {
+          "name": "运行时状态",
+          "desc": "运行时状态涵盖检查 MySQL 指标、会话和状态变量。"
+        },
+        "es": {
+          "name": "Estado de tiempo de ejecución",
+          "desc": "El estado del tiempo de ejecución cubre la inspección de métricas, sesiones y variables de estado de MySQL."
+        },
+        "fr": {
+          "name": "Statut d'exécution",
+          "desc": "L'état d'exécution couvre l'inspection des métriques, sessions et variables d'état MySQL."
+        },
+        "de": {
+          "name": "Laufzeitstatus",
+          "desc": "Der Laufzeitstatus umfasst die Überprüfung von MySQL-Metriken, Sitzungen und Statusvariablen."
+        },
+        "ja": {
+          "name": "実行時のステータス",
+          "desc": "実行時ステータスには、MySQL メトリクス、セッション、およびステータス変数の検査が含まれます。"
+        },
+        "ru": {
+          "name": "Статус выполнения",
+          "desc": "Статус выполнения включает проверку метрик MySQL, сеансов и переменных состояния."
+        },
+        "ko": {
+          "name": "런타임 상태",
+          "desc": "런타임 상태는 MySQL 메트릭, 세션 및 상태 변수 검사를 다룹니다."
+        },
+        "pt": {
+          "name": "Status do tempo de execução",
+          "desc": "O status do tempo de execução abrange a inspeção de métricas, sessões e variáveis de status do MySQL."
+        }
+      }
+    },
+    {
+      "key": "mysql/logs_diagnostics",
+      "slug": "logs_diagnostics",
+      "name": "Logs and Diagnostics",
+      "desc": "Logs and diagnostics cover reading MySQL logs and diagnostic output to investigate issues.",
+      "i18n": {
+        "zh": {
+          "name": "日志和诊断",
+          "desc": "日志和诊断包括读取 MySQL 日志和诊断输出以调查问题。"
+        },
+        "es": {
+          "name": "Registros y diagnósticos",
+          "desc": "Los registros y diagnósticos cubren la lectura de registros MySQL y resultados de diagnóstico para investigar problemas."
+        },
+        "fr": {
+          "name": "Journaux et diagnostics",
+          "desc": "Les journaux et les diagnostics couvrent la lecture des journaux MySQL et des résultats de diagnostic pour enquêter sur les problèmes."
+        },
+        "de": {
+          "name": "Protokolle und Diagnose",
+          "desc": "Protokolle und Diagnose umfassen das Lesen von MySQL-Protokollen und Diagnoseausgaben zur Untersuchung von Problemen."
+        },
+        "ja": {
+          "name": "ログと診断",
+          "desc": "ログと診断では、問題を調査するための MySQL ログと診断出力の読み取りについて説明します。"
+        },
+        "ru": {
+          "name": "Журналы и диагностика",
+          "desc": "Журналы и диагностика включают чтение журналов MySQL и результатов диагностики для выявления проблем."
+        },
+        "ko": {
+          "name": "로그 및 진단",
+          "desc": "로그 및 진단에서는 문제 조사를 위한 MySQL 로그 및 진단 출력 읽기를 다룹니다."
+        },
+        "pt": {
+          "name": "Registros e diagnósticos",
+          "desc": "Registros e diagnósticos cobrem a leitura de registros do MySQL e saída de diagnóstico para investigar problemas."
+        }
+      }
+    },
+    {
+      "key": "mysql/backup_restore",
+      "slug": "backup_restore",
+      "name": "Backup and Restore",
+      "desc": "Backup and restore cover protecting and recovering MySQL data safely.",
+      "i18n": {
+        "zh": {
+          "name": "备份与恢复",
+          "desc": "备份和恢复涵盖安全保护和恢复 MySQL 数据。"
+        },
+        "es": {
+          "name": "Copia de seguridad y restauración",
+          "desc": "La copia de seguridad y restauración cubre proteger y recuperar datos MySQL de forma segura."
+        },
+        "fr": {
+          "name": "Sauvegarde et restauration",
+          "desc": "La sauvegarde et la restauration couvrent la protection et la récupération des données MySQL en toute sécurité."
+        },
+        "de": {
+          "name": "Sichern und Wiederherstellen",
+          "desc": "Sicherung und Wiederherstellung umfassen den sicheren Schutz und die sichere Wiederherstellung von MySQL-Daten."
+        },
+        "ja": {
+          "name": "バックアップと復元",
+          "desc": "バックアップと復元は、MySQL データを安全に保護および回復することを扱います。"
+        },
+        "ru": {
+          "name": "Резервное копирование и восстановление",
+          "desc": "Резервное копирование и восстановление обеспечивают безопасную защиту и восстановление данных MySQL."
+        },
+        "ko": {
+          "name": "백업 및 복원",
+          "desc": "백업 및 복원은 MySQL 데이터를 안전하게 보호하고 복구합니다."
+        },
+        "pt": {
+          "name": "Backup e restauração",
+          "desc": "Backup e restauração protegem e recuperam dados do MySQL com segurança."
+        }
+      }
+    },
+    {
+      "key": "mysql/replication",
+      "slug": "replication",
+      "name": "Replication",
+      "desc": "Replication covers MySQL replication roles, data copying, and operational awareness.",
+      "i18n": {
+        "zh": {
+          "name": "复制",
+          "desc": "复制涵盖 MySQL 复制角色、数据复制和操作感知。"
+        },
+        "es": {
+          "name": "Replicación",
+          "desc": "La replicación cubre funciones de replicación de MySQL, copia de datos y consideraciones operativas."
+        },
+        "fr": {
+          "name": "Réplication",
+          "desc": "La réplication couvre les rôles de réplication MySQL, la copie des données et les considérations opérationnelles."
+        },
+        "de": {
+          "name": "Replikation",
+          "desc": "Replikation behandelt MySQL-Replikationsrollen, Datenkopie und betriebliche Aspekte."
+        },
+        "ja": {
+          "name": "レプリケーション",
+          "desc": "レプリケーションには、レプリケーションの役割、データのコピー、および運用上の認識が含まれます。"
+        },
+        "ru": {
+          "name": "Репликация",
+          "desc": "Репликация охватывает роли репликации MySQL, копирование данных и эксплуатационные аспекты."
+        },
+        "ko": {
+          "name": "복제",
+          "desc": "복제에는 MySQL 복제 역할, 데이터 복사 및 운영 인식이 포함됩니다."
+        },
+        "pt": {
+          "name": "Replicação",
+          "desc": "A replicação abrange papéis de replicação do MySQL, cópia de dados e considerações operacionais."
+        }
+      }
+    }
+  ]
+}

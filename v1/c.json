@@ -1,0 +1,157 @@
+{
+  "key": "c",
+  "slug": "c",
+  "name": "C",
+  "skills": [
+    {
+      "key": "c/variables",
+      "slug": "variables",
+      "name": "Variables",
+      "desc": "Variables are used to store and manage data in a C program. They have a data type and can be assigned values that can change during program execution."
+    },
+    {
+      "key": "c/data_types",
+      "slug": "data_types",
+      "name": "Data Types",
+      "desc": "Data types define the type of data that can be stored in a variable. C supports various data types, including integers, floating-point numbers, characters, and more."
+    },
+    {
+      "key": "c/constants",
+      "slug": "constants",
+      "name": "Constants",
+      "desc": "Constants are values that do not change during program execution. They are used to represent fixed values that should not be modified."
+    },
+    {
+      "key": "c/operators",
+      "slug": "operators",
+      "name": "Operators",
+      "desc": "Operators in C are used to perform operations on variables and values. They include arithmetic operators, relational operators, logical operators, and more."
+    },
+    {
+      "key": "c/comments",
+      "slug": "comments",
+      "name": "Comments",
+      "desc": "Comments are used to add explanations and notes within the code. They are not executed and are intended for documentation and code readability purposes."
+    },
+    {
+      "key": "c/if_else",
+      "slug": "if_else",
+      "name": "If...Else",
+      "desc": "If...else statements allow you to make decisions in your program. Depending on whether a condition is true or false, different blocks of code can be executed."
+    },
+    {
+      "key": "c/switch",
+      "slug": "switch",
+      "name": "Switch",
+      "desc": "Switch statements provide a way to choose from multiple code blocks based on the value of a single expression. It is useful for handling multiple cases efficiently."
+    },
+    {
+      "key": "c/for_loop",
+      "slug": "for_loop",
+      "name": "For Loop",
+      "desc": "For loops are used to iterate over a sequence of values or execute a block of code a specific number of times. They are commonly used when you know the number of iterations in advance."
+    },
+    {
+      "key": "c/while_loop",
+      "slug": "while_loop",
+      "name": "While Loop",
+      "desc": "While loops are used to repeatedly execute a block of code as long as a specified condition is true. They are useful for situations where the number of iterations is not known in advance."
+    },
+    {
+      "key": "c/break_continue",
+      "slug": "break_continue",
+      "name": "Break/Continue",
+      "desc": "The break statement is used to exit a loop prematurely, while the continue statement is used to skip the current iteration and move to the next iteration of a loop."
+    },
+    {
+      "key": "c/arrays",
+      "slug": "arrays",
+      "name": "Arrays",
+      "desc": "Arrays are collections of elements of the same data type. They allow you to work with multiple values of the same kind as a single entity."
+    },
+    {
+      "key": "c/strings",
+      "slug": "strings",
+      "name": "Strings",
+      "desc": "Strings in C are sequences of characters. They are commonly used for handling text and manipulating character data."
+    },
+    {
+      "key": "c/structures",
+      "slug": "structures",
+      "name": "Structures",
+      "desc": "Structures are user-defined data types that allow you to group together variables of different data types under a single name. They are used for creating complex data structures."
+    },
+    {
+      "key": "c/enums",
+      "slug": "enums",
+      "name": "Enums",
+      "desc": "Enums provide a way to create a set of named integer constants. They make the code more readable and help in improving code maintainability."
+    },
+    {
+      "key": "c/pointers",
+      "slug": "pointers",
+      "name": "Pointers",
+      "desc": "Pointers are variables that store memory addresses. They are used for tasks like dynamic memory allocation and accessing data indirectly."
+    },
+    {
+      "key": "c/memory_address",
+      "slug": "memory_address",
+      "name": "Memory Address",
+      "desc": "Memory addresses are unique identifiers for locations in the computer's memory. Understanding memory addresses is essential for working with pointers and managing memory effectively."
+    },
+    {
+      "key": "c/function_declaration",
+      "slug": "function_declaration",
+      "name": "Function Declaration",
+      "desc": "Function declaration is the process of defining a function's name, return type, and parameters. It tells the compiler about the function's existence and signature before its actual implementation."
+    },
+    {
+      "key": "c/function_parameters",
+      "slug": "function_parameters",
+      "name": "Function Parameters",
+      "desc": "Function parameters are values that are passed into a function when it is called. They allow you to provide input to a function, which it can then use to perform its task."
+    },
+    {
+      "key": "c/math_functions",
+      "slug": "math_functions",
+      "name": "Math Functions",
+      "desc": "Math functions in C provide mathematical operations like addition, subtraction, multiplication, and division. These functions are part of the standard library and can be used to perform various mathematical calculations."
+    },
+    {
+      "key": "c/recursion",
+      "slug": "recursion",
+      "name": "Recursion",
+      "desc": "Recursion is a technique where a function calls itself to solve a problem. It is a powerful and elegant way to solve complex problems that can be broken down into smaller, similar subproblems."
+    },
+    {
+      "key": "c/write_to_files",
+      "slug": "write_to_files",
+      "name": "Write To Files",
+      "desc": "Writing to files allows you to save data generated by your program to a file on the disk. It is commonly used for tasks like logging and data storage."
+    },
+    {
+      "key": "c/create_files",
+      "slug": "create_files",
+      "name": "Create Files",
+      "desc": "Creating files involves creating new files on the disk. You can create empty files or initialize them with initial data."
+    },
+    {
+      "key": "c/read_files",
+      "slug": "read_files",
+      "name": "Read Files",
+      "desc": "Reading files enables your program to retrieve data from existing files on the disk. It is useful for tasks like reading configuration files or processing data from external sources."
+    },
+    {
+      "key": "c/user_input",
+      "slug": "user_input",
+      "name": "User Input",
+      "desc": "User input allows your program to receive data from the user via the keyboard or other input devices. It is essential for creating interactive applications."
+    },
+    {
+      "key": "c/output",
+      "slug": "output",
+      "name": "Output",
+      "desc": "Output refers to the information or results displayed to the user. It can be shown on the screen, printed, or saved to a file, depending on the application's needs."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "key": "nmap",
+  "slug": "nmap",
+  "name": "Nmap",
+  "skills": [
+    {
+      "key": "nmap/installation",
+      "slug": "installation",
+      "name": "Installation and Setup",
+      "desc": "This skill covers the process of installing and setting up Nmap on different operating systems. It includes downloading the latest version, configuring the installation, and ensuring that Nmap is properly integrated into the system."
+    },
+    {
+      "key": "nmap/basic_syntax",
+      "slug": "basic_syntax",
+      "name": "Basic Command Syntax",
+      "desc": "This skill focuses on understanding the basic command syntax of Nmap and its various options. It covers how to construct Nmap commands, specify targets, and select appropriate scan types."
+    },
+    {
+      "key": "nmap/tcp_connect_scan",
+      "slug": "tcp_connect_scan",
+      "name": "Basic TCP Connect Scan",
+      "desc": "This skill introduces the concept of TCP connect scans, one of the most basic and common scan types in Nmap. It explains how to perform a TCP connect scan, its advantages, and its limitations."
+    },
+    {
+      "key": "nmap/common_ports",
+      "slug": "common_ports",
+      "name": "Common Ports Scanning",
+      "desc": "This skill covers the scanning of commonly used ports, which is a common practice in network reconnaissance and vulnerability assessment. It teaches how to scan specific port ranges or a predefined list of common ports."
+    },
+    {
+      "key": "nmap/output_formats",
+      "slug": "output_formats",
+      "name": "Output Formats",
+      "desc": "This skill focuses on understanding the various output formats available in Nmap, such as interactive, XML, script kiddie, and grepable output. It helps users choose the most suitable format for their needs and interpret the output effectively."
+    },
+    {
+      "key": "nmap/save_output",
+      "slug": "save_output",
+      "name": "Save Output to File",
+      "desc": "This skill teaches how to save Nmap scan results to a file for later analysis or documentation purposes. It covers different file formats and techniques for organizing and managing scan output."
+    },
+    {
+      "key": "nmap/port_scanning",
+      "slug": "port_scanning",
+      "name": "Port Scanning Methods",
+      "desc": "This skill explores the different port scanning methods available in Nmap, such as TCP SYN scan, TCP connect scan, UDP scan, and idle/zombie scan. It helps users understand the strengths and weaknesses of each method and choose the appropriate one based on the scanning scenario."
+    },
+    {
+      "key": "nmap/host_discovery",
+      "slug": "host_discovery",
+      "name": "Host Discovery Techniques",
+      "desc": "This skill covers various host discovery techniques in Nmap, including ping scan, TCP SYN scan, TCP connect scan, and ARP scan. It helps users identify live hosts on the network efficiently and reliably."
+    },
+    {
+      "key": "nmap/scan_types",
+      "slug": "scan_types",
+      "name": "Scan Types and Techniques",
+      "desc": "This skill delves into the different scan types and techniques available in Nmap, such as TCP scan, SYN scan, UDP scan, idle/zombie scan, and version scan. It teaches users how to select and combine different scan types to achieve specific reconnaissance objectives."
+    },
+    {
+      "key": "nmap/target_specification",
+      "slug": "target_specification",
+      "name": "Target Specification",
+      "desc": "This skill covers various methods of specifying targets in Nmap, including IP addresses, hostnames, IP ranges, and input from external files. It helps users scan multiple targets efficiently and accurately."
+    },
+    {
+      "key": "nmap/timing_performance",
+      "slug": "timing_performance",
+      "name": "Timing and Performance",
+      "desc": "This skill focuses on optimizing Nmap scans for better performance and efficiency. It covers techniques for adjusting timing parameters, parallelization, and other performance-related options to strike a balance between scan speed and accuracy."
+    },
+    {
+      "key": "nmap/verbosity",
+      "slug": "verbosity",
+      "name": "Verbosity Levels",
+      "desc": "This skill teaches users how to control the verbosity levels of Nmap output, ranging from minimal to highly detailed. It helps users tailor the output to their specific needs and preferences."
+    },
+    {
+      "key": "nmap/syn_scan",
+      "slug": "syn_scan",
+      "name": "SYN Scan",
+      "desc": "This skill delves into the SYN scan technique, which is one of the most popular and efficient scanning methods in Nmap. It explains how SYN scans work, their advantages, and their potential limitations."
+    },
+    {
+      "key": "nmap/udp_scanning",
+      "slug": "udp_scanning",
+      "name": "UDP Scanning Techniques",
+      "desc": "This skill covers various techniques for scanning UDP ports using Nmap, including UDP scan, UDP scan with version detection, and UDP port scanning optimization techniques."
+    },
+    {
+      "key": "nmap/os_version_detection",
+      "slug": "os_version_detection",
+      "name": "OS and Version Detection",
+      "desc": "This skill focuses on Nmap's ability to detect the operating system and version running on target systems. It covers techniques for accurate OS and version detection, as well as potential limitations and considerations."
+    },
+    {
+      "key": "nmap/service_detection",
+      "slug": "service_detection",
+      "name": "Service Detection",
+      "desc": "This skill explores Nmap's service detection capabilities, which allow users to identify the services running on open ports. It covers techniques for accurate service detection and potential limitations."
+    },
+    {
+      "key": "nmap/scripting_basics",
+      "slug": "scripting_basics",
+      "name": "Scripting Engine Basics",
+      "desc": "This skill introduces the Nmap Scripting Engine (NSE), a powerful feature that allows users to extend Nmap's functionality through scripts. It covers the basics of writing and executing NSE scripts."
+    },
+    {
+      "key": "nmap/script_management",
+      "slug": "script_management",
+      "name": "Script Categories and Updating",
+      "desc": "This skill delves into the various categories of NSE scripts available in Nmap, such as discovery, vulnerability detection, and exploitation scripts. It also covers techniques for updating and managing the script database."
+    },
+    {
+      "key": "nmap/firewall_evasion",
+      "slug": "firewall_evasion",
+      "name": "Firewall Evasion Techniques",
+      "desc": "This skill focuses on techniques for evading firewalls and other security measures during Nmap scans. It covers methods like fragmented packets, source port manipulation, and decoy scanning."
+    },
+    {
+      "key": "nmap/stealth_scanning",
+      "slug": "stealth_scanning",
+      "name": "Stealth and Covert Scanning",
+      "desc": "This skill explores techniques for performing stealthy and covert scans using Nmap, which can be useful in situations where discretion is required. It covers methods like idle/zombie scanning, source routing, and manipulation of TCP flags."
+    }
+  ]
+}

@@ -1,0 +1,2407 @@
+{
+  "key": "go",
+  "slug": "go",
+  "name": "Go",
+  "skills": [
+    {
+      "key": "go/program_structure",
+      "slug": "program_structure",
+      "name": "Program Structure",
+      "desc": "Program structure covers packages, files, declarations, and entry points in Go programs.",
+      "i18n": {
+        "zh": {
+          "name": "程序结构",
+          "desc": "程序结构涵盖 Go 程序中的包、文件、声明和入口点。"
+        },
+        "es": {
+          "name": "Estructura del programa",
+          "desc": "La estructura del programa cubre paquetes, archivos, declaraciones y puntos de entrada en programas Go."
+        },
+        "fr": {
+          "name": "Structure du programme",
+          "desc": "La structure du programme couvre les packages, les fichiers, les déclarations et les points d'entrée dans les programmes Go."
+        },
+        "de": {
+          "name": "Programmstruktur",
+          "desc": "Die Programmstruktur umfasst Pakete, Dateien, Deklarationen und Einstiegspunkte in Go-Programmen."
+        },
+        "ja": {
+          "name": "プログラムの構造",
+          "desc": "プログラム構造には、Go プログラムのパッケージ、ファイル、宣言、およびエントリポイントが含まれます。"
+        },
+        "ru": {
+          "name": "Структура программы",
+          "desc": "Структура программы охватывает пакеты, файлы, объявления и точки входа в программах Go."
+        },
+        "ko": {
+          "name": "프로그램 구조",
+          "desc": "프로그램 구조는 Go 프로그램의 패키지, 파일, 선언 및 진입점을 포함합니다."
+        },
+        "pt": {
+          "name": "Estrutura do Programa",
+          "desc": "A estrutura do programa cobre pacotes, arquivos, declarações e pontos de entrada em programas Go."
+        }
+      }
+    },
+    {
+      "key": "go/variables",
+      "slug": "variables",
+      "name": "Variables",
+      "desc": "Variables cover declaring, assigning, and updating named values in Go.",
+      "i18n": {
+        "zh": {
+          "name": "变量",
+          "desc": "变量涵盖了 Go 中的声明、分配和更新命名值。"
+        },
+        "es": {
+          "name": "variables",
+          "desc": "Las variables cubren la declaración, asignación y actualización de valores con nombre en Go."
+        },
+        "fr": {
+          "name": "Variables",
+          "desc": "Les variables couvrent la déclaration, l'attribution et la mise à jour des valeurs nommées dans Go."
+        },
+        "de": {
+          "name": "Variablen",
+          "desc": "Variablen umfassen das Deklarieren, Zuweisen und Aktualisieren benannter Werte in Go."
+        },
+        "ja": {
+          "name": "変数",
+          "desc": "変数には、Go での名前付き値の宣言、割り当て、更新が含まれます。"
+        },
+        "ru": {
+          "name": "Переменные",
+          "desc": "Переменные охватывают объявление, присвоение и обновление именованных значений в Go."
+        },
+        "ko": {
+          "name": "변수",
+          "desc": "변수는 Go에서 명명된 값의 선언, 할당, 업데이트를 다룹니다."
+        },
+        "pt": {
+          "name": "Variáveis",
+          "desc": "As variáveis cobrem a declaração, atribuição e atualização de valores nomeados em Go."
+        }
+      }
+    },
+    {
+      "key": "go/constants",
+      "slug": "constants",
+      "name": "Constants",
+      "desc": "Constants cover compile-time values and typed or untyped constant behavior.",
+      "i18n": {
+        "zh": {
+          "name": "常数",
+          "desc": "常量涵盖编译时值以及类型化或非类型化常量行为。"
+        },
+        "es": {
+          "name": "Constantes",
+          "desc": "Las constantes cubren valores en tiempo de compilación y comportamiento constante con o sin tipo."
+        },
+        "fr": {
+          "name": "Constantes",
+          "desc": "Les constantes couvrent les valeurs au moment de la compilation et le comportement des constantes typées ou non."
+        },
+        "de": {
+          "name": "Konstanten",
+          "desc": "Konstanten umfassen Werte zur Kompilierungszeit und typisiertes oder untypisiertes Konstantenverhalten."
+        },
+        "ja": {
+          "name": "定数",
+          "desc": "定数には、コンパイル時の値と、型付きまたは型なしの定数の動作が含まれます。"
+        },
+        "ru": {
+          "name": "Константы",
+          "desc": "Константы охватывают значения времени компиляции и поведение типизированных или нетипизированных констант."
+        },
+        "ko": {
+          "name": "상수",
+          "desc": "상수는 컴파일 타임 값과 형식이 지정되거나 형식이 지정되지 않은 상수 동작을 포함합니다."
+        },
+        "pt": {
+          "name": "Constantes",
+          "desc": "As constantes cobrem valores de tempo de compilação e comportamento de constantes digitadas ou não."
+        }
+      }
+    },
+    {
+      "key": "go/zero_values",
+      "slug": "zero_values",
+      "name": "Zero Values",
+      "desc": "Zero values cover default initialization behavior for Go variables, fields, and composite values.",
+      "i18n": {
+        "zh": {
+          "name": "零值",
+          "desc": "零值涵盖 Go 变量、字段和复合值的默认初始化行为。"
+        },
+        "es": {
+          "name": "Valores cero",
+          "desc": "Los valores cero cubren el comportamiento de inicialización predeterminado para variables Go, campos y valores compuestos."
+        },
+        "fr": {
+          "name": "Valeurs nulles",
+          "desc": "Les valeurs zéro couvrent le comportement d'initialisation par défaut pour variables Go, champs et valeurs composites."
+        },
+        "de": {
+          "name": "Nullwerte",
+          "desc": "Nullwerte decken das Standardinitialisierungsverhalten für Go Variablen, Felder und zusammengesetzte Werte ab."
+        },
+        "ja": {
+          "name": "ゼロ値",
+          "desc": "ゼロ値は、Go 変数、フィールド、および複合値のデフォルトの初期化動作を扱います。"
+        },
+        "ru": {
+          "name": "Нулевые значения",
+          "desc": "Нулевые значения охватывают поведение инициализации по умолчанию для переменных, полей и составных значений Go."
+        },
+        "ko": {
+          "name": "0 값",
+          "desc": "0 값은 Go 변수, 필드 및 복합 값에 대한 기본 초기화 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Valores Zero",
+          "desc": "Os valores zero cobrem o comportamento de inicialização padrão para variáveis, campos e valores compostos Go."
+        }
+      }
+    },
+    {
+      "key": "go/built_in_types",
+      "slug": "built_in_types",
+      "name": "Built-In Types",
+      "desc": "Built-in types cover numeric, string, boolean, and composite value foundations.",
+      "i18n": {
+        "zh": {
+          "name": "内置类型",
+          "desc": "内置类型涵盖数字、字符串、布尔值和复合值基础。"
+        },
+        "es": {
+          "name": "Tipos incorporados",
+          "desc": "Los tipos integrados cubren bases de valores numéricos, de cadenas, booleanos y compuestos."
+        },
+        "fr": {
+          "name": "Types intégrés",
+          "desc": "Les types intégrés couvrent les fondations de valeurs numériques, de chaînes, booléennes et composites."
+        },
+        "de": {
+          "name": "Integrierte Typen",
+          "desc": "Integrierte Typen decken die Grundlagen von Zahlen, Zeichenfolgen, booleschen Werten und zusammengesetzten Werten ab."
+        },
+        "ja": {
+          "name": "組み込み型",
+          "desc": "組み込み型は、数値、文字列、ブール値、および複合値の基礎を扱います。"
+        },
+        "ru": {
+          "name": "Встроенные типы",
+          "desc": "Встроенные типы охватывают числовые, строковые, логические и составные значения."
+        },
+        "ko": {
+          "name": "내장 타입",
+          "desc": "내장 타입은 숫자, 문자열, 불리언 및 복합 값의 기반을 다룹니다."
+        },
+        "pt": {
+          "name": "Tipos integrados",
+          "desc": "Os tipos integrados cobrem bases de valores numéricos, de string, booleanos e compostos."
+        }
+      }
+    },
+    {
+      "key": "go/operators",
+      "slug": "operators",
+      "name": "Operators",
+      "desc": "Operators cover arithmetic, comparison, logical, address, and channel operations.",
+      "i18n": {
+        "zh": {
+          "name": "运算符",
+          "desc": "运算符涵盖算术、比较、逻辑、地址和通道运算。"
+        },
+        "es": {
+          "name": "Operadores",
+          "desc": "Los operadores cubren operaciones aritméticas, de comparación, lógicas, de dirección y de canal."
+        },
+        "fr": {
+          "name": "Opérateurs",
+          "desc": "Les opérateurs couvrent les opérations arithmétiques, de comparaison, logiques, d'adresse et de canal."
+        },
+        "de": {
+          "name": "Operatoren",
+          "desc": "Operatoren decken arithmetische, vergleichende, logische, Adress- und Kanaloperationen ab."
+        },
+        "ja": {
+          "name": "オペレーター",
+          "desc": "演算子は、算術演算、比較演算、論理演算、アドレス演算、およびチャネル演算を扱います。"
+        },
+        "ru": {
+          "name": "Операторы",
+          "desc": "Операторы охватывают арифметические, операции сравнения, логические, адресные и канальные операции."
+        },
+        "ko": {
+          "name": "연산자",
+          "desc": "연산자는 산술, 비교, 논리, 주소 및 채널 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Operadores",
+          "desc": "Os operadores cobrem operações aritméticas, de comparação, lógicas, de endereço e de canal."
+        }
+      }
+    },
+    {
+      "key": "go/type_conversion",
+      "slug": "type_conversion",
+      "name": "Type Conversion",
+      "desc": "Type conversion covers explicit conversion between compatible Go types.",
+      "i18n": {
+        "zh": {
+          "name": "类型转换",
+          "desc": "类型转换涵盖兼容的 Go 类型之间的显式转换。"
+        },
+        "es": {
+          "name": "Conversión de tipo",
+          "desc": "La conversión de tipos cubre la conversión explícita entre tipos Go compatibles."
+        },
+        "fr": {
+          "name": "Conversion de types",
+          "desc": "La conversion de type couvre la conversion explicite entre les types Go compatibles."
+        },
+        "de": {
+          "name": "Typkonvertierung",
+          "desc": "Die Typkonvertierung umfasst die explizite Konvertierung zwischen kompatiblen Go-Typen."
+        },
+        "ja": {
+          "name": "型変換",
+          "desc": "型変換は、互換性のある Go 型間の明示的な変換を扱います。"
+        },
+        "ru": {
+          "name": "Преобразование типа",
+          "desc": "Преобразование типов охватывает явное преобразование между совместимыми типами Go."
+        },
+        "ko": {
+          "name": "타입 변환",
+          "desc": "타입 변환은 호환되는 Go 타입 간의 명시적 변환을 다룹니다."
+        },
+        "pt": {
+          "name": "Conversão de tipo",
+          "desc": "A conversão de tipo cobre a conversão explícita entre tipos Go compatíveis."
+        }
+      }
+    },
+    {
+      "key": "go/conditional_statements",
+      "slug": "conditional_statements",
+      "name": "Conditional Statements",
+      "desc": "Conditional statements cover branching with if and else logic.",
+      "i18n": {
+        "zh": {
+          "name": "条件语句",
+          "desc": "条件语句涵盖使用 if 和 else 逻辑进行分支。"
+        },
+        "es": {
+          "name": "Sentencias condicionales",
+          "desc": "Las sentencias condicionales cubren la ramificación con lógica if y else."
+        },
+        "fr": {
+          "name": "Instructions conditionnelles",
+          "desc": "Les instructions conditionnelles couvrent le branchement avec la logique if et else."
+        },
+        "de": {
+          "name": "Bedingte Anweisungen",
+          "desc": "Bedingte Anweisungen umfassen Verzweigungen mit if- und else-Logik."
+        },
+        "ja": {
+          "name": "条件文",
+          "desc": "条件ステートメントは、if および else ロジックによる分岐を扱います。"
+        },
+        "ru": {
+          "name": "Условные операторы",
+          "desc": "Условные операторы охватывают ветвление с помощью логики if и else."
+        },
+        "ko": {
+          "name": "조건문",
+          "desc": "조건문은 if 및 else 논리를 사용한 분기를 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções condicionais",
+          "desc": "As instruções condicionais cobrem a ramificação com a lógica if e else."
+        }
+      }
+    },
+    {
+      "key": "go/switch_statements",
+      "slug": "switch_statements",
+      "name": "Switch Statements",
+      "desc": "Switch statements cover value, expression, and type-based multi-branch control flow.",
+      "i18n": {
+        "zh": {
+          "name": "Switch 语句",
+          "desc": "Switch 语句涵盖基于值、表达式和类型的多分支控制流。"
+        },
+        "es": {
+          "name": "Sentencias switch",
+          "desc": "Las sentencias switch cubren valores, expresiones y flujo de control multirrama basado en tipos."
+        },
+        "fr": {
+          "name": "Instructions switch",
+          "desc": "Les instructions Switch couvrent le flux de contrôle multibranche basé sur les valeurs, les expressions et les types."
+        },
+        "de": {
+          "name": "Switch-Anweisungen",
+          "desc": "Switch-Anweisungen decken den wert-, ausdrucks- und typbasierten Kontrollfluss mit mehreren Zweigen ab."
+        },
+        "ja": {
+          "name": "スイッチステートメント",
+          "desc": "switch ステートメントは、値、式、および型ベースのマルチブランチ制御フローを扱います。"
+        },
+        "ru": {
+          "name": "Операторы переключения",
+          "desc": "Операторы переключения охватывают значения, выражения и многоветвевой поток управления на основе типов."
+        },
+        "ko": {
+          "name": "스위치 문",
+          "desc": "스위치 문은 값, 표현식 및 유형 기반 다중 분기 제어 흐름을 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções switch",
+          "desc": "As instruções switch cobrem valor, expressão e fluxo de controle multi-ramificação baseado em tipo."
+        }
+      }
+    },
+    {
+      "key": "go/loops",
+      "slug": "loops",
+      "name": "Loops",
+      "desc": "Loops cover repetition with Go for statements.",
+      "i18n": {
+        "zh": {
+          "name": "循环",
+          "desc": "循环涵盖使用 Go 的 for 语句进行重复执行。"
+        },
+        "es": {
+          "name": "Bucles",
+          "desc": "Los bucles cubren la repetición con las sentencias for de Go."
+        },
+        "fr": {
+          "name": "Boucles",
+          "desc": "Les boucles couvrent la répétition avec les instructions for de Go."
+        },
+        "de": {
+          "name": "Schleifen",
+          "desc": "Schleifen umfassen Wiederholungen mit Go-for-Anweisungen."
+        },
+        "ja": {
+          "name": "ループ",
+          "desc": "ループは、Go の for 文による繰り返しを扱います。"
+        },
+        "ru": {
+          "name": "Циклы",
+          "desc": "Циклы охватывают повторение с помощью операторов for в Go."
+        },
+        "ko": {
+          "name": "루프",
+          "desc": "루프는 Go의 for 문을 사용한 반복을 다룹니다."
+        },
+        "pt": {
+          "name": "Laços",
+          "desc": "Laços cobrem repetição com instruções for em Go."
+        }
+      }
+    },
+    {
+      "key": "go/range_iteration",
+      "slug": "range_iteration",
+      "name": "Range Iteration",
+      "desc": "Range iteration covers traversing arrays, slices, maps, strings, and channels.",
+      "i18n": {
+        "zh": {
+          "name": "范围迭代",
+          "desc": "范围迭代涵盖了遍历数组、切片、映射、字符串和通道。"
+        },
+        "es": {
+          "name": "Iteración de rango",
+          "desc": "La iteración range cubre el recorrido de arreglos, slices, maps, cadenas y canales."
+        },
+        "fr": {
+          "name": "Itération de plage",
+          "desc": "L'itération range couvre le parcours des tableaux, slices, maps, chaînes et canaux."
+        },
+        "de": {
+          "name": "Bereichsiteration",
+          "desc": "Die Bereichsiteration umfasst das Durchlaufen von Arrays, Slices, Maps, Strings und Kanälen."
+        },
+        "ja": {
+          "name": "範囲の反復",
+          "desc": "範囲反復では、配列、スライス、マップ、文字列、チャネルの走査を扱います。"
+        },
+        "ru": {
+          "name": "Итерация диапазона",
+          "desc": "Итерация range охватывает обход массивов, срезов, map, строк и каналов."
+        },
+        "ko": {
+          "name": "범위 반복",
+          "desc": "범위 반복에는 배열, 슬라이스, 맵, 문자열 및 채널 순회가 포함됩니다."
+        },
+        "pt": {
+          "name": "Iteração de intervalo",
+          "desc": "A iteração range abrange a passagem por arrays, slices, maps, strings e canais."
+        }
+      }
+    },
+    {
+      "key": "go/functions",
+      "slug": "functions",
+      "name": "Functions",
+      "desc": "Functions cover defining, calling, and organizing reusable Go logic.",
+      "i18n": {
+        "zh": {
+          "name": "函数",
+          "desc": "函数涵盖定义、调用和组织可重用的 Go 逻辑。"
+        },
+        "es": {
+          "name": "Funciones",
+          "desc": "Las funciones cubren definir, llamar y organizar lógica Go reutilizable."
+        },
+        "fr": {
+          "name": "Fonctions",
+          "desc": "Les fonctions couvrent la définition, l'appel et l'organisation de la logique Go réutilisable."
+        },
+        "de": {
+          "name": "Funktionen",
+          "desc": "Die Funktionen umfassen das Definieren, Aufrufen und Organisieren wiederverwendbarer Go-Logik."
+        },
+        "ja": {
+          "name": "関数",
+          "desc": "関数には、再利用可能な Go ロジックの定義、呼び出し、編成が含まれます。"
+        },
+        "ru": {
+          "name": "Функции",
+          "desc": "Функции охватывают определение, вызов и организацию многократно используемой логики Go."
+        },
+        "ko": {
+          "name": "함수",
+          "desc": "함수에는 재사용 가능한 Go 로직 정의, 호출 및 구성이 포함됩니다."
+        },
+        "pt": {
+          "name": "Funções",
+          "desc": "As funções cobrem a definição, chamada e organização da lógica Go reutilizável."
+        }
+      }
+    },
+    {
+      "key": "go/parameters_return_values",
+      "slug": "parameters_return_values",
+      "name": "Parameters and Return Values",
+      "desc": "Parameters and return values cover passing data, multiple returns, and named results.",
+      "i18n": {
+        "zh": {
+          "name": "参数和返回值",
+          "desc": "参数和返回值涵盖传递数据、多重返回和命名结果。"
+        },
+        "es": {
+          "name": "Parámetros y valores de retorno",
+          "desc": "Los parámetros y valores de retorno cubren el paso de datos, múltiples devoluciones y resultados con nombre."
+        },
+        "fr": {
+          "name": "Paramètres et valeurs de retour",
+          "desc": "Les paramètres et les valeurs de retour couvrent le passage des données, les retours multiples et les résultats nommés."
+        },
+        "de": {
+          "name": "Parameter und Rückgabewerte",
+          "desc": "Parameter und Rückgabewerte umfassen die Übergabe von Daten, mehrere Rückgaben und benannte Ergebnisse."
+        },
+        "ja": {
+          "name": "パラメータと戻り値",
+          "desc": "パラメーターと戻り値には、データの受け渡し、複数の戻り値、および名前付きの結果が含まれます。"
+        },
+        "ru": {
+          "name": "Параметры и возвращаемые значения",
+          "desc": "Параметры и возвращаемые значения охватывают передачу данных, множественные возвраты и именованные результаты."
+        },
+        "ko": {
+          "name": "매개변수 및 반환 값",
+          "desc": "매개변수 및 반환 값에는 데이터 전달, 다중 반환 및 명명된 결과가 포함됩니다."
+        },
+        "pt": {
+          "name": "Parâmetros e valores de retorno",
+          "desc": "Parâmetros e valores de retorno abrangem a passagem de dados, retornos múltiplos e resultados nomeados."
+        }
+      }
+    },
+    {
+      "key": "go/defer_statements",
+      "slug": "defer_statements",
+      "name": "Defer Statements",
+      "desc": "Defer statements cover scheduling cleanup or follow-up actions at function exit.",
+      "i18n": {
+        "zh": {
+          "name": "Defer 语句",
+          "desc": "Defer 语句涵盖在函数退出时安排清理或后续操作。"
+        },
+        "es": {
+          "name": "Sentencias defer",
+          "desc": "Las sentencias defer cubren la programación de acciones de limpieza o seguimiento al salir de la función."
+        },
+        "fr": {
+          "name": "Instructions defer",
+          "desc": "Les instructions defer couvrent la planification des actions de nettoyage ou de suivi à la sortie de la fonction."
+        },
+        "de": {
+          "name": "Defer-Anweisungen",
+          "desc": "Defer-Anweisungen decken die Planung von Bereinigungs- oder Folgeaktionen beim Beenden der Funktion ab."
+        },
+        "ja": {
+          "name": "defer 文",
+          "desc": "defer 文は、関数終了時に実行するクリーンアップや後続処理の予約を扱います。"
+        },
+        "ru": {
+          "name": "Операторы defer",
+          "desc": "Операторы defer охватывают планирование очистки или последующих действий при выходе из функции."
+        },
+        "ko": {
+          "name": "defer 문",
+          "desc": "defer 문은 함수 종료 시 정리 작업 또는 후속 작업 일정을 예약하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções defer",
+          "desc": "As instruções defer cobrem o agendamento de ações de limpeza ou acompanhamento na saída da função."
+        }
+      }
+    },
+    {
+      "key": "go/closures",
+      "slug": "closures",
+      "name": "Closures",
+      "desc": "Closures cover functions that capture and use surrounding state.",
+      "i18n": {
+        "zh": {
+          "name": "闭包",
+          "desc": "闭包涵盖了捕获和使用周围状态的函数。"
+        },
+        "es": {
+          "name": "Clausuras",
+          "desc": "Las clausuras cubren funciones que capturan y utilizan el estado circundante."
+        },
+        "fr": {
+          "name": "Fermetures",
+          "desc": "Les fermetures couvrent des fonctions qui capturent et utilisent l’état environnant."
+        },
+        "de": {
+          "name": "Closures",
+          "desc": "Closures behandeln Funktionen, die den Zugriff auf den umgebenden lexikalischen Zustand beibehalten."
+        },
+        "ja": {
+          "name": "クロージャ",
+          "desc": "クロージャは、周囲の状態を取得して使用する関数を扱います。"
+        },
+        "ru": {
+          "name": "Замыкания",
+          "desc": "Замыкания охватывают функции, которые фиксируют и используют окружающее состояние."
+        },
+        "ko": {
+          "name": "클로저",
+          "desc": "클로저는 주변 렉시컬 상태에 대한 접근을 유지하는 함수를 다룹니다."
+        },
+        "pt": {
+          "name": "Fechamentos",
+          "desc": "Os fechamentos cobrem funções que capturam e usam o estado circundante."
+        }
+      }
+    },
+    {
+      "key": "go/arrays",
+      "slug": "arrays",
+      "name": "Arrays",
+      "desc": "Arrays cover fixed-size indexed collections.",
+      "i18n": {
+        "zh": {
+          "name": "数组",
+          "desc": "数组涵盖固定大小的索引集合。"
+        },
+        "es": {
+          "name": "Arreglos",
+          "desc": "Los arreglos cubren colecciones indexadas de tamaño fijo."
+        },
+        "fr": {
+          "name": "Tableaux",
+          "desc": "Les tableaux couvrent des collections indexées de taille fixe."
+        },
+        "de": {
+          "name": "Felder",
+          "desc": "Felder decken indizierte Sammlungen fester Größe ab."
+        },
+        "ja": {
+          "name": "配列",
+          "desc": "配列は、固定サイズのインデックス付きコレクションを扱います。"
+        },
+        "ru": {
+          "name": "Массивы",
+          "desc": "Массивы охватывают индексированные коллекции фиксированного размера."
+        },
+        "ko": {
+          "name": "배열",
+          "desc": "배열은 고정 크기 인덱스 컬렉션을 포함합니다."
+        },
+        "pt": {
+          "name": "Vetores",
+          "desc": "Vetores cobrem coleções indexadas de tamanho fixo."
+        }
+      }
+    },
+    {
+      "key": "go/slices",
+      "slug": "slices",
+      "name": "Slices",
+      "desc": "Slices cover dynamic views over arrays and common sequence operations.",
+      "i18n": {
+        "zh": {
+          "name": "切片",
+          "desc": "切片涵盖数组和常见序列操作的动态视图。"
+        },
+        "es": {
+          "name": "Slices",
+          "desc": "Los slices cubren vistas dinámicas sobre arreglos y operaciones de secuencia comunes."
+        },
+        "fr": {
+          "name": "Slices",
+          "desc": "Les slices couvrent des vues dynamiques sur les tableaux et les opérations de séquence courantes."
+        },
+        "de": {
+          "name": "Slices",
+          "desc": "Slices decken dynamische Ansichten über Arrays und allgemeine Sequenzoperationen ab."
+        },
+        "ja": {
+          "name": "スライス",
+          "desc": "スライスは、配列および一般的なシーケンス操作の動的なビューを扱います。"
+        },
+        "ru": {
+          "name": "Срезы",
+          "desc": "Срезы охватывают динамические представления массивов и общие операции с последовательностями."
+        },
+        "ko": {
+          "name": "슬라이스",
+          "desc": "슬라이스는 배열 및 일반적인 시퀀스 작업에 대한 동적 보기를 다룹니다."
+        },
+        "pt": {
+          "name": "Fatias",
+          "desc": "Fatias cobrem visualizações dinâmicas sobre arrays e operações de sequência comuns."
+        }
+      }
+    },
+    {
+      "key": "go/maps",
+      "slug": "maps",
+      "name": "Maps",
+      "desc": "Maps cover key-value collections and lookup behavior.",
+      "i18n": {
+        "zh": {
+          "name": "映射",
+          "desc": "映射涵盖键值集合和查找行为。"
+        },
+        "es": {
+          "name": "Mapas",
+          "desc": "Los mapas cubren colecciones de valores clave y comportamiento de búsqueda."
+        },
+        "fr": {
+          "name": "Maps",
+          "desc": "Les maps couvrent les collections clé-valeur et le comportement de recherche."
+        },
+        "de": {
+          "name": "Maps",
+          "desc": "Maps decken Schlüssel-Wert-Sammlungen und Suchverhalten ab."
+        },
+        "ja": {
+          "name": "マップ",
+          "desc": "マップは、キーと値のコレクションと検索動作を扱います。"
+        },
+        "ru": {
+          "name": "Map",
+          "desc": "Map охватывает коллекции «ключ-значение» и поведение поиска."
+        },
+        "ko": {
+          "name": "맵",
+          "desc": "맵은 키-값 컬렉션 및 조회 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Mapas",
+          "desc": "Os mapas cobrem coleções de valores-chave e comportamento de pesquisa."
+        }
+      }
+    },
+    {
+      "key": "go/structs",
+      "slug": "structs",
+      "name": "Structs",
+      "desc": "Structs cover grouping named fields into user-defined record types.",
+      "i18n": {
+        "zh": {
+          "name": "结构体",
+          "desc": "结构涵盖将命名字段分组为用户定义的记录类型。"
+        },
+        "es": {
+          "name": "Estructuras",
+          "desc": "Las estructuras cubren la agrupación de campos con nombre en tipos de registros definidos por el usuario."
+        },
+        "fr": {
+          "name": "Structures",
+          "desc": "Les structures couvrent le regroupement des champs nommés dans des types d'enregistrement définis par l'utilisateur."
+        },
+        "de": {
+          "name": "Strukturen",
+          "desc": "Strukturen umfassen die Gruppierung benannter Felder in benutzerdefinierte Datensatztypen."
+        },
+        "ja": {
+          "name": "構造体",
+          "desc": "構造体は、名前付きフィールドをユーザー定義のレコードタイプにグループ化することを扱います。"
+        },
+        "ru": {
+          "name": "Структуры",
+          "desc": "Структуры охватывают группировку именованных полей в определяемые пользователем типы записей."
+        },
+        "ko": {
+          "name": "구조체",
+          "desc": "구조체는 명명된 필드를 사용자 정의 레코드 유형으로 그룹화하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Estruturas",
+          "desc": "As estruturas cobrem o agrupamento de campos nomeados em tipos de registro definidos pelo usuário."
+        }
+      }
+    },
+    {
+      "key": "go/pointers",
+      "slug": "pointers",
+      "name": "Pointers",
+      "desc": "Pointers cover references to values and mutation through addresses.",
+      "i18n": {
+        "zh": {
+          "name": "指针",
+          "desc": "指针涵盖对值的引用以及通过地址修改值。"
+        },
+        "es": {
+          "name": "Punteros",
+          "desc": "Los punteros cubren referencias a valores y modificación de valores mediante direcciones."
+        },
+        "fr": {
+          "name": "Pointeurs",
+          "desc": "Les pointeurs couvrent les références aux valeurs et la modification de valeurs via les adresses."
+        },
+        "de": {
+          "name": "Zeiger",
+          "desc": "Zeiger umfassen Verweise auf Werte und das Ändern von Werten über Adressen."
+        },
+        "ja": {
+          "name": "ポインタ",
+          "desc": "ポインタは、値への参照とアドレスを介した変更を扱います。"
+        },
+        "ru": {
+          "name": "Указатели",
+          "desc": "Указатели охватывают ссылки на значения и изменение значений через адреса."
+        },
+        "ko": {
+          "name": "포인터",
+          "desc": "포인터는 값에 대한 참조와 주소를 통한 값 변경을 다룹니다."
+        },
+        "pt": {
+          "name": "Ponteiros",
+          "desc": "Os ponteiros cobrem referências a valores e modificação de valores por meio de endereços."
+        }
+      }
+    },
+    {
+      "key": "go/string_processing",
+      "slug": "string_processing",
+      "name": "String Processing",
+      "desc": "String processing covers UTF-8 text, bytes, runes, and common string operations.",
+      "i18n": {
+        "zh": {
+          "name": "字符串处理",
+          "desc": "字符串处理涵盖 UTF-8 文本、字节、符文和常见字符串操作。"
+        },
+        "es": {
+          "name": "Procesamiento de cadenas",
+          "desc": "El procesamiento de cadenas cubre texto UTF-8, bytes, runas y operaciones de cadenas comunes."
+        },
+        "fr": {
+          "name": "Traitement des chaînes",
+          "desc": "Le traitement des chaînes couvre le texte UTF-8, les octets, les runes et les opérations de chaîne courantes."
+        },
+        "de": {
+          "name": "String-Verarbeitung",
+          "desc": "Die String-Verarbeitung umfasst UTF-8-Text, Bytes, Runen und gängige String-Operationen."
+        },
+        "ja": {
+          "name": "文字列処理",
+          "desc": "文字列処理には、UTF-8 テキスト、バイト、ルーン、および一般的な文字列操作が含まれます。"
+        },
+        "ru": {
+          "name": "Обработка строк",
+          "desc": "Обработка строк охватывает текст UTF-8, байты, руны и общие строковые операции."
+        },
+        "ko": {
+          "name": "문자열 처리",
+          "desc": "문자열 처리에는 UTF-8 텍스트, 바이트, 룬 및 일반 문자열 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Processamento de strings",
+          "desc": "O processamento de strings abrange texto UTF-8, bytes, runas e operações comuns de strings."
+        }
+      }
+    },
+    {
+      "key": "go/json_data",
+      "slug": "json_data",
+      "name": "JSON Data",
+      "desc": "JSON data covers encoding, decoding, and struct mapping for JSON values.",
+      "i18n": {
+        "zh": {
+          "name": "JSON 数据",
+          "desc": "JSON 数据涵盖 JSON 值的编码、解码和结构映射。"
+        },
+        "es": {
+          "name": "Datos JSON",
+          "desc": "Los datos JSON cubren la codificación, decodificación y mapeo de estructuras para valores JSON."
+        },
+        "fr": {
+          "name": "Données JSON",
+          "desc": "Les données JSON couvrent l'encodage, le décodage et le mappage de structure pour les valeurs JSON."
+        },
+        "de": {
+          "name": "JSON-Daten",
+          "desc": "JSON-Daten umfassen Kodierung, Dekodierung und Strukturzuordnung für JSON-Werte."
+        },
+        "ja": {
+          "name": "JSON データ",
+          "desc": "JSON データは、JSON 値のエンコード、デコード、および構造マッピングを扱います。"
+        },
+        "ru": {
+          "name": "Данные JSON",
+          "desc": "Данные JSON охватывают кодирование, декодирование и сопоставление структур для значений JSON."
+        },
+        "ko": {
+          "name": "JSON 데이터",
+          "desc": "JSON 데이터에는 JSON 값에 대한 인코딩, 디코딩 및 구조체 매핑이 포함됩니다."
+        },
+        "pt": {
+          "name": "Dados JSON",
+          "desc": "Os dados JSON cobrem codificação, decodificação e mapeamento de estrutura para valores JSON."
+        }
+      }
+    },
+    {
+      "key": "go/methods",
+      "slug": "methods",
+      "name": "Methods",
+      "desc": "Methods cover functions attached to types with value or pointer receivers.",
+      "i18n": {
+        "zh": {
+          "name": "方法",
+          "desc": "方法涵盖附加到具有值接收器或指针接收器的类型上的函数。"
+        },
+        "es": {
+          "name": "Métodos",
+          "desc": "Los métodos cubren funciones adjuntas a tipos con receptores de valor o puntero."
+        },
+        "fr": {
+          "name": "Méthodes",
+          "desc": "Les méthodes couvrent les fonctions attachées aux types avec des récepteurs de valeur ou de pointeur."
+        },
+        "de": {
+          "name": "Methoden",
+          "desc": "Methoden umfassen Funktionen, die an Typen mit Wert- oder Zeigerempfängern angehängt sind."
+        },
+        "ja": {
+          "name": "メソッド",
+          "desc": "メソッドは、値またはポインターレシーバーを持つ型にアタッチされた関数を扱います。"
+        },
+        "ru": {
+          "name": "Методы",
+          "desc": "Методы охватывают функции, прикрепленные к типам с получателями значений или указателей."
+        },
+        "ko": {
+          "name": "메서드",
+          "desc": "메서드는 값 또는 포인터 수신기가 있는 타입에 연결된 함수를 다룹니다."
+        },
+        "pt": {
+          "name": "Métodos",
+          "desc": "Os métodos cobrem funções anexadas a tipos com receptores de valor ou ponteiro."
+        }
+      }
+    },
+    {
+      "key": "go/interfaces",
+      "slug": "interfaces",
+      "name": "Interfaces",
+      "desc": "Interfaces cover behavioral contracts satisfied implicitly by types.",
+      "i18n": {
+        "zh": {
+          "name": "接口",
+          "desc": "接口涵盖了类型隐式满足的行为契约。"
+        },
+        "es": {
+          "name": "Interfaces",
+          "desc": "Las interfaces cubren contratos de comportamiento satisfechos implícitamente por tipos."
+        },
+        "fr": {
+          "name": "Interfaces",
+          "desc": "Les interfaces couvrent des contrats comportementaux satisfaits implicitement par des types."
+        },
+        "de": {
+          "name": "Schnittstellen",
+          "desc": "Schnittstellen decken Verhaltensverträge ab, die implizit durch Typen erfüllt werden."
+        },
+        "ja": {
+          "name": "インターフェース",
+          "desc": "インターフェイスは、型によって暗黙的に満たされる動作規約を扱います。"
+        },
+        "ru": {
+          "name": "Интерфейсы",
+          "desc": "Интерфейсы охватывают поведенческие контракты, неявно удовлетворяемые типами."
+        },
+        "ko": {
+          "name": "인터페이스",
+          "desc": "인터페이스는 타입이 암시적으로 만족하는 동작 계약을 다룹니다."
+        },
+        "pt": {
+          "name": "Interfaces",
+          "desc": "As interfaces cobrem contratos comportamentais satisfeitos implicitamente por tipos."
+        }
+      }
+    },
+    {
+      "key": "go/interface_values",
+      "slug": "interface_values",
+      "name": "Interface Values",
+      "desc": "Interface values cover dynamic type and value pairs held by interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "接口值",
+          "desc": "接口值涵盖接口持有的动态类型和值对。"
+        },
+        "es": {
+          "name": "Valores de interfaz",
+          "desc": "Los valores de interfaz cubren pares dinámicos de tipos y valores mantenidos por las interfaces."
+        },
+        "fr": {
+          "name": "Valeurs d'interface",
+          "desc": "Les valeurs d’interface couvrent les paires de types et de valeurs dynamiques détenues par les interfaces."
+        },
+        "de": {
+          "name": "Interface-Werte",
+          "desc": "Interface-Werte behandeln dynamische Typ- und Wertepaare, die von Interfaces gehalten werden."
+        },
+        "ja": {
+          "name": "インターフェース値",
+          "desc": "インターフェイス値は、インターフェイスが保持する動的な型と値のペアを扱います。"
+        },
+        "ru": {
+          "name": "Значения интерфейса",
+          "desc": "Значения интерфейса охватывают пары динамических типов и значений, хранящихся в интерфейсах."
+        },
+        "ko": {
+          "name": "인터페이스 값",
+          "desc": "인터페이스 값은 인터페이스가 보유한 동적 타입과 값 쌍을 다룹니다."
+        },
+        "pt": {
+          "name": "Valores de interface",
+          "desc": "Os valores de interface cobrem pares dinâmicos de tipo e valor mantidos por interfaces."
+        }
+      }
+    },
+    {
+      "key": "go/type_assertions",
+      "slug": "type_assertions",
+      "name": "Type Assertions",
+      "desc": "Type assertions cover recovering concrete values from interface values.",
+      "i18n": {
+        "zh": {
+          "name": "类型断言",
+          "desc": "类型断言涵盖从接口值取出具体类型的值。"
+        },
+        "es": {
+          "name": "Aserciones de tipo",
+          "desc": "Las aserciones de tipo cubren la recuperación de valores concretos a partir de valores de interfaz."
+        },
+        "fr": {
+          "name": "Assertions de type",
+          "desc": "Les assertions de type couvrent la récupération de valeurs concrètes à partir des valeurs d'interface."
+        },
+        "de": {
+          "name": "Type Assertions",
+          "desc": "Type Assertions behandeln das Wiederherstellen konkreter Werte aus Interface-Werten."
+        },
+        "ja": {
+          "name": "型アサーション",
+          "desc": "型アサーションは、インターフェイス値から具体型の値を取り出すことを扱います。"
+        },
+        "ru": {
+          "name": "Извлечение конкретного типа",
+          "desc": "Извлечение конкретного типа охватывает получение конкретных значений из значений интерфейса."
+        },
+        "ko": {
+          "name": "타입 단언",
+          "desc": "타입 단언은 인터페이스 값에서 구체 타입의 값을 꺼내는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Asserções de tipo",
+          "desc": "As asserções de tipo cobrem a recuperação de valores concretos de valores de interface."
+        }
+      }
+    },
+    {
+      "key": "go/embedding",
+      "slug": "embedding",
+      "name": "Embedding",
+      "desc": "Embedding covers composing types and promoted fields or methods.",
+      "i18n": {
+        "zh": {
+          "name": "嵌入",
+          "desc": "嵌入涵盖了组合类型和提升的字段或方法。"
+        },
+        "es": {
+          "name": "Incrustar",
+          "desc": "La incrustación cubre la composición de tipos y campos o métodos promocionados."
+        },
+        "fr": {
+          "name": "Intégration",
+          "desc": "L'intégration couvre la composition des types et les champs ou méthodes promus."
+        },
+        "de": {
+          "name": "Einbetten",
+          "desc": "Das Einbetten umfasst das Zusammensetzen von Typen sowie promotete Felder oder Methoden."
+        },
+        "ja": {
+          "name": "埋め込み",
+          "desc": "埋め込みでは、型とプロモートされたフィールドまたはメソッドの構成を扱います。"
+        },
+        "ru": {
+          "name": "Встраивание",
+          "desc": "Встраивание охватывает композицию типов и продвигаемые поля или методы."
+        },
+        "ko": {
+          "name": "임베딩",
+          "desc": "임베딩은 타입 구성과 승격된 필드 또는 메서드를 다룹니다."
+        },
+        "pt": {
+          "name": "Incorporação",
+          "desc": "A incorporação abrange composição de tipos e campos ou métodos promovidos."
+        }
+      }
+    },
+    {
+      "key": "go/generics",
+      "slug": "generics",
+      "name": "Generics",
+      "desc": "Generics cover type parameters and constraints for reusable Go code.",
+      "i18n": {
+        "zh": {
+          "name": "泛型",
+          "desc": "泛型涵盖了可重用 Go 代码的类型参数和约束。"
+        },
+        "es": {
+          "name": "Genéricos",
+          "desc": "Los genéricos cubren parámetros de tipo y restricciones para código Go reutilizable."
+        },
+        "fr": {
+          "name": "Génériques",
+          "desc": "Les génériques couvrent les paramètres de type et les contraintes pour le code Go réutilisable."
+        },
+        "de": {
+          "name": "Generika",
+          "desc": "Generics decken Typparameter und Einschränkungen für wiederverwendbaren Go-Code ab."
+        },
+        "ja": {
+          "name": "ジェネリック",
+          "desc": "ジェネリックスは、再利用可能な Go コードの型パラメーターと制約を扱います。"
+        },
+        "ru": {
+          "name": "Дженерики",
+          "desc": "Обобщенные параметры охватывают параметры и ограничения типов для многократно используемого кода Go."
+        },
+        "ko": {
+          "name": "제네릭",
+          "desc": "제네릭은 재사용 가능한 Go 코드를 위한 타입 매개변수와 제약 조건을 다룹니다."
+        },
+        "pt": {
+          "name": "Genéricos",
+          "desc": "Os genéricos cobrem parâmetros de tipo e restrições para código Go reutilizável."
+        }
+      }
+    },
+    {
+      "key": "go/error_values",
+      "slug": "error_values",
+      "name": "Error Values",
+      "desc": "Error values cover explicit failure reporting with the error interface.",
+      "i18n": {
+        "zh": {
+          "name": "错误值",
+          "desc": "错误值涵盖通过 error 接口显式报告失败。"
+        },
+        "es": {
+          "name": "Valores de error",
+          "desc": "Los valores de error cubren el reporte explícito de fallos con la interfaz error."
+        },
+        "fr": {
+          "name": "Valeurs d'erreur",
+          "desc": "Les valeurs d'erreur couvrent le signalement explicite des échecs avec l'interface error."
+        },
+        "de": {
+          "name": "Fehlerwerte",
+          "desc": "Fehlerwerte umfassen das explizite Melden von Fehlern über das error-Interface."
+        },
+        "ja": {
+          "name": "エラー値",
+          "desc": "エラー値は、error インターフェイスによる明示的な失敗報告を扱います。"
+        },
+        "ru": {
+          "name": "Значения ошибок",
+          "desc": "Значения ошибок охватывают явные сообщения об ошибках с помощью интерфейса ошибок."
+        },
+        "ko": {
+          "name": "오류 값",
+          "desc": "오류 값은 error 인터페이스를 통한 명시적인 실패 보고를 다룹니다."
+        },
+        "pt": {
+          "name": "Valores de erro",
+          "desc": "Os valores de erro cobrem o relato explícito de falhas com a interface error."
+        }
+      }
+    },
+    {
+      "key": "go/error_wrapping",
+      "slug": "error_wrapping",
+      "name": "Error Wrapping",
+      "desc": "Error wrapping covers preserving and inspecting causal error context.",
+      "i18n": {
+        "zh": {
+          "name": "错误包装",
+          "desc": "错误包装涵盖保留和检查错误原因上下文。"
+        },
+        "es": {
+          "name": "Error wrapping",
+          "desc": "Error wrapping cubre la conservación y la inspección del contexto causal de los errores en Go."
+        },
+        "fr": {
+          "name": "Error wrapping",
+          "desc": "L'error wrapping couvre la préservation et l'inspection du contexte causal des erreurs en Go."
+        },
+        "de": {
+          "name": "Error wrapping",
+          "desc": "Error wrapping behandelt das Bewahren und Prüfen des kausalen Fehlerkontexts in Go."
+        },
+        "ja": {
+          "name": "エラーラッピング",
+          "desc": "エラーラッピングでは、原因となるエラーコンテキストの保持と検査を扱います。"
+        },
+        "ru": {
+          "name": "Error wrapping",
+          "desc": "Error wrapping охватывает сохранение и проверку причинного контекста ошибок в Go."
+        },
+        "ko": {
+          "name": "오류 래핑",
+          "desc": "오류 래핑에는 원인 오류 컨텍스트를 보존하고 검사하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Error wrapping",
+          "desc": "Error wrapping cobre a preservação e a inspeção do contexto causal de erros em Go."
+        }
+      }
+    },
+    {
+      "key": "go/custom_errors",
+      "slug": "custom_errors",
+      "name": "Custom Errors",
+      "desc": "Custom errors cover defining error types and sentinel values for domain-specific failure.",
+      "i18n": {
+        "zh": {
+          "name": "自定义错误",
+          "desc": "自定义错误包括为领域特定失败定义错误类型和哨兵值。"
+        },
+        "es": {
+          "name": "Errores personalizados",
+          "desc": "Los errores personalizados cubren la definición de tipos de errores y valores centinela para fallas específicas del dominio."
+        },
+        "fr": {
+          "name": "Erreurs personnalisées",
+          "desc": "Les erreurs personnalisées couvrent la définition des types d’erreurs et des valeurs sentinelles pour les échecs spécifiques au domaine."
+        },
+        "de": {
+          "name": "Benutzerdefinierte Fehler",
+          "desc": "Benutzerdefinierte Fehler umfassen die Definition von Fehlertypen und Sentinel-Werten für domänenspezifische Fehler."
+        },
+        "ja": {
+          "name": "カスタムエラー",
+          "desc": "カスタムエラーは、ドメイン固有のエラーのエラータイプとセンチネル値の定義を扱います。"
+        },
+        "ru": {
+          "name": "Пользовательские ошибки",
+          "desc": "Пользовательские ошибки охватывают определение типов ошибок и контрольных значений для сбоев, специфичных для домена."
+        },
+        "ko": {
+          "name": "사용자 정의 오류",
+          "desc": "사용자 정의 오류는 도메인별 실패를 위한 오류 타입과 센티널 값을 정의하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Erros personalizados",
+          "desc": "Os erros personalizados abrangem a definição de tipos de erros e valores sentinela para falhas específicas do domínio."
+        }
+      }
+    },
+    {
+      "key": "go/panic_recover",
+      "slug": "panic_recover",
+      "name": "Panic and Recover",
+      "desc": "Panic and recover cover exceptional control flow and controlled recovery boundaries.",
+      "i18n": {
+        "zh": {
+          "name": "panic 和 recover",
+          "desc": "panic 和 recover 涵盖异常控制流和受控恢复边界。"
+        },
+        "es": {
+          "name": "panic y recover",
+          "desc": "panic y recover cubren el flujo de control excepcional y los límites de recuperación controlada."
+        },
+        "fr": {
+          "name": "panic et recover",
+          "desc": "panic et recover couvrent un flux de contrôle exceptionnel et des limites de récupération contrôlées."
+        },
+        "de": {
+          "name": "panic und recover",
+          "desc": "panic und recover decken außergewöhnliche Kontrollflüsse und kontrollierte Wiederherstellungsgrenzen ab."
+        },
+        "ja": {
+          "name": "panic と recover",
+          "desc": "panic と recover は、例外的な制御フローと制御されたリカバリ境界を扱います。"
+        },
+        "ru": {
+          "name": "panic и recover",
+          "desc": "panic и recover охватывают исключительный поток управления и контролируемые границы восстановления."
+        },
+        "ko": {
+          "name": "panic 및 recover",
+          "desc": "패닉 및 복구는 예외적인 제어 흐름과 제어된 복구 경계를 다룹니다."
+        },
+        "pt": {
+          "name": "panic e recover",
+          "desc": "panic e recover abrangem fluxo de controle excepcional e limites de recuperação controlada."
+        }
+      }
+    },
+    {
+      "key": "go/goroutines",
+      "slug": "goroutines",
+      "name": "Goroutines",
+      "desc": "Goroutines cover lightweight concurrent execution.",
+      "i18n": {
+        "zh": {
+          "name": "Goroutines",
+          "desc": "Goroutines 涵盖轻量级并发执行。"
+        },
+        "es": {
+          "name": "Goroutines",
+          "desc": "Goroutines cubren la ejecución concurrente ligera."
+        },
+        "fr": {
+          "name": "Goroutines",
+          "desc": "Goroutines couvrent l'exécution simultanée légère."
+        },
+        "de": {
+          "name": "Goroutines",
+          "desc": "Goroutines decken die leichte gleichzeitige Ausführung ab."
+        },
+        "ja": {
+          "name": "Goroutines",
+          "desc": "Goroutines は軽量の同時実行を扱います。"
+        },
+        "ru": {
+          "name": "Goroutines",
+          "desc": "Goroutines охватывают легковесное конкурентное выполнение."
+        },
+        "ko": {
+          "name": "Goroutines",
+          "desc": "Goroutines는 경량 동시 실행을 다룹니다."
+        },
+        "pt": {
+          "name": "Goroutines",
+          "desc": "Goroutines cobrem execução concorrente leve."
+        }
+      }
+    },
+    {
+      "key": "go/channels",
+      "slug": "channels",
+      "name": "Channels",
+      "desc": "Channels cover communication and synchronization between goroutines.",
+      "i18n": {
+        "zh": {
+          "name": "通道",
+          "desc": "通道涵盖 goroutine 之间的通信和同步。"
+        },
+        "es": {
+          "name": "Canales",
+          "desc": "Los canales cubren la comunicación y sincronización entre goroutines."
+        },
+        "fr": {
+          "name": "Canaux",
+          "desc": "Les canaux couvrent la communication et la synchronisation entre les goroutines."
+        },
+        "de": {
+          "name": "Kanäle",
+          "desc": "Kanäle decken die Kommunikation und Synchronisierung zwischen Goroutinen ab."
+        },
+        "ja": {
+          "name": "チャンネル",
+          "desc": "チャネルは、ゴルーチン間の通信と同期を扱います。"
+        },
+        "ru": {
+          "name": "Каналы",
+          "desc": "Каналы охватывают связь и синхронизацию между горутинами."
+        },
+        "ko": {
+          "name": "채널",
+          "desc": "채널은 고루틴 간의 통신 및 동기화를 다룹니다."
+        },
+        "pt": {
+          "name": "Canais",
+          "desc": "Os canais cobrem a comunicação e sincronização entre goroutines."
+        }
+      }
+    },
+    {
+      "key": "go/channel_select",
+      "slug": "channel_select",
+      "name": "Channel Select",
+      "desc": "Channel select covers coordinating multiple channel operations.",
+      "i18n": {
+        "zh": {
+          "name": "通道选择",
+          "desc": "通道选择涵盖协调多个通道操作。"
+        },
+        "es": {
+          "name": "select de canales",
+          "desc": "El select de canales cubre la coordinación de varias operaciones de canal."
+        },
+        "fr": {
+          "name": "select sur canaux",
+          "desc": "Le select sur canaux couvre la coordination de plusieurs opérations de canal."
+        },
+        "de": {
+          "name": "Kanalauswahl",
+          "desc": "Die Kanalauswahl umfasst die Koordinierung mehrerer Kanaloperationen."
+        },
+        "ja": {
+          "name": "チャネル select",
+          "desc": "チャネル select は、複数のチャネル操作の調整を扱います。"
+        },
+        "ru": {
+          "name": "select для каналов",
+          "desc": "select для каналов охватывает координацию нескольких операций с каналами."
+        },
+        "ko": {
+          "name": "채널 select",
+          "desc": "채널 select는 여러 채널 작업을 조정하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "select de canais",
+          "desc": "O select de canais abrange a coordenação de várias operações de canal."
+        }
+      }
+    },
+    {
+      "key": "go/context_cancellation",
+      "slug": "context_cancellation",
+      "name": "Context Cancellation",
+      "desc": "Context cancellation covers deadlines, cancellation signals, and request-scoped values.",
+      "i18n": {
+        "zh": {
+          "name": "Context 取消",
+          "desc": "Context 取消涵盖截止时间、取消信号和请求作用域内的值。"
+        },
+        "es": {
+          "name": "Cancelación de contexto",
+          "desc": "La cancelación de context cubre plazos, señales de cancelación y valores con alcance de solicitud."
+        },
+        "fr": {
+          "name": "Annulation de contexte",
+          "desc": "L'annulation de context couvre les échéances, les signaux d'annulation et les valeurs limitées à la requête."
+        },
+        "de": {
+          "name": "Kontextabbruch",
+          "desc": "Kontextabbruch umfasst Fristen, Abbruchsignale und anfragebezogene Werte."
+        },
+        "ja": {
+          "name": "Context キャンセル",
+          "desc": "Context キャンセルは、期限、キャンセル信号、リクエストスコープの値を扱います。"
+        },
+        "ru": {
+          "name": "Отмена контекста",
+          "desc": "Отмена контекста охватывает сроки, сигналы отмены и значения в области запроса."
+        },
+        "ko": {
+          "name": "Context 취소",
+          "desc": "Context 취소는 기한, 취소 신호 및 요청 범위 값을 다룹니다."
+        },
+        "pt": {
+          "name": "Cancelamento de contexto",
+          "desc": "O cancelamento de Context cobre prazos, sinais de cancelamento e valores no escopo da solicitação."
+        }
+      }
+    },
+    {
+      "key": "go/mutexes",
+      "slug": "mutexes",
+      "name": "Mutexes",
+      "desc": "Mutexes cover protecting shared state in concurrent Go code.",
+      "i18n": {
+        "zh": {
+          "name": "互斥体",
+          "desc": "互斥体涵盖保护并发 Go 代码中的共享状态。"
+        },
+        "es": {
+          "name": "Mutexes",
+          "desc": "Los mutex cubren la protección del estado compartido en código Go concurrente."
+        },
+        "fr": {
+          "name": "Mutex",
+          "desc": "Les mutex couvrent la protection de l'état partagé dans le code Go concurrent."
+        },
+        "de": {
+          "name": "Mutexe",
+          "desc": "Mutexe decken den Schutz des gemeinsamen Zustands im gleichzeitigen Go-Code ab."
+        },
+        "ja": {
+          "name": "ミューテックス",
+          "desc": "ミューテックスは、同時実行 Go コードにおける共有状態の保護を扱います。"
+        },
+        "ru": {
+          "name": "Мьютексы",
+          "desc": "Мьютексы защищают общее состояние в параллельном коде Go."
+        },
+        "ko": {
+          "name": "뮤텍스",
+          "desc": "뮤텍스는 동시 Go 코드에서 공유 상태 보호를 다룹니다."
+        },
+        "pt": {
+          "name": "Mutexes",
+          "desc": "Os mutexes cobrem a proteção do estado compartilhado em código Go simultâneo."
+        }
+      }
+    },
+    {
+      "key": "go/wait_groups",
+      "slug": "wait_groups",
+      "name": "Wait Groups",
+      "desc": "Wait groups cover waiting for groups of goroutines to finish.",
+      "i18n": {
+        "zh": {
+          "name": "等待组",
+          "desc": "等待组涵盖等待 goroutine 组完成。"
+        },
+        "es": {
+          "name": "Grupos de espera",
+          "desc": "Los grupos de espera cubren la espera a que finalicen los grupos de goroutines."
+        },
+        "fr": {
+          "name": "Groupes d'attente",
+          "desc": "Les groupes d'attente couvrent l'attente que les groupes de goroutines terminent."
+        },
+        "de": {
+          "name": "Wartegruppen",
+          "desc": "Wartegruppen umfassen das Warten darauf, dass Gruppen von Goroutinen fertig sind."
+        },
+        "ja": {
+          "name": "待機グループ",
+          "desc": "待機グループは、ゴルーチンのグループが終了するまでの待機を扱います。"
+        },
+        "ru": {
+          "name": "Группы ожидания",
+          "desc": "Группы ожидания охватывают ожидание завершения групп горутин."
+        },
+        "ko": {
+          "name": "대기 그룹",
+          "desc": "대기 그룹은 고루틴 그룹이 완료될 때까지 기다리는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Grupos de espera",
+          "desc": "Grupos de espera cobrem a espera pela conclusão de grupos de goroutines."
+        }
+      }
+    },
+    {
+      "key": "go/race_detection",
+      "slug": "race_detection",
+      "name": "Race Detection",
+      "desc": "Race detection covers finding unsafe concurrent memory access.",
+      "i18n": {
+        "zh": {
+          "name": "竞态检测",
+          "desc": "竞态检测涵盖发现不安全的并发内存访问。"
+        },
+        "es": {
+          "name": "Detección de condiciones de carrera",
+          "desc": "La detección de condiciones de carrera cubre la identificación de accesos concurrentes inseguros a la memoria."
+        },
+        "fr": {
+          "name": "Détection des conditions de concurrence",
+          "desc": "La détection des conditions de concurrence couvre l'identification des accès mémoire concurrents non sûrs."
+        },
+        "de": {
+          "name": "Erkennung von Race Conditions",
+          "desc": "Die Erkennung von Race Conditions umfasst das Auffinden unsicherer gleichzeitiger Speicherzugriffe."
+        },
+        "ja": {
+          "name": "競合検出",
+          "desc": "競合検出は、安全でない並行メモリアクセスの発見を扱います。"
+        },
+        "ru": {
+          "name": "Обнаружение гонок данных",
+          "desc": "Обнаружение гонок данных охватывает поиск небезопасного конкурентного доступа к памяти."
+        },
+        "ko": {
+          "name": "경합 감지",
+          "desc": "경합 감지는 안전하지 않은 동시 메모리 접근을 찾는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Detecção de condições de corrida",
+          "desc": "A detecção de condições de corrida cobre a identificação de acessos concorrentes inseguros à memória."
+        }
+      }
+    },
+    {
+      "key": "go/packages_imports",
+      "slug": "packages_imports",
+      "name": "Packages and Imports",
+      "desc": "Packages and imports cover organizing Go code and referencing dependencies.",
+      "i18n": {
+        "zh": {
+          "name": "包和导入",
+          "desc": "包和导入涵盖组织 Go 代码和引用依赖项。"
+        },
+        "es": {
+          "name": "Paquetes e Importaciones",
+          "desc": "Los paquetes y las importaciones cubren la organización del código Go y la referencia a dependencias."
+        },
+        "fr": {
+          "name": "Packages et imports",
+          "desc": "Les packages et les importations couvrent l'organisation du code Go et le référencement des dépendances."
+        },
+        "de": {
+          "name": "Pakete und Importe",
+          "desc": "Pakete und Importe umfassen das Organisieren von Go-Code und das Referenzieren von Abhängigkeiten."
+        },
+        "ja": {
+          "name": "パッケージとインポート",
+          "desc": "パッケージとインポートは、Go コードの整理と依存関係の参照を扱います。"
+        },
+        "ru": {
+          "name": "Пакеты и импорт",
+          "desc": "Пакеты и импорт охватывают организацию кода Go и ссылки на зависимости."
+        },
+        "ko": {
+          "name": "패키지 및 가져오기",
+          "desc": "패키지 및 가져오기에는 Go 코드 구성 및 종속성 참조가 포함됩니다."
+        },
+        "pt": {
+          "name": "Pacotes e Importações",
+          "desc": "Pacotes e importações cobrem a organização do código Go e a referência de dependências."
+        }
+      }
+    },
+    {
+      "key": "go/go_modules",
+      "slug": "go_modules",
+      "name": "Go Modules",
+      "desc": "Go modules cover module identity, versioning, and dependency metadata.",
+      "i18n": {
+        "zh": {
+          "name": "Go 模块",
+          "desc": "Go 模块涵盖模块标识、版本控制和依赖元数据。"
+        },
+        "es": {
+          "name": "Módulos Go",
+          "desc": "Los módulos Go cubren la identidad del módulo, el control de versiones y los metadatos de dependencia."
+        },
+        "fr": {
+          "name": "Modules Go",
+          "desc": "Les modules Go couvrent l'identité du module, la gestion des versions et les métadonnées des dépendances."
+        },
+        "de": {
+          "name": "Go-Module",
+          "desc": "Go-Module decken Modulidentität, Versionierung und Abhängigkeitsmetadaten ab."
+        },
+        "ja": {
+          "name": "Go モジュール",
+          "desc": "Go モジュールは、モジュール ID、バージョン管理、依存関係メタデータを扱います。"
+        },
+        "ru": {
+          "name": "Модули Go",
+          "desc": "Модули Go охватывают идентификатор модуля, управление версиями и метаданные зависимостей."
+        },
+        "ko": {
+          "name": "Go 모듈",
+          "desc": "Go 모듈은 모듈 ID, 버전 관리 및 종속성 메타데이터를 다룹니다."
+        },
+        "pt": {
+          "name": "Módulos Go",
+          "desc": "Módulos Go cobrem identidade de módulo, controle de versão e metadados de dependência."
+        }
+      }
+    },
+    {
+      "key": "go/dependency_management",
+      "slug": "dependency_management",
+      "name": "Dependency Management",
+      "desc": "Dependency management covers adding, updating, tidying, and verifying Go module dependencies.",
+      "i18n": {
+        "zh": {
+          "name": "依赖管理",
+          "desc": "依赖管理包括添加、更新、整理和验证 Go 模块依赖。"
+        },
+        "es": {
+          "name": "Gestión de dependencias",
+          "desc": "La gestión de dependencias cubre agregar, actualizar, ordenar y verificar dependencias de módulos Go."
+        },
+        "fr": {
+          "name": "Gestion des dépendances",
+          "desc": "La gestion des dépendances couvre l'ajout, la mise à jour, le nettoyage et la vérification des dépendances du module Go."
+        },
+        "de": {
+          "name": "Abhängigkeitsmanagement",
+          "desc": "Das Abhängigkeitsmanagement umfasst das Hinzufügen, Aktualisieren, Aufräumen und Überprüfen von Go Modulabhängigkeiten."
+        },
+        "ja": {
+          "name": "依存関係の管理",
+          "desc": "依存関係の管理には、Go モジュールの依存関係の追加、更新、整理、検証が含まれます。"
+        },
+        "ru": {
+          "name": "Управление зависимостями",
+          "desc": "Управление зависимостями включает добавление, обновление, очистку и проверку зависимостей модуля Go."
+        },
+        "ko": {
+          "name": "종속성 관리",
+          "desc": "종속성 관리는 Go 모듈 종속성 추가, 업데이트, 정리 및 검증을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de Dependências",
+          "desc": "O gerenciamento de dependências cobre a adição, atualização, organização e verificação de dependências de módulos Go."
+        }
+      }
+    },
+    {
+      "key": "go/code_formatting",
+      "slug": "code_formatting",
+      "name": "Code Formatting",
+      "desc": "Code formatting covers applying standard Go formatting and style conventions.",
+      "i18n": {
+        "zh": {
+          "name": "代码格式化",
+          "desc": "代码格式化涵盖应用标准 Go 格式和样式约定。"
+        },
+        "es": {
+          "name": "Formato de código",
+          "desc": "El formato del código cubre la aplicación de convenciones de estilo y formato estándar Go."
+        },
+        "fr": {
+          "name": "Formatage du code",
+          "desc": "Le formatage du code couvre l'application des conventions de formatage et de style standard Go."
+        },
+        "de": {
+          "name": "Codeformatierung",
+          "desc": "Die Codeformatierung umfasst die Anwendung standardmäßiger Go-Formatierungs- und Stilkonventionen."
+        },
+        "ja": {
+          "name": "コードのフォーマット",
+          "desc": "コードの書式設定には、標準の Go 書式設定とスタイル規則の適用が含まれます。"
+        },
+        "ru": {
+          "name": "Форматирование кода",
+          "desc": "Форматирование кода включает применение стандартных соглашений по форматированию и стилю Go."
+        },
+        "ko": {
+          "name": "코드 형식화",
+          "desc": "코드 형식 지정에는 표준 Go 형식 지정 및 스타일 규칙 적용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Formatação de código",
+          "desc": "A formatação de código abrange a aplicação de formatação padrão de Go e convenções de estilo."
+        }
+      }
+    },
+    {
+      "key": "go/go_toolchain",
+      "slug": "go_toolchain",
+      "name": "Go Toolchain",
+      "desc": "Go toolchain covers building, running, testing, and inspecting Go code with standard commands.",
+      "i18n": {
+        "zh": {
+          "name": "Go 工具链",
+          "desc": "Go 工具链涵盖使用标准命令构建、运行、测试和检查 Go 代码。"
+        },
+        "es": {
+          "name": "Toolchain de Go",
+          "desc": "La toolchain de Go cubre la compilación, ejecución, prueba e inspección de código Go con comandos estándar."
+        },
+        "fr": {
+          "name": "Toolchain Go",
+          "desc": "La toolchain Go couvre la construction, l’exécution, les tests et l’inspection du code Go avec des commandes standard."
+        },
+        "de": {
+          "name": "Go Toolchain",
+          "desc": "Die Go-Toolchain umfasst das Erstellen, Ausführen, Testen und Überprüfen von Go-Code mit Standardbefehlen."
+        },
+        "ja": {
+          "name": "Go ツールチェーン",
+          "desc": "Go ツールチェーンは、標準コマンドを使用した Go コードの構築、実行、テスト、検査を扱います。"
+        },
+        "ru": {
+          "name": "Инструментарий Go",
+          "desc": "Инструментарий Go охватывает сборку, запуск, тестирование и проверку кода Go с помощью стандартных команд."
+        },
+        "ko": {
+          "name": "Go 툴체인",
+          "desc": "Go 툴체인은 표준 명령을 사용하여 Go 코드 빌드, 실행, 테스트 및 검사를 다룹니다."
+        },
+        "pt": {
+          "name": "Toolchain do Go",
+          "desc": "A toolchain do Go cobre build, execução, teste e inspeção de código Go com comandos padrão."
+        }
+      }
+    },
+    {
+      "key": "go/file_io",
+      "slug": "file_io",
+      "name": "File I/O",
+      "desc": "File I/O covers reading, writing, and managing file data in Go.",
+      "i18n": {
+        "zh": {
+          "name": "文件输入/输出",
+          "desc": "文件 I/O 涵盖了 Go 中文件数据的读取、写入和管理。"
+        },
+        "es": {
+          "name": "E/S de archivos",
+          "desc": "File I/O cubre la lectura, escritura y administración de datos de archivos en Go."
+        },
+        "fr": {
+          "name": "E/S de fichier",
+          "desc": "Les E/S de fichiers couvrent la lecture, l’écriture et la gestion des données de fichiers dans Go."
+        },
+        "de": {
+          "name": "Datei-E/A",
+          "desc": "Datei-E/A umfasst das Lesen, Schreiben und Verwalten von Dateidaten in Go."
+        },
+        "ja": {
+          "name": "ファイル I/O",
+          "desc": "ファイル I/O には、Go でのファイルデータの読み取り、書き込み、管理が含まれます。"
+        },
+        "ru": {
+          "name": "Файловый ввод-вывод",
+          "desc": "Файловый ввод-вывод охватывает чтение, запись и управление данными файла в Go."
+        },
+        "ko": {
+          "name": "파일 I/O",
+          "desc": "파일 I/O는 Go에서 파일 데이터 읽기, 쓰기, 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "E/S de arquivo",
+          "desc": "A E/S de arquivos cobre a leitura, gravação e gerenciamento de dados de arquivos em Go."
+        }
+      }
+    },
+    {
+      "key": "go/paths_directories",
+      "slug": "paths_directories",
+      "name": "Paths and Directories",
+      "desc": "Paths and directories cover portable path handling and directory operations.",
+      "i18n": {
+        "zh": {
+          "name": "路径和目录",
+          "desc": "路径和目录涵盖可移植路径处理和目录操作。"
+        },
+        "es": {
+          "name": "Rutas y directorios",
+          "desc": "Rutas y directorios cubren operaciones de directorio y manejo de rutas portátiles."
+        },
+        "fr": {
+          "name": "Chemins et répertoires",
+          "desc": "Les chemins et répertoires couvrent la gestion des chemins portables et les opérations de répertoire."
+        },
+        "de": {
+          "name": "Pfade und Verzeichnisse",
+          "desc": "Pfade und Verzeichnisse umfassen die Handhabung portabler Pfade und Verzeichnisoperationen."
+        },
+        "ja": {
+          "name": "パスとディレクトリ",
+          "desc": "パスとディレクトリでは、移植可能なパスの処理とディレクトリの操作を扱います。"
+        },
+        "ru": {
+          "name": "Пути и каталоги",
+          "desc": "Пути и каталоги охватывают переносимую обработку путей и операции с каталогами."
+        },
+        "ko": {
+          "name": "경로 및 디렉터리",
+          "desc": "경로와 디렉터리는 이식 가능한 경로 처리 및 디렉터리 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Caminhos e diretórios",
+          "desc": "Caminhos e diretórios cobrem manipulação de caminhos portáteis e operações de diretório."
+        }
+      }
+    },
+    {
+      "key": "go/io_interfaces",
+      "slug": "io_interfaces",
+      "name": "I/O Interfaces",
+      "desc": "I/O interfaces cover reader, writer, and stream abstractions in Go.",
+      "i18n": {
+        "zh": {
+          "name": "输入/输出接口",
+          "desc": "I/O 接口涵盖了 Go 中的读取器、写入器和流抽象。"
+        },
+        "es": {
+          "name": "Interfaces de E/S",
+          "desc": "Las interfaces de E/S cubren abstracciones de Reader, Writer y streams en Go."
+        },
+        "fr": {
+          "name": "Interfaces E/S",
+          "desc": "Les interfaces d'E/S couvrent les abstractions Reader, Writer et stream dans Go."
+        },
+        "de": {
+          "name": "I/O-Schnittstellen",
+          "desc": "I/O-Schnittstellen decken Leser-, Schreib- und Stream-Abstraktionen in Go ab."
+        },
+        "ja": {
+          "name": "I/O インターフェース",
+          "desc": "I/O インターフェイスは、Go のリーダー、ライター、ストリームの抽象化を扱います。"
+        },
+        "ru": {
+          "name": "Интерфейсы ввода/вывода",
+          "desc": "Интерфейсы ввода-вывода охватывают абстракции чтения, записи и потока в Go."
+        },
+        "ko": {
+          "name": "I/O 인터페이스",
+          "desc": "I/O 인터페이스는 Go의 Reader, Writer 및 스트림 추상화를 다룹니다."
+        },
+        "pt": {
+          "name": "Interfaces de E/S",
+          "desc": "As interfaces de E/S cobrem abstrações de Reader, Writer e streams em Go."
+        }
+      }
+    },
+    {
+      "key": "go/environment_variables",
+      "slug": "environment_variables",
+      "name": "Environment Variables",
+      "desc": "Environment variables cover reading and using process environment values in Go programs.",
+      "i18n": {
+        "zh": {
+          "name": "环境变量",
+          "desc": "环境变量涵盖 Go 程序中读取和使用进程环境值。"
+        },
+        "es": {
+          "name": "Variables de entorno",
+          "desc": "Las variables de entorno cubren la lectura y el uso de valores de entorno de proceso en programas Go."
+        },
+        "fr": {
+          "name": "Variables d'environnement",
+          "desc": "Les variables d'environnement couvrent la lecture et l'utilisation des valeurs de l'environnement de processus dans les programmes Go."
+        },
+        "de": {
+          "name": "Umgebungsvariablen",
+          "desc": "Umgebungsvariablen umfassen das Lesen und Verwenden von Prozessumgebungswerten in Go-Programmen."
+        },
+        "ja": {
+          "name": "環境変数",
+          "desc": "環境変数は、Go プログラムでのプロセス環境値の読み取りと使用を扱います。"
+        },
+        "ru": {
+          "name": "Переменные среды",
+          "desc": "Переменные среды охватывают чтение и использование значений среды процесса в программах Go."
+        },
+        "ko": {
+          "name": "환경 변수",
+          "desc": "환경 변수는 Go 프로그램에서 프로세스 환경 값을 읽고 사용하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Variáveis de ambiente",
+          "desc": "As variáveis de ambiente cobrem a leitura e o uso de valores de ambiente de processo em programas Go."
+        }
+      }
+    },
+    {
+      "key": "go/command_line_arguments",
+      "slug": "command_line_arguments",
+      "name": "Command-Line Arguments",
+      "desc": "Command-line arguments cover receiving and parsing process inputs.",
+      "i18n": {
+        "zh": {
+          "name": "命令行参数",
+          "desc": "命令行参数涵盖接收和解析进程输入。"
+        },
+        "es": {
+          "name": "Argumentos de línea de comando",
+          "desc": "Los argumentos de la línea de comandos cubren la recepción y el análisis de las entradas del proceso."
+        },
+        "fr": {
+          "name": "Arguments de ligne de commande",
+          "desc": "Les arguments de ligne de commande couvrent la réception et l’analyse des entrées du processus."
+        },
+        "de": {
+          "name": "Befehlszeilenargumente",
+          "desc": "Befehlszeilenargumente decken den Empfang und das Parsen von Prozesseingaben ab."
+        },
+        "ja": {
+          "name": "コマンドライン引数",
+          "desc": "コマンドライン引数は、プロセス入力の受信と解析を扱います。"
+        },
+        "ru": {
+          "name": "Аргументы командной строки",
+          "desc": "Аргументы командной строки охватывают получение и анализ входных данных процесса."
+        },
+        "ko": {
+          "name": "명령줄 인수",
+          "desc": "명령줄 인수는 프로세스 입력 수신 및 구문 분석을 다룹니다."
+        },
+        "pt": {
+          "name": "Argumentos de linha de comando",
+          "desc": "Os argumentos da linha de comando cobrem o recebimento e a análise de entradas do processo."
+        }
+      }
+    },
+    {
+      "key": "go/subprocesses",
+      "slug": "subprocesses",
+      "name": "Subprocesses",
+      "desc": "Subprocesses cover starting and coordinating external programs from Go.",
+      "i18n": {
+        "zh": {
+          "name": "子进程",
+          "desc": "子进程涵盖从 Go 启动和协调外部程序。"
+        },
+        "es": {
+          "name": "Subprocesos",
+          "desc": "Los subprocesos cubren el inicio y la coordinación de programas externos desde Go."
+        },
+        "fr": {
+          "name": "Sous-processus",
+          "desc": "Les sous-processus couvrent le démarrage et la coordination des programmes externes à partir de Go."
+        },
+        "de": {
+          "name": "Unterprozesse",
+          "desc": "Unterprozesse umfassen das Starten und Koordinieren externer Programme von Go aus."
+        },
+        "ja": {
+          "name": "サブプロセス",
+          "desc": "サブプロセスは、Go からの外部プログラムの起動と調整を扱います。"
+        },
+        "ru": {
+          "name": "Подпроцессы",
+          "desc": "Подпроцессы охватывают запуск и координацию внешних программ из Go."
+        },
+        "ko": {
+          "name": "하위 프로세스",
+          "desc": "하위 프로세스는 Go에서 외부 프로그램을 시작하고 조정하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Subprocessos",
+          "desc": "Os subprocessos cobrem o início e a coordenação de programas externos do Go."
+        }
+      }
+    },
+    {
+      "key": "go/http_clients",
+      "slug": "http_clients",
+      "name": "HTTP Clients",
+      "desc": "HTTP clients cover making requests and handling responses with Go standard libraries.",
+      "i18n": {
+        "zh": {
+          "name": "HTTP 客户端",
+          "desc": "HTTP 客户端涵盖使用 Go 标准库发出请求和处理响应。"
+        },
+        "es": {
+          "name": "Clientes HTTP",
+          "desc": "Los clientes HTTP cubren la realización de solicitudes y el manejo de respuestas con la biblioteca estándar de Go."
+        },
+        "fr": {
+          "name": "Clients HTTP",
+          "desc": "Les clients HTTP couvrent la création de requêtes et le traitement des réponses avec la bibliothèque standard de Go."
+        },
+        "de": {
+          "name": "HTTP-Clients",
+          "desc": "HTTP-Clients behandeln das Erstellen von Anfragen und das Verarbeiten von Antworten mit Go-Standardbibliotheken."
+        },
+        "ja": {
+          "name": "HTTP クライアント",
+          "desc": "HTTP クライアントは、Go 標準ライブラリによるリクエストの作成と応答の処理を扱います。"
+        },
+        "ru": {
+          "name": "HTTP-клиенты",
+          "desc": "HTTP-клиенты выполняют запросы и обрабатывают ответы с помощью стандартных библиотек Go."
+        },
+        "ko": {
+          "name": "HTTP 클라이언트",
+          "desc": "HTTP 클라이언트는 Go 표준 라이브러리를 사용하여 요청하고 응답을 처리하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Clientes HTTP",
+          "desc": "Os clientes HTTP cobrem a realização de solicitações e o tratamento de respostas com a biblioteca padrão de Go."
+        }
+      }
+    },
+    {
+      "key": "go/http_servers",
+      "slug": "http_servers",
+      "name": "HTTP Servers",
+      "desc": "HTTP servers cover handling requests and responses with Go standard libraries.",
+      "i18n": {
+        "zh": {
+          "name": "HTTP 服务器",
+          "desc": "HTTP 服务器涵盖使用 Go 标准库处理请求和响应。"
+        },
+        "es": {
+          "name": "Servidores HTTP",
+          "desc": "Los servidores HTTP cubren el manejo de solicitudes y respuestas con la biblioteca estándar de Go."
+        },
+        "fr": {
+          "name": "Serveurs HTTP",
+          "desc": "Les serveurs HTTP couvrent le traitement des requêtes et des réponses avec la bibliothèque standard de Go."
+        },
+        "de": {
+          "name": "HTTP-Server",
+          "desc": "HTTP-Server decken die Bearbeitung von Anfragen und Antworten mit Go-Standardbibliotheken ab."
+        },
+        "ja": {
+          "name": "HTTP サーバー",
+          "desc": "HTTP サーバーは、Go 標準ライブラリによるリクエストと応答の処理を扱います。"
+        },
+        "ru": {
+          "name": "HTTP-серверы",
+          "desc": "HTTP-серверы обеспечивают обработку запросов и ответов с помощью стандартных библиотек Go."
+        },
+        "ko": {
+          "name": "HTTP 서버",
+          "desc": "HTTP 서버는 Go 표준 라이브러리를 사용하여 요청 및 응답을 처리합니다."
+        },
+        "pt": {
+          "name": "Servidores HTTP",
+          "desc": "Os servidores HTTP cobrem o tratamento de solicitações e respostas com a biblioteca padrão de Go."
+        }
+      }
+    },
+    {
+      "key": "go/url_parsing",
+      "slug": "url_parsing",
+      "name": "URL Parsing",
+      "desc": "URL parsing covers interpreting and constructing URL values safely.",
+      "i18n": {
+        "zh": {
+          "name": "URL 解析",
+          "desc": "URL 解析涵盖安全地解释和构造 URL 值。"
+        },
+        "es": {
+          "name": "Análisis de URL",
+          "desc": "El análisis de URL cubre la interpretación y la construcción de valores de URL de forma segura."
+        },
+        "fr": {
+          "name": "Analyse d’URL",
+          "desc": "L’analyse d’URL couvre l’interprétation et la construction sécurisées de valeurs URL."
+        },
+        "de": {
+          "name": "URL-Parsing",
+          "desc": "Das Parsen von URL umfasst die sichere Interpretation und Konstruktion von URL-Werten."
+        },
+        "ja": {
+          "name": "URL 解析",
+          "desc": "URL 解析では、URL 値の安全な解釈と構築が行われます。"
+        },
+        "ru": {
+          "name": "Парсинг URL",
+          "desc": "Анализ URL охватывает безопасную интерпретацию и создание значений URL."
+        },
+        "ko": {
+          "name": "URL 파싱",
+          "desc": "URL 파싱은 URL 값을 안전하게 해석하고 구성하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Análise de URL",
+          "desc": "A análise de URL abrange a interpretação e construção de valores de URL com segurança."
+        }
+      }
+    },
+    {
+      "key": "go/network_timeouts",
+      "slug": "network_timeouts",
+      "name": "Network Timeouts",
+      "desc": "Network timeouts cover preventing indefinite waits in networked Go programs.",
+      "i18n": {
+        "zh": {
+          "name": "网络超时",
+          "desc": "网络超时涵盖防止网络 Go 程序中无限期等待。"
+        },
+        "es": {
+          "name": "Tiempos de espera de red",
+          "desc": "Los tiempos de espera de red cubren la prevención de esperas indefinidas en programas Go en red."
+        },
+        "fr": {
+          "name": "Délais d'attente du réseau",
+          "desc": "Les délais d'attente du réseau empêchent les attentes indéfinies dans les programmes Go en réseau."
+        },
+        "de": {
+          "name": "Netzwerk-Timeouts",
+          "desc": "Netzwerk-Timeouts dienen dazu, unbegrenzte Wartezeiten in vernetzten Go-Programmen zu verhindern."
+        },
+        "ja": {
+          "name": "ネットワークタイムアウト",
+          "desc": "ネットワークタイムアウトは、ネットワーク化された Go プログラムでの無期限の待機を防止します。"
+        },
+        "ru": {
+          "name": "Сетевые таймауты",
+          "desc": "Сетевые тайм-ауты предназначены для предотвращения неопределенного ожидания в сетевых программах Go."
+        },
+        "ko": {
+          "name": "네트워크 시간 초과",
+          "desc": "네트워크 시간 초과는 네트워크로 연결된 Go 프로그램에서 무기한 대기를 방지하는 데 적용됩니다."
+        },
+        "pt": {
+          "name": "Tempos limite da rede",
+          "desc": "Os tempos limite da rede evitam esperas indefinidas em programas Go em rede."
+        }
+      }
+    },
+    {
+      "key": "go/unit_testing",
+      "slug": "unit_testing",
+      "name": "Unit Testing",
+      "desc": "Unit testing covers verifying Go behavior with focused automated tests.",
+      "i18n": {
+        "zh": {
+          "name": "单元测试",
+          "desc": "单元测试涵盖通过集中的自动化测试来验证 Go 行为。"
+        },
+        "es": {
+          "name": "Pruebas unitarias",
+          "desc": "Las pruebas unitarias cubren la verificación del comportamiento Go con pruebas automatizadas enfocadas."
+        },
+        "fr": {
+          "name": "Tests unitaires",
+          "desc": "Les tests unitaires couvrent la vérification du comportement Go avec des tests automatisés ciblés."
+        },
+        "de": {
+          "name": "Unit-Tests",
+          "desc": "Unit-Tests umfassen die Überprüfung des Go-Verhaltens mit gezielten automatisierten Tests."
+        },
+        "ja": {
+          "name": "単体テスト",
+          "desc": "単体テストでは、焦点を絞った自動テストによる Go の動作の検証を扱います。"
+        },
+        "ru": {
+          "name": "Модульное тестирование",
+          "desc": "Модульное тестирование включает проверку поведения Go с помощью целенаправленных автоматических тестов."
+        },
+        "ko": {
+          "name": "단위 테스트",
+          "desc": "단위 테스트에는 집중된 자동화 테스트를 통한 Go 동작 검증이 포함됩니다."
+        },
+        "pt": {
+          "name": "Teste de Unidade",
+          "desc": "O teste de unidade cobre a verificação do comportamento do Go com testes automatizados focados."
+        }
+      }
+    },
+    {
+      "key": "go/table_driven_tests",
+      "slug": "table_driven_tests",
+      "name": "Table-Driven Tests",
+      "desc": "Table-driven tests cover organizing multiple test cases around shared test logic.",
+      "i18n": {
+        "zh": {
+          "name": "表驱动测试",
+          "desc": "表驱动测试涵盖围绕共享测试逻辑组织多个测试用例。"
+        },
+        "es": {
+          "name": "Pruebas basadas en tablas",
+          "desc": "Las pruebas basadas en tablas cubren la organización de múltiples casos de prueba en torno a una lógica de prueba compartida."
+        },
+        "fr": {
+          "name": "Tests basés sur des tables",
+          "desc": "Les tests basés sur des tables couvrent l'organisation de plusieurs cas de test autour d'une logique de test partagée."
+        },
+        "de": {
+          "name": "Tabellengesteuerte Tests",
+          "desc": "Bei tabellengesteuerten Tests geht es um die Organisation mehrerer Testfälle rund um die gemeinsame Testlogik."
+        },
+        "ja": {
+          "name": "テーブル駆動テスト",
+          "desc": "テーブル駆動テストでは、共有テストロジックを中心に複数のテストケースを整理します。"
+        },
+        "ru": {
+          "name": "Табличные тесты",
+          "desc": "Табличные тесты охватывают организацию нескольких тестовых случаев вокруг общей логики тестирования."
+        },
+        "ko": {
+          "name": "테이블 기반 테스트",
+          "desc": "테이블 기반 테스트는 공유 테스트 논리를 중심으로 여러 테스트 케이스 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Testes baseados em tabela",
+          "desc": "Os testes baseados em tabela cobrem a organização de vários casos de teste em torno de lógica de teste compartilhada."
+        }
+      }
+    },
+    {
+      "key": "go/benchmarks",
+      "slug": "benchmarks",
+      "name": "Benchmarks",
+      "desc": "Benchmarks cover measuring Go code performance with testing tools.",
+      "i18n": {
+        "zh": {
+          "name": "基准测试",
+          "desc": "基准测试涵盖使用测试工具测量 Go 代码性能。"
+        },
+        "es": {
+          "name": "Benchmarks",
+          "desc": "Los benchmarks cubren la medición del rendimiento del código Go con herramientas de prueba."
+        },
+        "fr": {
+          "name": "Benchmarks",
+          "desc": "Les benchmarks couvrent la mesure des performances du code Go avec des outils de test."
+        },
+        "de": {
+          "name": "Benchmarks",
+          "desc": "Benchmarks umfassen die Messung der Codeleistung von Go mit Testtools."
+        },
+        "ja": {
+          "name": "ベンチマーク",
+          "desc": "ベンチマークには、テストツールを使用した Go コードのパフォーマンスの測定が含まれます。"
+        },
+        "ru": {
+          "name": "Бенчмарки",
+          "desc": "Бенчмарки охватывают измерение производительности кода Go с помощью инструментов тестирования."
+        },
+        "ko": {
+          "name": "벤치마크",
+          "desc": "벤치마크에서는 테스트 도구를 사용한 Go 코드 성능 측정을 다룹니다."
+        },
+        "pt": {
+          "name": "Benchmarks",
+          "desc": "Os benchmarks cobrem a medição do desempenho do código Go com ferramentas de teste."
+        }
+      }
+    },
+    {
+      "key": "go/profiling",
+      "slug": "profiling",
+      "name": "Profiling",
+      "desc": "Profiling covers collecting and interpreting runtime performance evidence.",
+      "i18n": {
+        "zh": {
+          "name": "性能分析",
+          "desc": "性能分析涵盖收集和解释运行时性能证据。"
+        },
+        "es": {
+          "name": "Perfilado",
+          "desc": "La creación de perfiles cubre la recopilación e interpretación de evidencia de rendimiento en tiempo de ejecución."
+        },
+        "fr": {
+          "name": "Profilage",
+          "desc": "Le profilage couvre la collecte et l'interprétation des preuves de performances d'exécution."
+        },
+        "de": {
+          "name": "Profilierung",
+          "desc": "Die Profilerstellung umfasst das Sammeln und Interpretieren von Nachweisen zur Laufzeitleistung."
+        },
+        "ja": {
+          "name": "プロファイリング",
+          "desc": "プロファイリングには、実行時のパフォーマンス証拠の収集と解釈が含まれます。"
+        },
+        "ru": {
+          "name": "Профилирование",
+          "desc": "Профилирование охватывает сбор и интерпретацию данных о производительности во время выполнения."
+        },
+        "ko": {
+          "name": "프로파일링",
+          "desc": "프로파일링에는 런타임 성능 증거를 수집하고 해석하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Profiling",
+          "desc": "A criação de perfil abrange a coleta e interpretação de evidências de desempenho em tempo de execução."
+        }
+      }
+    },
+    {
+      "key": "go/logging",
+      "slug": "logging",
+      "name": "Logging",
+      "desc": "Logging covers emitting useful runtime information from Go programs.",
+      "i18n": {
+        "zh": {
+          "name": "日志记录",
+          "desc": "日志记录涵盖从 Go 程序发出有用的运行时信息。"
+        },
+        "es": {
+          "name": "Logging",
+          "desc": "El registro cubre la emisión de información útil en tiempo de ejecución desde programas Go."
+        },
+        "fr": {
+          "name": "Journalisation",
+          "desc": "La journalisation couvre l'émission d'informations d'exécution utiles à partir de programmes Go."
+        },
+        "de": {
+          "name": "Protokollierung",
+          "desc": "Die Protokollierung umfasst die Ausgabe nützlicher Laufzeitinformationen von Go-Programmen."
+        },
+        "ja": {
+          "name": "ロギング",
+          "desc": "ロギングには、Go プログラムからの有用なランタイム情報の出力が含まれます。"
+        },
+        "ru": {
+          "name": "Ведение журнала",
+          "desc": "Ведение журнала включает в себя передачу полезной информации о времени выполнения из программ Go."
+        },
+        "ko": {
+          "name": "로깅",
+          "desc": "로깅은 Go 프로그램에서 유용한 런타임 정보를 내보내는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Logging",
+          "desc": "O registro cobre a emissão de informações úteis de tempo de execução de programas Go."
+        }
+      }
+    },
+    {
+      "key": "go/package_documentation",
+      "slug": "package_documentation",
+      "name": "Package Documentation",
+      "desc": "Package documentation covers writing package comments and API documentation for Go code.",
+      "i18n": {
+        "zh": {
+          "name": "包文档",
+          "desc": "包文档涵盖编写包注释和 Go 代码的 API 文档。"
+        },
+        "es": {
+          "name": "Documentación del paquete",
+          "desc": "La documentación del paquete cubre la escritura de comentarios del paquete y la documentación API para el código Go."
+        },
+        "fr": {
+          "name": "Documentation du package",
+          "desc": "La documentation du package couvre l'écriture des commentaires du package et la documentation API pour le code Go."
+        },
+        "de": {
+          "name": "Paketdokumentation",
+          "desc": "Die Paketdokumentation umfasst das Schreiben von Paketkommentaren und die API-Dokumentation für Go-Code."
+        },
+        "ja": {
+          "name": "パッケージのドキュメント",
+          "desc": "パッケージのドキュメントでは、パッケージコメントの作成と、Go コードの API ドキュメントについて説明します。"
+        },
+        "ru": {
+          "name": "Документация пакета",
+          "desc": "Документация пакета включает в себя написание комментариев пакета и документации API для кода Go."
+        },
+        "ko": {
+          "name": "패키지 문서",
+          "desc": "패키지 문서에는 패키지 주석 작성과 Go 코드에 대한 API 문서가 포함됩니다."
+        },
+        "pt": {
+          "name": "Documentação do pacote",
+          "desc": "A documentação do pacote cobre a escrita de comentários do pacote e documentação de API para código Go."
+        }
+      }
+    }
+  ]
+}

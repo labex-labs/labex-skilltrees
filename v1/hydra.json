@@ -1,0 +1,145 @@
+{
+  "key": "hydra",
+  "slug": "hydra",
+  "name": "Hydra",
+  "skills": [
+    {
+      "key": "hydra/installation",
+      "slug": "installation",
+      "name": "Installation and Setup",
+      "desc": "Learn how to download, install, and configure Hydra on your operating system for immediate use."
+    },
+    {
+      "key": "hydra/basic_structure",
+      "slug": "basic_structure",
+      "name": "Basic Command Structure",
+      "desc": "Master the core syntax and structure of Hydra commands to start running basic attacks."
+    },
+    {
+      "key": "hydra/password_creation",
+      "slug": "password_creation",
+      "name": "Password List Creation",
+      "desc": "Create a text file with a list of passwords that Hydra will use for brute force attempts."
+    },
+    {
+      "key": "hydra/username_creation",
+      "slug": "username_creation",
+      "name": "Username List Creation",
+      "desc": "Build a text file of usernames for Hydra to test during login attacks."
+    },
+    {
+      "key": "hydra/single_username",
+      "slug": "single_username",
+      "name": "Single Username Attack",
+      "desc": "Use Hydra to attack a target with one specified username and a list of passwords."
+    },
+    {
+      "key": "hydra/single_password",
+      "slug": "single_password",
+      "name": "Single Password Attack",
+      "desc": "Configure Hydra to test a single password against a list of usernames on a target."
+    },
+    {
+      "key": "hydra/target_ip",
+      "slug": "target_ip",
+      "name": "Target IP Specification",
+      "desc": "Define the IP address or hostname in Hydra to direct your brute force attack accurately."
+    },
+    {
+      "key": "hydra/target_service",
+      "slug": "target_service",
+      "name": "Target Service Selection",
+      "desc": "Select a specific service like SSH or FTP in Hydra to focus your attack efforts."
+    },
+    {
+      "key": "hydra/ssh_attack",
+      "slug": "ssh_attack",
+      "name": "SSH Brute Force",
+      "desc": "Use Hydra to perform a brute force attack on SSH credentials with username and password lists."
+    },
+    {
+      "key": "hydra/ftp_attack",
+      "slug": "ftp_attack",
+      "name": "FTP Brute Force",
+      "desc": "Attack FTP server logins with Hydra using a combination of usernames and passwords."
+    },
+    {
+      "key": "hydra/http_form",
+      "slug": "http_form",
+      "name": "HTTP Form Attack",
+      "desc": "Set up Hydra to brute force HTTP form-based logins on websites with custom parameters."
+    },
+    {
+      "key": "hydra/output_saving",
+      "slug": "output_saving",
+      "name": "Output File Saving",
+      "desc": "Save Hydra’s attack results to a file for analysis or future reference."
+    },
+    {
+      "key": "hydra/verbose_mode",
+      "slug": "verbose_mode",
+      "name": "Verbose Mode Usage",
+      "desc": "Enable Hydra’s verbose mode to display detailed output and track attack progress live."
+    },
+    {
+      "key": "hydra/task_limit",
+      "slug": "task_limit",
+      "name": "Task Limit Configuration",
+      "desc": "Adjust the number of parallel tasks in Hydra to optimize attack speed and resource usage."
+    },
+    {
+      "key": "hydra/timeout_setting",
+      "slug": "timeout_setting",
+      "name": "Timeout Adjustment",
+      "desc": "Modify Hydra’s timeout settings to control how long it waits for target responses."
+    },
+    {
+      "key": "hydra/custom_port",
+      "slug": "custom_port",
+      "name": "Custom Port Attack",
+      "desc": "Direct Hydra to attack a non-standard port by specifying it in the command."
+    },
+    {
+      "key": "hydra/multiple_targets",
+      "slug": "multiple_targets",
+      "name": "Multiple Targets Attack",
+      "desc": "Use Hydra to simultaneously brute force multiple IP addresses or hosts in one session."
+    },
+    {
+      "key": "hydra/success_detection",
+      "slug": "success_detection",
+      "name": "Login Success Detection",
+      "desc": "Learn how Hydra indicates a successful login and how to spot it in the output."
+    },
+    {
+      "key": "hydra/error_handling",
+      "slug": "error_handling",
+      "name": "Error Message Handling",
+      "desc": "Identify and address common error messages in Hydra to keep attacks running smoothly."
+    },
+    {
+      "key": "hydra/rate_control",
+      "slug": "rate_control",
+      "name": "Rate Limiting Control",
+      "desc": "Adjust Hydra’s attack speed to avoid triggering rate limits or detection mechanisms."
+    },
+    {
+      "key": "hydra/service_options",
+      "slug": "service_options",
+      "name": "Service-Specific Options",
+      "desc": "Apply Hydra’s service-specific flags (e.g., for SSH or HTTP) to tailor attacks effectively."
+    },
+    {
+      "key": "hydra/session_management",
+      "slug": "session_management",
+      "name": "Session Save and Restore",
+      "desc": "Save an ongoing Hydra session to a file and restore it later to resume the attack."
+    },
+    {
+      "key": "hydra/troubleshooting",
+      "slug": "troubleshooting",
+      "name": "Basic Troubleshooting",
+      "desc": "Resolve common Hydra issues like connection errors or invalid commands with simple fixes."
+    }
+  ]
+}

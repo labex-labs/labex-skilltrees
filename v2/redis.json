@@ -1,0 +1,1527 @@
+{
+  "key": "redis",
+  "slug": "redis",
+  "name": "Redis",
+  "skills": [
+    {
+      "key": "redis/server_lifecycle",
+      "slug": "server_lifecycle",
+      "name": "Server Lifecycle",
+      "desc": "Server lifecycle covers starting, stopping, connecting to, and checking Redis server availability.",
+      "i18n": {
+        "zh": {
+          "name": "服务器生命周期",
+          "desc": "服务器生命周期涵盖启动、停止、连接和检查 Redis 服务器可用性。"
+        },
+        "es": {
+          "name": "Ciclo de vida del servidor",
+          "desc": "El ciclo de vida del servidor cubre el inicio, la parada, la conexión y la verificación de la disponibilidad del servidor Redis."
+        },
+        "fr": {
+          "name": "Cycle de vie du serveur",
+          "desc": "Le cycle de vie du serveur couvre le démarrage, l'arrêt, la connexion et la vérification de la disponibilité du serveur Redis."
+        },
+        "de": {
+          "name": "Serverlebenszyklus",
+          "desc": "Der Serverlebenszyklus umfasst das Starten, Stoppen, Herstellen einer Verbindung und die Überprüfung der Serververfügbarkeit."
+        },
+        "ja": {
+          "name": "サーバーのライフサイクル",
+          "desc": "サーバーのライフサイクルには、サーバーの起動、停止、接続、および Redis サーバーの可用性の確認が含まれます。"
+        },
+        "ru": {
+          "name": "Жизненный цикл сервера",
+          "desc": "Жизненный цикл сервера включает запуск, остановку, подключение и проверку доступности сервера Redis."
+        },
+        "ko": {
+          "name": "서버 수명주기",
+          "desc": "서버 수명주기는 Redis 서버의 시작, 중지, 연결 및 가용성 확인을 다룹니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida do servidor",
+          "desc": "O ciclo de vida do servidor abrange iniciar, parar, conectar-se e verificar a disponibilidade do servidor Redis."
+        }
+      }
+    },
+    {
+      "key": "redis/cli_connection",
+      "slug": "cli_connection",
+      "name": "CLI Connection",
+      "desc": "CLI connection covers using Redis command-line clients and selecting connection targets.",
+      "i18n": {
+        "zh": {
+          "name": "CLI 连接",
+          "desc": "CLI 连接涵盖使用 Redis 命令行客户端和选择连接目标。"
+        },
+        "es": {
+          "name": "Conexión CLI",
+          "desc": "La conexión CLI cubre el uso de clientes de línea de comandos de Redis y la selección de objetivos de conexión."
+        },
+        "fr": {
+          "name": "Connexion CLI",
+          "desc": "La connexion CLI couvre l'utilisation de clients de ligne de commande Redis et la sélection des cibles de connexion."
+        },
+        "de": {
+          "name": "CLI-Verbindung",
+          "desc": "CLI-Verbindung umfasst die Verwendung von Redis-Befehlszeilen-Clients und die Auswahl von Verbindungszielen."
+        },
+        "ja": {
+          "name": "CLI 接続",
+          "desc": "CLI 接続では、Redis コマンドラインクライアントの使用と接続ターゲットの選択について説明します。"
+        },
+        "ru": {
+          "name": "Соединение CLI",
+          "desc": "Соединение CLI охватывает использование клиентов командной строки Redis и выбор целей подключения."
+        },
+        "ko": {
+          "name": "CLI 연결",
+          "desc": "CLI 연결에는 Redis 명령줄 클라이언트 사용 및 연결 대상 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Conexão CLI",
+          "desc": "A conexão CLI abrange o uso de clientes de linha de comando Redis e a seleção de destinos de conexão."
+        }
+      }
+    },
+    {
+      "key": "redis/command_structure",
+      "slug": "command_structure",
+      "name": "Command Structure",
+      "desc": "Command structure covers Redis command syntax, arguments, replies, and command categories.",
+      "i18n": {
+        "zh": {
+          "name": "命令结构",
+          "desc": "命令结构涵盖 Redis 命令语法、参数、回复和命令类别。"
+        },
+        "es": {
+          "name": "Estructura de comandos",
+          "desc": "La estructura de comandos cubre la sintaxis de comandos de Redis, argumentos, respuestas y categorías de comandos."
+        },
+        "fr": {
+          "name": "Structure des commandes",
+          "desc": "La structure des commandes couvre la syntaxe des commandes Redis, les arguments, les réponses et les catégories de commandes."
+        },
+        "de": {
+          "name": "Befehlsstruktur",
+          "desc": "Die Befehlsstruktur umfasst Redis-Befehlssyntax, Argumente, Antworten und Befehlskategorien."
+        },
+        "ja": {
+          "name": "コマンド構造",
+          "desc": "コマンド構造には、Redis コマンド構文、引数、応答、およびコマンドカテゴリが含まれます。"
+        },
+        "ru": {
+          "name": "Структура команд",
+          "desc": "Структура команд охватывает синтаксис команд Redis, аргументы, ответы и категории команд."
+        },
+        "ko": {
+          "name": "명령 구조",
+          "desc": "명령 구조에는 Redis 명령 구문, 인수, 응답 및 명령 범주가 포함됩니다."
+        },
+        "pt": {
+          "name": "Estrutura de Comando",
+          "desc": "A estrutura do comando cobre a sintaxe de comandos Redis, argumentos, respostas e categorias de comando."
+        }
+      }
+    },
+    {
+      "key": "redis/database_selection",
+      "slug": "database_selection",
+      "name": "Database Selection",
+      "desc": "Database selection covers logical Redis databases and their operational limits.",
+      "i18n": {
+        "zh": {
+          "name": "数据库选择",
+          "desc": "数据库选择涵盖逻辑 Redis 数据库及其操作限制。"
+        },
+        "es": {
+          "name": "Selección de base de datos",
+          "desc": "La selección de bases de datos cubre bases de datos lógicas de Redis y sus límites operativos."
+        },
+        "fr": {
+          "name": "Sélection de base de données",
+          "desc": "La sélection de bases de données couvre les bases de données logiques Redis et leurs limites opérationnelles."
+        },
+        "de": {
+          "name": "Datenbankauswahl",
+          "desc": "Die Datenbankauswahl umfasst logische Redis-Datenbanken und ihre Betriebsgrenzen."
+        },
+        "ja": {
+          "name": "データベースの選択",
+          "desc": "データベースの選択には、論理 Redis データベースとその運用制限が含まれます。"
+        },
+        "ru": {
+          "name": "Выбор базы данных",
+          "desc": "Выбор базы данных охватывает логические базы данных Redis и их эксплуатационные ограничения."
+        },
+        "ko": {
+          "name": "데이터베이스 선택",
+          "desc": "데이터베이스 선택에는 논리적 Redis 데이터베이스와 해당 작동 제한이 포함됩니다."
+        },
+        "pt": {
+          "name": "Seleção de banco de dados",
+          "desc": "A seleção de bancos de dados abrange bancos de dados lógicos Redis e seus limites operacionais."
+        }
+      }
+    },
+    {
+      "key": "redis/server_info",
+      "slug": "server_info",
+      "name": "Server Info",
+      "desc": "Server info covers inspecting Redis runtime state, configuration, memory, clients, and persistence signals.",
+      "i18n": {
+        "zh": {
+          "name": "服务器信息",
+          "desc": "服务器信息涵盖检查 Redis 运行时状态、配置、内存、客户端和持久化指标。"
+        },
+        "es": {
+          "name": "Información del servidor",
+          "desc": "La información del servidor cubre la inspección del estado de ejecución de Redis, la configuración, la memoria, los clientes y las señales de persistencia."
+        },
+        "fr": {
+          "name": "Informations sur le serveur",
+          "desc": "Les informations sur le serveur couvrent l'inspection de l'état d'exécution, de la configuration, de la mémoire, des clients et des signaux de persistance."
+        },
+        "de": {
+          "name": "Serverinformationen",
+          "desc": "Serverinformationen umfassen die Überprüfung des Redis-Laufzeitstatus, der Konfiguration, des Speichers, der Clients und der Persistenzsignale."
+        },
+        "ja": {
+          "name": "サーバー情報",
+          "desc": "サーバー情報では、Redis のランタイム状態、構成、メモリ、クライアント、永続性シグナルの確認を扱います。"
+        },
+        "ru": {
+          "name": "Информация о сервере",
+          "desc": "Информация о сервере включает проверку состояния среды выполнения, конфигурации, памяти, клиентов и сигналов персистентности Redis."
+        },
+        "ko": {
+          "name": "서버 정보",
+          "desc": "서버 정보에는 Redis 런타임 상태, 구성, 메모리, 클라이언트 및 지속성 신호 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Informações do servidor",
+          "desc": "As informações do servidor abrangem a inspeção do estado do tempo de execução, configuração, memória, clientes e sinais de persistência do Redis."
+        }
+      }
+    },
+    {
+      "key": "redis/key_naming",
+      "slug": "key_naming",
+      "name": "Key Naming",
+      "desc": "Key naming covers designing predictable key names and namespaces.",
+      "i18n": {
+        "zh": {
+          "name": "键命名",
+          "desc": "键命名涵盖设计可预测的 Redis 键名称和命名空间。"
+        },
+        "es": {
+          "name": "Nomenclatura de claves",
+          "desc": "La denominación de claves cubre el diseño de espacios de nombres y nombres de claves predecibles."
+        },
+        "fr": {
+          "name": "Dénomination des clés",
+          "desc": "La dénomination des clés couvre la conception de noms de clés et d'espaces de noms prévisibles."
+        },
+        "de": {
+          "name": "Schlüsselbenennung",
+          "desc": "Die Schlüsselbenennung umfasst das Entwerfen vorhersehbarer Schlüsselnamen und Namespaces."
+        },
+        "ja": {
+          "name": "キーの命名",
+          "desc": "キーの名前付けでは、予測可能なキー名と名前空間の設計について説明します。"
+        },
+        "ru": {
+          "name": "Именование ключей",
+          "desc": "Именование ключей охватывает проектирование предсказуемых имен ключей и пространств имен Redis."
+        },
+        "ko": {
+          "name": "키 이름 지정",
+          "desc": "키 명명에는 예측 가능한 키 이름과 네임스페이스 설계가 포함됩니다."
+        },
+        "pt": {
+          "name": "Nomenclatura de chaves",
+          "desc": "A nomenclatura de chaves abrange o design de nomes de chaves e espaços de nomes previsíveis."
+        }
+      }
+    },
+    {
+      "key": "redis/key_lookup",
+      "slug": "key_lookup",
+      "name": "Key Lookup",
+      "desc": "Key lookup covers reading values and checking key existence or metadata.",
+      "i18n": {
+        "zh": {
+          "name": "键查找",
+          "desc": "键查找涵盖读取值，以及检查键是否存在或查看键的元数据。"
+        },
+        "es": {
+          "name": "Búsqueda de claves",
+          "desc": "La búsqueda de claves cubre la lectura de valores y la verificación de la existencia de claves o metadatos."
+        },
+        "fr": {
+          "name": "Recherche de clé",
+          "desc": "La recherche de clé couvre la lecture des valeurs et la vérification de l'existence de la clé ou des métadonnées."
+        },
+        "de": {
+          "name": "Schlüsselsuche",
+          "desc": "Die Schlüsselsuche umfasst das Lesen von Werten und das Überprüfen der Schlüsselexistenz oder Metadaten."
+        },
+        "ja": {
+          "name": "キーの検索",
+          "desc": "キーの検索には、値の読み取りと、キーの存在またはメタデータのチェックが含まれます。"
+        },
+        "ru": {
+          "name": "Поиск ключей",
+          "desc": "Поиск ключей охватывает чтение значений, проверку существования ключей и просмотр метаданных ключа."
+        },
+        "ko": {
+          "name": "키 조회",
+          "desc": "키 조회에는 값 읽기와 키 존재 또는 메타데이터 확인이 포함됩니다."
+        },
+        "pt": {
+          "name": "Pesquisa de chave",
+          "desc": "A pesquisa de chave cobre a leitura de valores e a verificação da existência de chave ou metadados."
+        }
+      }
+    },
+    {
+      "key": "redis/key_deletion",
+      "slug": "key_deletion",
+      "name": "Key Deletion",
+      "desc": "Key deletion covers removing keys safely and understanding deletion behavior.",
+      "i18n": {
+        "zh": {
+          "name": "键删除",
+          "desc": "键删除涵盖安全删除 Redis 键并理解删除行为。"
+        },
+        "es": {
+          "name": "Eliminación de claves",
+          "desc": "La eliminación de claves cubre la eliminación de claves de forma segura y la comprensión del comportamiento de eliminación."
+        },
+        "fr": {
+          "name": "Suppression de clé",
+          "desc": "La suppression de clé couvre la suppression des clés en toute sécurité et la compréhension du comportement de suppression."
+        },
+        "de": {
+          "name": "Schlüssellöschung",
+          "desc": "Das Löschen von Schlüsseln umfasst das sichere Entfernen von Schlüsseln und das Verstehen des Löschverhaltens."
+        },
+        "ja": {
+          "name": "キーの削除",
+          "desc": "キーの削除では、キーを安全に削除することと、削除動作を理解することについて説明します。"
+        },
+        "ru": {
+          "name": "Удаление ключей",
+          "desc": "Удаление ключей охватывает безопасное удаление ключей Redis и понимание поведения удаления."
+        },
+        "ko": {
+          "name": "키 삭제",
+          "desc": "키 삭제에는 키를 안전하게 제거하고 삭제 동작을 이해하는 내용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Exclusão de chave",
+          "desc": "A exclusão de chaves abrange a remoção de chaves com segurança e a compreensão do comportamento de exclusão."
+        }
+      }
+    },
+    {
+      "key": "redis/expiration",
+      "slug": "expiration",
+      "name": "Expiration",
+      "desc": "Expiration covers setting, reading, and reasoning about key time-to-live behavior.",
+      "i18n": {
+        "zh": {
+          "name": "过期时间",
+          "desc": "过期时间涵盖设置、读取和理解 Redis 键的 TTL 行为。"
+        },
+        "es": {
+          "name": "Expiración",
+          "desc": "La expiración cubre la configuración, la lectura y el razonamiento sobre el comportamiento de TTL de las claves."
+        },
+        "fr": {
+          "name": "Expiration",
+          "desc": "L’expiration couvre la définition, la lecture et le raisonnement sur le TTL des clés Redis."
+        },
+        "de": {
+          "name": "Ablauf",
+          "desc": "Ablaufzeiten behandeln das Setzen, Lesen und Verstehen des TTL-Verhaltens von Redis-Schlüsseln."
+        },
+        "ja": {
+          "name": "有効期限",
+          "desc": "有効期限は、Redis キーの TTL 動作の設定、読み取り、理解を扱います。"
+        },
+        "ru": {
+          "name": "Срок действия",
+          "desc": "Срок действия охватывает настройку, чтение и понимание TTL-поведения ключей Redis."
+        },
+        "ko": {
+          "name": "만료",
+          "desc": "만료는 Redis 키의 TTL 동작을 설정하고 읽고 이해하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Expiração",
+          "desc": "A expiração cobre a configuração, a leitura e o entendimento do comportamento de TTL das chaves Redis."
+        }
+      }
+    },
+    {
+      "key": "redis/key_scanning",
+      "slug": "key_scanning",
+      "name": "Key Scanning",
+      "desc": "Key scanning covers iterating over keys without blocking Redis with broad lookups.",
+      "i18n": {
+        "zh": {
+          "name": "键扫描",
+          "desc": "键扫描涵盖在不因大范围查找阻塞 Redis 的情况下遍历键。"
+        },
+        "es": {
+          "name": "Escaneo de claves",
+          "desc": "El escaneo de claves cubre la iteración sobre claves sin bloquear Redis con búsquedas amplias."
+        },
+        "fr": {
+          "name": "Scan des clés",
+          "desc": "L'analyse des clés couvre l'itération sur les clés sans bloquer Redis avec des recherches larges."
+        },
+        "de": {
+          "name": "Schlüsselscannen",
+          "desc": "Das Scannen von Schlüsseln umfasst das Durchlaufen von Schlüsseln ohne Blockierung von Redis mit umfassenden Suchvorgängen."
+        },
+        "ja": {
+          "name": "キースキャン",
+          "desc": "キースキャンでは、広範な検索で Redis をブロックすることなく、キーを反復処理できます。"
+        },
+        "ru": {
+          "name": "Сканирование ключей",
+          "desc": "Сканирование ключей охватывает перебор ключей без блокировки Redis при широком поиске."
+        },
+        "ko": {
+          "name": "키 스캔",
+          "desc": "키 스캔은 광범위한 조회로 Redis를 차단하지 않고 키를 반복하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Varredura de chaves",
+          "desc": "A varredura de chaves cobre a iteração por chaves sem bloquear o Redis com buscas amplas."
+        }
+      }
+    },
+    {
+      "key": "redis/memory_lifecycle",
+      "slug": "memory_lifecycle",
+      "name": "Memory Lifecycle",
+      "desc": "Memory lifecycle covers how Redis stores data in memory and how expiration or eviction affects keys.",
+      "i18n": {
+        "zh": {
+          "name": "内存生命周期",
+          "desc": "内存生命周期涵盖 Redis 如何在内存中存储数据，以及过期或内存淘汰如何影响键。"
+        },
+        "es": {
+          "name": "Ciclo de vida de la memoria",
+          "desc": "El ciclo de vida de la memoria cubre cómo Redis almacena los datos en la memoria y cómo la caducidad o el desalojo afecta las claves."
+        },
+        "fr": {
+          "name": "Cycle de vie de la mémoire",
+          "desc": "Le cycle de vie de la mémoire couvre la manière dont Redis stocke les données en mémoire et comment l'expiration ou l'expulsion affecte les clés."
+        },
+        "de": {
+          "name": "Speicherlebenszyklus",
+          "desc": "Der Speicherlebenszyklus behandelt, wie Daten in Redis im Speicher gehalten werden und wie Ablauf oder Eviction Schlüssel beeinflusst."
+        },
+        "ja": {
+          "name": "メモリのライフサイクル",
+          "desc": "メモリのライフサイクルは、Redis がデータをメモリに保持する方法と、有効期限切れや eviction がキーにどう影響するかを扱います。"
+        },
+        "ru": {
+          "name": "Жизненный цикл памяти",
+          "desc": "Жизненный цикл памяти описывает, как Redis хранит данные в памяти и как истечение срока действия или вытеснение влияет на ключи."
+        },
+        "ko": {
+          "name": "메모리 수명주기",
+          "desc": "메모리 수명 주기는 Redis가 메모리에 데이터를 저장하는 방법과 만료 또는 eviction 제거가 키에 미치는 영향을 다룹니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida da memória",
+          "desc": "O ciclo de vida da memória cobre como o Redis armazena dados na memória e como a expiração ou eviction afeta as chaves."
+        }
+      }
+    },
+    {
+      "key": "redis/strings",
+      "slug": "strings",
+      "name": "Strings",
+      "desc": "Strings cover Redis string values, counters, and simple key-value operations.",
+      "i18n": {
+        "zh": {
+          "name": "字符串",
+          "desc": "字符串涵盖 Redis 字符串值、计数器和简单的键值操作。"
+        },
+        "es": {
+          "name": "Cadenas",
+          "desc": "Las cadenas cubren valores de cadena de Redis, contadores y operaciones clave-valor simples."
+        },
+        "fr": {
+          "name": "Chaînes",
+          "desc": "Les chaînes couvrent les valeurs chaîne de Redis, les compteurs et les opérations clé-valeur simples."
+        },
+        "de": {
+          "name": "Zeichenfolgen",
+          "desc": "Zeichenfolgen umfassen Redis-String-Werte, Zähler und einfache Schlüssel-Wert-Operationen."
+        },
+        "ja": {
+          "name": "文字列",
+          "desc": "文字列は、Redis の文字列値、カウンター、単純なキー値操作を扱います。"
+        },
+        "ru": {
+          "name": "Строки",
+          "desc": "Строки охватывают строковые значения Redis, счетчики и простые операции ключ-значение."
+        },
+        "ko": {
+          "name": "문자열",
+          "desc": "문자열은 Redis 문자열 값, 카운터, 간단한 키-값 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Strings",
+          "desc": "Strings cobrem valores string do Redis, contadores e operações simples de chave-valor."
+        }
+      }
+    },
+    {
+      "key": "redis/lists",
+      "slug": "lists",
+      "name": "Lists",
+      "desc": "Lists cover ordered sequences and queue-like operations.",
+      "i18n": {
+        "zh": {
+          "name": "列表",
+          "desc": "列表涵盖有序序列和类似队列的操作。"
+        },
+        "es": {
+          "name": "Listas",
+          "desc": "Las listas cubren secuencias ordenadas y operaciones similares a colas."
+        },
+        "fr": {
+          "name": "Listes",
+          "desc": "Les listes couvrent les séquences ordonnées et les opérations de type file d'attente."
+        },
+        "de": {
+          "name": "Listen",
+          "desc": "Listen umfassen geordnete Sequenzen und warteschlangenartige Vorgänge."
+        },
+        "ja": {
+          "name": "リスト",
+          "desc": "リストには、順序付けられたシーケンスとキューのような操作が含まれます。"
+        },
+        "ru": {
+          "name": "Списки",
+          "desc": "Списки охватывают упорядоченные последовательности и операции, подобные очередям."
+        },
+        "ko": {
+          "name": "목록",
+          "desc": "리스트는 순서가 있는 시퀀스와 큐와 유사한 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Listas",
+          "desc": "As listas cobrem sequências ordenadas e operações semelhantes a filas."
+        }
+      }
+    },
+    {
+      "key": "redis/sets",
+      "slug": "sets",
+      "name": "Sets",
+      "desc": "Sets cover unique unordered values and membership operations.",
+      "i18n": {
+        "zh": {
+          "name": "集合",
+          "desc": "集合涵盖唯一的无序值和成员检查操作。"
+        },
+        "es": {
+          "name": "Conjuntos",
+          "desc": "Los conjuntos cubren valores desordenados únicos y operaciones de pertenencia."
+        },
+        "fr": {
+          "name": "Ensembles",
+          "desc": "Les ensembles couvrent des valeurs non ordonnées uniques et des opérations d'appartenance."
+        },
+        "de": {
+          "name": "Sets",
+          "desc": "Sets decken eindeutige ungeordnete Werte und Zugehörigkeitsoperationen ab."
+        },
+        "ja": {
+          "name": "セット",
+          "desc": "セットは、順序付けされていない一意の値とメンバーシップ操作を扱います。"
+        },
+        "ru": {
+          "name": "Наборы",
+          "desc": "Наборы охватывают уникальные неупорядоченные значения и проверки принадлежности."
+        },
+        "ko": {
+          "name": "세트",
+          "desc": "세트는 순서가 없는 고유한 값과 멤버 여부 검사를 다룹니다."
+        },
+        "pt": {
+          "name": "Conjuntos",
+          "desc": "Os conjuntos cobrem valores não ordenados exclusivos e operações de pertencimento."
+        }
+      }
+    },
+    {
+      "key": "redis/hashes",
+      "slug": "hashes",
+      "name": "Hashes",
+      "desc": "Hashes cover field-value maps stored under one Redis key.",
+      "i18n": {
+        "zh": {
+          "name": "哈希",
+          "desc": "哈希涵盖存储在一个 Redis 键下的字段-值映射。"
+        },
+        "es": {
+          "name": "Hashes",
+          "desc": "Los hashes cubren mapas de campo-valor almacenados bajo una clave Redis."
+        },
+        "fr": {
+          "name": "Hachages",
+          "desc": "Les hashes couvrent les mappages champ-valeur stockés sous une seule clé Redis."
+        },
+        "de": {
+          "name": "Hashes",
+          "desc": "Hashes decken Feldwertzuordnungen ab, die unter einem Redis-Schlüssel gespeichert sind."
+        },
+        "ja": {
+          "name": "ハッシュ",
+          "desc": "ハッシュは、1 つの Redis キーの下に保存されているフィールド値マップを扱います。"
+        },
+        "ru": {
+          "name": "Хэши",
+          "desc": "Хэши охватывают карты значений полей, хранящиеся под одним ключом Redis."
+        },
+        "ko": {
+          "name": "해시",
+          "desc": "해시는 하나의 Redis 키 아래에 저장된 필드-값 맵을 다룹니다."
+        },
+        "pt": {
+          "name": "Hashes",
+          "desc": "Hashes cobrem mapas de campo-valor armazenados em uma chave Redis."
+        }
+      }
+    },
+    {
+      "key": "redis/sorted_sets",
+      "slug": "sorted_sets",
+      "name": "Sorted Sets",
+      "desc": "Sorted sets cover scored values for ranking, ordering, and range queries.",
+      "i18n": {
+        "zh": {
+          "name": "有序集合",
+          "desc": "有序集合涵盖带分数的值，用于排名、排序和范围查询。"
+        },
+        "es": {
+          "name": "Conjuntos ordenados",
+          "desc": "Los conjuntos ordenados cubren valores con puntuación para ranking, ordenación y consultas de rango."
+        },
+        "fr": {
+          "name": "Ensembles triés",
+          "desc": "Les ensembles triés couvrent les valeurs avec score pour le ranking, le tri et les requêtes par plage."
+        },
+        "de": {
+          "name": "Sortierte Sets",
+          "desc": "Sortierte Sets umfassen bewertete Werte für Ranking-, Sortier- und Bereichsabfragen."
+        },
+        "ja": {
+          "name": "ソートされたセット",
+          "desc": "ソートされたセットは、ランキング、順序付け、および範囲クエリのスコアリングされた値を扱います。"
+        },
+        "ru": {
+          "name": "Упорядоченные множества",
+          "desc": "Упорядоченные множества охватывают значения с оценками для рейтингов, сортировки и диапазонных запросов."
+        },
+        "ko": {
+          "name": "정렬된 세트",
+          "desc": "정렬된 세트는 순위, 순서 및 범위 쿼리를 위한 점수가 매겨진 값을 다룹니다."
+        },
+        "pt": {
+          "name": "Conjuntos ordenados",
+          "desc": "Os conjuntos ordenados cobrem valores com pontuação para ranking, ordenação e consultas por intervalo."
+        }
+      }
+    },
+    {
+      "key": "redis/bitmaps",
+      "slug": "bitmaps",
+      "name": "Bitmaps",
+      "desc": "Bitmaps cover bit-level storage and operations within Redis string values.",
+      "i18n": {
+        "zh": {
+          "name": "位图",
+          "desc": "位图涵盖 Redis 字符串值内的位级存储和操作。"
+        },
+        "es": {
+          "name": "Bitmaps",
+          "desc": "Los bitmaps cubren el almacenamiento y las operaciones a nivel de bits dentro de valores de cadena de Redis."
+        },
+        "fr": {
+          "name": "Bitmaps",
+          "desc": "Les bitmaps couvrent le stockage et les opérations au niveau bit dans les valeurs de chaîne Redis."
+        },
+        "de": {
+          "name": "Bitmaps",
+          "desc": "Bitmaps decken Speicherung und Vorgänge auf Bitebene innerhalb von Redis-String-Werten ab."
+        },
+        "ja": {
+          "name": "ビットマップ",
+          "desc": "ビットマップは、Redis 文字列値内のビットレベルのストレージと操作を扱います。"
+        },
+        "ru": {
+          "name": "Битмапы",
+          "desc": "Битмапы охватывают хранение и операции на уровне битов внутри строковых значений Redis."
+        },
+        "ko": {
+          "name": "비트맵",
+          "desc": "비트맵은 Redis 문자열 값 내의 비트 수준 저장 및 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Bitmaps",
+          "desc": "Os bitmaps cobrem armazenamento em nível de bit e operações dentro de valores de string Redis."
+        }
+      }
+    },
+    {
+      "key": "redis/hyperloglogs",
+      "slug": "hyperloglogs",
+      "name": "HyperLogLogs",
+      "desc": "HyperLogLogs cover approximate cardinality counting with compact Redis data structures.",
+      "i18n": {
+        "zh": {
+          "name": "HyperLogLog",
+          "desc": "HyperLogLogs 涵盖使用紧凑 Redis 数据结构进行近似基数计数。"
+        },
+        "es": {
+          "name": "HyperLogLogs",
+          "desc": "HyperLogLogs cubren el conteo aproximado de cardinalidad con estructuras de datos compactas de Redis."
+        },
+        "fr": {
+          "name": "HyperLogLogs",
+          "desc": "Les HyperLogLogs couvrent le comptage de cardinalité approximative avec des structures de données compactes Redis."
+        },
+        "de": {
+          "name": "HyperLogLogs",
+          "desc": "HyperLogLogs decken die ungefähre Kardinalitätszählung mit kompakten Redis-Datenstrukturen ab."
+        },
+        "ja": {
+          "name": "HyperLogLog",
+          "desc": "HyperLogLogs は、コンパクトな Redis データ構造でおおよそのカーディナリティのカウントを扱います。"
+        },
+        "ru": {
+          "name": "HyperLogLogs",
+          "desc": "HyperLogLogs охватывают приблизительный подсчет кардинальности с помощью компактных структур данных Redis."
+        },
+        "ko": {
+          "name": "HyperLogLog",
+          "desc": "HyperLogLogs는 컴팩트한 Redis 데이터 구조로 대략적인 카디널리티 계산을 다룹니다."
+        },
+        "pt": {
+          "name": "HyperLogLogs",
+          "desc": "HyperLogLogs cobrem contagem aproximada de cardinalidade com estruturas de dados compactas Redis."
+        }
+      }
+    },
+    {
+      "key": "redis/caching_patterns",
+      "slug": "caching_patterns",
+      "name": "Caching Patterns",
+      "desc": "Caching patterns cover using Redis for temporary computed or fetched data.",
+      "i18n": {
+        "zh": {
+          "name": "缓存模式",
+          "desc": "缓存模式涵盖使用 Redis 临时保存计算得到或获取到的数据。"
+        },
+        "es": {
+          "name": "Patrones de almacenamiento en caché",
+          "desc": "Los patrones de almacenamiento en caché cubren el uso de Redis para datos temporales calculados o recuperados."
+        },
+        "fr": {
+          "name": "Modèles de mise en cache",
+          "desc": "Les modèles de mise en cache couvrent l'utilisation de Redis pour les données temporaires calculées ou récupérées."
+        },
+        "de": {
+          "name": "Caching-Muster",
+          "desc": "Caching-Muster umfassen die Verwendung von Redis für temporär berechnete oder abgerufene Daten."
+        },
+        "ja": {
+          "name": "キャッシュパターン",
+          "desc": "キャッシュパターンは、一時的に計算されたデータまたはフェッチされたデータに Redis を使用することを扱います。"
+        },
+        "ru": {
+          "name": "Шаблоны кэширования",
+          "desc": "Шаблоны кэширования охватывают использование Redis для временных вычисленных или извлеченных данных."
+        },
+        "ko": {
+          "name": "캐싱 패턴",
+          "desc": "캐싱 패턴은 임시 계산 또는 가져온 데이터에 Redis 사용을 다룹니다."
+        },
+        "pt": {
+          "name": "Padrões de cache",
+          "desc": "Os padrões de cache abrangem o uso de Redis para dados temporários computados ou buscados."
+        }
+      }
+    },
+    {
+      "key": "redis/counter_patterns",
+      "slug": "counter_patterns",
+      "name": "Counter Patterns",
+      "desc": "Counter patterns cover atomic increments and numeric tracking in Redis.",
+      "i18n": {
+        "zh": {
+          "name": "计数器模式",
+          "desc": "计数器模式涵盖 Redis 中的原子增量和数字跟踪。"
+        },
+        "es": {
+          "name": "Patrones de contador",
+          "desc": "Los patrones de contador cubren incrementos atómicos y seguimiento numérico en Redis."
+        },
+        "fr": {
+          "name": "Modèles de compteur",
+          "desc": "Les modèles de compteur couvrent les incréments atomiques et le suivi numérique dans Redis."
+        },
+        "de": {
+          "name": "Zählermuster",
+          "desc": "Zählermuster behandeln atomare Inkremente und numerisches Tracking in Redis."
+        },
+        "ja": {
+          "name": "カウンターパターン",
+          "desc": "カウンターパターンは、Redis でのアトミックインクリメントと数値追跡を扱います。"
+        },
+        "ru": {
+          "name": "Шаблоны счетчиков",
+          "desc": "Шаблоны счетчиков охватывают атомарные инкременты и числовое отслеживание в Redis."
+        },
+        "ko": {
+          "name": "카운터 패턴",
+          "desc": "카운터 패턴은 Redis의 원자 증가 및 숫자 추적을 다룹니다."
+        },
+        "pt": {
+          "name": "Padrões de contador",
+          "desc": "Os padrões de contador cobrem incrementos atômicos e rastreamento numérico no Redis."
+        }
+      }
+    },
+    {
+      "key": "redis/queue_patterns",
+      "slug": "queue_patterns",
+      "name": "Queue Patterns",
+      "desc": "Queue patterns cover list- or stream-backed asynchronous work handoff.",
+      "i18n": {
+        "zh": {
+          "name": "队列模式",
+          "desc": "队列模式涵盖基于列表或流的异步工作交接。"
+        },
+        "es": {
+          "name": "Patrones de cola",
+          "desc": "Los patrones de cola cubren la entrega de trabajo asincrónico respaldada por listas o streams."
+        },
+        "fr": {
+          "name": "Modèles de file d'attente",
+          "desc": "Les modèles de file d’attente couvrent le transfert de travail asynchrone basé sur une liste ou un flux."
+        },
+        "de": {
+          "name": "Warteschlangenmuster",
+          "desc": "Warteschlangenmuster decken die listen- oder streamgestützte asynchrone Arbeitsübergabe ab."
+        },
+        "ja": {
+          "name": "キューパターン",
+          "desc": "キューパターンは、リストまたはストリームに基づく非同期作業のハンドオフを扱います。"
+        },
+        "ru": {
+          "name": "Шаблоны очередей",
+          "desc": "Шаблоны очередей охватывают асинхронную передачу работы с поддержкой списков или потоков."
+        },
+        "ko": {
+          "name": "대기열 패턴",
+          "desc": "큐 패턴은 리스트 또는 스트림 기반의 비동기 작업 전달을 다룹니다."
+        },
+        "pt": {
+          "name": "Padrões de fila",
+          "desc": "Os padrões de fila cobrem a transferência de trabalho assíncrono baseada em listas ou streams."
+        }
+      }
+    },
+    {
+      "key": "redis/leaderboard_patterns",
+      "slug": "leaderboard_patterns",
+      "name": "Leaderboard Patterns",
+      "desc": "Leaderboard patterns cover ranking use cases with sorted sets.",
+      "i18n": {
+        "zh": {
+          "name": "排行榜模式",
+          "desc": "排行榜模式涵盖使用有序集合实现排名场景。"
+        },
+        "es": {
+          "name": "Patrones de clasificación",
+          "desc": "Los patrones de clasificación cubren casos de uso de clasificación con conjuntos ordenados."
+        },
+        "fr": {
+          "name": "Modèles de classement",
+          "desc": "Les modèles de classement couvrent les cas d’utilisation de classement avec des ensembles triés."
+        },
+        "de": {
+          "name": "Bestenlistenmuster",
+          "desc": "Bestenlistenmuster behandeln Ranking-Anwendungsfälle mit sortierten Sets."
+        },
+        "ja": {
+          "name": "リーダーボードのパターン",
+          "desc": "リーダーボードパターンは、ソートされたセットを使用したランキングのユースケースを扱います。"
+        },
+        "ru": {
+          "name": "Шаблоны таблиц лидеров",
+          "desc": "Шаблоны таблиц лидеров охватывают сценарии рейтингов на основе упорядоченных множеств."
+        },
+        "ko": {
+          "name": "리더보드 패턴",
+          "desc": "리더보드 패턴은 정렬된 세트를 사용하여 순위 지정 사용 사례를 다룹니다."
+        },
+        "pt": {
+          "name": "Padrões de leaderboard",
+          "desc": "Os padrões de leaderboard cobrem casos de ranking com conjuntos ordenados."
+        }
+      }
+    },
+    {
+      "key": "redis/session_storage",
+      "slug": "session_storage",
+      "name": "Session Storage",
+      "desc": "Session storage covers using Redis for short-lived user or application state.",
+      "i18n": {
+        "zh": {
+          "name": "会话存储",
+          "desc": "会话存储涵盖对短期用户或应用程序状态使用 Redis。"
+        },
+        "es": {
+          "name": "Almacenamiento de sesiones",
+          "desc": "El almacenamiento de sesiones cubre el uso de Redis para estados de aplicación o usuario de corta duración."
+        },
+        "fr": {
+          "name": "Stockage de sessions",
+          "desc": "Le stockage de session couvre l'utilisation de Redis pour l'état d'un utilisateur ou d'une application de courte durée."
+        },
+        "de": {
+          "name": "Sitzungsspeicher",
+          "desc": "Der Sitzungsspeicher umfasst die Verwendung von Redis für kurzlebige Benutzer- oder Anwendungsstatus."
+        },
+        "ja": {
+          "name": "セッションストレージ",
+          "desc": "セッションストレージは、短期間のユーザーまたはアプリケーションの状態に対する Redis の使用を扱います。"
+        },
+        "ru": {
+          "name": "Хранилище сеансов",
+          "desc": "Хранилище сеансов включает использование Redis для кратковременного состояния пользователя или приложения."
+        },
+        "ko": {
+          "name": "세션 저장",
+          "desc": "세션 저장소는 단기 사용자 또는 애플리케이션 상태에 대해 Redis 사용을 다룹니다."
+        },
+        "pt": {
+          "name": "Armazenamento de sessão",
+          "desc": "O armazenamento de sessão abrange o uso de Redis para estado de usuário ou aplicativo de curta duração."
+        }
+      }
+    },
+    {
+      "key": "redis/transactions",
+      "slug": "transactions",
+      "name": "Transactions",
+      "desc": "Transactions cover grouping Redis commands with optimistic execution behavior.",
+      "i18n": {
+        "zh": {
+          "name": "事务",
+          "desc": "事务涵盖以乐观执行行为对 Redis 命令进行分组。"
+        },
+        "es": {
+          "name": "Transacciones",
+          "desc": "Las transacciones cubren la agrupación de comandos Redis con comportamiento de ejecución optimista."
+        },
+        "fr": {
+          "name": "Transactions",
+          "desc": "Les transactions couvrent le regroupement de commandes Redis avec un comportement d'exécution optimiste."
+        },
+        "de": {
+          "name": "Transaktionen",
+          "desc": "Transaktionen umfassen die Gruppierung von Redis-Befehlen mit optimistischem Ausführungsverhalten."
+        },
+        "ja": {
+          "name": "トランザクション",
+          "desc": "トランザクションは、楽観的な実行動作を持つコマンドのグループ化を扱います。"
+        },
+        "ru": {
+          "name": "Транзакции",
+          "desc": "Транзакции охватывают группировку команд Redis с оптимистичным поведением выполнения."
+        },
+        "ko": {
+          "name": "트랜잭션",
+          "desc": "트랜잭션은 낙관적 실행 동작으로 Redis 명령을 그룹화하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Transações",
+          "desc": "As transações cobrem o agrupamento de comandos Redis com comportamento de execução otimista."
+        }
+      }
+    },
+    {
+      "key": "redis/optimistic_locking",
+      "slug": "optimistic_locking",
+      "name": "Optimistic Locking",
+      "desc": "Optimistic locking covers watching keys to coordinate concurrent Redis updates.",
+      "i18n": {
+        "zh": {
+          "name": "乐观锁",
+          "desc": "乐观锁涵盖通过 WATCH 监视键以协调并发 Redis 更新。"
+        },
+        "es": {
+          "name": "Bloqueo optimista",
+          "desc": "El bloqueo optimista cubre observar claves para coordinar actualizaciones simultáneas en Redis."
+        },
+        "fr": {
+          "name": "Verrouillage optimiste",
+          "desc": "Le verrouillage optimiste couvre la surveillance des clés pour coordonner les mises à jour Redis simultanées."
+        },
+        "de": {
+          "name": "Optimistisches Sperren",
+          "desc": "Optimistisches Sperren umfasst das Beobachten von Schlüsseln, um gleichzeitige Redis-Updates zu koordinieren."
+        },
+        "ja": {
+          "name": "楽観的ロック",
+          "desc": "楽観的ロックは、キーの監視を扱い、同時の Redis 更新を調整します。"
+        },
+        "ru": {
+          "name": "Оптимистическая блокировка",
+          "desc": "Оптимистическая блокировка включает наблюдение за ключами для координации одновременных обновлений Redis."
+        },
+        "ko": {
+          "name": "낙관적 잠금",
+          "desc": "낙관적 잠금에는 동시 Redis 업데이트를 조정하기 위한 키 관찰이 포함됩니다."
+        },
+        "pt": {
+          "name": "Bloqueio Otimista",
+          "desc": "O bloqueio otimista cobre a observação de chaves para coordenar atualizações Redis simultâneas."
+        }
+      }
+    },
+    {
+      "key": "redis/lua_scripting",
+      "slug": "lua_scripting",
+      "name": "Lua Scripting",
+      "desc": "Lua scripting covers server-side Redis logic executed atomically.",
+      "i18n": {
+        "zh": {
+          "name": "Lua 脚本",
+          "desc": "Lua 脚本涵盖在 Redis 服务器端原子执行的逻辑。"
+        },
+        "es": {
+          "name": "Scripts Lua",
+          "desc": "Los scripts Lua cubren la lógica Redis del lado del servidor ejecutada de forma atómica."
+        },
+        "fr": {
+          "name": "Scripts Lua",
+          "desc": "Les scripts Lua couvrent la logique Redis côté serveur exécutée de manière atomique."
+        },
+        "de": {
+          "name": "Lua Skripterstellung",
+          "desc": "Lua-Scripting umfasst serverseitige Redis-Logik, die atomar ausgeführt wird."
+        },
+        "ja": {
+          "name": "Lua スクリプト作成",
+          "desc": "Lua スクリプトは、アトミックに実行されるサーバーサイド Redis ロジックを扱います。"
+        },
+        "ru": {
+          "name": "Lua-скрипты",
+          "desc": "Lua-скрипты охватывают серверную логику Redis, выполняемую атомарно."
+        },
+        "ko": {
+          "name": "Lua 스크립팅",
+          "desc": "Lua 스크립팅은 원자적으로 실행되는 서버측 Redis 로직을 다룹니다."
+        },
+        "pt": {
+          "name": "Scripts Lua",
+          "desc": "Scripts Lua cobrem a lógica Redis do lado do servidor executada atomicamente."
+        }
+      }
+    },
+    {
+      "key": "redis/pubsub",
+      "slug": "pubsub",
+      "name": "Pub/Sub",
+      "desc": "Pub/Sub covers message fan-out through Redis channels without durable retention.",
+      "i18n": {
+        "zh": {
+          "name": "发布/订阅",
+          "desc": "Pub/Sub 涵盖通过 Redis 通道进行消息扇出，且不持久保留消息。"
+        },
+        "es": {
+          "name": "Pub/Sub",
+          "desc": "Pub/Sub cubre la distribución de mensajes a través de canales Redis sin retención duradera."
+        },
+        "fr": {
+          "name": "Pub/Sub",
+          "desc": "Pub/Sub couvre la diffusion des messages via des canaux Redis sans conservation durable."
+        },
+        "de": {
+          "name": "Pub/Sub",
+          "desc": "Pub/Sub deckt die Nachrichtenverbreitung über Redis-Kanäle ohne dauerhafte Aufbewahrung ab."
+        },
+        "ja": {
+          "name": "パブ/サブ",
+          "desc": "Pub/Sub は、永続的な保持を行わずに、Redis チャネルを介したメッセージのファンアウトを扱います。"
+        },
+        "ru": {
+          "name": "Pub/Sub",
+          "desc": "Pub/Sub обеспечивает распространение сообщений по каналам Redis без длительного хранения."
+        },
+        "ko": {
+          "name": "게시/구독",
+          "desc": "Pub/Sub는 메시지를 지속적으로 보존하지 않고 Redis 채널을 통해 팬아웃하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Pub/Sub",
+          "desc": "O Pub/Sub cobre a distribuição de mensagens por meio de canais Redis sem retenção durável."
+        }
+      }
+    },
+    {
+      "key": "redis/streams",
+      "slug": "streams",
+      "name": "Streams",
+      "desc": "Streams cover append-only message logs, consumer groups, and durable event processing.",
+      "i18n": {
+        "zh": {
+          "name": "Streams",
+          "desc": "流涵盖仅追加的消息日志、消费者组和持久事件处理。"
+        },
+        "es": {
+          "name": "Streams",
+          "desc": "Los streams cubren registros de mensajes de solo adición, grupos de consumidores y procesamiento duradero de eventos."
+        },
+        "fr": {
+          "name": "Flux",
+          "desc": "Les flux couvrent les journaux de messages en ajout uniquement, les groupes de consommateurs et le traitement des événements durables."
+        },
+        "de": {
+          "name": "Streams",
+          "desc": "Streams behandeln nur anhängbare Nachrichtenlogs, Verbrauchergruppen und dauerhafte Ereignisverarbeitung."
+        },
+        "ja": {
+          "name": "ストリーム",
+          "desc": "ストリームは、追加専用メッセージログ、コンシューマグループ、永続イベント処理を扱います。"
+        },
+        "ru": {
+          "name": "Streams",
+          "desc": "Streams охватывают журналы сообщений только с добавлением, группы потребителей и долговечную обработку событий."
+        },
+        "ko": {
+          "name": "스트림",
+          "desc": "스트림은 추가 전용 메시지 로그, 컨슈머 그룹 및 지속 가능한 이벤트 처리를 다룹니다."
+        },
+        "pt": {
+          "name": "Streams",
+          "desc": "Streams cobrem registros de mensagens apenas anexáveis, grupos de consumidores e processamento durável de eventos."
+        }
+      }
+    },
+    {
+      "key": "redis/rdb_persistence",
+      "slug": "rdb_persistence",
+      "name": "RDB Persistence",
+      "desc": "RDB persistence covers snapshot-based Redis durability behavior.",
+      "i18n": {
+        "zh": {
+          "name": "RDB 持久化",
+          "desc": "RDB 持久化涵盖基于快照的 Redis 数据持久化行为。"
+        },
+        "es": {
+          "name": "Persistencia RDB",
+          "desc": "La persistencia RDB cubre el comportamiento de durabilidad de Redis basado en instantáneas."
+        },
+        "fr": {
+          "name": "Persistance RDB",
+          "desc": "La persistance RDB couvre le comportement de durabilité Redis basé sur les instantanés."
+        },
+        "de": {
+          "name": "RDB-Persistenz",
+          "desc": "RDB-Persistenz behandelt snapshotbasierte Redis-Dauerhaftigkeit."
+        },
+        "ja": {
+          "name": "RDB 永続化",
+          "desc": "RDB 永続性は、スナップショットベースの Redis 耐久性動作を扱います。"
+        },
+        "ru": {
+          "name": "Сохранение RDB",
+          "desc": "Сохранение RDB охватывает долговечность данных Redis на основе снимков."
+        },
+        "ko": {
+          "name": "RDB 지속성",
+          "desc": "RDB 지속성은 스냅샷 기반 Redis 내구성 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Persistência RDB",
+          "desc": "A persistência RDB cobre o comportamento de durabilidade do Redis baseado em instantâneos."
+        }
+      }
+    },
+    {
+      "key": "redis/aof_persistence",
+      "slug": "aof_persistence",
+      "name": "AOF Persistence",
+      "desc": "AOF persistence covers append-only Redis durability behavior and rewrite tradeoffs.",
+      "i18n": {
+        "zh": {
+          "name": "AOF 持久化",
+          "desc": "AOF 持久化涵盖 Redis 追加写入的持久化行为和重写权衡。"
+        },
+        "es": {
+          "name": "Persistencia AOF",
+          "desc": "La persistencia AOF cubre la durabilidad de Redis basada en solo agregar y las compensaciones de reescritura."
+        },
+        "fr": {
+          "name": "Persistance AOF",
+          "desc": "La persistance AOF couvre la durabilité de Redis par ajout uniquement et les compromis de réécriture."
+        },
+        "de": {
+          "name": "AOF-Persistenz",
+          "desc": "AOF-Persistenz behandelt die Redis-Dauerhaftigkeit durch reines Anhängen und die Abwägungen beim Umschreiben."
+        },
+        "ja": {
+          "name": "AOF 永続化",
+          "desc": "AOF 永続性は、追加のみの Redis 耐久性動作と書き換えのトレードオフを扱います。"
+        },
+        "ru": {
+          "name": "Сохранение AOF",
+          "desc": "Сохранение AOF охватывает долговечность Redis на основе только добавления и компромиссы перезаписи."
+        },
+        "ko": {
+          "name": "AOF 지속성",
+          "desc": "AOF 지속성은 추가 전용 Redis 내구성 동작과 재작성 장단점을 다룹니다."
+        },
+        "pt": {
+          "name": "Persistência AOF",
+          "desc": "A persistência AOF cobre a durabilidade do Redis baseada apenas em acréscimo e as compensações de reescrita."
+        }
+      }
+    },
+    {
+      "key": "redis/replication",
+      "slug": "replication",
+      "name": "Replication",
+      "desc": "Replication covers Redis primary-replica data copying and read scaling behavior.",
+      "i18n": {
+        "zh": {
+          "name": "复制",
+          "desc": "复制涵盖 Redis 主节点到副本的数据复制和读取扩展行为。"
+        },
+        "es": {
+          "name": "Replicación",
+          "desc": "La replicación cubre la copia de datos entre primario y réplica de Redis y el comportamiento de escalado de lectura."
+        },
+        "fr": {
+          "name": "Réplication",
+          "desc": "La réplication couvre la copie des données entre primaire et réplique Redis ainsi que le comportement de mise à l’échelle en lecture."
+        },
+        "de": {
+          "name": "Replikation",
+          "desc": "Die Replikation deckt das Kopieren von Daten zwischen Redis-Primary und Replica sowie das Leseskalierungsverhalten ab."
+        },
+        "ja": {
+          "name": "レプリケーション",
+          "desc": "レプリケーションは、Redis のプライマリとレプリカ間のデータコピーと読み取りスケーリング動作を扱います。"
+        },
+        "ru": {
+          "name": "Репликация",
+          "desc": "Репликация охватывает копирование данных между основным узлом Redis и репликой, а также поведение масштабирования чтения."
+        },
+        "ko": {
+          "name": "복제",
+          "desc": "복제는 Redis 기본 노드와 복제본 간의 데이터 복사 및 읽기 확장 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Replicação",
+          "desc": "A replicação abrange a cópia de dados entre primário e réplica Redis e o comportamento de escalonamento de leitura."
+        }
+      }
+    },
+    {
+      "key": "redis/sentinel",
+      "slug": "sentinel",
+      "name": "Sentinel",
+      "desc": "Sentinel covers Redis monitoring, failover, and high-availability coordination.",
+      "i18n": {
+        "zh": {
+          "name": "Sentinel",
+          "desc": "Sentinel 涵盖 Redis 监控、故障转移和高可用性协调。"
+        },
+        "es": {
+          "name": "Sentinel",
+          "desc": "Sentinel cubre la supervisión de Redis, la conmutación por error y la coordinación de alta disponibilidad."
+        },
+        "fr": {
+          "name": "Sentinel",
+          "desc": "Sentinel couvre la surveillance Redis, le basculement et la coordination de la haute disponibilité."
+        },
+        "de": {
+          "name": "Sentinel",
+          "desc": "Sentinel deckt Redis-Überwachung, Ausfallumschaltung und Hochverfügbarkeitskoordination ab."
+        },
+        "ja": {
+          "name": "センチネル",
+          "desc": "Sentinel は、監視、フェイルオーバー、および高可用性調整を扱います。"
+        },
+        "ru": {
+          "name": "Sentinel",
+          "desc": "Sentinel обеспечивает мониторинг Redis, аварийное переключение и координацию высокой доступности."
+        },
+        "ko": {
+          "name": "Sentinel",
+          "desc": "Sentinel은 Redis 모니터링, 장애 조치 및 고가용성 조정을 다룹니다."
+        },
+        "pt": {
+          "name": "Sentinel",
+          "desc": "O Sentinel cobre monitoramento do Redis, alternância em caso de falha e coordenação de alta disponibilidade."
+        }
+      }
+    },
+    {
+      "key": "redis/cluster_mode",
+      "slug": "cluster_mode",
+      "name": "Cluster Mode",
+      "desc": "Cluster mode covers sharding, hash slots, and multi-node Redis behavior.",
+      "i18n": {
+        "zh": {
+          "name": "集群模式",
+          "desc": "集群模式涵盖分片、哈希槽和多节点 Redis 行为。"
+        },
+        "es": {
+          "name": "Modo de clúster",
+          "desc": "El modo de clúster cubre fragmentación, ranuras hash y comportamiento de Redis de múltiples nodos."
+        },
+        "fr": {
+          "name": "Mode cluster",
+          "desc": "Le mode cluster couvre le partitionnement, les emplacements de hachage et le comportement Redis multi-nœuds."
+        },
+        "de": {
+          "name": "Cluster-Modus",
+          "desc": "Der Cluster-Modus umfasst Sharding, Hash-Slots und das Verhalten mehrerer Knoten Redis."
+        },
+        "ja": {
+          "name": "クラスターモード",
+          "desc": "クラスターモードでは、シャーディング、ハッシュスロット、およびマルチノード Redis の動作を扱います。"
+        },
+        "ru": {
+          "name": "Кластерный режим",
+          "desc": "Режим кластера охватывает сегментирование, хэш-слоты и поведение нескольких узлов Redis."
+        },
+        "ko": {
+          "name": "클러스터 모드",
+          "desc": "클러스터 모드는 샤딩, 해시 슬롯 및 다중 노드 Redis 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Modo Cluster",
+          "desc": "O modo cluster cobre fragmentação, slots de hash e comportamento do Redis de vários nós."
+        }
+      }
+    },
+    {
+      "key": "redis/configuration",
+      "slug": "configuration",
+      "name": "Configuration",
+      "desc": "Configuration covers Redis settings that affect memory, persistence, networking, and security.",
+      "i18n": {
+        "zh": {
+          "name": "配置",
+          "desc": "配置涵盖影响内存、持久性、网络和安全性的 Redis 设置。"
+        },
+        "es": {
+          "name": "Configuración",
+          "desc": "La configuración cubre ajustes de Redis que afectan la memoria, la persistencia, las redes y la seguridad."
+        },
+        "fr": {
+          "name": "Configuration",
+          "desc": "La configuration couvre les paramètres Redis qui affectent la mémoire, la persistance, la mise en réseau et la sécurité."
+        },
+        "de": {
+          "name": "Konfiguration",
+          "desc": "Die Konfiguration umfasst Redis-Einstellungen, die sich auf Speicher, Persistenz, Netzwerk und Sicherheit auswirken."
+        },
+        "ja": {
+          "name": "構成",
+          "desc": "構成には、メモリ、永続性、ネットワーク、セキュリティに影響を与える Redis 設定が含まれます。"
+        },
+        "ru": {
+          "name": "Конфигурация",
+          "desc": "Конфигурация охватывает параметры Redis, влияющие на память, постоянство, работу сети и безопасность."
+        },
+        "ko": {
+          "name": "구성",
+          "desc": "구성에는 메모리, 지속성, 네트워킹 및 보안에 영향을 미치는 Redis 설정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Configuração",
+          "desc": "A configuração abrange configurações do Redis que afetam memória, persistência, rede e segurança."
+        }
+      }
+    },
+    {
+      "key": "redis/access_security",
+      "slug": "access_security",
+      "name": "Access Security",
+      "desc": "Access security covers protecting Redis access and reducing unsafe exposure.",
+      "i18n": {
+        "zh": {
+          "name": "访问安全",
+          "desc": "访问安全涵盖保护 Redis 访问和减少不安全暴露。"
+        },
+        "es": {
+          "name": "Seguridad de acceso",
+          "desc": "La seguridad del acceso cubre la protección del acceso a Redis y la reducción de la exposición insegura."
+        },
+        "fr": {
+          "name": "Sécurité d'accès",
+          "desc": "La sécurité des accès couvre la protection des accès Redis et la réduction des expositions dangereuses."
+        },
+        "de": {
+          "name": "Zugriffssicherheit",
+          "desc": "Die Zugangssicherheit umfasst den Schutz des Redis-Zugangs und die Reduzierung unsicherer Exposition."
+        },
+        "ja": {
+          "name": "アクセスセキュリティ",
+          "desc": "アクセスセキュリティには、Redis アクセスの保護と危険な暴露の削減が含まれます。"
+        },
+        "ru": {
+          "name": "Безопасность доступа",
+          "desc": "Безопасность доступа включает защиту доступа к Redis и снижение риска небезопасного открытого доступа."
+        },
+        "ko": {
+          "name": "접근 보안",
+          "desc": "접근 보안은 Redis 접근을 보호하고 위험한 노출을 줄이는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Segurança de acesso",
+          "desc": "A segurança de acesso abrange a proteção do acesso ao Redis e a redução da exposição insegura."
+        }
+      }
+    },
+    {
+      "key": "redis/runtime_monitoring",
+      "slug": "runtime_monitoring",
+      "name": "Runtime Monitoring",
+      "desc": "Runtime monitoring covers observing Redis command latency and server health.",
+      "i18n": {
+        "zh": {
+          "name": "运行时监控",
+          "desc": "运行时监控涵盖观察 Redis 命令延迟和服务器运行状况。"
+        },
+        "es": {
+          "name": "Monitoreo de tiempo de ejecución",
+          "desc": "El monitoreo del tiempo de ejecución cubre la observación de la latencia de los comandos Redis y el estado del servidor."
+        },
+        "fr": {
+          "name": "Surveillance du temps d'exécution",
+          "desc": "La surveillance de l'exécution couvre l'observation de la latence des commandes Redis et de l'état du serveur."
+        },
+        "de": {
+          "name": "Laufzeitüberwachung",
+          "desc": "Die Laufzeitüberwachung umfasst die Beobachtung der Befehlslatenz von Redis und des Serverzustands."
+        },
+        "ja": {
+          "name": "ランタイムモニタリング",
+          "desc": "ランタイム監視には、Redis コマンドの遅延とサーバーの健全性の監視が含まれます。"
+        },
+        "ru": {
+          "name": "Мониторинг времени выполнения",
+          "desc": "Мониторинг времени выполнения охватывает наблюдение за задержкой команд Redis и состоянием сервера."
+        },
+        "ko": {
+          "name": "런타임 모니터링",
+          "desc": "런타임 모니터링에는 Redis 명령 대기 시간 및 서버 상태 관찰이 포함됩니다."
+        },
+        "pt": {
+          "name": "Monitoramento de tempo de execução",
+          "desc": "O monitoramento de tempo de execução abrange a observação da latência do comando Redis e da integridade do servidor."
+        }
+      }
+    },
+    {
+      "key": "redis/backup_restore",
+      "slug": "backup_restore",
+      "name": "Backup and Restore",
+      "desc": "Backup and restore cover protecting and recovering Redis data safely.",
+      "i18n": {
+        "zh": {
+          "name": "备份与恢复",
+          "desc": "备份和恢复涵盖安全地保护和恢复 Redis 数据。"
+        },
+        "es": {
+          "name": "Copia de seguridad y restauración",
+          "desc": "La copia de seguridad y restauración cubre proteger y recuperar datos de Redis de forma segura."
+        },
+        "fr": {
+          "name": "Sauvegarde et restauration",
+          "desc": "La sauvegarde et la restauration couvrent la protection et la récupération des données Redis en toute sécurité."
+        },
+        "de": {
+          "name": "Sichern und Wiederherstellen",
+          "desc": "Sicherung und Wiederherstellung umfassen den Schutz und die sichere Wiederherstellung von Redis-Daten."
+        },
+        "ja": {
+          "name": "バックアップと復元",
+          "desc": "バックアップと復元では、Redis データを安全に保護および回復します。"
+        },
+        "ru": {
+          "name": "Резервное копирование и восстановление",
+          "desc": "Резервное копирование и восстановление обеспечивают безопасную защиту и восстановление данных Redis."
+        },
+        "ko": {
+          "name": "백업 및 복원",
+          "desc": "백업 및 복원은 Redis 데이터를 안전하게 보호하고 복구합니다."
+        },
+        "pt": {
+          "name": "Backup e restauração",
+          "desc": "Backup e restauração cobrem a proteção e recuperação segura de dados Redis."
+        }
+      }
+    },
+    {
+      "key": "redis/performance_tuning",
+      "slug": "performance_tuning",
+      "name": "Performance Tuning",
+      "desc": "Performance tuning covers improving Redis behavior using data modeling, command choice, and runtime evidence.",
+      "i18n": {
+        "zh": {
+          "name": "性能调优",
+          "desc": "性能调优涵盖使用数据建模、命令选择和运行时证据来改进 Redis 性能。"
+        },
+        "es": {
+          "name": "Ajuste de rendimiento",
+          "desc": "El ajuste del rendimiento cubre la mejora del comportamiento de Redis mediante modelado de datos, elección de comandos y evidencia de tiempo de ejecución."
+        },
+        "fr": {
+          "name": "Optimisation des performances",
+          "desc": "L'optimisation des performances couvre l'amélioration du comportement Redis à l'aide de la modélisation des données, du choix des commandes et des preuves d'exécution."
+        },
+        "de": {
+          "name": "Leistungsoptimierung",
+          "desc": "Die Leistungsoptimierung umfasst die Verbesserung des Redis-Verhaltens mithilfe von Datenmodellierung, Befehlsauswahl und Laufzeitnachweisen."
+        },
+        "ja": {
+          "name": "パフォーマンスチューニング",
+          "desc": "パフォーマンスチューニングは、データモデリング、コマンド選択、実行時の根拠を使って Redis の性能を改善する方法を扱います。"
+        },
+        "ru": {
+          "name": "Настройка производительности",
+          "desc": "Настройка производительности включает в себя улучшение поведения Redis с использованием моделирования данных, выбора команд и данных времени выполнения."
+        },
+        "ko": {
+          "name": "성능 튜닝",
+          "desc": "성능 튜닝은 데이터 모델링, 명령 선택 및 런타임 근거를 사용해 Redis 성능을 개선하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Ajuste de desempenho",
+          "desc": "O ajuste de desempenho abrange a melhoria do comportamento do Redis usando modelagem de dados, escolha de comandos e evidências de tempo de execução."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2407 @@
+{
+  "key": "git",
+  "slug": "git",
+  "name": "Git",
+  "skills": [
+    {
+      "key": "git/git_configuration",
+      "slug": "git_configuration",
+      "name": "Git Configuration",
+      "desc": "Git configuration covers user identity, configuration scopes, aliases, defaults, and repository-specific settings.",
+      "i18n": {
+        "zh": {
+          "name": "Git 配置",
+          "desc": "Git 配置涵盖用户身份、配置范围、别名、默认值和特定于存储库的设置。"
+        },
+        "es": {
+          "name": "Configuración de Git",
+          "desc": "La configuración Git cubre la identidad del usuario, los alcances de la configuración, los alias, los valores predeterminados y las configuraciones específicas del repositorio."
+        },
+        "fr": {
+          "name": "Configuration de Git",
+          "desc": "La configuration Git couvre l'identité de l'utilisateur, les étendues de configuration, les alias, les valeurs par défaut et les paramètres spécifiques au référentiel."
+        },
+        "de": {
+          "name": "Git-Konfiguration",
+          "desc": "Die Git-Konfiguration umfasst Benutzeridentität, Konfigurationsbereiche, Aliase, Standardeinstellungen und Repository-spezifische Einstellungen."
+        },
+        "ja": {
+          "name": "Git 構成",
+          "desc": "Git 設定には、ユーザー ID、設定スコープ、エイリアス、デフォルト、およびリポジトリ固有の設定が含まれます。"
+        },
+        "ru": {
+          "name": "Конфигурация Git",
+          "desc": "Конфигурация Git охватывает идентификацию пользователя, области конфигурации, псевдонимы, значения по умолчанию и настройки, специфичные для репозитория."
+        },
+        "ko": {
+          "name": "Git 구성",
+          "desc": "Git 구성에는 사용자 ID, 구성 범위, 별칭, 기본값 및 저장소별 설정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Configuração do Git",
+          "desc": "A configuração Git cobre a identidade do usuário, escopos de configuração, aliases, padrões e configurações específicas do repositório."
+        }
+      }
+    },
+    {
+      "key": "git/repository_initialization",
+      "slug": "repository_initialization",
+      "name": "Repository Initialization",
+      "desc": "Repository initialization covers creating new Git repositories and understanding the initial repository state.",
+      "i18n": {
+        "zh": {
+          "name": "存储库初始化",
+          "desc": "存储库初始化包括创建新的 Git 存储库并了解初始存储库状态。"
+        },
+        "es": {
+          "name": "Inicialización del repositorio",
+          "desc": "La inicialización del repositorio cubre la creación de nuevos Git repositorios y la comprensión del estado inicial del repositorio."
+        },
+        "fr": {
+          "name": "Initialisation du référentiel",
+          "desc": "L'initialisation du référentiel couvre la création de nouveaux Git référentiels et la compréhension de l'état initial du référentiel."
+        },
+        "de": {
+          "name": "Repository-Initialisierung",
+          "desc": "Die Repository-Initialisierung umfasst das Erstellen neuer Git-Repositorys und das Verstehen des anfänglichen Repository-Status."
+        },
+        "ja": {
+          "name": "リポジトリの初期化",
+          "desc": "リポジトリの初期化では、新しい Git リポジトリの作成と、リポジトリの初期状態の理解について説明します。"
+        },
+        "ru": {
+          "name": "Инициализация репозитория",
+          "desc": "Инициализация репозитория включает в себя создание новых Git репозиториев и понимание исходного состояния репозитория."
+        },
+        "ko": {
+          "name": "저장소 초기화",
+          "desc": "리포지토리 초기화에는 새로운 Git 리포지토리 생성 및 초기 리포지토리 상태 이해가 포함됩니다."
+        },
+        "pt": {
+          "name": "Inicialização do repositório",
+          "desc": "A inicialização do repositório abrange a criação de novos repositórios Git e a compreensão do estado inicial do repositório."
+        }
+      }
+    },
+    {
+      "key": "git/repository_cloning",
+      "slug": "repository_cloning",
+      "name": "Repository Cloning",
+      "desc": "Repository cloning covers copying existing repositories, choosing clone targets, and understanding clone results.",
+      "i18n": {
+        "zh": {
+          "name": "存储库克隆",
+          "desc": "存储库克隆包括复制现有存储库、选择克隆目标以及了解克隆结果。"
+        },
+        "es": {
+          "name": "Clonación de repositorios",
+          "desc": "La clonación de repositorios cubre la copia de repositorios existentes, la elección de objetivos de clonación y la comprensión de los resultados de la clonación."
+        },
+        "fr": {
+          "name": "Clonage de référentiel",
+          "desc": "Le clonage de référentiels couvre la copie de référentiels existants, le choix des cibles de clonage et la compréhension des résultats du clonage."
+        },
+        "de": {
+          "name": "Repository-Klonen",
+          "desc": "Das Klonen von Repositorys umfasst das Kopieren vorhandener Repositorys, die Auswahl von Klonzielen und das Verstehen der Klonergebnisse."
+        },
+        "ja": {
+          "name": "リポジトリのクローン作成",
+          "desc": "リポジトリのクローン作成では、既存のリポジトリのコピー、クローンターゲットの選択、クローン結果の理解について説明します。"
+        },
+        "ru": {
+          "name": "Клонирование репозитория",
+          "desc": "Клонирование репозитория включает копирование существующих репозиториев, выбор целей клонирования и понимание результатов клонирования."
+        },
+        "ko": {
+          "name": "저장소 복제",
+          "desc": "리포지토리 복제에는 기존 리포지토리 복사, 복제 대상 선택, 복제 결과 이해가 포함됩니다."
+        },
+        "pt": {
+          "name": "Clonagem de repositório",
+          "desc": "A clonagem de repositórios abrange a cópia de repositórios existentes, a escolha de destinos de clonagem e a compreensão dos resultados da clonagem."
+        }
+      }
+    },
+    {
+      "key": "git/repository_structure",
+      "slug": "repository_structure",
+      "name": "Repository Structure",
+      "desc": "Repository structure covers the working directory, the .git directory, metadata files, and repository-local state.",
+      "i18n": {
+        "zh": {
+          "name": "存储库结构",
+          "desc": "存储库结构涵盖工作目录、.git 目录、元数据文件和存储库本地状态。"
+        },
+        "es": {
+          "name": "Estructura del repositorio",
+          "desc": "La estructura del repositorio cubre el directorio de trabajo, el directorio.git, los archivos de metadatos y el estado local del repositorio."
+        },
+        "fr": {
+          "name": "Structure du référentiel",
+          "desc": "La structure du référentiel couvre le répertoire de travail, le répertoire.git, les fichiers de métadonnées et l'état local du référentiel."
+        },
+        "de": {
+          "name": "Repository-Struktur",
+          "desc": "Die Repository-Struktur umfasst das Arbeitsverzeichnis, das.git-Verzeichnis, Metadatendateien und den lokalen Status des Repositorys."
+        },
+        "ja": {
+          "name": "リポジトリ構造",
+          "desc": "リポジトリ構造には、作業ディレクトリ、.git ディレクトリ、メタデータファイル、およびリポジトリのローカル状態が含まれます。"
+        },
+        "ru": {
+          "name": "Структура репозитория",
+          "desc": "Структура репозитория охватывает рабочий каталог, каталог.git, файлы метаданных и локальное состояние репозитория."
+        },
+        "ko": {
+          "name": "저장소 구조",
+          "desc": "리포지토리 구조에는 작업 디렉터리,.git 디렉터리, 메타데이터 파일 및 리포지토리-로컬 상태가 포함됩니다."
+        },
+        "pt": {
+          "name": "Estrutura do Repositório",
+          "desc": "A estrutura do repositório cobre o diretório de trabalho, o diretório.git, os arquivos de metadados e o estado local do repositório."
+        }
+      }
+    },
+    {
+      "key": "git/object_model",
+      "slug": "object_model",
+      "name": "Object Model",
+      "desc": "Object model covers blobs, trees, commits, tags, object identifiers, and how Git stores versioned content.",
+      "i18n": {
+        "zh": {
+          "name": "对象模型",
+          "desc": "对象模型涵盖 blob、树、提交、标签、对象标识符以及 Git 如何存储版本化内容。"
+        },
+        "es": {
+          "name": "Modelo de objetos",
+          "desc": "El modelo de objetos cubre blobs, árboles, commits, tags, identificadores de objetos y cómo Git almacena el contenido versionado."
+        },
+        "fr": {
+          "name": "Modèle objet",
+          "desc": "Le modèle objet couvre les blobs, les arbres, les commits, les balises, les identifiants d'objet et la manière dont Git stocke le contenu versionné."
+        },
+        "de": {
+          "name": "Objektmodell",
+          "desc": "Das Objektmodell umfasst Blobs, Bäume, Commits, Tags, Objektkennungen und wie Git versionierte Inhalte speichert."
+        },
+        "ja": {
+          "name": "オブジェクトモデル",
+          "desc": "オブジェクトモデルは、BLOB、ツリー、コミット、タグ、オブジェクト識別子、および Git がバージョン管理されたコンテンツを保存する方法を扱います。"
+        },
+        "ru": {
+          "name": "Объектная модель",
+          "desc": "Объектная модель охватывает BLOB-объекты, деревья, фиксации, теги, идентификаторы объектов и то, как Git хранит версионный контент."
+        },
+        "ko": {
+          "name": "객체 모델",
+          "desc": "개체 모델은 Blob, 트리, 커밋, 태그, 개체 식별자 및 Git에서 버전이 지정된 콘텐츠를 저장하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelo de Objeto",
+          "desc": "O modelo de objeto cobre blobs, árvores, commits, tags, identificadores de objeto e como Git armazena conteúdo versionado."
+        }
+      }
+    },
+    {
+      "key": "git/references",
+      "slug": "references",
+      "name": "References",
+      "desc": "References cover named pointers such as branches, tags, remote-tracking branches, and symbolic refs.",
+      "i18n": {
+        "zh": {
+          "name": "引用",
+          "desc": "引用涵盖命名指针，例如分支、标签、远程跟踪分支和符号引用。"
+        },
+        "es": {
+          "name": "Referencias",
+          "desc": "Las referencias cubren punteros con nombre, como ramas, etiquetas, ramas de seguimiento remoto y referencias simbólicas."
+        },
+        "fr": {
+          "name": "Références",
+          "desc": "Les références couvrent les pointeurs nommés tels que les branches, les balises, les branches de suivi à distance et les références symboliques."
+        },
+        "de": {
+          "name": "Referenzen",
+          "desc": "Referenzen umfassen benannte Zeiger wie Branches, Tags, Remote-Tracking-Branches und symbolische Referenzen."
+        },
+        "ja": {
+          "name": "参照",
+          "desc": "参照には、ブランチ、タグ、リモート追跡ブランチ、シンボリック ref などの名前付きポインタが含まれます。"
+        },
+        "ru": {
+          "name": "Ссылки",
+          "desc": "Ссылки охватывают именованные указатели, такие как ветки, теги, ветки удаленного отслеживания и символические ссылки."
+        },
+        "ko": {
+          "name": "참조",
+          "desc": "참조에는 분기, 태그, 원격 추적 분기 및 기호 참조와 같은 명명된 포인터가 포함됩니다."
+        },
+        "pt": {
+          "name": "Referências",
+          "desc": "As referências abrangem ponteiros nomeados, como branches, tags, branches de rastreamento remoto e referências simbólicas."
+        }
+      }
+    },
+    {
+      "key": "git/head_reference",
+      "slug": "head_reference",
+      "name": "HEAD Reference",
+      "desc": "HEAD reference covers the current checkout target, detached HEAD states, and how HEAD affects new commits.",
+      "i18n": {
+        "zh": {
+          "name": "HEAD 引用",
+          "desc": "HEAD 引用涵盖当前检出目标、分离 HEAD 状态以及 HEAD 如何影响新 commit。"
+        },
+        "es": {
+          "name": "Referencia HEAD",
+          "desc": "La referencia HEAD cubre el destino de checkout actual, los estados de HEAD separada y cómo HEAD afecta a los nuevos commits."
+        },
+        "fr": {
+          "name": "Référence HEAD",
+          "desc": "La référence HEAD couvre la cible de checkout actuelle, les états HEAD détachés et la manière dont HEAD affecte les nouveaux commits."
+        },
+        "de": {
+          "name": "HEAD Referenz",
+          "desc": "Die HEAD-Referenz behandelt das aktuelle Checkout-Ziel, getrennte HEAD-Zustände und wie sich HEAD auf neue Commits auswirkt."
+        },
+        "ja": {
+          "name": "HEAD 参照",
+          "desc": "HEAD リファレンスでは、現在のチェックアウトターゲット、切り離された HEAD 状態、および HEAD が新しいコミットに与える影響について説明します。"
+        },
+        "ru": {
+          "name": "Ссылка HEAD",
+          "desc": "Ссылка HEAD охватывает текущую цель checkout, состояние detached HEAD и то, как HEAD влияет на новые коммиты."
+        },
+        "ko": {
+          "name": "HEAD 참조",
+          "desc": "HEAD 참조는 현재 체크아웃 대상, 분리된 HEAD 상태 및 HEAD가 새 커밋에 미치는 영향을 다룹니다."
+        },
+        "pt": {
+          "name": "Referência HEAD",
+          "desc": "A referência HEAD cobre o destino de checkout atual, estados de HEAD destacado e como HEAD afeta novos commits."
+        }
+      }
+    },
+    {
+      "key": "git/revision_selection",
+      "slug": "revision_selection",
+      "name": "Revision Selection",
+      "desc": "Revision selection covers naming commits with refs, object IDs, ancestry syntax, and relative commit expressions.",
+      "i18n": {
+        "zh": {
+          "name": "修订版选择",
+          "desc": "修订选择涵盖使用引用、对象 ID、祖先语法和相对提交表达式来命名提交。"
+        },
+        "es": {
+          "name": "Selección de revisión",
+          "desc": "La selección de revisiones cubre nombrar commits con referencias, IDs de objeto, sintaxis de ancestros y expresiones relativas de commit."
+        },
+        "fr": {
+          "name": "Sélection de révision",
+          "desc": "La sélection de révisions couvre le nommage de commits avec des références, des ID d’objet, la syntaxe d’ancêtres et des expressions relatives de commit."
+        },
+        "de": {
+          "name": "Revisionsauswahl",
+          "desc": "Die Revisionsauswahl umfasst die Benennung von Commits mit Referenzen, Objekt-IDs, Abstammungssyntax und relativen Commit-Ausdrücken."
+        },
+        "ja": {
+          "name": "リビジョンの選択",
+          "desc": "リビジョンの選択には、参照、オブジェクト ID、祖先構文、および相対コミット式を使用したコミットの名前付けが含まれます。"
+        },
+        "ru": {
+          "name": "Выбор ревизий",
+          "desc": "Выбор ревизий охватывает именование коммитов с помощью ссылок, идентификаторов объектов, синтаксиса предков и относительных выражений commit."
+        },
+        "ko": {
+          "name": "개정 선택",
+          "desc": "개정 선택에는 참조, 객체 ID, 상위 구문 및 상대 커밋 표현식을 사용하여 커밋 이름 지정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Seleção de revisão",
+          "desc": "A seleção de revisão abrange a nomenclatura de commits com referências, IDs de objeto, sintaxe de ancestralidade e expressões de commit relativas."
+        }
+      }
+    },
+    {
+      "key": "git/revision_ranges",
+      "slug": "revision_ranges",
+      "name": "Revision Ranges",
+      "desc": "Revision ranges cover selecting sets of commits for history inspection, comparison, and integration operations.",
+      "i18n": {
+        "zh": {
+          "name": "修订范围",
+          "desc": "修订范围涵盖选择用于历史检查、比较和集成操作的提交集。"
+        },
+        "es": {
+          "name": "Rangos de revisión",
+          "desc": "Los rangos de revisión cubren la selección de conjuntos de commits para operaciones de inspección, comparación e integración del historial."
+        },
+        "fr": {
+          "name": "Plages de révision",
+          "desc": "Les plages de révision couvrent la sélection d’ensembles de commits pour les opérations d’inspection, de comparaison et d’intégration de l’historique."
+        },
+        "de": {
+          "name": "Revisionsbereiche",
+          "desc": "Revisionsbereiche decken die Auswahl von Commit-Sätzen für Verlaufsprüfungen, Vergleiche und Integrationsvorgänge ab."
+        },
+        "ja": {
+          "name": "リビジョン範囲",
+          "desc": "リビジョン範囲には、履歴の検査、比較、統合操作のためのコミットのセットの選択が含まれます。"
+        },
+        "ru": {
+          "name": "Диапазоны ревизий",
+          "desc": "Диапазоны ревизий охватывают выбор наборов коммитов для операций проверки истории, сравнения и интеграции."
+        },
+        "ko": {
+          "name": "개정 범위",
+          "desc": "개정 범위에는 기록 검사, 비교 및 통합 작업을 위한 커밋 집합 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Intervalos de revisão",
+          "desc": "Os intervalos de revisão cobrem a seleção de conjuntos de commits para operações de inspeção, comparação e integração de histórico."
+        }
+      }
+    },
+    {
+      "key": "git/pathspecs",
+      "slug": "pathspecs",
+      "name": "Pathspecs",
+      "desc": "Pathspecs cover selecting repository paths in Git commands using file names, directories, patterns, and pathspec magic.",
+      "i18n": {
+        "zh": {
+          "name": "路径规范",
+          "desc": "路径规范涵盖使用文件名、目录、模式和路径规范魔法在 Git 命令中选择存储库路径。"
+        },
+        "es": {
+          "name": "Especificaciones de ruta",
+          "desc": "Las especificaciones de ruta cubren la selección de rutas de repositorio en comandos Git usando nombres de archivos, directorios, patrones y magia de especificaciones de ruta."
+        },
+        "fr": {
+          "name": "Spécifications du chemin",
+          "desc": "Les Pathspecs couvrent la sélection des chemins de référentiel dans les commandes Git à l'aide des noms de fichiers, des répertoires, des modèles et de la magie pathspec."
+        },
+        "de": {
+          "name": "Pfadangaben",
+          "desc": "Pathspecs umfassen die Auswahl von Repository-Pfaden in Git-Befehlen unter Verwendung von Dateinamen, Verzeichnissen, Mustern und Pathspec-Magie."
+        },
+        "ja": {
+          "name": "パススペック",
+          "desc": "Pathspec は、ファイル名、ディレクトリ、パターン、および pathspec マジックを使用した Git コマンドでのリポジトリパスの選択を扱います。"
+        },
+        "ru": {
+          "name": "Pathspec",
+          "desc": "Pathspec охватывает выбор путей репозитория в командах Git с использованием имен файлов, каталогов, шаблонов и pathspec magic."
+        },
+        "ko": {
+          "name": "경로 사양",
+          "desc": "Pathspec은 파일 이름, 디렉터리, 패턴 및 pathspec 매직을 사용하여 Git 명령에서 저장소 경로를 선택하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Especificações de caminho",
+          "desc": "Pathspecs cobrem a seleção de caminhos de repositório em comandos Git usando nomes de arquivos, diretórios, padrões e magia pathspec."
+        }
+      }
+    },
+    {
+      "key": "git/working_tree",
+      "slug": "working_tree",
+      "name": "Working Tree",
+      "desc": "Working tree covers the checked-out files, local modifications, untracked files, and filesystem state seen by Git.",
+      "i18n": {
+        "zh": {
+          "name": "工作树",
+          "desc": "工作树涵盖了 Git 看到的签出文件、本地修改、未跟踪文件和文件系统状态。"
+        },
+        "es": {
+          "name": "Árbol de trabajo",
+          "desc": "El árbol de trabajo cubre los archivos extraídos, las modificaciones locales, los archivos sin seguimiento y el estado del sistema de archivos visto por Git."
+        },
+        "fr": {
+          "name": "Arbre de travail",
+          "desc": "L'arborescence de travail couvre les fichiers extraits, les modifications locales, les fichiers non suivis et l'état du système de fichiers vu par Git."
+        },
+        "de": {
+          "name": "Arbeitsbaum",
+          "desc": "Der Arbeitsbaum umfasst die ausgecheckten Dateien, lokalen Änderungen, nicht verfolgten Dateien und den von Git angezeigten Dateisystemstatus."
+        },
+        "ja": {
+          "name": "ワーキングツリー",
+          "desc": "作業ツリーには、チェックアウトされたファイル、ローカルの変更、追跡されていないファイル、および Git で認識されるファイルシステムの状態が含まれます。"
+        },
+        "ru": {
+          "name": "Рабочее дерево",
+          "desc": "Рабочее дерево охватывает извлеченные файлы, локальные изменения, неотслеживаемые файлы и состояние файловой системы, видимые Git."
+        },
+        "ko": {
+          "name": "워킹 트리",
+          "desc": "작업 트리에는 체크아웃된 파일, 로컬 수정 사항, 추적되지 않은 파일, Git에서 확인한 파일 시스템 상태가 포함됩니다."
+        },
+        "pt": {
+          "name": "Árvore de trabalho",
+          "desc": "A árvore de trabalho cobre os arquivos com check-out, modificações locais, arquivos não rastreados e estado do sistema de arquivos visto pelo Git."
+        }
+      }
+    },
+    {
+      "key": "git/index",
+      "slug": "index",
+      "name": "Index",
+      "desc": "Index covers Git's staging area, tracked path entries, staged content, and its relationship to commits.",
+      "i18n": {
+        "zh": {
+          "name": "索引",
+          "desc": "索引涵盖 Git 的暂存区域、跟踪的路径条目、暂存内容及其与提交的关系。"
+        },
+        "es": {
+          "name": "Índice",
+          "desc": "El índice cubre el área de preparación de Git, las entradas de rutas rastreadas, el contenido preparado para commit y su relación con los commits."
+        },
+        "fr": {
+          "name": "Indice",
+          "desc": "L’index couvre la zone de préparation de Git, les entrées de chemins suivis, le contenu prêt pour commit et sa relation avec les commits."
+        },
+        "de": {
+          "name": "Index",
+          "desc": "Der Index behandelt den Vorbereitungsbereich von Git, verfolgte Pfadeinträge, vorbereitete Inhalte und seine Beziehung zu Commits."
+        },
+        "ja": {
+          "name": "インデックス",
+          "desc": "インデックスは、Git のステージング領域、追跡されたパスエントリ、ステージングされたコンテンツ、およびコミットとの関係を扱います。"
+        },
+        "ru": {
+          "name": "Индекс",
+          "desc": "Индекс охватывает область staging в Git, отслеживаемые записи путей, staged-содержимое и его связь с коммитами."
+        },
+        "ko": {
+          "name": "인덱스",
+          "desc": "인덱스는 Git의 스테이징 영역, 추적된 경로 항목, 스테이징된 콘텐츠 및 커밋과의 관계를 다룹니다."
+        },
+        "pt": {
+          "name": "Índice",
+          "desc": "O índice cobre a área de preparação do Git, entradas de caminho rastreadas, conteúdo preparado para commit e sua relação com commits."
+        }
+      }
+    },
+    {
+      "key": "git/ignore_rules",
+      "slug": "ignore_rules",
+      "name": "Ignore Rules",
+      "desc": "Ignore rules cover excluding generated, temporary, or local-only files from Git tracking decisions.",
+      "i18n": {
+        "zh": {
+          "name": "忽略规则",
+          "desc": "忽略规则涵盖从 Git 跟踪决策中排除生成的、临时的或仅限本地的文件。"
+        },
+        "es": {
+          "name": "Ignorar reglas",
+          "desc": "Las reglas de ignorar cubren la exclusión de archivos generados, temporales o solo locales de las decisiones de seguimiento de Git."
+        },
+        "fr": {
+          "name": "Ignorer les règles",
+          "desc": "Les règles d'ignorance couvrent l'exclusion des fichiers générés, temporaires ou locaux uniquement des décisions de suivi Git."
+        },
+        "de": {
+          "name": "Regeln ignorieren",
+          "desc": "Ignorierungsregeln umfassen den Ausschluss generierter, temporärer oder nur lokaler Dateien von Git Tracking-Entscheidungen."
+        },
+        "ja": {
+          "name": "ルールを無視する",
+          "desc": "無視ルールでは、生成されたファイル、一時ファイル、またはローカル専用ファイルを Git 追跡決定から除外します。"
+        },
+        "ru": {
+          "name": "Игнорировать правила",
+          "desc": "Правила игнорирования охватывают исключение созданных, временных или локальных файлов из решений по отслеживанию Git."
+        },
+        "ko": {
+          "name": "규칙 무시",
+          "desc": "무시 규칙은 Git 추적 결정에서 생성된 파일, 임시 파일 또는 로컬 전용 파일을 제외하는 것을 포함합니다."
+        },
+        "pt": {
+          "name": "Ignorar regras",
+          "desc": "As regras para ignorar abrangem a exclusão de arquivos gerados, temporários ou somente locais das decisões de rastreamento Git."
+        }
+      }
+    },
+    {
+      "key": "git/attribute_rules",
+      "slug": "attribute_rules",
+      "name": "Attribute Rules",
+      "desc": "Attribute rules cover path-specific Git behavior such as text normalization, binary handling, diff drivers, and merge drivers.",
+      "i18n": {
+        "zh": {
+          "name": "属性规则",
+          "desc": "属性规则涵盖特定于路径的 Git 行为，例如文本规范化、二进制处理、差异驱动程序和合并驱动程序。"
+        },
+        "es": {
+          "name": "Reglas de atributos",
+          "desc": "Las reglas de atributos cubren el comportamiento Git específico de la ruta, como la normalización de texto, el manejo binario, los controladores de diferencias y los controladores de combinación."
+        },
+        "fr": {
+          "name": "Règles d'attribut",
+          "desc": "Les règles d'attribut couvrent le comportement Git spécifique au chemin, tel que la normalisation du texte, la gestion binaire, les pilotes de différence et les pilotes de fusion."
+        },
+        "de": {
+          "name": "Attributregeln",
+          "desc": "Attributregeln decken pfadspezifisches Git-Verhalten wie Textnormalisierung, Binärverarbeitung, Diff-Treiber und Merge-Treiber ab."
+        },
+        "ja": {
+          "name": "属性ルール",
+          "desc": "属性ルールは、テキストの正規化、バイナリ処理、差分ドライバー、マージドライバーなどのパス固有の Git 動作を扱います。"
+        },
+        "ru": {
+          "name": "Правила атрибутов",
+          "desc": "Правила атрибутов охватывают поведение, зависящее от пути Git, такое как нормализация текста, обработка двоичных файлов, драйверы сравнения и драйверы слияния."
+        },
+        "ko": {
+          "name": "속성 규칙",
+          "desc": "속성 규칙은 텍스트 정규화, 바이너리 처리, diff 드라이버 및 병합 드라이버와 같은 경로별 Git 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Regras de atributos",
+          "desc": "As regras de atributos cobrem o comportamento Git específico do caminho, como normalização de texto, manipulação binária, drivers diff e drivers de mesclagem."
+        }
+      }
+    },
+    {
+      "key": "git/status_inspection",
+      "slug": "status_inspection",
+      "name": "Status Inspection",
+      "desc": "Status inspection covers interpreting tracked, untracked, staged, unstaged, conflicted, and ignored path states.",
+      "i18n": {
+        "zh": {
+          "name": "状态检查",
+          "desc": "状态检查涵盖解释已跟踪、未跟踪、暂存、未暂存、冲突和忽略的路径状态。"
+        },
+        "es": {
+          "name": "Inspección de estado",
+          "desc": "La inspección de estado cubre la interpretación de rutas rastreadas, no rastreadas, preparadas, no preparadas, en conflicto e ignoradas."
+        },
+        "fr": {
+          "name": "Inspection de l’état",
+          "desc": "L’inspection de l’état couvre l’interprétation des chemins suivis, non suivis, préparés, non préparés, en conflit et ignorés."
+        },
+        "de": {
+          "name": "Status-Inspektion",
+          "desc": "Die Status-Inspektion behandelt die Interpretation von verfolgten, nicht verfolgten, vorbereiteten, nicht vorbereiteten, konfliktbehafteten und ignorierten Pfadzuständen."
+        },
+        "ja": {
+          "name": "状態検査",
+          "desc": "状態検査は、追跡済み、未追跡、ステージ済み、未ステージ、競合中、無視済みの各パス状態の解釈を扱います。"
+        },
+        "ru": {
+          "name": "Проверка статуса",
+          "desc": "Проверка статуса охватывает интерпретацию состояний путей: отслеживаемые, неотслеживаемые, подготовленные, неподготовленные, конфликтующие и игнорируемые."
+        },
+        "ko": {
+          "name": "상태 점검",
+          "desc": "상태 점검은 추적됨, 추적되지 않음, 준비됨, 준비되지 않음, 충돌, 무시됨 경로 상태 해석을 다룹니다."
+        },
+        "pt": {
+          "name": "Inspeção de estado",
+          "desc": "A inspeção de estado abrange a interpretação de caminhos rastreados, não rastreados, adicionados ao índice, fora do índice, em conflito e ignorados."
+        }
+      }
+    },
+    {
+      "key": "git/staging_changes",
+      "slug": "staging_changes",
+      "name": "Staging Changes",
+      "desc": "Staging changes covers adding, updating, and removing tracked content in the index before creating commits.",
+      "i18n": {
+        "zh": {
+          "name": "暂存更改",
+          "desc": "暂存更改包括在创建 commit 之前，在索引中添加、更新和删除已跟踪内容。"
+        },
+        "es": {
+          "name": "Preparación de cambios",
+          "desc": "La preparación de cambios cubre agregar, actualizar y eliminar contenido rastreado en el índice antes de crear commits."
+        },
+        "fr": {
+          "name": "Préparation des changements",
+          "desc": "La préparation des changements couvre l’ajout, la mise à jour et la suppression du contenu suivi dans l’index avant de créer des commits."
+        },
+        "de": {
+          "name": "Änderungen vorbereiten",
+          "desc": "Das Vorbereiten von Änderungen umfasst das Hinzufügen, Aktualisieren und Entfernen verfolgter Inhalte im Index vor dem Erstellen von Commits."
+        },
+        "ja": {
+          "name": "ステージングの変更",
+          "desc": "変更のステージングでは、コミットを作成する前に、インデックス内の追跡対象コンテンツの追加、更新、削除を行います。"
+        },
+        "ru": {
+          "name": "Подготовка изменений",
+          "desc": "Подготовка изменений включает добавление, обновление и удаление отслеживаемого содержимого в индексе перед созданием коммитов."
+        },
+        "ko": {
+          "name": "스테이징 변경 사항",
+          "desc": "스테이징 변경에는 커밋을 생성하기 전에 인덱스에서 추적된 콘텐츠를 추가, 업데이트 및 제거하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Preparação de alterações",
+          "desc": "A preparação de alterações abrange a adição, atualização e remoção de conteúdo rastreado no índice antes de criar commits."
+        }
+      }
+    },
+    {
+      "key": "git/partial_staging",
+      "slug": "partial_staging",
+      "name": "Partial Staging",
+      "desc": "Partial staging covers selecting individual files, hunks, or lines so commits contain only intended changes.",
+      "i18n": {
+        "zh": {
+          "name": "部分暂存",
+          "desc": "部分暂存包括选择单个文件、变更块或行，使 commit 只包含预期更改。"
+        },
+        "es": {
+          "name": "Preparación parcial",
+          "desc": "La preparación parcial cubre la selección de archivos, bloques de cambios o líneas individuales, de modo que los commits contengan solo los cambios previstos."
+        },
+        "fr": {
+          "name": "Préparation partielle",
+          "desc": "La préparation partielle couvre la sélection de fichiers, de blocs de changements ou de lignes individuelles afin que les commits ne contiennent que les modifications prévues."
+        },
+        "de": {
+          "name": "Teilweise Vorbereitung",
+          "desc": "Teilweise Vorbereitung umfasst die Auswahl einzelner Dateien, Blöcke oder Zeilen, sodass Commits nur beabsichtigte Änderungen enthalten."
+        },
+        "ja": {
+          "name": "部分的なステージング",
+          "desc": "部分的なステージングでは、個別のファイル、ハンク、または行の選択が対象となるため、コミットには意図した変更のみが含まれます。"
+        },
+        "ru": {
+          "name": "Частичная подготовка",
+          "desc": "Частичная подготовка охватывает выбор отдельных файлов, блоков изменений или строк, чтобы коммиты содержали только запланированные изменения."
+        },
+        "ko": {
+          "name": "부분 스테이징",
+          "desc": "부분 스테이징은 개별 파일, 변경 블록 또는 줄을 선택하여 커밋에 의도한 변경 사항만 포함되도록 하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Preparação parcial",
+          "desc": "A preparação parcial cobre a seleção de arquivos, blocos de alterações ou linhas individuais para que os commits contenham apenas as alterações pretendidas."
+        }
+      }
+    },
+    {
+      "key": "git/untracked_file_cleanup",
+      "slug": "untracked_file_cleanup",
+      "name": "Untracked File Cleanup",
+      "desc": "Untracked file cleanup covers safely removing untracked files and directories without damaging tracked work.",
+      "i18n": {
+        "zh": {
+          "name": "未跟踪的文件清理",
+          "desc": "未跟踪的文件清理涵盖安全删除未跟踪的文件和目录，而不损坏跟踪的工作。"
+        },
+        "es": {
+          "name": "Limpieza de archivos sin seguimiento",
+          "desc": "La limpieza de archivos sin seguimiento cubre la eliminación segura de archivos y directorios sin seguimiento sin dañar el trabajo con seguimiento."
+        },
+        "fr": {
+          "name": "Nettoyage de fichiers non suivis",
+          "desc": "Le nettoyage des fichiers non suivis consiste à supprimer en toute sécurité les fichiers et répertoires non suivis sans endommager le travail suivi."
+        },
+        "de": {
+          "name": "Bereinigung nicht verfolgter Dateien",
+          "desc": "Die Bereinigung nicht verfolgter Dateien umfasst das sichere Entfernen nicht verfolgter Dateien und Verzeichnisse, ohne die verfolgte Arbeit zu beschädigen."
+        },
+        "ja": {
+          "name": "追跡されていないファイルのクリーンアップ",
+          "desc": "追跡されていないファイルのクリーンアップでは、追跡されている作業を損なうことなく、追跡されていないファイルとディレクトリを安全に削除します。"
+        },
+        "ru": {
+          "name": "Очистка неотслеживаемых файлов",
+          "desc": "Очистка неотслеживаемых файлов обеспечивает безопасное удаление неотслеживаемых файлов и каталогов без повреждения отслеживаемой работы."
+        },
+        "ko": {
+          "name": "추적되지 않은 파일 정리",
+          "desc": "추적되지 않은 파일 정리는 추적된 작업을 손상시키지 않고 추적되지 않은 파일과 디렉터리를 안전하게 제거하는 것을 포함합니다."
+        },
+        "pt": {
+          "name": "Limpeza de arquivos não rastreados",
+          "desc": "A limpeza de arquivos não rastreados abrange a remoção segura de arquivos e diretórios não rastreados, sem danificar o trabalho rastreado."
+        }
+      }
+    },
+    {
+      "key": "git/commit_creation",
+      "slug": "commit_creation",
+      "name": "Commit Creation",
+      "desc": "Commit creation covers recording staged changes with authorship, timestamps, parent commits, and repository state.",
+      "i18n": {
+        "zh": {
+          "name": "创建 commit",
+          "desc": "创建 commit 涵盖记录暂存更改的作者身份、时间戳、父 commit 和仓库状态。"
+        },
+        "es": {
+          "name": "Creación de commits",
+          "desc": "La creación de commits cubre el registro de cambios preparados con autoría, marcas de tiempo, commits padre y estado del repositorio."
+        },
+        "fr": {
+          "name": "Création de commits",
+          "desc": "La création de commits couvre l’enregistrement des changements préparés avec l’auteur, les horodatages, les commits parents et l’état du référentiel."
+        },
+        "de": {
+          "name": "Commit-Erstellung",
+          "desc": "Die Commit-Erstellung behandelt das Erfassen vorbereiteter Änderungen mit Autorschaft, Zeitstempeln, Parent-Commits und Repository-Status."
+        },
+        "ja": {
+          "name": "コミットの作成",
+          "desc": "コミットの作成では、作者、タイムスタンプ、親コミット、リポジトリ状態とともにステージ済み変更を記録することを扱います。"
+        },
+        "ru": {
+          "name": "Создание коммита",
+          "desc": "Создание коммитов охватывает запись подготовленных изменений с указанием авторства, временных меток, родительских коммитов и состояния репозитория."
+        },
+        "ko": {
+          "name": "커밋 생성",
+          "desc": "커밋 생성은 작성자, 타임스탬프, 부모 커밋, 저장소 상태와 함께 준비된 변경 사항을 기록하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Criação de commits",
+          "desc": "A criação de commits abrange o registro de alterações preparadas com autoria, carimbos de data/hora, commits pai e estado do repositório."
+        }
+      }
+    },
+    {
+      "key": "git/commit_messages",
+      "slug": "commit_messages",
+      "name": "Commit Messages",
+      "desc": "Commit messages cover writing concise subjects and useful bodies that describe the purpose of a change.",
+      "i18n": {
+        "zh": {
+          "name": "提交消息",
+          "desc": "提交消息包括编写简洁的标题和有用的正文来描述变更目的。"
+        },
+        "es": {
+          "name": "Mensajes de commit",
+          "desc": "Los mensajes de commit cubren la redacción de títulos concisos y cuerpos útiles que describen el propósito de un cambio."
+        },
+        "fr": {
+          "name": "Messages de commit",
+          "desc": "Les messages de commit couvrent la rédaction de titres concis et de corps utiles qui décrivent le but d’un changement."
+        },
+        "de": {
+          "name": "Commit-Nachrichten",
+          "desc": "Bei Commit-Nachrichten geht es darum, prägnante Betreffzeilen und nützliche Beschreibungstexte zu schreiben, die den Zweck einer Änderung beschreiben."
+        },
+        "ja": {
+          "name": "コミットメッセージ",
+          "desc": "コミットメッセージには、変更の目的を説明する簡潔な件名と有用な本文の記述が含まれます。"
+        },
+        "ru": {
+          "name": "Сообщения коммитов",
+          "desc": "Сообщения коммитов включают написание кратких заголовков и полезного текста, описывающего цель изменения."
+        },
+        "ko": {
+          "name": "커밋 메시지",
+          "desc": "커밋 메시지는 변경 목적을 설명하는 간결한 제목과 유용한 본문 작성을 다룹니다."
+        },
+        "pt": {
+          "name": "Mensagens de commit",
+          "desc": "As mensagens de commit cobrem a redação de títulos concisos e corpos úteis que descrevem o propósito de uma mudança."
+        }
+      }
+    },
+    {
+      "key": "git/commit_amendment",
+      "slug": "commit_amendment",
+      "name": "Commit Amendment",
+      "desc": "Commit amendment covers replacing the latest commit content or message while understanding rewritten commit identity.",
+      "i18n": {
+        "zh": {
+          "name": "修改 commit",
+          "desc": "修改 commit 涵盖替换最新 commit 的内容或消息，并理解被重写的 commit 身份。"
+        },
+        "es": {
+          "name": "Enmienda de commit",
+          "desc": "La enmienda de commit cubre la sustitución del contenido o mensaje del commit más reciente y la comprensión de la identidad del commit reescrito."
+        },
+        "fr": {
+          "name": "Amendement de commit",
+          "desc": "L’amendement de commit couvre le remplacement du dernier contenu ou message de commit tout en comprenant l’identité du commit réécrit."
+        },
+        "de": {
+          "name": "Commit ändern",
+          "desc": "Commit ändern behandelt das Ersetzen des Inhalts oder der Nachricht des neuesten Commits und das Verständnis der neu geschriebenen Commit-Identität."
+        },
+        "ja": {
+          "name": "commit の修正",
+          "desc": "commit の修正は、書き換えられた commit の識別情報を理解しながら、最新 commit の内容またはメッセージを置き換えることを扱います。"
+        },
+        "ru": {
+          "name": "Изменение commit",
+          "desc": "Изменение commit охватывает замену содержимого или сообщения последнего commit и понимание переписанного идентификатора commit."
+        },
+        "ko": {
+          "name": "커밋 수정",
+          "desc": "커밋 수정은 재작성된 commit 식별 정보를 이해하면서 최신 commit 내용 또는 메시지를 교체하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Alteração de commit",
+          "desc": "A alteração de commit cobre a substituição do conteúdo ou da mensagem do commit mais recente e a compreensão da identidade do commit reescrito."
+        }
+      }
+    },
+    {
+      "key": "git/diff_inspection",
+      "slug": "diff_inspection",
+      "name": "Diff Inspection",
+      "desc": "Diff inspection covers comparing working tree, index, commit, branch, and path changes.",
+      "i18n": {
+        "zh": {
+          "name": "差异检查",
+          "desc": "差异检查涵盖比较工作树、索引、提交、分支和路径更改。"
+        },
+        "es": {
+          "name": "Inspección de diff",
+          "desc": "La inspección de diff cubre la comparación de cambios en el árbol de trabajo, el índice, el commit, la branch y la ruta."
+        },
+        "fr": {
+          "name": "Inspection de diff",
+          "desc": "L’inspection de diff couvre la comparaison des modifications de l’arbre de travail, de l’index, du commit, de la branche et du chemin."
+        },
+        "de": {
+          "name": "Diff-Inspektion",
+          "desc": "Die Diff-Inspektion umfasst den Vergleich von Änderungen im Arbeitsbaum, Index, Commit, Branch und Pfad."
+        },
+        "ja": {
+          "name": "差分検査",
+          "desc": "Diff 検査では、作業ツリー、インデックス、コミット、ブランチ、パスの変更の比較が行われます。"
+        },
+        "ru": {
+          "name": "Проверка различий",
+          "desc": "Проверка diff охватывает сравнение изменений рабочего дерева, индекса, commit, branch и пути."
+        },
+        "ko": {
+          "name": "diff 검사",
+          "desc": "diff 검사는 작업 트리, 인덱스, commit, branch 및 경로 변경 사항 비교를 다룹니다."
+        },
+        "pt": {
+          "name": "Inspeção de diff",
+          "desc": "A inspeção de diff abrange a comparação de alterações na árvore de trabalho, índice, commit, branch e caminho."
+        }
+      }
+    },
+    {
+      "key": "git/patch_creation",
+      "slug": "patch_creation",
+      "name": "Patch Creation",
+      "desc": "Patch creation covers exporting Git changes as patch data for review, transfer, or later application.",
+      "i18n": {
+        "zh": {
+          "name": "补丁创建",
+          "desc": "补丁创建包括将 Git 更改导出为补丁数据以供审核、传输或以后应用。"
+        },
+        "es": {
+          "name": "Creación de parches",
+          "desc": "La creación de parches cubre la exportación de Git cambios como datos de parches para su revisión, transferencia o aplicación posterior."
+        },
+        "fr": {
+          "name": "Création de correctifs",
+          "desc": "La création de correctifs couvre l'exportation de Git modifications sous forme de données de correctifs pour révision, transfert ou application ultérieure."
+        },
+        "de": {
+          "name": "Patch-Erstellung",
+          "desc": "Die Patch-Erstellung umfasst den Export von Git-Änderungen als Patch-Daten zur Überprüfung, Übertragung oder späteren Anwendung."
+        },
+        "ja": {
+          "name": "パッチの作成",
+          "desc": "パッチの作成では、レビュー、転送、または後で適用するために、変更をパッチデータとしてエクスポートすることが含まれます。"
+        },
+        "ru": {
+          "name": "Создание патчей",
+          "desc": "Создание патчей включает экспорт Git изменений в виде данных патчей для просмотра, передачи или последующего применения."
+        },
+        "ko": {
+          "name": "패치 생성",
+          "desc": "패치 생성에는 검토, 전송 또는 향후 적용을 위해 Git 변경 사항을 패치 데이터로 내보내는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Criação de patches",
+          "desc": "A criação de patch abrange a exportação de alterações Git como dados de patch para revisão, transferência ou aplicação posterior."
+        }
+      }
+    },
+    {
+      "key": "git/patch_application",
+      "slug": "patch_application",
+      "name": "Patch Application",
+      "desc": "Patch application covers applying Git-compatible patch data while validating context, conflicts, and resulting changes.",
+      "i18n": {
+        "zh": {
+          "name": "补丁应用",
+          "desc": "补丁应用涵盖在验证上下文、冲突和结果变更的同时应用与 Git 兼容的补丁数据。"
+        },
+        "es": {
+          "name": "Aplicación de parche",
+          "desc": "La aplicación de parches cubre la aplicación de datos de parches compatibles con Git mientras se valida el contexto, los conflictos y los cambios resultantes."
+        },
+        "fr": {
+          "name": "Application de correctifs",
+          "desc": "L'application de correctifs couvre l'application de données de correctifs compatibles Git tout en validant le contexte, les conflits et les modifications qui en résultent."
+        },
+        "de": {
+          "name": "Patch-Anwendung",
+          "desc": "Die Patch-Anwendung umfasst das Anwenden von Git-kompatiblen Patch-Daten bei gleichzeitiger Validierung von Kontext, Konflikten und daraus resultierenden Änderungen."
+        },
+        "ja": {
+          "name": "パッチ適用",
+          "desc": "パッチ適用では、コンテキスト、競合、および結果として生じる変更を検証しながら、Git 互換のパッチデータを適用します。"
+        },
+        "ru": {
+          "name": "Исправление приложения",
+          "desc": "Приложение исправлений охватывает применение данных исправлений, совместимых с Git, при проверке контекста, конфликтов и результирующих изменений."
+        },
+        "ko": {
+          "name": "패치 적용",
+          "desc": "패치 애플리케이션에서는 컨텍스트, 충돌 및 결과 변경 사항을 검증하는 동시에 Git 호환 패치 데이터를 적용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Aplicação de patch",
+          "desc": "O aplicativo de patch abrange a aplicação de dados de patch compatíveis com Git enquanto valida o contexto, os conflitos e as alterações resultantes."
+        }
+      }
+    },
+    {
+      "key": "git/history_inspection",
+      "slug": "history_inspection",
+      "name": "History Inspection",
+      "desc": "History inspection covers reading commit logs, graph structure, authorship, dates, subjects, and selected commit details.",
+      "i18n": {
+        "zh": {
+          "name": "历史检查",
+          "desc": "历史检查包括读取提交日志、图结构、作者身份、日期、标题和选定的提交详细信息。"
+        },
+        "es": {
+          "name": "Inspección del historial",
+          "desc": "La inspección del historial cubre la lectura de registros de commits, la estructura gráfica, la autoría, las fechas, los asuntos y los detalles de commits seleccionados."
+        },
+        "fr": {
+          "name": "Inspection de l'historique",
+          "desc": "L’inspection de l’historique couvre la lecture des journaux de commits, la structure du graphe, l’auteur, les dates, les sujets et les détails de commits sélectionnés."
+        },
+        "de": {
+          "name": "Verlaufsprüfung",
+          "desc": "Die Verlaufsprüfung umfasst das Lesen von Commit-Protokollen, Graphstruktur, Urheberschaft, Datumsangaben, Betreffzeilen und ausgewählten Commit-Details."
+        },
+        "ja": {
+          "name": "履歴検査",
+          "desc": "履歴検査には、コミットログの読み取り、グラフ構造、作成者、日付、件名、および選択したコミットの詳細が含まれます。"
+        },
+        "ru": {
+          "name": "Проверка истории",
+          "desc": "Проверка истории охватывает чтение журналов коммитов, структуру графиков, авторство, даты, темы и выбранные детали коммитов."
+        },
+        "ko": {
+          "name": "기록 검사",
+          "desc": "기록 검사는 커밋 로그, 그래프 구조, 작성자, 날짜, 제목 및 선택한 커밋 세부 정보 읽기를 다룹니다."
+        },
+        "pt": {
+          "name": "Inspeção do histórico",
+          "desc": "A inspeção do histórico cobre a leitura de registros de commits, estrutura do gráfico, autoria, datas, assuntos e detalhes de commits selecionados."
+        }
+      }
+    },
+    {
+      "key": "git/file_history",
+      "slug": "file_history",
+      "name": "File History",
+      "desc": "File history covers tracing changes to specific paths across renames, deletions, and historical revisions.",
+      "i18n": {
+        "zh": {
+          "name": "文件历史记录",
+          "desc": "文件历史记录涵盖了跨重命名、删除和历史修订跟踪特定路径的更改。"
+        },
+        "es": {
+          "name": "Historial de archivos",
+          "desc": "El historial de archivos cubre el seguimiento de cambios en rutas específicas a través de cambios de nombre, eliminaciones y revisiones históricas."
+        },
+        "fr": {
+          "name": "Historique des fichiers",
+          "desc": "L’historique des fichiers couvre le suivi des modifications apportées à des chemins spécifiques à travers les renommages, les suppressions et les révisions historiques."
+        },
+        "de": {
+          "name": "Dateiverlauf",
+          "desc": "Der Dateiverlauf umfasst die Nachverfolgung von Änderungen an bestimmten Pfaden über Umbenennungen, Löschungen und historische Revisionen hinweg."
+        },
+        "ja": {
+          "name": "ファイル履歴",
+          "desc": "ファイル履歴には、名前変更、削除、履歴リビジョンにわたる特定のパスへの変更の追跡が含まれます。"
+        },
+        "ru": {
+          "name": "История файлов",
+          "desc": "История файлов охватывает отслеживание изменений определенных путей при переименованиях, удалениях и исторических версиях."
+        },
+        "ko": {
+          "name": "파일 기록",
+          "desc": "파일 기록에는 이름 바꾸기, 삭제 및 기록 개정 전반에 걸쳐 특정 경로에 대한 변경 내용 추적이 포함됩니다."
+        },
+        "pt": {
+          "name": "Histórico de arquivos",
+          "desc": "O histórico de arquivos abrange o rastreamento de alterações em caminhos específicos através de renomeações, exclusões e revisões históricas."
+        }
+      }
+    },
+    {
+      "key": "git/blame_annotation",
+      "slug": "blame_annotation",
+      "name": "Blame Annotation",
+      "desc": "Blame annotation covers mapping lines to commits and interpreting line-level historical context.",
+      "i18n": {
+        "zh": {
+          "name": "Blame 标注",
+          "desc": "Blame 标注涵盖将代码行映射到 commit，并解释行级历史上下文。"
+        },
+        "es": {
+          "name": "Anotación de git blame",
+          "desc": "La anotación de git blame cubre el mapeo de líneas a commits y la interpretación del contexto histórico a nivel de línea."
+        },
+        "fr": {
+          "name": "Annotation git blame",
+          "desc": "L'annotation git blame couvre le mappage des lignes vers les commits et l'interprétation du contexte historique au niveau de la ligne."
+        },
+        "de": {
+          "name": "git blame Annotation",
+          "desc": "Die git-blame-Annotation umfasst die Zuordnung von Zeilen zu Commits und die Interpretation des historischen Kontexts auf Zeilenebene."
+        },
+        "ja": {
+          "name": "git blame 注釈",
+          "desc": "git blame 注釈は、行を commit に対応付け、行単位の履歴コンテキストを解釈することを扱います。"
+        },
+        "ru": {
+          "name": "Аннотация git blame",
+          "desc": "Аннотация git blame охватывает сопоставление строк с коммитами и интерпретацию исторического контекста на уровне строки."
+        },
+        "ko": {
+          "name": "git blame 주석",
+          "desc": "git blame 주석은 줄을 commit에 매핑하고 줄 단위의 기록 맥락을 해석하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Anotação de git blame",
+          "desc": "A anotação de git blame cobre o mapeamento de linhas para commits e a interpretação do contexto histórico em nível de linha."
+        }
+      }
+    },
+    {
+      "key": "git/bisecting_history",
+      "slug": "bisecting_history",
+      "name": "Bisecting History",
+      "desc": "Bisecting history covers using binary search across commits to locate the change that introduced a behavior.",
+      "i18n": {
+        "zh": {
+          "name": "历史二分查找",
+          "desc": "历史二分查找涵盖在提交范围内使用二分搜索定位引入行为变化的提交。"
+        },
+        "es": {
+          "name": "Bisección del historial",
+          "desc": "La bisección del historial cubre el uso de búsqueda binaria entre commits para localizar el cambio que introdujo un comportamiento."
+        },
+        "fr": {
+          "name": "Bissection de l'historique",
+          "desc": "La bissection de l'historique couvre l'utilisation d'une recherche binaire entre commits pour localiser le changement qui a introduit un comportement."
+        },
+        "de": {
+          "name": "History bisect",
+          "desc": "History bisect umfasst die Verwendung der binären Suche über Commits hinweg, um die Änderung zu finden, die ein Verhalten verursacht hat."
+        },
+        "ja": {
+          "name": "履歴の二分探索",
+          "desc": "履歴の二分探索では、コミット範囲に対して二分探索を使用し、動作を導入した変更を特定します。"
+        },
+        "ru": {
+          "name": "Бисекция истории",
+          "desc": "Бисекция истории охватывает использование бинарного поиска по коммитам для обнаружения изменения, которое привело к определенному поведению."
+        },
+        "ko": {
+          "name": "히스토리 이분 탐색",
+          "desc": "히스토리 이분 탐색은 커밋 범위에서 이진 검색을 사용해 동작을 도입한 변경을 찾는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Bissecção do histórico",
+          "desc": "A bissecção do histórico abrange o uso de pesquisa binária entre commits para localizar a mudança que introduziu um comportamento."
+        }
+      }
+    },
+    {
+      "key": "git/branch_creation",
+      "slug": "branch_creation",
+      "name": "Branch Creation",
+      "desc": "Branch creation covers creating named branch references from commits, tags, or other refs.",
+      "i18n": {
+        "zh": {
+          "name": "创建分支",
+          "desc": "分支创建涵盖从提交、标签或其他引用创建命名分支引用。"
+        },
+        "es": {
+          "name": "Creación de ramas",
+          "desc": "La creación de ramas cubre la creación de referencias de rama con nombre a partir de commits, tags u otras referencias."
+        },
+        "fr": {
+          "name": "Création de branche",
+          "desc": "La création de branche couvre la création de références de branche nommées à partir de commits, de tags ou d’autres références."
+        },
+        "de": {
+          "name": "Zweig-Erstellung",
+          "desc": "Die Zweig-Erstellung umfasst das Erstellen benannter Zweigreferenzen aus Commits, Tags oder anderen Referenzen."
+        },
+        "ja": {
+          "name": "ブランチの作成",
+          "desc": "ブランチの作成では、コミット、タグ、またはその他の参照から名前付きブランチ参照を作成します。"
+        },
+        "ru": {
+          "name": "Создание ветки",
+          "desc": "Создание ветвей включает создание именованных ссылок на ветки из коммитов, тегов или других ссылок."
+        },
+        "ko": {
+          "name": "브랜치 생성",
+          "desc": "브랜치 생성에는 커밋, 태그 또는 기타 참조에서 명명된 브랜치 참조 생성이 포함됩니다."
+        },
+        "pt": {
+          "name": "Criação de ramificações",
+          "desc": "A criação de ramificações abrange a criação de referências de ramificação nomeadas a partir de commits, tags ou outras referências."
+        }
+      }
+    },
+    {
+      "key": "git/branch_switching",
+      "slug": "branch_switching",
+      "name": "Branch Switching",
+      "desc": "Branch switching covers changing the checked-out branch or commit while preserving or resolving local work.",
+      "i18n": {
+        "zh": {
+          "name": "分支切换",
+          "desc": "分支切换涵盖在保留或解决本地工作的同时更改签出分支或提交。"
+        },
+        "es": {
+          "name": "Cambio de rama",
+          "desc": "El cambio de rama cubre cambiar la rama o el commit extraído mientras se preserva o se resuelve el trabajo local."
+        },
+        "fr": {
+          "name": "Changement de branche",
+          "desc": "Le changement de branche couvre le passage à une autre branche ou à un autre commit tout en préservant ou en résolvant le travail local."
+        },
+        "de": {
+          "name": "Branch wechseln",
+          "desc": "Branch wechseln umfasst das Ändern des aktuellen Branches oder Commits unter Beibehaltung oder Auflösung lokaler Arbeit."
+        },
+        "ja": {
+          "name": "ブランチスイッチング",
+          "desc": "ブランチの切り替えでは、ローカル作業を保持または解決しながら、チェックアウトされたブランチまたはコミットを変更します。"
+        },
+        "ru": {
+          "name": "Переключение веток",
+          "desc": "Переключение ветки охватывает изменение текущей ветки или commit с сохранением или разрешением локальной работы."
+        },
+        "ko": {
+          "name": "브랜치 전환",
+          "desc": "브랜치 전환은 로컬 작업을 유지하거나 해결하면서 체크아웃된 브랜치 또는 커밋을 변경하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Troca de branch",
+          "desc": "A mudança de branch abrange mudar para outra branch ou commit enquanto preserva ou resolve o trabalho local."
+        }
+      }
+    },
+    {
+      "key": "git/branch_tracking",
+      "slug": "branch_tracking",
+      "name": "Branch Tracking",
+      "desc": "Branch tracking covers associating local branches with upstream branches for fetch, pull, push, and status behavior.",
+      "i18n": {
+        "zh": {
+          "name": "分支跟踪",
+          "desc": "分支跟踪涵盖将本地分支与上游分支关联，以支持 fetch、pull、push 和状态显示行为。"
+        },
+        "es": {
+          "name": "Seguimiento de ramas",
+          "desc": "El seguimiento de ramas cubre la asociación de ramas locales con ramas ascendentes para fetch, pull, push y estado."
+        },
+        "fr": {
+          "name": "Suivi des branches",
+          "desc": "Le suivi des branches couvre l’association de branches locales à des branches amont pour les comportements fetch, pull, push et status."
+        },
+        "de": {
+          "name": "Branch-Tracking",
+          "desc": "Branch-Tracking umfasst die Zuordnung lokaler Branches zu vorgelagerten Branches für Fetch-, Pull-, Push- und Statusverhalten."
+        },
+        "ja": {
+          "name": "ブランチ追跡",
+          "desc": "ブランチ追跡では、fetch、pull、push、status の動作のためにローカルブランチを上流ブランチと関連付ける方法を扱います。"
+        },
+        "ru": {
+          "name": "Отслеживание веток",
+          "desc": "Отслеживание веток охватывает связывание локальных веток с вышестоящими ветками для поведения fetch, pull, push и status."
+        },
+        "ko": {
+          "name": "브랜치 추적",
+          "desc": "브랜치 추적은 fetch, pull, push 및 상태 동작을 위해 로컬 브랜치를 상위 브랜치와 연결하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Rastreamento de branches",
+          "desc": "O rastreamento de branches abrange a associação de branches locais a branches ascendentes para fetch, pull, push e status."
+        }
+      }
+    },
+    {
+      "key": "git/merge_operations",
+      "slug": "merge_operations",
+      "name": "Merge Operations",
+      "desc": "Merge operations cover integrating one line of history into another using Git's merge machinery.",
+      "i18n": {
+        "zh": {
+          "name": "合并操作",
+          "desc": "合并操作包括使用 Git 的合并机制将一条历史分支集成到另一条历史分支中。"
+        },
+        "es": {
+          "name": "Operaciones de merge",
+          "desc": "Las operaciones de merge cubren integrar una línea de historial en otra mediante el mecanismo de merge de Git."
+        },
+        "fr": {
+          "name": "Opérations de fusion",
+          "desc": "Les opérations de merge couvrent l'intégration d'une ligne d'historique dans une autre à l'aide du mécanisme de merge de Git."
+        },
+        "de": {
+          "name": "Merge-Operationen",
+          "desc": "Merge-Operationen umfassen das Integrieren einer Verlaufslinie in eine andere mit dem Merge-Mechanismus von Git."
+        },
+        "ja": {
+          "name": "マージ操作",
+          "desc": "マージ操作は、Git のマージ機構を使って一方の履歴ラインを別の履歴ラインへ統合することを扱います。"
+        },
+        "ru": {
+          "name": "Операции слияния",
+          "desc": "Операции слияния охватывают интеграцию одной линии истории в другую с использованием механизма слияния Git."
+        },
+        "ko": {
+          "name": "병합 작업",
+          "desc": "병합 작업은 Git의 병합 메커니즘을 사용해 한 기록 흐름을 다른 기록 흐름에 통합하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Operações de merge",
+          "desc": "As operações de merge abrangem integrar uma linha do histórico em outra usando o mecanismo de merge do Git."
+        }
+      }
+    },
+    {
+      "key": "git/fast_forward_updates",
+      "slug": "fast_forward_updates",
+      "name": "Fast-Forward Updates",
+      "desc": "Fast-forward updates cover moving a ref to a descendant commit without creating a merge commit.",
+      "i18n": {
+        "zh": {
+          "name": "快进更新",
+          "desc": "快进更新涵盖将引用移动到后代提交而不创建合并提交。"
+        },
+        "es": {
+          "name": "Actualizaciones rápidas",
+          "desc": "Las actualizaciones fast-forward cubren el movimiento de una referencia a un commit descendiente sin crear un merge commit."
+        },
+        "fr": {
+          "name": "Mises à jour rapides",
+          "desc": "Les mises à jour fast-forward couvrent le déplacement d’une référence vers un commit descendant sans créer de merge commit."
+        },
+        "de": {
+          "name": "Schnellvorlauf-Updates",
+          "desc": "Fast-Forward-Updates umfassen das Verschieben eines Verweises auf einen Nachfolge-Commit, ohne einen Merge-Commit zu erstellen."
+        },
+        "ja": {
+          "name": "早送り更新",
+          "desc": "早送り更新では、マージコミットを作成せずに参照を子孫コミットに移動することを扱います。"
+        },
+        "ru": {
+          "name": "Ускоренные обновления",
+          "desc": "Ускоренные обновления охватывают перемещение ссылки на коммит-потомок без создания коммита слияния."
+        },
+        "ko": {
+          "name": "빨리 감기 업데이트",
+          "desc": "빨리 감기 업데이트는 병합 커밋을 만들지 않고 참조를 후손 커밋으로 이동하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Atualizações rápidas",
+          "desc": "As atualizações de avanço rápido cobrem a movimentação de uma referência para um commit descendente sem criar um commit de mesclagem."
+        }
+      }
+    },
+    {
+      "key": "git/rebase_operations",
+      "slug": "rebase_operations",
+      "name": "Rebase Operations",
+      "desc": "Rebase operations cover replaying commits onto a new base while understanding rewritten commit identity.",
+      "i18n": {
+        "zh": {
+          "name": "变基操作",
+          "desc": "变基操作包括在新的基础上重放提交，同时了解重写的提交身份。"
+        },
+        "es": {
+          "name": "Operaciones de rebase",
+          "desc": "Las operaciones de rebase cubren la reproducción de commits sobre una nueva base y la comprensión de la identidad del commit reescrito."
+        },
+        "fr": {
+          "name": "Opérations de rebase",
+          "desc": "Les opérations de rebase couvrent la relecture des commits sur une nouvelle base tout en comprenant l'identité du commit réécrit."
+        },
+        "de": {
+          "name": "Rebase-Operationen",
+          "desc": "Rebase-Vorgänge umfassen das Wiederholen von Commits auf einer neuen Basis und gleichzeitig das Verständnis der neu geschriebenen Commit-Identität."
+        },
+        "ja": {
+          "name": "リベース操作",
+          "desc": "リベース操作では、書き換えられたコミット ID を理解しながら、新しいベースへのコミットの再生を扱います。"
+        },
+        "ru": {
+          "name": "Операции перебазирования",
+          "desc": "Операции перебазирования охватывают воспроизведение коммитов на новую базу, при этом понимая идентичность переписанных коммитов."
+        },
+        "ko": {
+          "name": "리베이스 작업",
+          "desc": "리베이스 작업은 재작성된 커밋 ID를 이해하면서 새로운 베이스에 대한 커밋 재생을 다룹니다."
+        },
+        "pt": {
+          "name": "Operações de rebase",
+          "desc": "As operações de rebase cobrem a repetição de commits em uma nova base enquanto entendem a identidade do commit reescrita."
+        }
+      }
+    },
+    {
+      "key": "git/interactive_rebases",
+      "slug": "interactive_rebases",
+      "name": "Interactive Rebases",
+      "desc": "Interactive rebases cover editing, reordering, squashing, dropping, and rewording commits during history rewriting.",
+      "i18n": {
+        "zh": {
+          "name": "交互式变基",
+          "desc": "交互式变基涵盖历史重写期间的编辑、重新排序、压缩、删除和重写提交。"
+        },
+        "es": {
+          "name": "Rebases interactivas",
+          "desc": "Los rebases interactivos cubren editar, reordenar, hacer squash, eliminar y reformular commits durante la reescritura del historial."
+        },
+        "fr": {
+          "name": "Rebases interactifs",
+          "desc": "Les rebases interactifs couvrent la modification, la réorganisation, le squash, la suppression et la modification des messages de commits lors de la réécriture de l’historique."
+        },
+        "de": {
+          "name": "Interaktive Rebases",
+          "desc": "Interaktive Rebases umfassen das Bearbeiten, Neuanordnen, Squashen, Löschen und Ändern von Commit-Messages während des Umschreibens des Verlaufs."
+        },
+        "ja": {
+          "name": "インタラクティブなリベース",
+          "desc": "インタラクティブなリベースでは、履歴の書き換え中のコミットの編集、並べ替え、潰し、削除、および文言の変更が行われます。"
+        },
+        "ru": {
+          "name": "Интерактивный rebase",
+          "desc": "Интерактивный rebase охватывает редактирование, изменение порядка, squash, удаление и изменение сообщений коммитов во время перезаписи истории."
+        },
+        "ko": {
+          "name": "대화형 리베이스",
+          "desc": "대화형 리베이스는 히스토리 재작성 중 커밋 편집, 재정렬, squash, 삭제 및 메시지 수정을 다룹니다."
+        },
+        "pt": {
+          "name": "Rebases interativas",
+          "desc": "Rebases interativos cobrem edição, reordenação, squash, remoção e reformulação de commits durante a reescrita do histórico."
+        }
+      }
+    },
+    {
+      "key": "git/conflict_resolution",
+      "slug": "conflict_resolution",
+      "name": "Conflict Resolution",
+      "desc": "Conflict resolution covers identifying merge conflicts, editing conflict markers, staging resolutions, and completing interrupted operations.",
+      "i18n": {
+        "zh": {
+          "name": "冲突解决",
+          "desc": "冲突解决包括识别合并冲突、编辑冲突标记、暂存解决方案以及完成中断的操作。"
+        },
+        "es": {
+          "name": "Resolución de conflictos",
+          "desc": "La resolución de conflictos cubre la identificación de conflictos de fusión, la edición de marcadores de conflicto, la preparación de resoluciones y la finalización de operaciones interrumpidas."
+        },
+        "fr": {
+          "name": "Résolution des conflits",
+          "desc": "La résolution des conflits couvre l’identification des conflits de fusion, la modification des marqueurs de conflit, la préparation des résolutions et la finalisation des opérations interrompues."
+        },
+        "de": {
+          "name": "Konfliktlösung",
+          "desc": "Die Konfliktlösung umfasst das Identifizieren von Merge-Konflikten, das Bearbeiten von Konfliktmarkierungen, das Stagen von Lösungen und das Abschließen unterbrochener Vorgänge."
+        },
+        "ja": {
+          "name": "競合解決",
+          "desc": "競合解決には、マージ競合の特定、競合マーカーの編集、解決のステージング、および中断された操作の完了が含まれます。"
+        },
+        "ru": {
+          "name": "Разрешение конфликтов",
+          "desc": "Разрешение конфликтов охватывает выявление конфликтов слияния, редактирование маркеров конфликтов, подготовку решений и завершение прерванных операций."
+        },
+        "ko": {
+          "name": "충돌 해결",
+          "desc": "충돌 해결은 merge 충돌 식별, 충돌 마커 편집, 해결 내용 스테이징, 중단된 작업 완료를 다룹니다."
+        },
+        "pt": {
+          "name": "Resolução de Conflitos",
+          "desc": "A resolução de conflitos abrange a identificação de conflitos de mesclagem, a edição de marcadores de conflito, a preparação de resoluções e a conclusão de operações interrompidas."
+        }
+      }
+    },
+    {
+      "key": "git/cherry_picking",
+      "slug": "cherry_picking",
+      "name": "Cherry Picking",
+      "desc": "Cherry picking covers applying selected commits onto another history while preserving intent and handling conflicts.",
+      "i18n": {
+        "zh": {
+          "name": "cherry-pick",
+          "desc": "cherry-pick 涵盖将选定的提交应用到另一条历史，同时保留意图并处理冲突。"
+        },
+        "es": {
+          "name": "Cherry-pick",
+          "desc": "Cherry-pick cubre aplicar commits seleccionados a otro historial conservando la intención y gestionando conflictos."
+        },
+        "fr": {
+          "name": "Cherry-pick",
+          "desc": "Cherry-pick couvre l'application de commits sélectionnés à un autre historique tout en conservant l'intention et en gérant les conflits."
+        },
+        "de": {
+          "name": "Cherry-pick",
+          "desc": "Cherry-pick umfasst das Anwenden ausgewählter Commits auf einen anderen Verlauf, wobei Absicht erhalten bleibt und Konflikte behandelt werden."
+        },
+        "ja": {
+          "name": "Cherry-pick",
+          "desc": "cherry-pick は、意図を保ち競合を処理しながら、選択したコミットを別の履歴へ適用することを扱います。"
+        },
+        "ru": {
+          "name": "Cherry-pick",
+          "desc": "Cherry-pick охватывает применение выбранных коммитов к другой истории с сохранением намерения и обработкой конфликтов."
+        },
+        "ko": {
+          "name": "cherry-pick",
+          "desc": "cherry-pick은 의도를 유지하고 충돌을 처리하면서 선택한 커밋을 다른 기록에 적용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Cherry-pick",
+          "desc": "Cherry-pick abrange aplicar commits selecionados a outro histórico, preservando a intenção e lidando com conflitos."
+        }
+      }
+    },
+    {
+      "key": "git/branch_cleanup",
+      "slug": "branch_cleanup",
+      "name": "Branch Cleanup",
+      "desc": "Branch cleanup covers deleting merged or obsolete branches and pruning stale branch references.",
+      "i18n": {
+        "zh": {
+          "name": "分支清理",
+          "desc": "分支清理涵盖删除已合并或过时的分支，并清理陈旧的分支引用。"
+        },
+        "es": {
+          "name": "Limpieza de ramas",
+          "desc": "La limpieza de ramas cubre la eliminación de ramas fusionadas u obsoletas y la depuración de referencias antiguas."
+        },
+        "fr": {
+          "name": "Nettoyage des branches",
+          "desc": "Le nettoyage des branches couvre la suppression des branches fusionnées ou obsolètes et le nettoyage des références périmées."
+        },
+        "de": {
+          "name": "Zweig-Bereinigung",
+          "desc": "Die Zweig-Bereinigung umfasst das Löschen zusammengeführter oder veralteter Zweige und das Entfernen veralteter Zweigreferenzen."
+        },
+        "ja": {
+          "name": "ブランチクリーンアップ",
+          "desc": "ブランチクリーンアップは、マージ済みまたは廃止されたブランチの削除と、古いブランチ参照の整理を扱います。"
+        },
+        "ru": {
+          "name": "Очистка веток",
+          "desc": "Очистка веток охватывает удаление объединенных или устаревших веток и очистку устаревших ссылок на ветки."
+        },
+        "ko": {
+          "name": "브랜치 정리",
+          "desc": "브랜치 정리는 병합되었거나 오래된 브랜치를 삭제하고 오래된 브랜치 참조를 정리하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Limpeza de ramificações",
+          "desc": "A limpeza de ramificações cobre a exclusão de ramificações mescladas ou obsoletas e a remoção de referências antigas."
+        }
+      }
+    },
+    {
+      "key": "git/remote_configuration",
+      "slug": "remote_configuration",
+      "name": "Remote Configuration",
+      "desc": "Remote configuration covers naming remote repositories, managing remote URLs, and understanding fetch or push destinations.",
+      "i18n": {
+        "zh": {
+          "name": "远程配置",
+          "desc": "远程配置包括命名远程仓库、管理远程 URL，以及理解 fetch 或 push 的目标位置。"
+        },
+        "es": {
+          "name": "Configuración remota",
+          "desc": "La configuración remota cubre nombrar repositorios remotos, administrar URL remotas y comprender destinos de fetch o push."
+        },
+        "fr": {
+          "name": "Configuration distante",
+          "desc": "La configuration distante couvre le nommage des dépôts distants, la gestion des URL distantes et la compréhension des destinations de fetch ou push."
+        },
+        "de": {
+          "name": "Remote-Konfiguration",
+          "desc": "Die Remote-Konfiguration umfasst die Benennung von Remote-Repositorys, die Verwaltung von Remote-URLs und das Verständnis von Abruf- oder Push-Zielen."
+        },
+        "ja": {
+          "name": "リモート設定",
+          "desc": "リモート構成では、リモートリポジトリの名前付け、リモート URL の管理、フェッチまたはプッシュの宛先について説明します。"
+        },
+        "ru": {
+          "name": "Настройка удаленных репозиториев",
+          "desc": "Настройка удаленных репозиториев охватывает именование удаленных репозиториев, управление удаленными URL и понимание назначений fetch и push."
+        },
+        "ko": {
+          "name": "원격 구성",
+          "desc": "원격 구성에는 원격 저장소 이름 지정, 원격 URL 관리, 가져오기 또는 푸시 대상 이해가 포함됩니다."
+        },
+        "pt": {
+          "name": "Configuração remota",
+          "desc": "A configuração remota abrange nomear repositórios remotos, gerenciar URLs remotos e compreender destinos de fetch ou push."
+        }
+      }
+    },
+    {
+      "key": "git/remote_authentication",
+      "slug": "remote_authentication",
+      "name": "Remote Authentication",
+      "desc": "Remote authentication covers Git authentication methods, credential helpers, SSH-based access, and HTTPS-based access.",
+      "i18n": {
+        "zh": {
+          "name": "远程认证",
+          "desc": "远程身份验证涵盖 Git 身份验证方法、凭据帮助程序、基于 SSH 的访问和基于 HTTPS 的访问。"
+        },
+        "es": {
+          "name": "Autenticación remota",
+          "desc": "La autenticación remota cubre métodos de autenticación de Git, asistentes de credenciales, acceso basado en SSH y acceso basado en HTTPS."
+        },
+        "fr": {
+          "name": "Authentification à distance",
+          "desc": "L'authentification distante couvre les méthodes d'authentification Git, les assistants d'identification, l'accès SSH et l'accès HTTPS."
+        },
+        "de": {
+          "name": "Remote-Authentifizierung",
+          "desc": "Remote-Authentifizierung umfasst Git-Authentifizierungsmethoden, Anmeldeinformationshilfen, SSH-basierten Zugriff und HTTPS-basierten Zugriff."
+        },
+        "ja": {
+          "name": "リモート認証",
+          "desc": "リモート認証には、Git 認証方法、資格情報ヘルパー、SSH ベースのアクセス、および HTTPS ベースのアクセスが含まれます。"
+        },
+        "ru": {
+          "name": "Удаленная аутентификация",
+          "desc": "Удаленная аутентификация охватывает методы аутентификации Git, помощники учетных данных, доступ на основе SSH и доступ на основе HTTPS."
+        },
+        "ko": {
+          "name": "원격 인증",
+          "desc": "원격 인증에는 Git 인증 방법, 자격 증명 도우미, SSH 기반 액세스 및 HTTPS 기반 액세스가 포함됩니다."
+        },
+        "pt": {
+          "name": "Autenticação Remota",
+          "desc": "A autenticação remota abrange métodos de autenticação Git, auxiliares de credenciais, acesso baseado em SSH e acesso baseado em HTTPS."
+        }
+      }
+    },
+    {
+      "key": "git/fetching",
+      "slug": "fetching",
+      "name": "Fetching",
+      "desc": "Fetching covers downloading objects and refs from remotes without directly changing the current working tree.",
+      "i18n": {
+        "zh": {
+          "name": "Fetch",
+          "desc": "Fetch 涵盖从远程仓库下载对象和引用，而不直接更改当前工作树。"
+        },
+        "es": {
+          "name": "Fetch",
+          "desc": "Fetch cubre la descarga de objetos y referencias desde repositorios remotos sin cambiar directamente el árbol de trabajo actual."
+        },
+        "fr": {
+          "name": "Fetch",
+          "desc": "Fetch couvre le téléchargement d’objets et de références depuis des dépôts distants sans modifier directement l’arbre de travail actuel."
+        },
+        "de": {
+          "name": "Fetch",
+          "desc": "Fetch umfasst das Herunterladen von Objekten und Referenzen von Remotes, ohne den aktuellen Arbeitsbaum direkt zu ändern."
+        },
+        "ja": {
+          "name": "Fetch",
+          "desc": "Fetch は、現在の作業ツリーを直接変更せずに、remote からオブジェクトと参照をダウンロードすることを扱います。"
+        },
+        "ru": {
+          "name": "Fetch",
+          "desc": "Fetch охватывает загрузку объектов и ссылок из удаленных репозиториев без непосредственного изменения текущего рабочего дерева."
+        },
+        "ko": {
+          "name": "Fetch",
+          "desc": "Fetch는 현재 작업 트리를 직접 변경하지 않고 원격 저장소에서 객체와 참조를 다운로드하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Fetch",
+          "desc": "Fetch cobre o download de objetos e referências de repositórios remotos sem alterar diretamente a árvore de trabalho atual."
+        }
+      }
+    },
+    {
+      "key": "git/pulling",
+      "slug": "pulling",
+      "name": "Pulling",
+      "desc": "Pulling covers updating a local branch from its upstream using fetch followed by merge or rebase behavior.",
+      "i18n": {
+        "zh": {
+          "name": "拉取",
+          "desc": "拉取涵盖通过先 fetch、再 merge 或 rebase，从上游更新本地分支。"
+        },
+        "es": {
+          "name": "Pull",
+          "desc": "Pull cubre la actualización de una rama local desde su rama ascendente usando fetch seguido de merge o rebase."
+        },
+        "fr": {
+          "name": "Pull",
+          "desc": "Pull couvre la mise à jour d’une branche locale depuis sa branche amont avec fetch suivi d’un merge ou d’un rebase."
+        },
+        "de": {
+          "name": "Pull",
+          "desc": "Pull umfasst das Aktualisieren eines lokalen Branches von seinem vorgelagerten Branch mit fetch gefolgt von merge oder rebase."
+        },
+        "ja": {
+          "name": "Pull",
+          "desc": "Pull は、fetch に続いて merge または rebase を行い、上流ブランチからローカルブランチを更新することを扱います。"
+        },
+        "ru": {
+          "name": "Pull",
+          "desc": "Pull охватывает обновление локальной ветки из вышестоящей ветки с помощью fetch с последующим merge или rebase."
+        },
+        "ko": {
+          "name": "Pull",
+          "desc": "Pull은 fetch 후 merge 또는 rebase를 사용해 상위 브랜치에서 로컬 브랜치를 업데이트하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Pull",
+          "desc": "Pull cobre a atualização de uma branch local a partir de sua branch ascendente usando fetch seguido de merge ou rebase."
+        }
+      }
+    },
+    {
+      "key": "git/pushing",
+      "slug": "pushing",
+      "name": "Pushing",
+      "desc": "Pushing covers sending local refs and objects to remotes while respecting refspecs and remote update rules.",
+      "i18n": {
+        "zh": {
+          "name": "推送",
+          "desc": "推送涵盖将本地引用和对象发送到远程仓库，同时遵守 refspec 和远程更新规则。"
+        },
+        "es": {
+          "name": "Push",
+          "desc": "Push cubre el envío de refs y objetos locales a repositorios remotos respetando refspecs y reglas de actualización remota."
+        },
+        "fr": {
+          "name": "Push",
+          "desc": "Push couvre l’envoi de refs et d’objets locaux vers des dépôts distants tout en respectant les refspecs et les règles de mise à jour distante."
+        },
+        "de": {
+          "name": "Push",
+          "desc": "Push umfasst das Senden lokaler Refs und Objekte an Remotes unter Berücksichtigung von Refspecs und Remote-Update-Regeln."
+        },
+        "ja": {
+          "name": "Push",
+          "desc": "プッシュでは、refspec とリモート更新ルールを尊重しながら、ローカルの ref とオブジェクトをリモートに送信することを扱います。"
+        },
+        "ru": {
+          "name": "Push",
+          "desc": "Push охватывает отправку локальных ссылок и объектов в удаленные репозитории с соблюдением refspecs и правил удаленного обновления."
+        },
+        "ko": {
+          "name": "Push",
+          "desc": "Push는 refspec 및 원격 업데이트 규칙을 준수하면서 로컬 참조와 객체를 원격 저장소로 보내는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Push",
+          "desc": "Push abrange o envio de refs e objetos locais para repositórios remotos, respeitando refspecs e regras de atualização remota."
+        }
+      }
+    },
+    {
+      "key": "git/remote_references",
+      "slug": "remote_references",
+      "name": "Remote References",
+      "desc": "Remote references cover remote-tracking branches, remote ref names, pruning, and how remote state is represented locally.",
+      "i18n": {
+        "zh": {
+          "name": "远程引用",
+          "desc": "远程引用涵盖远程跟踪分支、远程引用名称、清理以及如何在本地表示远程状态。"
+        },
+        "es": {
+          "name": "Referencias remotas",
+          "desc": "Las referencias remotas cubren ramas de seguimiento remoto, nombres de referencias remotas, limpieza y cómo se representa el estado remoto localmente."
+        },
+        "fr": {
+          "name": "Références à distance",
+          "desc": "Les références distantes couvrent les branches de suivi à distance, les noms de références distantes, le nettoyage et la façon dont l'état distant est représenté localement."
+        },
+        "de": {
+          "name": "Remote-Referenzen",
+          "desc": "Remote-Referenzen umfassen Remote-Tracking-Branches, Remote-Ref-Namen, Bereinigung und die lokale Darstellung des Remote-Status."
+        },
+        "ja": {
+          "name": "リモートリファレンス",
+          "desc": "リモート参照は、リモート追跡ブランチ、リモート参照名、prune、およびリモート状態をローカルで表す方法を扱います。"
+        },
+        "ru": {
+          "name": "Удаленные ссылки",
+          "desc": "Удаленные ссылки охватывают ветки удаленного отслеживания, имена удаленных ссылок, очистку и локальное представление удаленного состояния."
+        },
+        "ko": {
+          "name": "원격 참조",
+          "desc": "원격 참조는 원격 추적 브랜치, 원격 참조 이름, 정리, 원격 상태의 로컬 표현을 다룹니다."
+        },
+        "pt": {
+          "name": "Referências remotas",
+          "desc": "As referências remotas abrangem branches de rastreamento remoto, nomes de referências remotas, limpeza e como o estado remoto é representado localmente."
+        }
+      }
+    },
+    {
+      "key": "git/tag_creation",
+      "slug": "tag_creation",
+      "name": "Tag Creation",
+      "desc": "Tag creation covers marking important commits with stable names for releases, milestones, or reference points.",
+      "i18n": {
+        "zh": {
+          "name": "标签创建",
+          "desc": "标签创建包括用面向版本、里程碑或参考点的稳定名称标记重要 commit。"
+        },
+        "es": {
+          "name": "Creación de etiquetas",
+          "desc": "La creación de tags cubre marcar commits importantes con nombres estables para lanzamientos, hitos o puntos de referencia."
+        },
+        "fr": {
+          "name": "Création de balises",
+          "desc": "La création de tags consiste à marquer les commits importants avec des noms stables pour les versions, les jalons ou les points de référence."
+        },
+        "de": {
+          "name": "Tag-Erstellung",
+          "desc": "Die Tag-Erstellung umfasst das Markieren wichtiger Commits mit stabilen Namen für Releases, Meilensteine oder Referenzpunkte."
+        },
+        "ja": {
+          "name": "タグの作成",
+          "desc": "タグの作成には、リリース、マイルストーン、または参照ポイントの安定した名前を使用して重要なコミットをマークすることが含まれます。"
+        },
+        "ru": {
+          "name": "Создание тегов",
+          "desc": "Создание тегов включает в себя маркировку важных коммитов стабильными именами для выпусков, вех или контрольных точек."
+        },
+        "ko": {
+          "name": "태그 생성",
+          "desc": "태그 생성에는 릴리스, 마일스톤 또는 참조 지점에 대한 안정적인 이름으로 중요한 커밋을 표시하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Criação de tags",
+          "desc": "A criação de tags abrange a marcação de commits importantes com nomes estáveis para lançamentos, marcos ou pontos de referência."
+        }
+      }
+    },
+    {
+      "key": "git/annotated_tags",
+      "slug": "annotated_tags",
+      "name": "Annotated Tags",
+      "desc": "Annotated tags cover tag objects with messages, taggers, dates, and optional signing metadata.",
+      "i18n": {
+        "zh": {
+          "name": "带注释的标签",
+          "desc": "附注标签涵盖带有消息、tagger、日期和可选签名元数据的标签对象。"
+        },
+        "es": {
+          "name": "Tags anotados",
+          "desc": "Los tags anotados cubren objetos tag con mensajes, taggers, fechas y metadatos de firma opcionales."
+        },
+        "fr": {
+          "name": "Tags annotés",
+          "desc": "Les tags annotés couvrent les objets tag contenant un message, un tagger, une date et des métadonnées de signature facultatives."
+        },
+        "de": {
+          "name": "Annotierte Tags",
+          "desc": "Annotierte Tags umfassen Tag-Objekte mit Nachrichten, Taggern, Datumsangaben und optionalen Signierungsmetadaten."
+        },
+        "ja": {
+          "name": "注釈付きタグ",
+          "desc": "注釈付きタグは、メッセージ、タグ付け者、日付、およびオプションの署名メタデータを含むタグオブジェクトを扱います。"
+        },
+        "ru": {
+          "name": "Аннотированные теги",
+          "desc": "Аннотированные теги охватывают объекты тегов с сообщением, автором тега, датой и дополнительными метаданными подписи."
+        },
+        "ko": {
+          "name": "Annotated 태그",
+          "desc": "Annotated 태그는 메시지, tagger, 날짜 및 선택적 서명 메타데이터가 포함된 태그 객체를 다룹니다."
+        },
+        "pt": {
+          "name": "Tags anotadas",
+          "desc": "Tags anotadas cobrem objetos de tag com mensagens, taggers, datas e metadados de assinatura opcionais."
+        }
+      }
+    },
+    {
+      "key": "git/object_signing",
+      "slug": "object_signing",
+      "name": "Object Signing",
+      "desc": "Object signing covers cryptographic signing and verification of commits or tags in Git history.",
+      "i18n": {
+        "zh": {
+          "name": "对象签名",
+          "desc": "对象签名涵盖 Git 历史记录中的提交或标签的加密签名和验证。"
+        },
+        "es": {
+          "name": "Firma de objetos",
+          "desc": "La firma de objetos cubre la firma criptográfica y la verificación de commits o tags en el historial de Git."
+        },
+        "fr": {
+          "name": "Signature d'objet",
+          "desc": "La signature d’objets couvre la signature cryptographique et la vérification des commits ou des tags dans l’historique Git."
+        },
+        "de": {
+          "name": "Objektsignierung",
+          "desc": "Die Objektsignierung umfasst die kryptografische Signierung und Überprüfung von Commits oder Tags im Git-Verlauf."
+        },
+        "ja": {
+          "name": "オブジェクトの署名",
+          "desc": "オブジェクト署名には、暗号署名と、Git 履歴のコミットまたはタグの検証が含まれます。"
+        },
+        "ru": {
+          "name": "Подписание объекта",
+          "desc": "Подписание объектов включает криптографическое подписание и проверку коммитов или тегов в истории Git."
+        },
+        "ko": {
+          "name": "객체 서명",
+          "desc": "객체 서명에는 암호화 서명과 Git 기록의 커밋 또는 태그 확인이 포함됩니다."
+        },
+        "pt": {
+          "name": "Assinatura de Objeto",
+          "desc": "A assinatura de objetos cobre a assinatura criptográfica e a verificação de commits ou tags no histórico Git."
+        }
+      }
+    },
+    {
+      "key": "git/restoring_files",
+      "slug": "restoring_files",
+      "name": "Restoring Files",
+      "desc": "Restoring files covers discarding or recovering path content from the index, working tree, or historical commits.",
+      "i18n": {
+        "zh": {
+          "name": "恢复文件",
+          "desc": "恢复文件包括从索引、工作树或历史提交中丢弃或恢复路径内容。"
+        },
+        "es": {
+          "name": "Restaurar archivos",
+          "desc": "La restauración de archivos cubre descartar o recuperar contenido de rutas desde el índice, el árbol de trabajo o commits históricos."
+        },
+        "fr": {
+          "name": "Restauration de fichiers",
+          "desc": "La restauration de fichiers couvre la suppression ou la récupération du contenu de chemins à partir de l’index, de l’arbre de travail ou de commits historiques."
+        },
+        "de": {
+          "name": "Dateien wiederherstellen",
+          "desc": "Das Wiederherstellen von Dateien umfasst das Verwerfen oder Wiederherstellen von Pfadinhalten aus dem Index, der Arbeitsstruktur oder historischen Commits."
+        },
+        "ja": {
+          "name": "ファイルの復元",
+          "desc": "ファイルの復元には、インデックス、作業ツリー、または履歴コミットからのパスコンテンツの破棄または回復が含まれます。"
+        },
+        "ru": {
+          "name": "Восстановление файлов",
+          "desc": "Восстановление файлов включает удаление или восстановление содержимого пути из индекса, рабочего дерева или исторических коммитов."
+        },
+        "ko": {
+          "name": "파일 복원",
+          "desc": "파일 복원에는 인덱스, 작업 트리 또는 기록 커밋에서 경로 내용을 삭제하거나 복구하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Restauração de arquivos",
+          "desc": "A restauração de arquivos abrange o descarte ou a recuperação do conteúdo do caminho a partir do índice, da árvore de trabalho ou de commits históricos."
+        }
+      }
+    },
+    {
+      "key": "git/commit_reverts",
+      "slug": "commit_reverts",
+      "name": "Commit Reverts",
+      "desc": "Commit reverts cover creating new commits that undo earlier commits without rewriting published history.",
+      "i18n": {
+        "zh": {
+          "name": "提交回滚",
+          "desc": "提交回滚涵盖创建新的提交来撤消先前提交，而不重写已发布的历史。"
+        },
+        "es": {
+          "name": "Revert de commits",
+          "desc": "El revert de commits cubre crear nuevos commits que deshacen commits anteriores sin reescribir el historial publicado."
+        },
+        "fr": {
+          "name": "Revert de commits",
+          "desc": "Le revert de commits couvre la création de nouveaux commits qui annulent des commits précédents sans réécrire l'historique publié."
+        },
+        "de": {
+          "name": "Commit-Reverts",
+          "desc": "Commit-Reverts umfassen das Erstellen neuer Commits, die frühere Commits rückgängig machen, ohne den veröffentlichten Verlauf neu zu schreiben."
+        },
+        "ja": {
+          "name": "コミットの取り消し",
+          "desc": "コミットの取り消しでは、パブリッシュされた履歴を書き換えずに以前のコミットを元に戻す新しいコミットの作成を扱います。"
+        },
+        "ru": {
+          "name": "Возврат коммитов",
+          "desc": "Возврат коммитов охватывает создание новых коммитов, которые отменяют предыдущие коммиты без переписывания опубликованной истории."
+        },
+        "ko": {
+          "name": "커밋 되돌리기",
+          "desc": "커밋 되돌리기는 게시된 기록을 다시 작성하지 않고 이전 커밋을 실행 취소하는 새로운 커밋 생성을 포함합니다."
+        },
+        "pt": {
+          "name": "Reversões de commit",
+          "desc": "As reversões de commit cobrem a criação de novos commits que desfazem commits anteriores sem reescrever o histórico publicado."
+        }
+      }
+    },
+    {
+      "key": "git/reset_operations",
+      "slug": "reset_operations",
+      "name": "Reset Operations",
+      "desc": "Reset operations cover moving refs and optionally updating the index or working tree with soft, mixed, and hard modes.",
+      "i18n": {
+        "zh": {
+          "name": "重置操作",
+          "desc": "重置操作涵盖移动 ref，并可选择用 soft、mixed、hard 模式更新索引或工作树。"
+        },
+        "es": {
+          "name": "Operaciones de reset",
+          "desc": "Las operaciones de reset cubren mover refs y, opcionalmente, actualizar el índice o el árbol de trabajo con modos soft, mixed y hard."
+        },
+        "fr": {
+          "name": "Opérations de réinitialisation",
+          "desc": "Les opérations de reset couvrent le déplacement de refs et, éventuellement, la mise à jour de l’index ou de l’arbre de travail avec les modes soft, mixed et hard."
+        },
+        "de": {
+          "name": "Reset-Vorgänge",
+          "desc": "Reset-Vorgänge umfassen das Verschieben von Refs und optional das Aktualisieren des Index oder der Arbeitsstruktur im Soft-, Mixed- und Hard-Modus."
+        },
+        "ja": {
+          "name": "リセット操作",
+          "desc": "リセット操作には、参照の移動と、オプションで soft、mixed、hard モードによるインデックスまたは作業ツリーの更新が含まれます。"
+        },
+        "ru": {
+          "name": "Операции reset",
+          "desc": "Операции reset охватывают перемещение ссылок и, при необходимости, обновление индекса или рабочего дерева в режимах soft, mixed и hard."
+        },
+        "ko": {
+          "name": "재설정 작업",
+          "desc": "재설정 작업에는 참조 이동과 선택적으로 소프트, 혼합 및 하드 모드를 사용하여 인덱스나 작업 트리를 업데이트하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Operações de reset",
+          "desc": "As operações de reset abrangem a movimentação de refs e, opcionalmente, a atualização do índice ou da árvore de trabalho com os modos soft, mixed e hard."
+        }
+      }
+    },
+    {
+      "key": "git/stashing",
+      "slug": "stashing",
+      "name": "Stashing",
+      "desc": "Stashing covers temporarily saving working tree and index changes for later restoration or inspection.",
+      "i18n": {
+        "zh": {
+          "name": "Stash",
+          "desc": "Stash 涵盖暂时保存工作树和索引更改，以便稍后恢复或检查。"
+        },
+        "es": {
+          "name": "Stash",
+          "desc": "Stash cubre guardar temporalmente cambios del árbol de trabajo y del índice para restaurarlos o inspeccionarlos más adelante."
+        },
+        "fr": {
+          "name": "Stash",
+          "desc": "Stash couvre la sauvegarde temporaire des modifications de l’arbre de travail et de l’index pour une restauration ou une inspection ultérieure."
+        },
+        "de": {
+          "name": "Stash",
+          "desc": "Stash umfasst das vorübergehende Speichern von Änderungen am Arbeitsbaum und Index für eine spätere Wiederherstellung oder Inspektion."
+        },
+        "ja": {
+          "name": "Stash",
+          "desc": "Stash は、後で復元または確認できるように、作業ツリーとインデックスの変更を一時的に保存することを扱います。"
+        },
+        "ru": {
+          "name": "Stash",
+          "desc": "Stash охватывает временное сохранение изменений рабочего дерева и индекса для последующего восстановления или проверки."
+        },
+        "ko": {
+          "name": "Stash",
+          "desc": "Stash는 나중에 복원하거나 검사할 수 있도록 작업 트리와 인덱스 변경 사항을 임시로 저장하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Stash",
+          "desc": "Stash cobre o salvamento temporário de alterações na árvore de trabalho e no índice para restauração ou inspeção posterior."
+        }
+      }
+    },
+    {
+      "key": "git/reflog_recovery",
+      "slug": "reflog_recovery",
+      "name": "Reflog Recovery",
+      "desc": "Reflog recovery covers finding previous ref positions and recovering commits after resets, rebases, or branch changes.",
+      "i18n": {
+        "zh": {
+          "name": "引用日志恢复",
+          "desc": "reflog 恢复包括查找以前的引用位置，并在 reset、rebase 或分支变更后恢复 commit。"
+        },
+        "es": {
+          "name": "Recuperación de reflog",
+          "desc": "La recuperación de reflog cubre la búsqueda de posiciones de referencia anteriores y la recuperación de commits después de resets, rebases o cambios de branch."
+        },
+        "fr": {
+          "name": "Récupération de reflog",
+          "desc": "La récupération de reflog couvre la recherche des positions de référence précédentes et la récupération de commits après des resets, des rebases ou des changements de branche."
+        },
+        "de": {
+          "name": "Reflog-Wiederherstellung",
+          "desc": "Die Reflog-Wiederherstellung umfasst das Auffinden vorheriger Ref-Positionen und das Wiederherstellen von Commits nach Resets, Rebases oder Branch-Änderungen."
+        },
+        "ja": {
+          "name": "Reflog リカバリ",
+          "desc": "Reflog リカバリでは、以前の ref 位置の検索と、リセット、リベース、またはブランチ変更後のコミットのリカバリが行われます。"
+        },
+        "ru": {
+          "name": "Восстановление рефлога",
+          "desc": "Восстановление Reflog охватывает поиск предыдущих позиций ссылок и восстановление коммитов после reset, rebase или изменений веток."
+        },
+        "ko": {
+          "name": "리프로그 복구",
+          "desc": "Reflog 복구는 reset, rebase 또는 브랜치 변경 후 이전 참조 위치를 찾고 커밋을 복구하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Recuperação de Reflog",
+          "desc": "A recuperação de reflog cobre a localização de posições de referência anteriores e a recuperação de commits após resets, rebases ou alterações de branch."
+        }
+      }
+    },
+    {
+      "key": "git/history_rewrite_safety",
+      "slug": "history_rewrite_safety",
+      "name": "History Rewrite Safety",
+      "desc": "History rewrite safety covers rewriting local history while understanding publication risk, force pushes, and lease checks.",
+      "i18n": {
+        "zh": {
+          "name": "历史重写安全",
+          "desc": "历史重写安全包括重写本地历史，同时了解发布风险、强制推送和 lease 检查。"
+        },
+        "es": {
+          "name": "Seguridad al reescribir el historial",
+          "desc": "La seguridad de la reescritura del historial cubre reescribir el historial local comprendiendo el riesgo de publicación, los push forzados y las comprobaciones de lease."
+        },
+        "fr": {
+          "name": "Sécurité de la réécriture de l’histoire",
+          "desc": "La sécurité de la réécriture de l'historique couvre la réécriture de l'historique local tout en comprenant le risque de publication, les push forcés et les vérifications de lease."
+        },
+        "de": {
+          "name": "Sicherheit beim Umschreiben des Verlaufs",
+          "desc": "Sicherheit beim Umschreiben des Verlaufs umfasst das Umschreiben des lokalen Verlaufs unter Berücksichtigung von Veröffentlichungsrisiken, Force-Pushes und Lease-Prüfungen."
+        },
+        "ja": {
+          "name": "履歴書き換えの安全性",
+          "desc": "履歴書き換えの安全性では、公開リスク、強制プッシュ、リースチェックを理解しながらローカル履歴を書き換えることを扱います。"
+        },
+        "ru": {
+          "name": "Безопасность переписывания истории",
+          "desc": "Безопасность переписывания истории включает переписывание локальной истории с учетом риска публикации, принудительного push и проверок lease."
+        },
+        "ko": {
+          "name": "기록 다시 쓰기 안전",
+          "desc": "히스토리 재작성 안전성은 게시 위험, 강제 푸시 및 lease 확인을 이해하면서 로컬 히스토리를 다시 쓰는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Segurança ao reescrever o histórico",
+          "desc": "A segurança da reescrita do histórico abrange reescrever o histórico local, compreendendo o risco de publicação, push forçado e verificações de lease."
+        }
+      }
+    },
+    {
+      "key": "git/submodules",
+      "slug": "submodules",
+      "name": "Submodules",
+      "desc": "Submodules cover tracking another Git repository at a specific commit inside a parent repository.",
+      "i18n": {
+        "zh": {
+          "name": "子模块",
+          "desc": "子模块涵盖在父存储库内的特定提交处跟踪另一个 Git 存储库。"
+        },
+        "es": {
+          "name": "Submódulos",
+          "desc": "Los submódulos cubren el seguimiento de otro repositorio Git en un commit específico dentro de un repositorio principal."
+        },
+        "fr": {
+          "name": "Sous-modules",
+          "desc": "Les sous-modules couvrent le suivi d’un autre référentiel Git à un commit spécifique dans un référentiel parent."
+        },
+        "de": {
+          "name": "Submodule",
+          "desc": "Untermodule decken die Verfolgung eines anderen Git-Repositorys bei einem bestimmten Commit innerhalb eines übergeordneten Repositorys ab."
+        },
+        "ja": {
+          "name": "サブモジュール",
+          "desc": "サブモジュールは、親リポジトリ内の特定のコミットでの別の Git リポジトリの追跡を扱います。"
+        },
+        "ru": {
+          "name": "Субмодули",
+          "desc": "Подмодули охватывают отслеживание другого репозитория Git при определенном коммите внутри родительского репозитория."
+        },
+        "ko": {
+          "name": "서브모듈",
+          "desc": "하위 모듈은 상위 저장소 내부의 특정 커밋에서 다른 Git 저장소 추적을 다룹니다."
+        },
+        "pt": {
+          "name": "Submódulos",
+          "desc": "Os submódulos cobrem o rastreamento de outro repositório Git em um commit específico dentro de um repositório pai."
+        }
+      }
+    },
+    {
+      "key": "git/worktrees",
+      "slug": "worktrees",
+      "name": "Worktrees",
+      "desc": "Worktrees cover maintaining multiple working directories attached to the same repository data.",
+      "i18n": {
+        "zh": {
+          "name": "工作树",
+          "desc": "工作树涵盖维护附加到同一存储库数据的多个工作目录。"
+        },
+        "es": {
+          "name": "árboles de trabajo",
+          "desc": "Los árboles de trabajo cubren el mantenimiento de múltiples directorios de trabajo adjuntos a los mismos datos del repositorio."
+        },
+        "fr": {
+          "name": "Arbres de travail",
+          "desc": "Les arbres de travail couvrent la maintenance de plusieurs répertoires de travail attachés aux mêmes données du référentiel."
+        },
+        "de": {
+          "name": "Arbeitsbäume",
+          "desc": "Arbeitsbäume umfassen die Verwaltung mehrerer Arbeitsverzeichnisse, die mit denselben Repository-Daten verknüpft sind."
+        },
+        "ja": {
+          "name": "ワークツリー",
+          "desc": "ワークツリーは、同じリポジトリデータに接続された複数の作業ディレクトリの維持を扱います。"
+        },
+        "ru": {
+          "name": "Рабочие деревья",
+          "desc": "Рабочие деревья охватывают поддержку нескольких рабочих каталогов, прикрепленных к одним и тем же данным репозитория."
+        },
+        "ko": {
+          "name": "작업 트리",
+          "desc": "작업 트리는 동일한 저장소 데이터에 연결된 여러 작업 디렉터리를 유지 관리합니다."
+        },
+        "pt": {
+          "name": "Árvores de trabalho",
+          "desc": "As árvores de trabalho cobrem a manutenção de vários diretórios de trabalho anexados aos mesmos dados do repositório."
+        }
+      }
+    },
+    {
+      "key": "git/sparse_checkout",
+      "slug": "sparse_checkout",
+      "name": "Sparse Checkout",
+      "desc": "Sparse checkout covers limiting the checked-out working tree to selected paths in large repositories.",
+      "i18n": {
+        "zh": {
+          "name": "稀疏检出",
+          "desc": "稀疏检出涵盖在大型仓库中只检出选定路径到工作树。"
+        },
+        "es": {
+          "name": "Checkout disperso",
+          "desc": "El checkout disperso cubre limitar el árbol de trabajo extraído a rutas seleccionadas en repositorios grandes."
+        },
+        "fr": {
+          "name": "Checkout partiel",
+          "desc": "Le checkout partiel couvre la limitation de l’arbre de travail extrait à des chemins sélectionnés dans les grands dépôts."
+        },
+        "de": {
+          "name": "Partieller Checkout",
+          "desc": "Partieller Checkout behandelt das Beschränken des ausgecheckten Arbeitsbaums auf ausgewählte Pfade in großen Repositorys."
+        },
+        "ja": {
+          "name": "スパースチェックアウト",
+          "desc": "スパースチェックアウトでは、チェックアウトされた作業ツリーを大規模なリポジトリ内の選択されたパスに制限することを扱います。"
+        },
+        "ru": {
+          "name": "Частичное извлечение",
+          "desc": "Частичное извлечение охватывает ограничение рабочей директории выбранными путями в больших репозиториях."
+        },
+        "ko": {
+          "name": "스파스 체크아웃",
+          "desc": "스파스 체크아웃은 체크아웃된 작업 트리를 대규모 저장소의 선택된 경로로 제한하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Checkout parcial",
+          "desc": "O checkout parcial abrange limitar a árvore de trabalho extraída a caminhos selecionados em repositórios grandes."
+        }
+      }
+    },
+    {
+      "key": "git/large_file_handling",
+      "slug": "large_file_handling",
+      "name": "Large File Handling",
+      "desc": "Large file handling covers recognizing oversized repository content and using suitable Git strategies for binary or generated assets.",
+      "i18n": {
+        "zh": {
+          "name": "大文件处理",
+          "desc": "大文件处理包括识别超大存储库内容以及对二进制或生成的资产使用合适的 Git 策略。"
+        },
+        "es": {
+          "name": "Gestión de archivos grandes",
+          "desc": "El manejo de archivos grandes cubre el reconocimiento de contenido de repositorios de gran tamaño y el uso de estrategias Git adecuadas para activos binarios o generados."
+        },
+        "fr": {
+          "name": "Gestion des fichiers volumineux",
+          "desc": "La gestion des fichiers volumineux comprend la reconnaissance du contenu surdimensionné du référentiel et l'utilisation de stratégies Git appropriées pour les actifs binaires ou générés."
+        },
+        "de": {
+          "name": "Umgang mit großen Dateien",
+          "desc": "Der Umgang mit großen Dateien umfasst das Erkennen übergroßer Repository-Inhalte und die Verwendung geeigneter Git-Strategien für binäre oder generierte Assets."
+        },
+        "ja": {
+          "name": "大きなファイルの処理",
+          "desc": "大きなファイルの処理には、大きすぎるリポジトリコンテンツの認識と、バイナリまたは生成されたアセットに対する適切な Git 戦略の使用が含まれます。"
+        },
+        "ru": {
+          "name": "Обработка больших файлов",
+          "desc": "Обработка больших файлов включает в себя распознавание слишком большого содержимого репозитория и использование подходящих стратегий Git для двоичных или сгенерированных ресурсов."
+        },
+        "ko": {
+          "name": "대용량 파일 처리",
+          "desc": "대용량 파일 처리에는 대용량 저장소 콘텐츠를 인식하고 바이너리 또는 생성된 자산에 적합한 Git 전략을 사용하는 방법이 포함됩니다."
+        },
+        "pt": {
+          "name": "Tratamento de arquivos grandes",
+          "desc": "O manuseio de arquivos grandes abrange o reconhecimento de conteúdo de repositório superdimensionado e o uso de estratégias Git adequadas para ativos binários ou gerados."
+        }
+      }
+    },
+    {
+      "key": "git/repository_hooks",
+      "slug": "repository_hooks",
+      "name": "Repository Hooks",
+      "desc": "Repository hooks cover Git-triggered scripts that run around local or server-side repository operations.",
+      "i18n": {
+        "zh": {
+          "name": "仓库 Hooks",
+          "desc": "仓库 hooks 涵盖由 Git 触发、围绕本地或服务器端仓库操作运行的脚本。"
+        },
+        "es": {
+          "name": "Hooks de repositorio",
+          "desc": "Los hooks de repositorio cubren scripts activados por Git que se ejecutan alrededor de operaciones de repositorio locales o del lado del servidor."
+        },
+        "fr": {
+          "name": "Hooks de dépôt",
+          "desc": "Les hooks de dépôt couvrent les scripts déclenchés par Git qui s’exécutent autour des opérations de dépôt locales ou côté serveur."
+        },
+        "de": {
+          "name": "Repository-Hooks",
+          "desc": "Repository-Hooks umfassen von Git ausgelöste Skripte, die um lokale oder serverseitige Repository-Vorgänge herum ausgeführt werden."
+        },
+        "ja": {
+          "name": "リポジトリフック",
+          "desc": "リポジトリフックは、ローカルまたはサーバー側のリポジトリ操作を中心に実行される Git によってトリガーされるスクリプトを扱います。"
+        },
+        "ru": {
+          "name": "Хуки репозитория",
+          "desc": "Хуки репозитория охватывают сценарии, запускаемые Git вокруг локальных или серверных операций репозитория."
+        },
+        "ko": {
+          "name": "저장소 Hooks",
+          "desc": "저장소 hooks는 로컬 또는 서버 측 저장소 작업을 중심으로 실행되는 Git 트리거 스크립트를 다룹니다."
+        },
+        "pt": {
+          "name": "Hooks de repositório",
+          "desc": "Os hooks de repositório cobrem scripts acionados pelo Git que são executados em torno de operações de repositório locais ou do lado do servidor."
+        }
+      }
+    },
+    {
+      "key": "git/repository_integrity",
+      "slug": "repository_integrity",
+      "name": "Repository Integrity",
+      "desc": "Repository integrity covers checking object database consistency, ref validity, and corruption symptoms.",
+      "i18n": {
+        "zh": {
+          "name": "存储库完整性",
+          "desc": "存储库完整性包括检查对象数据库一致性、引用有效性和损坏症状。"
+        },
+        "es": {
+          "name": "Integridad del repositorio",
+          "desc": "La integridad del repositorio cubre la verificación de la coherencia de la base de datos de objetos, la validez de la referencia y los síntomas de corrupción."
+        },
+        "fr": {
+          "name": "Intégrité du référentiel",
+          "desc": "L'intégrité du référentiel couvre la vérification de la cohérence de la base de données d'objets, de la validité des références et des symptômes de corruption."
+        },
+        "de": {
+          "name": "Repository-Integrität",
+          "desc": "Die Repository-Integrität umfasst die Überprüfung der Konsistenz der Objektdatenbank, der Referenzgültigkeit und der Korruptionssymptome."
+        },
+        "ja": {
+          "name": "リポジトリの整合性",
+          "desc": "リポジトリの整合性には、オブジェクトデータベースの一貫性、参照の有効性、破損の症状のチェックが含まれます。"
+        },
+        "ru": {
+          "name": "Целостность репозитория",
+          "desc": "Целостность репозитория включает проверку целостности базы данных объектов, действительности ссылок и признаков повреждения."
+        },
+        "ko": {
+          "name": "저장소 무결성",
+          "desc": "리포지토리 무결성에는 개체 데이터베이스 일관성, 참조 유효성 및 손상 증상 확인이 포함됩니다."
+        },
+        "pt": {
+          "name": "Integridade do Repositório",
+          "desc": "A integridade do repositório abrange a verificação da consistência do banco de dados de objetos, validade de referência e sintomas de corrupção."
+        }
+      }
+    },
+    {
+      "key": "git/garbage_collection",
+      "slug": "garbage_collection",
+      "name": "Garbage Collection",
+      "desc": "Garbage collection covers pruning unreachable objects, packing repository data, and maintaining storage efficiency.",
+      "i18n": {
+        "zh": {
+          "name": "垃圾收集",
+          "desc": "垃圾回收涵盖清理无法访问的对象、打包仓库数据以及保持存储效率。"
+        },
+        "es": {
+          "name": "Recolección de basura",
+          "desc": "La recolección de basura cubre la eliminación de objetos inalcanzables, el empaquetado de datos del repositorio y el mantenimiento de la eficiencia del almacenamiento."
+        },
+        "fr": {
+          "name": "Collecte des déchets",
+          "desc": "Le garbage collection couvre le nettoyage des objets inaccessibles, le compactage des données du dépôt et le maintien de l'efficacité du stockage."
+        },
+        "de": {
+          "name": "Müllabfuhr",
+          "desc": "Die Garbage Collection umfasst das Bereinigen nicht erreichbarer Objekte, das Packen von Repository-Daten und die Aufrechterhaltung der Speichereffizienz."
+        },
+        "ja": {
+          "name": "ガベージコレクション",
+          "desc": "ガベージコレクションには、到達不能なオブジェクトの整理、リポジトリデータのパック、およびストレージ効率の維持が含まれます。"
+        },
+        "ru": {
+          "name": "Сборка мусора",
+          "desc": "Сборка мусора охватывает удаление недостижимых объектов, упаковку данных репозитория и поддержание эффективности хранения."
+        },
+        "ko": {
+          "name": "쓰레기 수거",
+          "desc": "가비지 수집에는 연결할 수 없는 개체 정리, 저장소 데이터 압축 및 저장소 효율성 유지가 포함됩니다."
+        },
+        "pt": {
+          "name": "Coleta de lixo",
+          "desc": "A coleta de lixo abrange a remoção de objetos inacessíveis, a compactação de dados do repositório e a manutenção da eficiência do armazenamento."
+        }
+      }
+    }
+  ]
+}

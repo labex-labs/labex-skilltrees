@@ -1,0 +1,1527 @@
+{
+  "key": "c",
+  "slug": "c",
+  "name": "C",
+  "skills": [
+    {
+      "key": "c/program_structure",
+      "slug": "program_structure",
+      "name": "Program Structure",
+      "desc": "Program structure covers translation units, entry points, statements, and the overall shape of C programs.",
+      "i18n": {
+        "zh": {
+          "name": "程序结构",
+          "desc": "程序结构涵盖翻译单元、入口点、语句以及 C 程序的整体形态。"
+        },
+        "es": {
+          "name": "Estructura del programa",
+          "desc": "La estructura del programa cubre unidades de traducción, puntos de entrada, sentencias y la forma general de los programas C."
+        },
+        "fr": {
+          "name": "Structure du programme",
+          "desc": "La structure du programme couvre les unités de traduction, les points d’entrée, les instructions et la forme globale des programmes C."
+        },
+        "de": {
+          "name": "Programmstruktur",
+          "desc": "Die Programmstruktur umfasst Übersetzungseinheiten, Einstiegspunkte, Anweisungen und die Gesamtform von C-Programmen."
+        },
+        "ja": {
+          "name": "プログラムの構造",
+          "desc": "プログラム構造には、翻訳単位、エントリポイント、ステートメント、および C プログラムの全体的な形状が含まれます。"
+        },
+        "ru": {
+          "name": "Структура программы",
+          "desc": "Структура программы охватывает единицы трансляции, точки входа, операторы и общую форму C-программ."
+        },
+        "ko": {
+          "name": "프로그램 구조",
+          "desc": "프로그램 구조는 번역 단위, 진입점, 명령문 및 C 프로그램의 전체 형태를 포함합니다."
+        },
+        "pt": {
+          "name": "Estrutura do Programa",
+          "desc": "A estrutura do programa cobre unidades de tradução, pontos de entrada, instruções e a forma geral dos programas C."
+        }
+      }
+    },
+    {
+      "key": "c/variables",
+      "slug": "variables",
+      "name": "Variables",
+      "desc": "Variables cover declaring named storage and updating values in C programs.",
+      "i18n": {
+        "zh": {
+          "name": "变量",
+          "desc": "变量包括在 C 程序中声明命名存储和更新值。"
+        },
+        "es": {
+          "name": "variables",
+          "desc": "Las variables cubren la declaración de almacenamiento con nombre y la actualización de valores en programas C."
+        },
+        "fr": {
+          "name": "Variables",
+          "desc": "Les variables couvrent la déclaration du stockage nommé et la mise à jour des valeurs dans les programmes C."
+        },
+        "de": {
+          "name": "Variablen",
+          "desc": "Variablen umfassen die Deklaration benannter Speicher und die Aktualisierung von Werten in C-Programmen."
+        },
+        "ja": {
+          "name": "変数",
+          "desc": "変数は、名前付きストレージの宣言と、C プログラムでの値の更新を扱います。"
+        },
+        "ru": {
+          "name": "Переменные",
+          "desc": "Переменные охватывают объявление именованных хранилищ и обновление значений в программах C."
+        },
+        "ko": {
+          "name": "변수",
+          "desc": "변수는 C 프로그램에서 명명된 저장소 선언 및 값 업데이트를 다룹니다."
+        },
+        "pt": {
+          "name": "Variáveis",
+          "desc": "As variáveis cobrem a declaração de armazenamento nomeado e a atualização de valores em programas C."
+        }
+      }
+    },
+    {
+      "key": "c/primitive_types",
+      "slug": "primitive_types",
+      "name": "Primitive Types",
+      "desc": "Primitive types cover integer, floating-point, character, and boolean-like values in C.",
+      "i18n": {
+        "zh": {
+          "name": "基本类型",
+          "desc": "基本类型涵盖 C 中的整数、浮点、字符和类布尔值。"
+        },
+        "es": {
+          "name": "Tipos primitivos",
+          "desc": "Los tipos primitivos cubren valores enteros, de punto flotante, de caracteres y de tipo booleano en C."
+        },
+        "fr": {
+          "name": "Types primitifs",
+          "desc": "Les types primitifs couvrent les valeurs entières, à virgule flottante, de caractère et de type booléen en C."
+        },
+        "de": {
+          "name": "Primitive Typen",
+          "desc": "Primitive Typen umfassen Ganzzahl-, Gleitkomma-, Zeichen- und boolesche Werte in C."
+        },
+        "ja": {
+          "name": "プリミティブ型",
+          "desc": "プリミティブ型は、C の整数、浮動小数点、文字、およびブール値に似た値を扱います。"
+        },
+        "ru": {
+          "name": "Примитивные типы",
+          "desc": "Примитивные типы охватывают целые числа, значения с плавающей запятой, символьные и логические значения в C."
+        },
+        "ko": {
+          "name": "기본 유형",
+          "desc": "기본 유형은 C의 정수, 부동 소수점, 문자 및 부울 유사 값을 포함합니다."
+        },
+        "pt": {
+          "name": "Tipos Primitivos",
+          "desc": "Os tipos primitivos cobrem valores inteiros, de ponto flutuante, de caracteres e booleanos em C."
+        }
+      }
+    },
+    {
+      "key": "c/constants",
+      "slug": "constants",
+      "name": "Constants",
+      "desc": "Constants cover literal values, const-qualified objects, and symbolic constant definitions.",
+      "i18n": {
+        "zh": {
+          "name": "常量",
+          "desc": "常量涵盖文字值、const 限定对象和符号常量定义。"
+        },
+        "es": {
+          "name": "Constantes",
+          "desc": "Las constantes cubren valores literales, objetos calificados const y definiciones de constantes simbólicas."
+        },
+        "fr": {
+          "name": "Constantes",
+          "desc": "Les constantes couvrent les valeurs littérales, les objets qualifiés de const et les définitions de constantes symboliques."
+        },
+        "de": {
+          "name": "Konstanten",
+          "desc": "Konstanten umfassen Literalwerte, const-qualifizierte Objekte und symbolische Konstantendefinitionen."
+        },
+        "ja": {
+          "name": "定数",
+          "desc": "定数には、リテラル値、const 修飾されたオブジェクト、およびシンボリック定数定義が含まれます。"
+        },
+        "ru": {
+          "name": "Константы",
+          "desc": "Константы охватывают литеральные значения, константные объекты и символические определения констант."
+        },
+        "ko": {
+          "name": "상수",
+          "desc": "상수는 리터럴 값, const 한정 객체 및 기호 상수 정의를 포함합니다."
+        },
+        "pt": {
+          "name": "Constantes",
+          "desc": "As constantes cobrem valores literais, objetos qualificados como const e definições de constantes simbólicas."
+        }
+      }
+    },
+    {
+      "key": "c/operators",
+      "slug": "operators",
+      "name": "Operators",
+      "desc": "Operators cover arithmetic, comparison, logical, bitwise, assignment, and precedence behavior.",
+      "i18n": {
+        "zh": {
+          "name": "运算符",
+          "desc": "运算符涵盖算术、比较、逻辑、按位、赋值和优先级行为。"
+        },
+        "es": {
+          "name": "Operadores",
+          "desc": "Los operadores cubren comportamiento aritmético, de comparación, lógico, bit a bit, de asignación y de precedencia."
+        },
+        "fr": {
+          "name": "Opérateurs",
+          "desc": "Les opérateurs couvrent le comportement arithmétique, de comparaison, logique, au niveau du bit, d'affectation et de priorité."
+        },
+        "de": {
+          "name": "Operatoren",
+          "desc": "Operatoren decken Arithmetik, Vergleich, logisches, bitweises, Zuweisungs- und Prioritätsverhalten ab."
+        },
+        "ja": {
+          "name": "オペレーター",
+          "desc": "演算子には、算術、比較、論理、ビット単位、代入、および優先順位の動作が含まれます。"
+        },
+        "ru": {
+          "name": "Операторы",
+          "desc": "Операторы охватывают арифметические операции, операции сравнения, логические, побитовые операции, присваивания и приоритета."
+        },
+        "ko": {
+          "name": "연산자",
+          "desc": "연산자는 산술, 비교, 논리, 비트 단위, 할당 및 우선 순위 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Operadores",
+          "desc": "Os operadores cobrem comportamento aritmético, de comparação, lógico, bit a bit, atribuição e precedência."
+        }
+      }
+    },
+    {
+      "key": "c/comments",
+      "slug": "comments",
+      "name": "Comments",
+      "desc": "Comments cover documenting intent and constraints in C source code.",
+      "i18n": {
+        "zh": {
+          "name": "注释",
+          "desc": "注释涵盖在 C 源代码中记录意图和约束。"
+        },
+        "es": {
+          "name": "Comentarios",
+          "desc": "Los comentarios cubren la documentación de la intención y las restricciones en el código fuente C."
+        },
+        "fr": {
+          "name": "Commentaires",
+          "desc": "Les commentaires couvrent la documentation de l'intention et des contraintes dans le code source C."
+        },
+        "de": {
+          "name": "Kommentare",
+          "desc": "Kommentare behandeln die Dokumentation von Absichten und Einschränkungen im C-Quellcode."
+        },
+        "ja": {
+          "name": "コメント",
+          "desc": "コメントは、C ソースコードで意図や制約を文書化する方法を扱います。"
+        },
+        "ru": {
+          "name": "Комментарии",
+          "desc": "Комментарии охватывают документирование намерений и ограничений в исходном коде C."
+        },
+        "ko": {
+          "name": "주석",
+          "desc": "주석은 C 소스 코드에서 의도와 제약 조건을 문서화하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Comentários",
+          "desc": "Os comentários cobrem a documentação de intenções e restrições no código-fonte C."
+        }
+      }
+    },
+    {
+      "key": "c/conditional_statements",
+      "slug": "conditional_statements",
+      "name": "Conditional Statements",
+      "desc": "Conditional statements cover branching with if and else logic.",
+      "i18n": {
+        "zh": {
+          "name": "条件语句",
+          "desc": "条件语句涵盖使用 if 和 else 逻辑进行分支。"
+        },
+        "es": {
+          "name": "Sentencias condicionales",
+          "desc": "Las sentencias condicionales cubren la ramificación con lógica if y else."
+        },
+        "fr": {
+          "name": "Instructions conditionnelles",
+          "desc": "Les instructions conditionnelles couvrent le branchement avec la logique if et else."
+        },
+        "de": {
+          "name": "Bedingte Anweisungen",
+          "desc": "Bedingte Anweisungen umfassen Verzweigungen mit if- und else-Logik."
+        },
+        "ja": {
+          "name": "条件文",
+          "desc": "条件ステートメントは、if および else ロジックによる分岐を扱います。"
+        },
+        "ru": {
+          "name": "Условные операторы",
+          "desc": "Условные операторы охватывают ветвление с помощью логики if и else."
+        },
+        "ko": {
+          "name": "조건문",
+          "desc": "조건문은 if 및 else 논리를 사용한 분기를 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções condicionais",
+          "desc": "As instruções condicionais cobrem a ramificação com a lógica if e else."
+        }
+      }
+    },
+    {
+      "key": "c/switch_statements",
+      "slug": "switch_statements",
+      "name": "Switch Statements",
+      "desc": "Switch statements cover multi-branch selection with cases, defaults, and fallthrough behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Switch 语句",
+          "desc": "Switch 语句涵盖带有 case、default 和 fallthrough 行为的多分支选择。"
+        },
+        "es": {
+          "name": "Sentencias switch",
+          "desc": "Las sentencias switch cubren la selección de múltiples ramas con casos, valores predeterminados y comportamiento de fallthrough."
+        },
+        "fr": {
+          "name": "Instructions switch",
+          "desc": "Les instructions switch couvrent la sélection multi-branche avec des cas, des valeurs par défaut et le comportement de fallthrough."
+        },
+        "de": {
+          "name": "Switch-Anweisungen",
+          "desc": "Switch-Anweisungen decken die Auswahl mehrerer Zweige mit Fällen, Standardwerten und Fallthrough-Verhalten ab."
+        },
+        "ja": {
+          "name": "スイッチステートメント",
+          "desc": "switch ステートメントは、ケース、デフォルト、およびフォールスルー動作を含む複数ブランチの選択を扱います。"
+        },
+        "ru": {
+          "name": "Операторы switch",
+          "desc": "Операторы switch охватывают выбор из нескольких ветвей с case, default и поведением fallthrough."
+        },
+        "ko": {
+          "name": "스위치 문",
+          "desc": "switch 문은 case, default 및 fallthrough 동작을 포함한 다중 분기 선택을 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções switch",
+          "desc": "As instruções switch cobrem a seleção de vários ramos com cases, default e comportamento de fallthrough."
+        }
+      }
+    },
+    {
+      "key": "c/loops",
+      "slug": "loops",
+      "name": "Loops",
+      "desc": "Loops cover repeating work with for, while, and do-while control structures.",
+      "i18n": {
+        "zh": {
+          "name": "循环",
+          "desc": "循环涵盖了使用 for、while 和 do-while 控制结构进行重复工作。"
+        },
+        "es": {
+          "name": "Bucles",
+          "desc": "Los bucles cubren el trabajo repetido con estructuras de control for, while y do-while."
+        },
+        "fr": {
+          "name": "Boucles",
+          "desc": "Les boucles couvrent le travail répétitif avec les structures de contrôle for, while et do-while."
+        },
+        "de": {
+          "name": "Schleifen",
+          "desc": "Schleifen decken sich wiederholende Arbeiten mit for-, while- und do-while-Kontrollstrukturen ab."
+        },
+        "ja": {
+          "name": "ループ",
+          "desc": "ループは、for、while、do-while 制御構造を使用した繰り返し作業を扱います。"
+        },
+        "ru": {
+          "name": "Циклы",
+          "desc": "Циклы охватывают повторяющуюся работу со структурами управления for, while и do-while."
+        },
+        "ko": {
+          "name": "루프",
+          "desc": "루프는 for, while 및 do-while 제어 구조를 사용하여 반복 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Laços",
+          "desc": "Os loops cobrem a repetição do trabalho com estruturas de controle for, while e do-while."
+        }
+      }
+    },
+    {
+      "key": "c/break_continue",
+      "slug": "break_continue",
+      "name": "Break and Continue",
+      "desc": "Break and continue cover changing loop or switch control flow deliberately.",
+      "i18n": {
+        "zh": {
+          "name": "break 和 continue",
+          "desc": "break 和 continue 涵盖有意改变循环或 switch 控制流。"
+        },
+        "es": {
+          "name": "break y continue",
+          "desc": "break y continue cubren el cambio deliberado del flujo de control en bucles o switch."
+        },
+        "fr": {
+          "name": "break et continue",
+          "desc": "break et continue couvrent la modification volontaire du flux de contrôle dans les boucles ou les switch."
+        },
+        "de": {
+          "name": "break und continue",
+          "desc": "break und continue behandeln das gezielte Ändern des Kontrollflusses in Schleifen oder switch-Anweisungen."
+        },
+        "ja": {
+          "name": "break と continue",
+          "desc": "break と continue は、ループや switch の制御フローを意図的に変更する方法を扱います。"
+        },
+        "ru": {
+          "name": "break и continue",
+          "desc": "break и continue охватывают намеренное изменение потока управления в циклах или switch."
+        },
+        "ko": {
+          "name": "break와 continue",
+          "desc": "break와 continue는 루프 또는 switch의 제어 흐름을 의도적으로 변경하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "break e continue",
+          "desc": "break e continue cobrem a alteração deliberada do fluxo de controle em loops ou switch."
+        }
+      }
+    },
+    {
+      "key": "c/functions",
+      "slug": "functions",
+      "name": "Functions",
+      "desc": "Functions cover declaring, defining, calling, and organizing reusable C logic.",
+      "i18n": {
+        "zh": {
+          "name": "函数",
+          "desc": "函数涵盖声明、定义、调用和组织可重用的 C 逻辑。"
+        },
+        "es": {
+          "name": "Funciones",
+          "desc": "Las funciones cubren declarar, definir, llamar y organizar lógica C reutilizable."
+        },
+        "fr": {
+          "name": "Fonctions",
+          "desc": "Les fonctions couvrent la déclaration, la définition, l'appel et l'organisation de la logique C réutilisable."
+        },
+        "de": {
+          "name": "Funktionen",
+          "desc": "Zu den Funktionen gehören das Deklarieren, Definieren, Aufrufen und Organisieren wiederverwendbarer C-Logik."
+        },
+        "ja": {
+          "name": "関数",
+          "desc": "関数には、再利用可能な C ロジックの宣言、定義、呼び出し、編成が含まれます。"
+        },
+        "ru": {
+          "name": "Функции",
+          "desc": "Функции охватывают объявление, определение, вызов и организацию многократно используемой логики C."
+        },
+        "ko": {
+          "name": "함수",
+          "desc": "함수에서는 재사용 가능한 C 로직 선언, 정의, 호출 및 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Funções",
+          "desc": "As funções cobrem a declaração, definição, chamada e organização da lógica C reutilizável."
+        }
+      }
+    },
+    {
+      "key": "c/parameters_return_values",
+      "slug": "parameters_return_values",
+      "name": "Parameters and Return Values",
+      "desc": "Parameters and return values cover passing data into functions and communicating results.",
+      "i18n": {
+        "zh": {
+          "name": "参数和返回值",
+          "desc": "参数和返回值涵盖将数据传递到函数和传达结果。"
+        },
+        "es": {
+          "name": "Parámetros y valores de retorno",
+          "desc": "Los parámetros y valores de retorno cubren la transferencia de datos a funciones y la comunicación de resultados."
+        },
+        "fr": {
+          "name": "Paramètres et valeurs de retour",
+          "desc": "Les paramètres et les valeurs de retour couvrent la transmission des données aux fonctions et la communication des résultats."
+        },
+        "de": {
+          "name": "Parameter und Rückgabewerte",
+          "desc": "Parameter und Rückgabewerte umfassen die Übergabe von Daten an Funktionen und die Kommunikation von Ergebnissen."
+        },
+        "ja": {
+          "name": "パラメータと戻り値",
+          "desc": "パラメーターと戻り値には、関数へのデータの受け渡しと結果の伝達が含まれます。"
+        },
+        "ru": {
+          "name": "Параметры и возвращаемые значения",
+          "desc": "Параметры и возвращаемые значения охватывают передачу данных в функции и передачу результатов."
+        },
+        "ko": {
+          "name": "매개변수 및 반환 값",
+          "desc": "매개변수 및 반환 값에는 데이터를 함수에 전달하고 결과를 전달하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Parâmetros e valores de retorno",
+          "desc": "Parâmetros e valores de retorno cobrem a passagem de dados para funções e a comunicação de resultados."
+        }
+      }
+    },
+    {
+      "key": "c/scope_lifetime",
+      "slug": "scope_lifetime",
+      "name": "Scope and Lifetime",
+      "desc": "Scope and lifetime cover visibility, storage duration, and object lifetime in C.",
+      "i18n": {
+        "zh": {
+          "name": "作用域和生命周期",
+          "desc": "作用域和生命周期涵盖 C 中的可见性、存储期和对象生命周期。"
+        },
+        "es": {
+          "name": "Alcance y vida útil",
+          "desc": "El alcance y la vida útil cubren la visibilidad, la duración del almacenamiento y la vida útil del objeto en C."
+        },
+        "fr": {
+          "name": "Portée et durée de vie",
+          "desc": "La portée et la durée de vie couvrent la visibilité, la durée de stockage et la durée de vie des objets en C."
+        },
+        "de": {
+          "name": "Gültigkeitsbereich und Lebensdauer",
+          "desc": "Gültigkeitsbereich und Lebensdauer umfassen Sichtbarkeit, Speicherdauer und Objektlebensdauer in C."
+        },
+        "ja": {
+          "name": "スコープとライフタイム",
+          "desc": "スコープとライフタイムは、C での可視性、ストレージ期間、オブジェクトのライフタイムを扱います。"
+        },
+        "ru": {
+          "name": "Область видимости и время жизни",
+          "desc": "Область видимости и время жизни охватывают видимость, длительность хранения и время жизни объекта в C."
+        },
+        "ko": {
+          "name": "스코프와 수명",
+          "desc": "스코프와 수명은 C의 가시성, 저장 기간 및 객체 수명을 다룹니다."
+        },
+        "pt": {
+          "name": "Escopo e Vida Útil",
+          "desc": "O escopo e a vida útil cobrem a visibilidade, a duração do armazenamento e a vida útil do objeto em C."
+        }
+      }
+    },
+    {
+      "key": "c/recursion",
+      "slug": "recursion",
+      "name": "Recursion",
+      "desc": "Recursion covers functions that solve problems by calling themselves with smaller inputs.",
+      "i18n": {
+        "zh": {
+          "name": "递归",
+          "desc": "递归涵盖了通过使用较小的输入调用自身来解决问题的函数。"
+        },
+        "es": {
+          "name": "Recursividad",
+          "desc": "La recursión cubre funciones que resuelven problemas llamándose a sí mismas con entradas más pequeñas."
+        },
+        "fr": {
+          "name": "Récursivité",
+          "desc": "La récursion couvre les fonctions qui résolvent des problèmes en s'appelant avec des entrées plus petites."
+        },
+        "de": {
+          "name": "Rekursion",
+          "desc": "Rekursion umfasst Funktionen, die Probleme lösen, indem sie sich selbst mit kleineren Eingaben aufrufen."
+        },
+        "ja": {
+          "name": "再帰",
+          "desc": "再帰は、より小さな入力で自分自身を呼び出すことによって問題を解決する関数を扱います。"
+        },
+        "ru": {
+          "name": "Рекурсия",
+          "desc": "Рекурсия охватывает функции, которые решают проблемы, вызывая себя с меньшими входными данными."
+        },
+        "ko": {
+          "name": "재귀",
+          "desc": "재귀는 더 작은 입력으로 자신을 호출하여 문제를 해결하는 함수를 다룹니다."
+        },
+        "pt": {
+          "name": "Recursão",
+          "desc": "A recursão cobre funções que resolvem problemas chamando a si mesmas com entradas menores."
+        }
+      }
+    },
+    {
+      "key": "c/error_return_codes",
+      "slug": "error_return_codes",
+      "name": "Error Return Codes",
+      "desc": "Error return codes cover representing and checking failure with status values and conventions.",
+      "i18n": {
+        "zh": {
+          "name": "错误返回码",
+          "desc": "错误返回代码涵盖用状态值和约定表示和检查失败。"
+        },
+        "es": {
+          "name": "Códigos de retorno de error",
+          "desc": "Los códigos de retorno de error cubren la representación y verificación de fallas con valores de estado y convenciones."
+        },
+        "fr": {
+          "name": "Codes de retour d'erreur",
+          "desc": "Les codes de retour d’erreur couvrent la représentation et la vérification des échecs avec les valeurs d’état et les conventions."
+        },
+        "de": {
+          "name": "Fehler-Rückgabecodes",
+          "desc": "Fehlerrückgabecodes umfassen die Darstellung und Überprüfung von Fehlern mit Statuswerten und Konventionen."
+        },
+        "ja": {
+          "name": "エラーリターンコード",
+          "desc": "エラー戻りコードは、ステータス値と規則による失敗の表現とチェックを扱います。"
+        },
+        "ru": {
+          "name": "Коды возврата ошибок",
+          "desc": "Коды возврата ошибок охватывают представление и проверку сбоя с помощью значений состояния и соглашений."
+        },
+        "ko": {
+          "name": "오류 반환 코드",
+          "desc": "오류 반환 코드는 상태 값과 규칙을 통해 실패를 표시하고 확인하는 것을 포함합니다."
+        },
+        "pt": {
+          "name": "Códigos de retorno de erro",
+          "desc": "Os códigos de retorno de erro abrangem a representação e verificação de falhas com valores de status e convenções."
+        }
+      }
+    },
+    {
+      "key": "c/errno_handling",
+      "slug": "errno_handling",
+      "name": "errno Handling",
+      "desc": "errno handling covers interpreting library failure details through errno values and related diagnostics.",
+      "i18n": {
+        "zh": {
+          "name": "errno 处理",
+          "desc": "errno 处理涵盖通过 errno 值和相关诊断来解释库故障详细信息。"
+        },
+        "es": {
+          "name": "Gestión de errno",
+          "desc": "La gestión de errno cubre la interpretación de los detalles de fallos de biblioteca mediante valores errno y diagnósticos relacionados."
+        },
+        "fr": {
+          "name": "Gestion de errno",
+          "desc": "La gestion de errno couvre l’interprétation des détails d’échec de bibliothèque via les valeurs errno et les diagnostics associés."
+        },
+        "de": {
+          "name": "errno-Behandlung",
+          "desc": "Die errno-Behandlung umfasst die Interpretation von Bibliotheksfehlerdetails anhand von errno-Werten und zugehörigen Diagnosen."
+        },
+        "ja": {
+          "name": "errno の扱い",
+          "desc": "errno の処理では、errno 値および関連する診断を通じてライブラリ障害の詳細を解釈することが含まれます。"
+        },
+        "ru": {
+          "name": "Обработка errno",
+          "desc": "Обработка errno включает интерпретацию деталей сбоя библиотеки через значения errno и соответствующую диагностику."
+        },
+        "ko": {
+          "name": "errno 처리",
+          "desc": "errno 처리에는 errno 값 및 관련 진단을 통한 라이브러리 오류 세부 정보 해석이 포함됩니다."
+        },
+        "pt": {
+          "name": "Tratamento de errno",
+          "desc": "O tratamento de errno abrange a interpretação de detalhes de falhas de biblioteca por meio de valores errno e diagnósticos relacionados."
+        }
+      }
+    },
+    {
+      "key": "c/addresses",
+      "slug": "addresses",
+      "name": "Addresses",
+      "desc": "Addresses cover locating objects in memory and using address-of operations.",
+      "i18n": {
+        "zh": {
+          "name": "地址",
+          "desc": "地址涵盖在内存中定位对象以及使用取地址相关操作。"
+        },
+        "es": {
+          "name": "Direcciones",
+          "desc": "Las direcciones cubren la localización de objetos en la memoria y el uso de operaciones de direcciones."
+        },
+        "fr": {
+          "name": "Adresses",
+          "desc": "Les adresses couvrent la localisation des objets en mémoire et l'utilisation des opérations d'adresse."
+        },
+        "de": {
+          "name": "Adressen",
+          "desc": "Adressen umfassen das Auffinden von Objekten im Speicher und die Verwendung von Adressoperationen."
+        },
+        "ja": {
+          "name": "アドレス",
+          "desc": "アドレスは、メモリ内のオブジェクトの検索とアドレス演算の使用を扱います。"
+        },
+        "ru": {
+          "name": "Адреса",
+          "desc": "Адреса охватывают поиск объектов в памяти и использование операций с адресами."
+        },
+        "ko": {
+          "name": "주소",
+          "desc": "주소에는 메모리에서 개체 찾기 및 주소 작업 사용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Endereços",
+          "desc": "Os endereços abrangem a localização de objetos na memória e o uso de operações de endereço."
+        }
+      }
+    },
+    {
+      "key": "c/pointers",
+      "slug": "pointers",
+      "name": "Pointers",
+      "desc": "Pointers cover storing addresses, dereferencing, null pointers, and pointer validity.",
+      "i18n": {
+        "zh": {
+          "name": "指针",
+          "desc": "指针涵盖存储地址、解引用、空指针和指针有效性。"
+        },
+        "es": {
+          "name": "Punteros",
+          "desc": "Los punteros cubren el almacenamiento de direcciones, la desreferenciación, los punteros nulos y la validez del puntero."
+        },
+        "fr": {
+          "name": "Pointeurs",
+          "desc": "Les pointeurs couvrent le stockage des adresses, le déréférencement, les pointeurs nuls et la validité du pointeur."
+        },
+        "de": {
+          "name": "Zeiger",
+          "desc": "Zeiger umfassen das Speichern von Adressen, Dereferenzierung, Nullzeiger und Zeigergültigkeit."
+        },
+        "ja": {
+          "name": "ポインタ",
+          "desc": "ポインタは、アドレスの保存、デリファレンス、NULL ポインタ、およびポインタの有効性を扱います。"
+        },
+        "ru": {
+          "name": "Указатели",
+          "desc": "Указатели охватывают хранение адресов, разыменование, нулевые указатели и допустимость указателей."
+        },
+        "ko": {
+          "name": "포인터",
+          "desc": "포인터는 주소 저장, 역참조, 널 포인터 및 포인터 유효성을 다룹니다."
+        },
+        "pt": {
+          "name": "Ponteiros",
+          "desc": "Os ponteiros cobrem o armazenamento de endereços, a desreferenciação, ponteiros nulos e a validade de ponteiros."
+        }
+      }
+    },
+    {
+      "key": "c/pointer_arithmetic",
+      "slug": "pointer_arithmetic",
+      "name": "Pointer Arithmetic",
+      "desc": "Pointer arithmetic covers moving through contiguous objects with pointer operations.",
+      "i18n": {
+        "zh": {
+          "name": "指针运算",
+          "desc": "指针运算涵盖使用指针操作在连续对象之间移动。"
+        },
+        "es": {
+          "name": "Aritmética de punteros",
+          "desc": "La aritmética de punteros cubre el movimiento a través de objetos contiguos con operaciones de puntero."
+        },
+        "fr": {
+          "name": "Arithmétique des pointeurs",
+          "desc": "L'arithmétique des pointeurs couvre le déplacement à travers des objets contigus avec des opérations sur les pointeurs."
+        },
+        "de": {
+          "name": "Zeigerarithmetik",
+          "desc": "Die Zeigerarithmetik umfasst das Bewegen durch zusammenhängende Objekte mit Zeigeroperationen."
+        },
+        "ja": {
+          "name": "ポインタ演算",
+          "desc": "ポインター演算では、ポインター操作による連続したオブジェクト間の移動を扱います。"
+        },
+        "ru": {
+          "name": "Арифметика указателей",
+          "desc": "Арифметика указателей охватывает перемещение по смежным объектам с помощью операций с указателями."
+        },
+        "ko": {
+          "name": "포인터 산술",
+          "desc": "포인터 산술은 포인터 작업을 통해 인접한 개체 사이를 이동하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Aritmética de ponteiros",
+          "desc": "A aritmética de ponteiros abrange a movimentação por objetos contíguos com operações de ponteiro."
+        }
+      }
+    },
+    {
+      "key": "c/arrays",
+      "slug": "arrays",
+      "name": "Arrays",
+      "desc": "Arrays cover fixed-size contiguous collections and element access.",
+      "i18n": {
+        "zh": {
+          "name": "数组",
+          "desc": "数组涵盖固定大小的连续集合和元素访问。"
+        },
+        "es": {
+          "name": "Arreglos",
+          "desc": "Los arreglos cubren colecciones contiguas de tamaño fijo y acceso a elementos."
+        },
+        "fr": {
+          "name": "Tableaux",
+          "desc": "Les tableaux couvrent les collections contiguës de taille fixe et l’accès aux éléments."
+        },
+        "de": {
+          "name": "Felder",
+          "desc": "Felder decken zusammenhängende Sammlungen fester Größe und den Elementzugriff ab."
+        },
+        "ja": {
+          "name": "配列",
+          "desc": "配列は、固定サイズの連続コレクションと要素アクセスを扱います。"
+        },
+        "ru": {
+          "name": "Массивы",
+          "desc": "Массивы охватывают смежные коллекции фиксированного размера и доступ к элементам."
+        },
+        "ko": {
+          "name": "배열",
+          "desc": "배열은 고정된 크기의 연속 컬렉션과 요소 액세스를 다룹니다."
+        },
+        "pt": {
+          "name": "Vetores",
+          "desc": "Vetores cobrem coleções contíguas de tamanho fixo e acesso a elementos."
+        }
+      }
+    },
+    {
+      "key": "c/arrays_pointers",
+      "slug": "arrays_pointers",
+      "name": "Arrays and Pointers",
+      "desc": "Arrays and pointers cover decay, indexing relationships, and function parameter behavior.",
+      "i18n": {
+        "zh": {
+          "name": "数组和指针",
+          "desc": "数组和指针涵盖数组到指针的转换、索引关系和函数参数行为。"
+        },
+        "es": {
+          "name": "Vectores y punteros",
+          "desc": "Los vectores y los punteros cubren la conversión de vectores a punteros, las relaciones de indexación y el comportamiento de los parámetros de funciones."
+        },
+        "fr": {
+          "name": "Tableaux et pointeurs",
+          "desc": "Les tableaux et les pointeurs couvrent la conversion de tableaux en pointeurs, les relations d’indexation et le comportement des paramètres de fonction."
+        },
+        "de": {
+          "name": "Felder und Zeiger",
+          "desc": "Felder und Zeiger decken die Umwandlung von Feldern in Zeiger, Indizierungsbeziehungen und das Verhalten von Funktionsparametern ab."
+        },
+        "ja": {
+          "name": "配列とポインタ",
+          "desc": "配列とポインタは、配列からポインタへの変換、インデックス関係、関数パラメータでの動作を扱います。"
+        },
+        "ru": {
+          "name": "Массивы и указатели",
+          "desc": "Массивы и указатели охватывают преобразование массива в указатель, отношения индексации и поведение параметров функции."
+        },
+        "ko": {
+          "name": "배열과 포인터",
+          "desc": "배열과 포인터는 배열에서 포인터로의 변환, 인덱싱 관계, 함수 매개변수 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Vetores e ponteiros",
+          "desc": "Vetores e ponteiros cobrem a conversão de vetores em ponteiros, relações de indexação e comportamento de parâmetros de função."
+        }
+      }
+    },
+    {
+      "key": "c/strings",
+      "slug": "strings",
+      "name": "Strings",
+      "desc": "Strings cover null-terminated character arrays and common string operations.",
+      "i18n": {
+        "zh": {
+          "name": "字符串",
+          "desc": "字符串涵盖以 null 结尾的字符数组和常见的字符串操作。"
+        },
+        "es": {
+          "name": "Cadenas",
+          "desc": "Las cadenas cubren arreglos de caracteres terminados en nulo y operaciones comunes de cadenas."
+        },
+        "fr": {
+          "name": "Chaînes",
+          "desc": "Les chaînes couvrent les tableaux de caractères terminés par un caractère nul et les opérations de chaîne courantes."
+        },
+        "de": {
+          "name": "Zeichenketten",
+          "desc": "Zeichenketten umfassen nullterminierte Zeichenfelder und allgemeine Zeichenkettenoperationen."
+        },
+        "ja": {
+          "name": "文字列",
+          "desc": "文字列では、NULL で終了する文字配列と一般的な文字列操作を扱います。"
+        },
+        "ru": {
+          "name": "Строки",
+          "desc": "Строки охватывают массивы символов с нулевым завершением и распространенные строковые операции."
+        },
+        "ko": {
+          "name": "문자열",
+          "desc": "문자열은 null로 끝나는 문자 배열과 일반적인 문자열 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Cadeias de caracteres",
+          "desc": "As cadeias de caracteres abrangem vetores de caracteres terminados em nulo e operações comuns de texto."
+        }
+      }
+    },
+    {
+      "key": "c/dynamic_memory",
+      "slug": "dynamic_memory",
+      "name": "Dynamic Memory",
+      "desc": "Dynamic memory covers allocating, resizing, and freeing heap storage.",
+      "i18n": {
+        "zh": {
+          "name": "动态内存",
+          "desc": "动态内存涵盖分配、调整大小和释放堆存储。"
+        },
+        "es": {
+          "name": "Memoria dinámica",
+          "desc": "La memoria dinámica cubre la asignación, el cambio de tamaño y la liberación de almacenamiento dinámico."
+        },
+        "fr": {
+          "name": "Mémoire dynamique",
+          "desc": "La mémoire dynamique couvre l'allocation, le redimensionnement et la libération du stockage en tas."
+        },
+        "de": {
+          "name": "Dynamischer Speicher",
+          "desc": "Dynamischer Speicher umfasst das Zuweisen, Ändern der Größe und Freigeben von Heap-Speicher."
+        },
+        "ja": {
+          "name": "ダイナミックメモリ",
+          "desc": "動的メモリには、ヒープストレージの割り当て、サイズ変更、解放が含まれます。"
+        },
+        "ru": {
+          "name": "Динамическая память",
+          "desc": "Динамическая память охватывает выделение, изменение размера и освобождение кучи."
+        },
+        "ko": {
+          "name": "동적 메모리",
+          "desc": "동적 메모리에는 힙 스토리지 할당, 크기 조정 및 해제가 포함됩니다."
+        },
+        "pt": {
+          "name": "Memória Dinâmica",
+          "desc": "A memória dinâmica cobre a alocação, redimensionamento e liberação de armazenamento heap."
+        }
+      }
+    },
+    {
+      "key": "c/memory_safety",
+      "slug": "memory_safety",
+      "name": "Memory Safety",
+      "desc": "Memory safety covers avoiding leaks, invalid accesses, buffer overflows, and use-after-free errors.",
+      "i18n": {
+        "zh": {
+          "name": "内存安全",
+          "desc": "内存安全包括避免泄漏、无效访问、缓冲区溢出和释放后使用错误。"
+        },
+        "es": {
+          "name": "Seguridad de la memoria",
+          "desc": "La seguridad de la memoria cubre evitar fugas, accesos no válidos, desbordamientos del búfer y errores de uso después de la liberación."
+        },
+        "fr": {
+          "name": "Sécurité de la mémoire",
+          "desc": "La sécurité de la mémoire permet d'éviter les fuites, les accès invalides, les débordements de mémoire tampon et les erreurs d'utilisation après libération."
+        },
+        "de": {
+          "name": "Speichersicherheit",
+          "desc": "Die Speichersicherheit umfasst die Vermeidung von Lecks, ungültigen Zugriffen, Pufferüberläufen und Use-After-Free-Fehlern."
+        },
+        "ja": {
+          "name": "メモリの安全性",
+          "desc": "メモリの安全性は、リーク、無効なアクセス、バッファオーバーフロー、解放後の使用エラーの回避を扱います。"
+        },
+        "ru": {
+          "name": "Безопасность памяти",
+          "desc": "Безопасность памяти включает предотвращение утечек, недопустимого доступа, переполнения буфера и ошибок использования после освобождения."
+        },
+        "ko": {
+          "name": "메모리 안전",
+          "desc": "메모리 안전은 누수, 잘못된 액세스, 버퍼 오버플로 및 해제 후 사용 오류 방지를 포함합니다."
+        },
+        "pt": {
+          "name": "Segurança de memória",
+          "desc": "A segurança da memória cobre evitar vazamentos, acessos inválidos, buffer overflows e erros de uso após liberação."
+        }
+      }
+    },
+    {
+      "key": "c/structures",
+      "slug": "structures",
+      "name": "Structures",
+      "desc": "Structures cover grouping related fields into user-defined record types.",
+      "i18n": {
+        "zh": {
+          "name": "结构体",
+          "desc": "结构涵盖将相关字段分组为用户定义的记录类型。"
+        },
+        "es": {
+          "name": "Estructuras",
+          "desc": "Las estructuras cubren la agrupación de campos relacionados en tipos de registros definidos por el usuario."
+        },
+        "fr": {
+          "name": "Structures",
+          "desc": "Les structures couvrent le regroupement des champs associés dans des types d'enregistrement définis par l'utilisateur."
+        },
+        "de": {
+          "name": "Strukturen",
+          "desc": "Strukturen umfassen die Gruppierung verwandter Felder in benutzerdefinierte Datensatztypen."
+        },
+        "ja": {
+          "name": "構造体",
+          "desc": "構造体では、関連するフィールドをユーザー定義のレコードタイプにグループ化することを扱います。"
+        },
+        "ru": {
+          "name": "Структуры",
+          "desc": "Структуры охватывают группировку связанных полей в определяемые пользователем типы записей."
+        },
+        "ko": {
+          "name": "구조체",
+          "desc": "구조체는 관련 필드를 사용자 정의 레코드 유형으로 그룹화하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Estruturas",
+          "desc": "As estruturas abrangem o agrupamento de campos relacionados em tipos de registro definidos pelo usuário."
+        }
+      }
+    },
+    {
+      "key": "c/unions",
+      "slug": "unions",
+      "name": "Unions",
+      "desc": "Unions cover shared storage for alternative representations.",
+      "i18n": {
+        "zh": {
+          "name": "共用体",
+          "desc": "共用体涵盖用于不同表示形式的共享存储。"
+        },
+        "es": {
+          "name": "Uniones",
+          "desc": "Las uniones cubren el almacenamiento compartido para representaciones alternativas."
+        },
+        "fr": {
+          "name": "Unions",
+          "desc": "Les unions couvrent le stockage partagé pour des représentations alternatives."
+        },
+        "de": {
+          "name": "Unions",
+          "desc": "Unions decken gemeinsamen Speicher für alternative Darstellungen ab."
+        },
+        "ja": {
+          "name": "共用体",
+          "desc": "ユニオンは、代替表現の共有ストレージを扱います。"
+        },
+        "ru": {
+          "name": "Объединения",
+          "desc": "Объединения охватывают общее хранилище для альтернативных представлений."
+        },
+        "ko": {
+          "name": "공용체",
+          "desc": "공용체는 대체 표현을 위한 공유 저장소를 다룹니다."
+        },
+        "pt": {
+          "name": "Unions",
+          "desc": "Unions cobrem o armazenamento compartilhado para representações alternativas."
+        }
+      }
+    },
+    {
+      "key": "c/enums",
+      "slug": "enums",
+      "name": "Enums",
+      "desc": "Enums cover named integer constants used to represent finite sets.",
+      "i18n": {
+        "zh": {
+          "name": "枚举",
+          "desc": "枚举涵盖用于表示有限集的命名整数常量。"
+        },
+        "es": {
+          "name": "Enumeraciones",
+          "desc": "Las enumeraciones cubren constantes enteras con nombre que se utilizan para representar conjuntos finitos."
+        },
+        "fr": {
+          "name": "Énumérations",
+          "desc": "Les énumérations couvrent les constantes entières nommées utilisées pour représenter des ensembles finis."
+        },
+        "de": {
+          "name": "Aufzählungen",
+          "desc": "Aufzählungen umfassen benannte Ganzzahlkonstanten, die zur Darstellung endlicher Mengen verwendet werden."
+        },
+        "ja": {
+          "name": "列挙型",
+          "desc": "列挙型は、有限セットを表すために使用される名前付き整数定数を扱います。"
+        },
+        "ru": {
+          "name": "Перечисления",
+          "desc": "Перечисления охватывают именованные целочисленные константы, используемые для представления конечных множеств."
+        },
+        "ko": {
+          "name": "열거형",
+          "desc": "열거형은 유한 집합을 나타내는 데 사용되는 명명된 정수 상수를 포함합니다."
+        },
+        "pt": {
+          "name": "Enums",
+          "desc": "Enums cobrem constantes inteiras nomeadas usadas para representar conjuntos finitos."
+        }
+      }
+    },
+    {
+      "key": "c/typedefs",
+      "slug": "typedefs",
+      "name": "Typedefs",
+      "desc": "Typedefs cover defining aliases for existing and user-defined types.",
+      "i18n": {
+        "zh": {
+          "name": "类型定义",
+          "desc": "Typedef 涵盖了为现有类型和用户定义类型定义别名。"
+        },
+        "es": {
+          "name": "Definiciones de tipos",
+          "desc": "Las definiciones de tipos cubren la definición de alias para tipos existentes y definidos por el usuario."
+        },
+        "fr": {
+          "name": "Typedefs",
+          "desc": "Les typedefs couvrent la définition d'alias pour les types existants et définis par l'utilisateur."
+        },
+        "de": {
+          "name": "Typdefinitionen",
+          "desc": "Typedefs decken die Definition von Aliasen für vorhandene und benutzerdefinierte Typen ab."
+        },
+        "ja": {
+          "name": "型定義",
+          "desc": "Typedef は、既存の型とユーザー定義型のエイリアスの定義を扱います。"
+        },
+        "ru": {
+          "name": "Определения типов",
+          "desc": "Определения типов охватывают определение псевдонимов для существующих и определяемых пользователем типов."
+        },
+        "ko": {
+          "name": "Typedef",
+          "desc": "Typedef는 기존 유형과 사용자 정의 유형에 대한 별칭 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Definições de tipo",
+          "desc": "Typedefs cobrem a definição de aliases para tipos existentes e definidos pelo usuário."
+        }
+      }
+    },
+    {
+      "key": "c/preprocessing",
+      "slug": "preprocessing",
+      "name": "Preprocessing",
+      "desc": "Preprocessing covers macros, conditional compilation, and include processing.",
+      "i18n": {
+        "zh": {
+          "name": "预处理",
+          "desc": "预处理包括宏、条件编译和包含处理。"
+        },
+        "es": {
+          "name": "Preprocesamiento",
+          "desc": "El preprocesamiento cubre macros, compilación condicional y procesamiento de directivas include."
+        },
+        "fr": {
+          "name": "Prétraitement",
+          "desc": "Le prétraitement couvre les macros, la compilation conditionnelle et le traitement des directives include."
+        },
+        "de": {
+          "name": "Vorverarbeitung",
+          "desc": "Die Vorverarbeitung umfasst Makros, bedingte Kompilierung und Include-Verarbeitung."
+        },
+        "ja": {
+          "name": "前処理",
+          "desc": "前処理には、マクロ、条件付きコンパイル、およびインクルード処理が含まれます。"
+        },
+        "ru": {
+          "name": "Предварительная обработка",
+          "desc": "Предварительная обработка охватывает макросы, условную компиляцию и обработку директив включения."
+        },
+        "ko": {
+          "name": "전처리",
+          "desc": "전처리에는 매크로, 조건부 컴파일 및 포함 처리가 포함됩니다."
+        },
+        "pt": {
+          "name": "Pré-processamento",
+          "desc": "O pré-processamento abrange macros, compilação condicional e processamento de diretivas include."
+        }
+      }
+    },
+    {
+      "key": "c/header_files",
+      "slug": "header_files",
+      "name": "Header Files",
+      "desc": "Header files cover declarations shared across translation units.",
+      "i18n": {
+        "zh": {
+          "name": "头文件",
+          "desc": "头文件涵盖跨翻译单元共享的声明。"
+        },
+        "es": {
+          "name": "Archivos de encabezado",
+          "desc": "Los archivos de encabezado cubren declaraciones compartidas entre unidades de traducción."
+        },
+        "fr": {
+          "name": "Fichiers d'en-tête",
+          "desc": "Les fichiers d'en-tête couvrent les déclarations partagées entre les unités de traduction."
+        },
+        "de": {
+          "name": "Header-Dateien",
+          "desc": "Header-Dateien umfassen Deklarationen, die von mehreren Übersetzungseinheiten gemeinsam genutzt werden."
+        },
+        "ja": {
+          "name": "ヘッダーファイル",
+          "desc": "ヘッダーファイルは、翻訳単位間で共有される宣言を扱います。"
+        },
+        "ru": {
+          "name": "Заголовочные файлы",
+          "desc": "Файлы заголовков охватывают объявления, общие для всех единиц перевода."
+        },
+        "ko": {
+          "name": "헤더 파일",
+          "desc": "헤더 파일은 번역 단위 간에 공유되는 선언을 포함합니다."
+        },
+        "pt": {
+          "name": "Arquivos de cabeçalho",
+          "desc": "Os arquivos de cabeçalho cobrem declarações compartilhadas entre unidades de tradução."
+        }
+      }
+    },
+    {
+      "key": "c/compilation_linking",
+      "slug": "compilation_linking",
+      "name": "Compilation and Linking",
+      "desc": "Compilation and linking cover producing executables from source files and libraries.",
+      "i18n": {
+        "zh": {
+          "name": "编译和链接",
+          "desc": "编译和链接涵盖从源文件和库生成可执行文件。"
+        },
+        "es": {
+          "name": "Compilación y enlazado",
+          "desc": "La compilación y el enlazado cubren la producción de ejecutables a partir de archivos fuente y bibliotecas."
+        },
+        "fr": {
+          "name": "Compilation et édition de liens",
+          "desc": "La compilation et l’édition de liens couvrent la production d’exécutables à partir de fichiers sources et de bibliothèques."
+        },
+        "de": {
+          "name": "Kompilierung und Linken",
+          "desc": "Kompilierung und Linken behandeln das Erstellen ausführbarer Dateien aus Quelldateien und Bibliotheken."
+        },
+        "ja": {
+          "name": "コンパイルとリンク",
+          "desc": "コンパイルとリンクでは、ソースファイルとライブラリから実行可能ファイルを生成します。"
+        },
+        "ru": {
+          "name": "Компиляция и связывание",
+          "desc": "Компиляция и компоновка охватывают создание исполняемых файлов из исходных файлов и библиотек."
+        },
+        "ko": {
+          "name": "컴파일과 링킹",
+          "desc": "컴파일 및 링크는 소스 파일 및 라이브러리에서 실행 파일을 생성하는 과정을 다룹니다."
+        },
+        "pt": {
+          "name": "Compilação e ligação",
+          "desc": "Compilação e ligação abrangem a produção de executáveis a partir de arquivos-fonte e bibliotecas."
+        }
+      }
+    },
+    {
+      "key": "c/compiler_diagnostics",
+      "slug": "compiler_diagnostics",
+      "name": "Compiler Diagnostics",
+      "desc": "Compiler diagnostics cover interpreting warnings, errors, and build feedback from C compilers.",
+      "i18n": {
+        "zh": {
+          "name": "编译器诊断",
+          "desc": "编译器诊断包括解释来自 C 编译器的警告、错误和构建反馈。"
+        },
+        "es": {
+          "name": "Diagnóstico del compilador",
+          "desc": "Los diagnósticos del compilador cubren la interpretación de advertencias, errores y resultados de compilación de los compiladores C."
+        },
+        "fr": {
+          "name": "Diagnostic du compilateur",
+          "desc": "Les diagnostics du compilateur couvrent l’interprétation des avertissements, des erreurs et des retours de compilation des compilateurs C."
+        },
+        "de": {
+          "name": "Compiler-Diagnose",
+          "desc": "Die Compiler-Diagnose umfasst die Interpretation von Warnungen, Fehlern und Build-Feedback von C-Compilern."
+        },
+        "ja": {
+          "name": "コンパイラ診断",
+          "desc": "コンパイラー診断には、警告、エラーの解釈、および C コンパイラーからのビルドフィードバックが含まれます。"
+        },
+        "ru": {
+          "name": "Диагностика компилятора",
+          "desc": "Диагностика компилятора охватывает интерпретацию предупреждений, ошибок и сообщений сборки от компиляторов C."
+        },
+        "ko": {
+          "name": "컴파일러 진단",
+          "desc": "컴파일러 진단에서는 C 컴파일러의 경고, 오류 및 빌드 피드백 해석을 다룹니다."
+        },
+        "pt": {
+          "name": "Diagnóstico do compilador",
+          "desc": "Os diagnósticos do compilador cobrem a interpretação de avisos, erros e mensagens de compilação dos compiladores C."
+        }
+      }
+    },
+    {
+      "key": "c/standard_io",
+      "slug": "standard_io",
+      "name": "Standard I/O",
+      "desc": "Standard I/O covers reading from input streams and writing to output streams.",
+      "i18n": {
+        "zh": {
+          "name": "标准输入/输出",
+          "desc": "标准 I/O 涵盖从输入流读取和写入输出流。"
+        },
+        "es": {
+          "name": "E/S estándar",
+          "desc": "La E/S estándar cubre la lectura de flujos de entrada y la escritura en flujos de salida."
+        },
+        "fr": {
+          "name": "E/S standards",
+          "desc": "Les E/S standard couvrent la lecture à partir des flux d'entrée et l'écriture dans les flux de sortie."
+        },
+        "de": {
+          "name": "Standard-E/A",
+          "desc": "Standard-E/A umfasst das Lesen von Eingabeströmen und das Schreiben in Ausgabeströme."
+        },
+        "ja": {
+          "name": "標準 I/O",
+          "desc": "標準 I/O は、入力ストリームからの読み取りと出力ストリームへの書き込みを扱います。"
+        },
+        "ru": {
+          "name": "Стандартный ввод-вывод",
+          "desc": "Стандартный ввод-вывод охватывает чтение из входных потоков и запись в выходные потоки."
+        },
+        "ko": {
+          "name": "표준 I/O",
+          "desc": "표준 I/O는 입력 스트림에서 읽기와 출력 스트림에 쓰기를 다룹니다."
+        },
+        "pt": {
+          "name": "E/S padrão",
+          "desc": "A E/S padrão cobre a leitura de fluxos de entrada e a gravação em fluxos de saída."
+        }
+      }
+    },
+    {
+      "key": "c/formatted_io",
+      "slug": "formatted_io",
+      "name": "Formatted I/O",
+      "desc": "Formatted I/O covers converting values to and from formatted text.",
+      "i18n": {
+        "zh": {
+          "name": "格式化输入/输出",
+          "desc": "格式化 I/O 涵盖了值与格式化文本之间的转换。"
+        },
+        "es": {
+          "name": "E/S formateada",
+          "desc": "La E/S formateada cubre la conversión de valores hacia y desde texto formateado."
+        },
+        "fr": {
+          "name": "E/S formatées",
+          "desc": "Les E/S formatées couvrent la conversion de valeurs vers et depuis du texte formaté."
+        },
+        "de": {
+          "name": "Formatierte E/A",
+          "desc": "Formatierte E/A umfasst das Konvertieren von Werten in und aus formatiertem Text."
+        },
+        "ja": {
+          "name": "フォーマットされた I/O",
+          "desc": "書式設定された I/O は、値と書式設定されたテキスト間の変換を扱います。"
+        },
+        "ru": {
+          "name": "Форматированный ввод-вывод",
+          "desc": "Форматированный ввод-вывод охватывает преобразование значений в форматированный текст и обратно."
+        },
+        "ko": {
+          "name": "포맷된 I/O",
+          "desc": "포맷된 I/O는 값과 형식화된 텍스트 사이의 변환을 다룹니다."
+        },
+        "pt": {
+          "name": "E/S formatada",
+          "desc": "A E/S formatada cobre a conversão de valores de e para texto formatado."
+        }
+      }
+    },
+    {
+      "key": "c/file_io",
+      "slug": "file_io",
+      "name": "File I/O",
+      "desc": "File I/O covers opening, reading, writing, closing, and checking files through C streams.",
+      "i18n": {
+        "zh": {
+          "name": "文件输入/输出",
+          "desc": "文件 I/O 包括通过 C 流打开、读取、写入、关闭和检查文件。"
+        },
+        "es": {
+          "name": "E/S de archivos",
+          "desc": "La E/S de archivos cubre la apertura, lectura, escritura, cierre y verificación de archivos a través de flujos C."
+        },
+        "fr": {
+          "name": "E/S de fichier",
+          "desc": "Les E/S de fichiers couvrent l'ouverture, la lecture, l'écriture, la fermeture et la vérification des fichiers via les flux C."
+        },
+        "de": {
+          "name": "Datei-E/A",
+          "desc": "Datei-E/A umfasst das Öffnen, Lesen, Schreiben, Schließen und Überprüfen von Dateien über C-Streams."
+        },
+        "ja": {
+          "name": "ファイル I/O",
+          "desc": "ファイル I/O は、C ストリームを介したファイルのオープン、読み取り、書き込み、クローズ、およびチェックを扱います。"
+        },
+        "ru": {
+          "name": "Файловый ввод-вывод",
+          "desc": "Файловый ввод-вывод охватывает открытие, чтение, запись, закрытие и проверку файлов через потоки C."
+        },
+        "ko": {
+          "name": "파일 I/O",
+          "desc": "파일 I/O는 C 스트림을 통해 파일 열기, 읽기, 쓰기, 닫기 및 확인을 다룹니다."
+        },
+        "pt": {
+          "name": "E/S de arquivo",
+          "desc": "A E/S de arquivos cobre abertura, leitura, gravação, fechamento e verificação de arquivos por meio de fluxos C."
+        }
+      }
+    },
+    {
+      "key": "c/binary_io",
+      "slug": "binary_io",
+      "name": "Binary I/O",
+      "desc": "Binary I/O covers reading and writing raw bytes and structured binary data.",
+      "i18n": {
+        "zh": {
+          "name": "二进制输入/输出",
+          "desc": "二进制 I/O 涵盖读取和写入原始字节和结构化二进制数据。"
+        },
+        "es": {
+          "name": "E/S binaria",
+          "desc": "La E/S binaria cubre la lectura y escritura de bytes sin formato y datos binarios estructurados."
+        },
+        "fr": {
+          "name": "E/S binaires",
+          "desc": "Les E/S binaires couvrent la lecture et l'écriture d'octets bruts et de données binaires structurées."
+        },
+        "de": {
+          "name": "Binärer I/O",
+          "desc": "Binäre E/A umfasst das Lesen und Schreiben von Rohbytes und strukturierten Binärdaten."
+        },
+        "ja": {
+          "name": "バイナリ I/O",
+          "desc": "バイナリ I/O は、生のバイトと構造化されたバイナリデータの読み取りと書き込みを扱います。"
+        },
+        "ru": {
+          "name": "Двоичный ввод-вывод",
+          "desc": "Двоичный ввод-вывод охватывает чтение и запись необработанных байтов и структурированных двоичных данных."
+        },
+        "ko": {
+          "name": "바이너리 I/O",
+          "desc": "바이너리 I/O는 원시 바이트와 구조화된 바이너리 데이터 읽기 및 쓰기를 다룹니다."
+        },
+        "pt": {
+          "name": "E/S binária",
+          "desc": "A E/S binária cobre a leitura e gravação de bytes brutos e dados binários estruturados."
+        }
+      }
+    },
+    {
+      "key": "c/command_line_arguments",
+      "slug": "command_line_arguments",
+      "name": "Command-Line Arguments",
+      "desc": "Command-line arguments cover receiving and interpreting process arguments in C programs.",
+      "i18n": {
+        "zh": {
+          "name": "命令行参数",
+          "desc": "命令行参数涵盖接收和解释 C 程序中的进程参数。"
+        },
+        "es": {
+          "name": "Argumentos de línea de comando",
+          "desc": "Los argumentos de la línea de comandos cubren la recepción e interpretación de argumentos de proceso en programas C."
+        },
+        "fr": {
+          "name": "Arguments de ligne de commande",
+          "desc": "Les arguments de ligne de commande couvrent la réception et l'interprétation des arguments de processus dans les programmes C."
+        },
+        "de": {
+          "name": "Befehlszeilenargumente",
+          "desc": "Befehlszeilenargumente umfassen den Empfang und die Interpretation von Prozessargumenten in C-Programmen."
+        },
+        "ja": {
+          "name": "コマンドライン引数",
+          "desc": "コマンドライン引数は、C プログラムでのプロセス引数の受信と解釈を扱います。"
+        },
+        "ru": {
+          "name": "Аргументы командной строки",
+          "desc": "Аргументы командной строки охватывают получение и интерпретацию аргументов процесса в программах C."
+        },
+        "ko": {
+          "name": "명령줄 인수",
+          "desc": "명령줄 인수는 C 프로그램에서 프로세스 인수 수신 및 해석을 다룹니다."
+        },
+        "pt": {
+          "name": "Argumentos de linha de comando",
+          "desc": "Argumentos de linha de comando cobrem o recebimento e interpretação de argumentos de processo em programas C."
+        }
+      }
+    },
+    {
+      "key": "c/debugging",
+      "slug": "debugging",
+      "name": "Debugging",
+      "desc": "Debugging covers diagnosing C program behavior with compiler output, runtime checks, and debuggers.",
+      "i18n": {
+        "zh": {
+          "name": "调试",
+          "desc": "调试涵盖使用编译器输出、运行时检查和调试器来诊断 C 程序行为。"
+        },
+        "es": {
+          "name": "Depuración",
+          "desc": "La depuración cubre el diagnóstico del comportamiento de programas C con resultados del compilador, comprobaciones de tiempo de ejecución y depuradores."
+        },
+        "fr": {
+          "name": "Débogage",
+          "desc": "Le débogage couvre le diagnostic du comportement du programme avec la sortie du compilateur, les vérifications d'exécution et les débogueurs."
+        },
+        "de": {
+          "name": "Debuggen",
+          "desc": "Das Debuggen umfasst die Diagnose des Programmverhaltens mit Compiler-Ausgabe, Laufzeitprüfungen und Debuggern."
+        },
+        "ja": {
+          "name": "デバッグ",
+          "desc": "デバッグでは、コンパイラ出力、ランタイムチェック、およびデバッガを使用した C プログラムの動作の診断が行われます。"
+        },
+        "ru": {
+          "name": "Отладка",
+          "desc": "Отладка включает диагностику поведения программ C с помощью вывода компилятора, проверок во время выполнения и отладчиков."
+        },
+        "ko": {
+          "name": "디버깅",
+          "desc": "디버깅에는 컴파일러 출력, 런타임 검사 및 디버거를 통한 프로그램 동작 진단이 포함됩니다."
+        },
+        "pt": {
+          "name": "Depuração",
+          "desc": "A depuração abrange o diagnóstico do comportamento do programa C com saída do compilador, verificações de tempo de execução e depuradores."
+        }
+      }
+    }
+  ]
+}

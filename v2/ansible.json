@@ -1,0 +1,1447 @@
+{
+  "key": "ansible",
+  "slug": "ansible",
+  "name": "Ansible",
+  "skills": [
+    {
+      "key": "ansible/inventory_structure",
+      "slug": "inventory_structure",
+      "name": "Inventory Structure",
+      "desc": "Inventory structure covers organizing managed hosts, groups, and inventory files for Ansible automation.",
+      "i18n": {
+        "zh": {
+          "name": "清单结构",
+          "desc": "清单结构涵盖组织托管主机、组和清单文件以实现 Ansible 自动化。"
+        },
+        "es": {
+          "name": "Estructura del inventario",
+          "desc": "La estructura del inventario cubre la organización de hosts, grupos y archivos de inventario administrados para la automatización Ansible."
+        },
+        "fr": {
+          "name": "Structure de l'inventaire",
+          "desc": "La structure de l'inventaire couvre l'organisation des hôtes gérés, des groupes et des fichiers d'inventaire pour l'automatisation Ansible."
+        },
+        "de": {
+          "name": "Inventarstruktur",
+          "desc": "Die Inventarstruktur umfasst die Organisation verwalteter Hosts, Gruppen und Inventardateien für die Ansible-Automatisierung."
+        },
+        "ja": {
+          "name": "インベントリ構造",
+          "desc": "インベントリ構造には、Ansible 自動化のための管理対象ホスト、グループ、およびインベントリファイルの整理が含まれます。"
+        },
+        "ru": {
+          "name": "Структура инвентаря",
+          "desc": "Структура инвентаря охватывает организацию управляемых хостов, групп и файлов инвентаря для автоматизации Ansible."
+        },
+        "ko": {
+          "name": "인벤토리 구조",
+          "desc": "인벤토리 구조에는 Ansible 자동화를 위한 관리 호스트, 그룹 및 인벤토리 파일 구성이 포함됩니다."
+        },
+        "pt": {
+          "name": "Estrutura de inventário",
+          "desc": "A estrutura de inventário cobre a organização de hosts gerenciados, grupos e arquivos de inventário para automação Ansible."
+        }
+      }
+    },
+    {
+      "key": "ansible/host_patterns",
+      "slug": "host_patterns",
+      "name": "Host Patterns",
+      "desc": "Host patterns cover selecting managed hosts and groups for targeted automation runs.",
+      "i18n": {
+        "zh": {
+          "name": "主机模式",
+          "desc": "主机模式涵盖为目标自动化运行选择托管主机和组。"
+        },
+        "es": {
+          "name": "Patrones de host",
+          "desc": "Los patrones de host cubren la selección de hosts y grupos administrados para ejecuciones de automatización específicas."
+        },
+        "fr": {
+          "name": "Modèles d'hôte",
+          "desc": "Les modèles d'hôtes couvrent la sélection d'hôtes et de groupes gérés pour des exécutions d'automatisation ciblées."
+        },
+        "de": {
+          "name": "Hostmuster",
+          "desc": "Hostmuster umfassen die Auswahl verwalteter Hosts und Gruppen für gezielte Automatisierungsläufe."
+        },
+        "ja": {
+          "name": "ホストパターン",
+          "desc": "ホストパターンでは、ターゲットを絞った自動化実行のための管理対象ホストとグループの選択を扱います。"
+        },
+        "ru": {
+          "name": "Шаблоны хостов",
+          "desc": "Шаблоны хостов охватывают выбор управляемых хостов и групп для целевых запусков автоматизации."
+        },
+        "ko": {
+          "name": "호스트 패턴",
+          "desc": "호스트 패턴에는 대상 자동화 실행을 위한 관리 호스트 및 그룹 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Padrões de host",
+          "desc": "Os padrões de host abrangem a seleção de hosts e grupos gerenciados para execuções de automação direcionadas."
+        }
+      }
+    },
+    {
+      "key": "ansible/inventory_variables",
+      "slug": "inventory_variables",
+      "name": "Inventory Variables",
+      "desc": "Inventory variables cover defining host and group data that playbooks can consume.",
+      "i18n": {
+        "zh": {
+          "name": "清单变量",
+          "desc": "清单变量涵盖定义 Playbook 可以使用的主机和组数据。"
+        },
+        "es": {
+          "name": "Variables de inventario",
+          "desc": "Las variables de inventario cubren la definición de datos de host y grupo que los playbooks pueden consumir."
+        },
+        "fr": {
+          "name": "Variables d'inventaire",
+          "desc": "Les variables d'inventaire couvrent la définition des données d'hôte et de groupe que les playbooks peuvent consommer."
+        },
+        "de": {
+          "name": "Inventarvariablen",
+          "desc": "Inventarvariablen umfassen die Definition von Host- und Gruppendaten, die Playbooks nutzen können."
+        },
+        "ja": {
+          "name": "インベントリ変数",
+          "desc": "インベントリ変数は、Playbook が消費できるホストデータとグループデータの定義を扱います。"
+        },
+        "ru": {
+          "name": "Переменные инвентаря",
+          "desc": "Переменные инвентаря охватывают определение данных хостов и групп, которые могут использовать плейбуки."
+        },
+        "ko": {
+          "name": "인벤토리 변수",
+          "desc": "인벤토리 변수는 플레이북이 사용할 수 있는 호스트 및 그룹 데이터 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Variáveis de inventário",
+          "desc": "As variáveis de inventário abrangem a definição de dados de host e de grupo que os playbooks podem consumir."
+        }
+      }
+    },
+    {
+      "key": "ansible/dynamic_inventory",
+      "slug": "dynamic_inventory",
+      "name": "Dynamic Inventory",
+      "desc": "Dynamic inventory covers sourcing managed host data from external systems instead of static inventory files.",
+      "i18n": {
+        "zh": {
+          "name": "动态清单",
+          "desc": "动态清单涵盖从外部系统获取托管主机数据而不是静态清单文件。"
+        },
+        "es": {
+          "name": "Inventario dinámico",
+          "desc": "El inventario dinámico cubre la obtención de datos de host administrados desde sistemas externos en lugar de archivos de inventario estáticos."
+        },
+        "fr": {
+          "name": "Inventaire dynamique",
+          "desc": "L'inventaire dynamique couvre la récupération des données d'hôtes gérés à partir de systèmes externes plutôt que depuis des fichiers d'inventaire statiques."
+        },
+        "de": {
+          "name": "Dynamisches Inventar",
+          "desc": "Dynamisches Inventar umfasst das Abrufen verwalteter Hostdaten aus externen Systemen anstelle statischer Inventardateien."
+        },
+        "ja": {
+          "name": "動的インベントリ",
+          "desc": "動的インベントリでは、静的インベントリファイルではなく、外部システムからの管理対象ホストデータの取得を対象としています。"
+        },
+        "ru": {
+          "name": "Динамический инвентарь",
+          "desc": "Динамический инвентарь охватывает получение данных управляемых хостов из внешних систем вместо статических файлов инвентаря."
+        },
+        "ko": {
+          "name": "동적 인벤토리",
+          "desc": "동적 인벤토리는 정적 인벤토리 파일 대신 외부 시스템에서 관리 대상 호스트 데이터를 가져오는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Inventário Dinâmico",
+          "desc": "O inventário dinâmico abrange a obtenção de dados de host gerenciados de sistemas externos, em vez de arquivos de inventário estáticos."
+        }
+      }
+    },
+    {
+      "key": "ansible/connection_configuration",
+      "slug": "connection_configuration",
+      "name": "Connection Configuration",
+      "desc": "Connection configuration covers choosing connection users, transports, ports, authentication settings, and connection behavior.",
+      "i18n": {
+        "zh": {
+          "name": "连接配置",
+          "desc": "连接配置包括选择连接用户、传输、端口、身份验证设置和连接行为。"
+        },
+        "es": {
+          "name": "Configuración de conexión",
+          "desc": "La configuración de la conexión cubre la elección de usuarios de conexión, transportes, puertos, configuraciones de autenticación y comportamiento de la conexión."
+        },
+        "fr": {
+          "name": "Configuration de connexion",
+          "desc": "La configuration de la connexion couvre le choix des utilisateurs de connexion, des transports, des ports, des paramètres d'authentification et du comportement de connexion."
+        },
+        "de": {
+          "name": "Verbindungskonfiguration",
+          "desc": "Die Verbindungskonfiguration umfasst die Auswahl von Verbindungsbenutzern, Transportmitteln, Ports, Authentifizierungseinstellungen und Verbindungsverhalten."
+        },
+        "ja": {
+          "name": "接続構成",
+          "desc": "接続構成には、接続ユーザー、トランスポート、ポート、認証設定、および接続動作の選択が含まれます。"
+        },
+        "ru": {
+          "name": "Конфигурация подключения",
+          "desc": "Конфигурация соединения включает выбор пользователей соединения, транспортов, портов, настроек аутентификации и поведения соединения."
+        },
+        "ko": {
+          "name": "연결 구성",
+          "desc": "연결 구성에는 연결 사용자, 전송, 포트, 인증 설정 및 연결 동작 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Configuração de conexão",
+          "desc": "A configuração da conexão abrange a escolha de usuários de conexão, transportes, portas, configurações de autenticação e comportamento de conexão."
+        }
+      }
+    },
+    {
+      "key": "ansible/privilege_escalation",
+      "slug": "privilege_escalation",
+      "name": "Privilege Escalation",
+      "desc": "Privilege escalation covers running selected automation tasks with elevated permissions on managed systems.",
+      "i18n": {
+        "zh": {
+          "name": "权限提升",
+          "desc": "权限提升包括在托管系统上以提升的权限运行选定的自动化任务。"
+        },
+        "es": {
+          "name": "Escalada de privilegios",
+          "desc": "La escalada de privilegios cubre la ejecución de tareas de automatización seleccionadas con permisos elevados en sistemas administrados."
+        },
+        "fr": {
+          "name": "Élévation de privilèges",
+          "desc": "L'élévation de privilèges couvre l'exécution de tâches d'automatisation sélectionnées avec des autorisations élevées sur les systèmes gérés."
+        },
+        "de": {
+          "name": "Privilegieneskalation",
+          "desc": "Die Privilegieneskalation umfasst die Ausführung ausgewählter Automatisierungsaufgaben mit erhöhten Berechtigungen auf verwalteten Systemen."
+        },
+        "ja": {
+          "name": "権限昇格",
+          "desc": "権限昇格では、管理対象システム上で選択した自動化タスクを昇格された権限で実行することができます。"
+        },
+        "ru": {
+          "name": "Повышение привилегий",
+          "desc": "Повышение привилегий включает выполнение выбранных задач автоматизации с повышенными разрешениями в управляемых системах."
+        },
+        "ko": {
+          "name": "권한 승격",
+          "desc": "권한 승격은 관리되는 시스템에서 권한 상승을 사용해 선택된 자동화 작업을 실행하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Escalação de privilégios",
+          "desc": "A escalação de privilégios abrange a execução de tarefas de automação selecionadas com permissões elevadas em sistemas gerenciados."
+        }
+      }
+    },
+    {
+      "key": "ansible/ad_hoc_commands",
+      "slug": "ad_hoc_commands",
+      "name": "Ad Hoc Commands",
+      "desc": "Ad hoc commands cover running targeted one-off Ansible automation outside a full playbook.",
+      "i18n": {
+        "zh": {
+          "name": "Ad hoc 命令",
+          "desc": "Ad hoc 命令涵盖在完整 Playbook 之外运行有针对性的一次性 Ansible 自动化。"
+        },
+        "es": {
+          "name": "Comandos ad hoc",
+          "desc": "Los comandos ad hoc cubren la ejecución de automatización Ansible puntual y dirigida fuera de un playbook completo."
+        },
+        "fr": {
+          "name": "Commandes ad hoc",
+          "desc": "Les commandes ad hoc couvrent l'exécution d'une automatisation ponctuelle ciblée Ansible en dehors d'un playbook complet."
+        },
+        "de": {
+          "name": "Ad-hoc-Befehle",
+          "desc": "Ad-hoc-Befehle decken die Ausführung gezielter einmaliger Ansible-Automatisierungen außerhalb eines vollständigen Playbooks ab."
+        },
+        "ja": {
+          "name": "アドホックコマンド",
+          "desc": "アドホックコマンドは、完全なプレイブックの外で、ターゲットを絞った 1 回限りの自動化の実行を扱います。"
+        },
+        "ru": {
+          "name": "Ad hoc команды",
+          "desc": "Команды ad hoc охватывают выполнение целевой одноразовой автоматизации Ansible вне полного плейбука."
+        },
+        "ko": {
+          "name": "Ad hoc 명령",
+          "desc": "Ad hoc 명령은 전체 플레이북 밖에서 대상이 명확한 일회성 Ansible 자동화를 실행하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Comandos ad hoc",
+          "desc": "Os comandos ad hoc cobrem a execução de automação Ansible única e direcionada fora de um playbook completo."
+        }
+      }
+    },
+    {
+      "key": "ansible/playbook_execution",
+      "slug": "playbook_execution",
+      "name": "Playbook Execution",
+      "desc": "Playbook execution covers running playbooks with suitable inventories, limits, variables, and execution options.",
+      "i18n": {
+        "zh": {
+          "name": "Playbook 执行",
+          "desc": "Playbook 执行涵盖使用合适的清单、限制、变量和执行选项运行 Playbook。"
+        },
+        "es": {
+          "name": "Ejecución de playbooks",
+          "desc": "La ejecución de playbooks cubre la ejecución de playbooks con inventarios, límites, variables y opciones de ejecución adecuados."
+        },
+        "fr": {
+          "name": "Exécution de playbooks",
+          "desc": "L’exécution de playbooks couvre l’exécution de playbooks avec des inventaires, des limites, des variables et des options d’exécution appropriés."
+        },
+        "de": {
+          "name": "Playbook-Ausführung",
+          "desc": "Die Playbook-Ausführung umfasst das Ausführen von Playbooks mit geeigneten Inventaren, Limits, Variablen und Ausführungsoptionen."
+        },
+        "ja": {
+          "name": "Playbook の実行",
+          "desc": "Playbook の実行では、適切なインベントリ、制限、変数、および実行オプションを使用して Playbook を実行する方法を扱います。"
+        },
+        "ru": {
+          "name": "Запуск плейбуков",
+          "desc": "Запуск плейбуков охватывает выполнение плейбуков с подходящими инвентарями, ограничениями, переменными и параметрами выполнения."
+        },
+        "ko": {
+          "name": "Playbook 실행",
+          "desc": "Playbook 실행은 적절한 인벤토리, 제한, 변수 및 실행 옵션으로 Playbook을 실행하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Execução de playbooks",
+          "desc": "A execução de playbooks abrange a execução de playbooks com inventários, limites, variáveis e opções de execução adequados."
+        }
+      }
+    },
+    {
+      "key": "ansible/plays",
+      "slug": "plays",
+      "name": "Plays",
+      "desc": "Plays cover binding hosts, variables, and task lists into one automation unit.",
+      "i18n": {
+        "zh": {
+          "name": "Plays",
+          "desc": "Plays 涵盖将主机、变量和任务列表绑定为一个自动化单元。"
+        },
+        "es": {
+          "name": "Plays",
+          "desc": "Los plays cubren la vinculación de hosts, variables y listas de tareas en una unidad de automatización."
+        },
+        "fr": {
+          "name": "Plays",
+          "desc": "Les plays couvrent l’association d’hôtes, de variables et de listes de tâches dans une unité d’automatisation."
+        },
+        "de": {
+          "name": "Plays",
+          "desc": "Plays behandeln das Zusammenfassen von Hosts, Variablen und Aufgabenlisten zu einer Automatisierungseinheit."
+        },
+        "ja": {
+          "name": "Plays",
+          "desc": "Plays は、ホスト、変数、タスクリストを 1 つの自動化単位にまとめることを扱います。"
+        },
+        "ru": {
+          "name": "Plays",
+          "desc": "Plays охватывают связывание хостов, переменных и списков задач в один блок автоматизации."
+        },
+        "ko": {
+          "name": "Plays",
+          "desc": "Plays는 호스트, 변수 및 작업 목록을 하나의 자동화 단위로 묶는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Plays",
+          "desc": "Plays cobrem a ligação de hosts, variáveis e listas de tarefas em uma unidade de automação."
+        }
+      }
+    },
+    {
+      "key": "ansible/tasks",
+      "slug": "tasks",
+      "name": "Tasks",
+      "desc": "Tasks cover declaring individual units of work that Ansible applies to managed hosts.",
+      "i18n": {
+        "zh": {
+          "name": "任务",
+          "desc": "任务涵盖声明 Ansible 应用于托管主机的各个工作单元。"
+        },
+        "es": {
+          "name": "Tareas",
+          "desc": "Las tareas cubren la declaración de unidades de trabajo individuales que Ansible aplica a los hosts administrados."
+        },
+        "fr": {
+          "name": "Tâches",
+          "desc": "Les tâches couvrent la déclaration d’unités de travail individuelles qu’Ansible applique aux hôtes gérés."
+        },
+        "de": {
+          "name": "Aufgaben",
+          "desc": "Aufgaben behandeln die Deklaration einzelner Arbeitseinheiten, die Ansible auf verwaltete Hosts anwendet."
+        },
+        "ja": {
+          "name": "タスク",
+          "desc": "タスクには、管理対象ホストに適用される個別の作業単位の宣言が含まれます。"
+        },
+        "ru": {
+          "name": "Задачи",
+          "desc": "Задачи охватывают объявление отдельных единиц работы, которые Ansible применяет к управляемым хостам."
+        },
+        "ko": {
+          "name": "작업",
+          "desc": "작업은 Ansible이 관리 호스트에 적용하는 개별 작업 단위 선언을 다룹니다."
+        },
+        "pt": {
+          "name": "Tarefas",
+          "desc": "As tarefas abrangem a declaração de unidades de trabalho individuais que o Ansible aplica a hosts gerenciados."
+        }
+      }
+    },
+    {
+      "key": "ansible/module_selection",
+      "slug": "module_selection",
+      "name": "Module Selection",
+      "desc": "Module selection covers choosing appropriate Ansible modules instead of falling back to raw command execution.",
+      "i18n": {
+        "zh": {
+          "name": "模块选择",
+          "desc": "模块选择包括选择合适的 Ansible 模块，而不是退回到直接执行原始命令。"
+        },
+        "es": {
+          "name": "Selección de módulo",
+          "desc": "La selección de módulos cubre la elección de módulos Ansible apropiados en lugar de recurrir a la ejecución de comandos sin formato."
+        },
+        "fr": {
+          "name": "Sélection des modules",
+          "desc": "La sélection des modules consiste à choisir les modules Ansible appropriés au lieu de revenir à l’exécution de commandes brutes."
+        },
+        "de": {
+          "name": "Modulauswahl",
+          "desc": "Die Modulauswahl umfasst die Auswahl geeigneter Ansible-Module, anstatt auf reine Befehlsausführung zurückzugreifen."
+        },
+        "ja": {
+          "name": "モジュールの選択",
+          "desc": "モジュールの選択では、raw コマンド実行に頼らず、適切な Ansible モジュールを選ぶことを扱います。"
+        },
+        "ru": {
+          "name": "Выбор модуля",
+          "desc": "Выбор модуля включает выбор подходящих модулей Ansible вместо возврата к выполнению сырых команд."
+        },
+        "ko": {
+          "name": "모듈 선택",
+          "desc": "모듈 선택은 원시 명령 실행으로 돌아가는 대신 적절한 Ansible 모듈을 선택하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Seleção de Módulo",
+          "desc": "A seleção de módulos abrange a escolha de módulos Ansible apropriados em vez de recorrer à execução de comandos brutos."
+        }
+      }
+    },
+    {
+      "key": "ansible/task_results",
+      "slug": "task_results",
+      "name": "Task Results",
+      "desc": "Task results cover interpreting changed, failed, skipped, registered, and returned values from Ansible task execution.",
+      "i18n": {
+        "zh": {
+          "name": "任务结果",
+          "desc": "任务结果涵盖解释 Ansible 任务执行的更改、失败、跳过、注册和返回值。"
+        },
+        "es": {
+          "name": "Resultados de la tarea",
+          "desc": "Los resultados de la tarea cubren la interpretación de valores modificados, fallidos, omitidos, registrados y devueltos de la ejecución de la tarea Ansible."
+        },
+        "fr": {
+          "name": "Résultats de la tâche",
+          "desc": "Les résultats de la tâche couvrent l'interprétation des valeurs modifiées, échouées, ignorées, enregistrées et renvoyées lors de l'exécution de la tâche Ansible."
+        },
+        "de": {
+          "name": "Aufgabenergebnisse",
+          "desc": "Die Aufgabenergebnisse umfassen die Interpretation geänderter, fehlgeschlagener, übersprungener, registrierter und zurückgegebener Werte aus der Ausführung von Ansible-Aufgaben."
+        },
+        "ja": {
+          "name": "タスクの結果",
+          "desc": "タスクの結果には、Ansible タスク実行による変更、失敗、スキップ、登録、および戻り値の解釈が含まれます。"
+        },
+        "ru": {
+          "name": "Результаты задачи",
+          "desc": "Результаты задачи охватывают интерпретацию измененных, неудачных, пропущенных, зарегистрированных и возвращенных значений в результате выполнения задачи Ansible."
+        },
+        "ko": {
+          "name": "작업 결과",
+          "desc": "작업 결과에는 Ansible 작업 실행에서 변경, 실패, 건너뛰기, 등록 및 반환된 값의 해석이 포함됩니다."
+        },
+        "pt": {
+          "name": "Resultados da tarefa",
+          "desc": "Os resultados da tarefa cobrem a interpretação de valores alterados, com falha, ignorados, registrados e retornados da execução da tarefa Ansible."
+        }
+      }
+    },
+    {
+      "key": "ansible/handlers",
+      "slug": "handlers",
+      "name": "Handlers",
+      "desc": "Handlers cover deferred actions triggered by changed tasks, such as restarting services after configuration changes.",
+      "i18n": {
+        "zh": {
+          "name": "处理程序",
+          "desc": "处理程序涵盖由更改的任务触发的延迟操作，例如在配置更改后重新启动服务。"
+        },
+        "es": {
+          "name": "Manejadores",
+          "desc": "Los manejadores cubren acciones diferidas desencadenadas por tareas modificadas, como reiniciar servicios después de cambios de configuración."
+        },
+        "fr": {
+          "name": "Gestionnaires",
+          "desc": "Les gestionnaires couvrent les actions différées déclenchées par des tâches modifiées, comme le redémarrage de services après des modifications de configuration."
+        },
+        "de": {
+          "name": "Handler",
+          "desc": "Handler decken verzögerte Aktionen ab, die durch geänderte Aufgaben ausgelöst werden, z. B. den Neustart von Diensten nach Konfigurationsänderungen."
+        },
+        "ja": {
+          "name": "ハンドラー",
+          "desc": "ハンドラーは、構成変更後のサービスの再起動など、変更されたタスクによってトリガーされる遅延アクションを扱います。"
+        },
+        "ru": {
+          "name": "Обработчики",
+          "desc": "Обработчики охватывают отложенные действия, вызванные измененными задачами, например перезапуск служб после изменения конфигурации."
+        },
+        "ko": {
+          "name": "핸들러",
+          "desc": "핸들러는 구성 변경 후 서비스 다시 시작과 같이 변경된 작업으로 인해 트리거되는 지연된 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Handlers",
+          "desc": "Handlers são ações adiadas acionadas por tarefas alteradas, como reiniciar serviços após alterações na configuração."
+        }
+      }
+    },
+    {
+      "key": "ansible/execution_tags",
+      "slug": "execution_tags",
+      "name": "Execution Tags",
+      "desc": "Execution tags cover labeling playbook content so specific automation subsets can be selected or skipped.",
+      "i18n": {
+        "zh": {
+          "name": "执行标签",
+          "desc": "执行标签涵盖标记 Playbook 内容，以便选择或跳过特定的自动化子集。"
+        },
+        "es": {
+          "name": "Etiquetas de ejecución",
+          "desc": "Las etiquetas de ejecución cubren el etiquetado del contenido del playbook para que se puedan seleccionar u omitir subconjuntos de automatización específicos."
+        },
+        "fr": {
+          "name": "Balises d'exécution",
+          "desc": "Les balises d’exécution couvrent le marquage du contenu du playbook afin que des sous-ensembles d’automatisation spécifiques puissent être sélectionnés ou ignorés."
+        },
+        "de": {
+          "name": "Ausführungs-Tags",
+          "desc": "Ausführungs-Tags decken die Kennzeichnung von Playbook-Inhalten ab, sodass bestimmte Automatisierungsteilmengen ausgewählt oder übersprungen werden können."
+        },
+        "ja": {
+          "name": "実行タグ",
+          "desc": "実行タグはプレイブックのコンテンツのラベル付けを扱うため、特定の自動化サブセットを選択またはスキップできます。"
+        },
+        "ru": {
+          "name": "Теги выполнения",
+          "desc": "Теги выполнения охватывают разметку содержимого плейбука, чтобы можно было выбирать или пропускать определенные подмножества автоматизации."
+        },
+        "ko": {
+          "name": "실행 태그",
+          "desc": "실행 태그는 특정 자동화 하위 집합을 선택하거나 건너뛸 수 있도록 플레이북 콘텐츠 레이블 지정을 다룹니다."
+        },
+        "pt": {
+          "name": "Etiquetas de execução",
+          "desc": "As etiquetas de execução cobrem a rotulagem do conteúdo do playbook para que subconjuntos de automação específicos possam ser selecionados ou ignorados."
+        }
+      }
+    },
+    {
+      "key": "ansible/check_mode",
+      "slug": "check_mode",
+      "name": "Check Mode",
+      "desc": "Check mode covers previewing expected Ansible changes and understanding when modules can report changes without applying them.",
+      "i18n": {
+        "zh": {
+          "name": "检查模式",
+          "desc": "检查模式涵盖预览预期的 Ansible 更改并了解模块何时会报告更改而不应用它们。"
+        },
+        "es": {
+          "name": "Modo de verificación",
+          "desc": "El modo de verificación cubre la vista previa de los cambios Ansible esperados y la comprensión de cuándo los módulos pueden informar cambios sin aplicarlos."
+        },
+        "fr": {
+          "name": "Mode de vérification",
+          "desc": "Le mode de vérification couvre la prévisualisation des modifications Ansible attendues et la compréhension du moment où les modules peuvent signaler les modifications sans les appliquer."
+        },
+        "de": {
+          "name": "Prüfmodus",
+          "desc": "Der Prüfmodus umfasst die Vorschau erwarteter Ansible-Änderungen und das Verstehen, wann Module Änderungen melden können, ohne sie anzuwenden."
+        },
+        "ja": {
+          "name": "チェックモード",
+          "desc": "チェックモードでは、予想される Ansible 変更のプレビューと、モジュールが変更を適用せずにいつ報告できるかを理解することが含まれます。"
+        },
+        "ru": {
+          "name": "Режим проверки",
+          "desc": "Режим проверки включает предварительный просмотр ожидаемых Ansible изменений и понимание того, когда модули могут сообщать об изменениях, не применяя их."
+        },
+        "ko": {
+          "name": "확인 모드",
+          "desc": "확인 모드에서는 예상되는 Ansible 변경 사항을 미리 보고 모듈이 변경 사항을 적용하지 않고 보고할 수 있는 경우를 이해합니다."
+        },
+        "pt": {
+          "name": "Modo de verificação",
+          "desc": "O modo de verificação cobre a visualização das alterações Ansible esperadas e a compreensão de quando os módulos podem relatar alterações sem aplicá-las."
+        }
+      }
+    },
+    {
+      "key": "ansible/idempotency",
+      "slug": "idempotency",
+      "name": "Idempotency",
+      "desc": "Idempotency covers writing automation that converges managed systems without unnecessary repeated changes.",
+      "i18n": {
+        "zh": {
+          "name": "幂等性",
+          "desc": "幂等性涵盖编写自动化，使托管系统收敛到期望状态，而不产生不必要的重复更改。"
+        },
+        "es": {
+          "name": "Idempotencia",
+          "desc": "La idempotencia cubre escribir automatización que hace converger los sistemas administrados sin cambios repetidos innecesarios."
+        },
+        "fr": {
+          "name": "Idempotence",
+          "desc": "L’idempotence couvre l’écriture d’une automatisation qui fait converger les systèmes gérés sans modifications répétées inutiles."
+        },
+        "de": {
+          "name": "Idempotenz",
+          "desc": "Idempotenz umfasst das Schreiben einer Automatisierung, die verwaltete Systeme ohne unnötige wiederholte Änderungen in den gewünschten Zustand bringt."
+        },
+        "ja": {
+          "name": "べき等性",
+          "desc": "冪等性は、不要な繰り返し変更を発生させずに管理対象システムを望ましい状態へ収束させる自動化の作成を扱います。"
+        },
+        "ru": {
+          "name": "Идемпотентность",
+          "desc": "Идемпотентность охватывает написание автоматизации, которая приводит управляемые системы к нужному состоянию без ненужных повторных изменений."
+        },
+        "ko": {
+          "name": "멱등성",
+          "desc": "멱등성은 불필요한 반복 변경 없이 관리 대상 시스템을 원하는 상태로 수렴시키는 자동화 작성을 다룹니다."
+        },
+        "pt": {
+          "name": "Idempotência",
+          "desc": "A idempotência abrange escrever automação que converge sistemas gerenciados sem alterações repetidas desnecessárias."
+        }
+      }
+    },
+    {
+      "key": "ansible/package_state_automation",
+      "slug": "package_state_automation",
+      "name": "Package State Automation",
+      "desc": "Package state automation covers declaring package presence, absence, and update state through Ansible modules.",
+      "i18n": {
+        "zh": {
+          "name": "包状态自动化",
+          "desc": "包状态自动化包括通过 Ansible 模块声明包存在、不存在和更新状态。"
+        },
+        "es": {
+          "name": "Automatización del estado del paquete",
+          "desc": "La automatización del estado del paquete cubre la declaración de presencia, ausencia y estado de actualización del paquete a través de módulos Ansible."
+        },
+        "fr": {
+          "name": "Automatisation de l’état des paquets",
+          "desc": "L'automatisation de l'état des paquets couvre la déclaration de la présence, de l'absence et de l'état de mise à jour des paquets via les modules Ansible."
+        },
+        "de": {
+          "name": "Paketstatusautomatisierung",
+          "desc": "Die Automatisierung des Paketstatus umfasst die Deklaration der Anwesenheit, Abwesenheit und des Aktualisierungsstatus von Paketen über Ansible-Module."
+        },
+        "ja": {
+          "name": "パッケージ状態の自動化",
+          "desc": "パッケージ状態の自動化では、パッケージの存在、不在の宣言、および Ansible モジュールによる状態の更新を扱います。"
+        },
+        "ru": {
+          "name": "Автоматизация состояния пакетов",
+          "desc": "Автоматизация состояния пакетов включает объявление наличия, отсутствия и состояния обновления пакетов с помощью модулей Ansible."
+        },
+        "ko": {
+          "name": "패키지 상태 자동화",
+          "desc": "패키지 상태 자동화는 Ansible 모듈을 통해 패키지 존재, 부재 및 업데이트 상태 선언을 다룹니다."
+        },
+        "pt": {
+          "name": "Automação de estado de pacote",
+          "desc": "A automação do estado do pacote cobre a declaração de presença, ausência e estado de atualização do pacote por meio de módulos Ansible."
+        }
+      }
+    },
+    {
+      "key": "ansible/service_state_automation",
+      "slug": "service_state_automation",
+      "name": "Service State Automation",
+      "desc": "Service state automation covers declaring service running state, enablement state, and restart behavior idempotently.",
+      "i18n": {
+        "zh": {
+          "name": "服务状态自动化",
+          "desc": "服务状态自动化包括声明服务运行状态、启用状态和幂等重启行为。"
+        },
+        "es": {
+          "name": "Automatización del estado del servicio",
+          "desc": "La automatización del estado del servicio cubre la declaración del estado de ejecución del servicio, el estado de habilitación y el comportamiento de reinicio de forma idempotente."
+        },
+        "fr": {
+          "name": "Automatisation de l'état du service",
+          "desc": "L'automatisation de l'état du service couvre la déclaration de l'état d'exécution du service, de l'état d'activation et du comportement de redémarrage de manière idempotente."
+        },
+        "de": {
+          "name": "Service-State-Automatisierung",
+          "desc": "Die Service-Statusautomatisierung umfasst die idempotente Deklaration des Service-Ausführungsstatus, des Aktivierungsstatus und des Neustartverhaltens."
+        },
+        "ja": {
+          "name": "サービス状態の自動化",
+          "desc": "サービス状態の自動化では、サービスの実行状態、有効化状態、および冪等な再起動動作の宣言を扱います。"
+        },
+        "ru": {
+          "name": "Автоматизация состояния сервисов",
+          "desc": "Автоматизация состояния службы охватывает идемпотентное объявление состояния работы службы, состояния включения и поведения перезапуска."
+        },
+        "ko": {
+          "name": "서비스 상태 자동화",
+          "desc": "서비스 상태 자동화는 서비스 실행 상태, 활성화 상태 및 다시 시작 동작을 멱등적으로 선언하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Automação de estado de serviço",
+          "desc": "A automação do estado do serviço abrange a declaração do estado de execução do serviço, do estado de ativação e do comportamento de reinicialização de forma idempotente."
+        }
+      }
+    },
+    {
+      "key": "ansible/file_state_automation",
+      "slug": "file_state_automation",
+      "name": "File State Automation",
+      "desc": "File state automation covers declaring file, directory, link, copy, permission, and ownership state through Ansible modules.",
+      "i18n": {
+        "zh": {
+          "name": "文件状态自动化",
+          "desc": "文件状态自动化涵盖通过 Ansible 模块声明文件、目录、链接、副本、权限和所有权状态。"
+        },
+        "es": {
+          "name": "Automatización del estado del archivo",
+          "desc": "La automatización del estado de los archivos cubre la declaración del estado de archivos, directorios, enlaces, copias, permisos y propiedad a través de módulos Ansible."
+        },
+        "fr": {
+          "name": "Automatisation de l'état des fichiers",
+          "desc": "L'automatisation de l'état des fichiers couvre la déclaration de l'état du fichier, du répertoire, du lien, de la copie, de l'autorisation et de la propriété via les modules Ansible."
+        },
+        "de": {
+          "name": "Dateistatusautomatisierung",
+          "desc": "Die Automatisierung des Dateistatus umfasst die Deklaration des Datei-, Verzeichnis-, Link-, Kopier-, Berechtigungs- und Besitzstatus über Ansible-Module."
+        },
+        "ja": {
+          "name": "ファイル状態の自動化",
+          "desc": "ファイル状態の自動化では、Ansible モジュールを介したファイル、ディレクトリ、リンク、コピー、許可、および所有権の状態の宣言を扱います。"
+        },
+        "ru": {
+          "name": "Автоматизация состояния файлов",
+          "desc": "Автоматизация состояния файлов включает в себя объявление состояния файла, каталога, ссылки, копии, разрешения и владения с помощью модулей Ansible."
+        },
+        "ko": {
+          "name": "파일 상태 자동화",
+          "desc": "파일 상태 자동화는 Ansible 모듈을 통해 파일, 디렉터리, 링크, 복사, 권한 및 소유권 상태 선언을 다룹니다."
+        },
+        "pt": {
+          "name": "Automação de estado de arquivo",
+          "desc": "A automação do estado do arquivo cobre a declaração do estado de arquivo, diretório, link, cópia, permissão e propriedade por meio de módulos Ansible."
+        }
+      }
+    },
+    {
+      "key": "ansible/template_rendering",
+      "slug": "template_rendering",
+      "name": "Template Rendering",
+      "desc": "Template rendering covers generating managed files from variables, Jinja syntax, and reusable template data.",
+      "i18n": {
+        "zh": {
+          "name": "模板渲染",
+          "desc": "模板渲染涵盖从变量、Jinja 语法和可重用模板数据生成托管文件。"
+        },
+        "es": {
+          "name": "Renderizado de plantillas",
+          "desc": "El renderizado de plantillas cubre la generación de archivos administrados a partir de variables, sintaxis Jinja y datos de plantillas reutilizables."
+        },
+        "fr": {
+          "name": "Rendu des modèles",
+          "desc": "Le rendu des modèles couvre la génération de fichiers gérés à partir de variables, la syntaxe Jinja et les données de modèles réutilisables."
+        },
+        "de": {
+          "name": "Vorlagen-Rendering",
+          "desc": "Das Rendern von Vorlagen umfasst das Generieren verwalteter Dateien aus Variablen, Jinja-Syntax und wiederverwendbaren Vorlagendaten."
+        },
+        "ja": {
+          "name": "テンプレートのレンダリング",
+          "desc": "テンプレートのレンダリングには、変数、Jinja 構文、および再利用可能なテンプレートデータからのマネージドファイルの生成が含まれます。"
+        },
+        "ru": {
+          "name": "Рендеринг шаблонов",
+          "desc": "Рендеринг шаблонов включает создание управляемых файлов из переменных, синтаксиса Jinja и повторно используемых данных шаблона."
+        },
+        "ko": {
+          "name": "템플릿 렌더링",
+          "desc": "템플릿 렌더링에는 변수, Jinja 구문 및 재사용 가능한 템플릿 데이터에서 관리되는 파일 생성이 포함됩니다."
+        },
+        "pt": {
+          "name": "Renderização de modelos",
+          "desc": "A renderização de modelos abrange a geração de arquivos gerenciados a partir de variáveis, sintaxe Jinja e dados de modelos reutilizáveis."
+        }
+      }
+    },
+    {
+      "key": "ansible/account_state_automation",
+      "slug": "account_state_automation",
+      "name": "Account State Automation",
+      "desc": "Account state automation covers declaring users, groups, membership, and login-related account state.",
+      "i18n": {
+        "zh": {
+          "name": "账户状态自动化",
+          "desc": "账户状态自动化包括声明用户、组、成员资格和与登录相关的账户状态。"
+        },
+        "es": {
+          "name": "Automatización del estado de la cuenta",
+          "desc": "La automatización del estado de la cuenta cubre la declaración de usuarios, grupos, membresías y estados de la cuenta relacionados con el inicio de sesión."
+        },
+        "fr": {
+          "name": "Automatisation de l'état du compte",
+          "desc": "L'automatisation de l'état du compte couvre la déclaration des utilisateurs, des groupes, de l'adhésion et de l'état du compte lié à la connexion."
+        },
+        "de": {
+          "name": "Automatisierung des Kontostatus",
+          "desc": "Die Kontostatusautomatisierung umfasst die Deklaration von Benutzern, Gruppen, Mitgliedschaften und anmeldungsbezogenen Kontostatus."
+        },
+        "ja": {
+          "name": "アカウント状態の自動化",
+          "desc": "アカウント状態の自動化には、ユーザー、グループ、メンバーシップ、ログイン関連のアカウント状態の宣言が含まれます。"
+        },
+        "ru": {
+          "name": "Автоматизация состояния аккаунта",
+          "desc": "Автоматизация состояния учетной записи включает объявление пользователей, групп, членства и состояния учетной записи, связанной с входом в систему."
+        },
+        "ko": {
+          "name": "계정 상태 자동화",
+          "desc": "계정 상태 자동화에는 사용자, 그룹, 멤버십 및 로그인 관련 계정 상태 선언이 포함됩니다."
+        },
+        "pt": {
+          "name": "Automação do estado da conta",
+          "desc": "A automação do estado da conta abrange a declaração de usuários, grupos, associação e estado da conta relacionado ao login."
+        }
+      }
+    },
+    {
+      "key": "ansible/variable_precedence",
+      "slug": "variable_precedence",
+      "name": "Variable Precedence",
+      "desc": "Variable precedence covers how Ansible resolves values from inventory, playbooks, roles, facts, and extra variables.",
+      "i18n": {
+        "zh": {
+          "name": "变量优先级",
+          "desc": "变量优先级涵盖 Ansible 如何解析来自清单、Playbook、角色、事实和额外变量的值。"
+        },
+        "es": {
+          "name": "Prioridad de variables",
+          "desc": "La precedencia de variables cubre cómo Ansible resuelve valores del inventario, playbooks, roles, hechos y variables adicionales."
+        },
+        "fr": {
+          "name": "Priorité des variables",
+          "desc": "La priorité des variables couvre la manière dont Ansible résout les valeurs de l'inventaire, des playbooks, des rôles, des faits et des variables supplémentaires."
+        },
+        "de": {
+          "name": "Variablenpriorität",
+          "desc": "Die Variablenpriorität umfasst, wie Werte aus Inventar, Playbooks, Rollen, Fakten und zusätzlichen Variablen in Ansible aufgelöst werden."
+        },
+        "ja": {
+          "name": "変数の優先順位",
+          "desc": "変数の優先順位には、Ansible がインベントリ、プレイブック、ロール、ファクト、および追加の変数から値を解決する方法が含まれます。"
+        },
+        "ru": {
+          "name": "Приоритет переменных",
+          "desc": "Приоритет переменных определяет, как Ansible разрешает значения из инвентаря, плейбуков, ролей, фактов и дополнительных переменных."
+        },
+        "ko": {
+          "name": "변수 우선순위",
+          "desc": "변수 우선순위는 Ansible이 인벤토리, Playbook, 역할, 팩트 및 추가 변수의 값을 해석하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Precedência de variáveis",
+          "desc": "A precedência de variáveis cobre como o Ansible resolve valores de inventários, playbooks, papéis, fatos e variáveis extras."
+        }
+      }
+    },
+    {
+      "key": "ansible/fact_gathering",
+      "slug": "fact_gathering",
+      "name": "Fact Gathering",
+      "desc": "Fact gathering covers discovered host data and its use in conditional, templated, and targeted automation.",
+      "i18n": {
+        "zh": {
+          "name": "事实收集",
+          "desc": "事实收集涵盖发现的主机数据，以及它们在条件、模板和目标自动化中的使用。"
+        },
+        "es": {
+          "name": "Recopilación de hechos",
+          "desc": "La recopilación de hechos cubre los datos descubiertos del host y su uso en condiciones, plantillas y automatización dirigida."
+        },
+        "fr": {
+          "name": "Collecte de faits",
+          "desc": "La collecte de faits couvre les données d’hôte découvertes et leur utilisation dans les conditions, les modèles et l’automatisation ciblée."
+        },
+        "de": {
+          "name": "Faktenerfassung",
+          "desc": "Faktenerfassung behandelt erkannte Hostdaten und deren Nutzung in Bedingungen, Vorlagen und gezielter Automatisierung."
+        },
+        "ja": {
+          "name": "ファクト収集",
+          "desc": "ファクト収集では、検出されたホストデータと、条件付き、テンプレート化された、対象を絞った自動化でのその使用について説明します。"
+        },
+        "ru": {
+          "name": "Сбор фактов",
+          "desc": "Сбор фактов охватывает обнаруженные данные хоста и их использование в условиях, шаблонах и целевой автоматизации."
+        },
+        "ko": {
+          "name": "팩트 수집",
+          "desc": "팩트 수집은 발견된 호스트 데이터와 이를 조건, 템플릿, 대상 자동화에서 사용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Coleta de fatos",
+          "desc": "A coleta de fatos abrange dados descobertos do host e seu uso em condições, modelos e automação direcionada."
+        }
+      }
+    },
+    {
+      "key": "ansible/task_conditionals",
+      "slug": "task_conditionals",
+      "name": "Task Conditionals",
+      "desc": "Task conditionals cover running tasks, handlers, and includes only when specific Ansible expressions are true.",
+      "i18n": {
+        "zh": {
+          "name": "任务条件",
+          "desc": "任务条件涵盖仅在特定 Ansible 表达式为 true 时运行任务、处理程序和包含项。"
+        },
+        "es": {
+          "name": "Condicionales de tarea",
+          "desc": "Los condicionales de tarea cubren la ejecución de tareas, manejadores e inclusiones solo cuando expresiones Ansible específicas son verdaderas."
+        },
+        "fr": {
+          "name": "Conditions de tâche",
+          "desc": "Les conditions de tâches couvrent l’exécution de tâches, de gestionnaires et d’inclusions uniquement lorsque des expressions Ansible spécifiques sont vraies."
+        },
+        "de": {
+          "name": "Aufgabenbedingungen",
+          "desc": "Aufgabenbedingungen umfassen das Ausführen von Aufgaben, Handlern und Einbindungen nur dann, wenn bestimmte Ansible-Ausdrücke wahr sind."
+        },
+        "ja": {
+          "name": "タスクの条件文",
+          "desc": "タスク条件は、特定の Ansible 式が true の場合にのみタスク、ハンドラー、インクルードを実行する方法を扱います。"
+        },
+        "ru": {
+          "name": "Условия задач",
+          "desc": "Условия задач охватывают выполнение задач, обработчиков и включений только тогда, когда определенные выражения Ansible истинны."
+        },
+        "ko": {
+          "name": "작업 조건부",
+          "desc": "작업 조건은 특정 Ansible 표현식이 true인 경우에만 작업, 핸들러 및 포함 항목을 실행하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Condicionais de Tarefa",
+          "desc": "As condicionais de tarefa cobrem a execução de tarefas, handlers e inclusões somente quando expressões Ansible específicas são verdadeiras."
+        }
+      }
+    },
+    {
+      "key": "ansible/task_loops",
+      "slug": "task_loops",
+      "name": "Task Loops",
+      "desc": "Task loops cover repeating Ansible tasks over lists, mappings, query results, and generated item sets.",
+      "i18n": {
+        "zh": {
+          "name": "任务循环",
+          "desc": "任务循环涵盖对列表、映射、查询结果和生成的项目集重复 Ansible 任务。"
+        },
+        "es": {
+          "name": "Bucles de tareas",
+          "desc": "Los bucles de tareas cubren la repetición de tareas Ansible sobre listas, asignaciones, resultados de consultas y conjuntos de elementos generados."
+        },
+        "fr": {
+          "name": "Boucles de tâches",
+          "desc": "Les boucles de tâches couvrent la répétition de tâches Ansible sur des listes, des mappages, des résultats de requêtes et des ensembles d’éléments générés."
+        },
+        "de": {
+          "name": "Aufgabenschleifen",
+          "desc": "Aufgabenschleifen umfassen wiederholte Ansible-Aufgaben über Listen, Zuordnungen, Abfrageergebnisse und generierte Elementsätze."
+        },
+        "ja": {
+          "name": "タスクループ",
+          "desc": "タスクループは、リスト、マッピング、クエリ結果、生成されたアイテムセットに対する繰り返しタスクを扱います。"
+        },
+        "ru": {
+          "name": "Циклы задач",
+          "desc": "Циклы задач охватывают повторение задач Ansible над списками, сопоставлениями, результатами запросов и сгенерированными наборами элементов."
+        },
+        "ko": {
+          "name": "작업 루프",
+          "desc": "작업 루프는 목록, 매핑, 쿼리 결과 및 생성된 항목 세트에 대해 Ansible 작업을 반복하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Loops de tarefas",
+          "desc": "Os loops de tarefas cobrem a repetição de tarefas Ansible em listas, mapeamentos, resultados de consultas e conjuntos de itens gerados."
+        }
+      }
+    },
+    {
+      "key": "ansible/variable_filters",
+      "slug": "variable_filters",
+      "name": "Variable Filters",
+      "desc": "Variable filters cover transforming Ansible variables and data structures inside playbooks and templates.",
+      "i18n": {
+        "zh": {
+          "name": "变量过滤器",
+          "desc": "变量过滤器涵盖转换 Playbook 和模板内的 Ansible 变量和数据结构。"
+        },
+        "es": {
+          "name": "Filtros de variables",
+          "desc": "Los filtros de variables cubren la transformación de variables y estructuras de datos de Ansible dentro de playbooks y plantillas."
+        },
+        "fr": {
+          "name": "Filtres de variables",
+          "desc": "Les filtres de variables couvrent la transformation des variables et structures de données Ansible dans les playbooks et les modèles."
+        },
+        "de": {
+          "name": "Variablenfilter",
+          "desc": "Variablenfilter decken die Transformation von Ansible-Variablen und Datenstrukturen in Playbooks und Vorlagen ab."
+        },
+        "ja": {
+          "name": "変数フィルター",
+          "desc": "変数フィルターは、プレイブックおよびテンプレート内の Ansible 変数とデータ構造の変換を扱います。"
+        },
+        "ru": {
+          "name": "Фильтры переменных",
+          "desc": "Фильтры переменных охватывают преобразование переменных Ansible и структур данных внутри плейбуков и шаблонов."
+        },
+        "ko": {
+          "name": "변수 필터",
+          "desc": "변수 필터는 플레이북 및 템플릿 내부의 Ansible 변수 및 데이터 구조 변환을 다룹니다."
+        },
+        "pt": {
+          "name": "Filtros de variáveis",
+          "desc": "Os filtros de variáveis cobrem a transformação de variáveis Ansible e estruturas de dados dentro de playbooks e modelos."
+        }
+      }
+    },
+    {
+      "key": "ansible/role_structure",
+      "slug": "role_structure",
+      "name": "Role Structure",
+      "desc": "Role structure covers organizing tasks, handlers, templates, defaults, variables, files, and metadata into reusable units.",
+      "i18n": {
+        "zh": {
+          "name": "角色结构",
+          "desc": "角色结构涵盖将任务、处理程序、模板、默认值、变量、文件和元数据组织成可重用的单元。"
+        },
+        "es": {
+          "name": "Estructura de roles",
+          "desc": "La estructura de roles cubre la organización de tareas, manejadores, plantillas, valores predeterminados, variables, archivos y metadatos en unidades reutilizables."
+        },
+        "fr": {
+          "name": "Structure des rôles",
+          "desc": "La structure des rôles couvre l'organisation des tâches, des gestionnaires, des modèles, des valeurs par défaut, des variables, des fichiers et des métadonnées en unités réutilisables."
+        },
+        "de": {
+          "name": "Rollenstruktur",
+          "desc": "Die Rollenstruktur umfasst die Organisation von Aufgaben, Handlern, Vorlagen, Standardeinstellungen, Variablen, Dateien und Metadaten in wiederverwendbaren Einheiten."
+        },
+        "ja": {
+          "name": "ロール構造",
+          "desc": "ロール構造では、タスク、ハンドラー、テンプレート、デフォルト、変数、ファイル、メタデータを再利用可能な単位に整理することが含まれます。"
+        },
+        "ru": {
+          "name": "Ролевая структура",
+          "desc": "Ролевая структура охватывает организацию задач, обработчиков, шаблонов, значений по умолчанию, переменных, файлов и метаданных в повторно используемые блоки."
+        },
+        "ko": {
+          "name": "역할 구조",
+          "desc": "역할 구조는 작업, 핸들러, 템플릿, 기본값, 변수, 파일 및 메타데이터를 재사용 가능한 단위로 구성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Estrutura de papéis",
+          "desc": "A estrutura de papéis abrange a organização de tarefas, handlers, modelos, padrões, variáveis, arquivos e metadados em unidades reutilizáveis."
+        }
+      }
+    },
+    {
+      "key": "ansible/includes_imports",
+      "slug": "includes_imports",
+      "name": "Includes and Imports",
+      "desc": "Includes and imports cover composing playbooks and roles from reusable task, playbook, and variable files.",
+      "i18n": {
+        "zh": {
+          "name": "包含和导入",
+          "desc": "包含和导入涵盖使用可复用的任务、Playbook 和变量文件来组合 Playbook 和角色。"
+        },
+        "es": {
+          "name": "Inclusiones e importaciones",
+          "desc": "Las inclusiones e importaciones cubren la composición de playbooks y roles a partir de tareas, playbooks y archivos de variables reutilizables."
+        },
+        "fr": {
+          "name": "Inclusions et importations",
+          "desc": "Les inclusions et importations couvrent la composition de playbooks et de rôles à partir de tâches, playbooks et fichiers de variables réutilisables."
+        },
+        "de": {
+          "name": "Einbindungen und Importe",
+          "desc": "Einbindungen und Importe umfassen das Erstellen von Playbooks und Rollen aus wiederverwendbaren Aufgaben-, Playbook- und Variablendateien."
+        },
+        "ja": {
+          "name": "インクルードとインポート",
+          "desc": "インクルードとインポートには、再利用可能なタスク、プレイブック、変数ファイルからのプレイブックとロールの作成が含まれます。"
+        },
+        "ru": {
+          "name": "Включения и импорты",
+          "desc": "Включения и импорты охватывают составление плейбуков и ролей из переиспользуемых задач, плейбуков и файлов переменных."
+        },
+        "ko": {
+          "name": "포함과 가져오기",
+          "desc": "포함과 가져오기는 재사용 가능한 작업, Playbook 및 변수 파일로 Playbook과 역할을 구성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Inclusões e importações",
+          "desc": "Inclusões e importações abrangem a composição de playbooks e papéis a partir de tarefas, playbooks e arquivos de variáveis reutilizáveis."
+        }
+      }
+    },
+    {
+      "key": "ansible/role_dependencies",
+      "slug": "role_dependencies",
+      "name": "Role Dependencies",
+      "desc": "Role dependencies cover declaring and using roles that other roles require.",
+      "i18n": {
+        "zh": {
+          "name": "角色依赖",
+          "desc": "角色依赖涵盖声明和使用其他角色所需的角色。"
+        },
+        "es": {
+          "name": "Dependencias de roles",
+          "desc": "Las dependencias de roles cubren la declaración y el uso de roles que otros roles requieren."
+        },
+        "fr": {
+          "name": "Dépendances de rôle",
+          "desc": "Les dépendances de rôle couvrent la déclaration et l'utilisation des rôles requis par d'autres rôles."
+        },
+        "de": {
+          "name": "Rollenabhängigkeiten",
+          "desc": "Rollenabhängigkeiten umfassen die Deklaration und Verwendung von Rollen, die für andere Rollen erforderlich sind."
+        },
+        "ja": {
+          "name": "ロール依存関係",
+          "desc": "ロールの依存関係には、他のロールが必要とするロールの宣言と使用が含まれます。"
+        },
+        "ru": {
+          "name": "Ролевые зависимости",
+          "desc": "Ролевые зависимости охватывают объявление и использование ролей, которые требуются другим ролям."
+        },
+        "ko": {
+          "name": "역할 종속성",
+          "desc": "역할 종속성은 다른 역할이 필요로 하는 역할을 선언하고 사용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Dependências de papéis",
+          "desc": "As dependências de papéis abrangem a declaração e o uso de papéis exigidos por outros papéis."
+        }
+      }
+    },
+    {
+      "key": "ansible/collections",
+      "slug": "collections",
+      "name": "Collections",
+      "desc": "Collections cover packaging, installing, and referencing modules, plugins, and roles for reuse.",
+      "i18n": {
+        "zh": {
+          "name": "集合",
+          "desc": "集合涵盖打包、安装和引用模块、插件和角色以供重用。"
+        },
+        "es": {
+          "name": "Colecciones",
+          "desc": "Las colecciones cubren el empaquetado, la instalación y la referencia de módulos, complementos y roles para su reutilización."
+        },
+        "fr": {
+          "name": "Collections",
+          "desc": "Les collections couvrent l'empaquetage, l'installation et le référencement de modules, de plugins et de rôles à réutiliser."
+        },
+        "de": {
+          "name": "Sammlungen",
+          "desc": "Sammlungen umfassen das Paketieren, Installieren und Referenzieren von Modulen, Plugins und Rollen zur Wiederverwendung."
+        },
+        "ja": {
+          "name": "コレクション",
+          "desc": "コレクションには、再利用のためのモジュール、プラグイン、およびロールのパッケージ化、インストール、および参照が含まれます。"
+        },
+        "ru": {
+          "name": "Коллекции",
+          "desc": "Коллекции охватывают упаковку, установку и указание модулей, плагинов и ролей для повторного использования."
+        },
+        "ko": {
+          "name": "컬렉션",
+          "desc": "컬렉션에는 재사용을 위한 모듈, 플러그인 및 역할의 패키징, 설치 및 참조가 포함됩니다."
+        },
+        "pt": {
+          "name": "Coleções",
+          "desc": "As coleções cobrem o empacotamento, instalação e referência de módulos, plug-ins e papéis para reutilização."
+        }
+      }
+    },
+    {
+      "key": "ansible/project_layout",
+      "slug": "project_layout",
+      "name": "Project Layout",
+      "desc": "Project layout covers arranging inventories, variables, roles, collections, and playbooks into maintainable Ansible projects.",
+      "i18n": {
+        "zh": {
+          "name": "项目布局",
+          "desc": "项目布局涵盖将清单、变量、角色、集合和 Playbook 安排到可维护的 Ansible 项目中。"
+        },
+        "es": {
+          "name": "Diseño del proyecto",
+          "desc": "El diseño del proyecto cubre la organización de inventarios, variables, roles, colecciones y playbooks en proyectos Ansible mantenibles."
+        },
+        "fr": {
+          "name": "Organisation du projet",
+          "desc": "L’organisation du projet couvre l’agencement des inventaires, des variables, des rôles, des collections et des playbooks dans des projets Ansible maintenables."
+        },
+        "de": {
+          "name": "Projektlayout",
+          "desc": "Das Projektlayout umfasst die Anordnung von Inventaren, Variablen, Rollen, Sammlungen und Playbooks in wartbaren Ansible-Projekten."
+        },
+        "ja": {
+          "name": "プロジェクトのレイアウト",
+          "desc": "プロジェクトレイアウトでは、インベントリ、変数、ロール、コレクション、およびプレイブックを保守可能な Ansible プロジェクトに配置することが含まれます。"
+        },
+        "ru": {
+          "name": "Структура проекта",
+          "desc": "Структура проекта включает организацию инвентарей, переменных, ролей, коллекций и плейбуков в сопровождаемые проекты Ansible."
+        },
+        "ko": {
+          "name": "프로젝트 레이아웃",
+          "desc": "프로젝트 레이아웃에서는 인벤토리, 변수, 역할, 컬렉션 및 플레이북을 유지 관리 가능한 Ansible 프로젝트로 배열하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Layout do projeto",
+          "desc": "O layout do projeto cobre a organização de inventários, variáveis, papéis, coleções e playbooks em projetos Ansible fáceis de manter."
+        }
+      }
+    },
+    {
+      "key": "ansible/ansible_vault",
+      "slug": "ansible_vault",
+      "name": "Ansible Vault",
+      "desc": "Ansible Vault covers encrypting and using secrets in inventories, playbooks, variables, and roles.",
+      "i18n": {
+        "zh": {
+          "name": "Ansible Vault",
+          "desc": "Ansible Vault 涵盖清单、Playbook、变量和角色中的机密加密与使用。"
+        },
+        "es": {
+          "name": "Ansible Vault",
+          "desc": "Ansible Vault cubre el cifrado y el uso de secretos en inventarios, playbooks, variables y roles."
+        },
+        "fr": {
+          "name": "Ansible Vault",
+          "desc": "Ansible Vault couvre le chiffrement et l'utilisation de secrets dans les inventaires, les playbooks, les variables et les rôles."
+        },
+        "de": {
+          "name": "Ansible Vault",
+          "desc": "Ansible Vault deckt die Verschlüsselung und Verwendung vertraulicher Werte in Inventaren, Playbooks, Variablen und Rollen ab."
+        },
+        "ja": {
+          "name": "Ansible Vault",
+          "desc": "Ansible Vault では、インベントリ、プレイブック、変数、ロールでのシークレットの暗号化と使用について説明します。"
+        },
+        "ru": {
+          "name": "Ansible Vault",
+          "desc": "Ansible Vault охватывает шифрование и использование секретов в инвентарях, плейбуках, переменных и ролях."
+        },
+        "ko": {
+          "name": "Ansible Vault",
+          "desc": "Ansible Vault에서는 인벤토리, 플레이북, 변수 및 역할의 비밀 값을 암호화하고 사용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Ansible Vault",
+          "desc": "O Ansible Vault abrange a criptografia e o uso de segredos em inventários, playbooks, variáveis e papéis."
+        }
+      }
+    },
+    {
+      "key": "ansible/delegation",
+      "slug": "delegation",
+      "name": "Delegation",
+      "desc": "Delegation covers running selected tasks on hosts other than the current target host.",
+      "i18n": {
+        "zh": {
+          "name": "委派",
+          "desc": "委派涵盖在当前目标主机以外的主机上运行选定的任务。"
+        },
+        "es": {
+          "name": "Delegación",
+          "desc": "La delegación cubre la ejecución de tareas seleccionadas en hosts distintos del host de destino actual."
+        },
+        "fr": {
+          "name": "Délégation",
+          "desc": "La délégation couvre l'exécution de tâches sélectionnées sur des hôtes autres que l'hôte cible actuel."
+        },
+        "de": {
+          "name": "Delegation",
+          "desc": "Die Delegation umfasst die Ausführung ausgewählter Aufgaben auf anderen Hosts als dem aktuellen Zielhost."
+        },
+        "ja": {
+          "name": "委譲",
+          "desc": "委譲は、現在のターゲットホスト以外のホストで選択したタスクを実行する方法を扱います。"
+        },
+        "ru": {
+          "name": "Делегирование",
+          "desc": "Делегирование охватывает выполнение выбранных задач на хостах, отличных от текущего целевого хоста."
+        },
+        "ko": {
+          "name": "위임",
+          "desc": "위임에는 현재 대상 호스트가 아닌 호스트에서 선택한 작업을 실행하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Delegação",
+          "desc": "A delegação abrange a execução de tarefas selecionadas em hosts diferentes do host de destino atual."
+        }
+      }
+    },
+    {
+      "key": "ansible/error_handling",
+      "slug": "error_handling",
+      "name": "Error Handling",
+      "desc": "Error handling covers failed task behavior, retries, ignores, rescue blocks, and controlled failure conditions.",
+      "i18n": {
+        "zh": {
+          "name": "错误处理",
+          "desc": "错误处理涵盖失败任务的行为、重试、忽略、rescue 块和受控失败条件。"
+        },
+        "es": {
+          "name": "Gestión de errores",
+          "desc": "La gestión de errores cubre el comportamiento de tareas fallidas, reintentos, ignoraciones, bloques rescue y condiciones de fallo controladas."
+        },
+        "fr": {
+          "name": "Gestion des erreurs",
+          "desc": "La gestion des erreurs couvre le comportement des tâches échouées, les nouvelles tentatives, les ignorés, les blocs rescue et les conditions d’échec contrôlées."
+        },
+        "de": {
+          "name": "Fehlerbehandlung",
+          "desc": "Die Fehlerbehandlung umfasst das Verhalten fehlgeschlagener Aufgaben, Wiederholungsversuche, Ignorieren, Rescue-Blöcke und kontrollierte Fehlerbedingungen."
+        },
+        "ja": {
+          "name": "エラー処理",
+          "desc": "エラー処理には、失敗したタスクの動作、再試行、無視、レスキューブロック、および制御された失敗条件が含まれます。"
+        },
+        "ru": {
+          "name": "Обработка ошибок",
+          "desc": "Обработка ошибок охватывает поведение неудачных задач, повторные попытки, игнорирование, блоки rescue и контролируемые условия сбоя."
+        },
+        "ko": {
+          "name": "오류 처리",
+          "desc": "오류 처리는 실패한 작업 동작, 재시도, 무시, rescue 블록 및 제어된 실패 조건을 다룹니다."
+        },
+        "pt": {
+          "name": "Tratamento de erros",
+          "desc": "O tratamento de erros abrange o comportamento de tarefas com falha, novas tentativas, ignorar erros, blocos rescue e condições de falha controladas."
+        }
+      }
+    },
+    {
+      "key": "ansible/rolling_changes",
+      "slug": "rolling_changes",
+      "name": "Rolling Changes",
+      "desc": "Rolling changes cover applying automation in controlled batches across groups of managed hosts.",
+      "i18n": {
+        "zh": {
+          "name": "滚动变更",
+          "desc": "滚动变更涵盖在托管主机组中按受控批次应用自动化。"
+        },
+        "es": {
+          "name": "Cambios graduales",
+          "desc": "Los cambios graduales cubren la aplicación de automatización en lotes controlados en grupos de hosts administrados."
+        },
+        "fr": {
+          "name": "Changements progressifs",
+          "desc": "Les changements progressifs couvrent l’application de l’automatisation par lots contrôlés sur des groupes d’hôtes gérés."
+        },
+        "de": {
+          "name": "Fortlaufende Änderungen",
+          "desc": "Fortlaufende Änderungen behandeln die Anwendung von Automatisierung in kontrollierten Durchläufen über Gruppen verwalteter Hosts hinweg."
+        },
+        "ja": {
+          "name": "ローリング変更",
+          "desc": "ローリング変更では、管理対象ホストのグループ全体に制御されたバッチで自動化を適用することが含まれます。"
+        },
+        "ru": {
+          "name": "Последовательные изменения",
+          "desc": "Последовательные изменения охватывают применение автоматизации контролируемыми пакетами в группах управляемых хостов."
+        },
+        "ko": {
+          "name": "롤링 변경",
+          "desc": "롤링 변경에는 관리 호스트 그룹 전체에 걸쳐 제어된 배치로 자동화를 적용하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Mudanças graduais",
+          "desc": "Mudanças graduais abrangem a aplicação de automação em lotes controlados em grupos de hosts gerenciados."
+        }
+      }
+    },
+    {
+      "key": "ansible/playbook_validation",
+      "slug": "playbook_validation",
+      "name": "Playbook Validation",
+      "desc": "Playbook validation covers checking Ansible syntax, style, module usage, and expected behavior before use.",
+      "i18n": {
+        "zh": {
+          "name": "Playbook 验证",
+          "desc": "Playbook 验证涵盖在使用前检查 Ansible 语法、样式、模块用法和预期行为。"
+        },
+        "es": {
+          "name": "Validación de playbooks",
+          "desc": "La validación de playbooks cubre la comprobación de sintaxis Ansible, estilo, uso de módulos y comportamiento esperado antes del uso."
+        },
+        "fr": {
+          "name": "Validation des playbooks",
+          "desc": "La validation des playbooks couvre la vérification de la syntaxe Ansible, du style, de l'utilisation des modules et du comportement attendu avant utilisation."
+        },
+        "de": {
+          "name": "Playbook-Validierung",
+          "desc": "Die Playbook-Validierung umfasst die Überprüfung der Ansible-Syntax, des Stils, der Modulverwendung und des erwarteten Verhaltens vor der Verwendung."
+        },
+        "ja": {
+          "name": "Playbook 検証",
+          "desc": "Playbook 検証では、使用前に Ansible 構文、スタイル、モジュールの使用法、予期される動作をチェックします。"
+        },
+        "ru": {
+          "name": "Проверка плейбуков",
+          "desc": "Проверка плейбуков включает проверку синтаксиса Ansible, стиля, использования модулей и ожидаемого поведения перед применением."
+        },
+        "ko": {
+          "name": "Playbook 검증",
+          "desc": "Playbook 검증에는 사용 전 Ansible 구문, 스타일, 모듈 사용 및 예상 동작을 확인하는 것이 포함됩니다."
+        },
+        "pt": {
+          "name": "Validação de playbooks",
+          "desc": "A validação de playbooks cobre a verificação da sintaxe Ansible, estilo, uso de módulos e comportamento esperado antes do uso."
+        }
+      }
+    }
+  ]
+}

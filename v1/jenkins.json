@@ -1,0 +1,61 @@
+{
+  "key": "jenkins",
+  "slug": "jenkins",
+  "name": "Jenkins",
+  "skills": [
+    {
+      "key": "jenkins/initial_settings",
+      "slug": "initial_settings",
+      "name": "Jenkins Initial Settings",
+      "desc": "Jenkins Initial Settings cover the initial configuration and setup of Jenkins after installation."
+    },
+    {
+      "key": "jenkins/docker_installation",
+      "slug": "docker_installation",
+      "name": "Use Docker Installation",
+      "desc": "Using Docker Installation explains the process of installing and running Jenkins within a Docker container."
+    },
+    {
+      "key": "jenkins/create_project",
+      "slug": "create_project",
+      "name": "Create Project",
+      "desc": "Creating a Project in Jenkins involves setting up and configuring a project for continuous integration and continuous delivery (CI/CD)."
+    },
+    {
+      "key": "jenkins/build_history",
+      "slug": "build_history",
+      "name": "Build History",
+      "desc": "Build History refers to tracking and analyzing the historical build and deployment records within Jenkins."
+    },
+    {
+      "key": "jenkins/managing_plugins",
+      "slug": "managing_plugins",
+      "name": "Managing Plugins",
+      "desc": "Managing Plugins covers the installation, configuration, and management of Jenkins plugins to extend functionality."
+    },
+    {
+      "key": "jenkins/pipeline",
+      "slug": "pipeline",
+      "name": "Pipeline",
+      "desc": "Pipelines in Jenkins are used to define and automate a series of steps to build, test, and deploy software applications. They provide a structured and repeatable way to manage software delivery processes, enabling continuous integration and continuous delivery (CI/CD) practices."
+    },
+    {
+      "key": "jenkins/running_pipelines",
+      "slug": "running_pipelines",
+      "name": "Running Pipelines",
+      "desc": "Running Pipelines covers the execution and management of pipelines, ensuring they run smoothly and produce desired outcomes."
+    },
+    {
+      "key": "jenkins/creating_a_pipeline",
+      "slug": "creating_a_pipeline",
+      "name": "Creating a Pipeline",
+      "desc": "Creating a Pipeline in Blue Ocean involves defining and configuring pipelines using the intuitive Blue Ocean interface."
+    },
+    {
+      "key": "jenkins/activity_view",
+      "slug": "activity_view",
+      "name": "Activity View",
+      "desc": "Activity View in Blue Ocean offers a dynamic overview of pipeline activities and progress."
+    }
+  ]
+}

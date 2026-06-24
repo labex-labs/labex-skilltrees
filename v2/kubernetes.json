@@ -1,0 +1,1967 @@
+{
+  "key": "kubernetes",
+  "slug": "kubernetes",
+  "name": "Kubernetes",
+  "skills": [
+    {
+      "key": "kubernetes/cluster_architecture",
+      "slug": "cluster_architecture",
+      "name": "Cluster Architecture",
+      "desc": "Cluster architecture covers control plane components, worker nodes, and the Kubernetes API server.",
+      "i18n": {
+        "zh": {
+          "name": "集群架构",
+          "desc": "集群架构涵盖控制平面组件、工作节点和 Kubernetes API 服务器。"
+        },
+        "es": {
+          "name": "Arquitectura de clúster",
+          "desc": "La arquitectura del clúster cubre los componentes del plano de control, los nodos trabajadores y el servidor Kubernetes API."
+        },
+        "fr": {
+          "name": "Architecture de cluster",
+          "desc": "L'architecture de cluster couvre les composants du plan de contrôle, les nœuds de travail et le serveur Kubernetes API."
+        },
+        "de": {
+          "name": "Cluster-Architektur",
+          "desc": "Die Clusterarchitektur umfasst Komponenten der Steuerungsebene, Arbeitsknoten und den Kubernetes API Server."
+        },
+        "ja": {
+          "name": "クラスタアーキテクチャ",
+          "desc": "クラスターアーキテクチャは、コントロールプレーンコンポーネント、ワーカーノード、および Kubernetes API サーバーを扱います。"
+        },
+        "ru": {
+          "name": "Кластерная архитектура",
+          "desc": "Архитектура кластера охватывает компоненты плоскости управления, рабочие узлы и серверы Kubernetes API."
+        },
+        "ko": {
+          "name": "클러스터 아키텍처",
+          "desc": "클러스터 아키텍처에는 제어 평면 구성 요소, 작업자 노드 및 Kubernetes API 서버가 포함됩니다."
+        },
+        "pt": {
+          "name": "Arquitetura de Cluster",
+          "desc": "A arquitetura do cluster cobre componentes do plano de controle, nós de trabalho e o servidor Kubernetes API."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/api_objects",
+      "slug": "api_objects",
+      "name": "API Objects",
+      "desc": "API objects cover declarative resources, metadata, specs, status, and reconciliation.",
+      "i18n": {
+        "zh": {
+          "name": "API 对象",
+          "desc": "API 对象涵盖声明性资源、元数据、规约、状态和协调。"
+        },
+        "es": {
+          "name": "Objetos de API",
+          "desc": "Los objetos de API cubren recursos declarativos, metadatos, especificaciones, estado y conciliación."
+        },
+        "fr": {
+          "name": "Objets API",
+          "desc": "Les objets API couvrent les ressources déclaratives, les métadonnées, les spécifications, le statut et la réconciliation."
+        },
+        "de": {
+          "name": "API-Objekte",
+          "desc": "API-Objekte umfassen deklarative Ressourcen, Metadaten, Spezifikationen, Status und Abgleich."
+        },
+        "ja": {
+          "name": "API オブジェクト",
+          "desc": "API オブジェクトには、宣言的なリソース、メタデータ、仕様、ステータス、およびリコンシリエーションが含まれます。"
+        },
+        "ru": {
+          "name": "Объекты API",
+          "desc": "API-объекты охватывают декларативные ресурсы, метаданные, спецификации, статус и согласование."
+        },
+        "ko": {
+          "name": "API 오브젝트",
+          "desc": "API 오브젝트는 선언적 리소스, 메타데이터, spec, status 및 reconciliation을 다룹니다."
+        },
+        "pt": {
+          "name": "Objetos de API",
+          "desc": "Os objetos API cobrem recursos declarativos, metadados, especificações, status e reconciliação."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/namespaces",
+      "slug": "namespaces",
+      "name": "Namespaces",
+      "desc": "Namespaces cover partitioning resource names and access boundaries within a cluster.",
+      "i18n": {
+        "zh": {
+          "name": "命名空间",
+          "desc": "命名空间涵盖在集群内划分资源名称和访问边界。"
+        },
+        "es": {
+          "name": "Espacios de nombres",
+          "desc": "Los espacios de nombres cubren la partición de nombres de recursos y límites de acceso dentro de un clúster."
+        },
+        "fr": {
+          "name": "Espaces de noms",
+          "desc": "Les espaces de noms couvrent le partitionnement des noms de ressources et des limites d’accès au sein d’un cluster."
+        },
+        "de": {
+          "name": "Namensräume",
+          "desc": "Namensräume behandeln die Partitionierung von Ressourcennamen und Zugriffsgrenzen innerhalb eines Clusters."
+        },
+        "ja": {
+          "name": "名前空間",
+          "desc": "名前空間では、クラスター内のリソース名とアクセス境界の分割について説明します。"
+        },
+        "ru": {
+          "name": "Пространства имен",
+          "desc": "Пространства имен охватывают разделение имен ресурсов и границ доступа внутри кластера."
+        },
+        "ko": {
+          "name": "네임스페이스",
+          "desc": "네임스페이스는 클러스터 내 리소스 이름과 액세스 경계를 분리하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Espaços de nomes",
+          "desc": "Os espaços de nomes cobrem o particionamento de nomes de recursos e limites de acesso dentro de um cluster."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/resource_manifests",
+      "slug": "resource_manifests",
+      "name": "Resource Manifests",
+      "desc": "Resource manifests cover declaring Kubernetes objects in YAML or JSON files.",
+      "i18n": {
+        "zh": {
+          "name": "资源清单",
+          "desc": "资源清单涵盖在 YAML 或 JSON 文件中声明 Kubernetes 对象。"
+        },
+        "es": {
+          "name": "Manifiestos de recursos",
+          "desc": "Los manifiestos de recursos cubren la declaración de objetos de Kubernetes en archivos YAML o JSON."
+        },
+        "fr": {
+          "name": "Manifestes de ressources",
+          "desc": "Les manifestes de ressources couvrent la déclaration d’objets Kubernetes dans des fichiers YAML ou JSON."
+        },
+        "de": {
+          "name": "Ressourcenmanifeste",
+          "desc": "Ressourcenmanifeste umfassen die Deklaration von Kubernetes-Objekten in YAML- oder JSON-Dateien."
+        },
+        "ja": {
+          "name": "リソースマニフェスト",
+          "desc": "リソースマニフェストは、YAML または JSON ファイル内の Kubernetes オブジェクトの宣言を扱います。"
+        },
+        "ru": {
+          "name": "Манифесты ресурсов",
+          "desc": "Манифесты ресурсов охватывают объявление объектов Kubernetes в файлах YAML или JSON."
+        },
+        "ko": {
+          "name": "리소스 매니페스트",
+          "desc": "리소스 매니페스트는 YAML 또는 JSON 파일에서 Kubernetes 개체 선언을 다룹니다."
+        },
+        "pt": {
+          "name": "Manifestos de Recursos",
+          "desc": "Os manifestos de recursos cobrem a declaração de objetos Kubernetes em arquivos YAML ou JSON."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/kubectl_operations",
+      "slug": "kubectl_operations",
+      "name": "Kubectl Operations",
+      "desc": "Kubectl operations cover applying, inspecting, editing, and deleting Kubernetes resources through the API.",
+      "i18n": {
+        "zh": {
+          "name": "Kubectl 操作",
+          "desc": "Kubectl 操作包括通过 API 应用、检查、编辑和删除 Kubernetes 资源。"
+        },
+        "es": {
+          "name": "Operaciones Kubectl",
+          "desc": "Las operaciones de kubectl cubren la aplicación, inspección, edición y eliminación de recursos de Kubernetes mediante la API."
+        },
+        "fr": {
+          "name": "Opérations Kubectl",
+          "desc": "Les opérations Kubectl couvrent l'application, l'inspection, la modification et la suppression des ressources Kubernetes via l'API."
+        },
+        "de": {
+          "name": "Kubectl-Operationen",
+          "desc": "kubectl-Vorgänge umfassen das Anwenden, Überprüfen, Bearbeiten und Löschen von Kubernetes-Ressourcen über die API."
+        },
+        "ja": {
+          "name": "Kubectl オペレーション",
+          "desc": "Kubectl の操作には、API を介した Kubernetes リソースの apply、検査、編集、削除が含まれます。"
+        },
+        "ru": {
+          "name": "Операции kubectl",
+          "desc": "Операции Kubectl охватывают применение, проверку, редактирование и удаление ресурсов Kubernetes через API."
+        },
+        "ko": {
+          "name": "kubectl 작업",
+          "desc": "kubectl 작업은 API를 통해 Kubernetes 리소스를 apply, 검사, 편집 및 삭제하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Operações Kubectl",
+          "desc": "As operações do Kubectl cobrem a aplicação, inspeção, edição e exclusão de recursos Kubernetes por meio da API."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/labels_selectors",
+      "slug": "labels_selectors",
+      "name": "Labels and Selectors",
+      "desc": "Labels and selectors cover identifying, grouping, and targeting Kubernetes resources.",
+      "i18n": {
+        "zh": {
+          "name": "标签和选择器",
+          "desc": "标签和选择器涵盖识别、分组和定位 Kubernetes 资源。"
+        },
+        "es": {
+          "name": "Etiquetas y selectores",
+          "desc": "Las etiquetas y selectores cubren la identificación, agrupación y selección de recursos Kubernetes."
+        },
+        "fr": {
+          "name": "Étiquettes et sélecteurs",
+          "desc": "Les étiquettes et les sélecteurs couvrent l'identification, le regroupement et le ciblage des ressources Kubernetes."
+        },
+        "de": {
+          "name": "Labels und Selektoren",
+          "desc": "Labels und Selektoren umfassen das Identifizieren, Gruppieren und Auswählen von Kubernetes-Ressourcen."
+        },
+        "ja": {
+          "name": "ラベルとセレクター",
+          "desc": "ラベルとセレクターは、Kubernetes リソースの識別、グループ化、ターゲティングを扱います。"
+        },
+        "ru": {
+          "name": "Метки и селекторы",
+          "desc": "Метки и селекторы охватывают идентификацию, группировку и выбор ресурсов Kubernetes."
+        },
+        "ko": {
+          "name": "라벨 및 셀렉터",
+          "desc": "라벨 및 셀렉터는 Kubernetes 리소스 식별, 그룹화 및 선택을 다룹니다."
+        },
+        "pt": {
+          "name": "Rótulos e seletores",
+          "desc": "Rótulos e seletores cobrem a identificação, agrupamento e direcionamento de recursos do Kubernetes."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/annotations",
+      "slug": "annotations",
+      "name": "Annotations",
+      "desc": "Annotations cover attaching non-identifying metadata for tools, controllers, and integrations.",
+      "i18n": {
+        "zh": {
+          "name": "注解",
+          "desc": "注解涵盖附加供工具、控制器和集成使用的非标识元数据。"
+        },
+        "es": {
+          "name": "Anotaciones",
+          "desc": "Las anotaciones cubren la asociación de metadatos no identificativos para herramientas, controladores e integraciones."
+        },
+        "fr": {
+          "name": "Annotations",
+          "desc": "Les annotations couvrent l'attachement de métadonnées non identifiantes pour les outils, les contrôleurs et les intégrations."
+        },
+        "de": {
+          "name": "Annotationen",
+          "desc": "Annotationen umfassen das Anhängen nicht identifizierender Metadaten für Tools, Controller und Integrationen."
+        },
+        "ja": {
+          "name": "注釈",
+          "desc": "注釈には、ツール、コントローラー、統合に対する非識別メタデータの添付が含まれます。"
+        },
+        "ru": {
+          "name": "Аннотации",
+          "desc": "Аннотации охватывают прикрепление неидентифицирующих метаданных для инструментов, контроллеров и интеграций."
+        },
+        "ko": {
+          "name": "주석",
+          "desc": "주석은 도구, 컨트롤러 및 통합에 대한 비식별 메타데이터 첨부를 다룹니다."
+        },
+        "pt": {
+          "name": "Anotações",
+          "desc": "As anotações cobrem a anexação de metadados não identificáveis para ferramentas, controladores e integrações."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/pods",
+      "slug": "pods",
+      "name": "Pods",
+      "desc": "Pods cover the smallest deployable workload unit and shared container context.",
+      "i18n": {
+        "zh": {
+          "name": "Pods",
+          "desc": "Pods 涵盖最小的可部署工作负载单元，以及 Pod 内共享的容器上下文。"
+        },
+        "es": {
+          "name": "Pods",
+          "desc": "Pods cubren la unidad de carga de trabajo implementable más pequeña y el contexto de contenedor compartido."
+        },
+        "fr": {
+          "name": "Pods",
+          "desc": "Pods couvrent la plus petite unité de charge de travail déployable et le contexte de conteneur partagé."
+        },
+        "de": {
+          "name": "Pods",
+          "desc": "Pods decken die kleinste bereitstellbare Workload-Einheit und den gemeinsam genutzten Containerkontext ab."
+        },
+        "ja": {
+          "name": "Pods",
+          "desc": "Pods は、デプロイ可能な最小のワークロードユニットと共有コンテナコンテキストを扱います。"
+        },
+        "ru": {
+          "name": "Pods",
+          "desc": "Pods охватывают минимальную развертываемую единицу рабочей нагрузки и общий контекст контейнеров внутри Pod."
+        },
+        "ko": {
+          "name": "Pods",
+          "desc": "Pods는 배포 가능한 최소 워크로드 단위와 Pod 안에서 공유되는 컨테이너 컨텍스트를 다룹니다."
+        },
+        "pt": {
+          "name": "Pods",
+          "desc": "Pods cobrem a menor unidade de carga de trabalho implantável e o contexto de contêiner compartilhado."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/workload_containers",
+      "slug": "workload_containers",
+      "name": "Workload Containers",
+      "desc": "Workload containers cover container image references, commands, ports, and runtime settings inside pods.",
+      "i18n": {
+        "zh": {
+          "name": "工作负载容器",
+          "desc": "工作负载容器涵盖 Pod 内的容器镜像引用、命令、端口和运行时设置。"
+        },
+        "es": {
+          "name": "Contenedores de carga de trabajo",
+          "desc": "Los contenedores de cargas de trabajo cubren referencias de imágenes de contenedores, comandos, puertos y configuraciones de tiempo de ejecución dentro de los pods."
+        },
+        "fr": {
+          "name": "Conteneurs de charge de travail",
+          "desc": "Les conteneurs de charge de travail couvrent les références d'image de conteneur, les commandes, les ports et les paramètres d'exécution à l'intérieur des pods."
+        },
+        "de": {
+          "name": "Workload-Container",
+          "desc": "Workload-Container umfassen Container-Image-Referenzen, Befehle, Ports und Laufzeiteinstellungen innerhalb von Pods."
+        },
+        "ja": {
+          "name": "ワークロードコンテナ",
+          "desc": "ワークロードコンテナーは、ポッド内のコンテナーイメージ参照、コマンド、ポート、およびランタイム設定を扱います。"
+        },
+        "ru": {
+          "name": "Контейнеры рабочей нагрузки",
+          "desc": "Контейнеры рабочей нагрузки охватывают ссылки на образы контейнеров, команды, порты и настройки времени выполнения внутри Pod."
+        },
+        "ko": {
+          "name": "워크로드 컨테이너",
+          "desc": "워크로드 컨테이너는 Pod 내부의 컨테이너 이미지 참조, 명령, 포트 및 런타임 설정을 다룹니다."
+        },
+        "pt": {
+          "name": "Contêineres de carga de trabalho",
+          "desc": "Os contêineres de carga de trabalho abrangem referências de imagem de contêiner, comandos, portas e configurações de tempo de execução dentro dos pods."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/deployments",
+      "slug": "deployments",
+      "name": "Deployments",
+      "desc": "Deployments cover declarative management of replicated application pods and rollout behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Deployments",
+          "desc": "Deployments 涵盖副本化应用 Pod 和 rollout 行为的声明式管理。"
+        },
+        "es": {
+          "name": "Deployments",
+          "desc": "Deployments cubren la gestión declarativa de pods de aplicación replicados y el comportamiento de despliegue."
+        },
+        "fr": {
+          "name": "Deployments",
+          "desc": "Deployments couvrent la gestion déclarative des pods d'application répliqués et le comportement de déploiement."
+        },
+        "de": {
+          "name": "Deployments",
+          "desc": "Deployments behandeln die deklarative Verwaltung replizierter Anwendungs-Pods und das Rollout-Verhalten."
+        },
+        "ja": {
+          "name": "Deployments",
+          "desc": "Deployments は、複製されたアプリケーション Pod とロールアウト動作の宣言的管理を扱います。"
+        },
+        "ru": {
+          "name": "Deployments",
+          "desc": "Deployments охватывают декларативное управление реплицированными Pod приложения и поведение при развертывании."
+        },
+        "ko": {
+          "name": "Deployments",
+          "desc": "Deployments는 복제된 애플리케이션 Pod와 롤아웃 동작의 선언적 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Deployments",
+          "desc": "Deployments cobrem o gerenciamento declarativo de pods de aplicação replicados e o comportamento de implantação."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/replicasets",
+      "slug": "replicasets",
+      "name": "ReplicaSets",
+      "desc": "ReplicaSets cover maintaining a desired number of equivalent pods under higher-level workload control.",
+      "i18n": {
+        "zh": {
+          "name": "ReplicaSets",
+          "desc": "ReplicaSets 涵盖在更高层工作负载控制下维护期望数量的等价 Pod。"
+        },
+        "es": {
+          "name": "ReplicaSets",
+          "desc": "ReplicaSets cubren el mantenimiento de una cantidad deseada de pods equivalentes bajo un control de carga de trabajo de nivel superior."
+        },
+        "fr": {
+          "name": "ReplicaSets",
+          "desc": "ReplicaSets couvrent le maintien d'un nombre souhaité de pods équivalents sous un contrôle de charge de travail de niveau supérieur."
+        },
+        "de": {
+          "name": "ReplicaSets",
+          "desc": "ReplicaSets decken die Aufrechterhaltung einer gewünschten Anzahl gleichwertiger Pods unter einer Workload-Kontrolle auf höherer Ebene ab."
+        },
+        "ja": {
+          "name": "ReplicaSets",
+          "desc": "ReplicaSets は、より高いレベルのワークロード制御の下で、必要な数の同等のポッドを維持することを扱います。"
+        },
+        "ru": {
+          "name": "ReplicaSets",
+          "desc": "ReplicaSets обеспечивают поддержание желаемого количества эквивалентных Pod под управлением рабочей нагрузки более высокого уровня."
+        },
+        "ko": {
+          "name": "ReplicaSets",
+          "desc": "ReplicaSets는 상위 수준 워크로드 제어 아래에서 원하는 수의 동등한 Pod를 유지하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "ReplicaSets",
+          "desc": "ReplicaSets cobrem a manutenção de um número desejado de pods equivalentes sob controle de carga de trabalho de nível superior."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/statefulsets",
+      "slug": "statefulsets",
+      "name": "StatefulSets",
+      "desc": "StatefulSets cover workloads that need stable identity, ordered management, and persistent association.",
+      "i18n": {
+        "zh": {
+          "name": "StatefulSets",
+          "desc": "StatefulSets 涵盖需要稳定身份、有序管理和持久关联的工作负载。"
+        },
+        "es": {
+          "name": "StatefulSets",
+          "desc": "StatefulSets cubren cargas de trabajo que necesitan una identidad estable, una gestión ordenada y una asociación persistente."
+        },
+        "fr": {
+          "name": "StatefulSets",
+          "desc": "StatefulSets couvrent les charges de travail qui nécessitent une identité stable, une gestion ordonnée et une association persistante."
+        },
+        "de": {
+          "name": "StatefulSets",
+          "desc": "StatefulSets decken Workloads ab, die eine stabile Identität, geordnete Verwaltung und dauerhafte Zuordnung erfordern."
+        },
+        "ja": {
+          "name": "StatefulSets",
+          "desc": "StatefulSets は、安定した ID、順序付けられた管理、永続的な関連付けを必要とするワークロードを扱います。"
+        },
+        "ru": {
+          "name": "StatefulSets",
+          "desc": "StatefulSets охватывают рабочие нагрузки, требующие стабильной идентификации, упорядоченного управления и постоянной ассоциации."
+        },
+        "ko": {
+          "name": "StatefulSets",
+          "desc": "StatefulSets는 안정적인 ID, 순서가 보장된 관리, 지속적인 연결이 필요한 워크로드를 다룹니다."
+        },
+        "pt": {
+          "name": "StatefulSets",
+          "desc": "StatefulSets cobrem cargas de trabalho que precisam de identidade estável, gerenciamento ordenado e associação persistente."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/daemonsets",
+      "slug": "daemonsets",
+      "name": "DaemonSets",
+      "desc": "DaemonSets cover running a pod on selected nodes across a cluster.",
+      "i18n": {
+        "zh": {
+          "name": "DaemonSets",
+          "desc": "DaemonSets 涵盖在集群中的选定节点上运行 pod。"
+        },
+        "es": {
+          "name": "DaemonSets",
+          "desc": "DaemonSets cubren la ejecución de un pod en nodos seleccionados en un clúster."
+        },
+        "fr": {
+          "name": "DaemonSets",
+          "desc": "DaemonSets couvrent l'exécution d'un pod sur des nœuds sélectionnés à travers un cluster."
+        },
+        "de": {
+          "name": "DaemonSets",
+          "desc": "DaemonSets behandelt die Ausführung eines Pods auf ausgewählten Knoten in einem Cluster."
+        },
+        "ja": {
+          "name": "DaemonSets",
+          "desc": "DaemonSets では、クラスター全体の選択したノードでポッドを実行する方法について説明します。"
+        },
+        "ru": {
+          "name": "DaemonSets",
+          "desc": "DaemonSets охватывают запуск Pod на выбранных узлах кластера."
+        },
+        "ko": {
+          "name": "DaemonSets",
+          "desc": "DaemonSets는 클러스터 전체의 선택된 노드에서 Pod를 실행하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "DaemonSets",
+          "desc": "DaemonSets cobrem a execução de um pod em nós selecionados em um cluster."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/jobs_cronjobs",
+      "slug": "jobs_cronjobs",
+      "name": "Jobs and CronJobs",
+      "desc": "Jobs and CronJobs cover one-time and scheduled workload execution in Kubernetes clusters.",
+      "i18n": {
+        "zh": {
+          "name": "作业和 CronJobs",
+          "desc": "作业和 CronJobs 涵盖 Kubernetes 集群中的一次性和计划工作负载执行。"
+        },
+        "es": {
+          "name": "Jobs y CronJobs",
+          "desc": "Jobs y CronJobs cubren la ejecución de cargas de trabajo únicas y programadas en clústeres Kubernetes."
+        },
+        "fr": {
+          "name": "Jobs et CronJobs",
+          "desc": "Les Jobs et CronJobs couvrent l’exécution de charges de travail ponctuelles et planifiées dans les clusters Kubernetes."
+        },
+        "de": {
+          "name": "Jobs und CronJobs",
+          "desc": "Jobs und CronJobs decken die einmalige und geplante Workload-Ausführung in Kubernetes Clustern ab."
+        },
+        "ja": {
+          "name": "Jobs と CronJobs",
+          "desc": "Jobs と CronJobs は、Kubernetes クラスターでの 1 回限りのワークロード実行とスケジュール実行を扱います。"
+        },
+        "ru": {
+          "name": "Jobs и CronJobs",
+          "desc": "Jobs и CronJobs охватывают однократное и запланированное выполнение рабочих нагрузок в кластерах Kubernetes."
+        },
+        "ko": {
+          "name": "Jobs 및 CronJobs",
+          "desc": "작업 및 CronJob은 Kubernetes 클러스터에서 일회성 및 예약된 워크로드 실행을 다룹니다."
+        },
+        "pt": {
+          "name": "Jobs e CronJobs",
+          "desc": "Jobs e CronJobs cobrem a execução de cargas de trabalho únicas e agendadas em clusters Kubernetes."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/services",
+      "slug": "services",
+      "name": "Services",
+      "desc": "Services cover stable virtual access to sets of pods through selectors and endpoints.",
+      "i18n": {
+        "zh": {
+          "name": "Services",
+          "desc": "Services 涵盖通过 selectors 和 endpoints 为一组 Pods 提供稳定的虚拟访问入口。"
+        },
+        "es": {
+          "name": "Servicios",
+          "desc": "Los servicios cubren el acceso virtual estable a conjuntos de pods a través de selectores y puntos finales."
+        },
+        "fr": {
+          "name": "Services",
+          "desc": "Les Services fournissent un accès virtuel stable à des ensembles de Pods via des sélecteurs et des objets Endpoint."
+        },
+        "de": {
+          "name": "Services",
+          "desc": "Die Dienste umfassen den stabilen virtuellen Zugriff auf Pod-Sets über Selektoren und Endpunkte."
+        },
+        "ja": {
+          "name": "サービス",
+          "desc": "サービスは、セレクターとエンドポイントを介したポッドのセットへの安定した仮想アクセスを扱います。"
+        },
+        "ru": {
+          "name": "Services",
+          "desc": "Services обеспечивают стабильный виртуальный доступ к наборам Pod через селекторы и конечные точки."
+        },
+        "ko": {
+          "name": "서비스",
+          "desc": "서비스는 선택기와 엔드포인트를 통해 포드 세트에 대한 안정적인 가상 액세스를 다룹니다."
+        },
+        "pt": {
+          "name": "Serviços",
+          "desc": "Os Services fornecem acesso virtual estável a conjuntos de Pods por meio de seletores e objetos Endpoint."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/service_types",
+      "slug": "service_types",
+      "name": "Service Types",
+      "desc": "Service types cover ClusterIP, NodePort, LoadBalancer, and external access patterns.",
+      "i18n": {
+        "zh": {
+          "name": "Service 类型",
+          "desc": "Service 类型涵盖 ClusterIP、NodePort、LoadBalancer 和外部访问模式。"
+        },
+        "es": {
+          "name": "Tipos de servicio",
+          "desc": "Los tipos de servicios cubren ClusterIP, NodePort, LoadBalancer y patrones de acceso externo."
+        },
+        "fr": {
+          "name": "Types de services",
+          "desc": "Les types de services couvrent ClusterIP, NodePort, LoadBalancer et les modèles d'accès externes."
+        },
+        "de": {
+          "name": "Service-Typen",
+          "desc": "Service-Typen umfassen ClusterIP, NodePort, LoadBalancer und externe Zugriffsmuster."
+        },
+        "ja": {
+          "name": "サービスの種類",
+          "desc": "サービスタイプには、ClusterIP、NodePort、LoadBalancer、および外部アクセスパターンが含まれます。"
+        },
+        "ru": {
+          "name": "Типы Service",
+          "desc": "Типы Service охватывают ClusterIP, NodePort, LoadBalancer и шаблоны внешнего доступа."
+        },
+        "ko": {
+          "name": "Service 타입",
+          "desc": "Service 타입은 ClusterIP, NodePort, LoadBalancer 및 외부 액세스 패턴을 다룹니다."
+        },
+        "pt": {
+          "name": "Tipos de serviço",
+          "desc": "Os tipos de serviço abrangem ClusterIP, NodePort, LoadBalancer e padrões de acesso externo."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/ingress",
+      "slug": "ingress",
+      "name": "Ingress",
+      "desc": "Ingress covers HTTP routing from outside the cluster to services.",
+      "i18n": {
+        "zh": {
+          "name": "Ingress",
+          "desc": "Ingress 涵盖从集群外部到 Services 的 HTTP 路由。"
+        },
+        "es": {
+          "name": "Ingress",
+          "desc": "Ingress cubre el enrutamiento HTTP desde fuera del clúster a los servicios."
+        },
+        "fr": {
+          "name": "Ingress",
+          "desc": "Ingress couvre le routage HTTP depuis l'extérieur du cluster vers les services."
+        },
+        "de": {
+          "name": "Ingress",
+          "desc": "Ingress deckt HTTP-Routing von außerhalb des Clusters zu Services ab."
+        },
+        "ja": {
+          "name": "Ingress",
+          "desc": "Ingress は、クラスター外部から Service への HTTP ルーティングを扱います。"
+        },
+        "ru": {
+          "name": "Ingress",
+          "desc": "Ingress охватывает HTTP-маршрутизацию извне кластера к Services."
+        },
+        "ko": {
+          "name": "Ingress",
+          "desc": "Ingress는 클러스터 외부에서 Services로 들어오는 HTTP 라우팅을 다룹니다."
+        },
+        "pt": {
+          "name": "Ingress",
+          "desc": "Ingress cobre roteamento HTTP de fora do cluster para Services."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/network_policies",
+      "slug": "network_policies",
+      "name": "Network Policies",
+      "desc": "Network policies cover controlling pod-to-pod and pod-to-network traffic.",
+      "i18n": {
+        "zh": {
+          "name": "网络策略",
+          "desc": "网络策略涵盖控制 Pod 到 Pod 和 Pod 到网络的流量。"
+        },
+        "es": {
+          "name": "Políticas de red",
+          "desc": "Las políticas de red cubren el control del tráfico de pod a pod y de pod a red."
+        },
+        "fr": {
+          "name": "Politiques de réseau",
+          "desc": "Les politiques réseau couvrent le contrôle du trafic de pod à pod et de pod à réseau."
+        },
+        "de": {
+          "name": "Netzwerkrichtlinien",
+          "desc": "Netzwerkrichtlinien umfassen die Steuerung des Pod-zu-Pod- und Pod-zu-Netzwerk-Verkehrs."
+        },
+        "ja": {
+          "name": "ネットワークポリシー",
+          "desc": "ネットワークポリシーは、ポッド間およびポッドからネットワークへのトラフィックの制御を扱います。"
+        },
+        "ru": {
+          "name": "Сетевые политики",
+          "desc": "Сетевые политики охватывают контроль трафика между Pod и от Pod к сети."
+        },
+        "ko": {
+          "name": "네트워크 정책",
+          "desc": "네트워크 정책은 Pod 간 트래픽과 Pod-to-network 트래픽 제어를 다룹니다."
+        },
+        "pt": {
+          "name": "Políticas de Rede",
+          "desc": "As políticas de rede cobrem o controle do tráfego pod-to-pod e pod-to-network."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/dns_discovery",
+      "slug": "dns_discovery",
+      "name": "DNS Discovery",
+      "desc": "DNS discovery covers service names and cluster DNS resolution behavior.",
+      "i18n": {
+        "zh": {
+          "name": "DNS 发现",
+          "desc": "DNS 发现涵盖 Service 名称和集群 DNS 解析行为。"
+        },
+        "es": {
+          "name": "Descubrimiento DNS",
+          "desc": "El descubrimiento DNS cubre los nombres de servicios y el comportamiento de resolución DNS del clúster."
+        },
+        "fr": {
+          "name": "Découverte DNS",
+          "desc": "La découverte DNS couvre les noms de services et le comportement de résolution du cluster DNS."
+        },
+        "de": {
+          "name": "DNS-Discovery",
+          "desc": "DNS-Discovery umfasst Servicenamen und das DNS-Auflösungsverhalten im Cluster."
+        },
+        "ja": {
+          "name": "DNS ディスカバリ",
+          "desc": "DNS ディスカバリでは、Service 名とクラスター DNS の名前解決動作を扱います。"
+        },
+        "ru": {
+          "name": "Обнаружение DNS",
+          "desc": "Обнаружение DNS охватывает имена сервисов и поведение DNS-разрешения в кластере."
+        },
+        "ko": {
+          "name": "DNS 검색",
+          "desc": "DNS 검색은 Service 이름과 클러스터 DNS 확인 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Descoberta DNS",
+          "desc": "A descoberta DNS abrange nomes de serviços e comportamento de resolução DNS do cluster."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/port_forwarding",
+      "slug": "port_forwarding",
+      "name": "Port Forwarding",
+      "desc": "Port forwarding covers temporary local access to pods and services for debugging.",
+      "i18n": {
+        "zh": {
+          "name": "端口转发",
+          "desc": "端口转发涵盖对 Pods 和 Services 的临时本地访问，以便调试。"
+        },
+        "es": {
+          "name": "Reenvío de puertos",
+          "desc": "El reenvío de puertos cubre el acceso local temporal a pods y servicios para la depuración."
+        },
+        "fr": {
+          "name": "Redirection de port",
+          "desc": "La redirection de port couvre l'accès local temporaire aux pods et aux services pour le débogage."
+        },
+        "de": {
+          "name": "Portweiterleitung",
+          "desc": "Die Portweiterleitung umfasst den temporären lokalen Zugriff auf Pods und Dienste zum Debuggen."
+        },
+        "ja": {
+          "name": "ポートフォワーディング",
+          "desc": "ポート転送は、デバッグのためのポッドおよびサービスへの一時的なローカルアクセスを扱います。"
+        },
+        "ru": {
+          "name": "Переадресация портов",
+          "desc": "Переадресация портов обеспечивает временный локальный доступ к Pod и Service для отладки."
+        },
+        "ko": {
+          "name": "포트 포워딩",
+          "desc": "포트 포워딩은 디버깅을 위한 Pod 및 Service에 대한 임시 로컬 액세스를 다룹니다."
+        },
+        "pt": {
+          "name": "Encaminhamento de porta",
+          "desc": "O encaminhamento de porta cobre o acesso local temporário a pods e serviços para depuração."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/configmaps",
+      "slug": "configmaps",
+      "name": "ConfigMaps",
+      "desc": "ConfigMaps cover non-sensitive configuration data consumed by workloads.",
+      "i18n": {
+        "zh": {
+          "name": "ConfigMaps",
+          "desc": "ConfigMaps 涵盖供工作负载使用的非敏感配置数据。"
+        },
+        "es": {
+          "name": "ConfigMaps",
+          "desc": "ConfigMaps cubren datos de configuración no confidenciales consumidos por las cargas de trabajo."
+        },
+        "fr": {
+          "name": "ConfigMaps",
+          "desc": "ConfigMaps couvrent les données de configuration non sensibles consommées par les charges de travail."
+        },
+        "de": {
+          "name": "ConfigMaps",
+          "desc": "ConfigMaps decken nicht vertrauliche Konfigurationsdaten ab, die von Workloads verbraucht werden."
+        },
+        "ja": {
+          "name": "ConfigMaps",
+          "desc": "ConfigMaps は、ワークロードによって消費される非機密構成データを扱います。"
+        },
+        "ru": {
+          "name": "ConfigMaps",
+          "desc": "ConfigMaps охватывают неконфиденциальные данные конфигурации, используемые рабочими нагрузками."
+        },
+        "ko": {
+          "name": "ConfigMaps",
+          "desc": "ConfigMaps는 워크로드에서 사용되는 민감하지 않은 구성 데이터를 다룹니다."
+        },
+        "pt": {
+          "name": "ConfigMaps",
+          "desc": "ConfigMaps abrangem dados de configuração não confidenciais consumidos por cargas de trabalho."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/secrets",
+      "slug": "secrets",
+      "name": "Secrets",
+      "desc": "Secrets cover sensitive values provided to workloads through Kubernetes resources.",
+      "i18n": {
+        "zh": {
+          "name": "Secrets",
+          "desc": "Secrets 涵盖通过 Kubernetes 资源提供给工作负载的敏感值。"
+        },
+        "es": {
+          "name": "Secrets",
+          "desc": "Secrets cubren valores sensibles proporcionados a las cargas de trabajo a través de recursos Kubernetes."
+        },
+        "fr": {
+          "name": "Secrets",
+          "desc": "Secrets couvrent les valeurs sensibles fournies aux charges de travail via les ressources Kubernetes."
+        },
+        "de": {
+          "name": "Secrets",
+          "desc": "Secrets decken sensible Werte ab, die Workloads über Kubernetes-Ressourcen bereitgestellt werden."
+        },
+        "ja": {
+          "name": "Secrets",
+          "desc": "Secrets は、Kubernetes リソースを通じてワークロードに提供される機密値を扱います。"
+        },
+        "ru": {
+          "name": "Secrets",
+          "desc": "Secrets охватывают конфиденциальные значения, предоставляемые рабочим нагрузкам через ресурсы Kubernetes."
+        },
+        "ko": {
+          "name": "Secrets",
+          "desc": "Secrets는 Kubernetes 리소스를 통해 워크로드에 제공되는 민감한 값을 다룹니다."
+        },
+        "pt": {
+          "name": "Secrets",
+          "desc": "Secrets cobrem valores confidenciais fornecidos às cargas de trabalho por meio de recursos Kubernetes."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/workload_configuration",
+      "slug": "workload_configuration",
+      "name": "Workload Configuration",
+      "desc": "Workload configuration covers passing ConfigMaps, Secrets, and environment values into containers.",
+      "i18n": {
+        "zh": {
+          "name": "工作负载配置",
+          "desc": "工作负载配置涵盖将 ConfigMaps、Secrets 和环境变量值传入容器。"
+        },
+        "es": {
+          "name": "Configuración de carga de trabajo",
+          "desc": "La configuración de la carga de trabajo cubre el paso de ConfigMaps, Secrets y valores de entorno a contenedores."
+        },
+        "fr": {
+          "name": "Configuration de la charge de travail",
+          "desc": "La configuration de la charge de travail couvre la transmission des valeurs ConfigMaps, Secrets et de l'environnement dans les conteneurs."
+        },
+        "de": {
+          "name": "Workload-Konfiguration",
+          "desc": "Die Workload-Konfiguration umfasst die Übergabe von ConfigMaps, Secrets und Umgebungswerten an Container."
+        },
+        "ja": {
+          "name": "ワークロード構成",
+          "desc": "ワークロード構成には、ConfigMaps、Secrets、および環境値をコンテナーに渡すことが含まれます。"
+        },
+        "ru": {
+          "name": "Конфигурация рабочей нагрузки",
+          "desc": "Конфигурация рабочей нагрузки включает передачу значений ConfigMaps, Secrets и среды в контейнеры."
+        },
+        "ko": {
+          "name": "워크로드 구성",
+          "desc": "워크로드 구성에는 ConfigMaps, Secrets 및 환경 값을 컨테이너에 전달하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Configuração de carga de trabalho",
+          "desc": "A configuração da carga de trabalho abrange a passagem de ConfigMaps, Secrets e valores de ambiente para contêineres."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/configuration_volumes",
+      "slug": "configuration_volumes",
+      "name": "Configuration Volumes",
+      "desc": "Configuration volumes cover mounting ConfigMaps and Secrets into container filesystems.",
+      "i18n": {
+        "zh": {
+          "name": "配置卷",
+          "desc": "配置卷涵盖将 ConfigMaps 和 Secrets 挂载到容器文件系统中。"
+        },
+        "es": {
+          "name": "Volúmenes de configuración",
+          "desc": "Los volúmenes de configuración cubren el montaje de ConfigMaps y Secrets en sistemas de archivos de contenedores."
+        },
+        "fr": {
+          "name": "Volumes de configuration",
+          "desc": "Les volumes de configuration couvrent le montage de ConfigMaps et Secrets dans les systèmes de fichiers des conteneurs."
+        },
+        "de": {
+          "name": "Konfigurationsvolumes",
+          "desc": "Konfigurationsvolumes decken das Mounten von ConfigMaps und Secrets in Container-Dateisysteme ab."
+        },
+        "ja": {
+          "name": "構成ボリューム",
+          "desc": "構成ボリュームは、コンテナーファイルシステムへの ConfigMaps および Secrets のマウントを扱います。"
+        },
+        "ru": {
+          "name": "Тома конфигурации",
+          "desc": "Тома конфигурации охватывают монтирование ConfigMaps и Secrets в файловые системы контейнеров."
+        },
+        "ko": {
+          "name": "구성 볼륨",
+          "desc": "구성 볼륨은 ConfigMaps와 Secrets를 컨테이너 파일 시스템에 마운트하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Volumes de configuração",
+          "desc": "Os volumes de configuração cobrem a montagem de ConfigMaps e Secrets em sistemas de arquivos de contêineres."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/manifest_customization",
+      "slug": "manifest_customization",
+      "name": "Manifest Customization",
+      "desc": "Manifest customization covers composing, patching, and adapting manifests for different environments.",
+      "i18n": {
+        "zh": {
+          "name": "清单定制",
+          "desc": "清单定制包括针对不同环境编写、修补和调整清单。"
+        },
+        "es": {
+          "name": "Personalización del manifiesto",
+          "desc": "La personalización de manifiestos cubre la composición, parcheo y adaptación de manifiestos para diferentes entornos."
+        },
+        "fr": {
+          "name": "Personnalisation du manifeste",
+          "desc": "La personnalisation des manifestes couvre la composition, l'application de correctifs et l'adaptation des manifestes à différents environnements."
+        },
+        "de": {
+          "name": "Manifest-Anpassung",
+          "desc": "Die Manifestanpassung umfasst das Erstellen, Patchen und Anpassen von Manifesten für verschiedene Umgebungen."
+        },
+        "ja": {
+          "name": "マニフェストのカスタマイズ",
+          "desc": "マニフェストのカスタマイズには、さまざまな環境に合わせたマニフェストの作成、パッチ適用、適応が含まれます。"
+        },
+        "ru": {
+          "name": "Настройка манифеста",
+          "desc": "Настройка манифеста включает в себя составление, исправление и адаптацию манифестов для различных сред."
+        },
+        "ko": {
+          "name": "매니페스트 사용자 정의",
+          "desc": "매니페스트 사용자 정의에는 다양한 환경에 대한 매니페스트 작성, 패치 및 적용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Personalização de Manifesto",
+          "desc": "A personalização de manifestos abrange a composição, aplicação de patches e adaptação de manifestos para diferentes ambientes."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/volumes",
+      "slug": "volumes",
+      "name": "Volumes",
+      "desc": "Volumes cover storage attached to pods for sharing or persistence during pod lifetime.",
+      "i18n": {
+        "zh": {
+          "name": "卷",
+          "desc": "卷涵盖附加到 Pod 的存储，以便在 Pod 生命周期内共享或持久化。"
+        },
+        "es": {
+          "name": "Volúmenes",
+          "desc": "Los volúmenes cubren el almacenamiento adjunto a los pods para compartirlo o conservarlo durante la vida útil del pod."
+        },
+        "fr": {
+          "name": "Volumes",
+          "desc": "Les volumes couvrent le stockage attaché aux pods pour le partage ou la persistance pendant la durée de vie du pod."
+        },
+        "de": {
+          "name": "Volumes",
+          "desc": "Volumes decken den an Pods angeschlossenen Speicher zur gemeinsamen Nutzung oder Persistenz während der Pod-Lebensdauer ab."
+        },
+        "ja": {
+          "name": "ボリューム",
+          "desc": "ボリュームは、ポッドの有効期間中の共有または永続化のためにポッドに接続されたストレージを扱います。"
+        },
+        "ru": {
+          "name": "Тома",
+          "desc": "Тома охватывают хранилище, подключенное к Pod для совместного использования или сохранения в течение жизненного цикла Pod."
+        },
+        "ko": {
+          "name": "볼륨",
+          "desc": "볼륨은 Pod 수명 동안 공유 또는 지속성을 위해 Pod에 연결된 스토리지를 다룹니다."
+        },
+        "pt": {
+          "name": "Volumes",
+          "desc": "Os volumes cobrem o armazenamento anexado aos pods para compartilhamento ou persistência durante a vida útil do pod."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/persistent_volumes",
+      "slug": "persistent_volumes",
+      "name": "Persistent Volumes",
+      "desc": "Persistent volumes cover cluster storage resources independent of individual pods.",
+      "i18n": {
+        "zh": {
+          "name": "Persistent Volumes",
+          "desc": "Persistent Volumes 涵盖独立于单个 Pod 的集群存储资源。"
+        },
+        "es": {
+          "name": "Volúmenes persistentes",
+          "desc": "Los volúmenes persistentes cubren los recursos de almacenamiento del clúster independientemente de los pods individuales."
+        },
+        "fr": {
+          "name": "Volumes persistants",
+          "desc": "Les volumes persistants couvrent les ressources de stockage du cluster indépendamment des pods individuels."
+        },
+        "de": {
+          "name": "Persistent Volumes",
+          "desc": "Persistent Volumes decken Cluster-Speicherressourcen unabhängig von einzelnen Pods ab."
+        },
+        "ja": {
+          "name": "永続ボリューム",
+          "desc": "永続ボリュームは、個々のポッドから独立してクラスターストレージリソースを扱います。"
+        },
+        "ru": {
+          "name": "Persistent Volumes",
+          "desc": "Persistent Volumes охватывают ресурсы хранения кластера, независимые от отдельных Pod."
+        },
+        "ko": {
+          "name": "영구 볼륨",
+          "desc": "영구 볼륨은 개별 Pod와 관계없는 클러스터 스토리지 리소스를 다룹니다."
+        },
+        "pt": {
+          "name": "Volumes Persistentes",
+          "desc": "Os volumes persistentes cobrem recursos de armazenamento de cluster independentes de pods individuais."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/persistent_volume_claims",
+      "slug": "persistent_volume_claims",
+      "name": "Persistent Volume Claims",
+      "desc": "Persistent volume claims cover workload requests for persistent storage.",
+      "i18n": {
+        "zh": {
+          "name": "Persistent Volume Claims",
+          "desc": "Persistent Volume Claims 涵盖工作负载对持久存储的请求。"
+        },
+        "es": {
+          "name": "Persistent Volume Claims",
+          "desc": "Persistent Volume Claims cubren solicitudes de carga de trabajo para almacenamiento persistente."
+        },
+        "fr": {
+          "name": "Persistent Volume Claims",
+          "desc": "Les Persistent Volume Claims couvrent les demandes de charge de travail pour le stockage persistant."
+        },
+        "de": {
+          "name": "Persistent Volume Claims",
+          "desc": "Persistent Volume Claims decken Workload-Anforderungen für persistenten Speicher ab."
+        },
+        "ja": {
+          "name": "Persistent Volume Claims",
+          "desc": "Persistent Volume Claims は、永続ストレージに対するワークロードリクエストを扱います。"
+        },
+        "ru": {
+          "name": "Persistent Volume Claims",
+          "desc": "Persistent Volume Claims охватывают запросы рабочей нагрузки на постоянное хранилище."
+        },
+        "ko": {
+          "name": "Persistent Volume Claims",
+          "desc": "Persistent Volume Claims는 영구 스토리지에 대한 워크로드 요청을 다룹니다."
+        },
+        "pt": {
+          "name": "Persistent Volume Claims",
+          "desc": "Persistent Volume Claims cobrem solicitações de carga de trabalho para armazenamento persistente."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/storage_classes",
+      "slug": "storage_classes",
+      "name": "Storage Classes",
+      "desc": "Storage classes cover dynamic provisioning and storage behavior policies.",
+      "i18n": {
+        "zh": {
+          "name": "StorageClasses",
+          "desc": "StorageClasses 涵盖动态供给和存储行为策略。"
+        },
+        "es": {
+          "name": "Clases de almacenamiento",
+          "desc": "Las clases de almacenamiento cubren políticas de comportamiento de almacenamiento y aprovisionamiento dinámico."
+        },
+        "fr": {
+          "name": "Classes de stockage",
+          "desc": "Les classes de stockage couvrent les politiques de provisionnement dynamique et de comportement de stockage."
+        },
+        "de": {
+          "name": "Speicherklassen",
+          "desc": "Speicherklassen decken dynamische Bereitstellungs- und Speicherverhaltensrichtlinien ab."
+        },
+        "ja": {
+          "name": "ストレージクラス",
+          "desc": "ストレージクラスは、動的プロビジョニングとストレージ動作ポリシーを扱います。"
+        },
+        "ru": {
+          "name": "Классы хранения",
+          "desc": "Классы хранения охватывают политику динамической подготовки и поведения хранилища."
+        },
+        "ko": {
+          "name": "StorageClasses",
+          "desc": "StorageClasses는 동적 프로비저닝 및 스토리지 동작 정책을 다룹니다."
+        },
+        "pt": {
+          "name": "Classes de armazenamento",
+          "desc": "As classes de armazenamento cobrem políticas dinâmicas de provisionamento e comportamento de armazenamento."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/stateful_storage",
+      "slug": "stateful_storage",
+      "name": "Stateful Storage",
+      "desc": "Stateful storage covers storage design for databases and stateful applications on Kubernetes.",
+      "i18n": {
+        "zh": {
+          "name": "有状态存储",
+          "desc": "有状态存储涵盖了 Kubernetes 上数据库和有状态应用程序的存储设计。"
+        },
+        "es": {
+          "name": "Almacenamiento con estado",
+          "desc": "El almacenamiento con estado cubre el diseño de almacenamiento para bases de datos y aplicaciones con estado en Kubernetes."
+        },
+        "fr": {
+          "name": "Stockage avec état",
+          "desc": "Le stockage avec état couvre la conception du stockage pour les bases de données et les applications avec état sur Kubernetes."
+        },
+        "de": {
+          "name": "Zustandsbehafteter Speicher",
+          "desc": "Stateful Storage umfasst das Speicherdesign für Datenbanken und Stateful-Anwendungen auf Kubernetes."
+        },
+        "ja": {
+          "name": "ステートフルストレージ",
+          "desc": "ステートフルストレージでは、Kubernetes 上のデータベースとステートフルアプリケーションのストレージ設計を扱います。"
+        },
+        "ru": {
+          "name": "Stateful-хранилище",
+          "desc": "Stateful-хранилище охватывает проектирование хранения для баз данных и stateful-приложений в Kubernetes."
+        },
+        "ko": {
+          "name": "상태 저장 스토리지",
+          "desc": "상태 저장 스토리지는 Kubernetes의 데이터베이스 및 상태 저장 애플리케이션을 위한 스토리지 설계를 다룹니다."
+        },
+        "pt": {
+          "name": "Armazenamento com estado",
+          "desc": "O armazenamento com estado abrange o design de armazenamento para bancos de dados e aplicativos com estado no Kubernetes."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/resource_requests_limits",
+      "slug": "resource_requests_limits",
+      "name": "Resource Requests and Limits",
+      "desc": "Resource requests and limits cover CPU and memory scheduling, reservation, and enforcement.",
+      "i18n": {
+        "zh": {
+          "name": "资源请求和限制",
+          "desc": "资源 requests 和 limits 涵盖 CPU 与内存的调度、预留和强制限制。"
+        },
+        "es": {
+          "name": "Solicitudes y límites de recursos",
+          "desc": "Las solicitudes y límites de recursos cubren la programación, reserva y aplicación de la CPU y la memoria."
+        },
+        "fr": {
+          "name": "Demandes et limites de ressources",
+          "desc": "Les demandes et limites de ressources couvrent la planification, la réservation et l’application du processeur et de la mémoire."
+        },
+        "de": {
+          "name": "Ressourcenanforderungen und -beschränkungen",
+          "desc": "Ressourcenanforderungen und -limits umfassen CPU- und Speicherplanung, -reservierung und -durchsetzung."
+        },
+        "ja": {
+          "name": "リソース requests と limits",
+          "desc": "リソース requests と limits は、CPU とメモリのスケジューリング、予約、および制限の強制を扱います。"
+        },
+        "ru": {
+          "name": "Запросы ресурсов и ограничения",
+          "desc": "Запросы и ограничения ресурсов охватывают планирование, резервирование и принудительное использование ресурсов ЦП и памяти."
+        },
+        "ko": {
+          "name": "리소스 requests 및 limits",
+          "desc": "리소스 requests 및 limits는 CPU와 메모리의 스케줄링, 예약, 제한 적용을 다룹니다."
+        },
+        "pt": {
+          "name": "Solicitações e Limites de Recursos",
+          "desc": "Solicitações e limites de recursos abrangem agendamento, reserva e aplicação de CPU e memória."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/node_selection_affinity",
+      "slug": "node_selection_affinity",
+      "name": "Node Selection and Affinity",
+      "desc": "Node selection and affinity cover guiding pod placement to appropriate nodes.",
+      "i18n": {
+        "zh": {
+          "name": "节点选择和亲和性",
+          "desc": "节点选择和亲和性涵盖引导 Pod 调度到合适节点。"
+        },
+        "es": {
+          "name": "Selección y afinidad de nodos",
+          "desc": "La selección de nodos y la afinidad cubren cómo guiar la colocación de Pods en nodos adecuados."
+        },
+        "fr": {
+          "name": "Sélection de nœuds et affinité",
+          "desc": "La sélection des nœuds et l'affinité couvrent le placement des pods vers les nœuds appropriés."
+        },
+        "de": {
+          "name": "Knotenauswahl und Affinität",
+          "desc": "Knotenauswahl und Affinität leiten die Pod-Platzierung zu geeigneten Knoten."
+        },
+        "ja": {
+          "name": "ノードの選択とアフィニティ",
+          "desc": "ノードの選択とアフィニティは、適切なノードへのポッドの配置をガイドします。"
+        },
+        "ru": {
+          "name": "Выбор узла и аффинити",
+          "desc": "Выбор узла и аффинити охватывают направление размещения Pod на подходящих узлах."
+        },
+        "ko": {
+          "name": "노드 선택 및 affinity",
+          "desc": "노드 선택 및 affinity는 Pod가 적절한 노드에 배치되도록 유도하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Seleção e afinidade de nós",
+          "desc": "A seleção de nós e a afinidade orientam o posicionamento de Pods nos nós apropriados."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/taints_tolerations",
+      "slug": "taints_tolerations",
+      "name": "Taints and Tolerations",
+      "desc": "Taints and tolerations cover preventing or allowing pods on selected nodes.",
+      "i18n": {
+        "zh": {
+          "name": "Taints 和 Tolerations",
+          "desc": "Taints 和 Tolerations 涵盖阻止或允许 Pod 调度到选定节点。"
+        },
+        "es": {
+          "name": "Taints y tolerations",
+          "desc": "Taints y tolerations cubren impedir o permitir la programación de pods en nodos seleccionados."
+        },
+        "fr": {
+          "name": "Taints et tolerations",
+          "desc": "Les taints et tolerations couvrent l’interdiction ou l’autorisation de planifier des pods sur des nœuds sélectionnés."
+        },
+        "de": {
+          "name": "Taints und Tolerations",
+          "desc": "Taints und Tolerations umfassen das Verhindern oder Zulassen der Pod-Planung auf ausgewählten Knoten."
+        },
+        "ja": {
+          "name": "Taints と Tolerations",
+          "desc": "Taints と Tolerations は、選択したノードへの Pod のスケジューリングを禁止または許可する方法を扱います。"
+        },
+        "ru": {
+          "name": "Taints и Tolerations",
+          "desc": "Taints и tolerations охватывают запрет или разрешение планирования Pod на выбранных узлах."
+        },
+        "ko": {
+          "name": "Taints 및 Tolerations",
+          "desc": "Taints 및 tolerations는 선택한 노드에 Pod 스케줄링을 방지하거나 허용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Taints e tolerations",
+          "desc": "Taints e tolerations cobrem impedir ou permitir o agendamento de pods em nós selecionados."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/horizontal_scaling",
+      "slug": "horizontal_scaling",
+      "name": "Horizontal Scaling",
+      "desc": "Horizontal scaling covers changing replica counts manually or automatically.",
+      "i18n": {
+        "zh": {
+          "name": "水平缩放",
+          "desc": "水平扩展涵盖手动或自动更改副本数量。"
+        },
+        "es": {
+          "name": "Escala horizontal",
+          "desc": "El escalado horizontal cubre el cambio de recuentos de réplicas de forma manual o automática."
+        },
+        "fr": {
+          "name": "Mise à l'échelle horizontale",
+          "desc": "La mise à l'échelle horizontale couvre la modification du nombre de répliques manuellement ou automatiquement."
+        },
+        "de": {
+          "name": "Horizontale Skalierung",
+          "desc": "Die horizontale Skalierung umfasst die manuelle oder automatische Änderung der Replikatanzahl."
+        },
+        "ja": {
+          "name": "水平方向のスケーリング",
+          "desc": "水平スケーリングは、レプリカ数の手動または自動の変更を扱います。"
+        },
+        "ru": {
+          "name": "Горизонтальное масштабирование",
+          "desc": "Горизонтальное масштабирование включает изменение количества реплик вручную или автоматически."
+        },
+        "ko": {
+          "name": "수평적 확장",
+          "desc": "수평 확장에는 수동 또는 자동으로 복제본 수 변경이 포함됩니다."
+        },
+        "pt": {
+          "name": "Escala horizontal",
+          "desc": "O escalonamento horizontal abrange a alteração das contagens de réplicas manual ou automaticamente."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/cluster_capacity",
+      "slug": "cluster_capacity",
+      "name": "Cluster Capacity",
+      "desc": "Cluster capacity covers understanding available node resources and workload pressure.",
+      "i18n": {
+        "zh": {
+          "name": "集群容量",
+          "desc": "集群容量涵盖了解可用节点资源和工作负载压力。"
+        },
+        "es": {
+          "name": "Capacidad del clúster",
+          "desc": "La capacidad del clúster cubre la comprensión de los recursos de nodo disponibles y la presión de la carga de trabajo."
+        },
+        "fr": {
+          "name": "Capacité du cluster",
+          "desc": "La capacité du cluster couvre la compréhension des ressources de nœuds disponibles et de la pression de la charge de travail."
+        },
+        "de": {
+          "name": "Clusterkapazität",
+          "desc": "Die Clusterkapazität umfasst das Verständnis der verfügbaren Knotenressourcen und des Arbeitslastdrucks."
+        },
+        "ja": {
+          "name": "クラスターの容量",
+          "desc": "クラスターのキャパシティは、利用可能なノードリソースとワークロードの圧力を理解することを扱います。"
+        },
+        "ru": {
+          "name": "Емкость кластера",
+          "desc": "Емкость кластера включает понимание доступных ресурсов узлов и нагрузки от рабочей нагрузки."
+        },
+        "ko": {
+          "name": "클러스터 용량",
+          "desc": "클러스터 용량에는 사용 가능한 노드 리소스와 워크로드 압력에 대한 이해가 포함됩니다."
+        },
+        "pt": {
+          "name": "Capacidade do cluster",
+          "desc": "A capacidade do cluster abrange a compreensão dos recursos de nó disponíveis e da pressão da carga de trabalho."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/rolling_updates",
+      "slug": "rolling_updates",
+      "name": "Rolling Updates",
+      "desc": "Rolling updates cover gradually replacing old pods with new versions.",
+      "i18n": {
+        "zh": {
+          "name": "滚动更新",
+          "desc": "滚动更新涵盖用新版本逐步替换旧 Pod。"
+        },
+        "es": {
+          "name": "Actualizaciones progresivas",
+          "desc": "Las actualizaciones progresivas cubren la sustitución gradual de pods antiguos por nuevas versiones."
+        },
+        "fr": {
+          "name": "Mises à jour progressives",
+          "desc": "Les mises à jour progressives couvrent le remplacement progressif des anciens pods par de nouvelles versions."
+        },
+        "de": {
+          "name": "Rollende Updates",
+          "desc": "Rollende Updates behandeln das schrittweise Ersetzen alter Pods durch neue Versionen."
+        },
+        "ja": {
+          "name": "ローリングアップデート",
+          "desc": "ローリングアップデートでは、古いポッドを新しいバージョンに徐々に置き換えます。"
+        },
+        "ru": {
+          "name": "Последовательные обновления",
+          "desc": "Последовательные обновления охватывают постепенную замену старых Pod новыми версиями."
+        },
+        "ko": {
+          "name": "롤링 업데이트",
+          "desc": "롤링 업데이트에는 기존 포드를 새 버전으로 점진적으로 교체하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Atualizações progressivas",
+          "desc": "Atualizações progressivas cobrem a substituição gradual de pods antigos por novas versões."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/rollbacks",
+      "slug": "rollbacks",
+      "name": "Rollbacks",
+      "desc": "Rollbacks cover reverting workloads to earlier revisions after deployment problems.",
+      "i18n": {
+        "zh": {
+          "name": "回滚",
+          "desc": "回滚包括在部署出现问题后将工作负载恢复到早期版本。"
+        },
+        "es": {
+          "name": "Reversiones",
+          "desc": "Las reversiones cubren la reversión de cargas de trabajo a revisiones anteriores después de problemas de implementación."
+        },
+        "fr": {
+          "name": "Annulations",
+          "desc": "Les restaurations couvrent le rétablissement des charges de travail vers des révisions antérieures après des problèmes de déploiement."
+        },
+        "de": {
+          "name": "Rollbacks",
+          "desc": "Rollbacks umfassen das Zurücksetzen von Workloads auf frühere Versionen nach Bereitstellungsproblemen."
+        },
+        "ja": {
+          "name": "ロールバック",
+          "desc": "ロールバックには、展開上の問題が発生した後にワークロードを以前のリビジョンに戻すことが含まれます。"
+        },
+        "ru": {
+          "name": "Откаты",
+          "desc": "Откаты охватывают возврат рабочих нагрузок к более ранним версиям после проблем с развертыванием."
+        },
+        "ko": {
+          "name": "롤백",
+          "desc": "롤백에는 배포 문제가 발생한 후 워크로드를 이전 버전으로 되돌리는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Reversões",
+          "desc": "As reversões cobrem a reversão de cargas de trabalho para revisões anteriores após problemas de implantação."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/health_probes",
+      "slug": "health_probes",
+      "name": "Health Probes",
+      "desc": "Health probes cover startup, liveness, and readiness checks for containers.",
+      "i18n": {
+        "zh": {
+          "name": "健康探针",
+          "desc": "健康探针涵盖容器的 startup、liveness 和 readiness probes。"
+        },
+        "es": {
+          "name": "Sondas de salud",
+          "desc": "Las sondas de salud cubren los probes startup/liveness/readiness de contenedores."
+        },
+        "fr": {
+          "name": "Sondes de santé",
+          "desc": "Les sondes de santé couvrent les contrôles startup-, liveness- et readiness des conteneurs."
+        },
+        "de": {
+          "name": "Health-Probes",
+          "desc": "Health-Probes umfassen startup-, liveness- und readiness-Prüfungen für Container."
+        },
+        "ja": {
+          "name": "ヘルスプローブ",
+          "desc": "ヘルスプローブは、コンテナーの startup、liveness、readiness チェックを扱います。"
+        },
+        "ru": {
+          "name": "Проверки работоспособности",
+          "desc": "Проверки работоспособности охватывают startup-, liveness- и readiness-проверки контейнеров."
+        },
+        "ko": {
+          "name": "상태 프로브",
+          "desc": "상태 프로브는 컨테이너의 startup/liveness/readiness 검사를 다룹니다."
+        },
+        "pt": {
+          "name": "Sondas de saúde",
+          "desc": "As sondas de saúde abrangem verificações startup-, liveness- e readiness para contêineres."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/image_pull_behavior",
+      "slug": "image_pull_behavior",
+      "name": "Image Pull Behavior",
+      "desc": "Image pull behavior covers when nodes retrieve container images and how pull failures affect workloads.",
+      "i18n": {
+        "zh": {
+          "name": "镜像拉取行为",
+          "desc": "镜像拉取行为涵盖节点何时检索容器镜像以及拉取失败如何影响工作负载。"
+        },
+        "es": {
+          "name": "Comportamiento de image pull",
+          "desc": "El comportamiento de image pull cubre cuándo los nodos descargan imágenes de contenedor y cómo los fallos de pull afectan las cargas de trabajo."
+        },
+        "fr": {
+          "name": "Comportement d'image pull",
+          "desc": "Le comportement d'image pull couvre le moment où les nœuds téléchargent les images de conteneur et la manière dont les échecs de pull affectent les charges de travail."
+        },
+        "de": {
+          "name": "Downloadverhalten von Images",
+          "desc": "Das Downloadverhalten von Images behandelt, wann Knoten Container-Images herunterladen und wie sich Downloadfehler auf Workloads auswirken."
+        },
+        "ja": {
+          "name": "イメージプル動作",
+          "desc": "イメージのプル動作では、ノードがコンテナーイメージを取得するタイミングと、プルの失敗がワークロードに与える影響について説明します。"
+        },
+        "ru": {
+          "name": "Поведение image pull",
+          "desc": "Поведение image pull описывает, когда узлы загружают образы контейнеров и как ошибки pull влияют на рабочие нагрузки."
+        },
+        "ko": {
+          "name": "이미지 풀 동작",
+          "desc": "이미지 풀 동작은 노드가 컨테이너 이미지를 다운로드하는 시기와 풀 실패가 워크로드에 미치는 영향을 다룹니다."
+        },
+        "pt": {
+          "name": "Comportamento de image pull",
+          "desc": "O comportamento de image pull abrange quando os nós baixam imagens de contêiner e como erros de pull afetam as cargas de trabalho."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/resource_inspection",
+      "slug": "resource_inspection",
+      "name": "Resource Inspection",
+      "desc": "Resource inspection covers listing, describing, and interpreting Kubernetes resource state.",
+      "i18n": {
+        "zh": {
+          "name": "资源检查",
+          "desc": "资源检查涵盖列出、描述和解释 Kubernetes 资源状态。"
+        },
+        "es": {
+          "name": "Inspección de recursos",
+          "desc": "La inspección de recursos cubre enumerar, describir e interpretar el estado de los recursos de Kubernetes."
+        },
+        "fr": {
+          "name": "Inspection des ressources",
+          "desc": "L'inspection des ressources couvre la liste, la description et l'interprétation de l'état de la ressource Kubernetes."
+        },
+        "de": {
+          "name": "Ressourceninspektion",
+          "desc": "Ressourcenprüfung umfasst das Anzeigen von YAML, Beschreibungen, Events und Statusdetails von Kubernetes-Ressourcen."
+        },
+        "ja": {
+          "name": "リソース検査",
+          "desc": "リソース検査は、Kubernetes リソース状態の一覧表示、describe、解釈を扱います。"
+        },
+        "ru": {
+          "name": "Проверка ресурсов",
+          "desc": "Проверка ресурсов включает перечисление, описание и интерпретацию состояния ресурсов Kubernetes."
+        },
+        "ko": {
+          "name": "리소스 검사",
+          "desc": "리소스 검사는 Kubernetes 리소스 상태 나열, 설명 및 해석을 다룹니다."
+        },
+        "pt": {
+          "name": "Inspeção de recursos",
+          "desc": "A inspeção de recursos cobre a listagem, descrição e interpretação do estado do recurso Kubernetes."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/workload_logs",
+      "slug": "workload_logs",
+      "name": "Workload Logs",
+      "desc": "Workload logs cover retrieving and interpreting container output for Kubernetes pods and workloads.",
+      "i18n": {
+        "zh": {
+          "name": "工作负载日志",
+          "desc": "工作负载日志涵盖检索和解释 Kubernetes Pod 和工作负载的容器输出。"
+        },
+        "es": {
+          "name": "Registros de carga de trabajo",
+          "desc": "Los registros de cargas de trabajo cubren la recuperación e interpretación de la salida del contenedor para pods y cargas de trabajo de Kubernetes."
+        },
+        "fr": {
+          "name": "Journaux de charge de travail",
+          "desc": "Les journaux de charge de travail couvrent la récupération et l'interprétation de la sortie du conteneur pour les pods et charges de travail Kubernetes."
+        },
+        "de": {
+          "name": "Arbeitslastprotokolle",
+          "desc": "Arbeitslastprotokolle umfassen das Abrufen und Interpretieren der Containerausgabe für Kubernetes-Pods und Arbeitslasten."
+        },
+        "ja": {
+          "name": "ワークロードログ",
+          "desc": "ワークロードログには、Kubernetes ポッドとワークロードのコンテナー出力の取得と解釈が含まれます。"
+        },
+        "ru": {
+          "name": "Журналы рабочей нагрузки",
+          "desc": "Журналы рабочей нагрузки охватывают получение и интерпретацию вывода контейнеров для Pods и рабочих нагрузок Kubernetes."
+        },
+        "ko": {
+          "name": "워크로드 로그",
+          "desc": "워크로드 로그는 Kubernetes 포드 및 워크로드에 대한 컨테이너 출력 검색 및 해석을 다룹니다."
+        },
+        "pt": {
+          "name": "Logs de carga de trabalho",
+          "desc": "Os logs de carga de trabalho cobrem a recuperação e interpretação da saída do contêiner para pods e cargas de trabalho do Kubernetes."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/container_exec",
+      "slug": "container_exec",
+      "name": "Container Exec",
+      "desc": "Container exec covers running diagnostic commands inside workload containers.",
+      "i18n": {
+        "zh": {
+          "name": "Container Exec",
+          "desc": "Container exec 涵盖在工作负载容器内运行诊断命令。"
+        },
+        "es": {
+          "name": "Ejecución en contenedores",
+          "desc": "La ejecución en contenedores cubre la ejecución de comandos de diagnóstico dentro de contenedores de cargas de trabajo."
+        },
+        "fr": {
+          "name": "Exécution dans les conteneurs",
+          "desc": "L’exécution dans les conteneurs couvre l’exécution de commandes de diagnostic dans les conteneurs de charge de travail."
+        },
+        "de": {
+          "name": "Ausführung in Containern",
+          "desc": "Die Ausführung in Containern umfasst das Ausführen von Diagnosebefehlen innerhalb von Workload-Containern."
+        },
+        "ja": {
+          "name": "コンテナ実行",
+          "desc": "コンテナ実行では、ワークロードコンテナー内で診断コマンドを実行することを扱います。"
+        },
+        "ru": {
+          "name": "Выполнение в контейнере",
+          "desc": "Выполнение в контейнере охватывает запуск диагностических команд внутри контейнеров рабочей нагрузки."
+        },
+        "ko": {
+          "name": "컨테이너 실행",
+          "desc": "컨테이너 실행은 워크로드 컨테이너 내에서 진단 명령을 실행하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Exec em contêineres",
+          "desc": "A execução em contêineres cobre a execução de comandos de diagnóstico dentro de contêineres de carga de trabalho."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/resource_metrics",
+      "slug": "resource_metrics",
+      "name": "Resource Metrics",
+      "desc": "Resource metrics cover CPU, memory, and capacity signals used to understand workload health.",
+      "i18n": {
+        "zh": {
+          "name": "资源指标",
+          "desc": "资源指标涵盖用于了解工作负载运行状况的 CPU、内存和容量信号。"
+        },
+        "es": {
+          "name": "Métricas de recursos",
+          "desc": "Las métricas de recursos cubren señales de CPU, memoria y capacidad que se utilizan para comprender el estado de la carga de trabajo."
+        },
+        "fr": {
+          "name": "Métriques de ressources",
+          "desc": "Les métriques de ressources couvrent les signaux de processeur, de mémoire et de capacité utilisés pour comprendre l’état de la charge de travail."
+        },
+        "de": {
+          "name": "Ressourcenmetriken",
+          "desc": "Ressourcenmetriken umfassen CPU-, Speicher- und Kapazitätssignale, die zum Verständnis des Workload-Zustands verwendet werden."
+        },
+        "ja": {
+          "name": "リソースメトリクス",
+          "desc": "リソースメトリクスは、ワークロードの健全性を理解するために使用される CPU、メモリ、および容量のシグナルを扱います。"
+        },
+        "ru": {
+          "name": "Метрики ресурсов",
+          "desc": "Метрики ресурсов охватывают сигналы ЦП, памяти и емкости, используемые для оценки состояния рабочей нагрузки."
+        },
+        "ko": {
+          "name": "리소스 메트릭",
+          "desc": "리소스 메트릭은 워크로드 상태를 이해하는 데 사용되는 CPU, 메모리 및 용량 신호를 다룹니다."
+        },
+        "pt": {
+          "name": "Métricas de recursos",
+          "desc": "As métricas de recursos abrangem sinais de CPU, memória e capacidade usados para entender a integridade da carga de trabalho."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/event_analysis",
+      "slug": "event_analysis",
+      "name": "Event Analysis",
+      "desc": "Event analysis covers interpreting Kubernetes events to explain scheduling, startup, and runtime failures.",
+      "i18n": {
+        "zh": {
+          "name": "事件分析",
+          "desc": "事件分析涵盖解读 Kubernetes Events，以解释调度、启动和运行时故障。"
+        },
+        "es": {
+          "name": "Análisis de eventos",
+          "desc": "El análisis de eventos cubre la interpretación de eventos de Kubernetes para explicar fallas de programación, inicio y tiempo de ejecución."
+        },
+        "fr": {
+          "name": "Analyse des événements",
+          "desc": "L'analyse des événements couvre l'interprétation des événements Kubernetes pour expliquer les échecs de planification, de démarrage et d'exécution."
+        },
+        "de": {
+          "name": "Ereignisanalyse",
+          "desc": "Die Ereignisanalyse umfasst die Interpretation von Kubernetes-Ereignissen zur Erklärung von Planungs-, Start- und Laufzeitfehlern."
+        },
+        "ja": {
+          "name": "イベント分析",
+          "desc": "イベント分析では、スケジューリング、起動、実行時のエラーを説明するための Kubernetes イベントの解釈が行われます。"
+        },
+        "ru": {
+          "name": "Анализ событий",
+          "desc": "Анализ событий охватывает интерпретацию событий Kubernetes для объяснения сбоев планирования, запуска и выполнения."
+        },
+        "ko": {
+          "name": "이벤트 분석",
+          "desc": "이벤트 분석은 Kubernetes Events를 해석하여 스케줄링, 시작 및 런타임 오류를 설명하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Análise de Eventos",
+          "desc": "A análise de eventos abrange a interpretação de eventos Kubernetes para explicar falhas de agendamento, inicialização e tempo de execução."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/service_accounts",
+      "slug": "service_accounts",
+      "name": "Service Accounts",
+      "desc": "Service accounts cover identities used by workloads and automation inside clusters.",
+      "i18n": {
+        "zh": {
+          "name": "ServiceAccounts",
+          "desc": "ServiceAccounts 涵盖集群内工作负载和自动化使用的身份。"
+        },
+        "es": {
+          "name": "Cuentas de servicio",
+          "desc": "Las cuentas de servicio cubren identidades utilizadas por cargas de trabajo y automatización dentro de clústeres."
+        },
+        "fr": {
+          "name": "Comptes de service",
+          "desc": "Les comptes de service couvrent les identités utilisées par les charges de travail et l'automatisation au sein des clusters."
+        },
+        "de": {
+          "name": "Dienstkonten",
+          "desc": "Dienstkonten decken Identitäten ab, die von Workloads und Automatisierung innerhalb von Clustern verwendet werden."
+        },
+        "ja": {
+          "name": "サービスアカウント",
+          "desc": "サービスアカウントは、クラスター内のワークロードと自動化によって使用される ID を扱います。"
+        },
+        "ru": {
+          "name": "Сервисные аккаунты",
+          "desc": "Учетные записи служб охватывают удостоверения, используемые рабочими нагрузками и автоматизацией внутри кластеров."
+        },
+        "ko": {
+          "name": "ServiceAccounts",
+          "desc": "ServiceAccounts는 클러스터 내부의 워크로드 및 자동화에 사용되는 identity를 다룹니다."
+        },
+        "pt": {
+          "name": "Contas de serviço",
+          "desc": "As contas de serviço cobrem identidades usadas por cargas de trabalho e automação dentro de clusters."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/rbac",
+      "slug": "rbac",
+      "name": "RBAC",
+      "desc": "RBAC covers granting Kubernetes API permissions through roles and bindings.",
+      "i18n": {
+        "zh": {
+          "name": "RBAC",
+          "desc": "RBAC 涵盖通过 Roles 和 RoleBindings 授予 Kubernetes API 权限。"
+        },
+        "es": {
+          "name": "RBAC",
+          "desc": "RBAC cubre la concesión de permisos de la API de Kubernetes a través de roles y vinculaciones."
+        },
+        "fr": {
+          "name": "RBAC",
+          "desc": "RBAC couvre l’octroi d’autorisations de l’API Kubernetes via des rôles et des liaisons."
+        },
+        "de": {
+          "name": "RBAC",
+          "desc": "RBAC umfasst die Gewährung von Kubernetes-API-Berechtigungen über Rollen und Bindungen."
+        },
+        "ja": {
+          "name": "RBAC",
+          "desc": "RBAC は、ロールとバインディングを介した Kubernetes API 権限の付与を扱います。"
+        },
+        "ru": {
+          "name": "RBAC",
+          "desc": "RBAC охватывает предоставление разрешений Kubernetes API через роли и привязки."
+        },
+        "ko": {
+          "name": "RBAC",
+          "desc": "RBAC는 Roles 및 RoleBindings를 통해 Kubernetes API 권한을 부여하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "RBAC",
+          "desc": "O RBAC cobre a concessão de permissões da API Kubernetes por meio de papéis e vinculações."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/pod_security",
+      "slug": "pod_security",
+      "name": "Pod Security",
+      "desc": "Pod security covers limiting privilege, host access, and unsafe container settings.",
+      "i18n": {
+        "zh": {
+          "name": "Pod 安全",
+          "desc": "Pod 安全涵盖限制特权、host 访问和不安全的容器设置。"
+        },
+        "es": {
+          "name": "Seguridad de Pods",
+          "desc": "La seguridad de Pods cubre la limitación de privilegios, el acceso al host y la configuración insegura de contenedores."
+        },
+        "fr": {
+          "name": "Sécurité des Pods",
+          "desc": "La sécurité des Pods couvre la limitation des privilèges, de l’accès à l’hôte et des paramètres de conteneur dangereux."
+        },
+        "de": {
+          "name": "Pod-Sicherheit",
+          "desc": "Pod-Sicherheit umfasst die Einschränkung von Berechtigungen, Hostzugriff und unsicheren Containereinstellungen."
+        },
+        "ja": {
+          "name": "Pod セキュリティ",
+          "desc": "Pod セキュリティには、権限、ホストアクセス、安全でないコンテナ設定の制限が含まれます。"
+        },
+        "ru": {
+          "name": "Безопасность Pod",
+          "desc": "Безопасность Pod охватывает ограничение привилегий, доступа к хосту и небезопасных настроек контейнера."
+        },
+        "ko": {
+          "name": "Pod 보안",
+          "desc": "Pod 보안에는 권한 제한, 호스트 액세스 및 안전하지 않은 컨테이너 설정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Segurança de Pods",
+          "desc": "A segurança de Pod abrange a limitação de privilégios, acesso ao host e configurações inseguras do contêiner."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/image_security",
+      "slug": "image_security",
+      "name": "Image Security",
+      "desc": "Image security covers using trusted workload images and reducing image-related risk.",
+      "i18n": {
+        "zh": {
+          "name": "镜像安全",
+          "desc": "镜像安全涵盖使用可信的工作负载镜像并降低镜像相关风险。"
+        },
+        "es": {
+          "name": "Seguridad de imagen",
+          "desc": "La seguridad de las imágenes cubre el uso de imágenes de cargas de trabajo confiables y la reducción del riesgo relacionado con las imágenes."
+        },
+        "fr": {
+          "name": "Sécurité des images",
+          "desc": "La sécurité des images couvre l’utilisation d’images de charge de travail fiables et la réduction des risques liés aux images."
+        },
+        "de": {
+          "name": "Image-Sicherheit",
+          "desc": "Image-Sicherheit umfasst die Verwendung vertrauenswürdiger Workload-Images und die Reduzierung imagebezogener Risiken."
+        },
+        "ja": {
+          "name": "イメージセキュリティ",
+          "desc": "イメージのセキュリティには、信頼できるワークロードイメージの使用とイメージ関連のリスクの軽減が含まれます。"
+        },
+        "ru": {
+          "name": "Безопасность образов",
+          "desc": "Безопасность образов включает использование надежных образов рабочих нагрузок и снижение рисков, связанных с образами."
+        },
+        "ko": {
+          "name": "이미지 보안",
+          "desc": "이미지 보안에는 신뢰할 수 있는 워크로드 이미지 사용 및 이미지 관련 위험 감소가 포함됩니다."
+        },
+        "pt": {
+          "name": "Segurança de imagem",
+          "desc": "A segurança de imagem abrange o uso de imagens de carga de trabalho confiáveis e a redução de riscos relacionados à imagem."
+        }
+      }
+    },
+    {
+      "key": "kubernetes/secret_handling",
+      "slug": "secret_handling",
+      "name": "Secret Handling",
+      "desc": "Secret handling covers limiting exposure and lifecycle risk of sensitive Kubernetes data.",
+      "i18n": {
+        "zh": {
+          "name": "Kubernetes Secrets",
+          "desc": "Kubernetes Secrets 涵盖限制敏感数据的暴露和生命周期风险。"
+        },
+        "es": {
+          "name": "Gestión de secretos",
+          "desc": "La gestión de secretos cubre limitar la exposición y el riesgo del ciclo de vida de datos sensibles en Kubernetes."
+        },
+        "fr": {
+          "name": "Gestion des secrets",
+          "desc": "La gestion des secrets couvre la limitation de l’exposition et des risques de cycle de vie des données sensibles dans Kubernetes."
+        },
+        "de": {
+          "name": "Secret-Verwaltung",
+          "desc": "Die Secret-Verwaltung umfasst die Begrenzung der Offenlegung und des Lebenszyklusrisikos sensibler Kubernetes-Daten."
+        },
+        "ja": {
+          "name": "シークレット管理",
+          "desc": "シークレット管理では、機密性の高い Kubernetes データの露出とライフサイクルリスクを制限する方法を扱います。"
+        },
+        "ru": {
+          "name": "Управление секретами",
+          "desc": "Управление секретами охватывает ограничение раскрытия и рисков жизненного цикла чувствительных данных Kubernetes."
+        },
+        "ko": {
+          "name": "Kubernetes Secrets",
+          "desc": "Kubernetes Secrets는 민감한 데이터의 노출과 수명 주기 위험을 제한하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de segredos",
+          "desc": "O gerenciamento de segredos cobre limitar a exposição e o risco de ciclo de vida de dados sensíveis no Kubernetes."
+        }
+      }
+    }
+  ]
+}

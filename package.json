@@ -1,0 +1,22 @@
+{
+  "name": "labex-skilltrees",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Open skill tree data and API for the LabEx skill assessment model.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-skilltrees.mjs",
+    "generate:catalog": "node scripts/generate-catalog.mjs",
+    "dev": "npm run validate && npm run generate:catalog && wrangler dev",
+    "start": "wrangler dev",
+    "build": "npm run validate && npm run generate:catalog && tsc --noEmit",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "wrangler": "^4.104.0"
+  }
+}

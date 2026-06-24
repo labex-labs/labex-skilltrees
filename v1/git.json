@@ -1,0 +1,193 @@
+{
+  "key": "git",
+  "slug": "git",
+  "name": "Git",
+  "skills": [
+    {
+      "key": "git/config",
+      "slug": "config",
+      "name": "Set Configurations",
+      "desc": "Setting configurations in Git involves defining various settings and preferences for your Git environment, such as user name, email, and default branch."
+    },
+    {
+      "key": "git/git",
+      "slug": "git",
+      "name": "Show Version",
+      "desc": "Showing the Git version provides information about the installed Git software on your system, which can be useful for troubleshooting and compatibility."
+    },
+    {
+      "key": "git/init",
+      "slug": "init",
+      "name": "Initialize Repo",
+      "desc": "Initializing a repository involves creating a new Git repository for version control, which is the first step in managing source code or files with Git."
+    },
+    {
+      "key": "git/clone",
+      "slug": "clone",
+      "name": "Clone Repo",
+      "desc": "Cloning a repository in Git allows you to create a copy of an existing repository, including its entire history and files, on your local machine."
+    },
+    {
+      "key": "git/add",
+      "slug": "add",
+      "name": "Stage Files",
+      "desc": "Staging files in Git involves preparing changes for commit by selecting specific files or changes to be included in the next commit."
+    },
+    {
+      "key": "git/status",
+      "slug": "status",
+      "name": "Check Status",
+      "desc": "Checking the status of the Git repository helps you identify which files are modified, untracked, or staged for the next commit."
+    },
+    {
+      "key": "git/commit",
+      "slug": "commit",
+      "name": "Create Commit",
+      "desc": "Creating commits in Git records a snapshot of the current changes, providing a way to track and manage different versions of your codebase."
+    },
+    {
+      "key": "git/diff",
+      "slug": "diff",
+      "name": "Compare Changes",
+      "desc": "Comparing changes in Git allows you to view the differences between different commits or branches, helping you understand the code evolution."
+    },
+    {
+      "key": "git/rm",
+      "slug": "rm",
+      "name": "Remove Files",
+      "desc": "Removing files in Git involves deleting files from both the working directory and the version history of the repository."
+    },
+    {
+      "key": "git/clean",
+      "slug": "clean",
+      "name": "Clean Workspace",
+      "desc": "Cleaning the workspace in Git means removing untracked files and restoring the working directory to a clean state."
+    },
+    {
+      "key": "git/reset",
+      "slug": "reset",
+      "name": "Undo Changes",
+      "desc": "Undoing changes in Git involves reverting specific commits or changes to restore the repository to a previous state."
+    },
+    {
+      "key": "git/stash",
+      "slug": "stash",
+      "name": "Save Changes Temporarily",
+      "desc": "Saving changes temporarily in Git allows you to stash changes without committing them, useful for switching branches or applying fixes."
+    },
+    {
+      "key": "git/restore",
+      "slug": "restore",
+      "name": "Revert Files",
+      "desc": "Reverting files in Git means restoring specific files to a previous state, undoing changes introduced in recent commits."
+    },
+    {
+      "key": "git/fsck",
+      "slug": "fsck",
+      "name": "Verify Integrity",
+      "desc": "Verifying data integrity in Git ensures that the repository's history and objects remain consistent and free of corruption."
+    },
+    {
+      "key": "git/branch",
+      "slug": "branch",
+      "name": "Handle Branches",
+      "desc": "Handling branches in Git involves creating, deleting, and managing branches to work on different features or fixes in isolation."
+    },
+    {
+      "key": "git/checkout",
+      "slug": "checkout",
+      "name": "Switch Branches",
+      "desc": "Switching branches in Git allows you to change your working context to a different branch, enabling you to work on different parts of the project."
+    },
+    {
+      "key": "git/merge",
+      "slug": "merge",
+      "name": "Merge Histories",
+      "desc": "Merging branch histories in Git combines changes from one branch into another, integrating new features or bug fixes into the main codebase."
+    },
+    {
+      "key": "git/log",
+      "slug": "log",
+      "name": "Show Commits",
+      "desc": "Showing commits in Git helps you view the commit history of a branch, including details such as commit messages and authors."
+    },
+    {
+      "key": "git/shortlog",
+      "slug": "shortlog",
+      "name": "Condensed Logs",
+      "desc": "Condensed logs in Git provide a concise view of commit history, useful for quickly understanding the project's evolution."
+    },
+    {
+      "key": "git/reflog",
+      "slug": "reflog",
+      "name": "Log Ref Changes",
+      "desc": "Logging reference changes in Git allows you to track changes to branches, tags, and other references in the repository."
+    },
+    {
+      "key": "git/cherry_pick",
+      "slug": "cherry_pick",
+      "name": "Cherry Pick",
+      "desc": "Cherry-picking in Git allows you to pick a specific commit from one branch and apply it to another. This can be useful when you want to apply a specific change without merging an entire branch."
+    },
+    {
+      "key": "git/rebase",
+      "slug": "rebase",
+      "name": "Reapply Commits",
+      "desc": "Reapplying commits in Git involves cherry-picking or recommitting specific changes to apply them in a different context or branch."
+    },
+    {
+      "key": "git/tag",
+      "slug": "tag",
+      "name": "Git Tags",
+      "desc": "Tags in Git are like signposts in your project's timeline. They allow you to mark specific points in your repository's history as being important. This is particularly useful for marking release points (v1.0, v2.0, etc.), or any other significant milestone in your project."
+    },
+    {
+      "key": "git/fetch",
+      "slug": "fetch",
+      "name": "Download Updates",
+      "desc": "Downloading updates in Git involves fetching changes from remote repositories to keep your local repository up-to-date."
+    },
+    {
+      "key": "git/pull",
+      "slug": "pull",
+      "name": "Update & Merge",
+      "desc": "Updating and merging in Git combines changes from a remote repository into your local branch, keeping your codebase synchronized."
+    },
+    {
+      "key": "git/push",
+      "slug": "push",
+      "name": "Update Remote",
+      "desc": "Updating remote references in Git allows you to refresh your knowledge of remote branches and their history."
+    },
+    {
+      "key": "git/remote",
+      "slug": "remote",
+      "name": "Manage Remotes",
+      "desc": "Managing remotes in Git involves adding, modifying, or removing remote repositories to collaborate with others or integrate external code."
+    },
+    {
+      "key": "git/alias",
+      "slug": "alias",
+      "name": "Create Aliases",
+      "desc": "Creating aliases in Git allows you to define shortcuts for frequently used commands, making your Git workflow more efficient."
+    },
+    {
+      "key": "git/cli_config",
+      "slug": "cli_config",
+      "name": "Configure CLI",
+      "desc": "Configuring the Git command-line interface (CLI) involves customizing settings and options to tailor your Git experience to your specific needs."
+    },
+    {
+      "key": "git/repo",
+      "slug": "repo",
+      "name": "Manage Repos",
+      "desc": "Managing repositories in Git and GitHub involves creating, configuring, and maintaining repositories for your projects."
+    },
+    {
+      "key": "git/submodule",
+      "slug": "submodule",
+      "name": "Manage Submodules",
+      "desc": "Managing submodules in Git and GitHub allows you to include external repositories as dependencies within your own repository, enabling modular code organization and version control."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "key": "shell",
+  "slug": "shell",
+  "name": "Shell",
+  "skills": [
+    {
+      "key": "shell/shebang",
+      "slug": "shebang",
+      "name": "Shebang",
+      "desc": "The shebang is a special line at the beginning of a shell script that specifies the interpreter to be used for executing the script."
+    },
+    {
+      "key": "shell/comments",
+      "slug": "comments",
+      "name": "Comments",
+      "desc": "Comments in shell scripting are used to add explanations or documentation within the script. They are ignored by the shell and serve as notes for human readers."
+    },
+    {
+      "key": "shell/quoting",
+      "slug": "quoting",
+      "name": "Quoting Mechanisms",
+      "desc": "Quoting mechanisms in shell scripting are used to control the interpretation of special characters within strings or variables. Common types include single quotes, double quotes, and backslashes."
+    },
+    {
+      "key": "shell/variables_decl",
+      "slug": "variables_decl",
+      "name": "Variable Declaration",
+      "desc": "Variable declaration involves creating and initializing variables to store data. In shell scripting, variables are typically assigned values using the '=' operator."
+    },
+    {
+      "key": "shell/variables_usage",
+      "slug": "variables_usage",
+      "name": "Variable Usage",
+      "desc": "Variable usage refers to the process of accessing and using the values stored in variables within a shell script."
+    },
+    {
+      "key": "shell/str_manipulation",
+      "slug": "str_manipulation",
+      "name": "String Manipulation",
+      "desc": "String manipulation involves operations on string variables, such as concatenation, substring extraction, and string length."
+    },
+    {
+      "key": "shell/arrays",
+      "slug": "arrays",
+      "name": "Arrays",
+      "desc": "Arrays in shell scripting allow you to store multiple values in a single variable. You can access individual elements using indices."
+    },
+    {
+      "key": "shell/param_expansion",
+      "slug": "param_expansion",
+      "name": "Parameter Expansion",
+      "desc": "Parameter expansion is a technique for modifying and expanding the values of variables using special operators and patterns."
+    },
+    {
+      "key": "shell/if_else",
+      "slug": "if_else",
+      "name": "If-Else Statements",
+      "desc": "If-Else Statements in shell scripting allow you to make decisions based on conditions. You can specify actions to be taken when a condition is true (if) or false (else)."
+    },
+    {
+      "key": "shell/case",
+      "slug": "case",
+      "name": "Case Statements",
+      "desc": "Case Statements provide a way to perform different actions based on the value of a variable or expression. They are useful for handling multiple conditions."
+    },
+    {
+      "key": "shell/for_loops",
+      "slug": "for_loops",
+      "name": "For Loops",
+      "desc": "For Loops in shell scripting are used to iterate over a list of items and execute a set of commands for each item in the list."
+    },
+    {
+      "key": "shell/while_loops",
+      "slug": "while_loops",
+      "name": "While Loops",
+      "desc": "While Loops allow you to repeatedly execute a block of commands as long as a specified condition is true."
+    },
+    {
+      "key": "shell/until_loops",
+      "slug": "until_loops",
+      "name": "Until Loops",
+      "desc": "Until Loops are similar to While Loops but execute a block of commands until a specified condition becomes true."
+    },
+    {
+      "key": "shell/cond_expr",
+      "slug": "cond_expr",
+      "name": "Conditional Expressions",
+      "desc": "Conditional expressions are used to evaluate conditions and return a true or false value, which is often used in If-Else and While Loops."
+    },
+    {
+      "key": "shell/exit_status",
+      "slug": "exit_status",
+      "name": "Exit and Return Status",
+      "desc": "Exit and Return Status refer to the exit code or status returned by a shell script when it finishes executing. It can be used to indicate success or failure."
+    },
+    {
+      "key": "shell/func_def",
+      "slug": "func_def",
+      "name": "Function Definition",
+      "desc": "Function definition in shell scripting allows you to define reusable blocks of code with their own local variables and parameters."
+    },
+    {
+      "key": "shell/arith_ops",
+      "slug": "arith_ops",
+      "name": "Arithmetic Operations",
+      "desc": "Arithmetic operations in shell scripting allow you to perform mathematical calculations using variables and constants."
+    },
+    {
+      "key": "shell/arith_expansion",
+      "slug": "arith_expansion",
+      "name": "Arithmetic Expansion",
+      "desc": "Arithmetic expansion involves evaluating mathematical expressions within double parentheses to obtain numeric results."
+    },
+    {
+      "key": "shell/read_input",
+      "slug": "read_input",
+      "name": "Reading Input",
+      "desc": "Reading input in shell scripts involves methods for capturing user or file input and using it in the script's logic."
+    },
+    {
+      "key": "shell/cmd_substitution",
+      "slug": "cmd_substitution",
+      "name": "Command Substitution",
+      "desc": "Command substitution allows you to capture the output of a command and use it as part of a shell script's command or expression."
+    },
+    {
+      "key": "shell/subshells",
+      "slug": "subshells",
+      "name": "Subshells and Command Groups",
+      "desc": "Subshells and command groups are used to execute commands within a subshell environment or as a group, affecting variable scope and execution context."
+    },
+    {
+      "key": "shell/adv_redirection",
+      "slug": "adv_redirection",
+      "name": "Advanced Redirection",
+      "desc": "Advanced redirection techniques in shell scripting involve directing input and output streams to and from files or other processes."
+    },
+    {
+      "key": "shell/exit_status_checks",
+      "slug": "exit_status_checks",
+      "name": "Exit Status Checks",
+      "desc": "Exit status checks involve evaluating the return status of commands or scripts to determine success or failure."
+    },
+    {
+      "key": "shell/trap_statements",
+      "slug": "trap_statements",
+      "name": "Trap Statements",
+      "desc": "Trap statements in shell scripting are used to set up signal handlers that specify how the script should respond to various signals, such as interrupts or errors."
+    },
+    {
+      "key": "shell/shell_options",
+      "slug": "shell_options",
+      "name": "Shell Options and Attributes",
+      "desc": "Shell options and attributes allow you to configure the behavior and characteristics of the shell environment."
+    },
+    {
+      "key": "shell/globbing_expansion",
+      "slug": "globbing_expansion",
+      "name": "Globbing and Pathname Expansion",
+      "desc": "Globbing and pathname expansion are techniques for matching and expanding file and directory paths using wildcard characters and patterns."
+    }
+  ]
+}

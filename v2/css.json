@@ -1,0 +1,1767 @@
+{
+  "key": "css",
+  "slug": "css",
+  "name": "CSS",
+  "skills": [
+    {
+      "key": "css/stylesheet_structure",
+      "slug": "stylesheet_structure",
+      "name": "Stylesheet Structure",
+      "desc": "Stylesheet structure covers rules, declarations, comments, imports, and how CSS is organized in files.",
+      "i18n": {
+        "zh": {
+          "name": "样式表结构",
+          "desc": "样式表结构涵盖规则、声明、注释、导入以及 CSS 在文件中的组织方式。"
+        },
+        "es": {
+          "name": "Estructura de la hoja de estilo",
+          "desc": "La estructura de la hoja de estilo cubre reglas, declaraciones, comentarios, importaciones y cómo se organiza CSS en archivos."
+        },
+        "fr": {
+          "name": "Structure de la feuille de style",
+          "desc": "La structure des feuilles de style couvre les règles, les déclarations, les commentaires, les importations et la façon dont CSS est organisé en fichiers."
+        },
+        "de": {
+          "name": "Stylesheet-Struktur",
+          "desc": "Die Stylesheet-Struktur umfasst Regeln, Deklarationen, Kommentare, Importe und die Organisation von CSS in Dateien."
+        },
+        "ja": {
+          "name": "スタイルシートの構造",
+          "desc": "スタイルシートの構造には、ルール、宣言、コメント、インポート、および CSS がファイル内でどのように編成されるかが含まれます。"
+        },
+        "ru": {
+          "name": "Структура таблицы стилей",
+          "desc": "Структура таблицы стилей охватывает правила, объявления, комментарии, импорт и то, как CSS организована в файлах."
+        },
+        "ko": {
+          "name": "스타일시트 구조",
+          "desc": "스타일시트 구조에는 규칙, 선언, 주석, 가져오기 및 CSS가 파일에서 구성되는 방식이 포함됩니다."
+        },
+        "pt": {
+          "name": "Estrutura da folha de estilo",
+          "desc": "A estrutura da folha de estilo cobre regras, declarações, comentários, importações e como CSS é organizado em arquivos."
+        }
+      }
+    },
+    {
+      "key": "css/selectors",
+      "slug": "selectors",
+      "name": "Selectors",
+      "desc": "Selectors cover targeting elements with type, class, ID, attribute, combinator, and selector list patterns.",
+      "i18n": {
+        "zh": {
+          "name": "选择器",
+          "desc": "选择器涵盖使用类型、类、ID、属性、组合器和选择器列表模式来定位元素。"
+        },
+        "es": {
+          "name": "Selectores",
+          "desc": "Los selectores cubren la selección de elementos con patrones de tipo, clase, ID, atributo, combinador y lista de selectores."
+        },
+        "fr": {
+          "name": "Sélecteurs",
+          "desc": "Les sélecteurs couvrent le ciblage d’éléments avec des modèles de type, de classe, d’ID, d’attribut, de combinateur et de liste de sélecteurs."
+        },
+        "de": {
+          "name": "Selektoren",
+          "desc": "Selektoren behandeln das Auswählen von Elementen mit Typ-, Klassen-, ID-, Attribut-, Kombinator- und Selektorlistenmustern."
+        },
+        "ja": {
+          "name": "セレクター",
+          "desc": "セレクターは、タイプ、クラス、ID、属性、コンビネータ、およびセレクターリストパターンで要素を対象にする方法を扱います。"
+        },
+        "ru": {
+          "name": "Селекторы",
+          "desc": "Селекторы охватывают выбор элементов с помощью шаблонов типа, класса, идентификатора, атрибута, комбинатора и списка селекторов."
+        },
+        "ko": {
+          "name": "선택기",
+          "desc": "선택기는 유형, 클래스, ID, 속성, 결합자 및 선택기 목록 패턴으로 요소를 선택하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Seletores",
+          "desc": "Os seletores cobrem a seleção de elementos com padrões de tipo, classe, ID, atributo, combinador e lista de seletores."
+        }
+      }
+    },
+    {
+      "key": "css/specificity",
+      "slug": "specificity",
+      "name": "Specificity",
+      "desc": "Specificity covers how selector weight affects which declarations apply to an element.",
+      "i18n": {
+        "zh": {
+          "name": "优先级",
+          "desc": "优先级涵盖选择器权重如何影响哪些声明会应用到元素。"
+        },
+        "es": {
+          "name": "Especificidad",
+          "desc": "La especificidad cubre cómo el peso del selector afecta qué declaraciones se aplican a un elemento."
+        },
+        "fr": {
+          "name": "Spécificité",
+          "desc": "La spécificité couvre la manière dont le poids du sélecteur affecte les déclarations qui s'appliquent à un élément."
+        },
+        "de": {
+          "name": "Spezifität",
+          "desc": "Die Spezifität deckt ab, wie sich die Gewichtung des Selektors darauf auswirkt, welche Deklarationen für ein Element gelten."
+        },
+        "ja": {
+          "name": "詳細度",
+          "desc": "詳細度は、セレクターの重みが要素に適用される宣言にどのような影響を与えるかを扱います。"
+        },
+        "ru": {
+          "name": "Специфичность",
+          "desc": "Специфичность определяет, как вес селектора влияет на то, какие объявления применяются к элементу."
+        },
+        "ko": {
+          "name": "명시도",
+          "desc": "명시도는 선택기 가중치가 요소에 적용되는 선언에 미치는 영향을 다룹니다."
+        },
+        "pt": {
+          "name": "Especificidade",
+          "desc": "A especificidade cobre como o peso do seletor afeta quais declarações se aplicam a um elemento."
+        }
+      }
+    },
+    {
+      "key": "css/cascade",
+      "slug": "cascade",
+      "name": "Cascade",
+      "desc": "Cascade covers origin, importance, specificity, source order, and how competing declarations are resolved.",
+      "i18n": {
+        "zh": {
+          "name": "级联",
+          "desc": "级联涵盖来源、重要性、优先级、源码顺序以及竞争声明的解析方式。"
+        },
+        "es": {
+          "name": "Cascada",
+          "desc": "La cascada cubre el origen, la importancia, la especificidad, el orden de origen y cómo se resuelven las declaraciones en competencia."
+        },
+        "fr": {
+          "name": "Cascade",
+          "desc": "Cascade couvre l'origine, l'importance, la spécificité, l'ordre des sources et la manière dont les déclarations concurrentes sont résolues."
+        },
+        "de": {
+          "name": "Kaskade",
+          "desc": "Die Kaskade deckt Herkunft, Wichtigkeit, Spezifität, Quellreihenfolge und die Art und Weise ab, wie konkurrierende Deklarationen aufgelöst werden."
+        },
+        "ja": {
+          "name": "カスケード",
+          "desc": "カスケードは、出所、重要度、詳細度、ソース順序、および競合する宣言の解決方法を扱います。"
+        },
+        "ru": {
+          "name": "Каскад",
+          "desc": "Каскад охватывает происхождение, важность, специфичность, порядок источников и способы разрешения конкурирующих объявлений."
+        },
+        "ko": {
+          "name": "캐스케이드",
+          "desc": "캐스케이드는 출처, 중요도, 명시도, 소스 순서 및 경쟁 선언 해결 방식을 다룹니다."
+        },
+        "pt": {
+          "name": "Cascata",
+          "desc": "A cascata cobre origem, importância, especificidade, ordem de origem e como as declarações concorrentes são resolvidas."
+        }
+      }
+    },
+    {
+      "key": "css/inheritance",
+      "slug": "inheritance",
+      "name": "Inheritance",
+      "desc": "Inheritance covers how selected properties flow from ancestors to descendants and how inherited values are controlled.",
+      "i18n": {
+        "zh": {
+          "name": "继承",
+          "desc": "继承涵盖了选定的属性如何从祖先流向后代以及如何控制继承的值。"
+        },
+        "es": {
+          "name": "Herencia",
+          "desc": "La herencia cubre cómo las propiedades seleccionadas fluyen de los antepasados a los descendientes y cómo se controlan los valores heredados."
+        },
+        "fr": {
+          "name": "Héritage",
+          "desc": "L'héritage couvre la manière dont les propriétés sélectionnées passent des ancêtres aux descendants et la manière dont les valeurs héritées sont contrôlées."
+        },
+        "de": {
+          "name": "Vererbung",
+          "desc": "Bei der Vererbung geht es darum, wie ausgewählte Eigenschaften von Vorfahren zu Nachkommen übertragen werden und wie geerbte Werte gesteuert werden."
+        },
+        "ja": {
+          "name": "継承",
+          "desc": "継承では、選択したプロパティが祖先から子孫にどのように流れるか、および継承された値がどのように制御されるかについて説明します。"
+        },
+        "ru": {
+          "name": "Наследование",
+          "desc": "Наследование описывает, как выбранные свойства передаются от предков к потомкам и как контролируются унаследованные значения."
+        },
+        "ko": {
+          "name": "상속",
+          "desc": "상속은 선택된 속성이 조상에서 자손으로 흐르는 방식과 상속된 값이 제어되는 방식을 다룹니다."
+        },
+        "pt": {
+          "name": "Herança",
+          "desc": "A herança abrange como as propriedades selecionadas fluem dos ancestrais para os descendentes e como os valores herdados são controlados."
+        }
+      }
+    },
+    {
+      "key": "css/cascade_layers",
+      "slug": "cascade_layers",
+      "name": "Cascade Layers",
+      "desc": "Cascade layers cover organizing stylesheet priority with named layers and layer ordering.",
+      "i18n": {
+        "zh": {
+          "name": "级联层",
+          "desc": "级联层涵盖使用命名层和层排序来组织样式表优先级。"
+        },
+        "es": {
+          "name": "Capas en cascada",
+          "desc": "Las capas en cascada cubren la organización de la prioridad de las hojas de estilo con capas con nombre y orden de capas."
+        },
+        "fr": {
+          "name": "Couches en cascade",
+          "desc": "Les couches en cascade couvrent l'organisation de la priorité des feuilles de style avec des couches nommées et l'ordre des couches."
+        },
+        "de": {
+          "name": "Kaskadenschichten",
+          "desc": "Kaskadenebenen decken die Organisation der Stylesheet-Priorität mit benannten Ebenen und Ebenenreihenfolge ab."
+        },
+        "ja": {
+          "name": "カスケードレイヤー",
+          "desc": "カスケードレイヤーは、名前付きレイヤーとレイヤーの順序付けによるスタイルシートの優先順位の整理を扱います。"
+        },
+        "ru": {
+          "name": "Каскадные слои",
+          "desc": "Каскадные слои охватывают организацию приоритета таблицы стилей с помощью именованных слоев и их порядка."
+        },
+        "ko": {
+          "name": "캐스케이드 레이어",
+          "desc": "캐스케이드 레이어는 명명된 레이어와 레이어 순서를 통해 스타일시트 우선순위 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Camadas em Cascata",
+          "desc": "As camadas em cascata cobrem a organização da prioridade da folha de estilo com camadas nomeadas e ordenação de camadas."
+        }
+      }
+    },
+    {
+      "key": "css/custom_properties",
+      "slug": "custom_properties",
+      "name": "Custom Properties",
+      "desc": "Custom properties cover defining reusable CSS variables and resolving them through the cascade.",
+      "i18n": {
+        "zh": {
+          "name": "自定义属性",
+          "desc": "自定义属性包括定义可重用的 CSS 变量并通过级联解析它们。"
+        },
+        "es": {
+          "name": "Propiedades personalizadas",
+          "desc": "Las propiedades personalizadas cubren la definición de variables CSS reutilizables y su resolución a través de la cascada."
+        },
+        "fr": {
+          "name": "Propriétés personnalisées",
+          "desc": "Les propriétés personnalisées couvrent la définition de variables CSS réutilisables et leur résolution via la cascade."
+        },
+        "de": {
+          "name": "Benutzerdefinierte Eigenschaften",
+          "desc": "Benutzerdefinierte Eigenschaften umfassen die Definition wiederverwendbarer CSS-Variablen und deren Auflösung durch die Kaskade."
+        },
+        "ja": {
+          "name": "カスタムプロパティ",
+          "desc": "カスタムプロパティでは、再利用可能な CSS 変数の定義と、カスケードを介したそれらの解決を扱います。"
+        },
+        "ru": {
+          "name": "Пользовательские свойства",
+          "desc": "Пользовательские свойства охватывают определение повторно используемых переменных CSS и их каскадное разрешение."
+        },
+        "ko": {
+          "name": "사용자 정의 속성",
+          "desc": "사용자 정의 속성은 재사용 가능한 CSS 변수를 정의하고 캐스케이드를 통해 이를 해결하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Propriedades personalizadas",
+          "desc": "As propriedades personalizadas cobrem a definição de variáveis CSS reutilizáveis e a sua resolução através da cascata."
+        }
+      }
+    },
+    {
+      "key": "css/values_units",
+      "slug": "values_units",
+      "name": "Values and Units",
+      "desc": "Values and units cover lengths, percentages, numbers, keywords, calculations, and unit selection.",
+      "i18n": {
+        "zh": {
+          "name": "数值和单位",
+          "desc": "值和单位涵盖长度、百分比、数字、关键字、计算和单位选择。"
+        },
+        "es": {
+          "name": "Valores y unidades",
+          "desc": "Los valores y unidades cubren longitudes, porcentajes, números, palabras clave, cálculos y selección de unidades."
+        },
+        "fr": {
+          "name": "Valeurs et unités",
+          "desc": "Les valeurs et les unités couvrent les longueurs, les pourcentages, les nombres, les mots-clés, les calculs et la sélection des unités."
+        },
+        "de": {
+          "name": "Werte und Einheiten",
+          "desc": "Werte und Einheiten umfassen Längen, Prozentsätze, Zahlen, Schlüsselwörter, Berechnungen und die Auswahl von Einheiten."
+        },
+        "ja": {
+          "name": "値と単位",
+          "desc": "値と単位には、長さ、パーセンテージ、数値、キーワード、計算、単位の選択が含まれます。"
+        },
+        "ru": {
+          "name": "Значения и единицы измерения",
+          "desc": "Значения и единицы измерения охватывают длины, проценты, числа, ключевые слова, вычисления и выбор единиц измерения."
+        },
+        "ko": {
+          "name": "값과 단위",
+          "desc": "값과 단위에는 길이, 백분율, 숫자, 키워드, 계산 및 단위 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Valores e Unidades",
+          "desc": "Valores e unidades abrangem comprimentos, porcentagens, números, palavras-chave, cálculos e seleção de unidades."
+        }
+      }
+    },
+    {
+      "key": "css/colors",
+      "slug": "colors",
+      "name": "Colors",
+      "desc": "Colors cover color formats, opacity, color functions, contrast, and color reuse.",
+      "i18n": {
+        "zh": {
+          "name": "颜色",
+          "desc": "颜色涵盖颜色格式、不透明度、颜色函数、对比度和颜色重用。"
+        },
+        "es": {
+          "name": "Colores",
+          "desc": "Los colores cubren formatos de color, opacidad, funciones de color, contraste y reutilización de colores."
+        },
+        "fr": {
+          "name": "Couleurs",
+          "desc": "Les couleurs couvrent les formats de couleur, l'opacité, les fonctions de couleur, le contraste et la réutilisation des couleurs."
+        },
+        "de": {
+          "name": "Farben",
+          "desc": "Farben umfassen Farbformate, Deckkraft, Farbfunktionen, Kontrast und Farbwiederverwendung."
+        },
+        "ja": {
+          "name": "色",
+          "desc": "色には、カラー形式、不透明度、カラー関数、コントラスト、色の再利用が含まれます。"
+        },
+        "ru": {
+          "name": "Цвета",
+          "desc": "Цвета охватывают цветовые форматы, непрозрачность, цветовые функции, контрастность и повторное использование цвета."
+        },
+        "ko": {
+          "name": "색상",
+          "desc": "색상에는 색상 형식, 불투명도, 색상 기능, 대비 및 색상 재사용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Cores",
+          "desc": "As cores abrangem formatos de cores, opacidade, funções de cores, contraste e reutilização de cores."
+        }
+      }
+    },
+    {
+      "key": "css/typography",
+      "slug": "typography",
+      "name": "Typography",
+      "desc": "Typography covers font selection, sizing, weight, line height, spacing, and text rendering behavior.",
+      "i18n": {
+        "zh": {
+          "name": "版式",
+          "desc": "版式涵盖字体选择、大小、粗细、行高、间距和文本呈现行为。"
+        },
+        "es": {
+          "name": "Tipografía",
+          "desc": "La tipografía cubre la selección de fuentes, el tamaño, el peso, la altura de la línea, el espaciado y el comportamiento de representación del texto."
+        },
+        "fr": {
+          "name": "Typographie",
+          "desc": "La typographie couvre la sélection des polices, leur taille, leur épaisseur, la hauteur des lignes, l'espacement et le comportement de rendu du texte."
+        },
+        "de": {
+          "name": "Typografie",
+          "desc": "Typografie umfasst die Auswahl, Größe, Stärke, Zeilenhöhe, Abstände und das Textwiedergabeverhalten von Schriftarten."
+        },
+        "ja": {
+          "name": "タイポグラフィー",
+          "desc": "タイポグラフィには、フォントの選択、サイズ変更、太さ、行の高さ、間隔、およびテキストのレンダリング動作が含まれます。"
+        },
+        "ru": {
+          "name": "Типография",
+          "desc": "Типографика охватывает выбор шрифта, его размер, вес, высоту строки, интервал и поведение рендеринга текста."
+        },
+        "ko": {
+          "name": "타이포그래피",
+          "desc": "타이포그래피는 글꼴 선택, 크기, 두께, 줄 높이, 간격 및 텍스트 렌더링 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Tipografia",
+          "desc": "A tipografia abrange seleção de fonte, tamanho, espessura, altura da linha, espaçamento e comportamento de renderização de texto."
+        }
+      }
+    },
+    {
+      "key": "css/web_fonts",
+      "slug": "web_fonts",
+      "name": "Web Fonts",
+      "desc": "Web fonts cover declaring font faces, loading font resources, and managing fallback behavior.",
+      "i18n": {
+        "zh": {
+          "name": "网页字体",
+          "desc": "Web 字体涵盖声明字体、加载字体资源和管理后备行为。"
+        },
+        "es": {
+          "name": "Fuentes web",
+          "desc": "Las fuentes web cubren la declaración de tipos de fuentes, la carga de recursos de fuentes y la gestión del comportamiento de reserva."
+        },
+        "fr": {
+          "name": "Polices Web",
+          "desc": "Les polices Web couvrent la déclaration des polices, le chargement des ressources de police et la gestion du comportement de secours."
+        },
+        "de": {
+          "name": "Web-Schriftarten",
+          "desc": "Bei Web-Schriftarten geht es um die Deklaration von Schriftarten, das Laden von Schriftartressourcen und die Verwaltung des Fallback-Verhaltens."
+        },
+        "ja": {
+          "name": "ウェブフォント",
+          "desc": "Web フォントには、フォントフェイスの宣言、フォントリソースの読み込み、およびフォールバック動作の管理が含まれます。"
+        },
+        "ru": {
+          "name": "Веб-шрифты",
+          "desc": "Веб-шрифты охватывают объявление начертаний шрифтов, загрузку ресурсов шрифтов и управление резервным поведением."
+        },
+        "ko": {
+          "name": "웹 글꼴",
+          "desc": "웹 글꼴에서는 글꼴 선언, 글꼴 리소스 로드 및 대체 동작 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Fontes da Web",
+          "desc": "As fontes da Web abrangem a declaração de faces de fontes, o carregamento de recursos de fontes e o gerenciamento do comportamento de fallback."
+        }
+      }
+    },
+    {
+      "key": "css/text_layout",
+      "slug": "text_layout",
+      "name": "Text Layout",
+      "desc": "Text layout covers alignment, wrapping, overflow, decoration, transformation, and white-space behavior.",
+      "i18n": {
+        "zh": {
+          "name": "文字布局",
+          "desc": "文本布局涵盖对齐、换行、溢出、装饰、转换和空白行为。"
+        },
+        "es": {
+          "name": "Diseño de texto",
+          "desc": "El diseño del texto cubre la alineación, el ajuste, el desbordamiento, la decoración, la transformación y el comportamiento de los espacios en blanco."
+        },
+        "fr": {
+          "name": "Disposition du texte",
+          "desc": "La mise en page du texte couvre l'alignement, l'habillage, le débordement, la décoration, la transformation et le comportement des espaces blancs."
+        },
+        "de": {
+          "name": "Textlayout",
+          "desc": "Das Textlayout umfasst Ausrichtung, Umbruch, Überlauf, Dekoration, Transformation und Leerraumverhalten."
+        },
+        "ja": {
+          "name": "テキストのレイアウト",
+          "desc": "テキストレイアウトには、配置、折り返し、オーバーフロー、装飾、変形、および空白の動作が含まれます。"
+        },
+        "ru": {
+          "name": "Текстовый макет",
+          "desc": "Макет текста охватывает выравнивание, перенос, переполнение, оформление, преобразование и поведение пробелов."
+        },
+        "ko": {
+          "name": "텍스트 레이아웃",
+          "desc": "텍스트 레이아웃은 정렬, 줄 바꿈, 오버플로, 장식, 변형 및 공백 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Layout de texto",
+          "desc": "O layout do texto cobre alinhamento, quebra automática, estouro, decoração, transformação e comportamento de espaço em branco."
+        }
+      }
+    },
+    {
+      "key": "css/box_model",
+      "slug": "box_model",
+      "name": "Box Model",
+      "desc": "Box model covers content, padding, borders, margins, sizing modes, and how boxes occupy space.",
+      "i18n": {
+        "zh": {
+          "name": "盒子模型",
+          "desc": "盒子模型涵盖内容、填充、边框、边距、大小模式以及盒子如何占据空间。"
+        },
+        "es": {
+          "name": "Modelo de caja",
+          "desc": "El modelo de caja cubre contenido, relleno, bordes, márgenes, modos de tamaño y cómo las cajas ocupan el espacio."
+        },
+        "fr": {
+          "name": "Modèle de boîte",
+          "desc": "Le modèle de boîte couvre le contenu, le remplissage, les bordures, les marges, les modes de dimensionnement et la manière dont les boîtes occupent l'espace."
+        },
+        "de": {
+          "name": "Boxmodell",
+          "desc": "Das Boxmodell umfasst Inhalt, Padding, Rahmen, Außenabstände, Größenmodi und wie Boxen Platz einnehmen."
+        },
+        "ja": {
+          "name": "ボックスモデル",
+          "desc": "ボックスモデルでは、コンテンツ、パディング、境界線、マージン、サイズ変更モード、およびボックスがスペースを占める方法について説明します。"
+        },
+        "ru": {
+          "name": "Блочная модель",
+          "desc": "Модель блока охватывает содержимое, отступы, границы, поля, режимы изменения размера и то, как блоки занимают пространство."
+        },
+        "ko": {
+          "name": "박스 모델",
+          "desc": "상자 모델은 콘텐츠, 패딩, 테두리, 여백, 크기 조정 모드 및 상자가 공간을 차지하는 방식을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelo de caixa",
+          "desc": "O modelo de caixa abrange conteúdo, preenchimento, bordas, margens, modos de dimensionamento e como as caixas ocupam espaço."
+        }
+      }
+    },
+    {
+      "key": "css/display_modes",
+      "slug": "display_modes",
+      "name": "Display Modes",
+      "desc": "Display modes cover block, inline, inline-block, contents, none, and related formatting behavior.",
+      "i18n": {
+        "zh": {
+          "name": "显示模式",
+          "desc": "显示模式涵盖块、内联、内联块、内容、无以及相关的格式化行为。"
+        },
+        "es": {
+          "name": "Modos de visualización",
+          "desc": "Los modos de visualización cubren bloque, en línea, bloque en línea, contenido, ninguno y comportamiento de formato relacionado."
+        },
+        "fr": {
+          "name": "Modes d'affichage",
+          "desc": "Les modes d’affichage couvrent block, inline, inline-block, contents, none et les comportements de formatage associés."
+        },
+        "de": {
+          "name": "Anzeigemodi",
+          "desc": "Die Anzeigemodi umfassen „Block“, „Inline“, „Inline-Block“, „Inhalt“, „Keine“ und das zugehörige Formatierungsverhalten."
+        },
+        "ja": {
+          "name": "表示モード",
+          "desc": "表示モードには、ブロック、インライン、インラインブロック、コンテンツ、なし、および関連する書式設定動作が含まれます。"
+        },
+        "ru": {
+          "name": "Режимы отображения",
+          "desc": "Режимы отображения охватывают block, inline, inline-block, contents, none и связанное поведение форматирования."
+        },
+        "ko": {
+          "name": "디스플레이 모드",
+          "desc": "디스플레이 모드는 block, inline, inline-block, contents, none 및 관련 서식 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Modos de exibição",
+          "desc": "Os modos de exibição abrangem bloco, inline, inline-block, conteúdo, nenhum e comportamento de formatação relacionado."
+        }
+      }
+    },
+    {
+      "key": "css/normal_flow",
+      "slug": "normal_flow",
+      "name": "Normal Flow",
+      "desc": "Normal flow covers how elements are laid out before positioning, floats, flexbox, or grid alter placement.",
+      "i18n": {
+        "zh": {
+          "name": "常规流",
+          "desc": "常规流涵盖元素在定位、浮动、Flexbox 或 Grid 改变放置之前的布局方式。"
+        },
+        "es": {
+          "name": "Flujo normal",
+          "desc": "El flujo normal cubre cómo se disponen los elementos antes de que posicionamiento, floats, flexbox o grid alteren su colocación."
+        },
+        "fr": {
+          "name": "Flux normal",
+          "desc": "Le flux normal couvre la façon dont les éléments sont disposés avant que le positionnement, les floats, flexbox ou grid ne modifient leur placement."
+        },
+        "de": {
+          "name": "Normaler Fluss",
+          "desc": "Der normale Fluss behandelt, wie Elemente angeordnet werden, bevor Positionierung, Floats, Flexbox oder Grid die Platzierung ändern."
+        },
+        "ja": {
+          "name": "通常フロー",
+          "desc": "通常のフローでは、配置、フロート、フレックスボックス、またはグリッドが配置を変更する前に要素がどのようにレイアウトされるかを説明します。"
+        },
+        "ru": {
+          "name": "Нормальный поток",
+          "desc": "Обычный поток описывает, как элементы располагаются до того, как позиционирование, float, flexbox или grid изменят размещение."
+        },
+        "ko": {
+          "name": "일반 흐름",
+          "desc": "일반 흐름은 위치 지정, float, flexbox 또는 grid가 배치를 변경하기 전에 요소가 배치되는 방식을 다룹니다."
+        },
+        "pt": {
+          "name": "Fluxo normal",
+          "desc": "O fluxo normal cobre como os elementos são dispostos antes que posicionamento, floats, flexbox ou grid alterem o posicionamento."
+        }
+      }
+    },
+    {
+      "key": "css/positioning",
+      "slug": "positioning",
+      "name": "Positioning",
+      "desc": "Positioning covers relative, absolute, fixed, sticky, inset properties, and containing blocks.",
+      "i18n": {
+        "zh": {
+          "name": "定位",
+          "desc": "定位涵盖 relative、absolute、fixed、sticky、inset 属性和包含块。"
+        },
+        "es": {
+          "name": "Posicionamiento",
+          "desc": "El posicionamiento cubre relative, absolute, fixed, sticky, las propiedades inset y los bloques contenedores."
+        },
+        "fr": {
+          "name": "Positionnement",
+          "desc": "Le positionnement couvre relative, absolute, fixed, sticky, les propriétés inset et les blocs conteneurs."
+        },
+        "de": {
+          "name": "Positionierung",
+          "desc": "Positionierung umfasst relative, absolute, fixed, sticky, inset-Eigenschaften und Containing Blocks."
+        },
+        "ja": {
+          "name": "位置決め",
+          "desc": "位置決めは、relative、absolute、fixed、sticky、inset プロパティ、および包含ブロックを扱います。"
+        },
+        "ru": {
+          "name": "Позиционирование",
+          "desc": "Позиционирование охватывает relative, absolute, fixed, sticky, свойства inset и содержащие блоки."
+        },
+        "ko": {
+          "name": "위치 지정",
+          "desc": "위치 지정은 relative, absolute, fixed, sticky, inset 속성과 포함 블록을 다룹니다."
+        },
+        "pt": {
+          "name": "Posicionamento",
+          "desc": "O posicionamento abrange relative, absolute, fixed, sticky, propriedades inset e blocos de contenção."
+        }
+      }
+    },
+    {
+      "key": "css/stacking_contexts",
+      "slug": "stacking_contexts",
+      "name": "Stacking Contexts",
+      "desc": "Stacking contexts cover z-axis ordering, painting order, and how positioned elements overlap.",
+      "i18n": {
+        "zh": {
+          "name": "堆叠上下文",
+          "desc": "堆叠上下文涵盖 z 轴排序、绘制顺序以及定位元素如何重叠。"
+        },
+        "es": {
+          "name": "Contextos de apilamiento",
+          "desc": "Los contextos de apilamiento cubren el orden del eje z, el orden de pintura y cómo se superponen los elementos posicionados."
+        },
+        "fr": {
+          "name": "Contextes d'empilement",
+          "desc": "Les contextes d'empilement couvrent l'ordre de l'axe z, l'ordre de peinture et la manière dont les éléments positionnés se chevauchent."
+        },
+        "de": {
+          "name": "Stapelkontexte",
+          "desc": "Stapelkontexte umfassen die Z-Achsen-Reihenfolge, die Malreihenfolge und die Art und Weise, wie positionierte Elemente überlappen."
+        },
+        "ja": {
+          "name": "スタッキングコンテキスト",
+          "desc": "スタッキングコンテキストは、Z 軸の順序、描画順序、配置された要素がどのように重なるかを扱います。"
+        },
+        "ru": {
+          "name": "Контексты наложения",
+          "desc": "Контексты стекирования охватывают порядок по оси Z, порядок рисования и перекрытие позиционированных элементов."
+        },
+        "ko": {
+          "name": "스택 컨텍스트",
+          "desc": "스태킹 컨텍스트는 z축 순서, 페인팅 순서 및 배치된 요소가 겹치는 방식을 다룹니다."
+        },
+        "pt": {
+          "name": "Contextos de empilhamento",
+          "desc": "Os contextos de empilhamento abrangem a ordenação do eixo z, a ordem de pintura e como os elementos posicionados se sobrepõem."
+        }
+      }
+    },
+    {
+      "key": "css/overflow",
+      "slug": "overflow",
+      "name": "Overflow",
+      "desc": "Overflow covers clipping, scrolling, scroll containers, and content that exceeds its box.",
+      "i18n": {
+        "zh": {
+          "name": "溢出",
+          "desc": "溢出包括剪切、滚动、滚动容器以及超出其框的内容。"
+        },
+        "es": {
+          "name": "Desbordamiento",
+          "desc": "El desbordamiento cubre el recorte, el desplazamiento, los contenedores de desplazamiento y el contenido que excede su cuadro."
+        },
+        "fr": {
+          "name": "Débordement",
+          "desc": "Le débordement couvre le découpage, le défilement, les conteneurs de défilement et le contenu qui dépasse sa boîte."
+        },
+        "de": {
+          "name": "Überlauf",
+          "desc": "Überlauf umfasst Ausschneiden, Scrollen, Scroll-Container und Inhalte, die über den Rahmen hinausgehen."
+        },
+        "ja": {
+          "name": "オーバーフロー",
+          "desc": "オーバーフローは、クリッピング、スクロール、スクロールコンテナー、およびそのボックスを超えるコンテンツを扱います。"
+        },
+        "ru": {
+          "name": "Переполнение",
+          "desc": "Переполнение охватывает обрезку, прокрутку, контейнеры прокрутки и содержимое, выходящее за пределы рамки."
+        },
+        "ko": {
+          "name": "오버플로",
+          "desc": "오버플로에는 클리핑, 스크롤, 스크롤 컨테이너 및 해당 상자를 초과하는 콘텐츠가 포함됩니다."
+        },
+        "pt": {
+          "name": "Transbordamento",
+          "desc": "O transbordamento cobre recorte, rolagem, contêineres de rolagem e conteúdo que excede sua caixa."
+        }
+      }
+    },
+    {
+      "key": "css/floats",
+      "slug": "floats",
+      "name": "Floats",
+      "desc": "Floats cover wrapping content around floated boxes and clearing float effects.",
+      "i18n": {
+        "zh": {
+          "name": "浮动",
+          "desc": "浮动涵盖了将内容包裹在浮动框周围并清除浮动效果。"
+        },
+        "es": {
+          "name": "Flotantes",
+          "desc": "Los elementos flotantes cubren el ajuste del contenido alrededor de cajas flotantes y la limpieza de sus efectos."
+        },
+        "fr": {
+          "name": "Flottants",
+          "desc": "Les flottants couvrent l’habillage du contenu autour des boîtes flottantes et la suppression de leurs effets."
+        },
+        "de": {
+          "name": "Floats",
+          "desc": "Floats umfassen das Umfließen schwebender Boxen durch Inhalte und das Aufheben ihrer Effekte."
+        },
+        "ja": {
+          "name": "フロート",
+          "desc": "フロートは、フロートされたボックスの周囲にコンテンツをラップすることと、フロート効果をクリアすることを扱います。"
+        },
+        "ru": {
+          "name": "Float-элементы",
+          "desc": "Float-элементы охватывают обтекание плавающих блоков содержимым и сброс их эффектов."
+        },
+        "ko": {
+          "name": "플로트",
+          "desc": "플로트는 떠 있는 박스 주위로 콘텐츠를 흐르게 하고 그 효과를 해제하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Flutuantes",
+          "desc": "Elementos flutuantes abrangem o contorno do conteúdo ao redor de caixas flutuantes e a limpeza de seus efeitos."
+        }
+      }
+    },
+    {
+      "key": "css/flexbox",
+      "slug": "flexbox",
+      "name": "Flexbox",
+      "desc": "Flexbox covers one-dimensional layout, flexible sizing, alignment, wrapping, and item ordering.",
+      "i18n": {
+        "zh": {
+          "name": "Flexbox",
+          "desc": "Flexbox 涵盖一维布局、灵活的大小调整、对齐、换行和项目排序。"
+        },
+        "es": {
+          "name": "Flexbox",
+          "desc": "Flexbox cubre diseño unidimensional, tamaño flexible, alineación, ajuste de línea y orden de elementos."
+        },
+        "fr": {
+          "name": "Flexbox",
+          "desc": "Flexbox couvre la disposition unidimensionnelle, le dimensionnement flexible, l’alignement, le retour à la ligne et l’ordre des éléments."
+        },
+        "de": {
+          "name": "Flexbox",
+          "desc": "Flexbox deckt eindimensionales Layout, flexible Größenanpassung, Ausrichtung, Umbruch und Reihenfolge von Elementen ab."
+        },
+        "ja": {
+          "name": "Flexbox",
+          "desc": "Flexbox では、1 次元レイアウト、柔軟なサイズ設定、位置合わせ、ラッピング、およびアイテムの順序付けを扱います。"
+        },
+        "ru": {
+          "name": "Flexbox",
+          "desc": "Flexbox охватывает одномерную компоновку, гибкие размеры, выравнивание, перенос строк и порядок элементов."
+        },
+        "ko": {
+          "name": "Flexbox",
+          "desc": "Flexbox는 1차원 레이아웃, 유연한 크기 조정, 정렬, 줄바꿈 및 항목 순서를 다룹니다."
+        },
+        "pt": {
+          "name": "Flexbox",
+          "desc": "Flexbox abrange layout unidimensional, dimensionamento flexível, alinhamento, quebra de linha e ordem dos itens."
+        }
+      }
+    },
+    {
+      "key": "css/grid_layout",
+      "slug": "grid_layout",
+      "name": "Grid Layout",
+      "desc": "Grid layout covers two-dimensional tracks, grid lines, areas, placement, and responsive grid patterns.",
+      "i18n": {
+        "zh": {
+          "name": "Grid 布局",
+          "desc": "Grid 布局涵盖二维轨道、网格线、区域、放置和响应式网格模式。"
+        },
+        "es": {
+          "name": "Diseño Grid",
+          "desc": "El diseño Grid cubre pistas bidimensionales, líneas de cuadrícula, áreas, ubicación y patrones de cuadrícula adaptables."
+        },
+        "fr": {
+          "name": "Mise en page Grid",
+          "desc": "La mise en page Grid couvre les pistes bidimensionnelles, les lignes de grille, les zones, le placement et les modèles de grille adaptatifs."
+        },
+        "de": {
+          "name": "Grid-Layout",
+          "desc": "Das Grid-Layout umfasst zweidimensionale Spuren, Gitterlinien, Flächen, Platzierung und responsive Gittermuster."
+        },
+        "ja": {
+          "name": "Grid レイアウト",
+          "desc": "Grid レイアウトは、2 次元のトラック、グリッドライン、エリア、配置、および応答性の高いグリッドパターンを扱います。"
+        },
+        "ru": {
+          "name": "Grid-макет",
+          "desc": "Grid-макет охватывает двухмерные треки, линии сетки, области, размещение и адаптивные шаблоны сетки."
+        },
+        "ko": {
+          "name": "Grid 레이아웃",
+          "desc": "Grid 레이아웃은 2차원 트랙, 격자선, 영역, 배치 및 반응형 격자 패턴을 다룹니다."
+        },
+        "pt": {
+          "name": "Layout Grid",
+          "desc": "O layout Grid cobre trilhas bidimensionais, linhas de grade, áreas, posicionamento e padrões de grade responsivos."
+        }
+      }
+    },
+    {
+      "key": "css/alignment",
+      "slug": "alignment",
+      "name": "Alignment",
+      "desc": "Alignment covers distributing and positioning content with box alignment properties across layout modes.",
+      "i18n": {
+        "zh": {
+          "name": "对齐",
+          "desc": "对齐涵盖跨布局模式使用框对齐属性分布和定位内容。"
+        },
+        "es": {
+          "name": "Alineación",
+          "desc": "La alineación cubre la distribución y posicionamiento de contenido con propiedades de alineación de cuadros en todos los modos de diseño."
+        },
+        "fr": {
+          "name": "Alignement",
+          "desc": "L'alignement couvre la distribution et le positionnement du contenu avec les propriétés d'alignement des boîtes dans tous les modes de mise en page."
+        },
+        "de": {
+          "name": "Ausrichtung",
+          "desc": "Die Ausrichtung umfasst das Verteilen und Positionieren von Inhalten mit Boxausrichtungseigenschaften in verschiedenen Layoutmodi."
+        },
+        "ja": {
+          "name": "位置合わせ",
+          "desc": "配置は、各種レイアウトモードでボックス配置プロパティを使ってコンテンツを分散および位置合わせすることを扱います。"
+        },
+        "ru": {
+          "name": "Выравнивание",
+          "desc": "Выравнивание охватывает распределение и позиционирование содержимого с помощью свойств выравнивания блоков в режимах макета."
+        },
+        "ko": {
+          "name": "정렬",
+          "desc": "정렬은 레이아웃 모드 전반에 걸쳐 상자 정렬 속성을 사용하여 콘텐츠 배포 및 위치 지정을 다룹니다."
+        },
+        "pt": {
+          "name": "Alinhamento",
+          "desc": "O alinhamento abrange a distribuição e o posicionamento de conteúdo com propriedades de alinhamento de caixa nos modos de layout."
+        }
+      }
+    },
+    {
+      "key": "css/sizing",
+      "slug": "sizing",
+      "name": "Sizing",
+      "desc": "Sizing covers width, height, min and max constraints, intrinsic sizes, and aspect ratios.",
+      "i18n": {
+        "zh": {
+          "name": "尺寸",
+          "desc": "尺寸涵盖宽度、高度、最小和最大约束、固有尺寸和宽高比。"
+        },
+        "es": {
+          "name": "Dimensionamiento",
+          "desc": "El dimensionamiento cubre ancho, alto, restricciones mínimas y máximas, tamaños intrínsecos y relaciones de aspecto."
+        },
+        "fr": {
+          "name": "Dimensionnement",
+          "desc": "Le dimensionnement couvre la largeur, la hauteur, les contraintes minimales et maximales, les tailles intrinsèques et les proportions."
+        },
+        "de": {
+          "name": "Größenbestimmung",
+          "desc": "Die Größenbestimmung umfasst Breite, Höhe, minimale und maximale Einschränkungen, intrinsische Größen und Seitenverhältnisse."
+        },
+        "ja": {
+          "name": "サイズ設定",
+          "desc": "サイズ設定には、幅、高さ、最小および最大の制約、固有のサイズ、アスペクト比が含まれます。"
+        },
+        "ru": {
+          "name": "Размеры",
+          "desc": "Размеры охватывают ширину, высоту, минимальные и максимальные ограничения, внутренние размеры и соотношения сторон."
+        },
+        "ko": {
+          "name": "사이징",
+          "desc": "크기 조정에는 너비, 높이, 최소 및 최대 제약 조건, 고유 크기 및 종횡비가 포함됩니다."
+        },
+        "pt": {
+          "name": "Dimensionamento",
+          "desc": "O dimensionamento abrange largura, altura, restrições mínimas e máximas, tamanhos intrínsecos e proporções."
+        }
+      }
+    },
+    {
+      "key": "css/spacing",
+      "slug": "spacing",
+      "name": "Spacing",
+      "desc": "Spacing covers margins, padding, gaps, and consistent spatial rhythm between interface elements.",
+      "i18n": {
+        "zh": {
+          "name": "间距",
+          "desc": "间距包括边距、填充、间隙以及界面元素之间一致的空间节奏。"
+        },
+        "es": {
+          "name": "Espaciado",
+          "desc": "El espaciado cubre márgenes, relleno, espacios y un ritmo espacial consistente entre los elementos de la interfaz."
+        },
+        "fr": {
+          "name": "Espacement",
+          "desc": "L'espacement couvre les marges, le remplissage, les espaces et le rythme spatial cohérent entre les éléments de l'interface."
+        },
+        "de": {
+          "name": "Abstand",
+          "desc": "Abstände umfassen Außenabstände, Innenabstände, Lücken und einen konsistenten räumlichen Rhythmus zwischen Oberflächenelementen."
+        },
+        "ja": {
+          "name": "間隔",
+          "desc": "間隔は、マージン、パディング、ギャップ、およびインターフェイス要素間の一貫した空間リズムを扱います。"
+        },
+        "ru": {
+          "name": "Интервалы",
+          "desc": "Интервал охватывает поля, отступы, пробелы и постоянный пространственный ритм между элементами интерфейса."
+        },
+        "ko": {
+          "name": "간격",
+          "desc": "간격은 인터페이스 요소 간의 여백, 패딩, 간격 및 일관된 공간 리듬을 포함합니다."
+        },
+        "pt": {
+          "name": "Espaçamento",
+          "desc": "O espaçamento cobre margens, preenchimento, lacunas e ritmo espacial consistente entre os elementos da interface."
+        }
+      }
+    },
+    {
+      "key": "css/backgrounds",
+      "slug": "backgrounds",
+      "name": "Backgrounds",
+      "desc": "Backgrounds cover colors, images, gradients, positioning, sizing, repetition, and layering.",
+      "i18n": {
+        "zh": {
+          "name": "背景",
+          "desc": "背景涵盖颜色、图像、渐变、定位、大小、重复和分层。"
+        },
+        "es": {
+          "name": "Fondos",
+          "desc": "Los fondos cubren colores, imágenes, degradados, posicionamiento, tamaño, repetición y capas."
+        },
+        "fr": {
+          "name": "Arrière-plans",
+          "desc": "Les arrière-plans couvrent les couleurs, les images, les dégradés, le positionnement, le dimensionnement, la répétition et la superposition."
+        },
+        "de": {
+          "name": "Hintergründe",
+          "desc": "Hintergründe umfassen Farben, Bilder, Farbverläufe, Positionierung, Größe, Wiederholung und Schichtung."
+        },
+        "ja": {
+          "name": "背景",
+          "desc": "背景には、色、画像、グラデーション、位置、サイズ変更、繰り返し、レイヤー化が含まれます。"
+        },
+        "ru": {
+          "name": "Фоны",
+          "desc": "Фоны охватывают цвета, изображения, градиенты, позиционирование, размер, повторение и наложение слоев."
+        },
+        "ko": {
+          "name": "배경",
+          "desc": "배경에는 색상, 이미지, 그라데이션, 위치 지정, 크기 조정, 반복 및 레이어링이 포함됩니다."
+        },
+        "pt": {
+          "name": "Planos de fundo",
+          "desc": "Os planos de fundo cobrem cores, imagens, gradientes, posicionamento, dimensionamento, repetição e camadas."
+        }
+      }
+    },
+    {
+      "key": "css/borders_outlines",
+      "slug": "borders_outlines",
+      "name": "Borders and Outlines",
+      "desc": "Borders and outlines cover visible boundaries, radius, outline behavior, and focus-visible presentation.",
+      "i18n": {
+        "zh": {
+          "name": "边框和轮廓",
+          "desc": "边框和轮廓涵盖可见边界、半径、轮廓行为和焦点可见呈现。"
+        },
+        "es": {
+          "name": "Bordes y contornos",
+          "desc": "Los bordes y contornos cubren límites visibles, radio, comportamiento del contorno y presentación visible enfocada."
+        },
+        "fr": {
+          "name": "Bordures et contours",
+          "desc": "Les bordures et les contours couvrent les limites visibles, le rayon, le comportement du contour et la présentation visible au focus."
+        },
+        "de": {
+          "name": "Rahmen und Konturen",
+          "desc": "Rahmen und Umrisse umfassen sichtbare Grenzen, Radien, Umrissverhalten und die im Fokus sichtbare Darstellung."
+        },
+        "ja": {
+          "name": "枠線と輪郭線",
+          "desc": "境界線と輪郭は、目に見える境界、半径、輪郭の動作、およびフォーカスで見えるプレゼンテーションを扱います。"
+        },
+        "ru": {
+          "name": "Границы и контуры",
+          "desc": "Границы и контуры охватывают видимые границы, радиус, поведение контура и представление, видимое в фокусе."
+        },
+        "ko": {
+          "name": "테두리 및 윤곽선",
+          "desc": "테두리와 윤곽선은 표시되는 경계, 반경, 윤곽선 동작 및 초점 표시 프리젠테이션을 다룹니다."
+        },
+        "pt": {
+          "name": "Bordas e contornos",
+          "desc": "Bordas e contornos cobrem limites visíveis, raio, comportamento de contorno e apresentação com foco visível."
+        }
+      }
+    },
+    {
+      "key": "css/shadows_filters",
+      "slug": "shadows_filters",
+      "name": "Shadows and Filters",
+      "desc": "Shadows and filters cover visual depth, image effects, backdrop effects, and rendering costs.",
+      "i18n": {
+        "zh": {
+          "name": "阴影和滤镜",
+          "desc": "阴影和滤镜涵盖视觉深度、图像效果、背景效果和渲染成本。"
+        },
+        "es": {
+          "name": "Sombras y filtros",
+          "desc": "Las sombras y los filtros cubren la profundidad visual, los efectos de imagen, los efectos de fondo y los costos de renderizado."
+        },
+        "fr": {
+          "name": "Ombres et filtres",
+          "desc": "Les ombres et les filtres couvrent la profondeur visuelle, les effets d'image, les effets de toile de fond et les coûts de rendu."
+        },
+        "de": {
+          "name": "Schatten und Filter",
+          "desc": "Schatten und Filter decken visuelle Tiefe, Bildeffekte, Hintergrundeffekte und Renderingkosten ab."
+        },
+        "ja": {
+          "name": "シャドウとフィルター",
+          "desc": "シャドウとフィルターは、視覚的な奥行き、画像効果、背景効果、レンダリングコストを扱います。"
+        },
+        "ru": {
+          "name": "Тени и фильтры",
+          "desc": "Тени и фильтры охватывают визуальную глубину, эффекты изображения, эффекты фона и затраты на рендеринг."
+        },
+        "ko": {
+          "name": "그림자와 필터",
+          "desc": "그림자 및 필터에는 시각적 깊이, 이미지 효과, 배경 효과 및 렌더링 비용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Sombras e Filtros",
+          "desc": "Sombras e filtros cobrem profundidade visual, efeitos de imagem, efeitos de fundo e custos de renderização."
+        }
+      }
+    },
+    {
+      "key": "css/transforms",
+      "slug": "transforms",
+      "name": "Transforms",
+      "desc": "Transforms cover translating, rotating, scaling, skewing, and composing transformed coordinate spaces.",
+      "i18n": {
+        "zh": {
+          "name": "变换",
+          "desc": "变换涵盖平移、旋转、缩放、倾斜和组合变换后的坐标空间。"
+        },
+        "es": {
+          "name": "Transformaciones",
+          "desc": "Las transformaciones cubren trasladar, rotar, escalar, sesgar y componer espacios de coordenadas transformados."
+        },
+        "fr": {
+          "name": "Transformations",
+          "desc": "Les transformations couvrent la traduction, la rotation, la mise à l'échelle, l'inclinaison et la composition d'espaces de coordonnées transformés."
+        },
+        "de": {
+          "name": "Transformationen",
+          "desc": "Transformationen umfassen das Verschieben, Drehen, Skalieren, Neigen und Zusammensetzen transformierter Koordinatenräume."
+        },
+        "ja": {
+          "name": "変換",
+          "desc": "変換は、移動、回転、スケーリング、傾斜、および変換後の座標空間の合成を扱います。"
+        },
+        "ru": {
+          "name": "Трансформации",
+          "desc": "Преобразования охватывают перемещение, вращение, масштабирование, наклон и составление преобразованных координатных пространств."
+        },
+        "ko": {
+          "name": "변환",
+          "desc": "변환은 이동, 회전, 크기 조정, 기울이기 및 변환된 좌표 공간 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Transformações",
+          "desc": "As transformações abrangem a tradução, a rotação, o dimensionamento, a inclinação e a composição de espaços de coordenadas transformados."
+        }
+      }
+    },
+    {
+      "key": "css/transitions",
+      "slug": "transitions",
+      "name": "Transitions",
+      "desc": "Transitions cover animating property changes over time with duration, timing functions, and delays.",
+      "i18n": {
+        "zh": {
+          "name": "过渡",
+          "desc": "过渡包括通过持续时间、计时函数和延迟来动画属性随时间的变化。"
+        },
+        "es": {
+          "name": "Transiciones",
+          "desc": "Las transiciones cubren la animación de cambios de propiedades a lo largo del tiempo con duración, funciones de sincronización y retrasos."
+        },
+        "fr": {
+          "name": "Transitions",
+          "desc": "Les transitions couvrent l'animation des changements de propriétés au fil du temps avec la durée, les fonctions de synchronisation et les retards."
+        },
+        "de": {
+          "name": "Übergänge",
+          "desc": "Übergänge umfassen die Animation von Eigenschaftsänderungen im Laufe der Zeit mit Dauer, Zeitfunktionen und Verzögerungen."
+        },
+        "ja": {
+          "name": "トランジション",
+          "desc": "トランジションは、期間、タイミング関数、遅延を使用して、時間の経過に伴うプロパティの変化をアニメーション化します。"
+        },
+        "ru": {
+          "name": "Переходы",
+          "desc": "Переходы охватывают анимацию изменений свойств во времени с помощью длительности, функций времени и задержек."
+        },
+        "ko": {
+          "name": "전환",
+          "desc": "전환은 지속 시간, 타이밍 함수 및 지연을 통해 시간 경과에 따른 속성 변경 애니메이션을 다룹니다."
+        },
+        "pt": {
+          "name": "Transições",
+          "desc": "As transições cobrem a animação de mudanças de propriedades ao longo do tempo com duração, funções de tempo e atrasos."
+        }
+      }
+    },
+    {
+      "key": "css/animations",
+      "slug": "animations",
+      "name": "Animations",
+      "desc": "Animations cover keyframes, animation timing, iteration, direction, fill modes, and motion control.",
+      "i18n": {
+        "zh": {
+          "name": "动画",
+          "desc": "动画涵盖关键帧、动画计时、迭代、方向、填充模式和运动控制。"
+        },
+        "es": {
+          "name": "Animaciones",
+          "desc": "Las animaciones cubren fotogramas clave, tiempo de animación, iteración, dirección, modos de relleno y control de movimiento."
+        },
+        "fr": {
+          "name": "Animations",
+          "desc": "Les animations couvrent les images clés, le timing de l'animation, l'itération, la direction, les modes de remplissage et le contrôle de mouvement."
+        },
+        "de": {
+          "name": "Animationen",
+          "desc": "Animationen umfassen Keyframes, Animations-Timing, Iteration, Richtung, Füllmodi und Bewegungssteuerung."
+        },
+        "ja": {
+          "name": "アニメーション",
+          "desc": "アニメーションには、キーフレーム、アニメーションのタイミング、反復、方向、塗りつぶしモード、およびモーションコントロールが含まれます。"
+        },
+        "ru": {
+          "name": "Анимации",
+          "desc": "Анимации охватывают ключевые кадры, время анимации, итерацию, направление, режимы заливки и управление движением."
+        },
+        "ko": {
+          "name": "애니메이션",
+          "desc": "애니메이션에는 키프레임, 애니메이션 타이밍, 반복, 방향, 채우기 모드 및 모션 제어가 포함됩니다."
+        },
+        "pt": {
+          "name": "Animações",
+          "desc": "As animações abrangem quadros-chave, tempo de animação, iteração, direção, modos de preenchimento e controle de movimento."
+        }
+      }
+    },
+    {
+      "key": "css/media_queries",
+      "slug": "media_queries",
+      "name": "Media Queries",
+      "desc": "Media queries cover adapting styles to viewport, device, user preference, and output conditions.",
+      "i18n": {
+        "zh": {
+          "name": "媒体查询",
+          "desc": "媒体查询涵盖使样式适应视口、设备、用户首选项和输出条件。"
+        },
+        "es": {
+          "name": "Consultas de medios",
+          "desc": "Las consultas de medios cubren la adaptación de estilos a la ventana gráfica, el dispositivo, las preferencias del usuario y las condiciones de salida."
+        },
+        "fr": {
+          "name": "Requêtes média",
+          "desc": "Les requêtes média couvrent l’adaptation des styles à la fenêtre d’affichage, à l’appareil, aux préférences utilisateur et aux conditions de sortie."
+        },
+        "de": {
+          "name": "Medienabfragen",
+          "desc": "Medienabfragen umfassen die Anpassung von Stilen an Ansichtsfenster, Gerät, Benutzereinstellungen und Ausgabebedingungen."
+        },
+        "ja": {
+          "name": "メディアクエリ",
+          "desc": "メディアクエリは、ビューポート、デバイス、ユーザー設定、出力条件に合わせてスタイルを適応させる方法を扱います。"
+        },
+        "ru": {
+          "name": "Медиа-запросы",
+          "desc": "Медиа-запросы охватывают адаптацию стилей к области просмотра, устройству, предпочтениям пользователя и условиям вывода."
+        },
+        "ko": {
+          "name": "미디어 쿼리",
+          "desc": "미디어 쿼리는 뷰포트, 장치, 사용자 기본 설정 및 출력 조건에 맞게 스타일을 조정하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas de mídia",
+          "desc": "As consultas de mídia cobrem a adaptação de estilos à janela de visualização, dispositivo, preferência do usuário e condições de saída."
+        }
+      }
+    },
+    {
+      "key": "css/breakpoint_layouts",
+      "slug": "breakpoint_layouts",
+      "name": "Breakpoint Layouts",
+      "desc": "Breakpoint layouts cover changing CSS layout rules at defined viewport or container ranges while preserving content hierarchy.",
+      "i18n": {
+        "zh": {
+          "name": "断点布局",
+          "desc": "断点布局涵盖在定义的视口或容器范围内更改 CSS 布局规则，同时保留内容层次结构。"
+        },
+        "es": {
+          "name": "Diseños con puntos de interrupción",
+          "desc": "Los diseños con puntos de interrupción cubren el cambio de reglas de diseño CSS en rangos definidos de ventana gráfica o contenedor, preservando la jerarquía del contenido."
+        },
+        "fr": {
+          "name": "Mises en page avec points de rupture",
+          "desc": "Les mises en page avec points de rupture couvrent la modification des règles de mise en page CSS dans des plages définies de fenêtre d’affichage ou de conteneur tout en préservant la hiérarchie du contenu."
+        },
+        "de": {
+          "name": "Breakpoint-basierte Layouts",
+          "desc": "Breakpoint-basierte Layouts behandeln das Ändern von CSS-Layoutregeln in definierten Viewport- oder Containerbereichen, während die Inhaltshierarchie erhalten bleibt."
+        },
+        "ja": {
+          "name": "ブレークポイントのレイアウト",
+          "desc": "ブレークポイントレイアウトは、コンテンツ階層を維持しながら、定義されたビューポートまたはコンテナ範囲での CSS レイアウトルールの変更を扱います。"
+        },
+        "ru": {
+          "name": "Макеты с брейкпоинтами",
+          "desc": "Макеты с брейкпоинтами охватывают изменение правил CSS-макета в заданных диапазонах вьюпорта или контейнера с сохранением иерархии содержимого."
+        },
+        "ko": {
+          "name": "중단점 레이아웃",
+          "desc": "중단점 레이아웃은 콘텐츠 계층 구조를 유지하면서 정의된 뷰포트 또는 컨테이너 범위에서 CSS 레이아웃 규칙 변경을 다룹니다."
+        },
+        "pt": {
+          "name": "Layouts com pontos de interrupção",
+          "desc": "Layouts com pontos de interrupção cobrem a alteração de regras de layout CSS em faixas definidas de janela de visualização ou contêiner, preservando a hierarquia do conteúdo."
+        }
+      }
+    },
+    {
+      "key": "css/container_queries",
+      "slug": "container_queries",
+      "name": "Container Queries",
+      "desc": "Container queries cover adapting components based on ancestor container size or style conditions.",
+      "i18n": {
+        "zh": {
+          "name": "容器查询",
+          "desc": "容器查询涵盖根据祖先容器大小或样式条件调整组件。"
+        },
+        "es": {
+          "name": "Consultas de contenedores",
+          "desc": "Las consultas de contenedores cubren la adaptación de componentes según el tamaño del contenedor ancestral o las condiciones de estilo."
+        },
+        "fr": {
+          "name": "Requêtes de conteneur",
+          "desc": "Les requêtes de conteneur couvrent l'adaptation des composants en fonction de la taille du conteneur ancêtre ou des conditions de style."
+        },
+        "de": {
+          "name": "Containerabfragen",
+          "desc": "Containerabfragen umfassen die Anpassung von Komponenten basierend auf der Größe oder den Stilbedingungen des Vorgängercontainers."
+        },
+        "ja": {
+          "name": "コンテナクエリ",
+          "desc": "コンテナークエリでは、祖先コンテナーのサイズまたはスタイル条件に基づいてコンポーネントを適応させます。"
+        },
+        "ru": {
+          "name": "Контейнерные запросы",
+          "desc": "Контейнерные запросы охватывают адаптацию компонентов на основе размера или стиля родительского контейнера."
+        },
+        "ko": {
+          "name": "컨테이너 쿼리",
+          "desc": "컨테이너 쿼리는 상위 컨테이너 크기 또는 스타일 조건을 기반으로 구성 요소 조정을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas de contêiner",
+          "desc": "As consultas de contêiner abrangem a adaptação de componentes com base no tamanho do contêiner ancestral ou nas condições de estilo."
+        }
+      }
+    },
+    {
+      "key": "css/viewport_units",
+      "slug": "viewport_units",
+      "name": "Viewport Units",
+      "desc": "Viewport units cover sizing relative to viewport dimensions and handling dynamic viewport behavior.",
+      "i18n": {
+        "zh": {
+          "name": "视口单位",
+          "desc": "视口单位涵盖相对于视口尺寸的大小调整和处理动态视口行为。"
+        },
+        "es": {
+          "name": "Unidades del viewport",
+          "desc": "Las unidades del viewport cubren el dimensionamiento relativo a las dimensiones del viewport y el manejo de su comportamiento dinámico."
+        },
+        "fr": {
+          "name": "Unités relatives au viewport",
+          "desc": "Les unités relatives au viewport couvrent le dimensionnement selon les dimensions du viewport et la gestion de son comportement dynamique."
+        },
+        "de": {
+          "name": "Viewport-Einheiten",
+          "desc": "Viewport-Einheiten behandeln Größen relativ zu den Abmessungen des Viewports und den Umgang mit dynamischem Viewport-Verhalten."
+        },
+        "ja": {
+          "name": "ビューポートユニット",
+          "desc": "ビューポートの単位は、ビューポートの寸法に関連したサイズ設定と、動的なビューポートの動作の処理を扱います。"
+        },
+        "ru": {
+          "name": "Единицы вьюпорта",
+          "desc": "Единицы вьюпорта охватывают размеры относительно габаритов вьюпорта и обработку его динамического поведения."
+        },
+        "ko": {
+          "name": "뷰포트 단위",
+          "desc": "뷰포트 단위는 뷰포트 크기에 따른 크기 조정 및 동적 뷰포트 동작 처리를 다룹니다."
+        },
+        "pt": {
+          "name": "Unidades da janela de visualização",
+          "desc": "As unidades da janela de visualização cobrem o dimensionamento relativo às dimensões da janela de visualização e o tratamento de seu comportamento dinâmico."
+        }
+      }
+    },
+    {
+      "key": "css/logical_properties",
+      "slug": "logical_properties",
+      "name": "Logical Properties",
+      "desc": "Logical properties cover spacing, sizing, and borders that adapt to writing mode and direction.",
+      "i18n": {
+        "zh": {
+          "name": "逻辑属性",
+          "desc": "逻辑属性涵盖会随书写模式和方向变化的间距、尺寸和边框。"
+        },
+        "es": {
+          "name": "Propiedades lógicas",
+          "desc": "Las propiedades lógicas cubren el espaciado, el tamaño y los bordes que se adaptan al modo y dirección de escritura."
+        },
+        "fr": {
+          "name": "Propriétés logiques",
+          "desc": "Les propriétés logiques couvrent l'espacement, la taille et les bordures qui s'adaptent au mode et à la direction d'écriture."
+        },
+        "de": {
+          "name": "Logische Eigenschaften",
+          "desc": "Zu den logischen Eigenschaften gehören Abstände, Größen und Ränder, die sich an den Schreibmodus und die Schreibrichtung anpassen."
+        },
+        "ja": {
+          "name": "論理プロパティ",
+          "desc": "論理プロパティには、書き込みモードと方向に適応する間隔、サイズ、境界線が含まれます。"
+        },
+        "ru": {
+          "name": "Логические свойства",
+          "desc": "Логические свойства охватывают интервалы, размеры и границы, которые адаптируются к режиму и направлению письма."
+        },
+        "ko": {
+          "name": "논리 속성",
+          "desc": "논리 속성은 쓰기 모드와 방향에 맞게 달라지는 간격, 크기 및 테두리를 다룹니다."
+        },
+        "pt": {
+          "name": "Propriedades Lógicas",
+          "desc": "As propriedades lógicas abrangem espaçamento, dimensionamento e bordas que se adaptam ao modo e à direção da escrita."
+        }
+      }
+    },
+    {
+      "key": "css/pseudo_classes",
+      "slug": "pseudo_classes",
+      "name": "Pseudo-Classes",
+      "desc": "Pseudo-classes cover styling elements based on state, structure, interaction, and document position.",
+      "i18n": {
+        "zh": {
+          "name": "伪类",
+          "desc": "伪类涵盖根据状态、结构、交互和文档位置为元素应用样式。"
+        },
+        "es": {
+          "name": "Pseudoclases",
+          "desc": "Las pseudoclases cubren la aplicación de estilos a elementos según el estado, la estructura, la interacción y la posición en el documento."
+        },
+        "fr": {
+          "name": "Pseudo-Classes",
+          "desc": "Les pseudo-classes couvrent l’application de styles aux éléments selon l’état, la structure, l’interaction et la position dans le document."
+        },
+        "de": {
+          "name": "Pseudoklassen",
+          "desc": "Pseudoklassen decken das Stylen von Elementen anhand von Zustand, Struktur, Interaktion und Dokumentposition ab."
+        },
+        "ja": {
+          "name": "疑似クラス",
+          "desc": "疑似クラスは、状態、構造、インタラクション、ドキュメント内の位置に基づいて要素にスタイルを適用する方法を扱います。"
+        },
+        "ru": {
+          "name": "Псевдоклассы",
+          "desc": "Псевдоклассы охватывают стилизацию элементов на основе состояния, структуры, взаимодействия и положения в документе."
+        },
+        "ko": {
+          "name": "의사 클래스",
+          "desc": "의사 클래스는 상태, 구조, 상호 작용 및 문서 위치를 기반으로 요소에 스타일을 적용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Pseudo-classes",
+          "desc": "As pseudoclasses cobrem a aplicação de estilos a elementos com base em estado, estrutura, interação e posição no documento."
+        }
+      }
+    },
+    {
+      "key": "css/pseudo_elements",
+      "slug": "pseudo_elements",
+      "name": "Pseudo-Elements",
+      "desc": "Pseudo-elements cover styling generated boxes such as first lines, markers, selections, and decorative content.",
+      "i18n": {
+        "zh": {
+          "name": "伪元素",
+          "desc": "伪元素涵盖为生成的盒子应用样式，例如首行、标记、选区和装饰内容。"
+        },
+        "es": {
+          "name": "Pseudoelementos",
+          "desc": "Los pseudoelementos cubren la aplicación de estilos a cajas generadas, como primeras líneas, marcadores, selecciones y contenido decorativo."
+        },
+        "fr": {
+          "name": "Pseudo-éléments",
+          "desc": "Les pseudo-éléments couvrent l’application de styles aux boîtes générées, comme les premières lignes, les marqueurs, les sélections et le contenu décoratif."
+        },
+        "de": {
+          "name": "Pseudoelemente",
+          "desc": "Pseudoelemente decken das Stylen generierter Boxen wie erste Zeilen, Markierungen, Auswahlen und dekorative Inhalte ab."
+        },
+        "ja": {
+          "name": "擬似要素",
+          "desc": "疑似要素は、最初の行、マーカー、選択範囲、装飾コンテンツなど、生成されたボックスのスタイルを扱います。"
+        },
+        "ru": {
+          "name": "Псевдоэлементы",
+          "desc": "Псевдоэлементы охватывают стилизацию сгенерированных боксов, таких как первые строки, маркеры, выделения и декоративное содержимое."
+        },
+        "ko": {
+          "name": "의사 요소",
+          "desc": "의사 요소는 첫 줄, 마커, 선택 영역 및 장식 콘텐츠 같은 생성된 박스에 스타일을 적용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Pseudo-Elementos",
+          "desc": "Pseudoelementos cobrem a aplicação de estilos a caixas geradas, como primeiras linhas, marcadores, seleções e conteúdo decorativo."
+        }
+      }
+    },
+    {
+      "key": "css/form_styling",
+      "slug": "form_styling",
+      "name": "Form Styling",
+      "desc": "Form styling covers adapting controls, focus states, validation states, and control appearance.",
+      "i18n": {
+        "zh": {
+          "name": "表单样式",
+          "desc": "表单样式涵盖调整控件、焦点状态、验证状态和控件外观。"
+        },
+        "es": {
+          "name": "Estilo de formulario",
+          "desc": "El estilo de formulario cubre la adaptación de controles, estados de enfoque, estados de validación y apariencia de control."
+        },
+        "fr": {
+          "name": "Style de formulaire",
+          "desc": "Le style du formulaire couvre l’adaptation des contrôles, les états de focus, les états de validation et l’apparence des contrôles."
+        },
+        "de": {
+          "name": "Formularstil",
+          "desc": "Der Formularstil umfasst das Anpassen von Steuerelementen, Fokuszuständen, Validierungszuständen und dem Erscheinungsbild von Steuerelementen."
+        },
+        "ja": {
+          "name": "フォームのスタイル設定",
+          "desc": "フォームのスタイル設定は、コントロール、フォーカス状態、検証状態、およびコントロールの外観を調整する方法を扱います。"
+        },
+        "ru": {
+          "name": "Стилизация формы",
+          "desc": "Стилизация форм охватывает адаптацию элементов управления, состояний фокуса, состояний проверки и внешнего вида элементов управления."
+        },
+        "ko": {
+          "name": "양식 스타일링",
+          "desc": "양식 스타일 지정에는 컨트롤 조정, 포커스 상태, 유효성 검사 상태 및 컨트롤 모양이 포함됩니다."
+        },
+        "pt": {
+          "name": "Estilo de formulário",
+          "desc": "O estilo de formulário abrange a adaptação de controles, estados de foco, estados de validação e aparência dos controles."
+        }
+      }
+    },
+    {
+      "key": "css/accessibility_preferences",
+      "slug": "accessibility_preferences",
+      "name": "Accessibility Preferences",
+      "desc": "Accessibility preferences cover responding to reduced motion, contrast, color scheme, and other user settings.",
+      "i18n": {
+        "zh": {
+          "name": "无障碍偏好设置",
+          "desc": "无障碍偏好设置涵盖响应减少动态效果、对比度、配色方案和其他用户设置。"
+        },
+        "es": {
+          "name": "Preferencias de accesibilidad",
+          "desc": "Las preferencias de accesibilidad cubren la respuesta al movimiento reducido, el contraste, la combinación de colores y otras configuraciones del usuario."
+        },
+        "fr": {
+          "name": "Préférences d'accessibilité",
+          "desc": "Les préférences d'accessibilité couvrent la réponse aux préférences de réduction des animations, de contraste, de palette de couleurs et aux autres paramètres utilisateur."
+        },
+        "de": {
+          "name": "Barrierefreiheitseinstellungen",
+          "desc": "Barrierefreiheitseinstellungen umfassen die Reaktion auf reduzierte Bewegung, Kontrast, Farbschema und andere Benutzereinstellungen."
+        },
+        "ja": {
+          "name": "アクセシビリティの設定",
+          "desc": "アクセシビリティ設定は、視差効果の低減、コントラスト、配色、その他のユーザー設定への対応を扱います。"
+        },
+        "ru": {
+          "name": "Настройки доступности",
+          "desc": "Настройки специальных возможностей охватывают реакцию на уменьшение движения, контрастность, цветовую схему и другие пользовательские настройки."
+        },
+        "ko": {
+          "name": "접근성 기본 설정",
+          "desc": "접근성 기본 설정에는 움직임 감소, 대비, 색 구성표 및 기타 사용자 설정에 대한 응답이 포함됩니다."
+        },
+        "pt": {
+          "name": "Preferências de acessibilidade",
+          "desc": "As preferências de acessibilidade abrangem a resposta à redução de movimento, contraste, esquema de cores e outras configurações do usuário."
+        }
+      }
+    },
+    {
+      "key": "css/print_styles",
+      "slug": "print_styles",
+      "name": "Print Styles",
+      "desc": "Print styles cover adapting layout, visibility, page breaks, and color for printed output.",
+      "i18n": {
+        "zh": {
+          "name": "打印样式",
+          "desc": "打印样式包括调整打印输出的布局、可见性、分页符和颜色。"
+        },
+        "es": {
+          "name": "Estilos de impresión",
+          "desc": "Los estilos de impresión cubren la adaptación del diseño, la visibilidad, los saltos de página y el color para la salida impresa."
+        },
+        "fr": {
+          "name": "Styles d'impression",
+          "desc": "Les styles d'impression couvrent l'adaptation de la mise en page, de la visibilité, des sauts de page et de la couleur pour la sortie imprimée."
+        },
+        "de": {
+          "name": "Druckstile",
+          "desc": "Druckstile umfassen die Anpassung von Layout, Sichtbarkeit, Seitenumbrüchen und Farbe für die Druckausgabe."
+        },
+        "ja": {
+          "name": "印刷スタイル",
+          "desc": "印刷スタイルには、印刷出力のレイアウト、可視性、改ページ、および色の調整が含まれます。"
+        },
+        "ru": {
+          "name": "Стили печати",
+          "desc": "Стили печати включают адаптацию макета, видимости, разрывов страниц и цвета для печатной продукции."
+        },
+        "ko": {
+          "name": "인쇄 스타일",
+          "desc": "인쇄 스타일에는 인쇄 출력의 레이아웃, 가시성, 페이지 나누기 및 색상 적용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Estilos de impressão",
+          "desc": "Os estilos de impressão abrangem a adaptação de layout, visibilidade, quebras de página e cores para saída impressa."
+        }
+      }
+    },
+    {
+      "key": "css/css_nesting",
+      "slug": "css_nesting",
+      "name": "CSS Nesting",
+      "desc": "CSS nesting covers writing nested selectors while preserving readable cascade and selector behavior.",
+      "i18n": {
+        "zh": {
+          "name": "CSS 嵌套",
+          "desc": "CSS 嵌套涵盖了编写嵌套选择器，同时保留可读的级联和选择器行为。"
+        },
+        "es": {
+          "name": "Anidamiento CSS",
+          "desc": "El anidamiento CSS cubre la escritura de selectores anidados preservando una cascada legible y un comportamiento claro de los selectores."
+        },
+        "fr": {
+          "name": "Imbrication CSS",
+          "desc": "L’imbrication CSS couvre l’écriture de sélecteurs imbriqués tout en préservant un comportement lisible de cascade et de sélecteur."
+        },
+        "de": {
+          "name": "CSS-Verschachtelung",
+          "desc": "CSS-Verschachtelung umfasst das Schreiben verschachtelter Selektoren unter Beibehaltung eines lesbaren Kaskaden- und Selektorverhaltens."
+        },
+        "ja": {
+          "name": "CSS ネスト",
+          "desc": "CSS ネストでは、読み取り可能なカスケードとセレクターの動作を維持しながら、ネストされたセレクターの作成を扱います。"
+        },
+        "ru": {
+          "name": "Вложенность CSS",
+          "desc": "Вложенность CSS охватывает написание вложенных селекторов с сохранением читаемого поведения каскада и селекторов."
+        },
+        "ko": {
+          "name": "CSS 중첩",
+          "desc": "CSS 중첩은 읽기 쉬운 캐스케이드와 명확한 선택기 동작을 유지하면서 중첩된 선택기를 작성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "CSS Aninhamento",
+          "desc": "O aninhamento CSS cobre a escrita de seletores aninhados enquanto preserva a cascata legível e o comportamento do seletor."
+        }
+      }
+    },
+    {
+      "key": "css/css_architecture",
+      "slug": "css_architecture",
+      "name": "CSS Architecture",
+      "desc": "CSS architecture covers naming, layering, component boundaries, reuse, and maintainable stylesheet organization.",
+      "i18n": {
+        "zh": {
+          "name": "CSS 架构",
+          "desc": "CSS 架构涵盖命名、分层、组件边界、重用和可维护的样式表组织。"
+        },
+        "es": {
+          "name": "Arquitectura CSS",
+          "desc": "La arquitectura CSS cubre nombres, capas, límites de componentes, reutilización y organización de hojas de estilo mantenibles."
+        },
+        "fr": {
+          "name": "Architecture CSS",
+          "desc": "L'architecture CSS couvre la dénomination, la superposition, les limites des composants, la réutilisation et l'organisation des feuilles de style maintenables."
+        },
+        "de": {
+          "name": "CSS-Architektur",
+          "desc": "Die CSS-Architektur umfasst Benennung, Schichtung, Komponentengrenzen, Wiederverwendung und wartbare Stylesheet-Organisation."
+        },
+        "ja": {
+          "name": "CSS アーキテクチャ",
+          "desc": "CSS アーキテクチャは、命名、階層化、コンポーネント境界、再利用、および保守可能なスタイルシート構成を扱います。"
+        },
+        "ru": {
+          "name": "CSS Архитектура",
+          "desc": "CSS архитектура охватывает именование, иерархию, границы компонентов, повторное использование и поддерживаемую организацию таблиц стилей."
+        },
+        "ko": {
+          "name": "CSS 아키텍처",
+          "desc": "CSS 아키텍처는 이름 지정, 레이어 지정, 구성 요소 경계, 재사용 및 유지 관리 가능한 스타일시트 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Arquitetura CSS",
+          "desc": "A arquitetura CSS cobre nomenclatura, camadas, limites de componentes, reutilização e organização de folhas de estilo fáceis de manter."
+        }
+      }
+    },
+    {
+      "key": "css/browser_compatibility",
+      "slug": "browser_compatibility",
+      "name": "Browser Compatibility",
+      "desc": "Browser compatibility covers feature support, fallbacks, progressive enhancement, and compatibility testing.",
+      "i18n": {
+        "zh": {
+          "name": "浏览器兼容性",
+          "desc": "浏览器兼容性涵盖功能支持、回退、渐进增强和兼容性测试。"
+        },
+        "es": {
+          "name": "Compatibilidad entre navegadores",
+          "desc": "La compatibilidad entre navegadores cubre soporte de funciones, fallbacks, mejora progresiva y pruebas de compatibilidad."
+        },
+        "fr": {
+          "name": "Compatibilité du navigateur",
+          "desc": "La compatibilité du navigateur couvre la prise en charge des fonctionnalités, les solutions de secours, l'amélioration progressive et les tests de compatibilité."
+        },
+        "de": {
+          "name": "Browserkompatibilität",
+          "desc": "Die Browserkompatibilität umfasst Funktionsunterstützung, Fallbacks, progressive Erweiterung und Kompatibilitätstests."
+        },
+        "ja": {
+          "name": "ブラウザ互換性",
+          "desc": "ブラウザ互換性は、機能サポート、フォールバック、プログレッシブエンハンスメント、互換性テストを扱います。"
+        },
+        "ru": {
+          "name": "Совместимость браузера",
+          "desc": "Совместимость браузера включает поддержку функций, резервные варианты, прогрессивное улучшение и тестирование совместимости."
+        },
+        "ko": {
+          "name": "브라우저 호환성",
+          "desc": "브라우저 호환성은 기능 지원, 대체 구현, 점진적 향상 및 호환성 테스트를 다룹니다."
+        },
+        "pt": {
+          "name": "Compatibilidade do navegador",
+          "desc": "A compatibilidade do navegador abrange suporte a recursos, substitutos, aprimoramento progressivo e testes de compatibilidade."
+        }
+      }
+    },
+    {
+      "key": "css/devtools_debugging",
+      "slug": "devtools_debugging",
+      "name": "DevTools Debugging",
+      "desc": "DevTools debugging covers inspecting applied rules, box metrics, layout behavior, and rendered styles.",
+      "i18n": {
+        "zh": {
+          "name": "开发工具调试",
+          "desc": "DevTools 调试包括检查应用的规则、框指标、布局行为和渲染样式。"
+        },
+        "es": {
+          "name": "Depuración con DevTools",
+          "desc": "La depuración con DevTools cubre la inspección de reglas aplicadas, métricas de cajas, comportamiento de layout y estilos renderizados."
+        },
+        "fr": {
+          "name": "Débogage avec DevTools",
+          "desc": "Le débogage avec DevTools couvre l'inspection des règles appliquées, des métriques de boîte, du comportement de mise en page et des styles rendus."
+        },
+        "de": {
+          "name": "DevTools-Debugging",
+          "desc": "Das DevTools-Debugging umfasst die Überprüfung angewendeter Regeln, Boxmetriken, Layoutverhalten und gerenderter Stile."
+        },
+        "ja": {
+          "name": "開発ツールのデバッグ",
+          "desc": "DevTools のデバッグには、適用されたルール、ボックスメトリック、レイアウト動作、レンダリングされたスタイルの検査が含まれます。"
+        },
+        "ru": {
+          "name": "Отладка в DevTools",
+          "desc": "Отладка в DevTools включает проверку применяемых правил, метрик блоков, поведения макета и отрисованных стилей."
+        },
+        "ko": {
+          "name": "DevTools 디버깅",
+          "desc": "DevTools 디버깅에는 적용된 규칙, 상자 측정항목, 레이아웃 동작 및 렌더링된 스타일 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Depuração de DevTools",
+          "desc": "A depuração do DevTools abrange a inspeção de regras aplicadas, métricas de caixa, comportamento de layout e estilos renderizados."
+        }
+      }
+    }
+  ]
+}

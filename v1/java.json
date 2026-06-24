@@ -1,0 +1,427 @@
+{
+  "key": "java",
+  "slug": "java",
+  "name": "Java",
+  "skills": [
+    {
+      "key": "java/identifier",
+      "slug": "identifier",
+      "name": "Identifier",
+      "desc": "In Java, an identifier is a name given to a class, method, variable, or other program elements. It must follow specific naming rules and conventions."
+    },
+    {
+      "key": "java/data_types",
+      "slug": "data_types",
+      "name": "Data Types",
+      "desc": "Java supports various data types, including int, double, boolean, char, and more, which determine the kind of values that variables can hold."
+    },
+    {
+      "key": "java/operators",
+      "slug": "operators",
+      "name": "Operators",
+      "desc": "Operators in Java are symbols used to perform operations on variables and values. They include arithmetic, relational, logical, and assignment operators."
+    },
+    {
+      "key": "java/booleans",
+      "slug": "booleans",
+      "name": "Booleans",
+      "desc": "Booleans represent true or false values in Java. They are used in conditional expressions and control flow to make decisions."
+    },
+    {
+      "key": "java/variables",
+      "slug": "variables",
+      "name": "Variables",
+      "desc": "Variables in Java are used to store data temporarily. They have a data type, a name, and can hold different values during program execution."
+    },
+    {
+      "key": "java/if_else",
+      "slug": "if_else",
+      "name": "If...Else",
+      "desc": "The if...else statement in Java is used to make decisions in code. It allows you to execute different code blocks based on a specified condition."
+    },
+    {
+      "key": "java/switch",
+      "slug": "switch",
+      "name": "Switch",
+      "desc": "The switch statement in Java is used for multi-branch decision making. It evaluates an expression and executes the code block associated with the matching case."
+    },
+    {
+      "key": "java/for_loop",
+      "slug": "for_loop",
+      "name": "For Loop",
+      "desc": "The for loop in Java is used for repetitive execution of a block of code. It's commonly used for iterating over arrays and collections."
+    },
+    {
+      "key": "java/while_loop",
+      "slug": "while_loop",
+      "name": "While Loop",
+      "desc": "The while loop in Java repeatedly executes a block of code as long as a specified condition is true. It's used for general-purpose looping."
+    },
+    {
+      "key": "java/break_continue",
+      "slug": "break_continue",
+      "name": "Break/Continue",
+      "desc": "The break and continue statements in Java provide control flow manipulation within loops. Break terminates a loop, while continue skips the current iteration."
+    },
+    {
+      "key": "java/comments",
+      "slug": "comments",
+      "name": "Comments",
+      "desc": "Comments in Java are used for documentation and code readability. They are ignored by the compiler and are essential for explaining code logic."
+    },
+    {
+      "key": "java/output",
+      "slug": "output",
+      "name": "Output",
+      "desc": "Output in Java involves displaying information to the console or other output devices. It's achieved using methods like print and println."
+    },
+    {
+      "key": "java/type_casting",
+      "slug": "type_casting",
+      "name": "Type Casting",
+      "desc": "Type casting allows you to convert data from one data type to another. Java supports both implicit and explicit type casting."
+    },
+    {
+      "key": "java/math",
+      "slug": "math",
+      "name": "Math",
+      "desc": "Java provides a Math class with methods for performing mathematical operations, such as addition, subtraction, multiplication, and more."
+    },
+    {
+      "key": "java/strings",
+      "slug": "strings",
+      "name": "Strings",
+      "desc": "Strings are sequences of characters in Java and are used extensively in text processing and manipulation tasks."
+    },
+    {
+      "key": "java/stringbuffer_stringbuilder",
+      "slug": "stringbuffer_stringbuilder",
+      "name": "StringBuffer/StringBuilder",
+      "desc": "StringBuffer and StringBuilder classes in Java are used for efficient string manipulation, especially when there is a need for frequent modifications."
+    },
+    {
+      "key": "java/regex",
+      "slug": "regex",
+      "name": "RegEx",
+      "desc": "Regular expressions in Java enable pattern matching and text searching within strings. They are powerful tools for data validation and extraction."
+    },
+    {
+      "key": "java/arrays",
+      "slug": "arrays",
+      "name": "Arrays",
+      "desc": "Arrays are a fundamental data structure in Java, used for storing collections of elements of the same data type."
+    },
+    {
+      "key": "java/arrays_methods",
+      "slug": "arrays_methods",
+      "name": "Arrays Methods",
+      "desc": "Java provides various methods for working with arrays, including sorting, searching, and copying elements between arrays."
+    },
+    {
+      "key": "java/sorting",
+      "slug": "sorting",
+      "name": "Sorting",
+      "desc": "Sorting algorithms are essential for arranging data in a particular order. Java includes built-in methods for sorting arrays and collections."
+    },
+    {
+      "key": "java/collections_methods",
+      "slug": "collections_methods",
+      "name": "Collections Methods",
+      "desc": "Java's Collections framework provides a wide range of methods for working with collections, including lists, sets, and maps."
+    },
+    {
+      "key": "java/method_overloading",
+      "slug": "method_overloading",
+      "name": "Method Overloading",
+      "desc": "Method overloading allows you to define multiple methods with the same name but different parameter lists. It enhances code readability and reusability."
+    },
+    {
+      "key": "java/method_overriding",
+      "slug": "method_overriding",
+      "name": "Method Overriding",
+      "desc": "Method overriding in Java involves defining a method in a subclass with the same name, return type, and parameters as a method in its superclass."
+    },
+    {
+      "key": "java/recursion",
+      "slug": "recursion",
+      "name": "Recursion",
+      "desc": "Recursion is a programming technique where a method calls itself to solve problems that can be broken down into smaller, similar subproblems."
+    },
+    {
+      "key": "java/scope",
+      "slug": "scope",
+      "name": "Scope",
+      "desc": "Scope defines the visibility and lifetime of variables in Java. It includes local, instance, and class-level variable scopes."
+    },
+    {
+      "key": "java/lambda",
+      "slug": "lambda",
+      "name": "Lambda",
+      "desc": "Lambda expressions in Java enable the creation of anonymous functions or closures, simplifying code for functional-style programming."
+    },
+    {
+      "key": "java/classes_objects",
+      "slug": "classes_objects",
+      "name": "Classes/Objects",
+      "desc": "Classes and objects are fundamental concepts in Java. Classes serve as blueprints for creating objects, allowing you to define attributes and methods that characterize objects."
+    },
+    {
+      "key": "java/class_attributes",
+      "slug": "class_attributes",
+      "name": "Class Attributes",
+      "desc": "Class attributes are variables defined within a class that are shared by all instances of the class. They represent characteristics or properties common to all objects of that class."
+    },
+    {
+      "key": "java/class_methods",
+      "slug": "class_methods",
+      "name": "Class Methods",
+      "desc": "Class methods, also known as static methods, are methods associated with a class rather than an instance of the class. They are called on the class itself and are often used for utility functions."
+    },
+    {
+      "key": "java/constructors",
+      "slug": "constructors",
+      "name": "Constructors",
+      "desc": "Constructors are special methods in Java used to initialize object instances. They have the same name as the class and are invoked when objects are created."
+    },
+    {
+      "key": "java/modifiers",
+      "slug": "modifiers",
+      "name": "Modifiers",
+      "desc": "Modifiers in Java are keywords that specify access levels, scope, and behavior of classes, methods, and variables. They include public, private, protected, static, final, and more."
+    },
+    {
+      "key": "java/packages_api",
+      "slug": "packages_api",
+      "name": "Packages / API",
+      "desc": "Java packages provide a way to organize and structure code. The Java API (Application Programming Interface) includes predefined classes and libraries for common tasks."
+    },
+    {
+      "key": "java/user_input",
+      "slug": "user_input",
+      "name": "User Input",
+      "desc": "User input handling involves taking input from users through various input devices or methods, such as the keyboard, mouse, or command-line interface."
+    },
+    {
+      "key": "java/date",
+      "slug": "date",
+      "name": "Date",
+      "desc": "The Date class in Java is used to work with dates and times. It provides methods for parsing, formatting, and manipulating date and time values."
+    },
+    {
+      "key": "java/oop",
+      "slug": "oop",
+      "name": "OOP",
+      "desc": "Object-Oriented Programming (OOP) is a programming paradigm that emphasizes objects, classes, and their interactions to model real-world entities."
+    },
+    {
+      "key": "java/inheritance",
+      "slug": "inheritance",
+      "name": "Inheritance",
+      "desc": "Inheritance in Java allows a class to inherit properties and behaviors from another class. It promotes code reuse and hierarchy."
+    },
+    {
+      "key": "java/polymorphism",
+      "slug": "polymorphism",
+      "name": "Polymorphism",
+      "desc": "Polymorphism enables objects of different classes to be treated as objects of a common superclass. It facilitates flexibility and dynamic method invocation."
+    },
+    {
+      "key": "java/encapsulation",
+      "slug": "encapsulation",
+      "name": "Encapsulation",
+      "desc": "Encapsulation is the concept of bundling data and methods that operate on the data within a single unit, or class. It provides data hiding and access control."
+    },
+    {
+      "key": "java/abstraction",
+      "slug": "abstraction",
+      "name": "Abstraction",
+      "desc": "Abstraction simplifies complex systems by representing the essential features while hiding implementation details. It is achieved through classes, methods, and interfaces."
+    },
+    {
+      "key": "java/interface",
+      "slug": "interface",
+      "name": "Interface",
+      "desc": "Interfaces define a contract for classes to implement. They enable multiple inheritance-like behavior and are used to achieve abstraction and polymorphism."
+    },
+    {
+      "key": "java/enums",
+      "slug": "enums",
+      "name": "Enums",
+      "desc": "Enums are special data types in Java for defining a set of constants. They are commonly used to represent a fixed set of values or options."
+    },
+    {
+      "key": "java/exceptions",
+      "slug": "exceptions",
+      "name": "Exceptions",
+      "desc": "Exceptions in Java are used to handle runtime errors and exceptional conditions. They allow for graceful error recovery and control flow."
+    },
+    {
+      "key": "java/wrapper_classes",
+      "slug": "wrapper_classes",
+      "name": "Wrapper Classes",
+      "desc": "Wrapper classes in Java provide a way to convert primitive data types into objects. They are often used in collections and when working with object-oriented concepts."
+    },
+    {
+      "key": "java/arraylist",
+      "slug": "arraylist",
+      "name": "ArrayList",
+      "desc": "ArrayList is a dynamic array-like data structure in Java that allows for the storage of elements of the same data type. It provides dynamic resizing and convenient methods."
+    },
+    {
+      "key": "java/linkedlist",
+      "slug": "linkedlist",
+      "name": "LinkedList",
+      "desc": "LinkedList is a data structure in Java that consists of a sequence of elements, each linked to the next element. It is efficient for insertions and deletions."
+    },
+    {
+      "key": "java/hashmap",
+      "slug": "hashmap",
+      "name": "HashMap",
+      "desc": "HashMap is a key-value pair data structure in Java that provides efficient retrieval and storage of elements. It is widely used for data mapping and caching."
+    },
+    {
+      "key": "java/hashset",
+      "slug": "hashset",
+      "name": "HashSet",
+      "desc": "HashSet is an implementation of the Set interface in Java, which represents an unordered collection of unique elements. It is useful for maintaining unique values."
+    },
+    {
+      "key": "java/iterator",
+      "slug": "iterator",
+      "name": "Iterator",
+      "desc": "Iterators in Java provide a way to traverse collections, such as lists and sets, and access their elements sequentially. They simplify the process of iterating through data."
+    },
+    {
+      "key": "java/inner_classes",
+      "slug": "inner_classes",
+      "name": "Inner Classes",
+      "desc": "Inner classes are classes defined within other classes. They can access outer class members and provide a way to logically group related classes together."
+    },
+    {
+      "key": "java/annotation",
+      "slug": "annotation",
+      "name": "Annotation",
+      "desc": "Annotations in Java provide metadata about classes, methods, and other program elements. They are used for documentation, code analysis, and influencing runtime behavior."
+    },
+    {
+      "key": "java/generics",
+      "slug": "generics",
+      "name": "Generics",
+      "desc": "Generics enable type parameterization in Java, allowing you to create classes, interfaces, and methods that operate on specified data types. They enhance code reusability and type safety."
+    },
+    {
+      "key": "java/format",
+      "slug": "format",
+      "name": "Format",
+      "desc": "Formatting in Java involves the presentation of data in a specific, well-defined manner. It includes formatting dates, numbers, and text."
+    },
+    {
+      "key": "java/reflect",
+      "slug": "reflect",
+      "name": "Reflect",
+      "desc": "Reflection in Java allows you to inspect and manipulate classes, methods, fields, and other program elements at runtime. It is often used for frameworks and advanced debugging."
+    },
+    {
+      "key": "java/serialization",
+      "slug": "serialization",
+      "name": "Serialization",
+      "desc": "Serialization is the process of converting Java objects into a byte stream for storage or transmission. It plays a crucial role in persisting object state."
+    },
+    {
+      "key": "java/jdbc",
+      "slug": "jdbc",
+      "name": "JDBC",
+      "desc": "JDBC is a Java API that provides a standard interface for connecting Java applications to relational databases. It allows for executing SQL queries, fetching results, and managing database connections in a Java program."
+    },
+    {
+      "key": "java/files",
+      "slug": "files",
+      "name": "Files",
+      "desc": "Working with files is a common task in Java. This skill covers file operations like creation, writing, reading, and deletion."
+    },
+    {
+      "key": "java/create_write_files",
+      "slug": "create_write_files",
+      "name": "Create/Write Files",
+      "desc": "Java provides mechanisms for creating and writing data to files. This skill covers file creation, writing, and data serialization."
+    },
+    {
+      "key": "java/read_files",
+      "slug": "read_files",
+      "name": "Read Files",
+      "desc": "Reading data from files is a common operation in Java. This skill includes techniques for reading text and binary data from files."
+    },
+    {
+      "key": "java/delete_files",
+      "slug": "delete_files",
+      "name": "Delete Files",
+      "desc": "Deleting files and directories is part of file management. This skill covers methods for deleting files and handling exceptions."
+    },
+    {
+      "key": "java/io",
+      "slug": "io",
+      "name": "IO",
+      "desc": "Input/Output (IO) operations in Java involve reading and writing data to various sources, such as files, streams, and network connections."
+    },
+    {
+      "key": "java/stream",
+      "slug": "stream",
+      "name": "Stream",
+      "desc": "Streams in Java allow for efficient reading and writing of data. They are used for processing large volumes of data or working with files and network resources."
+    },
+    {
+      "key": "java/nio",
+      "slug": "nio",
+      "name": "NIO",
+      "desc": "Java NIO is a modern, non-blocking IO framework that offers improved performance and scalability for network and file IO operations."
+    },
+    {
+      "key": "java/threads",
+      "slug": "threads",
+      "name": "Threads",
+      "desc": "Threads in Java allow for concurrent execution of tasks. Understanding thread management is crucial for efficient and responsive applications."
+    },
+    {
+      "key": "java/working",
+      "slug": "working",
+      "name": "Working",
+      "desc": "This skill encompasses various programming techniques and best practices when working with Java, including code organization, debugging, and project management."
+    },
+    {
+      "key": "java/net",
+      "slug": "net",
+      "name": "Net",
+      "desc": "Networking in Java involves communication between applications over a network. This skill covers socket programming, client-server communication, and network protocols."
+    },
+    {
+      "key": "java/xml_dom4j",
+      "slug": "xml_dom4j",
+      "name": "XML/Dom4j",
+      "desc": "XML/Dom4j is used in Java for parsing and manipulating XML documents. Dom4j is a popular Java library for XML processing."
+    },
+    {
+      "key": "java/math_methods",
+      "slug": "math_methods",
+      "name": "Math Methods",
+      "desc": "The Math class in Java provides a set of methods for performing various mathematical operations, such as trigonometry, logarithms, and rounding."
+    },
+    {
+      "key": "java/object_methods",
+      "slug": "object_methods",
+      "name": "Object Methods",
+      "desc": "Object methods in Java, such as equals, hashCode, and toString, are inherited from the Object class and can be overridden to customize object behavior."
+    },
+    {
+      "key": "java/string_methods",
+      "slug": "string_methods",
+      "name": "String Methods",
+      "desc": "Java offers a wide range of methods for manipulating strings, including concatenation, substring extraction, searching, and text formatting."
+    },
+    {
+      "key": "java/system_methods",
+      "slug": "system_methods",
+      "name": "System Methods",
+      "desc": "System methods in Java provide access to system-level operations, such as reading environment variables, managing input and output streams, and more."
+    }
+  ]
+}

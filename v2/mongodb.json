@@ -1,0 +1,1607 @@
+{
+  "key": "mongodb",
+  "slug": "mongodb",
+  "name": "MongoDB",
+  "skills": [
+    {
+      "key": "mongodb/databases_collections",
+      "slug": "databases_collections",
+      "name": "Databases and Collections",
+      "desc": "Databases and collections cover MongoDB namespace organization and collection lifecycle.",
+      "i18n": {
+        "zh": {
+          "name": "数据库和集合",
+          "desc": "数据库和集合涵盖 MongoDB 命名空间组织和集合生命周期。"
+        },
+        "es": {
+          "name": "Bases de datos y colecciones",
+          "desc": "Las bases de datos y las colecciones cubren la organización del espacio de nombres de MongoDB y el ciclo de vida de la colección."
+        },
+        "fr": {
+          "name": "Bases de données et collections",
+          "desc": "Les bases de données et les collections couvrent l’organisation des espaces de noms MongoDB et le cycle de vie des collections."
+        },
+        "de": {
+          "name": "Datenbanken und Sammlungen",
+          "desc": "Datenbanken und Sammlungen decken die Namespace-Organisation von MongoDB und den Sammlungslebenszyklus ab."
+        },
+        "ja": {
+          "name": "データベースとコレクション",
+          "desc": "データベースとコレクションは、MongoDB の名前空間の組織とコレクションのライフサイクルを扱います。"
+        },
+        "ru": {
+          "name": "Базы данных и коллекции",
+          "desc": "Базы данных и коллекции охватывают организацию пространства имен MongoDB и жизненный цикл коллекции."
+        },
+        "ko": {
+          "name": "데이터베이스 및 컬렉션",
+          "desc": "데이터베이스 및 컬렉션은 MongoDB 네임스페이스 구성 및 컬렉션 수명주기를 다룹니다."
+        },
+        "pt": {
+          "name": "Bancos de dados e coleções",
+          "desc": "Bancos de dados e coleções cobrem a organização de espaços de nomes do MongoDB e o ciclo de vida da coleção."
+        }
+      }
+    },
+    {
+      "key": "mongodb/documents",
+      "slug": "documents",
+      "name": "Documents",
+      "desc": "Documents cover JSON-like records as the primary unit of MongoDB data.",
+      "i18n": {
+        "zh": {
+          "name": "文档",
+          "desc": "文档涵盖类似 JSON 的记录作为 MongoDB 数据的主要单位。"
+        },
+        "es": {
+          "name": "Documentos",
+          "desc": "Los documentos cubren registros tipo JSON como unidad principal de datos de MongoDB."
+        },
+        "fr": {
+          "name": "Documents",
+          "desc": "Les documents couvrent les enregistrements de type JSON comme unité principale des données MongoDB."
+        },
+        "de": {
+          "name": "Dokumente",
+          "desc": "Dokumente umfassen JSON-ähnliche Datensätze als primäre Einheit von MongoDB-Daten."
+        },
+        "ja": {
+          "name": "ドキュメント",
+          "desc": "ドキュメントは、MongoDB データの主単位となる JSON 風のレコードを扱います。"
+        },
+        "ru": {
+          "name": "Документы",
+          "desc": "Документы охватывают JSON-подобные записи как основную единицу данных MongoDB."
+        },
+        "ko": {
+          "name": "문서",
+          "desc": "문서는 MongoDB 데이터의 기본 단위로 JSON과 유사한 기록을 다룹니다."
+        },
+        "pt": {
+          "name": "Documentos",
+          "desc": "Os documentos cobrem registros semelhantes a JSON como a unidade principal de dados do MongoDB."
+        }
+      }
+    },
+    {
+      "key": "mongodb/bson_types",
+      "slug": "bson_types",
+      "name": "BSON Types",
+      "desc": "BSON types cover MongoDB value types, embedded data, arrays, and type-aware behavior.",
+      "i18n": {
+        "zh": {
+          "name": "BSON 类型",
+          "desc": "BSON 类型涵盖 MongoDB 值类型、嵌入数据、数组和类型感知行为。"
+        },
+        "es": {
+          "name": "Tipos BSON",
+          "desc": "Los tipos BSON cubren tipos de valores de MongoDB, datos incrustados, arreglos y comportamiento con reconocimiento de tipos."
+        },
+        "fr": {
+          "name": "Types BSON",
+          "desc": "Les types BSON couvrent les types de valeurs MongoDB, les données intégrées, les tableaux et le comportement sensible au type."
+        },
+        "de": {
+          "name": "BSON-Typen",
+          "desc": "BSON-Typen decken MongoDB-Werttypen, eingebettete Daten, Arrays und typbewusstes Verhalten ab."
+        },
+        "ja": {
+          "name": "BSON 型",
+          "desc": "BSON 型は、MongoDB 値の型、埋め込みデータ、配列、および型認識動作を扱います。"
+        },
+        "ru": {
+          "name": "Типы BSON",
+          "desc": "Типы BSON охватывают типы значений MongoDB, встроенные данные, массивы и поведение с учетом типов."
+        },
+        "ko": {
+          "name": "BSON 유형",
+          "desc": "BSON 유형에는 MongoDB 값 유형, 내장 데이터, 배열 및 유형 인식 동작이 포함됩니다."
+        },
+        "pt": {
+          "name": "Tipos BSON",
+          "desc": "Os tipos BSON cobrem tipos de valor do MongoDB, dados incorporados, arrays e comportamento com reconhecimento de tipo."
+        }
+      }
+    },
+    {
+      "key": "mongodb/object_ids",
+      "slug": "object_ids",
+      "name": "Object IDs",
+      "desc": "Object IDs cover generated identifiers and their role in MongoDB documents.",
+      "i18n": {
+        "zh": {
+          "name": "ObjectId",
+          "desc": "ObjectId 涵盖生成的标识符及其在 MongoDB 文档中的作用。"
+        },
+        "es": {
+          "name": "ObjectId",
+          "desc": "ObjectId cubre los identificadores generados y su función en documentos MongoDB."
+        },
+        "fr": {
+          "name": "ObjectId",
+          "desc": "ObjectId couvre les identifiants générés et leur rôle dans les documents MongoDB."
+        },
+        "de": {
+          "name": "Objekt-IDs",
+          "desc": "Objekt-IDs decken generierte Identifikatoren und ihre Rolle in MongoDB-Dokumenten ab."
+        },
+        "ja": {
+          "name": "ObjectId",
+          "desc": "ObjectId は、生成された識別子と、MongoDB ドキュメント内での役割を扱います。"
+        },
+        "ru": {
+          "name": "Идентификаторы объектов",
+          "desc": "Идентификаторы объектов охватывают сгенерированные идентификаторы и их роль в MongoDB документах."
+        },
+        "ko": {
+          "name": "ObjectId",
+          "desc": "ObjectId는 생성된 식별자와 MongoDB 문서에서의 역할을 다룹니다."
+        },
+        "pt": {
+          "name": "ObjectId",
+          "desc": "ObjectId cobre identificadores gerados e sua função em documentos MongoDB."
+        }
+      }
+    },
+    {
+      "key": "mongodb/collection_validation",
+      "slug": "collection_validation",
+      "name": "Collection Validation",
+      "desc": "Collection validation covers schema rules that constrain document structure.",
+      "i18n": {
+        "zh": {
+          "name": "集合验证",
+          "desc": "集合验证涵盖约束文档结构的模式规则。"
+        },
+        "es": {
+          "name": "Validación de colección",
+          "desc": "La validación de la colección cubre reglas de esquema que restringen la estructura del documento."
+        },
+        "fr": {
+          "name": "Validation de collection",
+          "desc": "La validation de collection couvre les règles de schéma qui contraignent la structure du document."
+        },
+        "de": {
+          "name": "Collection-Validierung",
+          "desc": "Die Collection-Validierung umfasst Schemaregeln, die die Dokumentstruktur einschränken."
+        },
+        "ja": {
+          "name": "コレクションの検証",
+          "desc": "コレクションの検証では、ドキュメント構造を制約するスキーマルールを扱います。"
+        },
+        "ru": {
+          "name": "Проверка коллекции",
+          "desc": "Проверка коллекции охватывает правила схемы, ограничивающие структуру документа."
+        },
+        "ko": {
+          "name": "컬렉션 검증",
+          "desc": "컬렉션 유효성 검사에는 문서 구조를 제한하는 스키마 규칙이 포함됩니다."
+        },
+        "pt": {
+          "name": "Validação de Coleção",
+          "desc": "A validação de coleção abrange regras de esquema que restringem a estrutura do documento."
+        }
+      }
+    },
+    {
+      "key": "mongodb/document_insertion",
+      "slug": "document_insertion",
+      "name": "Document Insertion",
+      "desc": "Document insertion covers adding single or multiple documents with expected write behavior.",
+      "i18n": {
+        "zh": {
+          "name": "文档插入",
+          "desc": "文档插入包括添加具有预期写入行为的单个或多个文档。"
+        },
+        "es": {
+          "name": "Inserción de documentos",
+          "desc": "La inserción de documentos cubre la adición de uno o varios documentos con el comportamiento de escritura esperado."
+        },
+        "fr": {
+          "name": "Insertion de documents",
+          "desc": "L'insertion de documents couvre l'ajout d'un ou de plusieurs documents avec le comportement d'écriture attendu."
+        },
+        "de": {
+          "name": "Einfügen von Dokumenten",
+          "desc": "Das Einfügen von Dokumenten umfasst das Hinzufügen einzelner oder mehrerer Dokumente mit dem erwarteten Schreibverhalten."
+        },
+        "ja": {
+          "name": "ドキュメントの挿入",
+          "desc": "ドキュメントの挿入では、予想される書き込み動作を伴う単一または複数のドキュメントの追加を扱います。"
+        },
+        "ru": {
+          "name": "Вставка документов",
+          "desc": "Вставка документа включает добавление одного или нескольких документов с ожидаемым поведением при записи."
+        },
+        "ko": {
+          "name": "문서 삽입",
+          "desc": "문서 삽입에는 예상되는 쓰기 동작으로 단일 또는 여러 문서를 추가하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Inserção de Documento",
+          "desc": "A inserção de documentos abrange a adição de um ou vários documentos com comportamento de gravação esperado."
+        }
+      }
+    },
+    {
+      "key": "mongodb/document_retrieval",
+      "slug": "document_retrieval",
+      "name": "Document Retrieval",
+      "desc": "Document retrieval covers finding documents by filters, identifiers, and query shape.",
+      "i18n": {
+        "zh": {
+          "name": "文档检索",
+          "desc": "文档检索涵盖通过过滤器、标识符和查询形状检索文档。"
+        },
+        "es": {
+          "name": "Recuperación de documentos",
+          "desc": "La recuperación de documentos cubre la búsqueda de documentos mediante filtros, identificadores y forma de consulta."
+        },
+        "fr": {
+          "name": "Récupération de documents",
+          "desc": "La récupération de documents couvre la recherche de documents par filtres, identifiants et forme de requête."
+        },
+        "de": {
+          "name": "Dokumentenabruf",
+          "desc": "Der Dokumentenabruf umfasst das Auffinden von Dokumenten anhand von Filtern, Bezeichnern und Abfrageformen."
+        },
+        "ja": {
+          "name": "ドキュメントの検索",
+          "desc": "ドキュメントの検索は、フィルター、識別子、およびクエリ形状によってドキュメントを探す方法を扱います。"
+        },
+        "ru": {
+          "name": "Поиск документов",
+          "desc": "Поиск документов включает поиск документов по фильтрам, идентификаторам и форме запроса."
+        },
+        "ko": {
+          "name": "문서 검색",
+          "desc": "문서 검색에는 필터, 식별자 및 쿼리 형태를 기준으로 문서를 찾는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Recuperação de Documentos",
+          "desc": "A recuperação de documentos abrange a localização de documentos por filtros, identificadores e formato de consulta."
+        }
+      }
+    },
+    {
+      "key": "mongodb/document_updates",
+      "slug": "document_updates",
+      "name": "Document Updates",
+      "desc": "Document updates cover changing documents with update operators and replacement behavior.",
+      "i18n": {
+        "zh": {
+          "name": "文档更新",
+          "desc": "文档更新涵盖使用更新操作符和替换行为更改文档。"
+        },
+        "es": {
+          "name": "Actualizaciones de documentos",
+          "desc": "Las actualizaciones de documentos cubren el cambio de documentos con operadores de actualización y comportamiento de reemplazo."
+        },
+        "fr": {
+          "name": "Mises à jour des documents",
+          "desc": "Les mises à jour de documents couvrent la modification des documents avec les opérateurs de mise à jour et le remplacement de documents."
+        },
+        "de": {
+          "name": "Dokumentaktualisierungen",
+          "desc": "Dokumentaktualisierungen umfassen das Ändern von Dokumenten mit Aktualisierungsoperatoren und Ersetzungsverhalten."
+        },
+        "ja": {
+          "name": "ドキュメントの更新",
+          "desc": "ドキュメントの更新には、更新演算子と置換動作を使用したドキュメントの変更が含まれます。"
+        },
+        "ru": {
+          "name": "Обновления документов",
+          "desc": "Обновления документов охватывают изменение документов с помощью операторов обновления и поведения замены."
+        },
+        "ko": {
+          "name": "문서 업데이트",
+          "desc": "문서 업데이트에는 업데이트 연산자 및 대체 동작을 사용하여 문서 변경이 포함됩니다."
+        },
+        "pt": {
+          "name": "Atualizações de documentos",
+          "desc": "As atualizações de documentos abrangem a alteração de documentos com operadores de atualização e comportamento de substituição."
+        }
+      }
+    },
+    {
+      "key": "mongodb/document_deletion",
+      "slug": "document_deletion",
+      "name": "Document Deletion",
+      "desc": "Document deletion covers removing documents safely and deliberately.",
+      "i18n": {
+        "zh": {
+          "name": "文档删除",
+          "desc": "文档删除包括安全且有意地删除文档。"
+        },
+        "es": {
+          "name": "Eliminación de documentos",
+          "desc": "La eliminación de documentos cubre la eliminación de documentos de forma segura y deliberada."
+        },
+        "fr": {
+          "name": "Suppression de documents",
+          "desc": "La suppression de documents couvre la suppression de documents en toute sécurité et délibérément."
+        },
+        "de": {
+          "name": "Dokumentlöschung",
+          "desc": "Unter Dokumentenlöschung versteht man das sichere und bewusste Entfernen von Dokumenten."
+        },
+        "ja": {
+          "name": "ドキュメントの削除",
+          "desc": "ドキュメントの削除は、ドキュメントを安全かつ意図的に削除する方法を扱います。"
+        },
+        "ru": {
+          "name": "Удаление документов",
+          "desc": "Удаление документов подразумевает безопасное и преднамеренное удаление документов."
+        },
+        "ko": {
+          "name": "문서 삭제",
+          "desc": "문서 삭제에는 문서를 안전하고 의도적으로 제거하는 것이 포함됩니다."
+        },
+        "pt": {
+          "name": "Exclusão de documento",
+          "desc": "A exclusão de documentos abrange a remoção de documentos de forma segura e deliberada."
+        }
+      }
+    },
+    {
+      "key": "mongodb/bulk_writes",
+      "slug": "bulk_writes",
+      "name": "Bulk Writes",
+      "desc": "Bulk writes cover batching inserts, updates, and deletes for efficiency and consistency.",
+      "i18n": {
+        "zh": {
+          "name": "批量写入",
+          "desc": "批量写入涵盖批量插入、更新和删除，以提高效率和一致性。"
+        },
+        "es": {
+          "name": "Escrituras masivas",
+          "desc": "Las escrituras masivas cubren inserciones, actualizaciones y eliminaciones por lotes para lograr eficiencia y coherencia."
+        },
+        "fr": {
+          "name": "Écritures groupées",
+          "desc": "Les écritures en masse couvrent les insertions, les mises à jour et les suppressions par lots pour plus d'efficacité et de cohérence."
+        },
+        "de": {
+          "name": "Massenschreibvorgänge",
+          "desc": "Massenschreibvorgänge umfassen Batch-Einfügungen, Aktualisierungen und Löschungen für Effizienz und Konsistenz."
+        },
+        "ja": {
+          "name": "一括書き込み",
+          "desc": "一括書き込みでは、効率と一貫性を確保するために挿入、更新、削除のバッチ処理が行われます。"
+        },
+        "ru": {
+          "name": "Массовая запись",
+          "desc": "Массовая запись охватывает пакетные вставки, обновления и удаления для обеспечения эффективности и согласованности."
+        },
+        "ko": {
+          "name": "대량 쓰기",
+          "desc": "대량 쓰기는 효율성과 일관성을 위해 삽입, 업데이트 및 삭제를 일괄 처리하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Gravações em massa",
+          "desc": "As gravações em massa abrangem inserções, atualizações e exclusões em lote para eficiência e consistência."
+        }
+      }
+    },
+    {
+      "key": "mongodb/write_acknowledgement",
+      "slug": "write_acknowledgement",
+      "name": "Write Acknowledgement",
+      "desc": "Write acknowledgement covers how MongoDB reports durability and success of write operations.",
+      "i18n": {
+        "zh": {
+          "name": "写入确认",
+          "desc": "写入确认涵盖 MongoDB 如何报告写入操作的持久性和成功状态。"
+        },
+        "es": {
+          "name": "Confirmación de escritura",
+          "desc": "La confirmación de escritura cubre cómo MongoDB informa la durabilidad y el éxito de las operaciones de escritura."
+        },
+        "fr": {
+          "name": "Accusé de réception d’écriture",
+          "desc": "L’accusé de réception d’écriture explique comment MongoDB signale la durabilité et la réussite des opérations d’écriture."
+        },
+        "de": {
+          "name": "Schreibbestätigung",
+          "desc": "Die Schreibbestätigung behandelt, wie MongoDB Dauerhaftigkeit und Erfolg von Schreibvorgängen meldet."
+        },
+        "ja": {
+          "name": "書き込み確認",
+          "desc": "書き込み確認は、MongoDB が書き込み操作の永続性と成功をどのように報告するかを扱います。"
+        },
+        "ru": {
+          "name": "Подтверждение записи",
+          "desc": "Подтверждение записи описывает, как MongoDB сообщает о долговечности и успешности операций записи."
+        },
+        "ko": {
+          "name": "쓰기 확인",
+          "desc": "쓰기 확인은 MongoDB가 쓰기 작업의 내구성과 성공 여부를 보고하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Confirmação de escrita",
+          "desc": "A confirmação de escrita cobre como o MongoDB relata a durabilidade e o sucesso das operações de escrita."
+        }
+      }
+    },
+    {
+      "key": "mongodb/query_filters",
+      "slug": "query_filters",
+      "name": "Query Filters",
+      "desc": "Query filters cover matching documents by fields, operators, and nested values.",
+      "i18n": {
+        "zh": {
+          "name": "查询过滤器",
+          "desc": "查询过滤器涵盖按字段、运算符和嵌套值匹配的文档。"
+        },
+        "es": {
+          "name": "Filtros de consulta",
+          "desc": "Los filtros de consulta cubren documentos coincidentes por campos, operadores y valores anidados."
+        },
+        "fr": {
+          "name": "Filtres de requête",
+          "desc": "Les filtres de requête couvrent la correspondance de documents par champs, opérateurs et valeurs imbriquées."
+        },
+        "de": {
+          "name": "Abfragefilter",
+          "desc": "Abfragefilter decken übereinstimmende Dokumente nach Feldern, Operatoren und verschachtelten Werten ab."
+        },
+        "ja": {
+          "name": "クエリフィルター",
+          "desc": "クエリフィルターは、フィールド、演算子、およびネストされた値による一致するドキュメントを扱います。"
+        },
+        "ru": {
+          "name": "Фильтры запросов",
+          "desc": "Фильтры запросов охватывают сопоставление документов по полям, операторам и вложенным значениям."
+        },
+        "ko": {
+          "name": "쿼리 필터",
+          "desc": "쿼리 필터는 필드, 연산자 및 중첩 값으로 문서를 매칭하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Filtros de consulta",
+          "desc": "Os filtros de consulta abrangem documentos correspondentes por campos, operadores e valores aninhados."
+        }
+      }
+    },
+    {
+      "key": "mongodb/projections",
+      "slug": "projections",
+      "name": "Projections",
+      "desc": "Projections cover selecting returned fields and shaping query output.",
+      "i18n": {
+        "zh": {
+          "name": "投影",
+          "desc": "投影涵盖选择返回字段并塑造查询输出。"
+        },
+        "es": {
+          "name": "Proyecciones",
+          "desc": "Las proyecciones cubren la selección de campos devueltos y la configuración del resultado de la consulta."
+        },
+        "fr": {
+          "name": "Projections",
+          "desc": "Les projections couvrent la sélection des champs renvoyés et la mise en forme du résultat des requêtes."
+        },
+        "de": {
+          "name": "Projektionen",
+          "desc": "Die Projektionen umfassen die Auswahl zurückgegebener Felder und die Gestaltung der Abfrageausgabe."
+        },
+        "ja": {
+          "name": "プロジェクション",
+          "desc": "プロジェクションには、返されたフィールドの選択とクエリ出力の形成が含まれます。"
+        },
+        "ru": {
+          "name": "Проекции",
+          "desc": "Проекции охватывают выбор возвращаемых полей и формирование результатов запроса."
+        },
+        "ko": {
+          "name": "프로젝션",
+          "desc": "프로젝션은 반환할 필드 선택과 쿼리 출력 형성을 다룹니다."
+        },
+        "pt": {
+          "name": "Projeções",
+          "desc": "As projeções cobrem a seleção de campos retornados e a modelagem da saída da consulta."
+        }
+      }
+    },
+    {
+      "key": "mongodb/sorting_pagination",
+      "slug": "sorting_pagination",
+      "name": "Sorting and Pagination",
+      "desc": "Sorting and pagination cover ordering result sets and returning bounded slices.",
+      "i18n": {
+        "zh": {
+          "name": "排序和分页",
+          "desc": "排序和分页涵盖对结果集排序并返回受限切片。"
+        },
+        "es": {
+          "name": "Ordenación y paginación",
+          "desc": "La ordenación y la paginación cubren ordenar conjuntos de resultados y devolver porciones delimitadas."
+        },
+        "fr": {
+          "name": "Tri et pagination",
+          "desc": "Le tri et la pagination couvrent le tri des ensembles de résultats et le renvoi de tranches délimitées."
+        },
+        "de": {
+          "name": "Sortierung und Paginierung",
+          "desc": "Sortierung und Paginierung umfassen das Sortieren von Ergebnismengen und die Rückgabe begrenzter Slices."
+        },
+        "ja": {
+          "name": "並べ替えとページネーション",
+          "desc": "並べ替えとページネーションでは、結果セットの順序付けと、境界のあるスライスの返しを扱います。"
+        },
+        "ru": {
+          "name": "Сортировка и пагинация",
+          "desc": "Сортировка и пагинация позволяют упорядочивать наборы результатов и возвращать ограниченные фрагменты."
+        },
+        "ko": {
+          "name": "정렬 및 페이지 매김",
+          "desc": "정렬 및 페이지 매김은 결과 집합 순서 지정과 제한된 슬라이스 반환을 다룹니다."
+        },
+        "pt": {
+          "name": "Ordenação e paginação",
+          "desc": "A ordenação e a paginação abrangem ordenar conjuntos de resultados e retornar subconjuntos delimitados."
+        }
+      }
+    },
+    {
+      "key": "mongodb/array_queries",
+      "slug": "array_queries",
+      "name": "Array Queries",
+      "desc": "Array queries cover matching and projecting values inside arrays.",
+      "i18n": {
+        "zh": {
+          "name": "数组查询",
+          "desc": "数组查询涵盖数组内的匹配和投影值。"
+        },
+        "es": {
+          "name": "Consultas de arrays",
+          "desc": "Las consultas de arrays cubren la coincidencia y la proyección de valores dentro de arrays."
+        },
+        "fr": {
+          "name": "Requêtes sur les tableaux",
+          "desc": "Les requêtes sur les tableaux couvrent la correspondance et la projection des valeurs à l'intérieur des tableaux."
+        },
+        "de": {
+          "name": "Array-Abfragen",
+          "desc": "Array-Abfragen umfassen das Abgleichen und Projizieren von Werten innerhalb von Arrays."
+        },
+        "ja": {
+          "name": "配列クエリ",
+          "desc": "配列クエリは、配列内の値の照合と射影を扱います。"
+        },
+        "ru": {
+          "name": "Запросы к массиву",
+          "desc": "Запросы к массивам охватывают сопоставление и проецирование значений внутри массивов."
+        },
+        "ko": {
+          "name": "배열 쿼리",
+          "desc": "배열 쿼리는 배열 내부의 값 일치 및 투영을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas de arrays",
+          "desc": "As consultas de array cobrem a correspondência e a projeção de valores dentro de arrays."
+        }
+      }
+    },
+    {
+      "key": "mongodb/embedded_document_queries",
+      "slug": "embedded_document_queries",
+      "name": "Embedded Document Queries",
+      "desc": "Embedded document queries cover matching nested fields and embedded structures.",
+      "i18n": {
+        "zh": {
+          "name": "嵌入文档查询",
+          "desc": "嵌入式文档查询涵盖匹配嵌套字段和嵌入式结构。"
+        },
+        "es": {
+          "name": "Consultas de documentos incrustados",
+          "desc": "Las consultas de documentos incrustados cubren campos anidados coincidentes y estructuras incrustadas."
+        },
+        "fr": {
+          "name": "Requêtes de documents intégrées",
+          "desc": "Les requêtes de documents intégrés couvrent les champs imbriqués correspondants et les structures intégrées."
+        },
+        "de": {
+          "name": "Abfragen eingebetteter Dokumente",
+          "desc": "Abfragen für eingebettete Dokumente decken übereinstimmende verschachtelte Felder und eingebettete Strukturen ab."
+        },
+        "ja": {
+          "name": "埋め込みドキュメントクエリ",
+          "desc": "埋め込みドキュメントクエリは、ネストされたフィールドと埋め込み構造の照合を扱います。"
+        },
+        "ru": {
+          "name": "Запросы встроенных документов",
+          "desc": "Запросы встроенных документов охватывают сопоставление вложенных полей и встроенных структур."
+        },
+        "ko": {
+          "name": "포함된 문서 쿼리",
+          "desc": "포함된 문서 쿼리는 일치하는 중첩 필드와 포함된 구조를 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas de documentos incorporados",
+          "desc": "As consultas de documentos incorporados abrangem campos aninhados e estruturas incorporadas correspondentes."
+        }
+      }
+    },
+    {
+      "key": "mongodb/single_field_indexes",
+      "slug": "single_field_indexes",
+      "name": "Single-Field Indexes",
+      "desc": "Single-field indexes cover indexing one field to improve common lookups.",
+      "i18n": {
+        "zh": {
+          "name": "单字段索引",
+          "desc": "单字段索引涵盖对一个字段进行索引以改进常见查找。"
+        },
+        "es": {
+          "name": "Índices de campo único",
+          "desc": "Los índices de campo único cubren la indexación de un campo para mejorar las búsquedas comunes."
+        },
+        "fr": {
+          "name": "Index à champ unique",
+          "desc": "Les index à champ unique couvrent l'indexation d'un champ pour améliorer les recherches courantes."
+        },
+        "de": {
+          "name": "Einzelfeldindizes",
+          "desc": "Einzelfeldindizes umfassen die Indizierung eines Felds, um allgemeine Suchvorgänge zu verbessern."
+        },
+        "ja": {
+          "name": "単一フィールドのインデックス",
+          "desc": "単一フィールドインデックスは、1 つのフィールドのインデックス作成を扱い、一般的な検索を改善します。"
+        },
+        "ru": {
+          "name": "Однополевые индексы",
+          "desc": "Индексы по одному полю охватывают индексирование одного поля, чтобы улучшить общий поиск."
+        },
+        "ko": {
+          "name": "단일 필드 인덱스",
+          "desc": "단일 필드 인덱스는 하나의 필드를 인덱싱하여 일반적인 조회를 개선합니다."
+        },
+        "pt": {
+          "name": "Índices de campo único",
+          "desc": "Os índices de campo único cobrem a indexação de um campo para melhorar pesquisas comuns."
+        }
+      }
+    },
+    {
+      "key": "mongodb/compound_indexes",
+      "slug": "compound_indexes",
+      "name": "Compound Indexes",
+      "desc": "Compound indexes cover indexing multiple fields for combined query patterns.",
+      "i18n": {
+        "zh": {
+          "name": "复合索引",
+          "desc": "复合索引涵盖为组合查询模式索引多个字段。"
+        },
+        "es": {
+          "name": "Índices compuestos",
+          "desc": "Los índices compuestos cubren la indexación de múltiples campos para patrones de consulta combinados."
+        },
+        "fr": {
+          "name": "Index composés",
+          "desc": "Les index composés couvrent l'indexation de plusieurs champs pour des modèles de requête combinés."
+        },
+        "de": {
+          "name": "Zusammengesetzte Indizes",
+          "desc": "Zusammengesetzte Indizes umfassen die Indizierung mehrerer Felder für kombinierte Abfragemuster."
+        },
+        "ja": {
+          "name": "複合インデックス",
+          "desc": "複合インデックスは、クエリパターンを組み合わせた複数のフィールドのインデックス作成を扱います。"
+        },
+        "ru": {
+          "name": "Составные индексы",
+          "desc": "Составные индексы охватывают индексирование нескольких полей для комбинированных шаблонов запросов."
+        },
+        "ko": {
+          "name": "복합 인덱스",
+          "desc": "복합 인덱스는 결합된 쿼리 패턴에 대한 여러 필드의 인덱싱을 다룹니다."
+        },
+        "pt": {
+          "name": "Índices Compostos",
+          "desc": "Os índices compostos abrangem a indexação de vários campos para padrões de consulta combinados."
+        }
+      }
+    },
+    {
+      "key": "mongodb/unique_indexes",
+      "slug": "unique_indexes",
+      "name": "Unique Indexes",
+      "desc": "Unique indexes cover enforcing uniqueness through index definitions.",
+      "i18n": {
+        "zh": {
+          "name": "唯一索引",
+          "desc": "唯一索引涵盖通过索引定义强制执行唯一性。"
+        },
+        "es": {
+          "name": "Índices únicos",
+          "desc": "Los índices únicos cubren el cumplimiento de la unicidad a través de definiciones de índice."
+        },
+        "fr": {
+          "name": "Index uniques",
+          "desc": "Les index uniques couvrent l’application de l’unicité via des définitions d’index."
+        },
+        "de": {
+          "name": "Eindeutige Indizes",
+          "desc": "Eindeutige Indizes umfassen die Durchsetzung der Eindeutigkeit durch Indexdefinitionen."
+        },
+        "ja": {
+          "name": "一意のインデックス",
+          "desc": "一意のインデックスは、インデックス定義による一意性の強制を扱います。"
+        },
+        "ru": {
+          "name": "Уникальные индексы",
+          "desc": "Уникальные индексы обеспечивают уникальность посредством определений индексов."
+        },
+        "ko": {
+          "name": "고유 인덱스",
+          "desc": "고유 인덱스는 인덱스 정의를 통해 고유성을 적용합니다."
+        },
+        "pt": {
+          "name": "Índices Únicos",
+          "desc": "Índices exclusivos cobrem a imposição de exclusividade por meio de definições de índice."
+        }
+      }
+    },
+    {
+      "key": "mongodb/index_selection",
+      "slug": "index_selection",
+      "name": "Index Selection",
+      "desc": "Index selection covers matching indexes to query shape and sort behavior.",
+      "i18n": {
+        "zh": {
+          "name": "索引选择",
+          "desc": "索引选择涵盖将索引与查询形状和排序行为相匹配。"
+        },
+        "es": {
+          "name": "Selección de índice",
+          "desc": "La selección de índices cubre hacer coincidir los índices con la forma de la consulta y el comportamiento de ordenación."
+        },
+        "fr": {
+          "name": "Sélection d'indice",
+          "desc": "La sélection d'index couvre la correspondance des index avec la forme de la requête et le comportement de tri."
+        },
+        "de": {
+          "name": "Indexauswahl",
+          "desc": "Die Indexauswahl umfasst passende Indizes zur Abfrageform und zum Sortierverhalten."
+        },
+        "ja": {
+          "name": "インデックスの選択",
+          "desc": "インデックスの選択では、インデックスの照合とクエリの形状および並べ替え動作を扱います。"
+        },
+        "ru": {
+          "name": "Выбор индекса",
+          "desc": "Выбор индекса охватывает сопоставление индексов с формой запроса и поведением сортировки."
+        },
+        "ko": {
+          "name": "인덱스 선택",
+          "desc": "인덱스 선택은 쿼리 형태와 정렬 동작에 맞는 인덱스를 선택하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Seleção de índice",
+          "desc": "A seleção de índice abrange a correspondência de índices com o formato da consulta e o comportamento de ordenação."
+        }
+      }
+    },
+    {
+      "key": "mongodb/query_explain",
+      "slug": "query_explain",
+      "name": "Query Explain",
+      "desc": "Query explain covers interpreting MongoDB execution plans and index usage.",
+      "i18n": {
+        "zh": {
+          "name": "查询执行计划分析",
+          "desc": "查询执行计划分析涵盖解读 MongoDB 执行计划和索引使用情况。"
+        },
+        "es": {
+          "name": "Análisis de explain",
+          "desc": "El análisis de explain cubre la interpretación de planes de ejecución de MongoDB y el uso de índices."
+        },
+        "fr": {
+          "name": "Analyse explain",
+          "desc": "L’analyse explain couvre l’interprétation des plans d’exécution MongoDB et de l’utilisation des index."
+        },
+        "de": {
+          "name": "Explain-Analyse",
+          "desc": "Die Explain-Analyse behandelt die Interpretation von MongoDB-Ausführungsplänen und Indexnutzung."
+        },
+        "ja": {
+          "name": "Explain 分析",
+          "desc": "Explain 分析は、MongoDB の実行計画とインデックス使用状況の解釈を扱います。"
+        },
+        "ru": {
+          "name": "Анализ explain",
+          "desc": "Анализ explain охватывает интерпретацию планов выполнения MongoDB и использования индексов."
+        },
+        "ko": {
+          "name": "Explain 분석",
+          "desc": "Explain 분석은 MongoDB 실행 계획과 인덱스 사용을 해석하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Análise de explain",
+          "desc": "A análise de explain cobre a interpretação de planos de execução do MongoDB e do uso de índices."
+        }
+      }
+    },
+    {
+      "key": "mongodb/performance_tuning",
+      "slug": "performance_tuning",
+      "name": "Performance Tuning",
+      "desc": "Performance tuning covers improving MongoDB queries using indexes, schema shape, and execution evidence.",
+      "i18n": {
+        "zh": {
+          "name": "性能调优",
+          "desc": "性能调优涵盖使用索引、模式结构和执行计划信息改进 MongoDB 查询。"
+        },
+        "es": {
+          "name": "Ajuste de rendimiento",
+          "desc": "El ajuste del rendimiento cubre la mejora de consultas MongoDB mediante índices, forma del esquema e información de ejecución."
+        },
+        "fr": {
+          "name": "Optimisation des performances",
+          "desc": "L’optimisation des performances couvre l’amélioration des requêtes MongoDB à l’aide d’index, de la forme du schéma et d’informations d’exécution."
+        },
+        "de": {
+          "name": "Leistungsoptimierung",
+          "desc": "Die Leistungsoptimierung behandelt die Verbesserung von MongoDB-Abfragen mithilfe von Indizes, Schemaform und Ausführungsinformationen."
+        },
+        "ja": {
+          "name": "パフォーマンスチューニング",
+          "desc": "パフォーマンスチューニングは、インデックス、スキーマ形状、実行計画情報を使って MongoDB クエリを改善することを扱います。"
+        },
+        "ru": {
+          "name": "Настройка производительности",
+          "desc": "Настройка производительности включает улучшение запросов MongoDB с использованием индексов, формы схемы и сведений о выполнении."
+        },
+        "ko": {
+          "name": "성능 튜닝",
+          "desc": "성능 튜닝은 인덱스, 스키마 형태, 실행 정보를 사용하여 MongoDB 쿼리를 개선하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Ajuste de desempenho",
+          "desc": "O ajuste de desempenho abrange a melhoria de consultas MongoDB usando índices, formato do esquema e informações de execução."
+        }
+      }
+    },
+    {
+      "key": "mongodb/aggregation_pipeline",
+      "slug": "aggregation_pipeline",
+      "name": "Aggregation Pipeline",
+      "desc": "Aggregation pipeline covers processing documents through ordered transformation stages.",
+      "i18n": {
+        "zh": {
+          "name": "聚合管道",
+          "desc": "聚合管道涵盖通过有序转换阶段处理文档。"
+        },
+        "es": {
+          "name": "Pipeline de agregación",
+          "desc": "El pipeline de agregación cubre el procesamiento de documentos a través de etapas de transformación ordenadas."
+        },
+        "fr": {
+          "name": "Pipeline d’agrégation",
+          "desc": "Le pipeline d'agrégation couvre le traitement des documents à travers des étapes de transformation ordonnées."
+        },
+        "de": {
+          "name": "Aggregationspipeline",
+          "desc": "Die Aggregationspipeline umfasst die Verarbeitung von Dokumenten über geordnete Transformationsstufen."
+        },
+        "ja": {
+          "name": "集約パイプライン",
+          "desc": "集約パイプラインは、順序付けられた変換ステージを通じてドキュメントの処理を扱います。"
+        },
+        "ru": {
+          "name": "Конвейер агрегации",
+          "desc": "Конвейер агрегации охватывает обработку документов через упорядоченные этапы преобразования."
+        },
+        "ko": {
+          "name": "집계 파이프라인",
+          "desc": "집계 파이프라인은 순서가 지정된 변환 단계를 통해 문서 처리를 다룹니다."
+        },
+        "pt": {
+          "name": "Pipeline de agregação",
+          "desc": "O pipeline de agregação cobre o processamento de documentos por meio de estágios de transformação ordenados."
+        }
+      }
+    },
+    {
+      "key": "mongodb/matching_grouping",
+      "slug": "matching_grouping",
+      "name": "Matching and Grouping",
+      "desc": "Matching and grouping cover filtering and summarizing documents inside aggregation pipelines.",
+      "i18n": {
+        "zh": {
+          "name": "匹配和分组",
+          "desc": "匹配和分组涵盖聚合管道内的过滤和汇总文档。"
+        },
+        "es": {
+          "name": "Coincidencia y agrupación",
+          "desc": "La coincidencia y la agrupación cubren el filtrado y el resumen de documentos dentro de pipelines de agregación."
+        },
+        "fr": {
+          "name": "Correspondance et regroupement",
+          "desc": "La correspondance et le regroupement couvrent le filtrage et la synthèse des documents dans les pipelines d'agrégation."
+        },
+        "de": {
+          "name": "Matching und Gruppierung",
+          "desc": "Matching und Gruppierung umfassen das Filtern und Zusammenfassen von Dokumenten innerhalb von Aggregationspipelines."
+        },
+        "ja": {
+          "name": "マッチングとグループ化",
+          "desc": "マッチングとグループ化は、集約パイプライン内のドキュメントのフィルタリングと要約を扱います。"
+        },
+        "ru": {
+          "name": "Сопоставление и группировка",
+          "desc": "Сопоставление и группировка охватывают фильтрацию и обобщение документов внутри конвейеров агрегирования."
+        },
+        "ko": {
+          "name": "일치 및 그룹화",
+          "desc": "일치 및 그룹화는 집계 파이프라인 내에서 문서를 필터링하고 요약하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Correspondência e agrupamento",
+          "desc": "A correspondência e o agrupamento cobrem a filtragem e o resumo de documentos dentro de pipelines de agregação."
+        }
+      }
+    },
+    {
+      "key": "mongodb/projection_transformation",
+      "slug": "projection_transformation",
+      "name": "Projection and Transformation",
+      "desc": "Projection and transformation cover reshaping documents in query and aggregation results.",
+      "i18n": {
+        "zh": {
+          "name": "投影与变换",
+          "desc": "投影和转换涵盖了查询和聚合结果中文档的重塑。"
+        },
+        "es": {
+          "name": "Proyección y Transformación",
+          "desc": "La proyección y la transformación cubren la remodelación de documentos en consultas y resultados de agregación."
+        },
+        "fr": {
+          "name": "Projection et transformation",
+          "desc": "La projection et la transformation couvrent la restructuration des documents dans les résultats de requête et d’agrégation."
+        },
+        "de": {
+          "name": "Projektion und Transformation",
+          "desc": "Projektion und Transformation umfassen die Umformung von Dokumenten in Abfrage- und Aggregationsergebnissen."
+        },
+        "ja": {
+          "name": "投影と変換",
+          "desc": "投影と変換は、クエリ結果および集計結果内のドキュメントの再構成を扱います。"
+        },
+        "ru": {
+          "name": "Проекция и трансформация",
+          "desc": "Проекция и преобразование охватывают изменение формы документов в результатах запроса и агрегирования."
+        },
+        "ko": {
+          "name": "투영 및 변환",
+          "desc": "프로젝션 및 변환은 쿼리 및 집계 결과의 문서 재구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Projeção e Transformação",
+          "desc": "A projeção e a transformação abrangem a remodelagem de documentos em resultados de consulta e agregação."
+        }
+      }
+    },
+    {
+      "key": "mongodb/array_unwinding",
+      "slug": "array_unwinding",
+      "name": "Array Unwinding",
+      "desc": "Array unwinding covers expanding array elements for aggregation processing.",
+      "i18n": {
+        "zh": {
+          "name": "数组展开",
+          "desc": "数组展开涵盖使用 unwind 将数组元素展开为聚合处理中的独立文档。"
+        },
+        "es": {
+          "name": "Unwind de arrays",
+          "desc": "El unwind de arrays cubre expandir elementos de arrays para el procesamiento de agregación."
+        },
+        "fr": {
+          "name": "Unwind de tableaux",
+          "desc": "L'unwind de tableaux couvre l'expansion des éléments de tableaux pour le traitement d'agrégation."
+        },
+        "de": {
+          "name": "Array-Unwind",
+          "desc": "Array-Unwind umfasst das Erweitern von Array-Elementen für die Aggregationsverarbeitung."
+        },
+        "ja": {
+          "name": "配列の unwind",
+          "desc": "配列の unwind は、集計処理のために配列要素を展開することを扱います。"
+        },
+        "ru": {
+          "name": "Unwind массива",
+          "desc": "Unwind массива охватывает раскрытие элементов массива для обработки агрегирования."
+        },
+        "ko": {
+          "name": "배열 unwind",
+          "desc": "배열 unwind는 집계 처리를 위해 배열 요소를 펼치는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Unwind de arrays",
+          "desc": "O unwind de arrays abrange a expansão dos elementos do array para processamento de agregação."
+        }
+      }
+    },
+    {
+      "key": "mongodb/lookup_joins",
+      "slug": "lookup_joins",
+      "name": "Lookup Joins",
+      "desc": "Lookup joins cover combining documents across collections using aggregation.",
+      "i18n": {
+        "zh": {
+          "name": "$lookup 连接",
+          "desc": "$lookup 连接涵盖使用聚合跨集合组合文档。"
+        },
+        "es": {
+          "name": "Joins con lookup",
+          "desc": "Los joins con lookup cubren la combinación de documentos entre colecciones mediante agregación."
+        },
+        "fr": {
+          "name": "Jointures lookup",
+          "desc": "Les jointures lookup couvrent la combinaison de documents entre collections à l’aide de l’agrégation."
+        },
+        "de": {
+          "name": "Lookup-Joins",
+          "desc": "Lookup-Joins umfassen das Kombinieren von Dokumenten über Sammlungen hinweg mithilfe der Aggregation."
+        },
+        "ja": {
+          "name": "ルックアップ結合",
+          "desc": "ルックアップ結合では、集計を使用してコレクション間でドキュメントを結合します。"
+        },
+        "ru": {
+          "name": "Lookup-соединения",
+          "desc": "Lookup-соединения охватывают объединение документов из коллекций с использованием агрегирования."
+        },
+        "ko": {
+          "name": "$lookup 조인",
+          "desc": "$lookup 조인은 집계를 사용하여 컬렉션 간 문서를 결합하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Joins com lookup",
+          "desc": "Os joins com lookup cobrem a combinação de documentos entre coleções usando agregação."
+        }
+      }
+    },
+    {
+      "key": "mongodb/schema_modeling",
+      "slug": "schema_modeling",
+      "name": "Schema Modeling",
+      "desc": "Schema modeling covers designing document structure around access patterns.",
+      "i18n": {
+        "zh": {
+          "name": "模式建模",
+          "desc": "模式建模涵盖围绕访问模式设计文档结构。"
+        },
+        "es": {
+          "name": "Modelado de esquemas",
+          "desc": "El modelado de esquemas cubre el diseño de la estructura del documento en torno a patrones de acceso."
+        },
+        "fr": {
+          "name": "Modélisation de schéma",
+          "desc": "La modélisation de schéma couvre la conception de la structure du document autour des modèles d'accès."
+        },
+        "de": {
+          "name": "Schemamodellierung",
+          "desc": "Die Schemamodellierung umfasst das Entwerfen einer Dokumentstruktur anhand von Zugriffsmustern."
+        },
+        "ja": {
+          "name": "スキーマモデリング",
+          "desc": "スキーマモデリングでは、アクセスパターンに基づいたドキュメント構造の設計を扱います。"
+        },
+        "ru": {
+          "name": "Моделирование схемы",
+          "desc": "Моделирование схемы охватывает проектирование структуры документа на основе шаблонов доступа."
+        },
+        "ko": {
+          "name": "스키마 모델링",
+          "desc": "스키마 모델링은 액세스 패턴을 중심으로 문서 구조를 설계하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelagem de Esquema",
+          "desc": "A modelagem de esquema abrange o projeto da estrutura do documento em torno de padrões de acesso."
+        }
+      }
+    },
+    {
+      "key": "mongodb/embedded_documents",
+      "slug": "embedded_documents",
+      "name": "Embedded Documents",
+      "desc": "Embedded documents cover modeling related data inside a single document.",
+      "i18n": {
+        "zh": {
+          "name": "嵌入文档",
+          "desc": "嵌入式文档涵盖单个文档内的建模相关数据。"
+        },
+        "es": {
+          "name": "Documentos incrustados",
+          "desc": "Los documentos incrustados cubren datos relacionados con el modelado dentro de un solo documento."
+        },
+        "fr": {
+          "name": "Documents intégrés",
+          "desc": "Les documents intégrés couvrent les données liées à la modélisation dans un seul document."
+        },
+        "de": {
+          "name": "Eingebettete Dokumente",
+          "desc": "Eingebettete Dokumente umfassen modellierungsbezogene Daten in einem einzigen Dokument."
+        },
+        "ja": {
+          "name": "埋め込みドキュメント",
+          "desc": "埋め込みドキュメントでは、単一ドキュメント内のモデリング関連データを扱います。"
+        },
+        "ru": {
+          "name": "Встроенные документы",
+          "desc": "Встроенные документы охватывают данные, связанные с моделированием, в одном документе."
+        },
+        "ko": {
+          "name": "포함된 문서",
+          "desc": "포함된 문서는 단일 문서 내의 모델링 관련 데이터를 다룹니다."
+        },
+        "pt": {
+          "name": "Documentos incorporados",
+          "desc": "Documentos incorporados cobrem dados relacionados à modelagem dentro de um único documento."
+        }
+      }
+    },
+    {
+      "key": "mongodb/document_references",
+      "slug": "document_references",
+      "name": "Document References",
+      "desc": "Document references cover modeling relationships across documents and collections.",
+      "i18n": {
+        "zh": {
+          "name": "文档引用",
+          "desc": "文档引用涵盖跨文档和集合建模关系。"
+        },
+        "es": {
+          "name": "Referencias de documentos",
+          "desc": "Las referencias de documentos cubren el modelado de relaciones entre documentos y colecciones."
+        },
+        "fr": {
+          "name": "Références de documents",
+          "desc": "Les références aux documents couvrent les relations de modélisation entre les documents et les collections."
+        },
+        "de": {
+          "name": "Dokumentverweise",
+          "desc": "Dokumentverweise decken Modellierungsbeziehungen zwischen Dokumenten und Sammlungen ab."
+        },
+        "ja": {
+          "name": "文書参照",
+          "desc": "ドキュメント参照では、ドキュメントとコレクション間の関係のモデリングを扱います。"
+        },
+        "ru": {
+          "name": "Ссылки на документы",
+          "desc": "Ссылки на документы охватывают моделирование отношений между документами и коллекциями."
+        },
+        "ko": {
+          "name": "문서 참조",
+          "desc": "문서 참조는 문서와 컬렉션 간의 모델링 관계를 다룹니다."
+        },
+        "pt": {
+          "name": "Referências de documentos",
+          "desc": "As referências de documentos abrangem relacionamentos de modelagem entre documentos e coleções."
+        }
+      }
+    },
+    {
+      "key": "mongodb/one_to_many_patterns",
+      "slug": "one_to_many_patterns",
+      "name": "One-to-Many Patterns",
+      "desc": "One-to-many patterns cover choosing embedding, referencing, or duplication for related data.",
+      "i18n": {
+        "zh": {
+          "name": "一对多模式",
+          "desc": "一对多模式涵盖为相关数据选择嵌入、引用或冗余复制。"
+        },
+        "es": {
+          "name": "Patrones uno a muchos",
+          "desc": "Los patrones uno a muchos cubren la elección de incrustación, referencia o duplicación de datos relacionados."
+        },
+        "fr": {
+          "name": "Modèles un à plusieurs",
+          "desc": "Les modèles un-à-plusieurs couvrent le choix de l'intégration, du référencement ou de la duplication pour les données associées."
+        },
+        "de": {
+          "name": "Eins-zu-viele-Muster",
+          "desc": "Eins-zu-viele-Muster umfassen die Auswahl der Einbettung, Referenzierung oder Duplizierung für verwandte Daten."
+        },
+        "ja": {
+          "name": "1対多のパターン",
+          "desc": "1 対多のパターンでは、関連データの埋め込み、参照、または複製の選択を扱います。"
+        },
+        "ru": {
+          "name": "Шаблоны «один ко многим»",
+          "desc": "Шаблоны «один ко многим» охватывают выбор внедрения, ссылки или дублирования связанных данных."
+        },
+        "ko": {
+          "name": "일대다 패턴",
+          "desc": "일대다 패턴은 관련 데이터에 대한 포함, 참조 또는 복제 선택을 다룹니다."
+        },
+        "pt": {
+          "name": "Padrões um para muitos",
+          "desc": "Os padrões um para muitos abrangem a escolha de incorporação, referência ou duplicação de dados relacionados."
+        }
+      }
+    },
+    {
+      "key": "mongodb/schema_evolution",
+      "slug": "schema_evolution",
+      "name": "Schema Evolution",
+      "desc": "Schema evolution covers changing document shapes while preserving application compatibility.",
+      "i18n": {
+        "zh": {
+          "name": "模式演化",
+          "desc": "模式演变涵盖改变文档形状，同时保持应用程序兼容性。"
+        },
+        "es": {
+          "name": "Evolución del esquema",
+          "desc": "La evolución del esquema cubre el cambio de formas de documentos preservando al mismo tiempo la compatibilidad de las aplicaciones."
+        },
+        "fr": {
+          "name": "Évolution du schéma",
+          "desc": "L'évolution du schéma couvre la modification des formes des documents tout en préservant la compatibilité des applications."
+        },
+        "de": {
+          "name": "Schema-Evolution",
+          "desc": "Die Schemaentwicklung deckt die Änderung von Dokumentformen ab und bewahrt gleichzeitig die Anwendungskompatibilität."
+        },
+        "ja": {
+          "name": "スキーマの進化",
+          "desc": "スキーマの進化には、アプリケーションの互換性を維持しながらドキュメントの形状を変更することが含まれます。"
+        },
+        "ru": {
+          "name": "Эволюция схемы",
+          "desc": "Эволюция схемы охватывает изменение формы документа при сохранении совместимости приложений."
+        },
+        "ko": {
+          "name": "스키마 진화",
+          "desc": "스키마 발전은 애플리케이션 호환성을 유지하면서 문서 모양 변경을 다룹니다."
+        },
+        "pt": {
+          "name": "Evolução do esquema",
+          "desc": "A evolução do esquema abrange a alteração dos formatos dos documentos, preservando a compatibilidade dos aplicativos."
+        }
+      }
+    },
+    {
+      "key": "mongodb/transactions",
+      "slug": "transactions",
+      "name": "Transactions",
+      "desc": "Transactions cover grouping MongoDB operations with atomic commit and rollback behavior.",
+      "i18n": {
+        "zh": {
+          "name": "事务",
+          "desc": "事务涵盖具有原子提交和回滚行为的分组 MongoDB 操作。"
+        },
+        "es": {
+          "name": "Transacciones",
+          "desc": "Las transacciones cubren la agrupación de operaciones MongoDB con comportamiento de commit y rollback atómico."
+        },
+        "fr": {
+          "name": "Transactions",
+          "desc": "Les transactions couvrent le regroupement d’opérations MongoDB avec un comportement de commit et rollback atomique."
+        },
+        "de": {
+          "name": "Transaktionen",
+          "desc": "Transaktionen umfassen die Gruppierung von MongoDB-Vorgängen mit atomarem Commit- und Rollback-Verhalten."
+        },
+        "ja": {
+          "name": "トランザクション",
+          "desc": "トランザクションは、アトミックなコミットおよびロールバック動作によるグループ化操作を扱います。"
+        },
+        "ru": {
+          "name": "Транзакции",
+          "desc": "Транзакции охватывают группировку операций MongoDB с атомарным commit и rollback."
+        },
+        "ko": {
+          "name": "트랜잭션",
+          "desc": "트랜잭션은 원자적 commit 및 rollback 동작으로 MongoDB 작업을 그룹화하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Transações",
+          "desc": "As transações cobrem o agrupamento de operações MongoDB com comportamento atômico de commit e rollback."
+        }
+      }
+    },
+    {
+      "key": "mongodb/mongo_shell_operation",
+      "slug": "mongo_shell_operation",
+      "name": "MongoDB Shell Operation",
+      "desc": "MongoDB shell operation covers connecting to MongoDB and running administrative or query commands.",
+      "i18n": {
+        "zh": {
+          "name": "MongoDB Shell 操作",
+          "desc": "MongoDB shell 操作包括连接到 MongoDB 以及运行管理或查询命令。"
+        },
+        "es": {
+          "name": "Operación de MongoDB Shell",
+          "desc": "La operación del shell MongoDB cubre la conexión a MongoDB y la ejecución de comandos administrativos o de consulta."
+        },
+        "fr": {
+          "name": "Fonctionnement de MongoDB Shell",
+          "desc": "L'opération shell MongoDB couvre la connexion à MongoDB et l'exécution de commandes d'administration ou de requête."
+        },
+        "de": {
+          "name": "MongoDB-Shell-Betrieb",
+          "desc": "Der MongoDB-Shell-Betrieb umfasst die Verbindung zu MongoDB und die Ausführung von Verwaltungs- oder Abfragebefehlen."
+        },
+        "ja": {
+          "name": "MongoDB Shell 操作",
+          "desc": "MongoDB シェル操作には、MongoDB への接続と管理コマンドまたはクエリコマンドの実行が含まれます。"
+        },
+        "ru": {
+          "name": "Работа с MongoDB Shell",
+          "desc": "Операции оболочки MongoDB охватывают подключение к MongoDB и выполнение административных команд или команд запроса."
+        },
+        "ko": {
+          "name": "MongoDB Shell 작업",
+          "desc": "MongoDB 셸 작업에는 MongoDB에 연결하고 관리 또는 쿼리 명령을 실행하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Operação do MongoDB Shell",
+          "desc": "A operação do shell MongoDB cobre a conexão com MongoDB e a execução de comandos administrativos ou de consulta."
+        }
+      }
+    },
+    {
+      "key": "mongodb/connection_troubleshooting",
+      "slug": "connection_troubleshooting",
+      "name": "Connection Troubleshooting",
+      "desc": "Connection troubleshooting covers diagnosing authentication, network, and server availability problems.",
+      "i18n": {
+        "zh": {
+          "name": "连接故障排除",
+          "desc": "连接故障排除包括诊断身份验证、网络和服务器可用性问题。"
+        },
+        "es": {
+          "name": "Solución de problemas de conexión",
+          "desc": "La solución de problemas de conexión cubre el diagnóstico de problemas de autenticación, red y disponibilidad del servidor."
+        },
+        "fr": {
+          "name": "Dépannage de connexion",
+          "desc": "Le dépannage de connexion couvre le diagnostic des problèmes d’authentification, de réseau et de disponibilité du serveur."
+        },
+        "de": {
+          "name": "Fehlerbehebung bei Verbindungsproblemen",
+          "desc": "Die Fehlerbehebung bei Verbindungen umfasst die Diagnose von Authentifizierungs-, Netzwerk- und Serververfügbarkeitsproblemen."
+        },
+        "ja": {
+          "name": "接続のトラブルシューティング",
+          "desc": "接続のトラブルシューティングでは、認証、ネットワーク、サーバーの可用性の問題の診断が行われます。"
+        },
+        "ru": {
+          "name": "Устранение неполадок подключения",
+          "desc": "Устранение неполадок подключения включает диагностику проблем аутентификации, сети и доступности сервера."
+        },
+        "ko": {
+          "name": "연결 문제 해결",
+          "desc": "연결 문제 해결에는 인증, 네트워크 및 서버 가용성 문제 진단이 포함됩니다."
+        },
+        "pt": {
+          "name": "Solução de problemas de conexão",
+          "desc": "A solução de problemas de conexão abrange o diagnóstico de problemas de autenticação, rede e disponibilidade do servidor."
+        }
+      }
+    },
+    {
+      "key": "mongodb/import_export",
+      "slug": "import_export",
+      "name": "Import and Export",
+      "desc": "Import and export cover moving MongoDB data into and out of JSON, CSV, or archive formats.",
+      "i18n": {
+        "zh": {
+          "name": "导入和导出",
+          "desc": "导入和导出涵盖在 JSON、CSV 或归档格式之间移入和移出 MongoDB 数据。"
+        },
+        "es": {
+          "name": "Importar y Exportar",
+          "desc": "La importación y exportación cubren mover datos de MongoDB dentro y fuera de JSON, CSV o formatos de archivo."
+        },
+        "fr": {
+          "name": "Importation et exportation",
+          "desc": "L'importation et l'exportation couvrent le déplacement de données MongoDB vers et depuis des formats JSON, CSV ou d'archive."
+        },
+        "de": {
+          "name": "Import und Export",
+          "desc": "Der Import und Export umfasst das Verschieben von MongoDB-Daten in und aus JSON-, CSV- oder Archivformaten."
+        },
+        "ja": {
+          "name": "インポートとエクスポート",
+          "desc": "インポートとエクスポートでは、JSON、CSV、またはアーカイブ形式との間で MongoDB データを移動することができます。"
+        },
+        "ru": {
+          "name": "Импорт и экспорт",
+          "desc": "Импорт и экспорт охватывают перемещение данных MongoDB в форматы JSON, CSV или архивы и из них."
+        },
+        "ko": {
+          "name": "가져오기 및 내보내기",
+          "desc": "가져오기 및 내보내기는 MongoDB 데이터를 JSON, CSV 또는 아카이브 형식으로 들여오고 내보내는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Importar e Exportar",
+          "desc": "A importação e a exportação cobrem a movimentação de dados MongoDB para dentro e fora de JSON, CSV ou formatos de arquivo."
+        }
+      }
+    },
+    {
+      "key": "mongodb/backup_restore",
+      "slug": "backup_restore",
+      "name": "Backup and Restore",
+      "desc": "Backup and restore cover protecting and recovering MongoDB data safely.",
+      "i18n": {
+        "zh": {
+          "name": "备份与恢复",
+          "desc": "备份和恢复涵盖安全保护和恢复 MongoDB 数据。"
+        },
+        "es": {
+          "name": "Copia de seguridad y restauración",
+          "desc": "La copia de seguridad y restauración cubre proteger y recuperar datos de MongoDB de forma segura."
+        },
+        "fr": {
+          "name": "Sauvegarde et restauration",
+          "desc": "La sauvegarde et la restauration couvrent la protection et la récupération des données MongoDB en toute sécurité."
+        },
+        "de": {
+          "name": "Sichern und Wiederherstellen",
+          "desc": "Sicherung und Wiederherstellung umfassen den Schutz und die sichere Wiederherstellung von MongoDB-Daten."
+        },
+        "ja": {
+          "name": "バックアップと復元",
+          "desc": "バックアップと復元は、MongoDB データを安全に保護および回復する方法を扱います。"
+        },
+        "ru": {
+          "name": "Резервное копирование и восстановление",
+          "desc": "Резервное копирование и восстановление обеспечивают безопасную защиту и восстановление данных MongoDB."
+        },
+        "ko": {
+          "name": "백업 및 복원",
+          "desc": "백업 및 복원은 MongoDB 데이터를 안전하게 보호하고 복구합니다."
+        },
+        "pt": {
+          "name": "Backup e restauração",
+          "desc": "Backup e restauração abrangem proteger e recuperar dados do MongoDB com segurança."
+        }
+      }
+    },
+    {
+      "key": "mongodb/replica_sets",
+      "slug": "replica_sets",
+      "name": "Replica Sets",
+      "desc": "Replica sets cover MongoDB replication roles, failover concepts, and high-availability behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Replica Set",
+          "desc": "Replica Set 涵盖 MongoDB 复制角色、故障转移概念和高可用性行为。"
+        },
+        "es": {
+          "name": "Replica Sets",
+          "desc": "Replica Sets cubre las funciones de replicación de MongoDB, la conmutación por error y el comportamiento de alta disponibilidad."
+        },
+        "fr": {
+          "name": "Replica Sets",
+          "desc": "Replica Sets couvre les rôles de réplication MongoDB, les concepts de failover et le comportement de haute disponibilité."
+        },
+        "de": {
+          "name": "Replica Sets",
+          "desc": "Bei Replica Sets geht es um Replikationsrollen in MongoDB, Ausfallumschaltungskonzepte und Hochverfügbarkeitsverhalten."
+        },
+        "ja": {
+          "name": "レプリカセット",
+          "desc": "レプリカセットは、MongoDB のレプリケーションの役割、フェイルオーバーの概念、および高可用性の動作を扱います。"
+        },
+        "ru": {
+          "name": "Replica Sets",
+          "desc": "Replica Sets охватывают роли репликации MongoDB, концепции отказоустойчивого переключения и поведение высокой доступности."
+        },
+        "ko": {
+          "name": "레플리카 셋",
+          "desc": "레플리카 셋은 MongoDB 복제 역할, 장애 조치 개념 및 고가용성 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Replica Sets",
+          "desc": "Replica Sets abrange papéis de replicação do MongoDB, failover e comportamento de alta disponibilidade."
+        }
+      }
+    },
+    {
+      "key": "mongodb/sharding",
+      "slug": "sharding",
+      "name": "Sharding",
+      "desc": "Sharding covers distributing MongoDB data across shards and choosing shard-aware designs.",
+      "i18n": {
+        "zh": {
+          "name": "分片",
+          "desc": "分片涵盖跨分片分配 MongoDB 数据并选择分片感知设计。"
+        },
+        "es": {
+          "name": "Sharding",
+          "desc": "El sharding cubre la distribución de datos de MongoDB entre shards y la elección de diseños compatibles con sharding."
+        },
+        "fr": {
+          "name": "Sharding",
+          "desc": "Le sharding couvre la distribution des données MongoDB entre shards et le choix de conceptions adaptées au sharding."
+        },
+        "de": {
+          "name": "Sharding",
+          "desc": "Beim Sharding geht es darum, MongoDB-Daten auf Shards zu verteilen und shard-fähige Designs auszuwählen."
+        },
+        "ja": {
+          "name": "シャーディング",
+          "desc": "シャーディングでは、シャード間で MongoDB データを分散することと、シャード対応の設計を選択することが含まれます。"
+        },
+        "ru": {
+          "name": "Шардинг",
+          "desc": "Шардинг охватывает распределение данных MongoDB по шардам и выбор схемы с учетом шардирования."
+        },
+        "ko": {
+          "name": "샤딩",
+          "desc": "샤딩은 MongoDB 데이터를 샤드 전체에 분산하고 샤딩을 고려한 설계를 선택하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Sharding",
+          "desc": "Sharding abrange a distribuição de dados do MongoDB entre shards e a escolha de designs compatíveis com sharding."
+        }
+      }
+    },
+    {
+      "key": "mongodb/write_concern",
+      "slug": "write_concern",
+      "name": "Write Concern",
+      "desc": "Write concern covers controlling write acknowledgement and durability expectations.",
+      "i18n": {
+        "zh": {
+          "name": "Write Concern",
+          "desc": "Write Concern 涵盖控制写入确认级别和持久性预期。"
+        },
+        "es": {
+          "name": "Write concern",
+          "desc": "Write concern cubre el control del nivel de confirmación de escritura y las expectativas de durabilidad."
+        },
+        "fr": {
+          "name": "Write concern",
+          "desc": "Write concern couvre le contrôle du niveau d’accusé de réception d’écriture et des attentes de durabilité."
+        },
+        "de": {
+          "name": "Write Concern",
+          "desc": "Write Concern behandelt die Steuerung der Schreibbestätigung und der Erwartungen an Dauerhaftigkeit."
+        },
+        "ja": {
+          "name": "Write Concern",
+          "desc": "Write Concern は、書き込み確認レベルと永続性の期待を制御することを扱います。"
+        },
+        "ru": {
+          "name": "Write concern",
+          "desc": "Write concern охватывает контроль уровня подтверждения записи и ожиданий долговечности."
+        },
+        "ko": {
+          "name": "Write Concern",
+          "desc": "Write Concern은 쓰기 확인 수준과 durability 기대치를 제어하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Write concern",
+          "desc": "Write concern abrange o controle do nível de confirmação de escrita e das expectativas de durabilidade."
+        }
+      }
+    }
+  ]
+}

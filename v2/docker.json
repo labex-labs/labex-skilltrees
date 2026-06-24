@@ -1,0 +1,1607 @@
+{
+  "key": "docker",
+  "slug": "docker",
+  "name": "Docker",
+  "skills": [
+    {
+      "key": "docker/container_model",
+      "slug": "container_model",
+      "name": "Container Model",
+      "desc": "Container model covers process isolation, images, writable layers, and container runtime behavior.",
+      "i18n": {
+        "zh": {
+          "name": "容器模型",
+          "desc": "容器模型涵盖了进程隔离、镜像、可写层和容器运行时行为。"
+        },
+        "es": {
+          "name": "Modelo de contenedor",
+          "desc": "El modelo de contenedor cubre el aislamiento de procesos, imágenes, capas grabables y comportamiento de ejecución del contenedor."
+        },
+        "fr": {
+          "name": "Modèle de conteneur",
+          "desc": "Le modèle de conteneur couvre l'isolation des processus, les images, les couches inscriptibles et le comportement d'exécution du conteneur."
+        },
+        "de": {
+          "name": "Containermodell",
+          "desc": "Das Containermodell deckt Prozessisolation, Images, beschreibbare Ebenen und Container-Laufzeitverhalten ab."
+        },
+        "ja": {
+          "name": "コンテナモデル",
+          "desc": "コンテナーモデルでは、プロセスの分離、イメージ、書き込み可能レイヤー、コンテナーの実行時の動作を扱います。"
+        },
+        "ru": {
+          "name": "Модель контейнера",
+          "desc": "Контейнерная модель охватывает изоляцию процессов, образы, записываемые слои и поведение контейнера во время выполнения."
+        },
+        "ko": {
+          "name": "컨테이너 모델",
+          "desc": "컨테이너 모델은 프로세스 격리, 이미지, 쓰기 가능한 레이어 및 컨테이너 런타임 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelo de contêiner",
+          "desc": "O modelo de contêiner cobre isolamento de processos, imagens, camadas graváveis e comportamento de tempo de execução do contêiner."
+        }
+      }
+    },
+    {
+      "key": "docker/container_lifecycle",
+      "slug": "container_lifecycle",
+      "name": "Container Lifecycle",
+      "desc": "Container lifecycle covers creating, starting, stopping, restarting, and removing containers.",
+      "i18n": {
+        "zh": {
+          "name": "容器生命周期",
+          "desc": "容器生命周期涵盖创建、启动、停止、重新启动和删除容器。"
+        },
+        "es": {
+          "name": "Ciclo de vida del contenedor",
+          "desc": "El ciclo de vida de los contenedores cubre la creación, el inicio, la parada, el reinicio y la eliminación de contenedores."
+        },
+        "fr": {
+          "name": "Cycle de vie des conteneurs",
+          "desc": "Le cycle de vie des conteneurs couvre la création, le démarrage, l'arrêt, le redémarrage et la suppression des conteneurs."
+        },
+        "de": {
+          "name": "Container-Lebenszyklus",
+          "desc": "Der Container-Lebenszyklus umfasst das Erstellen, Starten, Stoppen, Neustarten und Entfernen von Containern."
+        },
+        "ja": {
+          "name": "コンテナのライフサイクル",
+          "desc": "コンテナーのライフサイクルには、コンテナーの作成、開始、停止、再起動、削除が含まれます。"
+        },
+        "ru": {
+          "name": "Жизненный цикл контейнера",
+          "desc": "Жизненный цикл контейнера охватывает создание, запуск, остановку, перезапуск и удаление контейнеров."
+        },
+        "ko": {
+          "name": "컨테이너 수명주기",
+          "desc": "컨테이너 수명주기에는 컨테이너 생성, 시작, 중지, 다시 시작 및 제거가 포함됩니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida do contêiner",
+          "desc": "O ciclo de vida do contêiner abrange a criação, início, parada, reinicialização e remoção de contêineres."
+        }
+      }
+    },
+    {
+      "key": "docker/container_execution",
+      "slug": "container_execution",
+      "name": "Container Execution",
+      "desc": "Container execution covers running commands in new or existing containers and attaching interactive terminal sessions.",
+      "i18n": {
+        "zh": {
+          "name": "容器执行",
+          "desc": "容器执行包括在新的或现有的容器中运行命令以及附加交互式终端会话。"
+        },
+        "es": {
+          "name": "Ejecución de contenedores",
+          "desc": "La ejecución de contenedores cubre la ejecución de comandos en contenedores nuevos o existentes y la conexión de sesiones de terminal interactivas."
+        },
+        "fr": {
+          "name": "Exécution du conteneur",
+          "desc": "L'exécution de conteneurs couvre l'exécution de commandes dans des conteneurs nouveaux ou existants et l'attachement de sessions de terminal interactif."
+        },
+        "de": {
+          "name": "Containerausführung",
+          "desc": "Die Containerausführung umfasst das Ausführen von Befehlen in neuen oder vorhandenen Containern und das Anhängen interaktiver Terminalsitzungen."
+        },
+        "ja": {
+          "name": "コンテナの実行",
+          "desc": "コンテナーの実行には、新規または既存のコンテナーでのコマンドの実行と、対話型ターミナルセッションの接続が含まれます。"
+        },
+        "ru": {
+          "name": "Выполнение контейнера",
+          "desc": "Выполнение контейнера включает выполнение команд в новых или существующих контейнерах и подключение интерактивных сеансов терминала."
+        },
+        "ko": {
+          "name": "컨테이너 실행",
+          "desc": "컨테이너 실행에는 새 컨테이너나 기존 컨테이너에서 명령을 실행하고 대화형 터미널 세션을 연결하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Execução de contêiner",
+          "desc": "A execução de contêineres abrange a execução de comandos em contêineres novos ou existentes e a anexação de sessões de terminal interativo."
+        }
+      }
+    },
+    {
+      "key": "docker/container_logs",
+      "slug": "container_logs",
+      "name": "Container Logs",
+      "desc": "Container logs cover reading, following, and interpreting application output from containers.",
+      "i18n": {
+        "zh": {
+          "name": "容器日志",
+          "desc": "容器日志涵盖读取、跟踪和解释容器的应用程序输出。"
+        },
+        "es": {
+          "name": "Logs de contenedores",
+          "desc": "Los logs de contenedores cubren la lectura, el seguimiento y la interpretación de la salida de las aplicaciones desde los contenedores."
+        },
+        "fr": {
+          "name": "Journaux de conteneur",
+          "desc": "Les journaux de conteneur couvrent la lecture, le suivi et l'interprétation des sorties d'application à partir des conteneurs."
+        },
+        "de": {
+          "name": "Containerprotokolle",
+          "desc": "Containerprotokolle umfassen das Lesen, Verfolgen und Interpretieren der Anwendungsausgabe von Containern."
+        },
+        "ja": {
+          "name": "コンテナログ",
+          "desc": "コンテナーログには、コンテナーからのアプリケーション出力の読み取り、追跡、および解釈が含まれます。"
+        },
+        "ru": {
+          "name": "Журналы контейнеров",
+          "desc": "Журналы контейнеров охватывают чтение, отслеживание и интерпретацию выходных данных приложений из контейнеров."
+        },
+        "ko": {
+          "name": "컨테이너 로그",
+          "desc": "컨테이너 로그에는 컨테이너의 애플리케이션 출력 읽기, 추적 및 해석이 포함됩니다."
+        },
+        "pt": {
+          "name": "Logs de contêiner",
+          "desc": "Os logs de contêiner cobrem a leitura, o acompanhamento e a interpretação da saída do aplicativo dos contêineres."
+        }
+      }
+    },
+    {
+      "key": "docker/container_inspection",
+      "slug": "container_inspection",
+      "name": "Container Inspection",
+      "desc": "Container inspection covers viewing container metadata, configuration, mounts, networking, and runtime state.",
+      "i18n": {
+        "zh": {
+          "name": "容器检查",
+          "desc": "容器检查包括查看容器元数据、配置、挂载、网络和运行时状态。"
+        },
+        "es": {
+          "name": "Inspección de contenedores",
+          "desc": "La inspección de contenedores cubre la visualización de metadatos, configuración, montajes, redes y estado de tiempo de ejecución del contenedor."
+        },
+        "fr": {
+          "name": "Inspection des conteneurs",
+          "desc": "L'inspection des conteneurs couvre l'affichage des métadonnées, de la configuration, des montages, de la mise en réseau et de l'état d'exécution du conteneur."
+        },
+        "de": {
+          "name": "Container-Inspektion",
+          "desc": "Die Container-Inspektion umfasst das Anzeigen von Container-Metadaten, Konfiguration, Mounts, Netzwerken und Laufzeitstatus."
+        },
+        "ja": {
+          "name": "コンテナ検査",
+          "desc": "コンテナ検査では、コンテナのメタデータ、構成、マウント、ネットワーク、および実行時の状態の表示が対象になります。"
+        },
+        "ru": {
+          "name": "Проверка контейнеров",
+          "desc": "Проверка контейнера включает просмотр метаданных контейнера, конфигурации, монтирования, сети и состояния времени выполнения."
+        },
+        "ko": {
+          "name": "컨테이너 검사",
+          "desc": "컨테이너 검사에는 컨테이너 메타데이터, 구성, 마운트, 네트워킹 및 런타임 상태 보기가 포함됩니다."
+        },
+        "pt": {
+          "name": "Inspeção de contêineres",
+          "desc": "A inspeção de contêiner abrange a visualização de metadados, configuração, montagens, rede e estado de tempo de execução do contêiner."
+        }
+      }
+    },
+    {
+      "key": "docker/container_processes",
+      "slug": "container_processes",
+      "name": "Container Processes",
+      "desc": "Container processes cover understanding and inspecting processes running inside containers.",
+      "i18n": {
+        "zh": {
+          "name": "容器进程",
+          "desc": "容器进程涵盖了理解和检查容器内运行的进程。"
+        },
+        "es": {
+          "name": "Procesos de contenedores",
+          "desc": "Los procesos de contenedores cubren la comprensión y la inspección de los procesos que se ejecutan dentro de los contenedores."
+        },
+        "fr": {
+          "name": "Processus de conteneur",
+          "desc": "Les processus de conteneur couvrent la compréhension et l’inspection des processus exécutés à l’intérieur des conteneurs."
+        },
+        "de": {
+          "name": "Containerprozesse",
+          "desc": "Containerprozesse umfassen das Verstehen und Überprüfen von Prozessen, die in Containern ablaufen."
+        },
+        "ja": {
+          "name": "コンテナプロセス",
+          "desc": "コンテナープロセスでは、コンテナー内で実行されるプロセスの理解と検査を扱います。"
+        },
+        "ru": {
+          "name": "Контейнерные процессы",
+          "desc": "Контейнерные процессы охватывают понимание и проверку процессов, выполняемых внутри контейнеров."
+        },
+        "ko": {
+          "name": "컨테이너 프로세스",
+          "desc": "컨테이너 프로세스는 컨테이너 내부에서 실행되는 프로세스를 이해하고 검사하는 과정을 다룹니다."
+        },
+        "pt": {
+          "name": "Processos de contêiner",
+          "desc": "Os processos de contêiner abrangem a compreensão e a inspeção de processos executados dentro de contêineres."
+        }
+      }
+    },
+    {
+      "key": "docker/image_layers",
+      "slug": "image_layers",
+      "name": "Image Layers",
+      "desc": "Image layers cover how Docker images are composed, cached, reused, and shared across builds.",
+      "i18n": {
+        "zh": {
+          "name": "镜像层",
+          "desc": "镜像层涵盖 Docker 镜像的组成、缓存、重用和跨构建共享的方式。"
+        },
+        "es": {
+          "name": "Capas de imagen",
+          "desc": "Las capas de imagen cubren cómo se componen, almacenan en caché, reutilizan y comparten las imágenes de Docker entre compilaciones."
+        },
+        "fr": {
+          "name": "Couches d'images",
+          "desc": "Les couches d’image couvrent la manière dont les images Docker sont composées, mises en cache, réutilisées et partagées entre les constructions d’images."
+        },
+        "de": {
+          "name": "Image-Ebenen",
+          "desc": "Image-Ebenen behandeln, wie Docker-Images zusammengesetzt, zwischengespeichert, wiederverwendet und zwischen Image-Erstellungen geteilt werden."
+        },
+        "ja": {
+          "name": "イメージレイヤー",
+          "desc": "イメージレイヤーは、イメージがビルド間でどのように構成、キャッシュ、再利用、共有されるかを扱います。"
+        },
+        "ru": {
+          "name": "Слои образов",
+          "desc": "Слои образов описывают, как образы Docker составляются, кэшируются, повторно используются и распределяются между сборками."
+        },
+        "ko": {
+          "name": "이미지 레이어",
+          "desc": "이미지 레이어는 Docker 이미지가 빌드 전반에 걸쳐 구성, 캐시, 재사용 및 공유되는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Camadas de imagem",
+          "desc": "As camadas de imagem cobrem como as imagens Docker são compostas, armazenadas em cache, reutilizadas e compartilhadas entre builds."
+        }
+      }
+    },
+    {
+      "key": "docker/image_references",
+      "slug": "image_references",
+      "name": "Image References",
+      "desc": "Image references cover repository names, tags, registry hosts, and the syntax used to identify Docker images.",
+      "i18n": {
+        "zh": {
+          "name": "镜像引用",
+          "desc": "镜像引用涵盖存储库名称、标签、注册表主机以及用于识别 Docker 镜像的语法。"
+        },
+        "es": {
+          "name": "Referencias de imágenes",
+          "desc": "Las referencias de imágenes cubren nombres de repositorios, etiquetas, hosts de registro y la sintaxis utilizada para identificar imágenes de Docker."
+        },
+        "fr": {
+          "name": "Références d'images",
+          "desc": "Les références d’images couvrent les noms de dépôts, les tags, les hôtes de registre et la syntaxe utilisée pour identifier les images Docker."
+        },
+        "de": {
+          "name": "Image-Referenzen",
+          "desc": "Image-Referenzen umfassen Repository-Namen, Tags, Hosts der Registry und die Syntax zur Identifizierung von Docker-Images."
+        },
+        "ja": {
+          "name": "イメージ参照",
+          "desc": "イメージ参照には、リポジトリ名、タグ、レジストリホスト、および Docker イメージを識別するために使用される構文が含まれます。"
+        },
+        "ru": {
+          "name": "Ссылки на образы",
+          "desc": "Ссылки на образы охватывают имена репозиториев, теги, хосты реестра и синтаксис, используемый для идентификации образов Docker."
+        },
+        "ko": {
+          "name": "이미지 참조",
+          "desc": "이미지 참조에는 저장소 이름, 태그, 레지스트리 호스트 및 Docker 이미지를 식별하는 데 사용되는 구문이 포함됩니다."
+        },
+        "pt": {
+          "name": "Referências de imagens",
+          "desc": "As referências de imagens abrangem nomes de repositórios, tags, hosts de registry e a sintaxe usada para identificar imagens Docker."
+        }
+      }
+    },
+    {
+      "key": "docker/image_pulling",
+      "slug": "image_pulling",
+      "name": "Image Pulling",
+      "desc": "Image pulling covers downloading images from registries and validating local image availability.",
+      "i18n": {
+        "zh": {
+          "name": "镜像拉取",
+          "desc": "镜像拉取涵盖从镜像仓库下载镜像以及验证本地镜像的可用性。"
+        },
+        "es": {
+          "name": "Pull de imágenes",
+          "desc": "El pull de imágenes cubre la descarga de imágenes desde registries y la validación de la disponibilidad de imágenes locales."
+        },
+        "fr": {
+          "name": "Pull d'images",
+          "desc": "Le pull d’images couvre le téléchargement d’images depuis des registries et la validation de la disponibilité locale des images."
+        },
+        "de": {
+          "name": "Image-Pull",
+          "desc": "Der Image-Pull behandelt das Herunterladen von Images aus Registries und die Prüfung der lokalen Image-Verfügbarkeit."
+        },
+        "ja": {
+          "name": "イメージのプル",
+          "desc": "イメージのプルでは、レジストリからイメージをダウンロードし、ローカルで利用可能かを確認します。"
+        },
+        "ru": {
+          "name": "Получение образов",
+          "desc": "Получение образов включает загрузку образов из реестров и проверку доступности локальных образов."
+        },
+        "ko": {
+          "name": "이미지 풀",
+          "desc": "이미지 풀은 레지스트리에서 이미지를 다운로드하고 로컬 이미지 사용 가능 여부를 확인하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Pull de imagens",
+          "desc": "O pull de imagens abrange o download de imagens de registries e a validação da disponibilidade local de imagens."
+        }
+      }
+    },
+    {
+      "key": "docker/dockerfile_instructions",
+      "slug": "dockerfile_instructions",
+      "name": "Dockerfile Instructions",
+      "desc": "Dockerfile instructions cover declaring image filesystem changes, metadata, commands, and runtime defaults.",
+      "i18n": {
+        "zh": {
+          "name": "Dockerfile 指令",
+          "desc": "Dockerfile 指令涵盖声明镜像文件系统更改、元数据、命令和运行时默认值。"
+        },
+        "es": {
+          "name": "Instrucciones de Dockerfile",
+          "desc": "Las instrucciones de Dockerfile cubren la declaración de cambios en el sistema de archivos de la imagen, metadatos, comandos y valores predeterminados de ejecución."
+        },
+        "fr": {
+          "name": "Instructions Dockerfile",
+          "desc": "Les instructions Dockerfile couvrent la déclaration des modifications du système de fichiers image, des métadonnées, des commandes et des valeurs par défaut d'exécution."
+        },
+        "de": {
+          "name": "Dockerfile-Anweisungen",
+          "desc": "Dockerfile Anweisungen behandeln die Deklaration von Image-Dateisystemänderungen, Metadaten, Befehlen und Laufzeitstandards."
+        },
+        "ja": {
+          "name": "Dockerfile 命令",
+          "desc": "Dockerfile 命令では、イメージファイルシステムの変更、メタデータ、コマンド、ランタイムのデフォルト値の宣言を扱います。"
+        },
+        "ru": {
+          "name": "Инструкции Dockerfile",
+          "desc": "Инструкции Dockerfile охватывают объявление изменений файловой системы образа, метаданных, команд и значений по умолчанию для времени выполнения."
+        },
+        "ko": {
+          "name": "Dockerfile 명령어",
+          "desc": "Dockerfile 명령어는 이미지 파일 시스템 변경 사항, 메타데이터, 명령 및 런타임 기본값 선언을 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções de Dockerfile",
+          "desc": "As instruções de Dockerfile cobrem a declaração de alterações no sistema de arquivos da imagem, metadados, comandos e padrões de tempo de execução."
+        }
+      }
+    },
+    {
+      "key": "docker/build_contexts",
+      "slug": "build_contexts",
+      "name": "Build Contexts",
+      "desc": "Build contexts cover source directories, ignored files, and inputs available during image builds.",
+      "i18n": {
+        "zh": {
+          "name": "构建上下文",
+          "desc": "构建上下文涵盖源目录、忽略的文件以及镜像构建期间可用的输入。"
+        },
+        "es": {
+          "name": "Contextos de compilación",
+          "desc": "Los contextos de compilación cubren directorios de origen, archivos ignorados y entradas disponibles durante la compilación de imágenes."
+        },
+        "fr": {
+          "name": "Contextes de construction",
+          "desc": "Les contextes de construction couvrent les répertoires sources, les fichiers ignorés et les entrées disponibles lors de la construction d'images."
+        },
+        "de": {
+          "name": "Erstellungskontexte",
+          "desc": "Erstellungskontexte umfassen Quellverzeichnisse, ignorierte Dateien und Eingaben, die während der Image-Erstellung verfügbar sind."
+        },
+        "ja": {
+          "name": "ビルドコンテキスト",
+          "desc": "ビルドコンテキストには、ソースディレクトリ、無視されるファイル、イメージのビルド中に使用できる入力が含まれます。"
+        },
+        "ru": {
+          "name": "Контексты сборки",
+          "desc": "Контексты сборки охватывают исходные каталоги, игнорируемые файлы и входные данные, доступные во время сборки образа."
+        },
+        "ko": {
+          "name": "빌드 컨텍스트",
+          "desc": "빌드 컨텍스트에는 소스 디렉터리, 무시된 파일, 이미지 빌드 중에 사용 가능한 입력이 포함됩니다."
+        },
+        "pt": {
+          "name": "Contextos de compilação",
+          "desc": "Os contextos de compilação abrangem diretórios de origem, arquivos ignorados e entradas disponíveis durante a compilação de imagens."
+        }
+      }
+    },
+    {
+      "key": "docker/image_builds",
+      "slug": "image_builds",
+      "name": "Image Builds",
+      "desc": "Image builds cover turning Dockerfiles and build inputs into reusable container images.",
+      "i18n": {
+        "zh": {
+          "name": "镜像构建",
+          "desc": "镜像构建包括将 Dockerfile 和构建输入转换为可重用的容器镜像。"
+        },
+        "es": {
+          "name": "Builds de imágenes",
+          "desc": "Los builds de imágenes cubren la conversión de Dockerfiles y entradas de build en imágenes de contenedor reutilizables."
+        },
+        "fr": {
+          "name": "Builds d'images",
+          "desc": "La construction d'images couvre la transformation des Dockerfiles et des entrées de construction en images de conteneurs réutilisables."
+        },
+        "de": {
+          "name": "Image-Erstellung",
+          "desc": "Die Image-Erstellung umfasst die Umwandlung von Dockerfiles und Erstellungseingaben in wiederverwendbare Container-Images."
+        },
+        "ja": {
+          "name": "イメージビルド",
+          "desc": "イメージビルドでは、Dockerfile とビルド入力から再利用可能なコンテナイメージを作成することを扱います。"
+        },
+        "ru": {
+          "name": "Сборки образов",
+          "desc": "Сборки образов включают преобразование Dockerfile и входных данных сборки в повторно используемые контейнерные образы."
+        },
+        "ko": {
+          "name": "이미지 빌드",
+          "desc": "이미지 빌드는 Dockerfile과 빌드 입력을 재사용 가능한 컨테이너 이미지로 만드는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Builds de imagens",
+          "desc": "Os builds de imagens abrangem a transformação de Dockerfiles e entradas de build em imagens de contêiner reutilizáveis."
+        }
+      }
+    },
+    {
+      "key": "docker/build_cache",
+      "slug": "build_cache",
+      "name": "Build Cache",
+      "desc": "Build cache covers how Docker reuses build layers and how cache behavior affects rebuild speed and correctness.",
+      "i18n": {
+        "zh": {
+          "name": "构建缓存",
+          "desc": "构建缓存涵盖 Docker 如何重用构建层以及缓存行为如何影响重建速度和正确性。"
+        },
+        "es": {
+          "name": "Caché de build",
+          "desc": "La caché de build cubre cómo Docker reutiliza capas de build y cómo el comportamiento de la caché afecta la velocidad y corrección de los rebuilds."
+        },
+        "fr": {
+          "name": "Cache de construction",
+          "desc": "Le cache de construction explique comment Docker réutilise les couches de construction et comment le comportement du cache affecte la vitesse et l'exactitude des reconstructions."
+        },
+        "de": {
+          "name": "Erstellungs-Cache",
+          "desc": "Der Erstellungs-Cache behandelt, wie Docker Ebenen der Image-Erstellung wiederverwendet und wie sich das Cache-Verhalten auf Geschwindigkeit und Korrektheit erneuter Image-Erstellungen auswirkt."
+        },
+        "ja": {
+          "name": "ビルドキャッシュ",
+          "desc": "ビルドキャッシュでは、Docker がビルドレイヤーを再利用する方法と、キャッシュの動作がリビルドの速度と正確さにどのように影響するかを説明します。"
+        },
+        "ru": {
+          "name": "Кэш сборки",
+          "desc": "Кэш сборки описывает, как Docker повторно использует слои сборки и как поведение кэша влияет на скорость и корректность повторной сборки."
+        },
+        "ko": {
+          "name": "빌드 캐시",
+          "desc": "빌드 캐시는 Docker가 빌드 레이어를 재사용하는 방법과 캐시 동작이 다시 빌드 속도와 정확성에 미치는 영향을 다룹니다."
+        },
+        "pt": {
+          "name": "Cache de compilação",
+          "desc": "O cache de compilação aborda como Docker reutiliza camadas de compilação e como o comportamento do cache afeta a velocidade e a correção das recompilações."
+        }
+      }
+    },
+    {
+      "key": "docker/multi_stage_builds",
+      "slug": "multi_stage_builds",
+      "name": "Multi-Stage Builds",
+      "desc": "Multi-stage builds cover separating build-time and runtime artifacts to produce smaller container images.",
+      "i18n": {
+        "zh": {
+          "name": "多阶段构建",
+          "desc": "多阶段构建涵盖分离构建时和运行时工件以生成更小的容器镜像。"
+        },
+        "es": {
+          "name": "Builds multietapa",
+          "desc": "Los builds multietapa cubren la separación de artefactos de build y de ejecución para producir imágenes de contenedor más pequeñas."
+        },
+        "fr": {
+          "name": "Builds multi-étapes",
+          "desc": "Les constructions multi-étapes couvrent la séparation des artefacts de construction et d’exécution pour produire des images de conteneurs plus petites."
+        },
+        "de": {
+          "name": "Mehrstufige Image-Erstellungen",
+          "desc": "Mehrstufige Image-Erstellungen umfassen die Trennung von Erstellungs- und Laufzeitartefakten, um kleinere Container-Images zu erstellen."
+        },
+        "ja": {
+          "name": "マルチステージビルド",
+          "desc": "マルチステージビルドでは、ビルド時アーティファクトとランタイムアーティファクトを分離して、より小さなコンテナーイメージを生成します。"
+        },
+        "ru": {
+          "name": "Многоэтапные сборки",
+          "desc": "Многоэтапные сборки охватывают разделение артефактов времени сборки и времени выполнения для создания образов контейнеров меньшего размера."
+        },
+        "ko": {
+          "name": "다단계 빌드",
+          "desc": "다단계 빌드는 빌드 시점 아티팩트와 런타임 아티팩트를 분리하여 더 작은 컨테이너 이미지를 생성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Builds em vários estágios",
+          "desc": "Os builds em vários estágios cobrem a separação de artefatos de build e de tempo de execução para produzir imagens de contêiner menores."
+        }
+      }
+    },
+    {
+      "key": "docker/image_tagging",
+      "slug": "image_tagging",
+      "name": "Image Tagging",
+      "desc": "Image tagging covers naming image versions for local use, release tracking, and registry distribution.",
+      "i18n": {
+        "zh": {
+          "name": "镜像标记",
+          "desc": "镜像标记涵盖为本地使用、发布跟踪和镜像仓库分发命名镜像版本。"
+        },
+        "es": {
+          "name": "Etiquetado de imágenes",
+          "desc": "El etiquetado de imágenes cubre asignar nombres a versiones de imagen para uso local, seguimiento de versiones y distribución en registries."
+        },
+        "fr": {
+          "name": "Marquage des images",
+          "desc": "Le marquage des images couvre le nommage des versions d’image pour l’utilisation locale, le suivi des versions et la distribution via registre."
+        },
+        "de": {
+          "name": "Image-Tags",
+          "desc": "Image-Tags behandeln das Benennen von Image-Versionen für lokale Nutzung, Release-Verfolgung und Verteilung über Registries."
+        },
+        "ja": {
+          "name": "イメージのタグ付け",
+          "desc": "イメージのタグ付けは、ローカル利用、リリース追跡、レジストリ配布のためにイメージバージョンへ名前を付けることを扱います。"
+        },
+        "ru": {
+          "name": "Маркировка образов",
+          "desc": "Тегирование образов охватывает именование версий образов для локального использования, отслеживания релизов и распространения через реестр."
+        },
+        "ko": {
+          "name": "이미지 태깅",
+          "desc": "이미지 태깅은 로컬 사용, 릴리스 추적, 레지스트리 배포를 위해 이미지 버전에 이름을 붙이는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Marcação de imagens",
+          "desc": "A marcação de imagens abrange nomear versões de imagem para uso local, rastreamento de versões e distribuição em registries."
+        }
+      }
+    },
+    {
+      "key": "docker/image_cleanup",
+      "slug": "image_cleanup",
+      "name": "Image Cleanup",
+      "desc": "Image cleanup covers removing unused images and layers while preserving required runtime artifacts.",
+      "i18n": {
+        "zh": {
+          "name": "镜像清理",
+          "desc": "镜像清理包括删除未使用的镜像和图层，同时保留所需的运行时工件。"
+        },
+        "es": {
+          "name": "Limpieza de imágenes",
+          "desc": "La limpieza de imágenes cubre la eliminación de imágenes y capas no utilizadas y al mismo tiempo preserva los artefactos de tiempo de ejecución necesarios."
+        },
+        "fr": {
+          "name": "Nettoyage des images",
+          "desc": "Le nettoyage des images consiste à supprimer les images et les couches inutilisées tout en préservant les artefacts d'exécution requis."
+        },
+        "de": {
+          "name": "Image-Bereinigung",
+          "desc": "Die Image-Bereinigung umfasst das Entfernen nicht verwendeter Images und Ebenen unter Beibehaltung erforderlicher Laufzeitartefakte."
+        },
+        "ja": {
+          "name": "イメージのクリーンアップ",
+          "desc": "イメージのクリーンアップでは、必要なランタイムアーティファクトを保持しながら、未使用のイメージとレイヤーを削除します。"
+        },
+        "ru": {
+          "name": "Очистка образов",
+          "desc": "Очистка образов включает удаление неиспользуемых образов и слоев с сохранением необходимых артефактов времени выполнения."
+        },
+        "ko": {
+          "name": "이미지 정리",
+          "desc": "이미지 정리에는 필요한 런타임 아티팩트를 유지하면서 사용하지 않는 이미지와 레이어를 제거하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Limpeza de imagens",
+          "desc": "A limpeza de imagens abrange a remoção de imagens e camadas não utilizadas, preservando os artefatos de tempo de execução necessários."
+        }
+      }
+    },
+    {
+      "key": "docker/bind_mounts",
+      "slug": "bind_mounts",
+      "name": "Bind Mounts",
+      "desc": "Bind mounts cover exposing host paths inside containers for development, configuration, and local data access.",
+      "i18n": {
+        "zh": {
+          "name": "绑定挂载",
+          "desc": "绑定挂载涵盖将主机路径暴露到容器内，用于开发、配置和本地数据访问。"
+        },
+        "es": {
+          "name": "Montajes vinculados",
+          "desc": "Los montajes vinculados cubren exponer rutas del host dentro de contenedores para desarrollo, configuración y acceso local a datos."
+        },
+        "fr": {
+          "name": "Montages liés",
+          "desc": "Les montages liés couvrent l'exposition de chemins hôte dans les conteneurs pour le développement, la configuration et l'accès aux données locales."
+        },
+        "de": {
+          "name": "Bind-Mounts",
+          "desc": "Bind-Mounts behandeln das Bereitstellen von Host-Pfaden in Containern für Entwicklung, Konfiguration und lokalen Datenzugriff."
+        },
+        "ja": {
+          "name": "バインドマウント",
+          "desc": "バインドマウントは、開発、設定、ローカルデータアクセスのためにホストパスをコンテナー内へ公開することを扱います。"
+        },
+        "ru": {
+          "name": "Привязанные монтирования",
+          "desc": "Привязанные монтирования охватывают предоставление путей хоста внутри контейнеров для разработки, настройки и локального доступа к данным."
+        },
+        "ko": {
+          "name": "바인드 마운트",
+          "desc": "바인드 마운트는 개발, 구성, 로컬 데이터 접근을 위해 호스트 경로를 컨테이너 내부에 노출하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Montagens vinculadas",
+          "desc": "Montagens vinculadas cobrem a exposição de caminhos do host dentro de contêineres para desenvolvimento, configuração e acesso local a dados."
+        }
+      }
+    },
+    {
+      "key": "docker/named_volumes",
+      "slug": "named_volumes",
+      "name": "Named Volumes",
+      "desc": "Named volumes cover Docker-managed persistent storage for container data.",
+      "i18n": {
+        "zh": {
+          "name": "命名卷",
+          "desc": "命名卷涵盖 Docker 管理的容器数据持久存储。"
+        },
+        "es": {
+          "name": "Volúmenes nombrados",
+          "desc": "Los volúmenes con nombre cubren el almacenamiento persistente administrado por Docker para datos de contenedores."
+        },
+        "fr": {
+          "name": "Volumes nommés",
+          "desc": "Les volumes nommés couvrent le stockage persistant géré par Docker pour les données du conteneur."
+        },
+        "de": {
+          "name": "Benannte Volumes",
+          "desc": "Benannte Volumes umfassen den von Docker verwalteten persistenten Speicher für Containerdaten."
+        },
+        "ja": {
+          "name": "名前付きボリューム",
+          "desc": "名前付きボリュームは、コンテナーデータ用の Docker 管理の永続ストレージを扱います。"
+        },
+        "ru": {
+          "name": "Именованные тома",
+          "desc": "Именованные тома охватывают постоянное хранилище данных контейнера, управляемое Docker."
+        },
+        "ko": {
+          "name": "명명된 볼륨",
+          "desc": "명명된 볼륨에는 컨테이너 데이터를 위한 Docker 관리형 영구 스토리지가 포함됩니다."
+        },
+        "pt": {
+          "name": "Volumes Nomeados",
+          "desc": "Os volumes nomeados cobrem o armazenamento persistente gerenciado pelo Docker para dados de contêiner."
+        }
+      }
+    },
+    {
+      "key": "docker/volume_lifecycle",
+      "slug": "volume_lifecycle",
+      "name": "Volume Lifecycle",
+      "desc": "Volume lifecycle covers creating, inspecting, reusing, backing up, and removing volumes.",
+      "i18n": {
+        "zh": {
+          "name": "卷生命周期",
+          "desc": "卷生命周期涵盖创建、检查、重用、备份和删除卷。"
+        },
+        "es": {
+          "name": "Ciclo de vida del volumen",
+          "desc": "El ciclo de vida del volumen cubre la creación, inspección, reutilización, copia de seguridad y eliminación de volúmenes."
+        },
+        "fr": {
+          "name": "Cycle de vie des volumes",
+          "desc": "Le cycle de vie des volumes couvre la création, l'inspection, la réutilisation, la sauvegarde et la suppression de volumes."
+        },
+        "de": {
+          "name": "Volume-Lebenszyklus",
+          "desc": "Der Volume-Lebenszyklus umfasst das Erstellen, Überprüfen, Wiederverwenden, Sichern und Entfernen von Volumes."
+        },
+        "ja": {
+          "name": "ボリュームのライフサイクル",
+          "desc": "ボリュームのライフサイクルには、ボリュームの作成、検査、再利用、バックアップ、削除が含まれます。"
+        },
+        "ru": {
+          "name": "Жизненный цикл тома",
+          "desc": "Жизненный цикл тома охватывает создание, проверку, повторное использование, резервное копирование и удаление томов."
+        },
+        "ko": {
+          "name": "볼륨 수명주기",
+          "desc": "볼륨 수명주기에는 볼륨 생성, 검사, 재사용, 백업 및 제거가 포함됩니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida do volume",
+          "desc": "O ciclo de vida do volume abrange a criação, inspeção, reutilização, backup e remoção de volumes."
+        }
+      }
+    },
+    {
+      "key": "docker/container_file_transfer",
+      "slug": "container_file_transfer",
+      "name": "Container File Transfer",
+      "desc": "Container file transfer covers moving files between hosts and containers without treating containers as permanent hosts.",
+      "i18n": {
+        "zh": {
+          "name": "容器文件传输",
+          "desc": "容器文件传输涵盖在主机和容器之间移动文件，而不将容器视为永久主机。"
+        },
+        "es": {
+          "name": "Transferencia de archivos de contenedor",
+          "desc": "La transferencia de archivos de contenedores cubre el movimiento de archivos entre hosts y contenedores sin tratar los contenedores como hosts permanentes."
+        },
+        "fr": {
+          "name": "Transfert de fichiers de conteneur",
+          "desc": "Le transfert de fichiers de conteneur couvre le déplacement de fichiers entre hôtes et conteneurs sans traiter les conteneurs comme des hôtes permanents."
+        },
+        "de": {
+          "name": "Container-Dateiübertragung",
+          "desc": "Der Container-Dateitransfer umfasst das Verschieben von Dateien zwischen Hosts und Containern, ohne Container als permanente Hosts zu behandeln."
+        },
+        "ja": {
+          "name": "コンテナファイル転送",
+          "desc": "コンテナーファイル転送では、コンテナーを永続的なホストとして扱うことなく、ホストとコンテナーの間でファイルを移動できます。"
+        },
+        "ru": {
+          "name": "Передача файлов контейнера",
+          "desc": "Передача файлов контейнера охватывает перемещение файлов между хостами и контейнерами без рассмотрения контейнеров как постоянных хостов."
+        },
+        "ko": {
+          "name": "컨테이너 파일 전송",
+          "desc": "컨테이너 파일 전송에는 컨테이너를 영구 호스트로 취급하지 않고 호스트와 컨테이너 간 파일 이동이 포함됩니다."
+        },
+        "pt": {
+          "name": "Transferência de arquivos de contêiner",
+          "desc": "A transferência de arquivos de contêiner abrange a movimentação de arquivos entre hosts e contêineres sem tratar os contêineres como hosts permanentes."
+        }
+      }
+    },
+    {
+      "key": "docker/data_persistence",
+      "slug": "data_persistence",
+      "name": "Data Persistence",
+      "desc": "Data persistence covers designing containerized workloads so important state survives container replacement.",
+      "i18n": {
+        "zh": {
+          "name": "数据持久化",
+          "desc": "数据持久化涵盖设计容器化工作负载，使重要状态在容器替换后仍能保留。"
+        },
+        "es": {
+          "name": "Persistencia de datos",
+          "desc": "La persistencia de datos cubre el diseño de cargas de trabajo en contenedores para que el estado importante sobreviva al reemplazo del contenedor."
+        },
+        "fr": {
+          "name": "Persistance des données",
+          "desc": "La persistance des données couvre la conception de charges de travail conteneurisées afin que l'état important survive au remplacement du conteneur."
+        },
+        "de": {
+          "name": "Datenpersistenz",
+          "desc": "Die Datenpersistenz umfasst das Entwerfen von Container-Workloads, sodass wichtige Zustände den Containeraustausch überdauern."
+        },
+        "ja": {
+          "name": "データの永続性",
+          "desc": "データの永続性では、コンテナを置き換えても重要な状態を保持できるようにコンテナ化ワークロードを設計する方法を扱います。"
+        },
+        "ru": {
+          "name": "Сохранение данных",
+          "desc": "Сохранение данных охватывает проектирование контейнерных рабочих нагрузок так, чтобы важное состояние сохранялось после замены контейнера."
+        },
+        "ko": {
+          "name": "데이터 지속성",
+          "desc": "데이터 지속성은 중요한 상태가 컨테이너 교체 후에도 유지되도록 컨테이너화된 워크로드를 설계하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Persistência de dados",
+          "desc": "A persistência de dados abrange o projeto de cargas de trabalho em contêineres para que um estado importante sobreviva à substituição do contêiner."
+        }
+      }
+    },
+    {
+      "key": "docker/network_drivers",
+      "slug": "network_drivers",
+      "name": "Network Drivers",
+      "desc": "Network drivers cover bridge, host, none, and other Docker network modes.",
+      "i18n": {
+        "zh": {
+          "name": "网络驱动程序",
+          "desc": "网络驱动涵盖 bridge、host、none 以及其他 Docker 网络模式。"
+        },
+        "es": {
+          "name": "Controladores de red",
+          "desc": "Los controladores de red cubren bridge, host, none y otros modos de red de Docker."
+        },
+        "fr": {
+          "name": "Pilotes réseau",
+          "desc": "Les pilotes réseau couvrent les modes réseau bridge, host, none et autres modes Docker."
+        },
+        "de": {
+          "name": "Netzwerktreiber",
+          "desc": "Netzwerktreiber decken Bridge, Host, None und andere Docker-Netzwerkmodi ab."
+        },
+        "ja": {
+          "name": "ネットワークドライバー",
+          "desc": "ネットワークドライバーは、ブリッジ、ホスト、なし、およびその他の Docker ネットワークモードを扱います。"
+        },
+        "ru": {
+          "name": "Сетевые драйверы",
+          "desc": "Сетевые драйверы охватывают режимы bridge, host, none и другие сетевые режимы Docker."
+        },
+        "ko": {
+          "name": "네트워크 드라이버",
+          "desc": "네트워크 드라이버는 bridge, host, none 및 기타 Docker 네트워크 모드를 다룹니다."
+        },
+        "pt": {
+          "name": "Drivers de rede",
+          "desc": "Os drivers de rede cobrem bridge, host, none e outros modos de rede Docker."
+        }
+      }
+    },
+    {
+      "key": "docker/container_dns",
+      "slug": "container_dns",
+      "name": "Container DNS",
+      "desc": "Container DNS covers name resolution between containers on Docker networks.",
+      "i18n": {
+        "zh": {
+          "name": "容器 DNS",
+          "desc": "容器 DNS 涵盖 Docker 网络上容器之间的名称解析。"
+        },
+        "es": {
+          "name": "DNS de contenedores",
+          "desc": "El DNS de contenedores cubre la resolución de nombres entre contenedores en redes de Docker."
+        },
+        "fr": {
+          "name": "DNS des conteneurs",
+          "desc": "Le DNS des conteneurs couvre la résolution de noms entre conteneurs sur les réseaux Docker."
+        },
+        "de": {
+          "name": "Container-DNS",
+          "desc": "Container DNS deckt die Namensauflösung zwischen Containern in Docker-Netzwerken ab."
+        },
+        "ja": {
+          "name": "コンテナ DNS",
+          "desc": "コンテナ DNS は、Docker ネットワーク上のコンテナ間の名前解決を扱います。"
+        },
+        "ru": {
+          "name": "DNS контейнеров",
+          "desc": "DNS контейнеров обеспечивает разрешение имен между контейнерами в сетях Docker."
+        },
+        "ko": {
+          "name": "컨테이너 DNS",
+          "desc": "컨테이너 DNS는 Docker 네트워크의 컨테이너 간 이름 확인을 다룹니다."
+        },
+        "pt": {
+          "name": "DNS de contêineres",
+          "desc": "O DNS de contêineres cobre a resolução de nomes entre contêineres em redes do Docker."
+        }
+      }
+    },
+    {
+      "key": "docker/port_publishing",
+      "slug": "port_publishing",
+      "name": "Port Publishing",
+      "desc": "Port publishing covers exposing container services through host ports.",
+      "i18n": {
+        "zh": {
+          "name": "端口发布",
+          "desc": "端口发布包括通过主机端口公开容器服务。"
+        },
+        "es": {
+          "name": "Publicación de puertos",
+          "desc": "La publicación de puertos cubre la exposición de servicios de contenedores a través de puertos del host."
+        },
+        "fr": {
+          "name": "Publication de ports",
+          "desc": "La publication de ports couvre l’exposition des services de conteneurs via les ports de l’hôte."
+        },
+        "de": {
+          "name": "Portveröffentlichung",
+          "desc": "Portveröffentlichung umfasst das Bereitstellen von Containerdiensten über Host-Ports."
+        },
+        "ja": {
+          "name": "ポート公開",
+          "desc": "ポート公開は、ホストポートを介してコンテナサービスを公開することを扱います。"
+        },
+        "ru": {
+          "name": "Публикация портов",
+          "desc": "Публикация портов включает предоставление сервисов контейнеров через порты хоста."
+        },
+        "ko": {
+          "name": "포트 퍼블리싱",
+          "desc": "포트 퍼블리싱은 호스트 포트를 통해 컨테이너 서비스를 노출하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Publicação de portas",
+          "desc": "A publicação de portas abrange a exposição de serviços de contêiner por meio de portas host."
+        }
+      }
+    },
+    {
+      "key": "docker/network_isolation",
+      "slug": "network_isolation",
+      "name": "Network Isolation",
+      "desc": "Network isolation covers separating container traffic and limiting unintended connectivity.",
+      "i18n": {
+        "zh": {
+          "name": "网络隔离",
+          "desc": "网络隔离包括分离容器流量并限制非预期连接。"
+        },
+        "es": {
+          "name": "Aislamiento de red",
+          "desc": "El aislamiento de la red cubre la separación del tráfico de contenedores y la limitación de la conectividad no deseada."
+        },
+        "fr": {
+          "name": "Isolation du réseau",
+          "desc": "L'isolation du réseau consiste à séparer le trafic des conteneurs et à limiter la connectivité involontaire."
+        },
+        "de": {
+          "name": "Netzwerkisolation",
+          "desc": "Die Netzwerkisolierung umfasst die Trennung des Containerverkehrs und die Begrenzung unbeabsichtigter Verbindungen."
+        },
+        "ja": {
+          "name": "ネットワークの分離",
+          "desc": "ネットワーク分離では、コンテナトラフィックを分離し、意図しない接続を制限します。"
+        },
+        "ru": {
+          "name": "Сетевая изоляция",
+          "desc": "Сетевая изоляция включает разделение контейнерного трафика и ограничение непреднамеренного подключения."
+        },
+        "ko": {
+          "name": "네트워크 격리",
+          "desc": "네트워크 격리에는 컨테이너 트래픽 분리와 의도하지 않은 연결 제한이 포함됩니다."
+        },
+        "pt": {
+          "name": "Isolamento de rede",
+          "desc": "O isolamento da rede abrange a separação do tráfego de contêineres e a limitação da conectividade não intencional."
+        }
+      }
+    },
+    {
+      "key": "docker/container_connectivity",
+      "slug": "container_connectivity",
+      "name": "Container Connectivity",
+      "desc": "Container connectivity covers validating that containers can reach required services and dependencies.",
+      "i18n": {
+        "zh": {
+          "name": "容器连接",
+          "desc": "容器连接包括验证容器是否可以访问所需的服务和依赖项。"
+        },
+        "es": {
+          "name": "Conectividad de contenedores",
+          "desc": "La conectividad de contenedores cubre la validación de que los contenedores puedan alcanzar los servicios y dependencias requeridos."
+        },
+        "fr": {
+          "name": "Connectivité des conteneurs",
+          "desc": "La connectivité des conteneurs couvre la validation que les conteneurs peuvent atteindre les services et dépendances requis."
+        },
+        "de": {
+          "name": "Container-Konnektivität",
+          "desc": "Die Containerkonnektivität umfasst die Validierung, dass Container erforderliche Dienste und Abhängigkeiten erreichen können."
+        },
+        "ja": {
+          "name": "コンテナの接続性",
+          "desc": "コンテナーの接続性では、コンテナーが必要なサービスと依存関係に到達できるかどうかを検証します。"
+        },
+        "ru": {
+          "name": "Подключение контейнеров",
+          "desc": "Подключение контейнеров включает проверку возможности доступа контейнеров к необходимым службам и зависимостям."
+        },
+        "ko": {
+          "name": "컨테이너 연결성",
+          "desc": "컨테이너 연결성은 컨테이너가 필요한 서비스 및 종속성에 도달할 수 있는지 검증하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Conectividade de contêiner",
+          "desc": "A conectividade do contêiner abrange a validação de que os contêineres podem alcançar os serviços e dependências necessários."
+        }
+      }
+    },
+    {
+      "key": "docker/environment_configuration",
+      "slug": "environment_configuration",
+      "name": "Environment Configuration",
+      "desc": "Environment configuration covers injecting runtime settings with environment variables and env files.",
+      "i18n": {
+        "zh": {
+          "name": "环境配置",
+          "desc": "环境配置涵盖使用环境变量和 env 文件注入运行时设置。"
+        },
+        "es": {
+          "name": "Configuración del entorno",
+          "desc": "La configuración del entorno cubre la inyección de configuraciones de tiempo de ejecución con variables de entorno y archivos env."
+        },
+        "fr": {
+          "name": "Configuration de l'environnement",
+          "desc": "La configuration de l'environnement couvre l'injection de paramètres d'exécution avec des variables d'environnement et des fichiers env."
+        },
+        "de": {
+          "name": "Umgebungskonfiguration",
+          "desc": "Die Umgebungskonfiguration umfasst das Einfügen von Laufzeiteinstellungen mit Umgebungsvariablen und Env-Dateien."
+        },
+        "ja": {
+          "name": "環境構成",
+          "desc": "環境構成では、環境変数と env ファイルを使用したランタイム設定の挿入について説明します。"
+        },
+        "ru": {
+          "name": "Конфигурация среды",
+          "desc": "Конфигурация среды включает в себя внедрение параметров времени выполнения с помощью переменных среды и файлов env."
+        },
+        "ko": {
+          "name": "환경 구성",
+          "desc": "환경 구성에서는 환경 변수 및 env 파일을 사용하여 런타임 설정을 주입하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Configuração do ambiente",
+          "desc": "A configuração do ambiente abrange a injeção de configurações de tempo de execução com variáveis de ambiente e arquivos env."
+        }
+      }
+    },
+    {
+      "key": "docker/compose_services",
+      "slug": "compose_services",
+      "name": "Compose Services",
+      "desc": "Compose services cover defining containers, images, commands, ports, and runtime settings in multi-service applications.",
+      "i18n": {
+        "zh": {
+          "name": "Compose 服务",
+          "desc": "Compose 服务涵盖在多服务应用中定义容器、镜像、命令、端口和运行时设置。"
+        },
+        "es": {
+          "name": "Servicios de Compose",
+          "desc": "Los servicios de Compose cubren la definición de contenedores, imágenes, comandos, puertos y configuraciones de tiempo de ejecución en aplicaciones multiservicio."
+        },
+        "fr": {
+          "name": "Services Compose",
+          "desc": "Les services Compose couvrent la définition des conteneurs, des images, des commandes, des ports et des paramètres d'exécution dans les applications multiservices."
+        },
+        "de": {
+          "name": "Compose-Dienste",
+          "desc": "Compose-Dienste umfassen das Definieren von Containern, Images, Befehlen, Ports und Laufzeiteinstellungen in Multi-Service-Anwendungen."
+        },
+        "ja": {
+          "name": "Compose サービス",
+          "desc": "Compose サービスは、マルチサービスアプリケーションでのコンテナー、イメージ、コマンド、ポート、およびランタイム設定の定義を扱います。"
+        },
+        "ru": {
+          "name": "Сервисы Compose",
+          "desc": "Сервисы Compose охватывают определение контейнеров, образов, команд, портов и параметров времени выполнения в мультисервисных приложениях."
+        },
+        "ko": {
+          "name": "Compose 서비스",
+          "desc": "Compose 서비스는 다중 서비스 애플리케이션의 컨테이너, 이미지, 명령, 포트 및 런타임 설정 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Serviços do Compose",
+          "desc": "Os serviços Compose abrangem a definição de contêineres, imagens, comandos, portas e configurações de tempo de execução em aplicativos multiserviços."
+        }
+      }
+    },
+    {
+      "key": "docker/compose_networks",
+      "slug": "compose_networks",
+      "name": "Compose Networks",
+      "desc": "Compose networks cover shared connectivity and service discovery in multi-container Compose applications.",
+      "i18n": {
+        "zh": {
+          "name": "Compose 网络",
+          "desc": "Compose 网络涵盖多容器 Compose 应用程序中的共享连接和服务发现。"
+        },
+        "es": {
+          "name": "Redes de Compose",
+          "desc": "Las redes Compose cubren la conectividad compartida y el descubrimiento de servicios en aplicaciones Compose de múltiples contenedores."
+        },
+        "fr": {
+          "name": "Réseaux Compose",
+          "desc": "Les réseaux Compose couvrent la connectivité partagée et la découverte de services dans les applications Compose multi-conteneurs."
+        },
+        "de": {
+          "name": "Compose-Netzwerke",
+          "desc": "Compose-Netzwerke decken gemeinsame Konnektivität und Serviceerkennung in Compose-Anwendungen mit mehreren Containern ab."
+        },
+        "ja": {
+          "name": "Compose ネットワーク",
+          "desc": "Compose ネットワークは、マルチコンテナ Compose アプリケーションでの共有接続とサービス検出を扱います。"
+        },
+        "ru": {
+          "name": "Сети Compose",
+          "desc": "Сети Compose обеспечивают совместное подключение и обнаружение сервисов в многоконтейнерных приложениях Compose."
+        },
+        "ko": {
+          "name": "Compose 네트워크",
+          "desc": "Compose 네트워크는 다중 컨테이너 Compose 애플리케이션의 공유 연결 및 서비스 검색을 다룹니다."
+        },
+        "pt": {
+          "name": "Redes do Compose",
+          "desc": "As redes Compose cobrem conectividade compartilhada e descoberta de serviços em aplicativos Compose de vários contêineres."
+        }
+      }
+    },
+    {
+      "key": "docker/compose_volumes",
+      "slug": "compose_volumes",
+      "name": "Compose Volumes",
+      "desc": "Compose volumes cover persistence and shared storage in multi-container Compose applications.",
+      "i18n": {
+        "zh": {
+          "name": "Compose 卷",
+          "desc": "Compose 卷涵盖多容器 Compose 应用程序中的持久性和共享存储。"
+        },
+        "es": {
+          "name": "Volúmenes de Compose",
+          "desc": "Los volúmenes de Compose cubren la persistencia y el almacenamiento compartido en aplicaciones de Compose de múltiples contenedores."
+        },
+        "fr": {
+          "name": "Volumes Compose",
+          "desc": "Les volumes Compose couvrent la persistance et le stockage partagé dans les applications Compose multi-conteneurs."
+        },
+        "de": {
+          "name": "Compose-Volumes",
+          "desc": "Compose-Volumes decken Persistenz und gemeinsam genutzten Speicher in Compose-Anwendungen mit mehreren Containern ab."
+        },
+        "ja": {
+          "name": "Compose ボリューム",
+          "desc": "Compose ボリュームは、マルチコンテナ Compose アプリケーションの永続性と共有ストレージを扱います。"
+        },
+        "ru": {
+          "name": "Тома Compose",
+          "desc": "Тома Compose охватывают постоянное и общее хранилище в многоконтейнерных приложениях Compose."
+        },
+        "ko": {
+          "name": "Compose 볼륨",
+          "desc": "Compose 볼륨은 다중 컨테이너 Compose 애플리케이션의 지속성 및 공유 스토리지를 다룹니다."
+        },
+        "pt": {
+          "name": "Volumes do Compose",
+          "desc": "Os volumes do Compose cobrem persistência e armazenamento compartilhado em aplicativos Compose de vários contêineres."
+        }
+      }
+    },
+    {
+      "key": "docker/compose_lifecycle",
+      "slug": "compose_lifecycle",
+      "name": "Compose Lifecycle",
+      "desc": "Compose lifecycle covers creating, updating, stopping, and removing multi-service environments.",
+      "i18n": {
+        "zh": {
+          "name": "Compose 生命周期",
+          "desc": "Compose 生命周期涵盖创建、更新、停止和删除多服务环境。"
+        },
+        "es": {
+          "name": "Ciclo de vida de Compose",
+          "desc": "El ciclo de vida de Compose cubre la creación, actualización, detención y eliminación de entornos multiservicio."
+        },
+        "fr": {
+          "name": "Cycle de vie Compose",
+          "desc": "Le cycle de vie de Compose couvre la création, la mise à jour, l'arrêt et la suppression d'environnements multiservices."
+        },
+        "de": {
+          "name": "Compose-Lebenszyklus",
+          "desc": "Der Compose-Lebenszyklus umfasst das Erstellen, Aktualisieren, Stoppen und Entfernen von Umgebungen mit mehreren Diensten."
+        },
+        "ja": {
+          "name": "Compose ライフサイクル",
+          "desc": "Compose ライフサイクルには、マルチサービス環境の作成、更新、停止、削除が含まれます。"
+        },
+        "ru": {
+          "name": "Жизненный цикл Compose",
+          "desc": "Жизненный цикл Compose охватывает создание, обновление, остановку и удаление мультисервисных сред."
+        },
+        "ko": {
+          "name": "Compose 수명 주기",
+          "desc": "Compose 수명 주기에는 다중 서비스 환경 생성, 업데이트, 중지, 제거가 포함됩니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida do Compose",
+          "desc": "O ciclo de vida do Compose abrange a criação, atualização, interrupção e remoção de ambientes multisserviços."
+        }
+      }
+    },
+    {
+      "key": "docker/registry_authentication",
+      "slug": "registry_authentication",
+      "name": "Registry Authentication",
+      "desc": "Registry authentication covers logging in to image registries and managing image access.",
+      "i18n": {
+        "zh": {
+          "name": "镜像仓库认证",
+          "desc": "镜像仓库认证包括登录镜像仓库和管理镜像访问。"
+        },
+        "es": {
+          "name": "Autenticación de registry",
+          "desc": "La autenticación de registry cubre el inicio de sesión en registries de imágenes y la gestión del acceso a las imágenes."
+        },
+        "fr": {
+          "name": "Authentification de registry",
+          "desc": "L'authentification de registry couvre la connexion aux registries d'images et la gestion de l'accès aux images."
+        },
+        "de": {
+          "name": "Registry-Authentifizierung",
+          "desc": "Die Registry-Authentifizierung umfasst die Anmeldung bei Image-Registries und die Verwaltung des Image-Zugriffs."
+        },
+        "ja": {
+          "name": "レジストリ認証",
+          "desc": "レジストリ認証には、イメージレジストリへのログインとイメージアクセスの管理が含まれます。"
+        },
+        "ru": {
+          "name": "Аутентификация реестра",
+          "desc": "Аутентификация реестра включает вход в реестры образов и управление доступом к образам."
+        },
+        "ko": {
+          "name": "레지스트리 인증",
+          "desc": "레지스트리 인증에는 이미지 레지스트리 로그인 및 이미지 액세스 관리가 포함됩니다."
+        },
+        "pt": {
+          "name": "Autenticação de registry",
+          "desc": "A autenticação de registry abrange o login em registries de imagens e o gerenciamento do acesso às imagens."
+        }
+      }
+    },
+    {
+      "key": "docker/image_publishing",
+      "slug": "image_publishing",
+      "name": "Image Publishing",
+      "desc": "Image publishing covers tagging, authenticating, and pushing images to registries for controlled reuse.",
+      "i18n": {
+        "zh": {
+          "name": "镜像发布",
+          "desc": "镜像发布包括打标签、认证并将镜像推送到镜像仓库，以便受控复用。"
+        },
+        "es": {
+          "name": "Publicación de imágenes",
+          "desc": "La publicación de imágenes cubre el etiquetado, la autenticación y el envío de imágenes a registros para su reutilización controlada."
+        },
+        "fr": {
+          "name": "Publication d'images",
+          "desc": "La publication d'images couvre le tagging, l'authentification et le push des images vers des registries pour une réutilisation contrôlée."
+        },
+        "de": {
+          "name": "Imageveröffentlichung",
+          "desc": "Die Imageveröffentlichung umfasst das Taggen, Authentifizieren und Pushen von Images an Registries zur kontrollierten Wiederverwendung."
+        },
+        "ja": {
+          "name": "イメージの公開",
+          "desc": "イメージの公開には、制御された再利用のためにイメージのタグ付け、認証、レジストリへのプッシュが含まれます。"
+        },
+        "ru": {
+          "name": "Публикация образов",
+          "desc": "Публикация образов включает тегирование, аутентификацию и push образов в реестры для контролируемого повторного использования."
+        },
+        "ko": {
+          "name": "이미지 게시",
+          "desc": "이미지 게시는 제어된 재사용을 위해 이미지에 태그를 지정하고 인증한 뒤 레지스트리에 푸시하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Publicação de imagens",
+          "desc": "A publicação de imagens abrange tagueamento, autenticação e push de imagens para registries para reutilização controlada."
+        }
+      }
+    },
+    {
+      "key": "docker/image_export_import",
+      "slug": "image_export_import",
+      "name": "Image Export and Import",
+      "desc": "Image export and import cover saving and loading images outside a registry.",
+      "i18n": {
+        "zh": {
+          "name": "镜像导出和导入",
+          "desc": "镜像导出和导入包括在镜像仓库之外保存和加载镜像。"
+        },
+        "es": {
+          "name": "Exportación e importación de imágenes",
+          "desc": "Exportación e importación de imágenes cubren el guardado y la carga de imágenes fuera de un registro."
+        },
+        "fr": {
+          "name": "Exportation et importation d'images",
+          "desc": "L'exportation et l'importation d'images couvrent l'enregistrement et le chargement d'images en dehors d'une registry."
+        },
+        "de": {
+          "name": "Image-Export und -import",
+          "desc": "Der Image-Export und -import umfasst das Speichern und Laden von Images außerhalb einer Registrierung."
+        },
+        "ja": {
+          "name": "イメージのエクスポートとインポート",
+          "desc": "イメージのエクスポートとインポートは、レジストリ外でのイメージの保存とロードを扱います。"
+        },
+        "ru": {
+          "name": "Экспорт и импорт образов",
+          "desc": "Экспорт и импорт образов включают сохранение и загрузку образов вне реестра."
+        },
+        "ko": {
+          "name": "이미지 내보내기 및 가져오기",
+          "desc": "이미지 내보내기 및 가져오기는 레지스트리 외부에서 이미지를 저장하고 로드하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Exportação e importação de imagens",
+          "desc": "A exportação e importação de imagens abrangem o salvamento e o carregamento de imagens fora de um registro."
+        }
+      }
+    },
+    {
+      "key": "docker/image_digests",
+      "slug": "image_digests",
+      "name": "Image Digests",
+      "desc": "Image digests cover immutable image references used for reproducible pulls and precise image identification.",
+      "i18n": {
+        "zh": {
+          "name": "镜像摘要",
+          "desc": "镜像摘要涵盖用于可重复拉取和精确镜像识别的不可变镜像引用。"
+        },
+        "es": {
+          "name": "Digests de imagen",
+          "desc": "Los digests de imagen cubren referencias de imagen inmutables que se utilizan para descargas reproducibles e identificación precisa de imágenes."
+        },
+        "fr": {
+          "name": "Digests d’image",
+          "desc": "Les digests d’image couvrent des références d’image immuables utilisées pour des pulls reproductibles et une identification précise des images."
+        },
+        "de": {
+          "name": "Image-Digests",
+          "desc": "Image-Digests umfassen unveränderliche Image-Referenzen, die für reproduzierbare Abrufe und eine präzise Imageidentifizierung verwendet werden."
+        },
+        "ja": {
+          "name": "イメージダイジェスト",
+          "desc": "イメージダイジェストは、再現可能なプルと正確なイメージ識別に使用される不変のイメージ参照を扱います。"
+        },
+        "ru": {
+          "name": "Дайджесты образов",
+          "desc": "Дайджесты образов включают неизменяемые ссылки на образы, используемые для воспроизводимых pull-операций и точной идентификации образов."
+        },
+        "ko": {
+          "name": "이미지 다이제스트",
+          "desc": "이미지 다이제스트는 재현 가능한 pull과 정확한 이미지 식별에 사용되는 불변 이미지 참조를 다룹니다."
+        },
+        "pt": {
+          "name": "Digests de imagem",
+          "desc": "Digests de imagem cobrem referências de imagem imutáveis usadas para downloads reproduzíveis e identificação precisa de imagens."
+        }
+      }
+    },
+    {
+      "key": "docker/docker_system_state",
+      "slug": "docker_system_state",
+      "name": "Docker System State",
+      "desc": "Docker system state covers inspecting daemon information, disk use, versions, and runtime settings.",
+      "i18n": {
+        "zh": {
+          "name": "Docker 系统状态",
+          "desc": "Docker 系统状态涵盖检查守护进程信息、磁盘使用、版本和运行时设置。"
+        },
+        "es": {
+          "name": "Estado del sistema Docker",
+          "desc": "El estado del sistema Docker cubre la inspección de la información del demonio, el uso del disco, las versiones y la configuración del tiempo de ejecución."
+        },
+        "fr": {
+          "name": "État du système Docker",
+          "desc": "L’état du système Docker couvre l’inspection des informations du daemon, de l’utilisation du disque, des versions et des paramètres d’exécution."
+        },
+        "de": {
+          "name": "Docker Systemstatus",
+          "desc": "Der Docker-Systemstatus umfasst die Überprüfung von Daemon-Informationen, Festplattennutzung, Versionen und Laufzeiteinstellungen."
+        },
+        "ja": {
+          "name": "Docker システム状態",
+          "desc": "Docker システム状態には、デーモン情報、ディスク使用量、バージョン、およびランタイム設定の検査が含まれます。"
+        },
+        "ru": {
+          "name": "Состояние системы Docker",
+          "desc": "Состояние системы Docker охватывает проверку информации daemon, использования диска, версий и настроек времени выполнения."
+        },
+        "ko": {
+          "name": "Docker 시스템 상태",
+          "desc": "Docker 시스템 상태에는 데몬 정보, 디스크 사용, 버전 및 런타임 설정 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Estado do sistema Docker",
+          "desc": "O estado do sistema Docker abrange a inspeção de informações do daemon, uso do disco, versões e configurações de tempo de execução."
+        }
+      }
+    },
+    {
+      "key": "docker/resource_limits",
+      "slug": "resource_limits",
+      "name": "Resource Limits",
+      "desc": "Resource limits cover constraining container CPU, memory, and process usage.",
+      "i18n": {
+        "zh": {
+          "name": "资源限制",
+          "desc": "资源限制包括限制容器 CPU、内存和进程使用。"
+        },
+        "es": {
+          "name": "Límites de recursos",
+          "desc": "Los límites de recursos cubren la restricción del uso de CPU, memoria y procesos del contenedor."
+        },
+        "fr": {
+          "name": "Limites des ressources",
+          "desc": "Les limites de ressources couvrent la limitation de l'utilisation du processeur, de la mémoire et des processus du conteneur."
+        },
+        "de": {
+          "name": "Ressourcengrenzen",
+          "desc": "Ressourcenlimits umfassen die Einschränkung der Container-CPU, des Arbeitsspeichers und der Prozessnutzung."
+        },
+        "ja": {
+          "name": "リソース制限",
+          "desc": "リソース制限には、コンテナーの CPU、メモリ、プロセスの使用量の制限が含まれます。"
+        },
+        "ru": {
+          "name": "Ограничения ресурсов",
+          "desc": "Ограничения ресурсов охватывают ограничение использования ЦП, памяти и процессов контейнера."
+        },
+        "ko": {
+          "name": "자원 제한",
+          "desc": "리소스 제한에는 컨테이너 CPU, 메모리 및 프로세스 사용량 제한이 포함됩니다."
+        },
+        "pt": {
+          "name": "Limites de recursos",
+          "desc": "Os limites de recursos cobrem a restrição de CPU, memória e uso de processos do contêiner."
+        }
+      }
+    },
+    {
+      "key": "docker/health_checks",
+      "slug": "health_checks",
+      "name": "Health Checks",
+      "desc": "Health checks cover declaring and interpreting application health from containers.",
+      "i18n": {
+        "zh": {
+          "name": "健康检查",
+          "desc": "健康检查涵盖定义和解释容器中的应用程序健康状态。"
+        },
+        "es": {
+          "name": "Comprobaciones de salud",
+          "desc": "Las comprobaciones de salud cubren la definición e interpretación del estado de salud de la aplicación desde los contenedores."
+        },
+        "fr": {
+          "name": "Contrôles de santé",
+          "desc": "Les contrôles de santé couvrent la définition et l’interprétation de l’état de santé des applications à partir des conteneurs."
+        },
+        "de": {
+          "name": "Zustandsprüfungen",
+          "desc": "Zustandsprüfungen umfassen die Definition und Interpretation des Anwendungszustands von Containern."
+        },
+        "ja": {
+          "name": "ヘルスチェック",
+          "desc": "ヘルスチェックは、コンテナからアプリケーションのヘルス状態を定義して解釈することを扱います。"
+        },
+        "ru": {
+          "name": "Проверки работоспособности",
+          "desc": "Проверки работоспособности охватывают определение и интерпретацию состояния приложения в контейнерах."
+        },
+        "ko": {
+          "name": "상태 점검",
+          "desc": "상태 검사는 컨테이너의 애플리케이션 상태를 정의하고 해석하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Verificações de integridade",
+          "desc": "As verificações de integridade abrangem a definição e a interpretação do estado de integridade do aplicativo a partir de contêineres."
+        }
+      }
+    },
+    {
+      "key": "docker/container_security",
+      "slug": "container_security",
+      "name": "Container Security",
+      "desc": "Container security covers limiting users, capabilities, privileged mode, host access, and other container risk factors.",
+      "i18n": {
+        "zh": {
+          "name": "容器安全",
+          "desc": "容器安全涵盖限制用户、capabilities、特权模式、主机访问和其他容器风险因素。"
+        },
+        "es": {
+          "name": "Seguridad de contenedores",
+          "desc": "La seguridad del contenedor cubre la limitación de usuarios, capacidades, modo privilegiado, acceso al host y otros factores de riesgo del contenedor."
+        },
+        "fr": {
+          "name": "Sécurité des conteneurs",
+          "desc": "La sécurité des conteneurs couvre la limitation des utilisateurs, des capacités, du mode privilégié, de l'accès à l'hôte et d'autres facteurs de risque des conteneurs."
+        },
+        "de": {
+          "name": "Containersicherheit",
+          "desc": "Die Containersicherheit umfasst die Einschränkung von Benutzern, Capabilities, privilegiertem Modus, Hostzugriff und anderen Risikofaktoren für Container."
+        },
+        "ja": {
+          "name": "コンテナのセキュリティ",
+          "desc": "コンテナのセキュリティでは、ユーザー、capabilities、特権モード、ホストアクセス、その他のコンテナのリスク要因の制限を扱います。"
+        },
+        "ru": {
+          "name": "Безопасность контейнеров",
+          "desc": "Безопасность контейнера включает ограничение пользователей, возможностей, привилегированного режима, доступа к хосту и других факторов риска контейнера."
+        },
+        "ko": {
+          "name": "컨테이너 보안",
+          "desc": "컨테이너 보안은 사용자, capabilities, 권한 모드, 호스트 액세스 및 기타 컨테이너 위험 요소 제한을 다룹니다."
+        },
+        "pt": {
+          "name": "Segurança de contêineres",
+          "desc": "A segurança do contêiner abrange a limitação de usuários, capabilities, modo privilegiado, acesso ao host e outros fatores de risco do contêiner."
+        }
+      }
+    },
+    {
+      "key": "docker/docker_pruning",
+      "slug": "docker_pruning",
+      "name": "Docker Pruning",
+      "desc": "Docker pruning covers safely removing unused containers, networks, images, build cache, and volumes.",
+      "i18n": {
+        "zh": {
+          "name": "Docker 清理",
+          "desc": "Docker 清理涵盖安全移除未使用的容器、网络、镜像、构建缓存和卷。"
+        },
+        "es": {
+          "name": "Limpieza de Docker",
+          "desc": "La limpieza de Docker cubre eliminar de forma segura contenedores, redes, imágenes, caché de build y volúmenes no utilizados."
+        },
+        "fr": {
+          "name": "Nettoyage Docker",
+          "desc": "Le nettoyage Docker couvre la suppression sûre des conteneurs, réseaux, images, cache de construction et volumes inutilisés."
+        },
+        "de": {
+          "name": "Docker-Bereinigung",
+          "desc": "Die Docker-Bereinigung umfasst das sichere Entfernen ungenutzter Container, Netzwerke, Images, Erstellungs-Cache und Volumes."
+        },
+        "ja": {
+          "name": "Docker クリーンアップ",
+          "desc": "Docker クリーンアップは、未使用のコンテナー、ネットワーク、イメージ、ビルドキャッシュ、ボリュームを安全に削除することを扱います。"
+        },
+        "ru": {
+          "name": "Очистка Docker",
+          "desc": "Очистка Docker охватывает безопасное удаление неиспользуемых контейнеров, сетей, образов, кэша сборки и томов."
+        },
+        "ko": {
+          "name": "Docker 정리",
+          "desc": "Docker 정리는 사용하지 않는 컨테이너, 네트워크, 이미지, 빌드 캐시, 볼륨을 안전하게 제거하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Limpeza do Docker",
+          "desc": "A limpeza do Docker cobre a remoção segura de contêineres, redes, imagens, cache de compilação e volumes não utilizados."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/labex-labs/labex-skilltrees/skilltree.schema.json",
+  "title": "LabEx Skilltree",
+  "description": "LabEx skilltree source data format. This schema validates one v1/{key}.json or v2/{key}.json file.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "slug", "name", "skills"],
+  "properties": {
+    "key": {
+      "$ref": "#/$defs/projectKey",
+      "description": "Canonical skilltree/project key, for example linux."
+    },
+    "slug": {
+      "$ref": "#/$defs/projectKey",
+      "description": "Project slug. For skilltree files this should equal key."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Skilltree display name."
+    },
+    "skills": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Ordered canonical skills in this skilltree.",
+      "items": {
+        "$ref": "#/$defs/skill"
+      }
+    }
+  },
+  "$defs": {
+    "projectKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_-]*$"
+    },
+    "childKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_-]*/[A-Za-z0-9][A-Za-z0-9_-]*$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]*$"
+    },
+    "i18nLocale": {
+      "type": "string",
+      "enum": ["zh", "es", "fr", "de", "ja", "ru", "ko", "pt"]
+    },
+    "i18nText": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Localized display name."
+        },
+        "desc": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Localized description."
+        }
+      }
+    },
+    "textI18n": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/i18nText"
+      },
+      "minProperties": 1,
+      "propertyNames": {
+        "$ref": "#/$defs/i18nLocale"
+      }
+    },
+    "skill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "slug", "name", "desc"],
+      "properties": {
+        "key": {
+          "$ref": "#/$defs/childKey",
+          "description": "Skill key in {skilltreeKey}/{skillSlug} format."
+        },
+        "slug": {
+          "$ref": "#/$defs/slug",
+          "description": "Skill slug, derived from the part after / in key."
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Skill display name."
+        },
+        "desc": {
+          "type": "string",
+          "description": "Skill description. Use an empty string if there is no description."
+        },
+        "i18n": {
+          "$ref": "#/$defs/textI18n",
+          "description": "Optional localized skill display text. Missing languages or fields fall back to the base English fields."
+        }
+      }
+    }
+  }
+}

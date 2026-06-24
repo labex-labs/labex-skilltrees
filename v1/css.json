@@ -1,0 +1,157 @@
+{
+  "key": "css",
+  "slug": "css",
+  "name": "CSS",
+  "skills": [
+    {
+      "key": "css/selectors",
+      "slug": "selectors",
+      "name": "Selectors",
+      "desc": "Selectors in CSS are patterns used to select and style HTML elements. They can target elements by type, class, ID, attributes, and more."
+    },
+    {
+      "key": "css/properties",
+      "slug": "properties",
+      "name": "Properties",
+      "desc": "Properties define the visual characteristics of elements. They include attributes like 'color', 'font-size', 'margin', and 'padding'."
+    },
+    {
+      "key": "css/values",
+      "slug": "values",
+      "name": "Values",
+      "desc": "Values are assigned to properties to specify how elements should be styled. Examples include 'red' for color and '20px' for size."
+    },
+    {
+      "key": "css/colors",
+      "slug": "colors",
+      "name": "Colors",
+      "desc": "CSS offers various ways to specify colors, including named colors, hexadecimal values, RGB, and HSL color models."
+    },
+    {
+      "key": "css/fonts",
+      "slug": "fonts",
+      "name": "Fonts",
+      "desc": "Font properties control the typeface, size, and style of text. Web fonts and system fonts are commonly used."
+    },
+    {
+      "key": "css/text_styling",
+      "slug": "text_styling",
+      "name": "Text Styling",
+      "desc": "Text styling properties like 'text-align', 'text-decoration', and 'line-height' affect the appearance of text content."
+    },
+    {
+      "key": "css/box_model",
+      "slug": "box_model",
+      "name": "Box Model",
+      "desc": "The box model describes how elements are structured, including content, padding, border, and margin."
+    },
+    {
+      "key": "css/margin_and_padding",
+      "slug": "margin_and_padding",
+      "name": "Margin and Padding",
+      "desc": "Margin and padding properties control spacing around elements, allowing for separation between elements."
+    },
+    {
+      "key": "css/borders",
+      "slug": "borders",
+      "name": "Borders",
+      "desc": "Border properties define the border around elements, specifying its style, width, and color."
+    },
+    {
+      "key": "css/width_and_height",
+      "slug": "width_and_height",
+      "name": "Width and Height",
+      "desc": "Width and height properties determine the dimensions of elements, such as 'width: 100px' or 'height: auto'."
+    },
+    {
+      "key": "css/display_property",
+      "slug": "display_property",
+      "name": "Display Property",
+      "desc": "The 'display' property dictates how elements are rendered, including block, inline, and inline-block."
+    },
+    {
+      "key": "css/positioning",
+      "slug": "positioning",
+      "name": "Positioning",
+      "desc": "Positioning properties like 'position' and 'float' influence the placement of elements within the layout."
+    },
+    {
+      "key": "css/flexbox",
+      "slug": "flexbox",
+      "name": "Flexbox",
+      "desc": "Flexbox is a CSS layout model for creating flexible and responsive designs by distributing space among elements in a container."
+    },
+    {
+      "key": "css/grid_layout",
+      "slug": "grid_layout",
+      "name": "Grid Layout",
+      "desc": "Grid Layout allows for the creation of two-dimensional grid-based layouts, making it easier to create complex designs."
+    },
+    {
+      "key": "css/backgrounds",
+      "slug": "backgrounds",
+      "name": "Backgrounds",
+      "desc": "Background properties enable the styling of element backgrounds, such as setting colors, images, and gradients."
+    },
+    {
+      "key": "css/lists_and_tables",
+      "slug": "lists_and_tables",
+      "name": "Lists and Tables",
+      "desc": "CSS can be used to style lists and tables, modifying their appearance and layout."
+    },
+    {
+      "key": "css/pseudo_classes",
+      "slug": "pseudo_classes",
+      "name": "Pseudo-classes",
+      "desc": "Pseudo-classes like ':hover' and ':nth-child' allow for dynamic styling based on user interaction and element positions."
+    },
+    {
+      "key": "css/pseudo_elements",
+      "slug": "pseudo_elements",
+      "name": "Pseudo-elements",
+      "desc": "Pseudo-elements like '::before' and '::after' create virtual elements for additional styling and content."
+    },
+    {
+      "key": "css/media_queries",
+      "slug": "media_queries",
+      "name": "Media Queries",
+      "desc": "Media queries allow CSS rules to be applied based on the characteristics of the user's device, such as screen size."
+    },
+    {
+      "key": "css/animations",
+      "slug": "animations",
+      "name": "Animations",
+      "desc": "CSS animations enable the creation of smooth and visually appealing animated effects, like transitions, keyframes, and transforms."
+    },
+    {
+      "key": "css/transitions",
+      "slug": "transitions",
+      "name": "Transitions",
+      "desc": "Transitions specify how CSS property changes should be animated, such as smooth transitions between hover and normal states."
+    },
+    {
+      "key": "css/transformations",
+      "slug": "transformations",
+      "name": "Transformations",
+      "desc": "Transformations allow for 2D and 3D transformations of elements, including translations, rotations, scaling, and skewing."
+    },
+    {
+      "key": "css/variables",
+      "slug": "variables",
+      "name": "Variables",
+      "desc": "CSS preprocessors allow the use of variables to store and reuse values, making stylesheets more maintainable and customizable."
+    },
+    {
+      "key": "css/import_and_extend",
+      "slug": "import_and_extend",
+      "name": "Import and Extend",
+      "desc": "Importing and extending stylesheets and rules from one file to another helps manage and modularize CSS code."
+    },
+    {
+      "key": "css/comments",
+      "slug": "comments",
+      "name": "Comments",
+      "desc": "Adding comments to CSS code helps document styles, clarify intent, and make it more understandable for developers."
+    }
+  ]
+}

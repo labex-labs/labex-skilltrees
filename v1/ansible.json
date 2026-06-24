@@ -1,0 +1,145 @@
+{
+  "key": "ansible",
+  "slug": "ansible",
+  "name": "Ansible",
+  "skills": [
+    {
+      "key": "ansible/install",
+      "slug": "install",
+      "name": "Ansible Setup",
+      "desc": "Understanding Ansible setup is crucial, including installing Ansible, configuring inventory files, and setting up SSH connectivity to target hosts."
+    },
+    {
+      "key": "ansible/local_action",
+      "slug": "local_action",
+      "name": "Delegate Action Locally",
+      "desc": "This skill involves delegating actions to the control machine, allowing certain tasks to be executed on the control machine rather than remote hosts."
+    },
+    {
+      "key": "ansible/apt",
+      "slug": "apt",
+      "name": "Package Manager",
+      "desc": "This skill involves using Ansible modules to manage packages on remote hosts, including installation, removal, and updating of software packages."
+    },
+    {
+      "key": "ansible/command",
+      "slug": "command",
+      "name": "Execute Commands",
+      "desc": "In this skill, Ansible modules are used to execute commands on remote hosts, enabling automation of command-line operations and system management."
+    },
+    {
+      "key": "ansible/copy",
+      "slug": "copy",
+      "name": "Transfer Files",
+      "desc": "Transferring files between the control machine and remote hosts is a key task, and this skill involves using Ansible modules to securely copy files."
+    },
+    {
+      "key": "ansible/cron",
+      "slug": "cron",
+      "name": "Schedule Tasks",
+      "desc": "Ansible modules allow scheduling tasks on remote hosts, automating repetitive actions and ensuring tasks are executed at specified intervals."
+    },
+    {
+      "key": "ansible/debug",
+      "slug": "debug",
+      "name": "Test Output",
+      "desc": "This skill involves using Ansible modules to test and verify the output of commands and scripts executed on remote hosts, ensuring desired results."
+    },
+    {
+      "key": "ansible/fetch",
+      "slug": "fetch",
+      "name": "Retrieve Files",
+      "desc": "Using Ansible modules, you can retrieve files from remote hosts, enabling efficient file backup and transfer operations."
+    },
+    {
+      "key": "ansible/file",
+      "slug": "file",
+      "name": "Manage Files/Directories",
+      "desc": "Ansible modules provide the ability to manage files and directories on remote hosts, including creating, deleting, and modifying them."
+    },
+    {
+      "key": "ansible/get_url",
+      "slug": "get_url",
+      "name": "Download URL",
+      "desc": "This skill involves using Ansible modules to download files from URLs, which can be useful for fetching resources from the internet."
+    },
+    {
+      "key": "ansible/ping",
+      "slug": "ping",
+      "name": "Network Test",
+      "desc": "This skill involves using Ansible modules to perform network tests on remote hosts, ensuring network connectivity and diagnosing issues."
+    },
+    {
+      "key": "ansible/script",
+      "slug": "script",
+      "name": "Run Scripts",
+      "desc": "Ansible modules enable the execution of custom scripts on remote hosts, automating complex tasks and configurations."
+    },
+    {
+      "key": "ansible/shell",
+      "slug": "shell",
+      "name": "Execute Shell Commands",
+      "desc": "This skill focuses on executing shell commands on remote hosts using Ansible modules, facilitating system management."
+    },
+    {
+      "key": "ansible/stat",
+      "slug": "stat",
+      "name": "File Statistics",
+      "desc": "Ansible modules provide the capability to gather file statistics on remote hosts, helping in monitoring and auditing file attributes."
+    },
+    {
+      "key": "ansible/template",
+      "slug": "template",
+      "name": "Generate Files from Templates",
+      "desc": "Ansible modules can generate files from templates, allowing for the dynamic creation of configuration files based on variables and templates."
+    },
+    {
+      "key": "ansible/group_variables",
+      "slug": "group_variables",
+      "name": "Set Group Variables",
+      "desc": "This skill involves setting variables for specific host groups in Ansible inventory, allowing for group-specific configurations."
+    },
+    {
+      "key": "ansible/groups_inventory",
+      "slug": "groups_inventory",
+      "name": "Define Inventory Groups",
+      "desc": "In Ansible, defining inventory groups is essential for grouping hosts with similar characteristics or roles for targeted automation tasks."
+    },
+    {
+      "key": "ansible/host_variables",
+      "slug": "host_variables",
+      "name": "Set Host Variables",
+      "desc": "This skill focuses on setting variables for individual hosts in the Ansible inventory, enabling host-specific configuration."
+    },
+    {
+      "key": "ansible/mutil_inventory",
+      "slug": "mutil_inventory",
+      "name": "Multiple Inventory Sources",
+      "desc": "Ansible supports multiple inventory sources, allowing you to gather host information from various external sources and merge them for automation tasks."
+    },
+    {
+      "key": "ansible/loop",
+      "slug": "loop",
+      "name": "Iteration",
+      "desc": "In Ansible playbooks, iteration is essential for performing actions repeatedly, such as iterating over a list of items to execute tasks."
+    },
+    {
+      "key": "ansible/playbook",
+      "slug": "playbook",
+      "name": "Execute Playbook",
+      "desc": "Executing Ansible playbooks is a fundamental skill, as it allows you to automate complex workflows and configurations."
+    },
+    {
+      "key": "ansible/roles",
+      "slug": "roles",
+      "name": "Assign Roles",
+      "desc": "Assigning roles in Ansible playbooks helps in organizing and modularizing automation tasks, making playbooks more manageable."
+    },
+    {
+      "key": "ansible/with_items",
+      "slug": "with_items",
+      "name": "Iterate Items",
+      "desc": "This skill involves iterating over items in lists and dictionaries in Ansible playbooks, enabling dynamic and data-driven automation."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "react",
+  "slug": "react",
+  "name": "React",
+  "skills": [
+    {
+      "key": "react/jsx",
+      "slug": "jsx",
+      "name": "JSX",
+      "desc": "JSX (JavaScript XML) is a syntax extension for JavaScript used in React to define the structure of UI components in a declarative way."
+    },
+    {
+      "key": "react/components_props",
+      "slug": "components_props",
+      "name": "Components and Props",
+      "desc": "Components are the basic building blocks in React, and props are used to pass data from parent to child components."
+    },
+    {
+      "key": "react/state_lifecycle",
+      "slug": "state_lifecycle",
+      "name": "State and Lifecycle",
+      "desc": "State allows components to store and manage data that can change over time, and lifecycle methods enable control over component behavior."
+    },
+    {
+      "key": "react/event_handling",
+      "slug": "event_handling",
+      "name": "Handling Events",
+      "desc": "React allows you to handle user interactions and events, making the application interactive and responsive."
+    },
+    {
+      "key": "react/conditional_render",
+      "slug": "conditional_render",
+      "name": "Conditional Rendering",
+      "desc": "Conditional rendering enables showing different content based on certain conditions, improving UI flexibility."
+    },
+    {
+      "key": "react/list_keys",
+      "slug": "list_keys",
+      "name": "Lists and Keys",
+      "desc": "When rendering lists of elements, using keys is crucial to help React identify and efficiently update elements."
+    },
+    {
+      "key": "react/context_api",
+      "slug": "context_api",
+      "name": "Context API",
+      "desc": "The Context API provides a way to share data between components without having to pass props through intermediate components."
+    },
+    {
+      "key": "react/hooks",
+      "slug": "hooks",
+      "name": "React Hooks",
+      "desc": "Hooks allow functional components to manage state and side effects, offering a more concise way to work with React features."
+    },
+    {
+      "key": "react/css_in_react",
+      "slug": "css_in_react",
+      "name": "CSS in React",
+      "desc": "Incorporating CSS in React applications to style components using standard CSS stylesheets."
+    },
+    {
+      "key": "react/use_state_reducer",
+      "slug": "use_state_reducer",
+      "name": "Using useState and useReducer",
+      "desc": "useState and useReducer are hooks for managing local component state, allowing components to react to changes."
+    },
+    {
+      "key": "react/context_state",
+      "slug": "context_state",
+      "name": "Using Context for State",
+      "desc": "Context in React can be used to share and manage global state across components, reducing prop drilling."
+    },
+    {
+      "key": "react/router_basic",
+      "slug": "router_basic",
+      "name": "React Router Basics",
+      "desc": "React Router is a library for adding client-side routing to React applications, allowing navigation between different views."
+    }
+  ]
+}

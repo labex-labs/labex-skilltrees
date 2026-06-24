@@ -1,0 +1,211 @@
+{
+  "key": "javascript",
+  "slug": "javascript",
+  "name": "JavaScript",
+  "skills": [
+    {
+      "key": "javascript/variables",
+      "slug": "variables",
+      "name": "Variables",
+      "desc": "Variables are used to store data values in JavaScript. They are declared using 'var', 'let', or 'const' and can hold various data types such as numbers, strings, and objects."
+    },
+    {
+      "key": "javascript/data_types",
+      "slug": "data_types",
+      "name": "Data Types",
+      "desc": "Data types in JavaScript include numbers, strings, booleans, objects, arrays, and more. Understanding data types is crucial for effective programming."
+    },
+    {
+      "key": "javascript/arith_ops",
+      "slug": "arith_ops",
+      "name": "Arithmetic Operators",
+      "desc": "Arithmetic operators in JavaScript, like +, -, *, /, and %, are used for performing mathematical calculations."
+    },
+    {
+      "key": "javascript/comp_ops",
+      "slug": "comp_ops",
+      "name": "Comparison Operators",
+      "desc": "Comparison operators such as ==, ===, !=, >, <, >=, and <= are used to compare values in JavaScript and return boolean results."
+    },
+    {
+      "key": "javascript/logic_ops",
+      "slug": "logic_ops",
+      "name": "Logical Operators",
+      "desc": "Logical operators like && (AND), || (OR), and ! (NOT) are used for combining and negating boolean values in conditional expressions."
+    },
+    {
+      "key": "javascript/cond_stmts",
+      "slug": "cond_stmts",
+      "name": "Conditional Statements",
+      "desc": "Conditional statements, including 'if', 'else if' (elif), and 'else', allow you to execute different blocks of code based on specific conditions."
+    },
+    {
+      "key": "javascript/switch_stmts",
+      "slug": "switch_stmts",
+      "name": "Switch Statements",
+      "desc": "Switch statements provide a way to select one of many code blocks to be executed based on the value of an expression."
+    },
+    {
+      "key": "javascript/loops",
+      "slug": "loops",
+      "name": "Loops",
+      "desc": "Loops in JavaScript, such as 'for', 'while', and 'do...while', enable repetitive execution of code until a certain condition is met."
+    },
+    {
+      "key": "javascript/functions",
+      "slug": "functions",
+      "name": "Functions",
+      "desc": "Functions are reusable blocks of code that can be defined, called, and passed arguments in JavaScript, allowing for modular programming."
+    },
+    {
+      "key": "javascript/str_manip",
+      "slug": "str_manip",
+      "name": "String Manipulation",
+      "desc": "String manipulation involves tasks like concatenation, splitting, and extracting substrings from strings, which are essential for text processing."
+    },
+    {
+      "key": "javascript/array_methods",
+      "slug": "array_methods",
+      "name": "Array Methods",
+      "desc": "JavaScript provides numerous built-in array methods for manipulating arrays, including 'push', 'pop', 'map', 'filter', and 'reduce'."
+    },
+    {
+      "key": "javascript/obj_manip",
+      "slug": "obj_manip",
+      "name": "Object Manipulation",
+      "desc": "Object manipulation involves creating, modifying, and accessing object properties, which is fundamental to working with data structures."
+    },
+    {
+      "key": "javascript/oop",
+      "slug": "oop",
+      "name": "Object-Oriented Programming",
+      "desc": "Object-oriented programming (OOP) principles like encapsulation, inheritance, and polymorphism are used to create and manage objects in JavaScript."
+    },
+    {
+      "key": "javascript/async_prog",
+      "slug": "async_prog",
+      "name": "Asynchronous Programming",
+      "desc": "Asynchronous programming techniques like callbacks, promises, and async/await are employed to manage non-blocking operations, such as API requests."
+    },
+    {
+      "key": "javascript/error_handle",
+      "slug": "error_handle",
+      "name": "Error Handling",
+      "desc": "Error handling involves using try...catch blocks to handle exceptions and gracefully manage unexpected issues in JavaScript code."
+    },
+    {
+      "key": "javascript/closures",
+      "slug": "closures",
+      "name": "Closures",
+      "desc": "Closures are functions that capture and maintain their surrounding scope's variables, allowing for data encapsulation and privacy."
+    },
+    {
+      "key": "javascript/higher_funcs",
+      "slug": "higher_funcs",
+      "name": "Higher-Order Functions",
+      "desc": "Higher-order functions are functions that can take other functions as arguments or return them, facilitating functional programming."
+    },
+    {
+      "key": "javascript/proto_inherit",
+      "slug": "proto_inherit",
+      "name": "Prototypes and Inheritance",
+      "desc": "JavaScript uses prototypes for object inheritance, allowing objects to inherit properties and methods from other objects."
+    },
+    {
+      "key": "javascript/destr_assign",
+      "slug": "destr_assign",
+      "name": "Destructuring Assignment",
+      "desc": "Destructuring assignment provides a concise way to extract values from objects and arrays and assign them to variables."
+    },
+    {
+      "key": "javascript/template_lit",
+      "slug": "template_lit",
+      "name": "Template Literals",
+      "desc": "Template literals, introduced in ES6, allow for more flexible string interpolation and multiline strings in JavaScript."
+    },
+    {
+      "key": "javascript/es6",
+      "slug": "es6",
+      "name": "ES6 Features",
+      "desc": "ES6 (ECMAScript 2015) introduced various features like arrow functions, let/const declarations, and classes to enhance JavaScript development."
+    },
+    {
+      "key": "javascript/dom_select",
+      "slug": "dom_select",
+      "name": "DOM Selection",
+      "desc": "DOM selection involves selecting HTML elements from a web page using methods like getElementById, querySelector, and getElementsByClassName."
+    },
+    {
+      "key": "javascript/dom_manip",
+      "slug": "dom_manip",
+      "name": "DOM Manipulation",
+      "desc": "DOM manipulation allows you to modify the content, structure, and style of web pages dynamically using JavaScript."
+    },
+    {
+      "key": "javascript/event_handle",
+      "slug": "event_handle",
+      "name": "Event Handling",
+      "desc": "Event handling is essential for responding to user interactions like clicks and keypresses, enabling interactive web applications."
+    },
+    {
+      "key": "javascript/dom_traverse",
+      "slug": "dom_traverse",
+      "name": "DOM Traversal",
+      "desc": "DOM traversal techniques like traversing parent, child, and sibling elements are used to navigate and manipulate the DOM tree."
+    },
+    {
+      "key": "javascript/debugging",
+      "slug": "debugging",
+      "name": "Debugging",
+      "desc": "Debugging tools and techniques help identify and fix errors and issues in JavaScript code for smoother development."
+    },
+    {
+      "key": "javascript/bom",
+      "slug": "bom",
+      "name": "Browser Object Model",
+      "desc": "The Browser Object Model (BOM) provides access to browser-specific functionalities and properties, allowing interaction with the browser."
+    },
+    {
+      "key": "javascript/web_storage",
+      "slug": "web_storage",
+      "name": "Web Storage",
+      "desc": "Web storage mechanisms like localStorage and sessionStorage enable client-side storage of data for web applications."
+    },
+    {
+      "key": "javascript/version_control",
+      "slug": "version_control",
+      "name": "Version Control",
+      "desc": "Version control systems like Git are used for tracking and managing changes to JavaScript code, enabling collaboration and code history."
+    },
+    {
+      "key": "javascript/http_req",
+      "slug": "http_req",
+      "name": "HTTP Requests",
+      "desc": "JavaScript can make HTTP requests to fetch data from servers, allowing web applications to interact with external resources."
+    },
+    {
+      "key": "javascript/json",
+      "slug": "json",
+      "name": "JSON",
+      "desc": "JavaScript Object Notation (JSON) is a widely used format for data exchange, and JavaScript provides built-in support for parsing and generating JSON data."
+    },
+    {
+      "key": "javascript/api_interact",
+      "slug": "api_interact",
+      "name": "API Interaction",
+      "desc": "Interacting with APIs allows web applications to retrieve and send data to external services, enhancing functionality and data integration."
+    },
+    {
+      "key": "javascript/xss",
+      "slug": "xss",
+      "name": "Cross-Site Scripting",
+      "desc": "Cross-Site Scripting (XSS) is a security vulnerability that JavaScript developers need to address to prevent unauthorized code execution on web pages."
+    },
+    {
+      "key": "javascript/web_sec",
+      "slug": "web_sec",
+      "name": "Web Security Basics",
+      "desc": "Understanding web security basics is essential for safeguarding web applications from common security threats and vulnerabilities."
+    }
+  ]
+}

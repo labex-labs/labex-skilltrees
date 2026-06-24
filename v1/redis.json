@@ -1,0 +1,121 @@
+{
+  "key": "redis",
+  "slug": "redis",
+  "name": "Redis",
+  "skills": [
+    {
+      "key": "redis/setup_redis",
+      "slug": "setup_redis",
+      "name": "Install Redis",
+      "desc": "Learn how to install the Redis server on your local machine."
+    },
+    {
+      "key": "redis/launch_server",
+      "slug": "launch_server",
+      "name": "Start Redis Server",
+      "desc": "Understand how to start the Redis server to begin using it."
+    },
+    {
+      "key": "redis/access_cli",
+      "slug": "access_cli",
+      "name": "Connect Using CLI",
+      "desc": "Connect to Redis using the command-line interface for interaction."
+    },
+    {
+      "key": "redis/store_string",
+      "slug": "store_string",
+      "name": "Set String Value",
+      "desc": "Store a string value in Redis using a specific key."
+    },
+    {
+      "key": "redis/fetch_string",
+      "slug": "fetch_string",
+      "name": "Get String Value",
+      "desc": "Retrieve a string value from Redis by its key."
+    },
+    {
+      "key": "redis/remove_key",
+      "slug": "remove_key",
+      "name": "Delete Single Key",
+      "desc": "Remove a specific key and its value from Redis."
+    },
+    {
+      "key": "redis/verify_key",
+      "slug": "verify_key",
+      "name": "Check Key Existence",
+      "desc": "Verify if a key exists in the Redis database."
+    },
+    {
+      "key": "redis/expire_key",
+      "slug": "expire_key",
+      "name": "Set Key Timeout",
+      "desc": "Set an expiration time for a key in Redis."
+    },
+    {
+      "key": "redis/increment_int",
+      "slug": "increment_int",
+      "name": "Increase Integer Value",
+      "desc": "Increment an integer value stored in Redis by one."
+    },
+    {
+      "key": "redis/decrement_int",
+      "slug": "decrement_int",
+      "name": "Decrease Integer Value",
+      "desc": "Decrement an integer value stored in Redis by one."
+    },
+    {
+      "key": "redis/add_left",
+      "slug": "add_left",
+      "name": "Push List Left",
+      "desc": "Add an element to the left side of a Redis list."
+    },
+    {
+      "key": "redis/add_right",
+      "slug": "add_right",
+      "name": "Push List Right",
+      "desc": "Add an element to the right side of a Redis list."
+    },
+    {
+      "key": "redis/remove_left",
+      "slug": "remove_left",
+      "name": "Pop List Left",
+      "desc": "Remove and return an element from the left of a Redis list."
+    },
+    {
+      "key": "redis/remove_right",
+      "slug": "remove_right",
+      "name": "Pop List Right",
+      "desc": "Remove and return an element from the right of a Redis list."
+    },
+    {
+      "key": "redis/count_list",
+      "slug": "count_list",
+      "name": "Get List Length",
+      "desc": "Retrieve the number of elements in a Redis list."
+    },
+    {
+      "key": "redis/fetch_range",
+      "slug": "fetch_range",
+      "name": "Get List Range",
+      "desc": "Fetch a range of elements from a Redis list by index."
+    },
+    {
+      "key": "redis/insert_set",
+      "slug": "insert_set",
+      "name": "Add Set Element",
+      "desc": "Add a unique element to a Redis set."
+    },
+    {
+      "key": "redis/verify_set",
+      "slug": "verify_set",
+      "name": "Check Set Membership",
+      "desc": "Check if an element exists in a Redis set."
+    },
+    {
+      "key": "redis/view_set",
+      "slug": "view_set",
+      "name": "List Set Members",
+      "desc": "Retrieve all elements stored in a Redis set."
+    }
+  ]
+}

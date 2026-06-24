@@ -1,0 +1,1767 @@
+{
+  "key": "cpp",
+  "slug": "cpp",
+  "name": "C++",
+  "skills": [
+    {
+      "key": "cpp/program_structure",
+      "slug": "program_structure",
+      "name": "Program Structure",
+      "desc": "Program structure covers source files, declarations, definitions, and entry points in C++ programs.",
+      "i18n": {
+        "zh": {
+          "name": "程序结构",
+          "desc": "程序结构涵盖 C++ 程序中的源文件、声明、定义和入口点。"
+        },
+        "es": {
+          "name": "Estructura del programa",
+          "desc": "La estructura del programa cubre archivos fuente, declaraciones, definiciones y puntos de entrada en programas C++."
+        },
+        "fr": {
+          "name": "Structure du programme",
+          "desc": "La structure du programme couvre les fichiers sources, les déclarations, les définitions et les points d'entrée dans les programmes C++."
+        },
+        "de": {
+          "name": "Programmstruktur",
+          "desc": "Die Programmstruktur umfasst Quelldateien, Deklarationen, Definitionen und Einstiegspunkte in C++-Programmen."
+        },
+        "ja": {
+          "name": "プログラムの構造",
+          "desc": "プログラム構造には、C++ プログラムのソースファイル、宣言、定義、およびエントリポイントが含まれます。"
+        },
+        "ru": {
+          "name": "Структура программы",
+          "desc": "Структура программы охватывает исходные файлы, объявления, определения и точки входа в программах C++."
+        },
+        "ko": {
+          "name": "프로그램 구조",
+          "desc": "프로그램 구조는 C++ 프로그램의 소스 파일, 선언, 정의 및 진입점을 포함합니다."
+        },
+        "pt": {
+          "name": "Estrutura do Programa",
+          "desc": "A estrutura do programa cobre arquivos de origem, declarações, definições e pontos de entrada em programas C++."
+        }
+      }
+    },
+    {
+      "key": "cpp/namespaces",
+      "slug": "namespaces",
+      "name": "Namespaces",
+      "desc": "Namespaces cover organizing C++ declarations and controlling name lookup boundaries.",
+      "i18n": {
+        "zh": {
+          "name": "命名空间",
+          "desc": "命名空间涵盖组织 C++ 声明和控制名称查找边界。"
+        },
+        "es": {
+          "name": "Espacios de nombres",
+          "desc": "Los espacios de nombres cubren la organización de declaraciones C++ y el control de los límites de búsqueda de nombres."
+        },
+        "fr": {
+          "name": "Espaces de noms",
+          "desc": "Les espaces de noms couvrent l'organisation des déclarations C++ et le contrôle des limites de recherche de noms."
+        },
+        "de": {
+          "name": "Namensräume",
+          "desc": "Namensräume behandeln das Organisieren von C++-Deklarationen und das Steuern von Namenssuchgrenzen."
+        },
+        "ja": {
+          "name": "名前空間",
+          "desc": "名前空間では、C++ 宣言の整理と名前検索境界の制御について説明します。"
+        },
+        "ru": {
+          "name": "Пространства имен",
+          "desc": "Пространства имен охватывают организацию объявлений C++ и контроль границ поиска имен."
+        },
+        "ko": {
+          "name": "네임스페이스",
+          "desc": "네임스페이스는 C++ 선언 정리와 이름 조회 경계 제어를 다룹니다."
+        },
+        "pt": {
+          "name": "Espaços de nomes",
+          "desc": "Os espaços de nomes cobrem a organização de declarações C++ e o controle dos limites de pesquisa de nomes."
+        }
+      }
+    },
+    {
+      "key": "cpp/variables_types",
+      "slug": "variables_types",
+      "name": "Variables and Types",
+      "desc": "Variables and types cover declaring objects and choosing appropriate C++ value types.",
+      "i18n": {
+        "zh": {
+          "name": "变量和类型",
+          "desc": "变量和类型涵盖声明对象和选择适当的 C++ 值类型。"
+        },
+        "es": {
+          "name": "Variables y tipos",
+          "desc": "Las variables y los tipos cubren la declaración de objetos y la elección de tipos de valores C++ apropiados."
+        },
+        "fr": {
+          "name": "Variables et types",
+          "desc": "Les variables et les types couvrent la déclaration des objets et le choix des types de valeur C++ appropriés."
+        },
+        "de": {
+          "name": "Variablen und Typen",
+          "desc": "Variablen und Typen umfassen die Deklaration von Objekten und die Auswahl geeigneter C++-Werttypen."
+        },
+        "ja": {
+          "name": "変数と型",
+          "desc": "変数と型では、オブジェクトの宣言と、適切な C++ 値の型の選択について説明します。"
+        },
+        "ru": {
+          "name": "Переменные и типы",
+          "desc": "Переменные и типы охватывают объявление объектов и выбор соответствующих типов значений C++."
+        },
+        "ko": {
+          "name": "변수 및 유형",
+          "desc": "변수 및 유형은 객체 선언과 적절한 C++ 값 유형 선택을 다룹니다."
+        },
+        "pt": {
+          "name": "Variáveis e Tipos",
+          "desc": "Variáveis e tipos cobrem a declaração de objetos e a escolha de tipos de valores C++ apropriados."
+        }
+      }
+    },
+    {
+      "key": "cpp/expressions_operators",
+      "slug": "expressions_operators",
+      "name": "Expressions and Operators",
+      "desc": "Expressions and operators cover evaluation, precedence, conversions, and overloaded behavior.",
+      "i18n": {
+        "zh": {
+          "name": "表达式和运算符",
+          "desc": "表达式和运算符涵盖求值、优先级、转换和重载行为。"
+        },
+        "es": {
+          "name": "Expresiones y operadores",
+          "desc": "Las expresiones y operadores cubren evaluación, precedencia, conversiones y comportamiento sobrecargado."
+        },
+        "fr": {
+          "name": "Expressions et opérateurs",
+          "desc": "Les expressions et les opérateurs couvrent l'évaluation, la priorité, les conversions et le comportement surchargé."
+        },
+        "de": {
+          "name": "Ausdrücke und Operatoren",
+          "desc": "Ausdrücke und Operatoren decken Auswertung, Rangfolge, Konvertierungen und überladenes Verhalten ab."
+        },
+        "ja": {
+          "name": "式と演算子",
+          "desc": "式と演算子には、評価、優先順位、変換、およびオーバーロードされた動作が含まれます。"
+        },
+        "ru": {
+          "name": "Выражения и операторы",
+          "desc": "Выражения и операторы охватывают оценку, приоритет, преобразования и перегруженное поведение."
+        },
+        "ko": {
+          "name": "표현식 및 연산자",
+          "desc": "표현식과 연산자는 평가, 우선순위, 변환 및 오버로드된 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Expressões e Operadores",
+          "desc": "Expressões e operadores cobrem avaliação, precedência, conversões e comportamento sobrecarregado."
+        }
+      }
+    },
+    {
+      "key": "cpp/references",
+      "slug": "references",
+      "name": "References",
+      "desc": "References cover aliases, reference parameters, and reference lifetime constraints.",
+      "i18n": {
+        "zh": {
+          "name": "引用",
+          "desc": "引用涵盖别名、引用参数和引用生命周期约束。"
+        },
+        "es": {
+          "name": "Referencias",
+          "desc": "Las referencias cubren alias, parámetros de referencia y restricciones de vida útil de la referencia."
+        },
+        "fr": {
+          "name": "Références",
+          "desc": "Les références couvrent les alias, les paramètres de référence et les contraintes de durée de vie des références."
+        },
+        "de": {
+          "name": "Referenzen",
+          "desc": "Referenzen umfassen Aliase, Referenzparameter und Referenzlebensdauerbeschränkungen."
+        },
+        "ja": {
+          "name": "参照",
+          "desc": "参照には、エイリアス、参照パラメータ、参照の有効期間の制約が含まれます。"
+        },
+        "ru": {
+          "name": "Ссылки",
+          "desc": "Ссылки охватывают псевдонимы, ссылочные параметры и ограничения срока действия ссылки."
+        },
+        "ko": {
+          "name": "참조",
+          "desc": "참조에는 별칭, 참조 매개변수 및 참조 수명 제약 조건이 포함됩니다."
+        },
+        "pt": {
+          "name": "Referências",
+          "desc": "As referências abrangem aliases, parâmetros de referência e restrições de tempo de vida de referência."
+        }
+      }
+    },
+    {
+      "key": "cpp/const_correctness",
+      "slug": "const_correctness",
+      "name": "Const Correctness",
+      "desc": "Const correctness covers expressing and preserving read-only intent across objects and interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "常量正确性",
+          "desc": "常量正确性涵盖跨对象和接口表达和保留只读意图。"
+        },
+        "es": {
+          "name": "Corrección const",
+          "desc": "La const-correctness cubre expresar y preservar la intención de solo lectura en objetos e interfaces."
+        },
+        "fr": {
+          "name": "Const-correctness",
+          "desc": "La const-correctness couvre l’expression et la préservation de l’intention en lecture seule sur les objets et les interfaces."
+        },
+        "de": {
+          "name": "Const-Correctness",
+          "desc": "Const-Correctness behandelt das Ausdrücken und Bewahren der readonly-Absicht über Objekte und Schnittstellen hinweg."
+        },
+        "ja": {
+          "name": "const 正確性",
+          "desc": "const 正確性は、オブジェクトとインターフェイス全体で読み取り専用の意図を表現し、保持することを扱います。"
+        },
+        "ru": {
+          "name": "Константная корректность",
+          "desc": "Константная корректность охватывает выражение и сохранение намерения «только чтение» между объектами и интерфейсами."
+        },
+        "ko": {
+          "name": "const 정확성",
+          "desc": "Const 정확성은 객체와 인터페이스 전체에서 읽기 전용 의도를 표현하고 보존하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Correção const",
+          "desc": "A const-correctness abrange a expressão e preservação da intenção somente leitura em objetos e interfaces."
+        }
+      }
+    },
+    {
+      "key": "cpp/type_inference",
+      "slug": "type_inference",
+      "name": "Type Inference",
+      "desc": "Type inference covers using auto and related syntax while preserving readable intent.",
+      "i18n": {
+        "zh": {
+          "name": "类型推断",
+          "desc": "类型推断涵盖使用 auto 和相关语法，同时保留可读意图。"
+        },
+        "es": {
+          "name": "Inferencia de tipos",
+          "desc": "La inferencia de tipos cubre el uso de auto y sintaxis relacionada, preservando una intención legible."
+        },
+        "fr": {
+          "name": "Inférence de type",
+          "desc": "L'inférence de type couvre l'utilisation de auto et de la syntaxe associée tout en préservant une intention lisible."
+        },
+        "de": {
+          "name": "Typinferenz",
+          "desc": "Die Typinferenz umfasst die Verwendung von auto und verwandter Syntax unter Beibehaltung einer lesbaren Absicht."
+        },
+        "ja": {
+          "name": "型推論",
+          "desc": "型推論では、読みやすい意図を保ちながら auto と関連構文を使う方法を扱います。"
+        },
+        "ru": {
+          "name": "Вывод типа",
+          "desc": "Вывод типа охватывает использование auto и связанного синтаксиса с сохранением читаемого намерения."
+        },
+        "ko": {
+          "name": "유형 추론",
+          "desc": "유형 추론은 읽기 쉬운 의도를 유지하면서 auto 및 관련 구문을 사용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Inferência de tipo",
+          "desc": "A inferência de tipo cobre o uso de auto e sintaxe relacionada, preservando uma intenção legível."
+        }
+      }
+    },
+    {
+      "key": "cpp/conditional_statements",
+      "slug": "conditional_statements",
+      "name": "Conditional Statements",
+      "desc": "Conditional statements cover branching with if, else, and condition expressions.",
+      "i18n": {
+        "zh": {
+          "name": "条件语句",
+          "desc": "条件语句涵盖使用 if、else 和条件表达式进行分支。"
+        },
+        "es": {
+          "name": "Sentencias condicionales",
+          "desc": "Las sentencias condicionales cubren la ramificación con if, else y expresiones condicionales."
+        },
+        "fr": {
+          "name": "Instructions conditionnelles",
+          "desc": "Les instructions conditionnelles couvrent le branchement avec if, else et des expressions conditionnelles."
+        },
+        "de": {
+          "name": "Bedingte Anweisungen",
+          "desc": "Bedingungsanweisungen umfassen Verzweigungen mit if-, else- und Bedingungsausdrücken."
+        },
+        "ja": {
+          "name": "条件文",
+          "desc": "条件文は、if、else、および条件式による分岐を扱います。"
+        },
+        "ru": {
+          "name": "Условные операторы",
+          "desc": "Условные операторы охватывают ветвление с помощью if, else и условных выражений."
+        },
+        "ko": {
+          "name": "조건문",
+          "desc": "조건문은 if, else 및 조건 표현식을 사용한 분기를 포함합니다."
+        },
+        "pt": {
+          "name": "Instruções condicionais",
+          "desc": "As instruções condicionais cobrem a ramificação com expressões if, else e condicionais."
+        }
+      }
+    },
+    {
+      "key": "cpp/switch_statements",
+      "slug": "switch_statements",
+      "name": "Switch Statements",
+      "desc": "Switch statements cover multi-branch selection with cases, defaults, and fallthrough behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Switch 语句",
+          "desc": "Switch 语句涵盖带有 case、default 和 fallthrough 行为的多分支选择。"
+        },
+        "es": {
+          "name": "Sentencias switch",
+          "desc": "Las sentencias switch cubren la selección de múltiples ramas con casos, valores predeterminados y comportamiento de fallthrough."
+        },
+        "fr": {
+          "name": "Instructions switch",
+          "desc": "Les instructions switch couvrent la sélection multi-branche avec des cas, des valeurs par défaut et le comportement de fallthrough."
+        },
+        "de": {
+          "name": "Switch-Anweisungen",
+          "desc": "Switch-Anweisungen decken die Auswahl mehrerer Zweige mit Fällen, Standardwerten und Fallthrough-Verhalten ab."
+        },
+        "ja": {
+          "name": "スイッチステートメント",
+          "desc": "switch ステートメントは、ケース、デフォルト、およびフォールスルー動作を含む複数ブランチの選択を扱います。"
+        },
+        "ru": {
+          "name": "Операторы переключения",
+          "desc": "Операторы switch охватывают выбор из нескольких ветвей с case, default и поведением fallthrough."
+        },
+        "ko": {
+          "name": "스위치 문",
+          "desc": "switch 문은 case, default 및 fallthrough 동작을 포함한 다중 분기 선택을 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções switch",
+          "desc": "As instruções switch cobrem a seleção de vários ramos com cases, default e comportamento de fallthrough."
+        }
+      }
+    },
+    {
+      "key": "cpp/loops",
+      "slug": "loops",
+      "name": "Loops",
+      "desc": "Loops cover repeating work with for, range-for, while, and do-while structures.",
+      "i18n": {
+        "zh": {
+          "name": "循环",
+          "desc": "循环涵盖了 for、range-for、while 和 do-while 结构的重复工作。"
+        },
+        "es": {
+          "name": "Bucles",
+          "desc": "Los bucles cubren el trabajo repetido con estructuras for, range-for, while y do-while."
+        },
+        "fr": {
+          "name": "Boucles",
+          "desc": "Les boucles couvrent le travail répétitif avec les structures for, range-for, while et do-while."
+        },
+        "de": {
+          "name": "Schleifen",
+          "desc": "Schleifen decken sich wiederholende Arbeiten mit for-, range-for-, while- und do-while-Strukturen ab."
+        },
+        "ja": {
+          "name": "ループ",
+          "desc": "ループは、for、range-for、while、do-while 構造を使用した繰り返し作業を扱います。"
+        },
+        "ru": {
+          "name": "Циклы",
+          "desc": "Циклы охватывают повторяющуюся работу со структурами for, range-for, while и do-while."
+        },
+        "ko": {
+          "name": "루프",
+          "desc": "루프는 for, range-for, while 및 do-while 구조를 사용한 반복 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Laços",
+          "desc": "Os loops cobrem a repetição de trabalho com estruturas for, range-for, while e do-while."
+        }
+      }
+    },
+    {
+      "key": "cpp/functions",
+      "slug": "functions",
+      "name": "Functions",
+      "desc": "Functions cover defining, declaring, calling, and organizing reusable C++ logic.",
+      "i18n": {
+        "zh": {
+          "name": "函数",
+          "desc": "函数涵盖定义、声明、调用和组织可重用的 C++ 逻辑。"
+        },
+        "es": {
+          "name": "Funciones",
+          "desc": "Las funciones cubren definir, declarar, llamar y organizar la lógica C++ reutilizable."
+        },
+        "fr": {
+          "name": "Fonctions",
+          "desc": "Les fonctions couvrent la définition, la déclaration, l'appel et l'organisation de la logique C++ réutilisable."
+        },
+        "de": {
+          "name": "Funktionen",
+          "desc": "Zu den Funktionen gehören das Definieren, Deklarieren, Aufrufen und Organisieren wiederverwendbarer C++-Logik."
+        },
+        "ja": {
+          "name": "関数",
+          "desc": "関数には、再利用可能な C++ ロジックの定義、宣言、呼び出し、編成が含まれます。"
+        },
+        "ru": {
+          "name": "Функции",
+          "desc": "Функции охватывают определение, объявление, вызов и организацию многократно используемой логики C++."
+        },
+        "ko": {
+          "name": "함수",
+          "desc": "함수에서는 재사용 가능한 C++ 로직을 정의, 선언, 호출 및 구성하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Funções",
+          "desc": "As funções cobrem a definição, declaração, chamada e organização da lógica C++ reutilizável."
+        }
+      }
+    },
+    {
+      "key": "cpp/parameters_return_values",
+      "slug": "parameters_return_values",
+      "name": "Parameters and Return Values",
+      "desc": "Parameters and return values cover value, reference, pointer, and move-aware interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "参数和返回值",
+          "desc": "参数和返回值涵盖值、引用、指针以及支持移动语义的接口。"
+        },
+        "es": {
+          "name": "Parámetros y valores de retorno",
+          "desc": "Los parámetros y valores de retorno cubren interfaces por valor, referencia, puntero y compatibles con semántica de movimiento."
+        },
+        "fr": {
+          "name": "Paramètres et valeurs de retour",
+          "desc": "Les paramètres et les valeurs de retour couvrent les interfaces par valeur, référence, pointeur et déplacement."
+        },
+        "de": {
+          "name": "Parameter und Rückgabewerte",
+          "desc": "Parameter und Rückgabewerte umfassen Wert-, Referenz-, Zeiger- und move-semantikfähige Schnittstellen."
+        },
+        "ja": {
+          "name": "パラメータと戻り値",
+          "desc": "パラメータと戻り値には、値、参照、ポインタ、および移動対応インターフェイスが含まれます。"
+        },
+        "ru": {
+          "name": "Параметры и возвращаемые значения",
+          "desc": "Параметры и возвращаемые значения охватывают интерфейсы передачи по значению, ссылке, указателю и перемещением."
+        },
+        "ko": {
+          "name": "매개변수 및 반환 값",
+          "desc": "매개변수와 반환 값은 값, 참조, 포인터 및 이동을 고려한 인터페이스를 다룹니다."
+        },
+        "pt": {
+          "name": "Parâmetros e valores de retorno",
+          "desc": "Parâmetros e valores de retorno abrangem interfaces por valor, referência, ponteiro e compatíveis com semântica de movimento."
+        }
+      }
+    },
+    {
+      "key": "cpp/function_overloading",
+      "slug": "function_overloading",
+      "name": "Function Overloading",
+      "desc": "Function overloading covers selecting functions by parameter types and overload resolution.",
+      "i18n": {
+        "zh": {
+          "name": "函数重载",
+          "desc": "函数重载包括通过参数类型和重载解析来选择函数。"
+        },
+        "es": {
+          "name": "Sobrecarga de funciones",
+          "desc": "La sobrecarga de funciones cubre la selección de funciones por tipos de parámetros y resolución de sobrecarga."
+        },
+        "fr": {
+          "name": "Surcharge de fonctions",
+          "desc": "La surcharge de fonctions couvre la sélection des fonctions par types de paramètres et résolution de surcharge."
+        },
+        "de": {
+          "name": "Funktionsüberladung",
+          "desc": "Das Überladen von Funktionen umfasst die Auswahl von Funktionen nach Parametertypen und Überladungsauflösung."
+        },
+        "ja": {
+          "name": "関数のオーバーロード",
+          "desc": "関数のオーバーロードでは、パラメーターの種類とオーバーロードの解決による関数の選択について説明します。"
+        },
+        "ru": {
+          "name": "Перегрузка функций",
+          "desc": "Перегрузка функций включает выбор функций по типам параметров и разрешению перегрузки."
+        },
+        "ko": {
+          "name": "함수 오버로딩",
+          "desc": "함수 오버로딩에는 매개변수 유형별 함수 선택 및 오버로드 해결이 포함됩니다."
+        },
+        "pt": {
+          "name": "Sobrecarga de função",
+          "desc": "A sobrecarga de funções abrange a seleção de funções por tipos de parâmetros e resolução de sobrecarga."
+        }
+      }
+    },
+    {
+      "key": "cpp/lambda_expressions",
+      "slug": "lambda_expressions",
+      "name": "Lambda Expressions",
+      "desc": "Lambda expressions cover inline callable objects and captured state.",
+      "i18n": {
+        "zh": {
+          "name": "Lambda 表达式",
+          "desc": "Lambda 表达式涵盖内联可调用对象和捕获的状态。"
+        },
+        "es": {
+          "name": "Expresiones lambda",
+          "desc": "Las expresiones lambda cubren objetos invocables en línea y estado capturado."
+        },
+        "fr": {
+          "name": "Expressions lambda",
+          "desc": "Les expressions Lambda couvrent les objets appelables en ligne et l'état capturé."
+        },
+        "de": {
+          "name": "Lambda-Ausdrücke",
+          "desc": "Lambda-Ausdrücke decken inline aufrufbare Objekte und den erfassten Zustand ab."
+        },
+        "ja": {
+          "name": "ラムダ式",
+          "desc": "ラムダ式は、インラインで呼び出し可能なオブジェクトとキャプチャされた状態を扱います。"
+        },
+        "ru": {
+          "name": "Лямбда-выражения",
+          "desc": "Лямбда-выражения охватывают встроенные вызываемые объекты и захваченное состояние."
+        },
+        "ko": {
+          "name": "람다 표현식",
+          "desc": "람다 표현식은 인라인 호출 가능 객체와 캡처된 상태를 다룹니다."
+        },
+        "pt": {
+          "name": "Expressões Lambda",
+          "desc": "As expressões lambda abrangem objetos que podem ser chamados in-line e estados capturados."
+        }
+      }
+    },
+    {
+      "key": "cpp/exception_handling",
+      "slug": "exception_handling",
+      "name": "Exception Handling",
+      "desc": "Exception handling covers throwing, catching, and designing failure paths with exceptions.",
+      "i18n": {
+        "zh": {
+          "name": "异常处理",
+          "desc": "异常处理涵盖抛出、捕获和设计异常的故障路径。"
+        },
+        "es": {
+          "name": "Manejo de excepciones",
+          "desc": "El manejo de excepciones cubre lanzar, capturar y diseñar rutas de falla con excepciones."
+        },
+        "fr": {
+          "name": "Gestion des exceptions",
+          "desc": "La gestion des exceptions couvre le lancement, la capture et la conception de chemins d'échec avec des exceptions."
+        },
+        "de": {
+          "name": "Ausnahmebehandlung",
+          "desc": "Die Ausnahmebehandlung umfasst das Auslösen, Abfangen und Entwerfen von Fehlerpfaden mit Ausnahmen."
+        },
+        "ja": {
+          "name": "例外処理",
+          "desc": "例外処理では、例外のスロー、キャッチ、および障害パスの設計について説明します。"
+        },
+        "ru": {
+          "name": "Обработка исключений",
+          "desc": "Обработка исключений включает в себя создание, перехват и разработку путей отказа с исключениями."
+        },
+        "ko": {
+          "name": "예외 처리",
+          "desc": "예외 처리는 예외를 던지고, 잡고, 실패 경로를 설계하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Tratamento de exceções",
+          "desc": "O tratamento de exceções abrange lançar, capturar e projetar caminhos de falha com exceções."
+        }
+      }
+    },
+    {
+      "key": "cpp/classes_objects",
+      "slug": "classes_objects",
+      "name": "Classes and Objects",
+      "desc": "Classes and objects cover defining types with data, behavior, and object instances.",
+      "i18n": {
+        "zh": {
+          "name": "类和对象",
+          "desc": "类和对象涵盖使用数据、行为和对象实例定义类型。"
+        },
+        "es": {
+          "name": "Clases y objetos",
+          "desc": "Las clases y objetos cubren la definición de tipos con datos, comportamiento e instancias de objetos."
+        },
+        "fr": {
+          "name": "Classes et objets",
+          "desc": "Les classes et les objets couvrent la définition de types avec des données, des comportements et des instances d'objet."
+        },
+        "de": {
+          "name": "Klassen und Objekte",
+          "desc": "Klassen und Objekte decken die Definition von Typen mit Daten, Verhalten und Objektinstanzen ab."
+        },
+        "ja": {
+          "name": "クラスとオブジェクト",
+          "desc": "クラスとオブジェクトは、データ、動作、オブジェクトインスタンスを含む型の定義を扱います。"
+        },
+        "ru": {
+          "name": "Классы и объекты",
+          "desc": "Классы и объекты охватывают определение типов с помощью данных, поведения и экземпляров объектов."
+        },
+        "ko": {
+          "name": "클래스와 객체",
+          "desc": "클래스와 객체는 데이터, 동작, 객체 인스턴스로 유형 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Classes e objetos",
+          "desc": "Classes e objetos cobrem a definição de tipos com dados, comportamento e instâncias de objetos."
+        }
+      }
+    },
+    {
+      "key": "cpp/constructors_destructors",
+      "slug": "constructors_destructors",
+      "name": "Constructors and Destructors",
+      "desc": "Constructors and destructors cover object initialization, cleanup, and lifetime hooks.",
+      "i18n": {
+        "zh": {
+          "name": "构造函数和析构函数",
+          "desc": "构造函数和析构函数涵盖对象初始化、清理和生命周期钩子。"
+        },
+        "es": {
+          "name": "Constructores y destructores",
+          "desc": "Los constructores y destructores cubren la inicialización de objetos, la limpieza y los puntos del ciclo de vida."
+        },
+        "fr": {
+          "name": "Constructeurs et Destructeurs",
+          "desc": "Les constructeurs et les destructeurs couvrent l'initialisation, le nettoyage et les points du cycle de vie des objets."
+        },
+        "de": {
+          "name": "Konstruktoren und Destruktoren",
+          "desc": "Konstruktoren und Destruktoren decken Objektinitialisierung, Bereinigung und Lebensdauerereignisse ab."
+        },
+        "ja": {
+          "name": "コンストラクターとデストラクター",
+          "desc": "コンストラクターとデストラクターは、オブジェクトの初期化、クリーンアップ、有効期間フックを扱います。"
+        },
+        "ru": {
+          "name": "Конструкторы и деструкторы",
+          "desc": "Конструкторы и деструкторы охватывают инициализацию, очистку и хуки времени жизни объектов."
+        },
+        "ko": {
+          "name": "생성자와 소멸자",
+          "desc": "생성자와 소멸자는 객체 초기화, 정리 및 수명 주기 후크를 다룹니다."
+        },
+        "pt": {
+          "name": "Construtores e destrutores",
+          "desc": "Construtores e destrutores cobrem inicialização de objetos, limpeza e pontos do ciclo de vida."
+        }
+      }
+    },
+    {
+      "key": "cpp/member_functions",
+      "slug": "member_functions",
+      "name": "Member Functions",
+      "desc": "Member functions cover behavior attached to class objects and const-qualified operations.",
+      "i18n": {
+        "zh": {
+          "name": "成员函数",
+          "desc": "成员函数涵盖附加到类对象的行为和 const 限定的操作。"
+        },
+        "es": {
+          "name": "Funciones miembro",
+          "desc": "Las funciones miembro cubren el comportamiento asociado a objetos de clase y operaciones calificadas como const."
+        },
+        "fr": {
+          "name": "Fonctions des membres",
+          "desc": "Les fonctions membres couvrent le comportement attaché aux objets de classe et aux opérations qualifiées par const."
+        },
+        "de": {
+          "name": "Mitgliedsfunktionen",
+          "desc": "Mitgliedsfunktionen decken das Verhalten ab, das an Klassenobjekte und const-qualifizierte Operationen gebunden ist."
+        },
+        "ja": {
+          "name": "メンバー関数",
+          "desc": "メンバー関数は、クラスオブジェクトに関連付けられた動作と const 修飾された操作を扱います。"
+        },
+        "ru": {
+          "name": "Функции-члены",
+          "desc": "Функции-члены охватывают поведение, связанное с объектами класса и операциями с константными параметрами."
+        },
+        "ko": {
+          "name": "멤버 함수",
+          "desc": "멤버 함수는 클래스 객체 및 const 한정 작업에 연결된 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Funções-membro",
+          "desc": "As funções-membro cobrem o comportamento anexado a objetos de classe e operações qualificadas const."
+        }
+      }
+    },
+    {
+      "key": "cpp/access_control",
+      "slug": "access_control",
+      "name": "Access Control",
+      "desc": "Access control covers public, protected, and private class interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "访问控制",
+          "desc": "访问控制涵盖公共、受保护和私有类接口。"
+        },
+        "es": {
+          "name": "Control de acceso",
+          "desc": "El control de acceso cubre interfaces de clase públicas, protegidas y privadas."
+        },
+        "fr": {
+          "name": "Contrôle d'accès",
+          "desc": "Le contrôle d'accès couvre les interfaces de classe publiques, protégées et privées."
+        },
+        "de": {
+          "name": "Zugriffskontrolle",
+          "desc": "Die Zugriffskontrolle umfasst öffentliche, geschützte und private Klassenschnittstellen."
+        },
+        "ja": {
+          "name": "アクセス制御",
+          "desc": "アクセス制御は、パブリック、プロテクト、およびプライベートのクラスインターフェイスを扱います。"
+        },
+        "ru": {
+          "name": "Контроль доступа",
+          "desc": "Контроль доступа охватывает общедоступные, защищенные и частные интерфейсы классов."
+        },
+        "ko": {
+          "name": "접근 제어",
+          "desc": "접근 제어는 public, protected, private 클래스 인터페이스를 다룹니다."
+        },
+        "pt": {
+          "name": "Controle de acesso",
+          "desc": "O controle de acesso abrange interfaces de classe pública, protegida e privada."
+        }
+      }
+    },
+    {
+      "key": "cpp/encapsulation",
+      "slug": "encapsulation",
+      "name": "Encapsulation",
+      "desc": "Encapsulation covers preserving invariants through controlled interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "封装",
+          "desc": "封装涵盖通过受控接口保留不变量。"
+        },
+        "es": {
+          "name": "Encapsulación",
+          "desc": "La encapsulación cubre la preservación de invariantes a través de interfaces controladas."
+        },
+        "fr": {
+          "name": "Encapsulation",
+          "desc": "L'encapsulation couvre la préservation des invariants via des interfaces contrôlées."
+        },
+        "de": {
+          "name": "Kapselung",
+          "desc": "Die Kapselung umfasst die Erhaltung von Invarianten durch kontrollierte Schnittstellen."
+        },
+        "ja": {
+          "name": "カプセル化",
+          "desc": "カプセル化では、制御されたインターフェイスを通じて不変条件を保持します。"
+        },
+        "ru": {
+          "name": "Инкапсуляция",
+          "desc": "Инкапсуляция обеспечивает сохранение инвариантов через управляемые интерфейсы."
+        },
+        "ko": {
+          "name": "캡슐화",
+          "desc": "캡슐화는 제어된 인터페이스를 통해 불변성을 보존하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Encapsulamento",
+          "desc": "O encapsulamento cobre a preservação de invariantes por meio de interfaces controladas."
+        }
+      }
+    },
+    {
+      "key": "cpp/inheritance",
+      "slug": "inheritance",
+      "name": "Inheritance",
+      "desc": "Inheritance covers deriving classes and reusing or extending behavior.",
+      "i18n": {
+        "zh": {
+          "name": "继承",
+          "desc": "继承涵盖派生类以及重用或扩展行为。"
+        },
+        "es": {
+          "name": "Herencia",
+          "desc": "La herencia cubre la derivación de clases y la reutilización o extensión del comportamiento."
+        },
+        "fr": {
+          "name": "Héritage",
+          "desc": "L'héritage couvre la dérivation de classes et la réutilisation ou l'extension du comportement."
+        },
+        "de": {
+          "name": "Vererbung",
+          "desc": "Vererbung umfasst das Ableiten von Klassen und die Wiederverwendung oder Erweiterung von Verhalten."
+        },
+        "ja": {
+          "name": "継承",
+          "desc": "継承には、クラスの派生と動作の再利用または拡張が含まれます。"
+        },
+        "ru": {
+          "name": "Наследование",
+          "desc": "Наследование охватывает создание производных классов и повторное использование или расширение поведения."
+        },
+        "ko": {
+          "name": "상속",
+          "desc": "상속은 클래스 파생과 동작 재사용 또는 확장을 다룹니다."
+        },
+        "pt": {
+          "name": "Herança",
+          "desc": "A herança cobre a derivação de classes e a reutilização ou extensão de comportamento."
+        }
+      }
+    },
+    {
+      "key": "cpp/polymorphism",
+      "slug": "polymorphism",
+      "name": "Polymorphism",
+      "desc": "Polymorphism covers virtual dispatch and substitutable interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "多态性",
+          "desc": "多态性涵盖虚拟调度和可替换接口。"
+        },
+        "es": {
+          "name": "Polimorfismo",
+          "desc": "El polimorfismo cubre el despacho virtual y las interfaces sustituibles."
+        },
+        "fr": {
+          "name": "Polymorphisme",
+          "desc": "Le polymorphisme couvre la répartition virtuelle et les interfaces substituables."
+        },
+        "de": {
+          "name": "Polymorphismus",
+          "desc": "Polymorphismus umfasst virtuelle Dispatch- und austauschbare Schnittstellen."
+        },
+        "ja": {
+          "name": "ポリモーフィズム",
+          "desc": "ポリモーフィズムは、仮想ディスパッチと置換可能なインターフェイスを扱います。"
+        },
+        "ru": {
+          "name": "Полиморфизм",
+          "desc": "Полиморфизм охватывает виртуальную диспетчеризацию и заменяемые интерфейсы."
+        },
+        "ko": {
+          "name": "다형성",
+          "desc": "다형성은 가상 디스패치 및 대체 가능한 인터페이스를 다룹니다."
+        },
+        "pt": {
+          "name": "Polimorfismo",
+          "desc": "O polimorfismo cobre despacho virtual e interfaces substituíveis."
+        }
+      }
+    },
+    {
+      "key": "cpp/operator_overloading",
+      "slug": "operator_overloading",
+      "name": "Operator Overloading",
+      "desc": "Operator overloading covers defining operator behavior for user-defined types.",
+      "i18n": {
+        "zh": {
+          "name": "运算符重载",
+          "desc": "运算符重载涵盖了为用户定义类型定义运算符行为。"
+        },
+        "es": {
+          "name": "Sobrecarga de operadores",
+          "desc": "La sobrecarga de operadores cubre la definición del comportamiento del operador para tipos definidos por el usuario."
+        },
+        "fr": {
+          "name": "Surcharge de l'opérateur",
+          "desc": "La surcharge des opérateurs couvre la définition du comportement de l'opérateur pour les types définis par l'utilisateur."
+        },
+        "de": {
+          "name": "Operatorüberladung",
+          "desc": "Das Überladen von Operatoren umfasst die Definition des Operatorverhaltens für benutzerdefinierte Typen."
+        },
+        "ja": {
+          "name": "演算子のオーバーロード",
+          "desc": "演算子のオーバーロードでは、ユーザー定義型の演算子の動作の定義について説明します。"
+        },
+        "ru": {
+          "name": "Перегрузка оператора",
+          "desc": "Перегрузка операторов охватывает определение поведения операторов для пользовательских типов."
+        },
+        "ko": {
+          "name": "연산자 오버로딩",
+          "desc": "연산자 오버로딩에는 사용자 정의 유형에 대한 연산자 동작 정의가 포함됩니다."
+        },
+        "pt": {
+          "name": "Sobrecarga do Operador",
+          "desc": "A sobrecarga do operador abrange a definição do comportamento do operador para tipos definidos pelo usuário."
+        }
+      }
+    },
+    {
+      "key": "cpp/raii",
+      "slug": "raii",
+      "name": "RAII",
+      "desc": "RAII covers tying resource lifetime to object lifetime for deterministic cleanup.",
+      "i18n": {
+        "zh": {
+          "name": "RAII",
+          "desc": "RAII 涵盖了将资源生命周期与对象生命周期联系起来以进行确定性清理。"
+        },
+        "es": {
+          "name": "RAII",
+          "desc": "RAII cubre la vinculación de la vida útil del recurso con la vida útil del objeto para una limpieza determinista."
+        },
+        "fr": {
+          "name": "RAII",
+          "desc": "RAII couvre la liaison de la durée de vie des ressources à la durée de vie des objets pour un nettoyage déterministe."
+        },
+        "de": {
+          "name": "RAII",
+          "desc": "RAII behandelt die Verknüpfung der Ressourcenlebensdauer mit der Objektlebensdauer für eine deterministische Bereinigung."
+        },
+        "ja": {
+          "name": "RAII",
+          "desc": "RAII では、決定論的なクリーンアップのためにリソースの有効期間をオブジェクトの有効期間に結び付けることについて説明します。"
+        },
+        "ru": {
+          "name": "RAII",
+          "desc": "RAII охватывает привязку времени жизни ресурса к времени жизни объекта для детерминированной очистки."
+        },
+        "ko": {
+          "name": "RAII",
+          "desc": "RAII는 결정적 정리를 위해 리소스 수명을 객체 수명에 연결하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "RAII",
+          "desc": "RAII cobre a vinculação da vida útil do recurso à vida útil do objeto para limpeza determinística."
+        }
+      }
+    },
+    {
+      "key": "cpp/smart_pointers",
+      "slug": "smart_pointers",
+      "name": "Smart Pointers",
+      "desc": "Smart pointers cover ownership and lifetime management with standard pointer wrappers.",
+      "i18n": {
+        "zh": {
+          "name": "智能指针",
+          "desc": "智能指针通过标准指针包装器涵盖所有权和生命周期管理。"
+        },
+        "es": {
+          "name": "Punteros inteligentes",
+          "desc": "Los punteros inteligentes cubren la propiedad y la gestión de la vida útil con envoltorios de punteros estándar."
+        },
+        "fr": {
+          "name": "Pointeurs intelligents",
+          "desc": "Les pointeurs intelligents couvrent la propriété et la gestion de la durée de vie avec des wrappers de pointeurs standard."
+        },
+        "de": {
+          "name": "Smart Pointer",
+          "desc": "Smart Pointer behandeln Ownership- und Lebensdauerverwaltung mit Standard-Pointer-Wrappern."
+        },
+        "ja": {
+          "name": "スマートポインター",
+          "desc": "スマートポインターは、標準のポインターラッパーを使用して所有権と有効期間の管理を扱います。"
+        },
+        "ru": {
+          "name": "Умные указатели",
+          "desc": "Умные указатели охватывают управление владением и временем жизни с помощью стандартных оберток указателей."
+        },
+        "ko": {
+          "name": "스마트 포인터",
+          "desc": "스마트 포인터는 표준 포인터 래퍼를 사용하여 소유권과 수명 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Ponteiros inteligentes",
+          "desc": "Ponteiros inteligentes cobrem propriedade e gerenciamento de tempo de vida com wrappers de ponteiro padrão."
+        }
+      }
+    },
+    {
+      "key": "cpp/move_semantics",
+      "slug": "move_semantics",
+      "name": "Move Semantics",
+      "desc": "Move semantics cover transferring resources without unnecessary copying.",
+      "i18n": {
+        "zh": {
+          "name": "移动语义",
+          "desc": "移动语义涵盖在避免不必要复制的情况下转移资源。"
+        },
+        "es": {
+          "name": "Semántica de movimiento",
+          "desc": "La semántica de movimiento cubre la transferencia de recursos sin realizar copias innecesarias."
+        },
+        "fr": {
+          "name": "Sémantique de déplacement",
+          "desc": "La sémantique de déplacement couvre le transfert de ressources sans copie inutile."
+        },
+        "de": {
+          "name": "Move-Semantik",
+          "desc": "Die Move-Semantik umfasst die Übertragung von Ressourcen ohne unnötiges Kopieren."
+        },
+        "ja": {
+          "name": "移動セマンティクス",
+          "desc": "移動セマンティクスは、不必要なコピーを行わずにリソースを転送することを扱います。"
+        },
+        "ru": {
+          "name": "Семантика перемещения",
+          "desc": "Семантика перемещения охватывает передачу ресурсов без ненужного копирования."
+        },
+        "ko": {
+          "name": "이동 시맨틱",
+          "desc": "이동 시맨틱은 불필요한 복사 없이 리소스를 이전하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Semântica de movimento",
+          "desc": "A semântica de movimentação cobre a transferência de recursos sem cópias desnecessárias."
+        }
+      }
+    },
+    {
+      "key": "cpp/copy_control",
+      "slug": "copy_control",
+      "name": "Copy Control",
+      "desc": "Copy control covers copy, move, assignment, and destruction behavior for user-defined types.",
+      "i18n": {
+        "zh": {
+          "name": "复制控制",
+          "desc": "复制控制涵盖用户定义类型的复制、移动、赋值和销毁行为。"
+        },
+        "es": {
+          "name": "Control de copia",
+          "desc": "El control de copia cubre el comportamiento de copia, movimiento, asignación y destrucción para tipos definidos por el usuario."
+        },
+        "fr": {
+          "name": "Contrôle de copie",
+          "desc": "Le contrôle de copie couvre le comportement de copie, de déplacement, d’affectation et de destruction pour les types définis par l’utilisateur."
+        },
+        "de": {
+          "name": "Kopierkontrolle",
+          "desc": "Die Kopierkontrolle umfasst das Kopier-, Verschiebungs-, Zuweisungs- und Zerstörungsverhalten für benutzerdefinierte Typen."
+        },
+        "ja": {
+          "name": "コピー制御",
+          "desc": "コピー制御は、ユーザー定義型のコピー、移動、割り当て、および破棄の動作を扱います。"
+        },
+        "ru": {
+          "name": "Контроль копирования",
+          "desc": "Управление копированием охватывает поведение копирования, перемещения, назначения и уничтожения для пользовательских типов."
+        },
+        "ko": {
+          "name": "복사 제어",
+          "desc": "복사 제어는 사용자 정의 유형에 대한 복사, 이동, 할당 및 파기 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Controle de cópia",
+          "desc": "O controle de cópia abrange o comportamento de cópia, movimentação, atribuição e destruição para tipos definidos pelo usuário."
+        }
+      }
+    },
+    {
+      "key": "cpp/templates",
+      "slug": "templates",
+      "name": "Templates",
+      "desc": "Templates cover writing reusable type- or value-parameterized C++ code.",
+      "i18n": {
+        "zh": {
+          "name": "模板",
+          "desc": "模板涵盖编写可重用的类型或值参数化 C++ 代码。"
+        },
+        "es": {
+          "name": "Plantillas",
+          "desc": "Las plantillas cubren la escritura de código C++ reutilizable con parámetros de tipo o valor."
+        },
+        "fr": {
+          "name": "Modèles",
+          "desc": "Les modèles couvrent l'écriture de code C++ réutilisable paramétré par type ou par valeur."
+        },
+        "de": {
+          "name": "Vorlagen",
+          "desc": "Vorlagen umfassen das Schreiben von wiederverwendbarem C++-Code, der über Typen oder Werte parametrisiert ist."
+        },
+        "ja": {
+          "name": "テンプレート",
+          "desc": "テンプレートは、再利用可能な型または値パラメーター化された C++ コードの作成を扱います。"
+        },
+        "ru": {
+          "name": "Шаблоны",
+          "desc": "Шаблоны охватывают написание многократно используемого кода C++ с параметрами типа или значения."
+        },
+        "ko": {
+          "name": "템플릿",
+          "desc": "템플릿은 재사용 가능한 유형 또는 값 매개변수화된 C++ 코드 작성을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelos",
+          "desc": "Os modelos cobrem a escrita de código C++ parametrizado por tipo ou valor reutilizável."
+        }
+      }
+    },
+    {
+      "key": "cpp/template_specialization",
+      "slug": "template_specialization",
+      "name": "Template Specialization",
+      "desc": "Template specialization covers customizing template behavior for specific types or values.",
+      "i18n": {
+        "zh": {
+          "name": "模板特化",
+          "desc": "模板特化涵盖为特定类型或值自定义模板行为。"
+        },
+        "es": {
+          "name": "Especialización de plantillas",
+          "desc": "La especialización de plantillas cubre la personalización del comportamiento de las plantillas para tipos o valores específicos."
+        },
+        "fr": {
+          "name": "Spécialisation des modèles",
+          "desc": "La spécialisation des modèles couvre la personnalisation du comportement des modèles pour des types ou des valeurs spécifiques."
+        },
+        "de": {
+          "name": "Template-Spezialisierung",
+          "desc": "Die Vorlagenspezialisierung umfasst die Anpassung des Vorlagenverhaltens für bestimmte Typen oder Werte."
+        },
+        "ja": {
+          "name": "テンプレートの特化",
+          "desc": "テンプレートの特殊化では、特定の型または値に対するテンプレートの動作のカスタマイズを扱います。"
+        },
+        "ru": {
+          "name": "Специализация шаблона",
+          "desc": "Специализация шаблона включает настройку поведения шаблона для определенных типов или значений."
+        },
+        "ko": {
+          "name": "템플릿 특수화",
+          "desc": "템플릿 특수화는 특정 타입이나 값에 대한 템플릿 동작을 사용자 정의하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Especialização de modelos",
+          "desc": "A especialização de modelo abrange a personalização do comportamento do modelo para tipos ou valores específicos."
+        }
+      }
+    },
+    {
+      "key": "cpp/generic_constraints",
+      "slug": "generic_constraints",
+      "name": "Generic Constraints",
+      "desc": "Generic constraints cover restricting template requirements with concepts or related techniques.",
+      "i18n": {
+        "zh": {
+          "name": "泛型约束",
+          "desc": "泛型约束涵盖使用概念或相关技术来限制模板要求。"
+        },
+        "es": {
+          "name": "Restricciones genéricas",
+          "desc": "Las restricciones genéricas cubren la restricción de requisitos de plantilla con conceptos o técnicas relacionadas."
+        },
+        "fr": {
+          "name": "Contraintes génériques",
+          "desc": "Les contraintes génériques couvrent la restriction des exigences du modèle avec des concepts ou des techniques associées."
+        },
+        "de": {
+          "name": "Generische Constraints",
+          "desc": "Generische Constraints umfassen die Einschränkung von Template-Anforderungen durch Concepts oder verwandte Techniken."
+        },
+        "ja": {
+          "name": "ジェネリック制約",
+          "desc": "ジェネリック制約は、concept などの関連技術でテンプレート要件を制限する方法を扱います。"
+        },
+        "ru": {
+          "name": "Обобщенные ограничения",
+          "desc": "Обобщенные ограничения охватывают ограничение требований к шаблонам с помощью concepts или связанных техник."
+        },
+        "ko": {
+          "name": "제네릭 제약조건",
+          "desc": "제네릭 제약조건은 concepts 또는 관련 기술로 템플릿 요구 사항을 제한하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Restrições genéricas",
+          "desc": "As restrições genéricas abrangem a restrição de requisitos de modelo com conceitos ou técnicas relacionadas."
+        }
+      }
+    },
+    {
+      "key": "cpp/type_traits",
+      "slug": "type_traits",
+      "name": "Type Traits",
+      "desc": "Type traits cover compile-time type inspection and transformation.",
+      "i18n": {
+        "zh": {
+          "name": "类型特征",
+          "desc": "类型特征涵盖编译时类型检查和转换。"
+        },
+        "es": {
+          "name": "Type traits",
+          "desc": "Los type traits cubren la inspección y transformación de tipos en tiempo de compilación."
+        },
+        "fr": {
+          "name": "Traits de type",
+          "desc": "Les traits de type couvrent l’inspection et la transformation de type au moment de la compilation."
+        },
+        "de": {
+          "name": "Typmerkmale",
+          "desc": "Typmerkmale decken die Typprüfung und -transformation zur Kompilierungszeit ab."
+        },
+        "ja": {
+          "name": "型特性",
+          "desc": "型特性には、コンパイル時の型検査と変換が含まれます。"
+        },
+        "ru": {
+          "name": "Type traits",
+          "desc": "Type traits охватывают проверку и преобразование типов во время компиляции."
+        },
+        "ko": {
+          "name": "타입 트레이트",
+          "desc": "유형 특성은 컴파일 타임 유형 검사 및 변환을 다룹니다."
+        },
+        "pt": {
+          "name": "Características de tipo",
+          "desc": "As características de tipo cobrem a inspeção e transformação de tipos em tempo de compilação."
+        }
+      }
+    },
+    {
+      "key": "cpp/strings",
+      "slug": "strings",
+      "name": "Strings",
+      "desc": "Strings cover using standard string types and text operations.",
+      "i18n": {
+        "zh": {
+          "name": "字符串",
+          "desc": "字符串涵盖使用标准字符串类型和文本操作。"
+        },
+        "es": {
+          "name": "Cadenas",
+          "desc": "Las cadenas cubren el uso de tipos de cadenas y operaciones de texto estándar."
+        },
+        "fr": {
+          "name": "Chaînes",
+          "desc": "Les chaînes couvrent l’utilisation de types de chaînes standard et d’opérations de texte."
+        },
+        "de": {
+          "name": "Zeichenfolgen",
+          "desc": "Zeichenfolgen umfassen die Verwendung von Standard-Zeichenfolgentypen und Textoperationen."
+        },
+        "ja": {
+          "name": "文字列",
+          "desc": "文字列では、標準の文字列タイプとテキスト操作の使用を扱います。"
+        },
+        "ru": {
+          "name": "Строки",
+          "desc": "Строки охватывают использование стандартных типов строк и текстовых операций."
+        },
+        "ko": {
+          "name": "문자열",
+          "desc": "문자열은 표준 문자열 유형 및 텍스트 작업 사용을 다룹니다."
+        },
+        "pt": {
+          "name": "Cadeias de caracteres",
+          "desc": "As cadeias de caracteres cobrem o uso de tipos de texto padrão e operações de texto."
+        }
+      }
+    },
+    {
+      "key": "cpp/vectors",
+      "slug": "vectors",
+      "name": "Vectors",
+      "desc": "Vectors cover dynamic contiguous sequences with standard container behavior.",
+      "i18n": {
+        "zh": {
+          "name": "向量",
+          "desc": "向量涵盖具有标准容器行为的动态连续序列。"
+        },
+        "es": {
+          "name": "Vectores",
+          "desc": "Los vectores cubren secuencias dinámicas contiguas con un comportamiento de contenedor estándar."
+        },
+        "fr": {
+          "name": "Vecteurs",
+          "desc": "Les vecteurs couvrent des séquences contiguës dynamiques avec un comportement de conteneur standard."
+        },
+        "de": {
+          "name": "Vektoren",
+          "desc": "Vektoren decken dynamische zusammenhängende Sequenzen mit Standard-Containerverhalten ab."
+        },
+        "ja": {
+          "name": "ベクトル",
+          "desc": "ベクターは、標準的なコンテナーの動作で動的連続シーケンスを扱います。"
+        },
+        "ru": {
+          "name": "Векторы",
+          "desc": "Векторы охватывают динамические смежные последовательности со стандартным поведением контейнера."
+        },
+        "ko": {
+          "name": "벡터",
+          "desc": "벡터는 표준 컨테이너 동작으로 동적 연속 시퀀스를 다룹니다."
+        },
+        "pt": {
+          "name": "Vetores",
+          "desc": "Os vetores cobrem sequências contíguas dinâmicas com comportamento de contêiner padrão."
+        }
+      }
+    },
+    {
+      "key": "cpp/associative_containers",
+      "slug": "associative_containers",
+      "name": "Associative Containers",
+      "desc": "Associative containers cover map, set, and hash-based lookup structures.",
+      "i18n": {
+        "zh": {
+          "name": "关联容器",
+          "desc": "关联容器涵盖映射、集合和基于散列的查找结构。"
+        },
+        "es": {
+          "name": "Contenedores asociativos",
+          "desc": "Los contenedores asociativos cubren estructuras de búsqueda basadas en map, set y hash."
+        },
+        "fr": {
+          "name": "Conteneurs associatifs",
+          "desc": "Les conteneurs associatifs couvrent les structures de recherche basées sur map, set et hachage."
+        },
+        "de": {
+          "name": "Assoziative Container",
+          "desc": "Assoziative Container decken Map-, Set- und Hash-basierte Suchstrukturen ab."
+        },
+        "ja": {
+          "name": "連想コンテナ",
+          "desc": "連想コンテナーは、マップ、セット、およびハッシュベースのルックアップ構造を扱います。"
+        },
+        "ru": {
+          "name": "Ассоциативные контейнеры",
+          "desc": "Ассоциативные контейнеры охватывают структуры поиска на основе map, set и хешей."
+        },
+        "ko": {
+          "name": "연관 컨테이너",
+          "desc": "연관 컨테이너는 맵, 세트 및 해시 기반 조회 구조를 다룹니다."
+        },
+        "pt": {
+          "name": "Contêineres Associativos",
+          "desc": "Os contêineres associativos cobrem estruturas de pesquisa baseadas em map, set e hash."
+        }
+      }
+    },
+    {
+      "key": "cpp/iterators",
+      "slug": "iterators",
+      "name": "Iterators",
+      "desc": "Iterators cover generic traversal and container access conventions.",
+      "i18n": {
+        "zh": {
+          "name": "迭代器",
+          "desc": "迭代器涵盖通用遍历和容器访问约定。"
+        },
+        "es": {
+          "name": "Iteradores",
+          "desc": "Los iteradores cubren convenciones genéricas de acceso a contenedores y recorrido."
+        },
+        "fr": {
+          "name": "Itérateurs",
+          "desc": "Les itérateurs couvrent les conventions génériques de traversée et d’accès aux conteneurs."
+        },
+        "de": {
+          "name": "Iteratoren",
+          "desc": "Iteratoren decken generische Traversal- und Containerzugriffskonventionen ab."
+        },
+        "ja": {
+          "name": "イテレータ",
+          "desc": "イテレータは、一般的なトラバーサルおよびコンテナアクセスの規則を扱います。"
+        },
+        "ru": {
+          "name": "Итераторы",
+          "desc": "Итераторы охватывают общие соглашения об обходе и доступе к контейнеру."
+        },
+        "ko": {
+          "name": "반복자",
+          "desc": "반복자는 일반적인 순회 및 컨테이너 액세스 규칙을 다룹니다."
+        },
+        "pt": {
+          "name": "Iteradores",
+          "desc": "Os iteradores cobrem convenções genéricas de travessia e acesso a contêineres."
+        }
+      }
+    },
+    {
+      "key": "cpp/algorithms",
+      "slug": "algorithms",
+      "name": "Algorithms",
+      "desc": "Algorithms cover applying standard generic algorithms to ranges of values.",
+      "i18n": {
+        "zh": {
+          "name": "算法",
+          "desc": "算法涵盖将标准通用算法应用于值范围。"
+        },
+        "es": {
+          "name": "Algoritmos",
+          "desc": "Los algoritmos cubren la aplicación de algoritmos genéricos estándar a rangos de valores."
+        },
+        "fr": {
+          "name": "Algorithmes",
+          "desc": "Les algorithmes couvrent l'application d'algorithmes génériques standard à des plages de valeurs."
+        },
+        "de": {
+          "name": "Algorithmen",
+          "desc": "Unter Algorithmen versteht man die Anwendung allgemeiner Standardalgorithmen auf Wertebereiche."
+        },
+        "ja": {
+          "name": "アルゴリズム",
+          "desc": "アルゴリズムでは、標準の汎用アルゴリズムを値の範囲に適用することができます。"
+        },
+        "ru": {
+          "name": "Алгоритмы",
+          "desc": "Алгоритмы охватывают применение стандартных универсальных алгоритмов к диапазонам значений."
+        },
+        "ko": {
+          "name": "알고리즘",
+          "desc": "알고리즘은 표준 일반 알고리즘을 값 범위에 적용하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Algoritmos",
+          "desc": "Os algoritmos cobrem a aplicação de algoritmos genéricos padrão a intervalos de valores."
+        }
+      }
+    },
+    {
+      "key": "cpp/io_streams",
+      "slug": "io_streams",
+      "name": "I/O Streams",
+      "desc": "I/O streams cover formatted input and output through standard stream abstractions.",
+      "i18n": {
+        "zh": {
+          "name": "输入/输出流",
+          "desc": "I/O 流通过标准流抽象涵盖格式化输入和输出。"
+        },
+        "es": {
+          "name": "Flujos de E/S",
+          "desc": "Los flujos de E/S cubren entradas y salidas formateadas a través de abstracciones de flujos estándar."
+        },
+        "fr": {
+          "name": "Flux d'E/S",
+          "desc": "Les flux d'E/S couvrent les entrées et sorties formatées via des abstractions de flux standard."
+        },
+        "de": {
+          "name": "I/O-Streams",
+          "desc": "I/O-Streams decken formatierte Eingaben und Ausgaben über Standard-Stream-Abstraktionen ab."
+        },
+        "ja": {
+          "name": "I/O ストリーム",
+          "desc": "I/O ストリームは、標準ストリーム抽象化を通じてフォーマットされた入力と出力を扱います。"
+        },
+        "ru": {
+          "name": "Потоки ввода-вывода",
+          "desc": "Потоки ввода-вывода охватывают форматированный ввод и вывод посредством стандартных абстракций потоков."
+        },
+        "ko": {
+          "name": "I/O 스트림",
+          "desc": "I/O 스트림은 표준 스트림 추상화를 통해 형식화된 입력 및 출력을 다룹니다."
+        },
+        "pt": {
+          "name": "Fluxos de E/S",
+          "desc": "Os fluxos de E/S cobrem entrada e saída formatadas por meio de abstrações de fluxo padrão."
+        }
+      }
+    },
+    {
+      "key": "cpp/filesystem_library",
+      "slug": "filesystem_library",
+      "name": "Filesystem Library",
+      "desc": "Filesystem library covers portable path and file operations using standard C++ facilities.",
+      "i18n": {
+        "zh": {
+          "name": "文件系统库",
+          "desc": "文件系统库涵盖使用标准 C++ 设施的可移植路径和文件操作。"
+        },
+        "es": {
+          "name": "Biblioteca del sistema de archivos",
+          "desc": "La biblioteca del sistema de archivos cubre operaciones portátiles de rutas y archivos utilizando recursos estándar de C++."
+        },
+        "fr": {
+          "name": "Bibliothèque du système de fichiers",
+          "desc": "La bibliothèque de système de fichiers couvre les opérations portables sur les chemins et les fichiers à l'aide des fonctionnalités standard de C++."
+        },
+        "de": {
+          "name": "Dateisystembibliothek",
+          "desc": "Die Dateisystembibliothek deckt portable Pfad- und Dateioperationen mit Standardfunktionen von C++ ab."
+        },
+        "ja": {
+          "name": "ファイルシステムライブラリ",
+          "desc": "ファイルシステムライブラリは、標準の C++ 機能を使用したポータブルパスとファイル操作を扱います。"
+        },
+        "ru": {
+          "name": "Библиотека файловой системы",
+          "desc": "Библиотека файловой системы охватывает переносимые операции с путями и файлами с использованием стандартных средств C++."
+        },
+        "ko": {
+          "name": "파일 시스템 라이브러리",
+          "desc": "파일 시스템 라이브러리는 표준 C++ 기능을 사용한 이식 가능한 경로 및 파일 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Biblioteca do sistema de arquivos",
+          "desc": "A biblioteca do sistema de arquivos cobre caminhos portáteis e operações de arquivo usando recursos padrão C++."
+        }
+      }
+    },
+    {
+      "key": "cpp/headers_sources",
+      "slug": "headers_sources",
+      "name": "Headers and Source Files",
+      "desc": "Headers and source files cover separating declarations, definitions, and compilation units.",
+      "i18n": {
+        "zh": {
+          "name": "头文件和源文件",
+          "desc": "头文件和源文件涵盖了分离的声明、定义和编译单元。"
+        },
+        "es": {
+          "name": "Encabezados y archivos fuente",
+          "desc": "Los encabezados y archivos fuente cubren declaraciones, definiciones y unidades de compilación separadas."
+        },
+        "fr": {
+          "name": "En-têtes et fichiers sources",
+          "desc": "Les en-têtes et les fichiers sources couvrent la séparation des déclarations, des définitions et des unités de compilation."
+        },
+        "de": {
+          "name": "Header und Quelldateien",
+          "desc": "Header und Quelldateien umfassen trennende Deklarationen, Definitionen und Kompilierungseinheiten."
+        },
+        "ja": {
+          "name": "ヘッダーとソースファイル",
+          "desc": "ヘッダーとソースファイルは、宣言、定義、コンパイル単位の分離を扱います。"
+        },
+        "ru": {
+          "name": "Заголовки и исходные файлы",
+          "desc": "Заголовки и исходные файлы охватывают отдельные объявления, определения и единицы компиляции."
+        },
+        "ko": {
+          "name": "헤더 및 소스 파일",
+          "desc": "헤더와 소스 파일은 분리된 선언, 정의 및 컴파일 단위를 다룹니다."
+        },
+        "pt": {
+          "name": "Cabeçalhos e arquivos de origem",
+          "desc": "Cabeçalhos e arquivos de origem cobrem declarações, definições e unidades de compilação separadas."
+        }
+      }
+    },
+    {
+      "key": "cpp/compilation_linking",
+      "slug": "compilation_linking",
+      "name": "Compilation and Linking",
+      "desc": "Compilation and linking cover producing C++ binaries from source files and libraries.",
+      "i18n": {
+        "zh": {
+          "name": "编译和链接",
+          "desc": "编译和链接涵盖从源文件和库生成 C++ 二进制文件。"
+        },
+        "es": {
+          "name": "Compilación y vinculación",
+          "desc": "La compilación y la vinculación cubren la producción de binarios C++ a partir de archivos fuente y bibliotecas."
+        },
+        "fr": {
+          "name": "Compilation et liaison",
+          "desc": "La compilation et l’édition de liens couvrent la production de binaires C++ à partir de fichiers sources et de bibliothèques."
+        },
+        "de": {
+          "name": "Kompilieren und Linken",
+          "desc": "Kompilierung und Linken umfassen die Erstellung von C++-Binärdateien aus Quelldateien und Bibliotheken."
+        },
+        "ja": {
+          "name": "コンパイルとリンク",
+          "desc": "コンパイルとリンクでは、ソースファイルとライブラリから C++ バイナリを生成します。"
+        },
+        "ru": {
+          "name": "Компиляция и связывание",
+          "desc": "Компиляция и компоновка охватывают создание двоичных файлов C++ из исходных файлов и библиотек."
+        },
+        "ko": {
+          "name": "컴파일 및 링크",
+          "desc": "컴파일 및 링크는 소스 파일과 라이브러리에서 C++ 바이너리를 생성하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Compilação e vinculação",
+          "desc": "A compilação e vinculação abrangem a produção de binários C++ a partir de arquivos de origem e bibliotecas."
+        }
+      }
+    },
+    {
+      "key": "cpp/compiler_settings",
+      "slug": "compiler_settings",
+      "name": "Compiler Settings",
+      "desc": "Compiler settings cover language standards, warnings, optimization, and build configuration.",
+      "i18n": {
+        "zh": {
+          "name": "编译器设置",
+          "desc": "编译器设置涵盖语言标准、警告、优化和构建配置。"
+        },
+        "es": {
+          "name": "Configuración del compilador",
+          "desc": "La configuración del compilador cubre estándares de lenguaje, advertencias, optimización y configuración de compilación."
+        },
+        "fr": {
+          "name": "Paramètres du compilateur",
+          "desc": "Les paramètres du compilateur couvrent les normes de langage, les avertissements, l'optimisation et la configuration de la build."
+        },
+        "de": {
+          "name": "Compiler-Einstellungen",
+          "desc": "Die Compiler-Einstellungen umfassen Sprachstandards, Warnungen, Optimierung und Build-Konfiguration."
+        },
+        "ja": {
+          "name": "コンパイラ設定",
+          "desc": "コンパイラー設定には、言語標準、警告、最適化、およびビルド構成が含まれます。"
+        },
+        "ru": {
+          "name": "Настройки компилятора",
+          "desc": "Настройки компилятора охватывают языковые стандарты, предупреждения, оптимизацию и конфигурацию сборки."
+        },
+        "ko": {
+          "name": "컴파일러 설정",
+          "desc": "컴파일러 설정에는 언어 표준, 경고, 최적화 및 빌드 구성이 포함됩니다."
+        },
+        "pt": {
+          "name": "Configurações do compilador",
+          "desc": "As configurações do compilador abrangem padrões de linguagem, avisos, otimização e configuração de compilação."
+        }
+      }
+    },
+    {
+      "key": "cpp/unit_testing",
+      "slug": "unit_testing",
+      "name": "Unit Testing",
+      "desc": "Unit testing covers verifying C++ behavior with focused automated tests.",
+      "i18n": {
+        "zh": {
+          "name": "单元测试",
+          "desc": "单元测试涵盖通过重点自动化测试来验证 C++ 行为。"
+        },
+        "es": {
+          "name": "Pruebas unitarias",
+          "desc": "Las pruebas unitarias cubren la verificación del comportamiento del código C++ con pruebas automatizadas enfocadas."
+        },
+        "fr": {
+          "name": "Tests unitaires",
+          "desc": "Les tests unitaires couvrent la vérification du comportement du code C++ avec des tests automatisés ciblés."
+        },
+        "de": {
+          "name": "Unit-Tests",
+          "desc": "Unit-Tests umfassen die Überprüfung des C++-Verhaltens mit gezielten automatisierten Tests."
+        },
+        "ja": {
+          "name": "単体テスト",
+          "desc": "単体テストでは、焦点を絞った自動テストによる C++ の動作の検証を扱います。"
+        },
+        "ru": {
+          "name": "Модульное тестирование",
+          "desc": "Модульное тестирование включает проверку поведения кода C++ с помощью целевых автоматических тестов."
+        },
+        "ko": {
+          "name": "단위 테스트",
+          "desc": "단위 테스트에는 집중된 자동화 테스트를 통한 C++ 동작 검증이 포함됩니다."
+        },
+        "pt": {
+          "name": "Teste de Unidade",
+          "desc": "O teste de unidade cobre a verificação do comportamento do C++ com testes automatizados focados."
+        }
+      }
+    },
+    {
+      "key": "cpp/debugging",
+      "slug": "debugging",
+      "name": "Debugging",
+      "desc": "Debugging covers diagnosing C++ program behavior with tools, symbols, and runtime evidence.",
+      "i18n": {
+        "zh": {
+          "name": "调试",
+          "desc": "调试涵盖使用工具、符号和运行时证据诊断 C++ 程序行为。"
+        },
+        "es": {
+          "name": "Depuración",
+          "desc": "La depuración cubre el diagnóstico del comportamiento del programa C++ con herramientas, símbolos y evidencia de tiempo de ejecución."
+        },
+        "fr": {
+          "name": "Débogage",
+          "desc": "Le débogage couvre le diagnostic du comportement du programme C++ avec des outils, des symboles et des preuves d'exécution."
+        },
+        "de": {
+          "name": "Debuggen",
+          "desc": "Das Debuggen umfasst die Diagnose des Programmverhaltens mithilfe von Tools, Symbolen und Laufzeitnachweisen."
+        },
+        "ja": {
+          "name": "デバッグ",
+          "desc": "デバッグには、ツール、シンボル、実行時の証拠を使用した C++ プログラムの動作の診断が含まれます。"
+        },
+        "ru": {
+          "name": "Отладка",
+          "desc": "Отладка включает диагностику поведения C++-программ с помощью инструментов, символов и данных времени выполнения."
+        },
+        "ko": {
+          "name": "디버깅",
+          "desc": "디버깅에는 도구, 기호 및 런타임 증거를 사용하여 C++ 프로그램 동작을 진단하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Depuração",
+          "desc": "A depuração abrange o diagnóstico do comportamento do programa C++ com ferramentas, símbolos e evidências de tempo de execução."
+        }
+      }
+    },
+    {
+      "key": "cpp/profiling",
+      "slug": "profiling",
+      "name": "Profiling",
+      "desc": "Profiling covers measuring C++ runtime cost to identify performance bottlenecks.",
+      "i18n": {
+        "zh": {
+          "name": "性能分析",
+          "desc": "性能分析涵盖测量 C++ 运行时成本以识别性能瓶颈。"
+        },
+        "es": {
+          "name": "Perfilado",
+          "desc": "El perfilado cubre la medición del costo de tiempo de ejecución de C++ para identificar cuellos de botella en el rendimiento."
+        },
+        "fr": {
+          "name": "Profilage",
+          "desc": "Le profilage couvre la mesure du coût d’exécution de C++ afin d’identifier les goulots d’étranglement des performances."
+        },
+        "de": {
+          "name": "Profilierung",
+          "desc": "Die Profilierung umfasst die Messung von C++-Laufzeitkosten, um Leistungsengpässe zu identifizieren."
+        },
+        "ja": {
+          "name": "プロファイリング",
+          "desc": "プロファイリングでは、パフォーマンスのボトルネックを特定するために C++ ランタイムコストの測定を行います。"
+        },
+        "ru": {
+          "name": "Профилирование",
+          "desc": "Профилирование охватывает измерение затрат времени выполнения C++ для выявления узких мест в производительности."
+        },
+        "ko": {
+          "name": "프로파일링",
+          "desc": "프로파일링에는 성능 병목 현상을 식별하기 위한 C++ 런타임 비용 측정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Perfilamento",
+          "desc": "O perfilamento abrange a medição do custo de tempo de execução de C++ para identificar gargalos de desempenho."
+        }
+      }
+    }
+  ]
+}

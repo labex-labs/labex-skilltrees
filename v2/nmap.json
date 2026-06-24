@@ -1,0 +1,1287 @@
+{
+  "key": "nmap",
+  "slug": "nmap",
+  "name": "Nmap",
+  "skills": [
+    {
+      "key": "nmap/authorization_scope",
+      "slug": "authorization_scope",
+      "name": "Authorization Scope",
+      "desc": "Authorization scope covers defining allowed networks, hosts, ports, timing, and testing boundaries.",
+      "i18n": {
+        "zh": {
+          "name": "授权范围",
+          "desc": "授权范围包括定义允许的网络、主机、端口、时间参数和测试边界。"
+        },
+        "es": {
+          "name": "Alcance de la autorización",
+          "desc": "El alcance de la autorización cubre la definición de redes, hosts, puertos, tiempos y límites de prueba permitidos."
+        },
+        "fr": {
+          "name": "Portée de l'autorisation",
+          "desc": "La portée de l'autorisation couvre la définition des réseaux, des hôtes, des ports, des délais et des limites de test autorisés."
+        },
+        "de": {
+          "name": "Autorisierungsumfang",
+          "desc": "Der Autorisierungsbereich umfasst die Definition zulässiger Netzwerke, Hosts, Ports, Zeitvorgaben und Testgrenzen."
+        },
+        "ja": {
+          "name": "認可範囲",
+          "desc": "認可範囲には、許可されるネットワーク、ホスト、ポート、タイミング、およびテスト境界の定義が含まれます。"
+        },
+        "ru": {
+          "name": "Область полномочий",
+          "desc": "Область полномочий включает определение разрешенных сетей, хостов, портов, времени и границ тестирования."
+        },
+        "ko": {
+          "name": "권한 범위",
+          "desc": "권한 범위는 허용된 네트워크, 호스트, 포트, 타이밍 및 테스트 경계 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Escopo de autorização",
+          "desc": "O escopo da autorização abrange a definição de redes, hosts, portas, parâmetros de tempo e limites de teste permitidos."
+        }
+      }
+    },
+    {
+      "key": "nmap/target_specification",
+      "slug": "target_specification",
+      "name": "Target Specification",
+      "desc": "Target specification covers selecting individual hosts, ranges, subnets, and input lists.",
+      "i18n": {
+        "zh": {
+          "name": "目标规范",
+          "desc": "目标规范涵盖选择单个主机、范围、子网和输入列表。"
+        },
+        "es": {
+          "name": "Especificación de destino",
+          "desc": "La especificación de destino cubre la selección de hosts, rangos, subredes y listas de entrada individuales."
+        },
+        "fr": {
+          "name": "Spécification cible",
+          "desc": "La spécification cible couvre la sélection d’hôtes individuels, de plages, de sous-réseaux et de listes d’entrées."
+        },
+        "de": {
+          "name": "Zielvorgabe",
+          "desc": "Die Zielspezifikation umfasst die Auswahl einzelner Hosts, Bereiche, Subnetze und Eingabelisten."
+        },
+        "ja": {
+          "name": "ターゲット仕様",
+          "desc": "ターゲットの仕様には、個々のホスト、範囲、サブネット、および入力リストの選択が含まれます。"
+        },
+        "ru": {
+          "name": "Целевая спецификация",
+          "desc": "Целевая спецификация охватывает выбор отдельных хостов, диапазонов, подсетей и входных списков."
+        },
+        "ko": {
+          "name": "대상 사양",
+          "desc": "대상 사양에는 개별 호스트, 범위, 서브넷 및 입력 목록 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Especificação de destino",
+          "desc": "A especificação de destino abrange a seleção de hosts, intervalos, sub-redes e listas de entrada individuais."
+        }
+      }
+    },
+    {
+      "key": "nmap/scan_objectives",
+      "slug": "scan_objectives",
+      "name": "Scan Objectives",
+      "desc": "Scan objectives cover choosing discovery, enumeration, validation, or troubleshooting goals.",
+      "i18n": {
+        "zh": {
+          "name": "扫描目标",
+          "desc": "扫描目标涵盖选择发现、枚举、验证或故障排除目标。"
+        },
+        "es": {
+          "name": "Objetivos de escaneo",
+          "desc": "Los objetivos de escaneo cubren la elección de objetivos de descubrimiento, enumeración, validación o resolución de problemas."
+        },
+        "fr": {
+          "name": "Objectifs de scan",
+          "desc": "Les objectifs de scan couvrent le choix des objectifs de découverte, d'énumération, de validation ou de dépannage."
+        },
+        "de": {
+          "name": "Scan-Ziele",
+          "desc": "Zu den Scanzielen gehört die Auswahl von Erkennungs-, Aufzählungs-, Validierungs- oder Fehlerbehebungszielen."
+        },
+        "ja": {
+          "name": "スキャンの目的",
+          "desc": "スキャンの目的には、検出、列挙、検証、またはトラブルシューティングの目的の選択が含まれます。"
+        },
+        "ru": {
+          "name": "Цели сканирования",
+          "desc": "Цели сканирования охватывают выбор целей обнаружения, перечисления, проверки или устранения неполадок."
+        },
+        "ko": {
+          "name": "스캔 목표",
+          "desc": "스캔 목표에는 검색, 열거, 검증 또는 문제 해결 목표 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Objetivos de scan",
+          "desc": "Os objetivos de scan abrangem a escolha de metas de descoberta, enumeração, validação ou solução de problemas."
+        }
+      }
+    },
+    {
+      "key": "nmap/network_context",
+      "slug": "network_context",
+      "name": "Network Context",
+      "desc": "Network context covers understanding local routing, address ranges, and expected service exposure.",
+      "i18n": {
+        "zh": {
+          "name": "网络上下文",
+          "desc": "网络上下文包括了解本地路由、地址范围和预期的服务暴露。"
+        },
+        "es": {
+          "name": "Contexto de red",
+          "desc": "El contexto de la red cubre la comprensión del enrutamiento local, los rangos de direcciones y la exposición esperada del servicio."
+        },
+        "fr": {
+          "name": "Contexte réseau",
+          "desc": "Le contexte réseau couvre la compréhension du routage local, des plages d’adresses et de l’exposition attendue du service."
+        },
+        "de": {
+          "name": "Netzwerkkontext",
+          "desc": "Der Netzwerkkontext umfasst das Verständnis des lokalen Routings, der Adressbereiche und der erwarteten Service-Exposition."
+        },
+        "ja": {
+          "name": "ネットワークコンテキスト",
+          "desc": "ネットワークのコンテキストには、ローカルルーティング、アドレス範囲、および予想されるサービスエクスポージャの理解が含まれます。"
+        },
+        "ru": {
+          "name": "Сетевой контекст",
+          "desc": "Сетевой контекст включает понимание локальной маршрутизации, диапазонов адресов и ожидаемой доступности сервисов."
+        },
+        "ko": {
+          "name": "네트워크 컨텍스트",
+          "desc": "네트워크 컨텍스트에서는 로컬 라우팅, 주소 범위 및 예상되는 서비스 노출에 대한 이해를 다룹니다."
+        },
+        "pt": {
+          "name": "Contexto de rede",
+          "desc": "O contexto da rede abrange a compreensão do roteamento local, dos intervalos de endereços e da exposição esperada do serviço."
+        }
+      }
+    },
+    {
+      "key": "nmap/scan_safety",
+      "slug": "scan_safety",
+      "name": "Scan Safety",
+      "desc": "Scan safety covers selecting scan behavior that respects target stability and approved scope.",
+      "i18n": {
+        "zh": {
+          "name": "扫描安全",
+          "desc": "扫描安全涵盖选择符合目标稳定性和批准范围的扫描行为。"
+        },
+        "es": {
+          "name": "Seguridad del escaneo",
+          "desc": "La seguridad del escaneo cubre la selección de un comportamiento de escaneo que respete la estabilidad del objetivo y el alcance aprobado."
+        },
+        "fr": {
+          "name": "Sécurité des scans",
+          "desc": "La sécurité des scans couvre la sélection d’un comportement de scan qui respecte la stabilité de la cible et la portée approuvée."
+        },
+        "de": {
+          "name": "Scan-Sicherheit",
+          "desc": "Die Scan-Sicherheit umfasst die Auswahl des Scan-Verhaltens, das die Zielstabilität und den genehmigten Bereich berücksichtigt."
+        },
+        "ja": {
+          "name": "スキャンの安全性",
+          "desc": "スキャンの安全性には、ターゲットの安定性と承認された範囲を考慮したスキャン動作の選択が含まれます。"
+        },
+        "ru": {
+          "name": "Безопасность сканирования",
+          "desc": "Безопасность сканирования подразумевает выбор режима сканирования, который соответствует стабильности цели и утвержденному объему."
+        },
+        "ko": {
+          "name": "스캔 안전",
+          "desc": "스캔 안전에는 대상 안정성과 승인된 범위를 존중하는 스캔 동작 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Segurança de scan",
+          "desc": "A segurança de scan abrange a seleção do comportamento de scan que respeita a estabilidade do alvo e o escopo aprovado."
+        }
+      }
+    },
+    {
+      "key": "nmap/host_discovery",
+      "slug": "host_discovery",
+      "name": "Host Discovery",
+      "desc": "Host discovery covers using network probes to identify reachable hosts.",
+      "i18n": {
+        "zh": {
+          "name": "主机发现",
+          "desc": "主机发现涵盖使用网络探测来识别可访问的主机。"
+        },
+        "es": {
+          "name": "Descubrimiento de host",
+          "desc": "El descubrimiento de hosts cubre el uso de sondas de red para identificar hosts accesibles."
+        },
+        "fr": {
+          "name": "Découverte d'hôte",
+          "desc": "La découverte d'hôtes couvre l'utilisation de sondes réseau pour identifier les hôtes accessibles."
+        },
+        "de": {
+          "name": "Host-Erkennung",
+          "desc": "Die Hosterkennung umfasst die Verwendung von Netzwerksonden zur Identifizierung erreichbarer Hosts."
+        },
+        "ja": {
+          "name": "ホストの検出",
+          "desc": "ホスト検出では、ネットワークプローブを使用して到達可能なホストを識別します。"
+        },
+        "ru": {
+          "name": "Обнаружение хоста",
+          "desc": "Обнаружение хостов включает использование сетевых зондов для определения доступных хостов."
+        },
+        "ko": {
+          "name": "호스트 검색",
+          "desc": "호스트 검색에는 네트워크 프로브를 사용하여 연결 가능한 호스트를 식별하는 내용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Descoberta de host",
+          "desc": "A descoberta de host abrange o uso de sondas de rede para identificar hosts acessíveis."
+        }
+      }
+    },
+    {
+      "key": "nmap/arp_discovery",
+      "slug": "arp_discovery",
+      "name": "ARP Discovery",
+      "desc": "ARP discovery covers finding hosts on local networks through link-layer behavior.",
+      "i18n": {
+        "zh": {
+          "name": "ARP 发现",
+          "desc": "ARP 发现涵盖通过链路层行为查找本地网络上的主机。"
+        },
+        "es": {
+          "name": "Descubrimiento ARP",
+          "desc": "El descubrimiento ARP cubre la búsqueda de hosts en redes locales a través del comportamiento de la capa de enlace."
+        },
+        "fr": {
+          "name": "Découverte ARP",
+          "desc": "La découverte ARP couvre la recherche d'hôtes sur les réseaux locaux via le comportement de la couche liaison."
+        },
+        "de": {
+          "name": "ARP-Erkennung",
+          "desc": "ARP-Erkennung umfasst das Auffinden von Hosts in lokalen Netzwerken über das Verhalten der Sicherungsschicht."
+        },
+        "ja": {
+          "name": "ARP 検出",
+          "desc": "ARP 検出では、リンク層の動作を通じてローカルネットワーク上のホストを見つけることを扱います。"
+        },
+        "ru": {
+          "name": "Обнаружение ARP",
+          "desc": "Обнаружение ARP охватывает поиск хостов в локальных сетях с помощью поведения канального уровня."
+        },
+        "ko": {
+          "name": "ARP 검색",
+          "desc": "ARP 검색은 링크 계층 동작을 통해 로컬 네트워크에서 호스트를 찾는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Descoberta ARP",
+          "desc": "A descoberta ARP cobre a localização de hosts em redes locais por meio do comportamento da camada de enlace."
+        }
+      }
+    },
+    {
+      "key": "nmap/dns_resolution",
+      "slug": "dns_resolution",
+      "name": "DNS Resolution",
+      "desc": "DNS resolution covers resolving target names and controlling name lookup behavior.",
+      "i18n": {
+        "zh": {
+          "name": "DNS 解析",
+          "desc": "DNS 解析涵盖解析目标名称和控制名称查找行为。"
+        },
+        "es": {
+          "name": "Resolución DNS",
+          "desc": "La resolución DNS cubre la resolución de nombres de destino y el control del comportamiento de búsqueda de nombres."
+        },
+        "fr": {
+          "name": "Résolution DNS",
+          "desc": "La résolution DNS couvre la résolution des noms de cibles et le contrôle du comportement de recherche de noms."
+        },
+        "de": {
+          "name": "DNS-Auflösung",
+          "desc": "DNS-Auflösung behandelt das Auflösen von Zielnamen und das Steuern des Namensauflösungsverhaltens."
+        },
+        "ja": {
+          "name": "DNS 解決",
+          "desc": "DNS 解決には、ターゲット名の解決と名前検索動作の制御が含まれます。"
+        },
+        "ru": {
+          "name": "DNS-разрешение",
+          "desc": "Разрешение DNS охватывает разрешение имен целей и управление поведением поиска имени."
+        },
+        "ko": {
+          "name": "DNS 확인",
+          "desc": "DNS 확인은 대상 이름 확인과 이름 조회 동작 제어를 다룹니다."
+        },
+        "pt": {
+          "name": "Resolução DNS",
+          "desc": "A resolução DNS cobre a resolução de nomes de destino e o controle do comportamento de pesquisa de nomes."
+        }
+      }
+    },
+    {
+      "key": "nmap/discovery_interpretation",
+      "slug": "discovery_interpretation",
+      "name": "Discovery Interpretation",
+      "desc": "Discovery interpretation covers deciding what host discovery responses imply about live systems.",
+      "i18n": {
+        "zh": {
+          "name": "发现解读",
+          "desc": "发现解读涵盖判断主机发现响应对在线系统意味着什么。"
+        },
+        "es": {
+          "name": "Interpretación del descubrimiento",
+          "desc": "La interpretación del descubrimiento cubre decidir qué implican las respuestas de descubrimiento del host sobre los sistemas activos."
+        },
+        "fr": {
+          "name": "Interprétation de la découverte",
+          "desc": "L'interprétation de la découverte consiste à déterminer ce que les réponses de découverte d'hôtes impliquent sur les systèmes actifs."
+        },
+        "de": {
+          "name": "Entdeckungsinterpretation",
+          "desc": "Bei der Discovery-Interpretation geht es darum, zu entscheiden, welche Auswirkungen Host-Discovery-Antworten auf Live-Systeme haben."
+        },
+        "ja": {
+          "name": "発見の解釈",
+          "desc": "検出の解釈には、ホスト検出応答がライブシステムに関して何を意味するかを決定することが含まれます。"
+        },
+        "ru": {
+          "name": "Интерпретация обнаружения",
+          "desc": "Интерпретация обнаружения включает определение того, что ответы host discovery означают для активных систем."
+        },
+        "ko": {
+          "name": "발견 해석",
+          "desc": "검색 해석은 호스트 검색 응답이 라이브 시스템에 대해 암시하는 바를 결정하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Interpretação da Descoberta",
+          "desc": "A interpretação da descoberta abrange decidir o que as respostas da descoberta do host implicam sobre os sistemas vivos."
+        }
+      }
+    },
+    {
+      "key": "nmap/tcp_connect_scans",
+      "slug": "tcp_connect_scans",
+      "name": "TCP Connect Scans",
+      "desc": "TCP connect scans cover identifying open TCP ports through full connection attempts.",
+      "i18n": {
+        "zh": {
+          "name": "TCP 连接扫描",
+          "desc": "TCP 连接扫描涵盖通过完整连接尝试识别开放的 TCP 端口。"
+        },
+        "es": {
+          "name": "Escaneos TCP Connect",
+          "desc": "Los escaneos TCP Connect cubren la identificación de puertos TCP abiertos mediante intentos de conexión completos."
+        },
+        "fr": {
+          "name": "Scans TCP Connect",
+          "desc": "Les scans TCP Connect couvrent l’identification des ports TCP ouverts grâce à des tentatives de connexion complètes."
+        },
+        "de": {
+          "name": "TCP-Connect-Scans",
+          "desc": "TCP-Connect-Scans behandeln das Identifizieren offener TCP-Ports durch vollständige Verbindungsversuche."
+        },
+        "ja": {
+          "name": "TCP Connect スキャン",
+          "desc": "TCP Connect スキャンでは、完全な接続試行を通じて開いている TCP ポートを特定します。"
+        },
+        "ru": {
+          "name": "TCP Connect-сканирование",
+          "desc": "TCP Connect-сканирование охватывает выявление открытых TCP-портов с помощью полных попыток подключения."
+        },
+        "ko": {
+          "name": "TCP Connect 스캔",
+          "desc": "TCP 연결 스캔은 전체 연결 시도를 통해 열린 TCP 포트를 식별하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Varreduras TCP Connect",
+          "desc": "As varreduras TCP Connect cobrem a identificação de portas TCP abertas por meio de tentativas completas de conexão."
+        }
+      }
+    },
+    {
+      "key": "nmap/syn_scans",
+      "slug": "syn_scans",
+      "name": "SYN Scans",
+      "desc": "SYN scans cover half-open TCP port discovery where permitted by privileges and scope.",
+      "i18n": {
+        "zh": {
+          "name": "SYN 扫描",
+          "desc": "SYN 扫描涵盖权限和范围允许的半开放 TCP 端口发现。"
+        },
+        "es": {
+          "name": "Escaneos SYN",
+          "desc": "Los escaneos SYN cubren el descubrimiento de puertos TCP medio abiertos cuando lo permitan los privilegios y el alcance."
+        },
+        "fr": {
+          "name": "Scans SYN",
+          "desc": "Les scans SYN couvrent la découverte de ports TCP semi-ouverts lorsque les privilèges et la portée le permettent."
+        },
+        "de": {
+          "name": "SYN-Scans",
+          "desc": "SYN-Scans decken die Erkennung halboffener TCP-Ports ab, sofern dies durch Berechtigungen und Umfang zulässig ist."
+        },
+        "ja": {
+          "name": "SYN スキャン",
+          "desc": "SYN スキャンは、権限とスコープで許可されている場合、半オープン TCP ポート検出を扱います。"
+        },
+        "ru": {
+          "name": "SYN-сканирование",
+          "desc": "SYN-сканирование охватывает обнаружение полуоткрытых TCP-портов, если это разрешено привилегиями и областью действия."
+        },
+        "ko": {
+          "name": "SYN 스캔",
+          "desc": "SYN 스캔은 권한과 범위에 따라 허용되는 반개방 TCP 포트 검색을 다룹니다."
+        },
+        "pt": {
+          "name": "Varreduras SYN",
+          "desc": "As varreduras SYN cobrem a descoberta de portas TCP semiabertas quando permitido por privilégios e escopo."
+        }
+      }
+    },
+    {
+      "key": "nmap/udp_scans",
+      "slug": "udp_scans",
+      "name": "UDP Scans",
+      "desc": "UDP scans cover identifying UDP services and interpreting uncertain responses.",
+      "i18n": {
+        "zh": {
+          "name": "UDP 扫描",
+          "desc": "UDP 扫描涵盖识别 UDP 服务并解释不确定的响应。"
+        },
+        "es": {
+          "name": "Escaneos UDP",
+          "desc": "Los escaneos UDP cubren la identificación de servicios UDP y la interpretación de respuestas inciertas."
+        },
+        "fr": {
+          "name": "Scans UDP",
+          "desc": "Les scans UDP couvrent l’identification des services UDP et l’interprétation des réponses incertaines."
+        },
+        "de": {
+          "name": "UDP-Scans",
+          "desc": "UDP-Scans umfassen die Identifizierung von UDP-Diensten und die Interpretation unsicherer Antworten."
+        },
+        "ja": {
+          "name": "UDP スキャン",
+          "desc": "UDP スキャンは、UDP サービスの識別と不確実な応答の解釈を扱います。"
+        },
+        "ru": {
+          "name": "UDP-сканирование",
+          "desc": "Сканирование UDP охватывает идентификацию услуг UDP и интерпретацию неопределенных ответов."
+        },
+        "ko": {
+          "name": "UDP 스캔",
+          "desc": "UDP 스캔에는 UDP 서비스 식별 및 불확실한 응답 해석이 포함됩니다."
+        },
+        "pt": {
+          "name": "Varreduras UDP",
+          "desc": "As varreduras UDP cobrem a identificação de serviços UDP e a interpretação de respostas incertas."
+        }
+      }
+    },
+    {
+      "key": "nmap/port_selection",
+      "slug": "port_selection",
+      "name": "Port Selection",
+      "desc": "Port selection covers choosing individual ports, ranges, common ports, or full scans.",
+      "i18n": {
+        "zh": {
+          "name": "端口选择",
+          "desc": "端口选择包括选择单个端口、范围、公共端口或完整扫描。"
+        },
+        "es": {
+          "name": "Selección de puerto",
+          "desc": "La selección de puertos cubre la elección de puertos individuales, rangos, puertos comunes o escaneos completos."
+        },
+        "fr": {
+          "name": "Sélection des ports",
+          "desc": "La sélection des ports couvre le choix des ports individuels, des plages, des ports communs ou des analyses complètes."
+        },
+        "de": {
+          "name": "Portauswahl",
+          "desc": "Die Portauswahl umfasst die Auswahl einzelner Ports, Bereiche, häufig genutzter Ports oder vollständiger Scans."
+        },
+        "ja": {
+          "name": "ポートの選択",
+          "desc": "ポートの選択には、個々のポート、範囲、共通ポート、またはフルスキャンの選択が含まれます。"
+        },
+        "ru": {
+          "name": "Выбор порта",
+          "desc": "Выбор порта включает выбор отдельных портов, диапазонов, общих портов или полное сканирование."
+        },
+        "ko": {
+          "name": "포트 선택",
+          "desc": "포트 선택은 개별 포트, 범위, 일반 포트 또는 전체 스캔 선택을 다룹니다."
+        },
+        "pt": {
+          "name": "Seleção de porta",
+          "desc": "A seleção de portas abrange a escolha de portas individuais, intervalos, portas comuns ou varreduras completas."
+        }
+      }
+    },
+    {
+      "key": "nmap/port_states",
+      "slug": "port_states",
+      "name": "Port States",
+      "desc": "Port states cover interpreting open, closed, filtered, and related Nmap results.",
+      "i18n": {
+        "zh": {
+          "name": "端口状态",
+          "desc": "端口状态涵盖开放、关闭、过滤和相关 Nmap 结果的解释。"
+        },
+        "es": {
+          "name": "Estados de puerto",
+          "desc": "Los estados de puerto cubren la interpretación de resultados Nmap abiertos, cerrados, filtrados y relacionados."
+        },
+        "fr": {
+          "name": "États des ports",
+          "desc": "Les états des ports couvrent l’interprétation des résultats Nmap ouverts, fermés, filtrés et associés."
+        },
+        "de": {
+          "name": "Portzustände",
+          "desc": "Portzustände umfassen die Interpretation offener, geschlossener, gefilterter und verwandter Nmap-Ergebnisse."
+        },
+        "ja": {
+          "name": "ポート状態",
+          "desc": "ポートの状態では、オープン、クローズ、フィルター、および関連する Nmap 結果の解釈を扱います。"
+        },
+        "ru": {
+          "name": "Состояния портов",
+          "desc": "Состояния порта охватывают интерпретацию открытых, закрытых, отфильтрованных и связанных с ними результатов Nmap."
+        },
+        "ko": {
+          "name": "포트 상태",
+          "desc": "포트 상태는 열림, 닫힘, 필터링 및 관련 Nmap 결과 해석을 다룹니다."
+        },
+        "pt": {
+          "name": "Estados de porta",
+          "desc": "Os estados de porta cobrem a interpretação de resultados Nmap abertos, fechados, filtrados e relacionados."
+        }
+      }
+    },
+    {
+      "key": "nmap/scan_timing",
+      "slug": "scan_timing",
+      "name": "Scan Timing",
+      "desc": "Scan timing covers controlling probe speed, retries, timeout behavior, and performance impact.",
+      "i18n": {
+        "zh": {
+          "name": "扫描时序",
+          "desc": "扫描时序涵盖控制探测速度、重试、超时行为和性能影响。"
+        },
+        "es": {
+          "name": "Temporización de escaneo",
+          "desc": "La temporización del escaneo cubre el control de la velocidad de sondeo, los reintentos, el comportamiento de timeout y el impacto en el rendimiento."
+        },
+        "fr": {
+          "name": "Temporisation des scans",
+          "desc": "La temporisation des scans couvre le contrôle de la vitesse des sondes, des nouvelles tentatives, du comportement de timeout et de l’impact sur les performances."
+        },
+        "de": {
+          "name": "Scan-Timing",
+          "desc": "Das Scan-Timing umfasst die Steuerung der Sondengeschwindigkeit, der Wiederholungsversuche, des Timeout-Verhaltens und der Auswirkungen auf die Leistung."
+        },
+        "ja": {
+          "name": "スキャンのタイミング",
+          "desc": "スキャンタイミングには、プローブ速度、再試行、タイムアウト動作、およびパフォーマンスへの影響の制御が含まれます。"
+        },
+        "ru": {
+          "name": "Тайминг сканирования",
+          "desc": "Тайминг сканирования охватывает управление скоростью probe-запросов, повторными попытками, timeout-поведением и влиянием на производительность."
+        },
+        "ko": {
+          "name": "스캔 타이밍",
+          "desc": "스캔 타이밍에는 프로브 속도, 재시도, 시간 초과 동작 및 성능 영향 제어가 포함됩니다."
+        },
+        "pt": {
+          "name": "Temporização de varredura",
+          "desc": "A temporização de varredura abrange o controle da velocidade de sondagem, novas tentativas, comportamento de timeout e impacto no desempenho."
+        }
+      }
+    },
+    {
+      "key": "nmap/service_detection",
+      "slug": "service_detection",
+      "name": "Service Detection",
+      "desc": "Service detection covers identifying protocols, products, versions, and confidence from open ports.",
+      "i18n": {
+        "zh": {
+          "name": "服务检测",
+          "desc": "服务检测包括识别协议、产品、版本以及开放端口的可信度。"
+        },
+        "es": {
+          "name": "Detección de servicios",
+          "desc": "La detección de servicios cubre la identificación de protocolos, productos, versiones y nivel de confianza a partir de puertos abiertos."
+        },
+        "fr": {
+          "name": "Détection de services",
+          "desc": "La détection de services couvre l’identification des protocoles, des produits, des versions et du niveau de confiance à partir des ports ouverts."
+        },
+        "de": {
+          "name": "Diensterkennung",
+          "desc": "Die Diensterkennung umfasst die Identifizierung von Protokollen, Produkten, Versionen und der Zuverlässigkeit offener Ports."
+        },
+        "ja": {
+          "name": "サービスの検出",
+          "desc": "サービス検出には、開いているポートからのプロトコル、製品、バージョン、および信頼性の識別が含まれます。"
+        },
+        "ru": {
+          "name": "Обнаружение служб",
+          "desc": "Обнаружение служб включает идентификацию протоколов, продуктов, версий и уровня достоверности по открытым портам."
+        },
+        "ko": {
+          "name": "서비스 탐지",
+          "desc": "서비스 탐지는 열린 포트에서 프로토콜, 제품, 버전 및 신뢰도를 식별하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Detecção de serviço",
+          "desc": "A detecção de serviço abrange a identificação de protocolos, produtos, versões e nível de confiança a partir de portas abertas."
+        }
+      }
+    },
+    {
+      "key": "nmap/os_detection",
+      "slug": "os_detection",
+      "name": "OS Detection",
+      "desc": "OS detection covers estimating host operating systems from network fingerprints.",
+      "i18n": {
+        "zh": {
+          "name": "操作系统检测",
+          "desc": "操作系统检测涵盖根据网络指纹估计主机操作系统。"
+        },
+        "es": {
+          "name": "Detección del sistema operativo",
+          "desc": "La detección del sistema operativo cubre la estimación de los sistemas operativos del host a partir de huellas digitales de la red."
+        },
+        "fr": {
+          "name": "Détection du système d'exploitation",
+          "desc": "La détection du système d'exploitation couvre l'estimation des systèmes d'exploitation hôtes à partir des empreintes digitales du réseau."
+        },
+        "de": {
+          "name": "Betriebssystemerkennung",
+          "desc": "Die Betriebssystemerkennung umfasst die Schätzung von Host-Betriebssystemen anhand von Netzwerk-Fingerabdrücken."
+        },
+        "ja": {
+          "name": "OS 検出",
+          "desc": "OS の検出には、ネットワークフィンガープリントからのホストオペレーティングシステムの推定が含まれます。"
+        },
+        "ru": {
+          "name": "Обнаружение ОС",
+          "desc": "Обнаружение ОС включает в себя оценку операционных систем хоста по сетевым отпечаткам."
+        },
+        "ko": {
+          "name": "OS 감지",
+          "desc": "OS 탐지에는 네트워크 지문을 통해 호스트 운영 체제를 추정하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Detecção de sistema operacional",
+          "desc": "A detecção de sistema operacional abrange a estimativa de sistemas operacionais host a partir de impressões digitais de rede."
+        }
+      }
+    },
+    {
+      "key": "nmap/traceroute_mapping",
+      "slug": "traceroute_mapping",
+      "name": "Traceroute Mapping",
+      "desc": "Traceroute mapping covers discovering network paths to authorized targets.",
+      "i18n": {
+        "zh": {
+          "name": "路由追踪映射",
+          "desc": "Traceroute 映射涵盖发现到授权目标的网络路径。"
+        },
+        "es": {
+          "name": "Mapeo de traceroute",
+          "desc": "El mapeo de Traceroute cubre el descubrimiento de rutas de red hacia objetivos autorizados."
+        },
+        "fr": {
+          "name": "Cartographie traceroute",
+          "desc": "Le mappage Traceroute couvre la découverte des chemins réseau vers les cibles autorisées."
+        },
+        "de": {
+          "name": "Traceroute-Mapping",
+          "desc": "Die Traceroute-Zuordnung umfasst die Erkennung von Netzwerkpfaden zu autorisierten Zielen."
+        },
+        "ja": {
+          "name": "トレースルートマッピング",
+          "desc": "Traceroute マッピングは、承認されたターゲットへのネットワークパスの検出を扱います。"
+        },
+        "ru": {
+          "name": "Картирование traceroute",
+          "desc": "Сопоставление Traceroute охватывает обнаружение сетевых путей к авторизованным целям."
+        },
+        "ko": {
+          "name": "경로 추적 매핑",
+          "desc": "Traceroute 매핑은 승인된 대상에 대한 네트워크 경로 검색을 포함합니다."
+        },
+        "pt": {
+          "name": "Mapeamento de traceroute",
+          "desc": "O mapeamento de traceroute abrange a descoberta de caminhos de rede para alvos autorizados."
+        }
+      }
+    },
+    {
+      "key": "nmap/nse_script_model",
+      "slug": "nse_script_model",
+      "name": "NSE Script Model",
+      "desc": "NSE script model covers how Nmap scripts extend scans with categorized checks and metadata.",
+      "i18n": {
+        "zh": {
+          "name": "NSE 脚本模型",
+          "desc": "NSE 脚本模型涵盖了 Nmap 脚本如何使用分类检查和元数据扩展扫描。"
+        },
+        "es": {
+          "name": "Modelo de scripts NSE",
+          "desc": "El modelo de script NSE cubre cómo los scripts Nmap amplían los escaneos con comprobaciones categorizadas y metadatos."
+        },
+        "fr": {
+          "name": "Modèle de script NSE",
+          "desc": "Le modèle de script NSE explique comment les scripts Nmap étendent les scans avec des contrôles catégorisés et des métadonnées."
+        },
+        "de": {
+          "name": "NSE-Skriptmodell",
+          "desc": "Das NSE-Skriptmodell deckt ab, wie Nmap-Skripte Scans mit kategorisierten Prüfungen und Metadaten erweitern."
+        },
+        "ja": {
+          "name": "NSE スクリプトモデル",
+          "desc": "NSE スクリプトモデルでは、Nmap スクリプトが分類されたチェックとメタデータを使用してスキャンを拡張する方法について説明します。"
+        },
+        "ru": {
+          "name": "Модель скриптов NSE",
+          "desc": "Модель скриптов NSE описывает, как скрипты Nmap расширяют сканирование с помощью категоризированных проверок и метаданных."
+        },
+        "ko": {
+          "name": "NSE 스크립트 모델",
+          "desc": "NSE 스크립트 모델은 Nmap 스크립트가 분류된 검사 및 메타데이터를 사용하여 스캔을 확장하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelo de script NSE",
+          "desc": "O modelo de script NSE cobre como os scripts Nmap estendem as varreduras com verificações e metadados categorizados."
+        }
+      }
+    },
+    {
+      "key": "nmap/script_selection",
+      "slug": "script_selection",
+      "name": "Script Selection",
+      "desc": "Script selection covers choosing NSE scripts and categories that match approved scan objectives.",
+      "i18n": {
+        "zh": {
+          "name": "脚本选择",
+          "desc": "脚本选择包括选择与批准的扫描目标相匹配的 NSE 脚本和类别。"
+        },
+        "es": {
+          "name": "Selección de scripts",
+          "desc": "La selección de scripts cubre la elección de scripts NSE y categorías que coincidan con los objetivos de escaneo aprobados."
+        },
+        "fr": {
+          "name": "Sélection de scripts",
+          "desc": "La sélection de scripts consiste à choisir des scripts et des catégories NSE qui correspondent aux objectifs d'analyse approuvés."
+        },
+        "de": {
+          "name": "Skriptauswahl",
+          "desc": "Die Skriptauswahl umfasst die Auswahl von NSE-Skripten und -Kategorien, die den genehmigten Scanzielen entsprechen."
+        },
+        "ja": {
+          "name": "スクリプトの選択",
+          "desc": "スクリプトの選択には、承認されたスキャン目的に一致する NSE スクリプトとカテゴリの選択が含まれます。"
+        },
+        "ru": {
+          "name": "Выбор скриптов",
+          "desc": "Выбор скриптов включает выбор скриптов и категорий NSE, соответствующих утвержденным целям сканирования."
+        },
+        "ko": {
+          "name": "스크립트 선택",
+          "desc": "스크립트 선택은 승인된 스캔 목표와 일치하는 NSE 스크립트 및 범주 선택을 다룹니다."
+        },
+        "pt": {
+          "name": "Seleção de scripts",
+          "desc": "A seleção de scripts abrange a escolha de scripts e categorias NSE que correspondam aos objetivos de verificação aprovados."
+        }
+      }
+    },
+    {
+      "key": "nmap/script_arguments",
+      "slug": "script_arguments",
+      "name": "Script Arguments",
+      "desc": "Script arguments cover passing required settings to selected scripts.",
+      "i18n": {
+        "zh": {
+          "name": "脚本参数",
+          "desc": "脚本参数涵盖将所需的设置传递给选定的脚本。"
+        },
+        "es": {
+          "name": "Argumentos de scripts",
+          "desc": "Los argumentos de script cubren pasar la configuración requerida a scripts seleccionados."
+        },
+        "fr": {
+          "name": "Arguments du script",
+          "desc": "Les arguments de script couvrent la transmission des paramètres requis aux scripts sélectionnés."
+        },
+        "de": {
+          "name": "Skriptargumente",
+          "desc": "Skriptargumente umfassen die Übergabe erforderlicher Einstellungen an ausgewählte Skripte."
+        },
+        "ja": {
+          "name": "スクリプトの引数",
+          "desc": "スクリプト引数は、選択したスクリプトに必要な設定を渡すことを扱います。"
+        },
+        "ru": {
+          "name": "Аргументы скриптов",
+          "desc": "Аргументы скриптов охватывают передачу необходимых настроек выбранным скриптам."
+        },
+        "ko": {
+          "name": "스크립트 인수",
+          "desc": "스크립트 인수는 선택한 스크립트에 필수 설정을 전달하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Argumentos de script",
+          "desc": "Os argumentos do script cobrem a passagem das configurações necessárias para os scripts selecionados."
+        }
+      }
+    },
+    {
+      "key": "nmap/script_maintenance",
+      "slug": "script_maintenance",
+      "name": "Script Maintenance",
+      "desc": "Script maintenance covers keeping NSE script data current and understanding script availability.",
+      "i18n": {
+        "zh": {
+          "name": "脚本维护",
+          "desc": "脚本维护包括保持 NSE 脚本数据最新和了解脚本可用性。"
+        },
+        "es": {
+          "name": "Mantenimiento de scripts",
+          "desc": "El mantenimiento de scripts cubre mantener actualizados los datos de scripts NSE y comprender la disponibilidad de scripts."
+        },
+        "fr": {
+          "name": "Maintenance des scripts",
+          "desc": "La maintenance des scripts couvre la mise à jour des données de scripts NSE et la compréhension de la disponibilité des scripts."
+        },
+        "de": {
+          "name": "Skriptwartung",
+          "desc": "Die Skriptwartung umfasst die Aktualisierung der NSE-Skriptdaten und das Verständnis der Skriptverfügbarkeit."
+        },
+        "ja": {
+          "name": "スクリプトのメンテナンス",
+          "desc": "スクリプトのメンテナンスには、NSE スクリプトデータを最新の状態に維持し、スクリプトの可用性を把握することが含まれます。"
+        },
+        "ru": {
+          "name": "Обслуживание скриптов",
+          "desc": "Обслуживание скриптов включает в себя поддержание актуальности данных скриптов NSE и понимание доступности скриптов."
+        },
+        "ko": {
+          "name": "스크립트 유지 관리",
+          "desc": "스크립트 유지 관리에는 NSE 스크립트 데이터를 최신 상태로 유지하고 스크립트 가용성을 이해하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Manutenção de scripts",
+          "desc": "A manutenção de scripts abrange manter os dados de scripts NSE atualizados e compreender a disponibilidade dos scripts."
+        }
+      }
+    },
+    {
+      "key": "nmap/script_result_review",
+      "slug": "script_result_review",
+      "name": "Script Result Review",
+      "desc": "Script result review covers evaluating script findings, evidence, and false positive risk.",
+      "i18n": {
+        "zh": {
+          "name": "脚本结果审核",
+          "desc": "脚本结果审查涵盖评估脚本发现、佐证信息和误报风险。"
+        },
+        "es": {
+          "name": "Revisión de resultados de scripts",
+          "desc": "La revisión de resultados de scripts cubre la evaluación de hallazgos de scripts, evidencia de apoyo y riesgo de falsos positivos."
+        },
+        "fr": {
+          "name": "Revue des résultats de scripts",
+          "desc": "La revue des résultats de scripts couvre l’évaluation des constats de scripts, des éléments justificatifs et du risque de faux positifs."
+        },
+        "de": {
+          "name": "Überprüfung der Skriptergebnisse",
+          "desc": "Die Überprüfung der Skriptergebnisse umfasst die Bewertung von Skriptbefunden, unterstützenden Nachweisen und dem Risiko falsch positiver Ergebnisse."
+        },
+        "ja": {
+          "name": "スクリプト結果のレビュー",
+          "desc": "スクリプト結果のレビューでは、スクリプトの結果、証拠、誤検知リスクの評価が行われます。"
+        },
+        "ru": {
+          "name": "Проверка результатов скриптов",
+          "desc": "Проверка результатов скриптов включает оценку находок скриптов, подтверждающих данных и риска ложноположительных результатов."
+        },
+        "ko": {
+          "name": "스크립트 결과 검토",
+          "desc": "스크립트 결과 검토는 스크립트 발견 사항, 근거 자료 및 오탐 위험을 평가하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Revisão de resultados de scripts",
+          "desc": "A revisão de resultados de scripts abrange a avaliação de achados de scripts, evidências de apoio e risco de falsos positivos."
+        }
+      }
+    },
+    {
+      "key": "nmap/text_output",
+      "slug": "text_output",
+      "name": "Text Output",
+      "desc": "Text output covers the default human-readable scan report and its main result sections.",
+      "i18n": {
+        "zh": {
+          "name": "文本输出",
+          "desc": "文本输出涵盖默认的人类可读扫描报告及其主要结果部分。"
+        },
+        "es": {
+          "name": "Salida de texto",
+          "desc": "La salida de texto cubre el informe de escaneo predeterminado legible por humanos y sus principales secciones de resultados."
+        },
+        "fr": {
+          "name": "Sortie de texte",
+          "desc": "La sortie texte couvre le rapport d'analyse par défaut lisible par l'homme et ses principales sections de résultats."
+        },
+        "de": {
+          "name": "Textausgabe",
+          "desc": "Die Textausgabe umfasst den standardmäßigen, für Menschen lesbaren Scanbericht und seine Hauptergebnisabschnitte."
+        },
+        "ja": {
+          "name": "テキスト出力",
+          "desc": "テキスト出力には、人が読めるデフォルトのスキャンレポートとその主要な結果セクションが含まれます。"
+        },
+        "ru": {
+          "name": "Текстовый вывод",
+          "desc": "Текстовый вывод включает в себя удобочитаемый отчет о сканировании по умолчанию и его основные разделы результатов."
+        },
+        "ko": {
+          "name": "텍스트 출력",
+          "desc": "텍스트 출력에는 사람이 읽을 수 있는 기본 스캔 보고서와 주요 결과 섹션이 포함됩니다."
+        },
+        "pt": {
+          "name": "Saída de texto",
+          "desc": "A saída de texto cobre o relatório de verificação legível por humanos padrão e suas principais seções de resultados."
+        }
+      }
+    },
+    {
+      "key": "nmap/structured_output",
+      "slug": "structured_output",
+      "name": "Structured Output",
+      "desc": "Structured output covers saving XML and other machine-readable scan data.",
+      "i18n": {
+        "zh": {
+          "name": "结构化输出",
+          "desc": "结构化输出涵盖保存 XML 和其他机器可读的扫描数据。"
+        },
+        "es": {
+          "name": "Salida estructurada",
+          "desc": "La salida estructurada cubre el guardado de XML y otros datos escaneados legibles por máquina."
+        },
+        "fr": {
+          "name": "Sortie structurée",
+          "desc": "La sortie structurée couvre l'enregistrement du XML et d'autres données de scan lisibles par machine."
+        },
+        "de": {
+          "name": "Strukturierte Ausgabe",
+          "desc": "Die strukturierte Ausgabe umfasst das Speichern von XML und anderen maschinenlesbaren Scandaten."
+        },
+        "ja": {
+          "name": "構造化された出力",
+          "desc": "構造化された出力には、XML およびその他の機械可読スキャンデータの保存が含まれます。"
+        },
+        "ru": {
+          "name": "Структурированный вывод",
+          "desc": "Структурированный вывод включает сохранение XML и других машиночитаемых данных сканирования."
+        },
+        "ko": {
+          "name": "구조화된 출력",
+          "desc": "구조화된 출력은 XML 및 기타 기계가 읽을 수 있는 스캔 데이터 저장을 다룹니다."
+        },
+        "pt": {
+          "name": "Saída Estruturada",
+          "desc": "A saída estruturada cobre o salvamento de XML e outros dados de scan legíveis por máquina."
+        }
+      }
+    },
+    {
+      "key": "nmap/result_comparison",
+      "slug": "result_comparison",
+      "name": "Result Comparison",
+      "desc": "Result comparison covers identifying changes between scans and separating meaningful differences from noise.",
+      "i18n": {
+        "zh": {
+          "name": "结果比较",
+          "desc": "结果比较涵盖识别扫描之间的变化，并将有意义的差异与噪声区分开。"
+        },
+        "es": {
+          "name": "Comparación de resultados",
+          "desc": "La comparación de resultados cubre la identificación de cambios entre escaneos y la separación de diferencias significativas del ruido."
+        },
+        "fr": {
+          "name": "Comparaison des résultats",
+          "desc": "La comparaison des résultats couvre l'identification des changements entre les analyses et la séparation des différences significatives du bruit."
+        },
+        "de": {
+          "name": "Ergebnisvergleich",
+          "desc": "Der Ergebnisvergleich umfasst die Identifizierung von Änderungen zwischen Scans und die Trennung bedeutsamer Unterschiede vom Rauschen."
+        },
+        "ja": {
+          "name": "結果の比較",
+          "desc": "結果の比較では、スキャン間の変化を特定し、意味のある差異をノイズから分離します。"
+        },
+        "ru": {
+          "name": "Сравнение результатов",
+          "desc": "Сравнение результатов охватывает выявление изменений между сканированиями и отделение значимых различий от шума."
+        },
+        "ko": {
+          "name": "결과 비교",
+          "desc": "결과 비교에는 스캔 간 변경 사항을 식별하고 의미 있는 차이를 노이즈와 분리하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Comparação de resultados",
+          "desc": "A comparação de resultados abrange a identificação de alterações entre varreduras e a separação de diferenças significativas do ruído."
+        }
+      }
+    },
+    {
+      "key": "nmap/finding_documentation",
+      "slug": "finding_documentation",
+      "name": "Finding Documentation",
+      "desc": "Finding documentation covers recording targets, options, timestamps, and scan evidence for review.",
+      "i18n": {
+        "zh": {
+          "name": "发现记录",
+          "desc": "发现记录涵盖为复核记录目标、选项、时间戳和扫描佐证信息。"
+        },
+        "es": {
+          "name": "Documentación de hallazgos",
+          "desc": "La documentación de hallazgos cubre registrar objetivos, opciones, marcas de tiempo y evidencia de escaneo para revisión."
+        },
+        "fr": {
+          "name": "Documentation des constatations",
+          "desc": "La documentation des constats couvre l’enregistrement des cibles, des options, des horodatages et des éléments de scan pour examen."
+        },
+        "de": {
+          "name": "Dokumentation von Befunden",
+          "desc": "Die Dokumentation von Befunden umfasst das Aufzeichnen von Zielen, Optionen, Zeitstempeln und Scan-Nachweisen zur Überprüfung."
+        },
+        "ja": {
+          "name": "検出結果の記録",
+          "desc": "検出結果の記録は、レビュー用に対象、オプション、タイムスタンプ、スキャン証跡を記録することを扱います。"
+        },
+        "ru": {
+          "name": "Документирование находок",
+          "desc": "Документирование находок охватывает запись целей, параметров, временных меток и подтверждающих данных сканирования для проверки."
+        },
+        "ko": {
+          "name": "결과 문서화",
+          "desc": "발견 사항 문서화는 검토를 위해 대상, 옵션, 타임스탬프 및 스캔 근거 자료를 기록하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Documentação de achados",
+          "desc": "A documentação de achados abrange registrar alvos, opções, carimbos de data/hora e evidências de varredura para revisão."
+        }
+      }
+    },
+    {
+      "key": "nmap/result_prioritization",
+      "slug": "result_prioritization",
+      "name": "Result Prioritization",
+      "desc": "Result prioritization covers focusing follow-up on exposed, unexpected, or high-risk services.",
+      "i18n": {
+        "zh": {
+          "name": "结果优先级",
+          "desc": "结果优先级涵盖将后续重点放在暴露、意外或高风险服务上。"
+        },
+        "es": {
+          "name": "Priorización de resultados",
+          "desc": "La priorización de resultados cubre centrar el seguimiento en servicios expuestos, inesperados o de alto riesgo."
+        },
+        "fr": {
+          "name": "Priorisation des résultats",
+          "desc": "La priorisation des résultats consiste à concentrer le suivi sur les services exposés, inattendus ou à haut risque."
+        },
+        "de": {
+          "name": "Ergebnispriorisierung",
+          "desc": "Die Ergebnispriorisierung umfasst die Fokussierung der Nachverfolgung auf exponierte, unerwartete oder risikoreiche Dienste."
+        },
+        "ja": {
+          "name": "結果の優先順位付け",
+          "desc": "結果の優先順位付けでは、公開されたサービス、予期しないサービス、またはリスクの高いサービスに重点を置いてフォローアップを行います。"
+        },
+        "ru": {
+          "name": "Приоритизация результатов",
+          "desc": "Приоритизация результатов предполагает сосредоточение внимания на последующих действиях по выявленным, неожиданным или высокорискованным услугам."
+        },
+        "ko": {
+          "name": "결과 우선순위",
+          "desc": "결과 우선순위 지정은 노출되었거나 예상치 못했거나 위험도가 높은 서비스에 대한 후속 조치에 집중하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Priorização de Resultados",
+          "desc": "A priorização de resultados abrange focar o acompanhamento em serviços expostos, inesperados ou de alto risco."
+        }
+      }
+    },
+    {
+      "key": "nmap/firewall_filtering_interpretation",
+      "slug": "firewall_filtering_interpretation",
+      "name": "Filtering Interpretation",
+      "desc": "Filtering interpretation covers recognizing how firewalls and network controls affect scan visibility.",
+      "i18n": {
+        "zh": {
+          "name": "过滤解释",
+          "desc": "过滤解释包括识别防火墙和网络控制如何影响扫描可见性。"
+        },
+        "es": {
+          "name": "Interpretación de filtrado",
+          "desc": "La interpretación del filtrado cubre el reconocimiento de cómo los firewalls y los controles de red afectan la visibilidad del escaneo."
+        },
+        "fr": {
+          "name": "Interprétation du filtrage",
+          "desc": "L'interprétation du filtrage couvre la reconnaissance de la manière dont les pare-feu et les contrôles réseau affectent la visibilité de l'analyse."
+        },
+        "de": {
+          "name": "Filterinterpretation",
+          "desc": "Die Filterinterpretation umfasst das Erkennen, wie Firewalls und Netzwerkkontrollen die Scan-Sichtbarkeit beeinflussen."
+        },
+        "ja": {
+          "name": "フィルタリングの解釈",
+          "desc": "フィルタリングの解釈では、ファイアウォールとネットワーク制御がスキャンの可視性にどのように影響するかを認識することが含まれます。"
+        },
+        "ru": {
+          "name": "Интерпретация фильтрации",
+          "desc": "Интерпретация фильтрации охватывает распознавание того, как межсетевые экраны и сетевые средства контроля влияют на видимость сканирования."
+        },
+        "ko": {
+          "name": "필터링 해석",
+          "desc": "필터링 해석에는 방화벽 및 네트워크 제어가 스캔 가시성에 미치는 영향을 인식하는 내용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Interpretação da filtragem",
+          "desc": "A interpretação da filtragem abrange reconhecer como firewalls e controles de rede afetam a visibilidade da varredura."
+        }
+      }
+    },
+    {
+      "key": "nmap/privilege_requirements",
+      "slug": "privilege_requirements",
+      "name": "Privilege Requirements",
+      "desc": "Privilege requirements cover which scan techniques need elevated local permissions.",
+      "i18n": {
+        "zh": {
+          "name": "权限要求",
+          "desc": "权限要求涵盖哪些扫描技术需要提升的本地权限。"
+        },
+        "es": {
+          "name": "Requisitos de privilegios",
+          "desc": "Los requisitos de privilegios cubren qué técnicas de escaneo necesitan permisos locales elevados."
+        },
+        "fr": {
+          "name": "Exigences de privilège",
+          "desc": "Les exigences de privilèges couvrent les techniques d'analyse qui nécessitent des autorisations locales élevées."
+        },
+        "de": {
+          "name": "Berechtigungsanforderungen",
+          "desc": "Berechtigungsanforderungen decken ab, welche Scantechniken erhöhte lokale Berechtigungen erfordern."
+        },
+        "ja": {
+          "name": "権限の要件",
+          "desc": "特権要件には、どのスキャン技術に昇格されたローカル権限が必要かが含まれます。"
+        },
+        "ru": {
+          "name": "Требования к привилегиям",
+          "desc": "Требования к привилегиям охватывают методы сканирования, требующие повышенных локальных разрешений."
+        },
+        "ko": {
+          "name": "권한 요구 사항",
+          "desc": "권한 요구 사항은 권한 상승이 필요한 로컬 스캔 기술을 다룹니다."
+        },
+        "pt": {
+          "name": "Requisitos de privilégio",
+          "desc": "Os requisitos de privilégio abrangem quais técnicas de verificação precisam de permissões locais elevadas."
+        }
+      }
+    },
+    {
+      "key": "nmap/scan_troubleshooting",
+      "slug": "scan_troubleshooting",
+      "name": "Scan Troubleshooting",
+      "desc": "Scan troubleshooting covers using diagnostic output to explain scan behavior and failures.",
+      "i18n": {
+        "zh": {
+          "name": "扫描故障排除",
+          "desc": "扫描故障排除涵盖使用诊断输出来解释扫描行为和故障。"
+        },
+        "es": {
+          "name": "Solución de problemas de escaneo",
+          "desc": "La solución de problemas de escaneo cubre el uso de resultados de diagnóstico para explicar el comportamiento y las fallas del escaneo."
+        },
+        "fr": {
+          "name": "Dépannage des scans",
+          "desc": "Le dépannage des scans couvre l’utilisation des sorties de diagnostic pour expliquer le comportement et les échecs des scans."
+        },
+        "de": {
+          "name": "Fehlerbehebung beim Scannen",
+          "desc": "Die Fehlerbehebung beim Scannen umfasst die Verwendung von Diagnoseausgaben zur Erläuterung des Scanverhaltens und von Fehlern."
+        },
+        "ja": {
+          "name": "スキャンのトラブルシューティング",
+          "desc": "スキャンのトラブルシューティングでは、診断出力を使用してスキャンの動作と失敗を説明します。"
+        },
+        "ru": {
+          "name": "Устранение неполадок сканирования",
+          "desc": "Устранение неполадок сканирования включает использование диагностических данных для объяснения поведения и сбоев сканирования."
+        },
+        "ko": {
+          "name": "스캔 문제 해결",
+          "desc": "스캔 문제 해결에서는 진단 출력을 사용하여 스캔 동작 및 오류를 설명합니다."
+        },
+        "pt": {
+          "name": "Solução de problemas de varredura",
+          "desc": "A solução de problemas de varredura abrange o uso da saída de diagnóstico para explicar o comportamento e as falhas da varredura."
+        }
+      }
+    },
+    {
+      "key": "nmap/false_positive_review",
+      "slug": "false_positive_review",
+      "name": "False Positive Review",
+      "desc": "False positive review covers validating uncertain findings before acting on them.",
+      "i18n": {
+        "zh": {
+          "name": "误报审查",
+          "desc": "误报审查包括在采取行动之前验证不确定的发现。"
+        },
+        "es": {
+          "name": "Revisión de falsos positivos",
+          "desc": "La revisión de falsos positivos cubre la validación de hallazgos inciertos antes de actuar sobre ellos."
+        },
+        "fr": {
+          "name": "Examen des faux positifs",
+          "desc": "L’examen des faux positifs consiste à valider des résultats incertains avant d’agir en conséquence."
+        },
+        "de": {
+          "name": "False-Positive-Prüfung",
+          "desc": "Die False-Positive-Prüfung behandelt das Validieren unsicherer Ergebnisse, bevor darauf reagiert wird."
+        },
+        "ja": {
+          "name": "誤検知レビュー",
+          "desc": "誤検知レビューでは、不確実な結果に基づいて行動する前に、その結果を検証します。"
+        },
+        "ru": {
+          "name": "Проверка ложных срабатываний",
+          "desc": "Проверка ложных срабатываний предполагает подтверждение неопределенных результатов перед принятием мер."
+        },
+        "ko": {
+          "name": "오탐 검토",
+          "desc": "오탐 검토는 불확실한 결과에 따라 조치하기 전에 이를 검증하는 내용을 다룹니다."
+        },
+        "pt": {
+          "name": "Revisão de falsos positivos",
+          "desc": "A revisão de falsos positivos cobre a validação de descobertas incertas antes de agir sobre elas."
+        }
+      }
+    }
+  ]
+}

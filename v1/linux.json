@@ -1,0 +1,715 @@
+{
+  "key": "linux",
+  "slug": "linux",
+  "name": "Linux",
+  "skills": [
+    {
+      "key": "linux/echo",
+      "slug": "echo",
+      "name": "Text Display",
+      "desc": "Text display tasks cover various ways to display text on the terminal, making it readable and presentable."
+    },
+    {
+      "key": "linux/clear",
+      "slug": "clear",
+      "name": "Screen Clearing",
+      "desc": "Screen clearing involves removing or clearing the terminal screen, providing a clean slate for new content or interactions."
+    },
+    {
+      "key": "linux/bc",
+      "slug": "bc",
+      "name": "Arithmetic Calculations",
+      "desc": "Arithmetic calculations involve performing mathematical operations in Linux, such as addition, subtraction, multiplication, and division."
+    },
+    {
+      "key": "linux/logical",
+      "slug": "logical",
+      "name": "Logic Operations",
+      "desc": "Logic operations encompass tasks related to logical operations and expressions, enabling decision-making and control flow in scripts and commands."
+    },
+    {
+      "key": "linux/column",
+      "slug": "column",
+      "name": "Text Columnizing",
+      "desc": "Text columnizing helps format and align text data in columns for better readability."
+    },
+    {
+      "key": "linux/test",
+      "slug": "test",
+      "name": "Condition Testing",
+      "desc": "Condition testing involves evaluating logical expressions to make decisions in scripts and commands."
+    },
+    {
+      "key": "linux/xargs",
+      "slug": "xargs",
+      "name": "Command Building",
+      "desc": "Command building refers to constructing complex commands by combining multiple commands and options."
+    },
+    {
+      "key": "linux/tree",
+      "slug": "tree",
+      "name": "Directory Tree Display",
+      "desc": "Displaying directory trees visually represents the hierarchical structure of directories and subdirectories."
+    },
+    {
+      "key": "linux/help",
+      "slug": "help",
+      "name": "Command Assistance",
+      "desc": "Command assistance provides help and information about commands and their usage."
+    },
+    {
+      "key": "linux/man",
+      "slug": "man",
+      "name": "Manual Access",
+      "desc": "Accessing manual pages (man pages) provides detailed documentation and information about commands."
+    },
+    {
+      "key": "linux/nl",
+      "slug": "nl",
+      "name": "Line Numbering",
+      "desc": "Line numbering adds line numbers to text files for reference and identification."
+    },
+    {
+      "key": "linux/read",
+      "slug": "read",
+      "name": "Input Reading",
+      "desc": "Input reading allows scripts and commands to read user input for interactive behavior."
+    },
+    {
+      "key": "linux/printf",
+      "slug": "printf",
+      "name": "Text Formatting",
+      "desc": "Text formatting involves applying formatting styles to text for presentation purposes."
+    },
+    {
+      "key": "linux/sleep",
+      "slug": "sleep",
+      "name": "Execution Delaying",
+      "desc": "Delaying execution is used for scheduling tasks or creating time intervals in scripts."
+    },
+    {
+      "key": "linux/declare",
+      "slug": "declare",
+      "name": "Variable Declaring",
+      "desc": "Declaring variables is fundamental for storing and manipulating data in scripts."
+    },
+    {
+      "key": "linux/source",
+      "slug": "source",
+      "name": "Script Executing",
+      "desc": "Executing scripts runs custom sequences of commands, automating tasks and processes."
+    },
+    {
+      "key": "linux/exit",
+      "slug": "exit",
+      "name": "Shell Exiting",
+      "desc": "Exiting the shell terminates the current shell session or script execution."
+    },
+    {
+      "key": "linux/ls",
+      "slug": "ls",
+      "name": "Content Listing",
+      "desc": "Content listing involves listing the contents of directories and files, allowing users to view what is present in a specified location."
+    },
+    {
+      "key": "linux/touch",
+      "slug": "touch",
+      "name": "File Creating/Updating",
+      "desc": "File creation and updating involve creating new files or modifying existing ones. This is essential for managing data and text files in Linux."
+    },
+    {
+      "key": "linux/cp",
+      "slug": "cp",
+      "name": "File Copying",
+      "desc": "Copying files allows you to duplicate files or directories, making backups or replicating data when needed."
+    },
+    {
+      "key": "linux/mv",
+      "slug": "mv",
+      "name": "File Moving/Renaming",
+      "desc": "Moving or renaming files involves changing their location or changing their names, providing better organization and management."
+    },
+    {
+      "key": "linux/rm",
+      "slug": "rm",
+      "name": "File Removing",
+      "desc": "Removing files is used to delete unwanted data from the file system, freeing up storage space."
+    },
+    {
+      "key": "linux/ln",
+      "slug": "ln",
+      "name": "Link Creating",
+      "desc": "Creating symbolic or hard links allows for efficient file access and management by creating references to files."
+    },
+    {
+      "key": "linux/cat",
+      "slug": "cat",
+      "name": "File Concatenating",
+      "desc": "Concatenating files involves combining the contents of multiple files into a single file, often used for data analysis or text processing."
+    },
+    {
+      "key": "linux/head",
+      "slug": "head",
+      "name": "File Beginning Display",
+      "desc": "Displaying the beginning of a file is useful for viewing the initial contents of large files without loading the entire file into memory."
+    },
+    {
+      "key": "linux/tail",
+      "slug": "tail",
+      "name": "File End Display",
+      "desc": "Displaying the end of a file helps examine the concluding portions of large files efficiently."
+    },
+    {
+      "key": "linux/wc",
+      "slug": "wc",
+      "name": "Text Counting",
+      "desc": "Counting text occurrences is crucial for analyzing data and generating statistics from text files."
+    },
+    {
+      "key": "linux/cut",
+      "slug": "cut",
+      "name": "Text Cutting",
+      "desc": "Text cutting allows you to extract specific portions of text from files for further processing."
+    },
+    {
+      "key": "linux/less",
+      "slug": "less",
+      "name": "File Paging",
+      "desc": "Paging through files enables users to read large files step by step for better comprehension and navigation."
+    },
+    {
+      "key": "linux/more",
+      "slug": "more",
+      "name": "File Scrolling",
+      "desc": "Scrolling through files provides a dynamic way to view file contents, particularly useful for log files and long documents."
+    },
+    {
+      "key": "linux/chown",
+      "slug": "chown",
+      "name": "Ownership Changing",
+      "desc": "Changing file ownership is essential for managing access control and permissions in a Linux system."
+    },
+    {
+      "key": "linux/chmod",
+      "slug": "chmod",
+      "name": "Permission Modifying",
+      "desc": "Modifying file permissions allows you to control who can read, write, and execute files, enhancing security and access control."
+    },
+    {
+      "key": "linux/cd",
+      "slug": "cd",
+      "name": "Directory Changing",
+      "desc": "Changing directories is the basic operation for navigating the file system in Linux."
+    },
+    {
+      "key": "linux/pwd",
+      "slug": "pwd",
+      "name": "Directory Displaying",
+      "desc": "Displaying directory contents is essential for exploring the contents of folders."
+    },
+    {
+      "key": "linux/mkdir",
+      "slug": "mkdir",
+      "name": "Directory Creating",
+      "desc": "Creating directories is necessary for organizing files and data into a structured hierarchy."
+    },
+    {
+      "key": "linux/wildcard",
+      "slug": "wildcard",
+      "name": "Wildcard Character",
+      "desc": "Using wildcard characters like '*' and '?' in file operations allows for flexible and powerful file matching and manipulation."
+    },
+    {
+      "key": "linux/find",
+      "slug": "find",
+      "name": "File Searching",
+      "desc": "Searching for files helps locate specific files or patterns within a directory or across the entire system."
+    },
+    {
+      "key": "linux/locate",
+      "slug": "locate",
+      "name": "File Locating",
+      "desc": "Locating files provides a way to find the path of an executable file in the system."
+    },
+    {
+      "key": "linux/which",
+      "slug": "which",
+      "name": "Command Locating",
+      "desc": "Locating commands helps users identify the location of executable commands in the system."
+    },
+    {
+      "key": "linux/whereis",
+      "slug": "whereis",
+      "name": "File/Command Finding",
+      "desc": "Finding files or commands combines search functionality with useful information about file or command locations."
+    },
+    {
+      "key": "linux/grep",
+      "slug": "grep",
+      "name": "Pattern Searching",
+      "desc": "Pattern searching is crucial for text processing, allowing you to find specific text patterns within files."
+    },
+    {
+      "key": "linux/sed",
+      "slug": "sed",
+      "name": "Stream Editing",
+      "desc": "Stream editing involves making changes to text data as it is being read or written, typically used in text processing pipelines."
+    },
+    {
+      "key": "linux/awk",
+      "slug": "awk",
+      "name": "Text Processing",
+      "desc": "Text processing involves manipulating and processing text data using various commands and techniques."
+    },
+    {
+      "key": "linux/sort",
+      "slug": "sort",
+      "name": "Text Sorting",
+      "desc": "Sorting text allows for organizing data alphabetically or numerically, making it easier to analyze and work with."
+    },
+    {
+      "key": "linux/uniq",
+      "slug": "uniq",
+      "name": "Duplicate Filtering",
+      "desc": "Filtering duplicates is useful for removing redundant data and ensuring data quality."
+    },
+    {
+      "key": "linux/tr",
+      "slug": "tr",
+      "name": "Character Translating",
+      "desc": "Character translation helps replace specific characters or character sets in text data."
+    },
+    {
+      "key": "linux/col",
+      "slug": "col",
+      "name": "Line Feed Filtering",
+      "desc": "Line feed filtering is used to process and clean up text data by removing or replacing line breaks."
+    },
+    {
+      "key": "linux/paste",
+      "slug": "paste",
+      "name": "Line Merging",
+      "desc": "Merging lines combines multiple lines of text into one, facilitating data consolidation."
+    },
+    {
+      "key": "linux/join",
+      "slug": "join",
+      "name": "File Joining",
+      "desc": "Joining files combines the contents of multiple files into a single file, useful for data integration."
+    },
+    {
+      "key": "linux/expr",
+      "slug": "expr",
+      "name": "Evaluate Expressions",
+      "desc": "The expr command evaluates basic arithmetic expressions in the Linux command line, with mandatory spaces between operators and operands."
+    },
+    {
+      "key": "linux/tee",
+      "slug": "tee",
+      "name": "Output Multiplexing",
+      "desc": "Output multiplexing allows you to send output to multiple destinations, such as files and the screen, simultaneously."
+    },
+    {
+      "key": "linux/pipeline",
+      "slug": "pipeline",
+      "name": "Data Piping",
+      "desc": "Data piping involves sending the output of one command as input to another, creating powerful data processing pipelines."
+    },
+    {
+      "key": "linux/redirect",
+      "slug": "redirect",
+      "name": "I/O Redirecting",
+      "desc": "I/O redirecting allows you to control the input and output of commands, enabling automation and customization."
+    },
+    {
+      "key": "linux/jobs",
+      "slug": "jobs",
+      "name": "Job Managing",
+      "desc": "Job managing involves controlling and monitoring background jobs and processes on the system."
+    },
+    {
+      "key": "linux/bg_running",
+      "slug": "bg_running",
+      "name": "Background Running",
+      "desc": "Background running refers to executing commands or processes in the background, allowing continued use of the terminal."
+    },
+    {
+      "key": "linux/fg",
+      "slug": "fg",
+      "name": "Job Foregrounding",
+      "desc": "Job foregrounding brings background jobs to the foreground, allowing interaction with them."
+    },
+    {
+      "key": "linux/kill",
+      "slug": "kill",
+      "name": "Process Terminating",
+      "desc": "Process terminating is used to stop or end running processes or jobs."
+    },
+    {
+      "key": "linux/killall",
+      "slug": "killall",
+      "name": "Multi-Process Killing",
+      "desc": "Multi-process killing enables users to terminate multiple processes simultaneously."
+    },
+    {
+      "key": "linux/pkill",
+      "slug": "pkill",
+      "name": "Pattern-Based Killing",
+      "desc": "Pattern-based killing allows for terminating processes that match a specific pattern or criteria."
+    },
+    {
+      "key": "linux/wait",
+      "slug": "wait",
+      "name": "Process Waiting",
+      "desc": "Process waiting involves waiting for a specific process or job to complete before proceeding."
+    },
+    {
+      "key": "linux/bg_process",
+      "slug": "bg_process",
+      "name": "Background Management",
+      "desc": "Background management covers the control and monitoring of background processes, jobs, and tasks."
+    },
+    {
+      "key": "linux/df",
+      "slug": "df",
+      "name": "Disk Space Reporting",
+      "desc": "Disk space reporting provides information about disk usage, helping users manage storage resources."
+    },
+    {
+      "key": "linux/du",
+      "slug": "du",
+      "name": "File Space Estimating",
+      "desc": "File space estimating calculates the space required for files and directories, assisting in storage planning."
+    },
+    {
+      "key": "linux/mount",
+      "slug": "mount",
+      "name": "File System Mounting",
+      "desc": "File system mounting allows users to attach external storage devices or network shares to the file system."
+    },
+    {
+      "key": "linux/watch",
+      "slug": "watch",
+      "name": "Command Repeating",
+      "desc": "Command repeating is used to execute commands repeatedly, often with specified intervals."
+    },
+    {
+      "key": "linux/crontab",
+      "slug": "crontab",
+      "name": "Job Scheduling",
+      "desc": "Job scheduling involves setting up automated tasks to run at specific times or intervals using tools like cron."
+    },
+    {
+      "key": "linux/uname",
+      "slug": "uname",
+      "name": "System Information Displaying",
+      "desc": "System information displaying provides details about the system's hardware, software, and configuration."
+    },
+    {
+      "key": "linux/hostname",
+      "slug": "hostname",
+      "name": "Hostname Managing",
+      "desc": "Hostname managing includes tasks related to configuring and managing the system's hostname."
+    },
+    {
+      "key": "linux/ps",
+      "slug": "ps",
+      "name": "Process Displaying",
+      "desc": "Process displaying lists the currently running processes on the system, including their status and resource usage."
+    },
+    {
+      "key": "linux/top",
+      "slug": "top",
+      "name": "Task Displaying",
+      "desc": "Task displaying provides information about background tasks, jobs, and their status."
+    },
+    {
+      "key": "linux/free",
+      "slug": "free",
+      "name": "Memory Reporting",
+      "desc": "Memory reporting displays information about system memory usage, including RAM and swap space."
+    },
+    {
+      "key": "linux/date",
+      "slug": "date",
+      "name": "Date/Time Displaying",
+      "desc": "Date/time displaying shows the current date and time, which is often used for log entries and scheduling."
+    },
+    {
+      "key": "linux/time",
+      "slug": "time",
+      "name": "Command Timing",
+      "desc": "Command timing measures the execution time of commands or scripts, useful for performance analysis."
+    },
+    {
+      "key": "linux/dd",
+      "slug": "dd",
+      "name": "File Converting/Copying",
+      "desc": "File converting/copying involves converting file formats or copying data between different formats or locations."
+    },
+    {
+      "key": "linux/service",
+      "slug": "service",
+      "name": "Service Managing",
+      "desc": "Service managing covers the control and management of system services and daemons."
+    },
+    {
+      "key": "linux/tar",
+      "slug": "tar",
+      "name": "Archiving",
+      "desc": "Archiving involves creating compressed archive files to store multiple files or directories in a single package."
+    },
+    {
+      "key": "linux/zip",
+      "slug": "zip",
+      "name": "Compressing",
+      "desc": "Compressing files reduces their size, saving storage space and speeding up data transfer."
+    },
+    {
+      "key": "linux/gzip",
+      "slug": "gzip",
+      "name": "Gzip",
+      "desc": "gzip is a file format and a software application used for file compression and decompression. "
+    },
+    {
+      "key": "linux/unzip",
+      "slug": "unzip",
+      "name": "Decompressing",
+      "desc": "Decompressing files is the process of restoring compressed files to their original state."
+    },
+    {
+      "key": "linux/useradd",
+      "slug": "useradd",
+      "name": "User Adding",
+      "desc": "User adding involves creating new user accounts in the system."
+    },
+    {
+      "key": "linux/userdel",
+      "slug": "userdel",
+      "name": "User Removing",
+      "desc": "User removing is the process of deleting user accounts from the system."
+    },
+    {
+      "key": "linux/usermod",
+      "slug": "usermod",
+      "name": "User Modifying",
+      "desc": "User modifying includes tasks like changing user attributes, such as username, password, and home directory."
+    },
+    {
+      "key": "linux/passwd",
+      "slug": "passwd",
+      "name": "Password Changing",
+      "desc": "Password changing allows users to update their passwords for security purposes."
+    },
+    {
+      "key": "linux/sudo",
+      "slug": "sudo",
+      "name": "Privilege Granting",
+      "desc": "Privilege granting involves assigning additional permissions or privileges to users or groups."
+    },
+    {
+      "key": "linux/su",
+      "slug": "su",
+      "name": "User Switching",
+      "desc": "User switching allows users to change their active user context to access different privileges or environments."
+    },
+    {
+      "key": "linux/groups",
+      "slug": "groups",
+      "name": "Group Displaying",
+      "desc": "Group displaying lists the existing user groups in the system."
+    },
+    {
+      "key": "linux/groupadd",
+      "slug": "groupadd",
+      "name": "Group Adding",
+      "desc": "Group adding involves creating new user groups in the system."
+    },
+    {
+      "key": "linux/groupdel",
+      "slug": "groupdel",
+      "name": "Group Removing",
+      "desc": "Group removing is the process of deleting user groups from the system."
+    },
+    {
+      "key": "linux/chgrp",
+      "slug": "chgrp",
+      "name": "Group Changing",
+      "desc": "Group changing includes tasks like modifying group attributes or membership."
+    },
+    {
+      "key": "linux/whoami",
+      "slug": "whoami",
+      "name": "User Identifying",
+      "desc": "User identifying provides information about the current user's identity and permissions."
+    },
+    {
+      "key": "linux/env",
+      "slug": "env",
+      "name": "Environment Managing",
+      "desc": "Environment managing involves configuring user environment variables and settings."
+    },
+    {
+      "key": "linux/id",
+      "slug": "id",
+      "name": "User/Group ID Displaying",
+      "desc": "Displaying user and group IDs provides numeric identifiers for users and groups."
+    },
+    {
+      "key": "linux/set",
+      "slug": "set",
+      "name": "Shell Setting",
+      "desc": "Shell setting allows users to specify their preferred shell for command-line interactions."
+    },
+    {
+      "key": "linux/export",
+      "slug": "export",
+      "name": "Variable Exporting",
+      "desc": "Variable exporting makes environment variables available to child processes and scripts."
+    },
+    {
+      "key": "linux/unset",
+      "slug": "unset",
+      "name": "Variable Unsetting",
+      "desc": "Variable unsetting removes environment variables from the current shell session."
+    },
+    {
+      "key": "linux/ssh",
+      "slug": "ssh",
+      "name": "Secure Connecting",
+      "desc": "Secure connecting involves establishing secure connections to remote servers or systems, often using SSH."
+    },
+    {
+      "key": "linux/telnet",
+      "slug": "telnet",
+      "name": "Network Connecting",
+      "desc": "Network connecting includes tasks like connecting to remote servers, managing network connections, and troubleshooting network issues."
+    },
+    {
+      "key": "linux/scp",
+      "slug": "scp",
+      "name": "Secure Copying",
+      "desc": "Secure copying allows for securely transferring files between local and remote systems using protocols like SCP."
+    },
+    {
+      "key": "linux/sftp",
+      "slug": "sftp",
+      "name": "Secure File Transferring",
+      "desc": "Secure file transferring involves encrypting and transferring files securely over a network."
+    },
+    {
+      "key": "linux/ftp",
+      "slug": "ftp",
+      "name": "File Transferring",
+      "desc": "File transferring includes methods for transferring files between local and remote systems over a network."
+    },
+    {
+      "key": "linux/nc",
+      "slug": "nc",
+      "name": "Networking Utility",
+      "desc": "Networking utility tools provide various functionalities for network management and diagnostics."
+    },
+    {
+      "key": "linux/ifconfig",
+      "slug": "ifconfig",
+      "name": "Network Configuring",
+      "desc": "Network configuring covers the setup and configuration of network interfaces and parameters."
+    },
+    {
+      "key": "linux/netstat",
+      "slug": "netstat",
+      "name": "Network Monitoring",
+      "desc": "Network monitoring involves monitoring network performance, usage, and activity."
+    },
+    {
+      "key": "linux/ping",
+      "slug": "ping",
+      "name": "Network Testing",
+      "desc": "Network testing is used to assess network connectivity and diagnose network-related issues."
+    },
+    {
+      "key": "linux/ip",
+      "slug": "ip",
+      "name": "IP Managing",
+      "desc": "IP managing includes tasks related to managing IP addresses, subnets, and network configurations."
+    },
+    {
+      "key": "linux/curl",
+      "slug": "curl",
+      "name": "URL Data Transferring",
+      "desc": "URL data transferring involves fetching data from remote URLs and transferring it to local files or processes."
+    },
+    {
+      "key": "linux/wget",
+      "slug": "wget",
+      "name": "Non-interactive Downloading",
+      "desc": "Non-interactive downloading allows for automated downloads of files from the internet without user interaction."
+    },
+    {
+      "key": "linux/apt",
+      "slug": "apt",
+      "name": "Package Handling",
+      "desc": "Package handling tasks include installing, updating, and removing software packages on Linux systems."
+    },
+    {
+      "key": "linux/software",
+      "slug": "software",
+      "name": "Linux Software",
+      "desc": "Linux software refers to applications and utilities designed to run on the open-source Linux operating system, offering a wide range of free and customizable tools for various computing tasks."
+    },
+    {
+      "key": "linux/pip",
+      "slug": "pip",
+      "name": "Python Package Installing",
+      "desc": "Python package installing is specific to managing and installing Python packages using package managers."
+    },
+    {
+      "key": "linux/openssl",
+      "slug": "openssl",
+      "name": "OpenSSL",
+      "desc": "OpenSSL is a robust, full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols, and it's also a general-purpose cryptography library."
+    },
+    {
+      "key": "linux/diff",
+      "slug": "diff",
+      "name": "File Comparing",
+      "desc": "File comparing involves comparing the content of two files to identify differences and similarities."
+    },
+    {
+      "key": "linux/comm",
+      "slug": "comm",
+      "name": "Common Line Comparison",
+      "desc": "Common line comparison helps identify differences between two text files or directories using common lines."
+    },
+    {
+      "key": "linux/patch",
+      "slug": "patch",
+      "name": "Patch Applying",
+      "desc": "Applying patches allows for making changes to files based on a patch file, typically used in software development."
+    },
+    {
+      "key": "linux/vim",
+      "slug": "vim",
+      "name": "Text Editing",
+      "desc": "Text editing involves modifying text files using command-line text editors, enhancing productivity and automation."
+    },
+    {
+      "key": "linux/vimdiff",
+      "slug": "vimdiff",
+      "name": "File Difference Viewing",
+      "desc": "Viewing file differences provides a way to visualize and understand changes between two text files."
+    },
+    {
+      "key": "linux/nano",
+      "slug": "nano",
+      "name": "Simple Text Editing",
+      "desc": "Simple text editing covers basic operations like adding, deleting, or modifying text within a file using command-line tools."
+    },
+    {
+      "key": "linux/gedit",
+      "slug": "gedit",
+      "name": "Graphical Text Editing",
+      "desc": "Graphical text editing refers to using graphical text editors for more advanced text manipulation tasks."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "key": "postgresql",
+  "slug": "postgresql",
+  "name": "PostgreSQL",
+  "skills": [
+    {
+      "key": "postgresql/db_setup",
+      "slug": "db_setup",
+      "name": "Create New Database",
+      "desc": "Learn to create a new PostgreSQL database from scratch."
+    },
+    {
+      "key": "postgresql/db_access",
+      "slug": "db_access",
+      "name": "Connect To Database",
+      "desc": "Understand how to connect to a PostgreSQL database."
+    },
+    {
+      "key": "postgresql/user_setup",
+      "slug": "user_setup",
+      "name": "Create User Account",
+      "desc": "Set up a new user account in PostgreSQL for database access."
+    },
+    {
+      "key": "postgresql/perm_read",
+      "slug": "perm_read",
+      "name": "Grant Table Read",
+      "desc": "Give a PostgreSQL user permission to read data from a table."
+    },
+    {
+      "key": "postgresql/perm_write",
+      "slug": "perm_write",
+      "name": "Grant Table Write",
+      "desc": "Allow a PostgreSQL user to modify data in a table."
+    },
+    {
+      "key": "postgresql/perm_remove",
+      "slug": "perm_remove",
+      "name": "Revoke User Privilege",
+      "desc": "Remove a specific privilege from a PostgreSQL user account."
+    },
+    {
+      "key": "postgresql/table_init",
+      "slug": "table_init",
+      "name": "Create Basic Table",
+      "desc": "Build a simple table in PostgreSQL to store data."
+    },
+    {
+      "key": "postgresql/col_int",
+      "slug": "col_int",
+      "name": "Add Integer Column",
+      "desc": "Add an integer column to a PostgreSQL table for whole numbers."
+    },
+    {
+      "key": "postgresql/col_text",
+      "slug": "col_text",
+      "name": "Add Text Column",
+      "desc": "Add a text column to a PostgreSQL table for string data."
+    },
+    {
+      "key": "postgresql/col_date",
+      "slug": "col_date",
+      "name": "Add Date Column",
+      "desc": "Add a date column to a PostgreSQL table for storing dates."
+    },
+    {
+      "key": "postgresql/key_primary",
+      "slug": "key_primary",
+      "name": "Set Primary Key",
+      "desc": "Define a primary key in a PostgreSQL table for unique row identification."
+    },
+    {
+      "key": "postgresql/row_add",
+      "slug": "row_add",
+      "name": "Insert One Row",
+      "desc": "Add a single row of data to a PostgreSQL table."
+    },
+    {
+      "key": "postgresql/rows_add",
+      "slug": "rows_add",
+      "name": "Insert Multiple Rows",
+      "desc": "Add several rows of data to a PostgreSQL table at once."
+    },
+    {
+      "key": "postgresql/data_all",
+      "slug": "data_all",
+      "name": "Select All Data",
+      "desc": "Retrieve all rows from a PostgreSQL table."
+    },
+    {
+      "key": "postgresql/data_where",
+      "slug": "data_where",
+      "name": "Filter With WHERE",
+      "desc": "Fetch rows from a PostgreSQL table using a WHERE condition."
+    },
+    {
+      "key": "postgresql/data_sort",
+      "slug": "data_sort",
+      "name": "Sort Query Results",
+      "desc": "Order PostgreSQL query results based on a column."
+    },
+    {
+      "key": "postgresql/row_edit",
+      "slug": "row_edit",
+      "name": "Update Single Row",
+      "desc": "Modify data in a single row of a PostgreSQL table."
+    },
+    {
+      "key": "postgresql/row_drop",
+      "slug": "row_drop",
+      "name": "Delete One Row",
+      "desc": "Remove a single row from a PostgreSQL table."
+    },
+    {
+      "key": "postgresql/col_add",
+      "slug": "col_add",
+      "name": "Add New Column",
+      "desc": "Expand a PostgreSQL table by adding a new column."
+    },
+    {
+      "key": "postgresql/idx_simple",
+      "slug": "idx_simple",
+      "name": "Create Simple Index",
+      "desc": "Build a simple index in PostgreSQL to speed up data retrieval."
+    },
+    {
+      "key": "postgresql/idx_drop",
+      "slug": "idx_drop",
+      "name": "Drop Existing Index",
+      "desc": "Delete an existing index from a PostgreSQL table."
+    },
+    {
+      "key": "postgresql/view_init",
+      "slug": "view_init",
+      "name": "Create Basic View",
+      "desc": "Create a basic view in PostgreSQL based on a query."
+    },
+    {
+      "key": "postgresql/view_drop",
+      "slug": "view_drop",
+      "name": "Drop Existing View",
+      "desc": "Remove an existing view from a PostgreSQL database."
+    },
+    {
+      "key": "postgresql/func_init",
+      "slug": "func_init",
+      "name": "Define Simple Function",
+      "desc": "Write a simple function in PostgreSQL for reusable logic."
+    },
+    {
+      "key": "postgresql/func_call",
+      "slug": "func_call",
+      "name": "Call Stored Function",
+      "desc": "Execute a stored PostgreSQL function to process data."
+    },
+    {
+      "key": "postgresql/db_status",
+      "slug": "db_status",
+      "name": "Check Database Status",
+      "desc": "View the current status of a PostgreSQL database."
+    },
+    {
+      "key": "postgresql/sys_version",
+      "slug": "sys_version",
+      "name": "Get Server Version",
+      "desc": "Retrieve the version of the PostgreSQL server."
+    },
+    {
+      "key": "postgresql/db_drop",
+      "slug": "db_drop",
+      "name": "Drop Entire Database",
+      "desc": "Delete an entire PostgreSQL database and its contents."
+    }
+  ]
+}

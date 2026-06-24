@@ -1,0 +1,31 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "skilltrees",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-12-02",
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 0.5,
+      "persist": true,
+      "invocation_logs": true,
+    },
+    "traces": {
+      "enabled": true,
+      "persist": true,
+      "head_sampling_rate": 0.5,
+    },
+  },
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "skilltrees.labex.app",
+      "custom_domain": true,
+    },
+  ],
+}

@@ -1,0 +1,199 @@
+{
+  "key": "docker",
+  "slug": "docker",
+  "name": "Docker",
+  "skills": [
+    {
+      "key": "docker/run",
+      "slug": "run",
+      "name": "Run a Container",
+      "desc": "Running a container involves starting a Docker container based on an image. It allows you to create and launch instances of applications in isolated environments."
+    },
+    {
+      "key": "docker/ls",
+      "slug": "ls",
+      "name": "List Containers",
+      "desc": "Listing containers provides an overview of all Docker containers, including both running and stopped containers, on your system."
+    },
+    {
+      "key": "docker/ps",
+      "slug": "ps",
+      "name": "List Running Containers",
+      "desc": "Listing running containers specifically provides information about the containers that are currently in an active state on your Docker system. This can be useful for monitoring and managing running instances."
+    },
+    {
+      "key": "docker/start",
+      "slug": "start",
+      "name": "Start Container",
+      "desc": "Starting a container is the action of initializing a previously created Docker container, making it actively run."
+    },
+    {
+      "key": "docker/stop",
+      "slug": "stop",
+      "name": "Stop Container",
+      "desc": "Stopping a container involves halting the execution of a running Docker container, allowing you to gracefully terminate its processes."
+    },
+    {
+      "key": "docker/restart",
+      "slug": "restart",
+      "name": "Restart Container",
+      "desc": "Restarting a container means stopping and then immediately starting it again, which can be useful for applying configuration changes or resolving issues."
+    },
+    {
+      "key": "docker/rm",
+      "slug": "rm",
+      "name": "Remove Container",
+      "desc": "Removing a container removes it from the system, freeing up resources. It's important for managing container lifecycles."
+    },
+    {
+      "key": "docker/attach",
+      "slug": "attach",
+      "name": "Attach to Container",
+      "desc": "Attaching to a container allows you to interact with its processes in real-time, useful for debugging and monitoring."
+    },
+    {
+      "key": "docker/exec",
+      "slug": "exec",
+      "name": "Execute Command in Container",
+      "desc": "Executing commands in a container lets you perform specific actions within the container's environment without accessing the host."
+    },
+    {
+      "key": "docker/logs",
+      "slug": "logs",
+      "name": "View Container Logs",
+      "desc": "Viewing container logs provides insight into the output and behavior of processes running inside a container."
+    },
+    {
+      "key": "docker/inspect",
+      "slug": "inspect",
+      "name": "Inspect Container",
+      "desc": "Inspecting a container provides detailed information about its configuration and settings."
+    },
+    {
+      "key": "docker/top",
+      "slug": "top",
+      "name": "Display Running Processes in Container",
+      "desc": "Displaying running processes within a container helps monitor its activity and resource usage."
+    },
+    {
+      "key": "docker/create",
+      "slug": "create",
+      "name": "Create Container",
+      "desc": "Creating a container involves defining its configuration and settings based on an image, preparing it for execution."
+    },
+    {
+      "key": "docker/port",
+      "slug": "port",
+      "name": "List Container Ports",
+      "desc": "Listing container ports reveals the network ports exposed by a container, which is essential for networking and communication."
+    },
+    {
+      "key": "docker/pull",
+      "slug": "pull",
+      "name": "Pull Image from Repository",
+      "desc": "Pulling an image from a repository downloads it from a remote registry, making it available for running containers."
+    },
+    {
+      "key": "docker/tag",
+      "slug": "tag",
+      "name": "Tag an Image",
+      "desc": "Tagging an image allows you to assign a custom label to it, making it easier to identify and manage."
+    },
+    {
+      "key": "docker/push",
+      "slug": "push",
+      "name": "Push Image to Repository",
+      "desc": "Pushing an image to a repository uploads it to a remote registry, making it accessible to others."
+    },
+    {
+      "key": "docker/rmi",
+      "slug": "rmi",
+      "name": "Remove Image",
+      "desc": "Removing an image deletes it from the local system, freeing up storage space."
+    },
+    {
+      "key": "docker/images",
+      "slug": "images",
+      "name": "List Images",
+      "desc": "Listing images provides an overview of the Docker images available on the local system."
+    },
+    {
+      "key": "docker/search",
+      "slug": "search",
+      "name": "Search Images in Repository",
+      "desc": "Searching for images in a repository allows you to discover and explore available Docker images."
+    },
+    {
+      "key": "docker/save",
+      "slug": "save",
+      "name": "Save Image",
+      "desc": "Docker save command is used to export a Docker image as a tar file, which can be shared or transferred to another system."
+    },
+    {
+      "key": "docker/load",
+      "slug": "load",
+      "name": "Load Image",
+      "desc": "The Docker load command is used to import a Docker image from a tar file into the local Docker image repository."
+    },
+    {
+      "key": "docker/cp",
+      "slug": "cp",
+      "name": "Copy Data Between Host and Container",
+      "desc": "Copying data between the host and containers is essential for sharing files and data between the Docker environment and the host system."
+    },
+    {
+      "key": "docker/volume",
+      "slug": "volume",
+      "name": "Manage Volumes",
+      "desc": "Managing volumes involves creating, deleting, and inspecting Docker volumes, which are used for data storage."
+    },
+    {
+      "key": "docker/info",
+      "slug": "info",
+      "name": "Display System-Wide Information",
+      "desc": "Displaying system-wide information provides an overview of the Docker system, including resources, containers, and networks."
+    },
+    {
+      "key": "docker/version",
+      "slug": "version",
+      "name": "Show Docker Version",
+      "desc": "Showing the Docker version provides details about the installed Docker software, helping to ensure compatibility and track updates."
+    },
+    {
+      "key": "docker/login",
+      "slug": "login",
+      "name": "Log into Docker Registry",
+      "desc": "Logging into a Docker registry is necessary to access private container images and repositories securely."
+    },
+    {
+      "key": "docker/logout",
+      "slug": "logout",
+      "name": "Log out from Docker Registry",
+      "desc": "Logging out from a Docker registry terminates the authentication session, improving security when not actively using the registry."
+    },
+    {
+      "key": "docker/system",
+      "slug": "system",
+      "name": "Manage Docker",
+      "desc": "Managing Docker involves tasks like starting and stopping the Docker daemon and configuring its behavior."
+    },
+    {
+      "key": "docker/prune",
+      "slug": "prune",
+      "name": "Remove Unused Docker Objects",
+      "desc": "Removing unused Docker objects, such as stopped containers, dangling images, and unused volumes, helps reclaim disk space and maintain system efficiency."
+    },
+    {
+      "key": "docker/network",
+      "slug": "network",
+      "name": "Manage Networks",
+      "desc": "Managing Docker networks allows you to configure network connectivity between containers and the host, enabling communication and isolation."
+    },
+    {
+      "key": "docker/build",
+      "slug": "build",
+      "name": "Build Image from Dockerfile",
+      "desc": "Building an image from a Dockerfile involves following the instructions defined in the Dockerfile to create a customized Docker image, tailored to specific application requirements."
+    }
+  ]
+}

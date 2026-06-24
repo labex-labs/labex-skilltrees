@@ -1,0 +1,1647 @@
+{
+  "key": "react",
+  "slug": "react",
+  "name": "React",
+  "skills": [
+    {
+      "key": "react/rendering_model",
+      "slug": "rendering_model",
+      "name": "Rendering Model",
+      "desc": "Rendering model covers how React turns component output into UI updates and reconciles changes.",
+      "i18n": {
+        "zh": {
+          "name": "渲染模型",
+          "desc": "渲染模型涵盖了 React 如何将组件输出转换为 UI 更新并协调更改。"
+        },
+        "es": {
+          "name": "Modelo de renderizado",
+          "desc": "El modelo de renderizado cubre cómo React convierte la salida del componente en actualizaciones de la interfaz de usuario y concilia los cambios."
+        },
+        "fr": {
+          "name": "Modèle de rendu",
+          "desc": "Le modèle de rendu explique comment React transforme la sortie des composants en mises à jour de l'interface utilisateur et réconcilie les modifications."
+        },
+        "de": {
+          "name": "Rendering-Modell",
+          "desc": "Das Rendering-Modell deckt ab, wie React-Komponentenausgaben in UI-Aktualisierungen umwandelt und Änderungen abgleicht."
+        },
+        "ja": {
+          "name": "レンダリングモデル",
+          "desc": "レンダリングモデルでは、React がコンポーネント出力を UI 更新に変換し、変更を調整する方法について説明します。"
+        },
+        "ru": {
+          "name": "Модель рендеринга",
+          "desc": "Модель рендеринга описывает, как React превращает выходные данные компонента в обновления пользовательского интерфейса и согласовывает изменения."
+        },
+        "ko": {
+          "name": "렌더링 모델",
+          "desc": "렌더링 모델은 React가 컴포넌트 출력을 UI 업데이트로 변환하고 변경 사항을 조정하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelo de renderização",
+          "desc": "O modelo de renderização cobre como React transforma a saída do componente em atualizações da IU e reconcilia as alterações."
+        }
+      }
+    },
+    {
+      "key": "react/jsx",
+      "slug": "jsx",
+      "name": "JSX",
+      "desc": "JSX covers writing component markup expressions and understanding how JSX maps to React elements.",
+      "i18n": {
+        "zh": {
+          "name": "JSX",
+          "desc": "JSX 涵盖了编写组件标记表达式以及理解 JSX 如何映射到 React 元素。"
+        },
+        "es": {
+          "name": "JSX",
+          "desc": "JSX cubre la escritura de expresiones de marcado de componentes y la comprensión de cómo JSX se asigna a elementos React."
+        },
+        "fr": {
+          "name": "JSX",
+          "desc": "JSX couvre l'écriture d'expressions de balisage de composants et la compréhension de la manière dont JSX correspond aux éléments React."
+        },
+        "de": {
+          "name": "JSX",
+          "desc": "JSX behandelt das Schreiben von Komponenten-Markup-Ausdrücken und das Verständnis, wie JSX auf React-Elemente abgebildet wird."
+        },
+        "ja": {
+          "name": "JSX",
+          "desc": "JSX では、コンポーネントのマークアップ式の作成と、JSX が React 要素にどのようにマッピングされるかを理解します。"
+        },
+        "ru": {
+          "name": "JSX",
+          "desc": "JSX охватывает написание выражений разметки компонентов и понимание того, как JSX сопоставляется с элементами React."
+        },
+        "ko": {
+          "name": "JSX",
+          "desc": "JSX에서는 구성요소 마크업 표현식 작성 및 JSX가 React 요소에 매핑되는 방식을 이해합니다."
+        },
+        "pt": {
+          "name": "JSX",
+          "desc": "JSX cobre a escrita de expressões de marcação de componentes e a compreensão de como JSX mapeia para elementos React."
+        }
+      }
+    },
+    {
+      "key": "react/component_definition",
+      "slug": "component_definition",
+      "name": "Component Definition",
+      "desc": "Component definition covers declaring reusable React components with predictable inputs and output.",
+      "i18n": {
+        "zh": {
+          "name": "组件定义",
+          "desc": "组件定义涵盖声明具有可预测输入和输出的可重用 React 组件。"
+        },
+        "es": {
+          "name": "Definición de componente",
+          "desc": "La definición de componentes cubre la declaración de componentes React reutilizables con entradas y salidas predecibles."
+        },
+        "fr": {
+          "name": "Définition des composants",
+          "desc": "La définition des composants couvre la déclaration de composants React réutilisables avec des entrées et des sorties prévisibles."
+        },
+        "de": {
+          "name": "Komponentendefinition",
+          "desc": "Die Komponentendefinition umfasst die Deklaration wiederverwendbarer React-Komponenten mit vorhersehbaren Eingaben und Ausgaben."
+        },
+        "ja": {
+          "name": "コンポーネントの定義",
+          "desc": "コンポーネント定義では、予測可能な入力と出力を備えた再利用可能な React コンポーネントの宣言を扱います。"
+        },
+        "ru": {
+          "name": "Определение компонента",
+          "desc": "Определение компонента охватывает объявление повторно используемых компонентов React с предсказуемыми входными и выходными данными."
+        },
+        "ko": {
+          "name": "컴포넌트 정의",
+          "desc": "컴포넌트 정의에서는 예측 가능한 입력 및 출력을 사용하여 재사용 가능한 React 컴포넌트를 선언하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Definição de componente",
+          "desc": "A definição de componentes abrange a declaração de componentes React reutilizáveis com entradas e saídas previsíveis."
+        }
+      }
+    },
+    {
+      "key": "react/props",
+      "slug": "props",
+      "name": "Props",
+      "desc": "Props cover passing data and callbacks into components through explicit component inputs.",
+      "i18n": {
+        "zh": {
+          "name": "props",
+          "desc": "props 涵盖通过显式组件输入将数据和回调传递到组件中。"
+        },
+        "es": {
+          "name": "props",
+          "desc": "props cubre pasar datos y funciones callback a componentes mediante entradas explícitas de componentes."
+        },
+        "fr": {
+          "name": "props",
+          "desc": "props couvre la transmission de données et de fonctions de rappel aux composants via des entrées de composants explicites."
+        },
+        "de": {
+          "name": "props",
+          "desc": "props behandeln die Weitergabe von Daten und Callbacks an Komponenten über explizite Komponenteneingaben."
+        },
+        "ja": {
+          "name": "props",
+          "desc": "Props では、明示的なコンポーネント入力を介してコンポーネントにデータとコールバックを渡す方法について説明します。"
+        },
+        "ru": {
+          "name": "props",
+          "desc": "props охватывают передачу данных и обратных вызовов в компоненты через явные входные данные компонентов."
+        },
+        "ko": {
+          "name": "props",
+          "desc": "props는 명시적인 컴포넌트 입력을 통해 데이터와 콜백을 컴포넌트에 전달하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "props",
+          "desc": "props cobrem a passagem de dados e funções callback para componentes por meio de entradas explícitas de componentes."
+        }
+      }
+    },
+    {
+      "key": "react/state",
+      "slug": "state",
+      "name": "State",
+      "desc": "State covers storing component-owned data that changes over time and affects rendering.",
+      "i18n": {
+        "zh": {
+          "name": "状态",
+          "desc": "状态涵盖存储随时间变化并影响渲染的组件拥有的数据。"
+        },
+        "es": {
+          "name": "Estado",
+          "desc": "El estado cubre el almacenamiento de datos propiedad de los componentes que cambian con el tiempo y afectan la representación."
+        },
+        "fr": {
+          "name": "État",
+          "desc": "L'état couvre le stockage des données appartenant aux composants qui changent au fil du temps et affectent le rendu."
+        },
+        "de": {
+          "name": "State",
+          "desc": "Der Status umfasst das Speichern komponenteneigener Daten, die sich im Laufe der Zeit ändern und das Rendering beeinflussen."
+        },
+        "ja": {
+          "name": "状態",
+          "desc": "状態は、時間の経過とともに変化し、レンダリングに影響を与える、コンポーネントが所有するデータの保存を扱います。"
+        },
+        "ru": {
+          "name": "Состояние",
+          "desc": "Состояние охватывает хранение данных, принадлежащих компоненту, которые изменяются со временем и влияют на рендеринг."
+        },
+        "ko": {
+          "name": "상태",
+          "desc": "상태에는 시간이 지남에 따라 변경되고 렌더링에 영향을 미치는 컴포넌트 소유 데이터 저장이 포함됩니다."
+        },
+        "pt": {
+          "name": "Estado",
+          "desc": "O estado abrange o armazenamento de dados de propriedade do componente que mudam com o tempo e afetam a renderização."
+        }
+      }
+    },
+    {
+      "key": "react/events",
+      "slug": "events",
+      "name": "Events",
+      "desc": "Events cover responding to user interactions through React event handlers.",
+      "i18n": {
+        "zh": {
+          "name": "事件",
+          "desc": "事件包括通过 React 事件处理程序响应用户交互。"
+        },
+        "es": {
+          "name": "Eventos",
+          "desc": "Los eventos cubren la respuesta a las interacciones del usuario a través de controladores de eventos de React."
+        },
+        "fr": {
+          "name": "Événements",
+          "desc": "Les événements couvrent la réponse aux interactions des utilisateurs via les gestionnaires d'événements React."
+        },
+        "de": {
+          "name": "Ereignisse",
+          "desc": "Ereignisse umfassen die Reaktion auf Benutzerinteraktionen durch React-Ereignishandler."
+        },
+        "ja": {
+          "name": "イベント",
+          "desc": "イベントには、React イベントハンドラーを介したユーザーインタラクションへの応答が含まれます。"
+        },
+        "ru": {
+          "name": "События",
+          "desc": "События охватывают реакцию на взаимодействие пользователя с помощью обработчиков событий React."
+        },
+        "ko": {
+          "name": "이벤트",
+          "desc": "이벤트는 React 이벤트 핸들러를 통한 사용자 상호작용에 대한 응답을 다룹니다."
+        },
+        "pt": {
+          "name": "Eventos",
+          "desc": "Os eventos cobrem a resposta às interações do usuário por meio de manipuladores de eventos React."
+        }
+      }
+    },
+    {
+      "key": "react/conditional_rendering",
+      "slug": "conditional_rendering",
+      "name": "Conditional Rendering",
+      "desc": "Conditional rendering covers choosing UI output based on state, props, and application conditions.",
+      "i18n": {
+        "zh": {
+          "name": "条件渲染",
+          "desc": "条件渲染涵盖根据状态、props 和应用程序条件选择 UI 输出。"
+        },
+        "es": {
+          "name": "Representación condicional",
+          "desc": "La representación condicional cubre la elección de la salida de la interfaz de usuario según el estado, props y las condiciones de la aplicación."
+        },
+        "fr": {
+          "name": "Rendu conditionnel",
+          "desc": "Le rendu conditionnel couvre le choix de la sortie de l'interface utilisateur en fonction de l'état, props et des conditions d'application."
+        },
+        "de": {
+          "name": "Bedingtes Rendern",
+          "desc": "Das bedingte Rendering umfasst die Auswahl der UI-Ausgabe basierend auf Status, props und Anwendungsbedingungen."
+        },
+        "ja": {
+          "name": "条件付きレンダリング",
+          "desc": "条件付きレンダリングでは、状態、props、およびアプリケーションの条件に基づいて UI 出力を選択します。"
+        },
+        "ru": {
+          "name": "Условный рендеринг",
+          "desc": "Условный рендеринг охватывает выбор вывода пользовательского интерфейса на основе состояния, props и условий приложения."
+        },
+        "ko": {
+          "name": "조건부 렌더링",
+          "desc": "조건부 렌더링에는 상태, props 및 애플리케이션 조건을 기반으로 UI 출력 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Renderização Condicional",
+          "desc": "A renderização condicional abrange a escolha da saída da UI com base no estado, props e nas condições do aplicativo."
+        }
+      }
+    },
+    {
+      "key": "react/list_rendering",
+      "slug": "list_rendering",
+      "name": "List Rendering",
+      "desc": "List rendering covers producing repeated component output from arrays and other collections.",
+      "i18n": {
+        "zh": {
+          "name": "列表渲染",
+          "desc": "列表渲染涵盖从数组和其他集合生成重复的组件输出。"
+        },
+        "es": {
+          "name": "Representación de lista",
+          "desc": "La representación de listas cubre la producción de resultados de componentes repetidos a partir de arreglos y otras colecciones."
+        },
+        "fr": {
+          "name": "Rendu de liste",
+          "desc": "Le rendu de liste couvre la production de sorties de composants répétées à partir de tableaux et d'autres collections."
+        },
+        "de": {
+          "name": "Listen-Rendering",
+          "desc": "Das Rendern von Listen umfasst die Erzeugung wiederholter Komponentenausgaben aus Arrays und anderen Sammlungen."
+        },
+        "ja": {
+          "name": "リストのレンダリング",
+          "desc": "リストのレンダリングでは、配列やその他のコレクションから繰り返しコンポーネント出力を生成します。"
+        },
+        "ru": {
+          "name": "Рендеринг списка",
+          "desc": "Рендеринг списков охватывает создание повторяющегося вывода компонентов из массивов и других коллекций."
+        },
+        "ko": {
+          "name": "목록 렌더링",
+          "desc": "목록 렌더링은 배열 및 기타 컬렉션에서 반복되는 컴포넌트 출력 생성을 다룹니다."
+        },
+        "pt": {
+          "name": "Renderização de lista",
+          "desc": "A renderização de lista abrange a produção de saídas repetidas de componentes de arrays e outras coleções."
+        }
+      }
+    },
+    {
+      "key": "react/keys",
+      "slug": "keys",
+      "name": "Keys",
+      "desc": "Keys cover stable identity for repeated children during reconciliation and list updates.",
+      "i18n": {
+        "zh": {
+          "name": "key",
+          "desc": "key 涵盖在协调和列表更新期间为重复子元素提供稳定标识。"
+        },
+        "es": {
+          "name": "keys",
+          "desc": "Las keys cubren la identidad estable de elementos repetidos durante la reconciliación y las actualizaciones de listas."
+        },
+        "fr": {
+          "name": "keys",
+          "desc": "Les keys couvrent l'identité stable des éléments répétés lors de la réconciliation et des mises à jour de liste."
+        },
+        "de": {
+          "name": "keys",
+          "desc": "Keys decken stabile Identitäten für wiederholte Elemente während Reconciliation und Listenaktualisierungen ab."
+        },
+        "ja": {
+          "name": "key",
+          "desc": "key は、reconciliation とリスト更新の間に繰り返し要素へ安定した識別子を与えることを扱います。"
+        },
+        "ru": {
+          "name": "keys",
+          "desc": "Keys охватывают стабильную идентификацию повторяющихся элементов при согласовании и обновлении списков."
+        },
+        "ko": {
+          "name": "key",
+          "desc": "key는 reconciliation과 목록 업데이트 중 반복 요소에 안정적인 식별자를 제공하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "keys",
+          "desc": "Keys cobrem a identidade estável de elementos repetidos durante a reconciliação e atualizações de listas."
+        }
+      }
+    },
+    {
+      "key": "react/component_composition",
+      "slug": "component_composition",
+      "name": "Component Composition",
+      "desc": "Component composition covers combining small components into larger interface structures.",
+      "i18n": {
+        "zh": {
+          "name": "组件组合",
+          "desc": "组件组合涵盖将小组件组合成更大的界面结构。"
+        },
+        "es": {
+          "name": "Composición de componentes",
+          "desc": "La composición de componentes cubre la combinación de componentes pequeños en estructuras de interfaz más grandes."
+        },
+        "fr": {
+          "name": "Composition des composants",
+          "desc": "La composition des composants couvre la combinaison de petits composants dans des structures d'interface plus grandes."
+        },
+        "de": {
+          "name": "Komponentenzusammensetzung",
+          "desc": "Die Komponentenzusammensetzung umfasst die Kombination kleiner Komponenten zu größeren Schnittstellenstrukturen."
+        },
+        "ja": {
+          "name": "コンポーネント合成",
+          "desc": "コンポーネント合成は、小さなコンポーネントを組み合わせて、より大きなインターフェイス構造を作ることを扱います。"
+        },
+        "ru": {
+          "name": "Композиция компонентов",
+          "desc": "Композиция компонентов охватывает объединение небольших компонентов в более крупные интерфейсные структуры."
+        },
+        "ko": {
+          "name": "컴포넌트 구성",
+          "desc": "컴포넌트 구성은 작은 컴포넌트를 더 큰 인터페이스 구조로 결합하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Composição de componentes",
+          "desc": "A composição de componentes abrange a combinação de pequenos componentes em estruturas de interface maiores."
+        }
+      }
+    },
+    {
+      "key": "react/children",
+      "slug": "children",
+      "name": "Children",
+      "desc": "Children cover passing nested component content and composing flexible container components.",
+      "i18n": {
+        "zh": {
+          "name": "children",
+          "desc": "children 涵盖传递嵌套组件内容，以及组合灵活的容器组件。"
+        },
+        "es": {
+          "name": "children",
+          "desc": "children cubre el paso de contenido de componentes anidados y la composición de componentes contenedores flexibles."
+        },
+        "fr": {
+          "name": "children",
+          "desc": "children couvre le passage de contenu de composants imbriqués et la composition de composants conteneurs flexibles."
+        },
+        "de": {
+          "name": "children",
+          "desc": "children behandeln die Übergabe verschachtelter Komponenten-Inhalte und die Komposition flexibler Container-Komponenten."
+        },
+        "ja": {
+          "name": "children",
+          "desc": "children は、ネストされたコンポーネント内容の受け渡しと、柔軟なコンテナーコンポーネントの合成を扱います。"
+        },
+        "ru": {
+          "name": "children",
+          "desc": "children охватывают передачу вложенного содержимого компонентов и композицию гибких контейнерных компонентов."
+        },
+        "ko": {
+          "name": "children",
+          "desc": "children은 중첩된 컴포넌트 콘텐츠 전달과 유연한 컨테이너 컴포넌트 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "children",
+          "desc": "children cobrem a passagem de conteúdo de componentes aninhados e a composição de componentes contêineres flexíveis."
+        }
+      }
+    },
+    {
+      "key": "react/state_colocation",
+      "slug": "state_colocation",
+      "name": "State Colocation",
+      "desc": "State colocation covers keeping state close to the components that need to read or update it.",
+      "i18n": {
+        "zh": {
+          "name": "状态就近放置",
+          "desc": "状态就近放置涵盖将状态保留在需要读取或更新它的组件附近。"
+        },
+        "es": {
+          "name": "Colocación de estado",
+          "desc": "La colocación de estado cubre mantener el estado cerca de los componentes que necesitan leerlo o actualizarlo."
+        },
+        "fr": {
+          "name": "Colocation de l’état",
+          "desc": "La colocation de l’état consiste à garder l’état près des composants qui doivent le lire ou le mettre à jour."
+        },
+        "de": {
+          "name": "State-Colocation",
+          "desc": "State-Colocation behandelt das Platzieren von State nahe bei den Komponenten, die ihn lesen oder aktualisieren müssen."
+        },
+        "ja": {
+          "name": "状態のコロケーション",
+          "desc": "状態のコロケーションは、状態を読み取りまたは更新する必要があるコンポーネントの近くに状態を置くことを扱います。"
+        },
+        "ru": {
+          "name": "Совместное размещение состояния",
+          "desc": "Совместное размещение состояния охватывает хранение состояния рядом с компонентами, которым нужно его читать или обновлять."
+        },
+        "ko": {
+          "name": "상태 공동 배치",
+          "desc": "상태 공동 배치는 상태를 읽거나 업데이트해야 하는 컴포넌트 가까이에 상태를 두는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Colocação de estado",
+          "desc": "A colocação de estado cobre manter o estado próximo dos componentes que precisam lê-lo ou atualizá-lo."
+        }
+      }
+    },
+    {
+      "key": "react/derived_state",
+      "slug": "derived_state",
+      "name": "Derived State",
+      "desc": "Derived state covers computing render values from existing state and props without duplicating sources of truth.",
+      "i18n": {
+        "zh": {
+          "name": "派生状态",
+          "desc": "派生状态涵盖从现有状态和 props 计算渲染值，而不重复单一事实来源。"
+        },
+        "es": {
+          "name": "Estado derivado",
+          "desc": "El estado derivado cubre el cálculo de los valores de representación del estado existente y props sin duplicar fuentes de verdad."
+        },
+        "fr": {
+          "name": "État dérivé",
+          "desc": "L'état dérivé couvre le calcul des valeurs de rendu à partir de l'état existant et de props sans dupliquer les sources de vérité."
+        },
+        "de": {
+          "name": "Abgeleiteter Zustand",
+          "desc": "Der abgeleitete Zustand umfasst die Berechnung von Renderwerten aus dem vorhandenen Zustand und props ohne Duplizierung von Wahrheitsquellen."
+        },
+        "ja": {
+          "name": "派生状態",
+          "desc": "派生状態は、信頼できる情報源を複製することなく、既存の状態と props からのレンダリング値の計算を扱います。"
+        },
+        "ru": {
+          "name": "Производное состояние",
+          "desc": "Производное состояние охватывает вычисление значений рендеринга из существующего состояния и props без дублирования источников истины."
+        },
+        "ko": {
+          "name": "파생 상태",
+          "desc": "파생 상태는 원본을 중복하지 않고 기존 상태 및 props에서 렌더링 값을 계산하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Estado Derivado",
+          "desc": "O estado derivado cobre a computação de valores de renderização do estado existente e props sem duplicar fontes de verdade."
+        }
+      }
+    },
+    {
+      "key": "react/immutable_updates",
+      "slug": "immutable_updates",
+      "name": "Immutable Updates",
+      "desc": "Immutable updates cover changing arrays and objects in ways that preserve React state identity rules.",
+      "i18n": {
+        "zh": {
+          "name": "不可变更新",
+          "desc": "不可变更新涵盖以保留 React 状态标识规则的方式更改数组和对象。"
+        },
+        "es": {
+          "name": "Actualizaciones inmutables",
+          "desc": "Las actualizaciones inmutables cubren el cambio de arreglos y objetos de manera que preserven las reglas de identidad del estado React."
+        },
+        "fr": {
+          "name": "Mises à jour immuables",
+          "desc": "Les mises à jour immuables couvrent la modification des tableaux et des objets de manière à préserver les règles d'identité d'état React."
+        },
+        "de": {
+          "name": "Unveränderliche Updates",
+          "desc": "Unveränderliche Aktualisierungen umfassen das Ändern von Arrays und Objekten auf eine Weise, die die Identitätsregeln von React-State beibehält."
+        },
+        "ja": {
+          "name": "不変の更新",
+          "desc": "不変の更新は、React 状態のアイデンティティルールを保持する方法で配列とオブジェクトの変更を扱います。"
+        },
+        "ru": {
+          "name": "Неизменяемые обновления",
+          "desc": "Неизменяемые обновления охватывают изменение массивов и объектов таким образом, чтобы сохранять правила идентичности состояния React."
+        },
+        "ko": {
+          "name": "불변 업데이트",
+          "desc": "불변 업데이트는 React 상태 식별 규칙을 유지하는 방식으로 배열 및 객체를 변경하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Atualizações imutáveis",
+          "desc": "Atualizações imutáveis cobrem a alteração de arrays e objetos de forma a preservar as regras de identidade do estado React."
+        }
+      }
+    },
+    {
+      "key": "react/controlled_inputs",
+      "slug": "controlled_inputs",
+      "name": "Controlled Inputs",
+      "desc": "Controlled inputs cover binding form controls to React state and change handlers.",
+      "i18n": {
+        "zh": {
+          "name": "受控表单输入",
+          "desc": "受控表单输入涵盖将表单控件绑定到 React 状态和更改处理程序。"
+        },
+        "es": {
+          "name": "Entradas controladas",
+          "desc": "Las entradas controladas cubren la vinculación de controles de formulario al estado de React y a los manejadores de cambios."
+        },
+        "fr": {
+          "name": "Entrées contrôlées",
+          "desc": "Les entrées contrôlées couvrent la liaison des contrôles de formulaire à l’état React et aux gestionnaires de changement."
+        },
+        "de": {
+          "name": "Kontrollierte Eingaben",
+          "desc": "Kontrollierte Eingaben behandeln die Bindung von Formularsteuerelementen an React-State und Change-Handler."
+        },
+        "ja": {
+          "name": "制御された入力",
+          "desc": "制御された入力は、フォームコントロールを React の状態および変更ハンドラーにバインドすることを扱います。"
+        },
+        "ru": {
+          "name": "Контролируемые входы",
+          "desc": "Контролируемые поля ввода охватывают привязку элементов формы к состоянию React и обработчикам изменений."
+        },
+        "ko": {
+          "name": "제어된 입력",
+          "desc": "제어된 입력은 폼 컨트롤을 React 상태와 변경 핸들러에 바인딩하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Entradas controladas",
+          "desc": "As entradas controladas cobrem a vinculação de controles de formulário ao estado React e aos manipuladores de mudança."
+        }
+      }
+    },
+    {
+      "key": "react/form_state",
+      "slug": "form_state",
+      "name": "Form State",
+      "desc": "Form state covers managing input values, validation feedback, submission state, and form resets.",
+      "i18n": {
+        "zh": {
+          "name": "表单状态",
+          "desc": "表单状态涵盖管理输入值、验证反馈、提交状态和表单重置。"
+        },
+        "es": {
+          "name": "Estado del formulario",
+          "desc": "El estado del formulario cubre la gestión de valores de entrada, comentarios de validación, estado de envío y restablecimientos de formulario."
+        },
+        "fr": {
+          "name": "État du formulaire",
+          "desc": "L'état du formulaire couvre la gestion des valeurs d'entrée, les commentaires de validation, l'état de soumission et les réinitialisations du formulaire."
+        },
+        "de": {
+          "name": "Formularstatus",
+          "desc": "Der Formularstatus umfasst die Verwaltung von Eingabewerten, Validierungsfeedback, Übermittlungsstatus und Formularzurücksetzungen."
+        },
+        "ja": {
+          "name": "フォームの状態",
+          "desc": "フォームの状態には、入力値、検証フィードバック、送信状態、フォームのリセットの管理が含まれます。"
+        },
+        "ru": {
+          "name": "Состояние формы",
+          "desc": "Состояние формы охватывает управление значениями ввода, обратной связью валидации, состоянием отправки и сбросом формы."
+        },
+        "ko": {
+          "name": "폼 상태",
+          "desc": "폼 상태는 입력 값, 유효성 검사 피드백, 제출 상태 및 폼 재설정을 관리하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Estado do formulário",
+          "desc": "O estado do formulário abrange o gerenciamento de valores de entrada, feedback de validação, estado de envio e redefinições de formulário."
+        }
+      }
+    },
+    {
+      "key": "react/rules_of_hooks",
+      "slug": "rules_of_hooks",
+      "name": "Rules of Hooks",
+      "desc": "Rules of Hooks cover calling hooks consistently so React can preserve component state correctly.",
+      "i18n": {
+        "zh": {
+          "name": "Hooks 规则",
+          "desc": "Hooks 规则涵盖一致地调用 hooks，因此 React 可以正确保留组件状态。"
+        },
+        "es": {
+          "name": "Reglas de Hooks",
+          "desc": "Las reglas de Hooks cubren la llamada a Hooks de manera consistente para que React pueda preservar el estado del componente correctamente."
+        },
+        "fr": {
+          "name": "Règles des Hooks",
+          "desc": "Les règles des Hooks couvrent l'appel des hooks de manière cohérente afin que React puisse préserver correctement l'état des composants."
+        },
+        "de": {
+          "name": "Regeln für Hooks",
+          "desc": "Die Hook-Regeln decken das Aufrufen von Hooks konsistent ab, sodass React den Komponentenstatus korrekt beibehalten kann."
+        },
+        "ja": {
+          "name": "フックのルール",
+          "desc": "フックのルールは、React がコンポーネントの状態を正しく保持できるように、フックを一貫した順序で呼び出すための規則を扱います。"
+        },
+        "ru": {
+          "name": "Правила хуков",
+          "desc": "Правила хуков охватывают согласованный порядок вызова хуков, чтобы React мог корректно сохранять состояние компонента."
+        },
+        "ko": {
+          "name": "Hooks 규칙",
+          "desc": "Hooks 규칙은 React가 컴포넌트 상태를 올바르게 보존할 수 있도록 Hooks를 일관된 순서로 호출하는 규칙을 다룹니다."
+        },
+        "pt": {
+          "name": "Regras dos Hooks",
+          "desc": "As regras de Hooks cobrem a chamada de Hooks de forma consistente para que React possa preservar o estado do componente corretamente."
+        }
+      }
+    },
+    {
+      "key": "react/use_state",
+      "slug": "use_state",
+      "name": "useState",
+      "desc": "useState covers adding local state to function components and updating it safely.",
+      "i18n": {
+        "zh": {
+          "name": "useState",
+          "desc": "useState 涵盖向函数组件添加本地状态并安全地更新它。"
+        },
+        "es": {
+          "name": "useState",
+          "desc": "useState cubre cómo agregar el estado local a los componentes funcionales y actualizarlo de forma segura."
+        },
+        "fr": {
+          "name": "useState",
+          "desc": "useState couvre l'ajout d'un état local aux composants fonctionnels et sa mise à jour en toute sécurité."
+        },
+        "de": {
+          "name": "useState",
+          "desc": "useState behandelt das Hinzufügen eines lokalen Status zu Funktionskomponenten und dessen sichere Aktualisierung."
+        },
+        "ja": {
+          "name": "useState",
+          "desc": "useState では、関数コンポーネントへのローカル状態の追加と安全な更新について説明します。"
+        },
+        "ru": {
+          "name": "useState",
+          "desc": "useState описывает добавление локального состояния к функциональным компонентам и его безопасное обновление."
+        },
+        "ko": {
+          "name": "useState",
+          "desc": "useState에서는 함수 컴포넌트에 로컬 상태를 추가하고 안전하게 업데이트하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "useState",
+          "desc": "useState cobre a adição de estado local aos componentes funcionais e sua atualização com segurança."
+        }
+      }
+    },
+    {
+      "key": "react/use_effect",
+      "slug": "use_effect",
+      "name": "useEffect",
+      "desc": "useEffect covers synchronizing components with external systems after rendering.",
+      "i18n": {
+        "zh": {
+          "name": "useEffect",
+          "desc": "useEffect 涵盖渲染后与外部系统同步组件。"
+        },
+        "es": {
+          "name": "useEffect",
+          "desc": "useEffect cubre la sincronización de componentes con sistemas externos después del renderizado."
+        },
+        "fr": {
+          "name": "useEffect",
+          "desc": "useEffect couvre la synchronisation des composants avec des systèmes externes après le rendu."
+        },
+        "de": {
+          "name": "useEffect",
+          "desc": "useEffect behandelt die Synchronisierung von Komponenten mit externen Systemen nach dem Rendern."
+        },
+        "ja": {
+          "name": "useEffect",
+          "desc": "useEffect では、レンダリング後のコンポーネントと外部システムの同期について説明します。"
+        },
+        "ru": {
+          "name": "useEffect",
+          "desc": "useEffect описывает синхронизацию компонентов с внешними системами после рендеринга."
+        },
+        "ko": {
+          "name": "useEffect",
+          "desc": "useEffect는 렌더링 후 컴포넌트를 외부 시스템과 동기화하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "useEffect",
+          "desc": "useEffect aborda a sincronização de componentes com sistemas externos após a renderização."
+        }
+      }
+    },
+    {
+      "key": "react/effect_cleanup",
+      "slug": "effect_cleanup",
+      "name": "Effect Cleanup",
+      "desc": "Effect cleanup covers releasing subscriptions, timers, requests, and other external resources.",
+      "i18n": {
+        "zh": {
+          "name": "Effect 清理",
+          "desc": "Effect 清理涵盖释放订阅、计时器、请求和其他外部资源。"
+        },
+        "es": {
+          "name": "Limpieza de efectos",
+          "desc": "La limpieza de efectos cubre la liberación de suscripciones, temporizadores, solicitudes y otros recursos externos."
+        },
+        "fr": {
+          "name": "Nettoyage des effets",
+          "desc": "Le nettoyage des effets couvre la libération des abonnements, des minuteurs, des requêtes et d’autres ressources externes."
+        },
+        "de": {
+          "name": "Effektbereinigung",
+          "desc": "Die Effektbereinigung behandelt die Freigabe von Abonnements, Timern, Anfragen und anderen externen Ressourcen."
+        },
+        "ja": {
+          "name": "Effect のクリーンアップ",
+          "desc": "Effect のクリーンアップは、サブスクリプション、タイマー、リクエスト、その他の外部リソースの解放を扱います。"
+        },
+        "ru": {
+          "name": "Очистка побочных эффектов",
+          "desc": "Очистка побочных эффектов охватывает освобождение подписок, таймеров, запросов и других внешних ресурсов."
+        },
+        "ko": {
+          "name": "Effect 정리",
+          "desc": "Effect 정리는 구독, 타이머, 요청 및 기타 외부 리소스를 해제하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Limpeza de efeitos",
+          "desc": "A limpeza de efeitos abrange a liberação de assinaturas, temporizadores, solicitações e outros recursos externos."
+        }
+      }
+    },
+    {
+      "key": "react/refs",
+      "slug": "refs",
+      "name": "Refs",
+      "desc": "Refs cover retaining mutable values and accessing DOM nodes without driving render output.",
+      "i18n": {
+        "zh": {
+          "name": "Refs",
+          "desc": "Refs 涵盖保留可变值，以及在不驱动渲染输出的情况下访问 DOM 节点。"
+        },
+        "es": {
+          "name": "Refs",
+          "desc": "Refs cubre conservar valores mutables y acceder a nodos DOM sin controlar la salida de renderizado."
+        },
+        "fr": {
+          "name": "Refs",
+          "desc": "Les refs couvrent la conservation de valeurs mutables et l’accès aux nœuds DOM sans piloter la sortie de rendu."
+        },
+        "de": {
+          "name": "Refs",
+          "desc": "Refs behandeln das Beibehalten veränderlicher Werte und den Zugriff auf DOM-Knoten, ohne die Renderausgabe zu steuern."
+        },
+        "ja": {
+          "name": "Refs",
+          "desc": "参照では、可変値を保持し、レンダリング出力を駆動せずに DOM ノードにアクセスすることを扱います。"
+        },
+        "ru": {
+          "name": "Refs",
+          "desc": "Refs охватывают сохранение изменяемых значений и доступ к DOM-узлам без управления результатом рендеринга."
+        },
+        "ko": {
+          "name": "Refs",
+          "desc": "Refs는 렌더 출력에 영향을 주지 않고 변경 가능한 값을 유지하고 DOM 노드에 접근하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Referências",
+          "desc": "As referências cobrem a retenção de valores mutáveis ​​e o acesso a nós DOM sem direcionar a saída de renderização."
+        }
+      }
+    },
+    {
+      "key": "react/context",
+      "slug": "context",
+      "name": "Context",
+      "desc": "Context covers sharing values across component subtrees without passing props through every level.",
+      "i18n": {
+        "zh": {
+          "name": "Context",
+          "desc": "Context 涵盖了跨组件子树共享值，而无需在每个级别传递 props。"
+        },
+        "es": {
+          "name": "Contexto",
+          "desc": "Context cubre compartir valores entre subárboles de componentes sin pasar props por cada nivel."
+        },
+        "fr": {
+          "name": "Contexte",
+          "desc": "Context couvre le partage de valeurs entre les sous-arbres de composants sans passer props à travers chaque niveau."
+        },
+        "de": {
+          "name": "Kontext",
+          "desc": "Context behandelt die gemeinsame Nutzung von Werten über Komponenten-Teilbäume hinweg, ohne props durch jede Ebene weiterzugeben."
+        },
+        "ja": {
+          "name": "Context",
+          "desc": "Context では、すべてのレベルを介して props を通過することなく、コンポーネントのサブツリー間で値を共有する方法について説明します。"
+        },
+        "ru": {
+          "name": "Контекст",
+          "desc": "Context охватывает совместное использование значений в поддеревьях компонентов без передачи props через каждый уровень."
+        },
+        "ko": {
+          "name": "Context",
+          "desc": "Context는 모든 레벨을 통해 props를 전달하지 않고 컴포넌트 하위 트리 전체에서 값을 공유하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Contexto",
+          "desc": "Context cobre o compartilhamento de valores entre subárvores de componentes sem passar props por todos os níveis."
+        }
+      }
+    },
+    {
+      "key": "react/reducers",
+      "slug": "reducers",
+      "name": "Reducers",
+      "desc": "Reducers cover managing state transitions with actions and reducer functions.",
+      "i18n": {
+        "zh": {
+          "name": "Reducer",
+          "desc": "Reducer 涵盖使用 action 和 reducer 函数来管理状态转换。"
+        },
+        "es": {
+          "name": "Reducers",
+          "desc": "Reducers cubre la gestión de transiciones de estado con actions y funciones reducer."
+        },
+        "fr": {
+          "name": "Reducers",
+          "desc": "Reducers couvre la gestion des transitions d’état avec des actions et des fonctions reducer."
+        },
+        "de": {
+          "name": "Reducer",
+          "desc": "Reducer decken die Verwaltung von Zustandsübergängen mit Actions und Reducer-Funktionen ab."
+        },
+        "ja": {
+          "name": "Reducer",
+          "desc": "リデューサーは、アクションとリデューサー関数による状態遷移の管理を扱います。"
+        },
+        "ru": {
+          "name": "Reducers",
+          "desc": "Reducers охватывают управление переходами состояния с помощью actions и reducer-функций."
+        },
+        "ko": {
+          "name": "리듀서",
+          "desc": "리듀서는 액션과 리듀서 함수로 상태 전환을 관리하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Reducers",
+          "desc": "Reducers cobrem o gerenciamento de transições de estado com actions e funções reducer."
+        }
+      }
+    },
+    {
+      "key": "react/memoization",
+      "slug": "memoization",
+      "name": "Memoization",
+      "desc": "Memoization covers preserving derived values, callbacks, and component output when dependencies are unchanged.",
+      "i18n": {
+        "zh": {
+          "name": "记忆化",
+          "desc": "记忆化包括在依赖项未更改时保留派生值、回调和组件输出。"
+        },
+        "es": {
+          "name": "Memoización",
+          "desc": "La memoización cubre conservar valores derivados, funciones callback y salida de componentes cuando las dependencias no cambian."
+        },
+        "fr": {
+          "name": "Mémoïsation",
+          "desc": "La mémoïsation couvre la préservation des valeurs dérivées, des fonctions de rappel et de la sortie des composants lorsque les dépendances restent inchangées."
+        },
+        "de": {
+          "name": "Memoisierung",
+          "desc": "Memoisierung behandelt das Beibehalten abgeleiteter Werte, Callbacks und Komponentenausgaben, wenn Abhängigkeiten unverändert bleiben."
+        },
+        "ja": {
+          "name": "メモ化",
+          "desc": "メモ化では、依存関係が変更されていない場合の派生値、コールバック、コンポーネント出力の保持が対象になります。"
+        },
+        "ru": {
+          "name": "Мемоизация",
+          "desc": "Мемоизация охватывает сохранение производных значений, обратных вызовов и вывода компонентов, когда зависимости не изменяются."
+        },
+        "ko": {
+          "name": "메모이제이션",
+          "desc": "메모화에는 종속성이 변경되지 않은 경우 파생 값, 콜백 및 컴포넌트 출력을 유지하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Memoização",
+          "desc": "A memoização cobre a preservação de valores derivados, funções callback e saída de componentes quando as dependências permanecem inalteradas."
+        }
+      }
+    },
+    {
+      "key": "react/custom_hooks",
+      "slug": "custom_hooks",
+      "name": "Custom Hooks",
+      "desc": "Custom hooks cover extracting reusable stateful logic from components.",
+      "i18n": {
+        "zh": {
+          "name": "自定义 Hooks",
+          "desc": "自定义 Hooks 涵盖从组件中提取可重用的有状态逻辑。"
+        },
+        "es": {
+          "name": "Hooks personalizados",
+          "desc": "Los Hooks personalizados cubren la extracción de lógica con estado reutilizable de los componentes."
+        },
+        "fr": {
+          "name": "Hooks personnalisés",
+          "desc": "Les hooks personnalisés couvrent l’extraction de logique avec état réutilisable à partir de composants."
+        },
+        "de": {
+          "name": "Benutzerdefinierte Hooks",
+          "desc": "Benutzerdefinierte Hooks decken das Extrahieren wiederverwendbarer zustandsbehafteter Logik aus Komponenten ab."
+        },
+        "ja": {
+          "name": "カスタムフック",
+          "desc": "カスタムフックは、コンポーネントからの再利用可能なステートフルロジックの抽出を扱います。"
+        },
+        "ru": {
+          "name": "Пользовательские хуки",
+          "desc": "Пользовательские хуки охватывают извлечение многократно используемой логики с состоянием из компонентов."
+        },
+        "ko": {
+          "name": "커스텀 Hooks",
+          "desc": "커스텀 Hooks는 컴포넌트에서 재사용 가능한 상태 있는 로직을 추출하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Hooks personalizados",
+          "desc": "Hooks personalizados cobrem a extração de lógica com estado reutilizável de componentes."
+        }
+      }
+    },
+    {
+      "key": "react/data_fetching",
+      "slug": "data_fetching",
+      "name": "Data Fetching",
+      "desc": "Data fetching covers coordinating remote data, loading states, errors, and component updates.",
+      "i18n": {
+        "zh": {
+          "name": "数据获取",
+          "desc": "数据获取涵盖协调远程数据、加载状态、错误和组件更新。"
+        },
+        "es": {
+          "name": "Obtención de datos",
+          "desc": "La obtención de datos cubre la coordinación de datos remotos, estados de carga, errores y actualizaciones de componentes."
+        },
+        "fr": {
+          "name": "Récupération de données",
+          "desc": "La récupération de données couvre la coordination des données distantes, les états de chargement, les erreurs et les mises à jour des composants."
+        },
+        "de": {
+          "name": "Datenabruf",
+          "desc": "Der Datenabruf umfasst die Koordinierung von Remote-Daten, Ladezuständen, Fehlern und Komponentenaktualisierungen."
+        },
+        "ja": {
+          "name": "データの取得",
+          "desc": "データ取得は、リモートデータ、読み込み状態、エラー、コンポーネント更新の調整を扱います。"
+        },
+        "ru": {
+          "name": "Получение данных",
+          "desc": "Получение данных охватывает координацию удаленных данных, состояний загрузки, ошибок и обновлений компонентов."
+        },
+        "ko": {
+          "name": "데이터 가져오기",
+          "desc": "데이터 가져오기에는 원격 데이터 조정, 로드 상태, 오류 및 컴포넌트 업데이트가 포함됩니다."
+        },
+        "pt": {
+          "name": "Busca de dados",
+          "desc": "A busca de dados abrange a coordenação de dados remotos, estados de carregamento, erros e atualizações de componentes."
+        }
+      }
+    },
+    {
+      "key": "react/loading_error_states",
+      "slug": "loading_error_states",
+      "name": "Loading and Error States",
+      "desc": "Loading and error states cover representing pending, failed, empty, and successful UI states.",
+      "i18n": {
+        "zh": {
+          "name": "加载和错误状态",
+          "desc": "加载和错误状态涵盖表示加载中、失败、空和成功等 UI 状态。"
+        },
+        "es": {
+          "name": "Estados de carga y error",
+          "desc": "Los estados de carga y error cubren los estados de UI pendientes, fallidos, vacíos y exitosos."
+        },
+        "fr": {
+          "name": "États de chargement et d’erreur",
+          "desc": "Les états de chargement et d’erreur couvrent les états d’interface utilisateur en attente, en échec, vides et réussis."
+        },
+        "de": {
+          "name": "Lade- und Fehlerzustände",
+          "desc": "Lade- und Fehlerstatus umfassen die Darstellung der UI-Status „Ausstehend“, „Fehler“, „Leer“ und „Erfolgreich“."
+        },
+        "ja": {
+          "name": "ロード状態とエラー状態",
+          "desc": "読み込み状態とエラー状態には、保留中、失敗、空、成功の UI 状態が含まれます。"
+        },
+        "ru": {
+          "name": "Загрузка и состояния ошибок",
+          "desc": "Состояния загрузки и ошибки охватывают состояния ожидания, сбоя, пустого и успешного пользовательского интерфейса."
+        },
+        "ko": {
+          "name": "로드 및 오류 상태",
+          "desc": "로드 및 오류 상태는 로딩 중, 실패, 빈 상태 및 성공 UI 상태를 표현하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Carregamento e estados de erro",
+          "desc": "Os estados de carregamento e de erro abrangem os estados de UI pendentes, com falha, vazios e bem-sucedidos."
+        }
+      }
+    },
+    {
+      "key": "react/suspense_boundaries",
+      "slug": "suspense_boundaries",
+      "name": "Suspense Boundaries",
+      "desc": "Suspense boundaries cover coordinating fallback UI while components wait for deferred work.",
+      "i18n": {
+        "zh": {
+          "name": "Suspense 边界",
+          "desc": "Suspense 边界涵盖组件等待延迟工作时协调 fallback UI。"
+        },
+        "es": {
+          "name": "Límites de Suspense",
+          "desc": "Los límites de Suspense cubren la coordinación de la UI de fallback mientras los componentes esperan trabajo diferido."
+        },
+        "fr": {
+          "name": "Limites Suspense",
+          "desc": "Les limites Suspense couvrent la coordination de l’UI de fallback pendant que les composants attendent un travail différé."
+        },
+        "de": {
+          "name": "Suspense-Grenzen",
+          "desc": "Suspense-Grenzen behandeln die Koordination der Fallback-UI, während Komponenten auf verzögerte Arbeit warten."
+        },
+        "ja": {
+          "name": "Suspense 境界",
+          "desc": "Suspense 境界は、コンポーネントが延期された作業を待機している間のフォールバック UI の調整を扱います。"
+        },
+        "ru": {
+          "name": "Границы Suspense",
+          "desc": "Границы Suspense охватывают координацию fallback UI, пока компоненты ожидают отложенную работу."
+        },
+        "ko": {
+          "name": "Suspense 경계",
+          "desc": "Suspense 경계는 컴포넌트가 지연된 작업을 기다리는 동안 fallback UI를 조정하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Limites de Suspense",
+          "desc": "Os limites de Suspense cobrem a coordenação da UI de fallback enquanto os componentes aguardam trabalho adiado."
+        }
+      }
+    },
+    {
+      "key": "react/error_boundaries",
+      "slug": "error_boundaries",
+      "name": "Error Boundaries",
+      "desc": "Error boundaries cover containing render failures and showing recovery UI for affected component subtrees.",
+      "i18n": {
+        "zh": {
+          "name": "错误边界",
+          "desc": "错误边界涵盖隔离渲染失败，并为受影响的组件子树显示恢复 UI。"
+        },
+        "es": {
+          "name": "Límites de error",
+          "desc": "Los límites de error cubren aislar fallos de renderizado y mostrar una UI de recuperación para los subárboles de componentes afectados."
+        },
+        "fr": {
+          "name": "Limites d’erreur",
+          "desc": "Les limites d'erreur couvrent l'isolation des échecs de rendu et l'affichage d'une UI de récupération pour les sous-arbres de composants concernés."
+        },
+        "de": {
+          "name": "Fehlergrenzen",
+          "desc": "Fehlergrenzen fangen Renderfehler ab und zeigen eine Wiederherstellungs-UI für betroffene Komponententeilbäume an."
+        },
+        "ja": {
+          "name": "エラー境界",
+          "desc": "エラー境界は、レンダリング失敗を隔離し、影響を受けるコンポーネントサブツリーに復旧 UI を表示することを扱います。"
+        },
+        "ru": {
+          "name": "Границы ошибок",
+          "desc": "Границы ошибок охватывают изоляцию сбоев рендеринга и отображение UI восстановления для затронутых поддеревьев компонентов."
+        },
+        "ko": {
+          "name": "오류 경계",
+          "desc": "오류 경계는 렌더링 실패를 격리하고 영향을 받은 컴포넌트 하위 트리에 복구 UI를 표시하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Limites de erro",
+          "desc": "Os limites de erro abrangem isolar falhas de renderização e mostrar uma IU de recuperação para subárvores de componentes afetadas."
+        }
+      }
+    },
+    {
+      "key": "react/portals",
+      "slug": "portals",
+      "name": "Portals",
+      "desc": "Portals cover rendering React children into DOM locations outside their parent component tree.",
+      "i18n": {
+        "zh": {
+          "name": "Portals",
+          "desc": "Portals 将 React 子组件渲染到其父组件树之外的 DOM 位置。"
+        },
+        "es": {
+          "name": "Portales",
+          "desc": "Los portales cubren la renderización de elementos hijos de React en ubicaciones del DOM fuera de su árbol de componentes principal."
+        },
+        "fr": {
+          "name": "Portails",
+          "desc": "Les portails couvrent le rendu d’enfants React dans des emplacements du DOM en dehors de leur arbre de composants parent."
+        },
+        "de": {
+          "name": "Portale",
+          "desc": "Portale behandeln das Rendern von React-Children an DOM-Positionen außerhalb ihres übergeordneten Komponentenbaums."
+        },
+        "ja": {
+          "name": "ポータル",
+          "desc": "ポータルは、React 子を親コンポーネントツリーの外側の DOM 場所にレンダリングすることを扱います。"
+        },
+        "ru": {
+          "name": "Порталы",
+          "desc": "Порталы обеспечивают рендеринг дочерних элементов React в местах DOM за пределами их родительского дерева компонентов."
+        },
+        "ko": {
+          "name": "포털",
+          "desc": "포털은 React 하위 항목을 상위 컴포넌트 트리 외부의 DOM 위치로 렌더링하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Portais",
+          "desc": "Os portais cobrem a renderização de filhos React em locais do DOM fora de sua árvore de componentes pai."
+        }
+      }
+    },
+    {
+      "key": "react/strict_mode",
+      "slug": "strict_mode",
+      "name": "Strict Mode",
+      "desc": "Strict Mode covers detecting unsafe patterns and preparing components for resilient rendering behavior.",
+      "i18n": {
+        "zh": {
+          "name": "严格模式",
+          "desc": "严格模式涵盖检测不安全模式，并让组件为更稳健的渲染行为做好准备。"
+        },
+        "es": {
+          "name": "Modo estricto",
+          "desc": "El modo estricto cubre la detección de patrones inseguros y la preparación de componentes para un comportamiento de renderizado resistente."
+        },
+        "fr": {
+          "name": "Mode strict",
+          "desc": "Le mode strict couvre la détection des modèles dangereux et la préparation des composants pour un comportement de rendu résilient."
+        },
+        "de": {
+          "name": "Strenger Modus",
+          "desc": "Der strikte Modus umfasst die Erkennung unsicherer Muster und die Vorbereitung von Komponenten für ein stabiles Rendering-Verhalten."
+        },
+        "ja": {
+          "name": "ストリクトモード",
+          "desc": "厳密モードでは、安全でないパターンの検出と、回復力のあるレンダリング動作のためのコンポーネントの準備が行われます。"
+        },
+        "ru": {
+          "name": "Строгий режим",
+          "desc": "Строгий режим охватывает обнаружение небезопасных шаблонов и подготовку компонентов к устойчивому поведению рендеринга."
+        },
+        "ko": {
+          "name": "엄격 모드",
+          "desc": "엄격 모드에서는 안전하지 않은 패턴을 감지하고 탄력적인 렌더링 동작을 위한 컴포넌트를 준비하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Modo Estrito",
+          "desc": "O Modo Estrito abrange a detecção de padrões inseguros e a preparação de componentes para um comportamento de renderização resiliente."
+        }
+      }
+    },
+    {
+      "key": "react/concurrent_rendering",
+      "slug": "concurrent_rendering",
+      "name": "Concurrent Rendering",
+      "desc": "Concurrent rendering covers interruptible UI updates and rendering work that can be prioritized.",
+      "i18n": {
+        "zh": {
+          "name": "并发渲染",
+          "desc": "并发渲染涵盖可中断的 UI 更新和可以确定优先级的渲染工作。"
+        },
+        "es": {
+          "name": "Renderizado concurrente",
+          "desc": "El renderizado concurrente cubre actualizaciones de la interfaz de usuario interrumpibles y trabajos de renderizado que se pueden priorizar."
+        },
+        "fr": {
+          "name": "Rendu concurrent",
+          "desc": "Le rendu concurrent couvre les mises à jour d’interface interruptibles et les travaux de rendu qui peuvent être priorisés."
+        },
+        "de": {
+          "name": "Concurrent Rendering",
+          "desc": "Concurrent Rendering umfasst unterbrechbare UI-Updates und Renderarbeiten, die priorisiert werden können."
+        },
+        "ja": {
+          "name": "並行レンダリング",
+          "desc": "並行レンダリングは、中断可能な UI 更新と、優先順位を付けられるレンダリング作業を扱います。"
+        },
+        "ru": {
+          "name": "Concurrent Rendering",
+          "desc": "Concurrent Rendering охватывает прерываемые обновления пользовательского интерфейса и работу по рендерингу, которой можно назначать приоритет."
+        },
+        "ko": {
+          "name": "동시 렌더링",
+          "desc": "동시 렌더링에는 중단 가능한 UI 업데이트와 우선순위를 지정할 수 있는 렌더링 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Renderização simultânea",
+          "desc": "A renderização simultânea abrange atualizações interrompíveis da interface do usuário e trabalhos de renderização que podem ser priorizados."
+        }
+      }
+    },
+    {
+      "key": "react/server_rendering_concepts",
+      "slug": "server_rendering_concepts",
+      "name": "Server Rendering Concepts",
+      "desc": "Server rendering concepts cover producing initial React UI outside the browser and preparing it for client updates.",
+      "i18n": {
+        "zh": {
+          "name": "服务器渲染概念",
+          "desc": "服务器渲染概念涵盖在浏览器外部生成初始 React UI 并为客户端更新做好准备。"
+        },
+        "es": {
+          "name": "Conceptos de renderizado del servidor",
+          "desc": "Los conceptos de renderizado del servidor cubren la producción de la UI inicial de React fuera del navegador y su preparación para las actualizaciones del cliente."
+        },
+        "fr": {
+          "name": "Concepts de rendu du serveur",
+          "desc": "Les concepts de rendu du serveur couvrent la production de l'interface utilisateur initiale React en dehors du navigateur et sa préparation aux mises à jour du client."
+        },
+        "de": {
+          "name": "Server-Rendering-Konzepte",
+          "desc": "Server-Rendering-Konzepte umfassen die Erstellung der ersten React-Benutzeroberfläche außerhalb des Browsers und deren Vorbereitung für Client-Updates."
+        },
+        "ja": {
+          "name": "サーバーレンダリングの概念",
+          "desc": "サーバーレンダリングの概念には、ブラウザ外での初期 React UI の生成と、クライアントの更新に向けた準備が含まれます。"
+        },
+        "ru": {
+          "name": "Концепции серверного рендеринга",
+          "desc": "Концепции серверного рендеринга охватывают создание исходного React пользовательского интерфейса вне браузера и его подготовку к обновлениям клиента."
+        },
+        "ko": {
+          "name": "서버 렌더링 개념",
+          "desc": "서버 렌더링 개념은 브라우저 외부에서 초기 React UI를 생성하고 클라이언트 업데이트를 준비하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Conceitos de renderização de servidor",
+          "desc": "Os conceitos de renderização do servidor abrangem a produção da UI React inicial fora do navegador e a preparação para atualizações do cliente."
+        }
+      }
+    },
+    {
+      "key": "react/hydration",
+      "slug": "hydration",
+      "name": "Hydration",
+      "desc": "Hydration covers connecting client-side React behavior to markup that already exists in the document.",
+      "i18n": {
+        "zh": {
+          "name": "Hydration",
+          "desc": "水合涵盖将客户端 React 行为连接到文档中已存在的标记。"
+        },
+        "es": {
+          "name": "Hidratación",
+          "desc": "La hidratación cubre la conexión del comportamiento de React del lado del cliente con el marcado que ya existe en el documento."
+        },
+        "fr": {
+          "name": "Hydratation",
+          "desc": "L'hydratation couvre la connexion du comportement React côté client au balisage qui existe déjà dans le document."
+        },
+        "de": {
+          "name": "Hydration",
+          "desc": "Hydration umfasst die Verbindung von clientseitigem React-Verhalten mit Markup, das bereits im Dokument vorhanden ist."
+        },
+        "ja": {
+          "name": "Hydration",
+          "desc": "Hydration は、クライアント側の React 動作をドキュメント内に既に存在するマークアップへ接続することを扱います。"
+        },
+        "ru": {
+          "name": "Hydration",
+          "desc": "Hydration охватывает подключение клиентского поведения React к разметке, которая уже существует в документе."
+        },
+        "ko": {
+          "name": "Hydration",
+          "desc": "Hydration은 클라이언트 측 React 동작을 문서에 이미 존재하는 마크업에 연결하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Hidratação",
+          "desc": "A hidratação cobre a conexão do comportamento do React do lado do cliente à marcação que já existe no documento."
+        }
+      }
+    },
+    {
+      "key": "react/view_state_coordination",
+      "slug": "view_state_coordination",
+      "name": "View State Coordination",
+      "desc": "View state coordination covers representing active views, panels, dialogs, and UI modes across related React components.",
+      "i18n": {
+        "zh": {
+          "name": "视图状态协调",
+          "desc": "视图状态协调涵盖跨相关 React 组件表示活动视图、面板、对话框和 UI 模式。"
+        },
+        "es": {
+          "name": "Coordinación del estado de vista",
+          "desc": "La coordinación del estado de vista cubre representar vistas activas, paneles, diálogos y modos de UI entre componentes React relacionados."
+        },
+        "fr": {
+          "name": "Coordination de l’état de vue",
+          "desc": "La coordination de l’état de vue couvre la représentation des vues actives, panneaux, boîtes de dialogue et modes d’interface utilisateur entre des composants React liés."
+        },
+        "de": {
+          "name": "View-State-Koordination",
+          "desc": "Die View-State-Koordination umfasst die Darstellung aktiver Ansichten, Panels, Dialoge und UI-Modi über verwandte React-Komponenten hinweg."
+        },
+        "ja": {
+          "name": "ビューステート調整",
+          "desc": "ビューステートの調整は、関連する React コンポーネントにわたるアクティブなビュー、パネル、ダイアログ、および UI モードの表現を扱います。"
+        },
+        "ru": {
+          "name": "Координация состояния представления",
+          "desc": "Координация состояния представления охватывает представление активных видов, панелей, диалогов и режимов UI в связанных компонентах React."
+        },
+        "ko": {
+          "name": "뷰 상태 조정",
+          "desc": "뷰 상태 조정은 관련 React 컴포넌트 전반에 걸쳐 활성 뷰, 패널, 대화 상자 및 UI 모드를 나타내는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Coordenação de estado da view",
+          "desc": "A coordenação de estado da view abrange a representação de views ativas, painéis, caixas de diálogo e modos de UI em componentes React relacionados."
+        }
+      }
+    },
+    {
+      "key": "react/styling_integration",
+      "slug": "styling_integration",
+      "name": "Styling Integration",
+      "desc": "Styling integration covers attaching classes, inline styles, CSS modules, and design tokens to components.",
+      "i18n": {
+        "zh": {
+          "name": "样式集成",
+          "desc": "样式集成包括将 class、内联样式、CSS 模块和设计 token 应用到组件。"
+        },
+        "es": {
+          "name": "Integración de estilo",
+          "desc": "La integración de estilos cubre la vinculación de clases, estilos en línea, módulos CSS y tokens de diseño a los componentes."
+        },
+        "fr": {
+          "name": "Intégration du style",
+          "desc": "L'intégration de style couvre l'application de classes, de styles en ligne, de modules CSS et de design tokens aux composants."
+        },
+        "de": {
+          "name": "Styling-Integration",
+          "desc": "Die Styling-Integration umfasst das Anhängen von Klassen, Inline-Stilen, CSS-Modulen und Design-Tokens an Komponenten."
+        },
+        "ja": {
+          "name": "スタイリングの統合",
+          "desc": "スタイリングの統合には、クラス、インラインスタイル、CSS モジュール、およびデザイントークンのコンポーネントへの添付が含まれます。"
+        },
+        "ru": {
+          "name": "Интеграция стилей",
+          "desc": "Интеграция стилей включает в себя прикрепление классов, встроенных стилей, модулей CSS и токенов дизайна к компонентам."
+        },
+        "ko": {
+          "name": "스타일링 통합",
+          "desc": "스타일링 통합은 클래스, 인라인 스타일, CSS 모듈 및 디자인 토큰을 컴포넌트에 적용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Integração de estilo",
+          "desc": "A integração de estilo abrange a anexação de classes, estilos embutidos, módulos CSS e tokens de design aos componentes."
+        }
+      }
+    },
+    {
+      "key": "react/accessibility_components",
+      "slug": "accessibility_components",
+      "name": "Accessible Components",
+      "desc": "Accessible components cover preserving names, roles, focus behavior, and keyboard interaction in React UI.",
+      "i18n": {
+        "zh": {
+          "name": "无障碍组件",
+          "desc": "无障碍组件包括在 React UI 中保留可访问名称、角色、焦点行为和键盘交互。"
+        },
+        "es": {
+          "name": "Componentes accesibles",
+          "desc": "Los componentes accesibles cubren la preservación de nombres, roles, comportamiento de enfoque e interacción del teclado en la interfaz de usuario React."
+        },
+        "fr": {
+          "name": "Composants accessibles",
+          "desc": "Les composants accessibles couvrent la préservation des noms, des rôles, du comportement du focus et de l'interaction au clavier dans l'interface utilisateur React."
+        },
+        "de": {
+          "name": "Zugängliche Komponenten",
+          "desc": "Zu den zugänglichen Komponenten gehören die Beibehaltung von Namen, Rollen, Fokusverhalten und Tastaturinteraktion in der React-Benutzeroberfläche."
+        },
+        "ja": {
+          "name": "アクセシブルなコンポーネント",
+          "desc": "アクセシブルなコンポーネントは、React UI でアクセシブルネーム、ロール、フォーカス動作、キーボード操作を保つ方法を扱います。"
+        },
+        "ru": {
+          "name": "Доступные компоненты",
+          "desc": "Доступные компоненты охватывают сохранение имен, ролей, поведения фокуса и взаимодействия с клавиатурой в пользовательском интерфейсе React."
+        },
+        "ko": {
+          "name": "접근 가능한 구성요소",
+          "desc": "접근 가능한 구성요소는 React UI에서 이름, 역할, 포커스 동작 및 키보드 상호 작용을 유지하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Componentes acessíveis",
+          "desc": "Os componentes acessíveis cobrem a preservação de nomes, funções, comportamento de foco e interação do teclado na interface do usuário React."
+        }
+      }
+    },
+    {
+      "key": "react/code_splitting",
+      "slug": "code_splitting",
+      "name": "Code Splitting",
+      "desc": "Code splitting covers loading component code in smaller chunks when routes or interactions need it.",
+      "i18n": {
+        "zh": {
+          "name": "代码分割",
+          "desc": "代码分割包括在路由或交互需要时以较小的块加载组件代码。"
+        },
+        "es": {
+          "name": "División de código",
+          "desc": "La división de código cubre cargar código de componentes en chunks más pequeños cuando las rutas o interacciones lo necesitan."
+        },
+        "fr": {
+          "name": "Fractionnement du code",
+          "desc": "Le fractionnement du code couvre le chargement du code des composants en chunks plus petits lorsque les routes ou les interactions en ont besoin."
+        },
+        "de": {
+          "name": "Code-Splitting",
+          "desc": "Code-Splitting behandelt das Laden von Komponentencode in kleineren Chunks, wenn Routen oder Interaktionen dies benötigen."
+        },
+        "ja": {
+          "name": "コード分割",
+          "desc": "コード分割は、ルートまたはインタラクションで必要な場合に、コンポーネントコードをより小さなチャンクで読み込むことを扱います。"
+        },
+        "ru": {
+          "name": "Разделение кода",
+          "desc": "Разделение кода охватывает загрузку кода компонентов более мелкими фрагментами, когда это требуется маршрутам или взаимодействиям."
+        },
+        "ko": {
+          "name": "코드 분할",
+          "desc": "코드 분할은 라우트나 상호 작용이 필요할 때 컴포넌트 코드를 더 작은 chunk로 로드하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Divisão de código",
+          "desc": "A divisão de código cobre o carregamento do código de componentes em chunks menores quando rotas ou interações precisam dele."
+        }
+      }
+    },
+    {
+      "key": "react/performance_profiling",
+      "slug": "performance_profiling",
+      "name": "Performance Profiling",
+      "desc": "Performance profiling covers finding unnecessary renders, slow components, and expensive state updates.",
+      "i18n": {
+        "zh": {
+          "name": "性能分析",
+          "desc": "性能分析涵盖查找不必要的渲染、缓慢的组件和昂贵的状态更新。"
+        },
+        "es": {
+          "name": "Perfilado de rendimiento",
+          "desc": "El perfilado de rendimiento cubre la búsqueda de renderizados innecesarios, componentes lentos y actualizaciones de estado costosas."
+        },
+        "fr": {
+          "name": "Profilage des performances",
+          "desc": "Le profilage des performances couvre la recherche de rendus inutiles, de composants lents et de mises à jour d'état coûteuses."
+        },
+        "de": {
+          "name": "Leistungsprofilierung",
+          "desc": "Die Leistungsprofilierung umfasst das Auffinden unnötiger Renderings, langsamer Komponenten und teurer Statusaktualisierungen."
+        },
+        "ja": {
+          "name": "パフォーマンスプロファイリング",
+          "desc": "パフォーマンスプロファイリングでは、不要なレンダリング、遅いコンポーネント、高価な状態の更新の検出を扱います。"
+        },
+        "ru": {
+          "name": "Профилирование производительности",
+          "desc": "Профилирование производительности охватывает поиск ненужных рендеров, медленных компонентов и дорогостоящих обновлений состояния."
+        },
+        "ko": {
+          "name": "성능 프로파일링",
+          "desc": "성능 프로파일링은 불필요한 렌더링, 느린 컴포넌트 및 비용이 큰 상태 업데이트를 찾는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Perfilamento de desempenho",
+          "desc": "O perfilamento de desempenho abrange a localização de renderizações desnecessárias, componentes lentos e atualizações de estado custosas."
+        }
+      }
+    },
+    {
+      "key": "react/component_testing",
+      "slug": "component_testing",
+      "name": "Component Testing",
+      "desc": "Component testing covers verifying rendered behavior through props, state changes, and user interactions.",
+      "i18n": {
+        "zh": {
+          "name": "组件测试",
+          "desc": "组件测试涵盖通过 props 验证渲染行为、状态更改和用户交互。"
+        },
+        "es": {
+          "name": "Pruebas de componentes",
+          "desc": "Las pruebas de componentes cubren la verificación del comportamiento representado a través de props, cambios de estado e interacciones del usuario."
+        },
+        "fr": {
+          "name": "Test des composants",
+          "desc": "Les tests de composants couvrent la vérification du comportement rendu via props, les changements d'état et les interactions des utilisateurs."
+        },
+        "de": {
+          "name": "Komponententests",
+          "desc": "Das Testen von Komponenten umfasst die Überprüfung des gerenderten Verhaltens durch props, Zustandsänderungen und Benutzerinteraktionen."
+        },
+        "ja": {
+          "name": "コンポーネントのテスト",
+          "desc": "コンポーネントのテストでは、props、状態の変更、ユーザーの操作を通じてレンダリングされた動作の検証が行われます。"
+        },
+        "ru": {
+          "name": "Тестирование компонентов",
+          "desc": "Тестирование компонентов охватывает проверку отображаемого поведения посредством props, изменений состояния и взаимодействия с пользователем."
+        },
+        "ko": {
+          "name": "컴포넌트 테스트",
+          "desc": "컴포넌트 테스트는 props, 상태 변경 및 사용자 상호 작용을 통해 렌더링된 동작을 확인하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Teste de componentes",
+          "desc": "O teste de componentes cobre a verificação do comportamento renderizado por meio de props, mudanças de estado e interações do usuário."
+        }
+      }
+    },
+    {
+      "key": "react/project_structure",
+      "slug": "project_structure",
+      "name": "Project Structure",
+      "desc": "Project structure covers organizing components, hooks, assets, and application boundaries in React codebases.",
+      "i18n": {
+        "zh": {
+          "name": "项目结构",
+          "desc": "项目结构涵盖在 React 代码库中组织组件、Hooks、资源和应用边界。"
+        },
+        "es": {
+          "name": "Estructura del proyecto",
+          "desc": "La estructura del proyecto cubre la organización de componentes, hooks, recursos y límites de la aplicación en bases de código React."
+        },
+        "fr": {
+          "name": "Structure du projet",
+          "desc": "La structure du projet couvre l'organisation des composants, des hooks, des actifs et des limites des applications dans les bases de code React."
+        },
+        "de": {
+          "name": "Projektstruktur",
+          "desc": "Die Projektstruktur umfasst die Organisation von Komponenten, Hooks, Assets und Anwendungsgrenzen in React-Codebasen."
+        },
+        "ja": {
+          "name": "プロジェクトの構造",
+          "desc": "プロジェクト構造には、コンポーネント、フック、アセット、アプリケーション境界を React コードベースで整理することが含まれます。"
+        },
+        "ru": {
+          "name": "Структура проекта",
+          "desc": "Структура проекта охватывает организацию компонентов, хуков, ресурсов и границ приложения в кодовых базах React."
+        },
+        "ko": {
+          "name": "프로젝트 구조",
+          "desc": "프로젝트 구조는 React 코드베이스의 컴포넌트, Hooks, 자산 및 애플리케이션 경계 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Estrutura do Projeto",
+          "desc": "A estrutura do projeto cobre a organização de componentes, Hooks, ativos e limites de aplicativos em bases de código React."
+        }
+      }
+    }
+  ]
+}

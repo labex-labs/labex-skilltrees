@@ -1,0 +1,187 @@
+{
+  "key": "mongodb",
+  "slug": "mongodb",
+  "name": "MongoDB",
+  "skills": [
+    {
+      "key": "mongodb/start_mongodb_shell",
+      "slug": "start_mongodb_shell",
+      "name": "Start MongoDB Shell",
+      "desc": "Start MongoDB Shell Learn how to start the MongoDB shell to interact with your databases and collections."
+    },
+    {
+      "key": "mongodb/create_database_collection",
+      "slug": "create_database_collection",
+      "name": "Create Database and Collection",
+      "desc": "Create Database and Collection Understand how to create a new database and collection in MongoDB for storing documents."
+    },
+    {
+      "key": "mongodb/insert_document",
+      "slug": "insert_document",
+      "name": "Insert Document",
+      "desc": "Insert Document Learn how to insert a single document into a MongoDB collection."
+    },
+    {
+      "key": "mongodb/bulk_insert_documents",
+      "slug": "bulk_insert_documents",
+      "name": "Bulk Insert Documents",
+      "desc": "Bulk Insert Documents Understand how to insert multiple documents in bulk for better efficiency."
+    },
+    {
+      "key": "mongodb/update_document",
+      "slug": "update_document",
+      "name": "Update Document",
+      "desc": "Update Document Learn how to update existing documents in a MongoDB collection."
+    },
+    {
+      "key": "mongodb/bulk_update_documents",
+      "slug": "bulk_update_documents",
+      "name": "Bulk Update Documents",
+      "desc": "Bulk Update Documents Understand how to perform bulk updates on multiple documents at once."
+    },
+    {
+      "key": "mongodb/delete_document",
+      "slug": "delete_document",
+      "name": "Delete Document",
+      "desc": "Delete Document Learn how to delete a specific document from a MongoDB collection."
+    },
+    {
+      "key": "mongodb/bulk_delete_documents",
+      "slug": "bulk_delete_documents",
+      "name": "Bulk Delete Documents",
+      "desc": "Bulk Delete Documents Understand how to delete multiple documents in bulk."
+    },
+    {
+      "key": "mongodb/find_documents",
+      "slug": "find_documents",
+      "name": "Find Documents",
+      "desc": "Find Documents Learn how to retrieve documents from a collection using basic query methods."
+    },
+    {
+      "key": "mongodb/query_with_conditions",
+      "slug": "query_with_conditions",
+      "name": "Query with Conditions",
+      "desc": "Query with Conditions Understand how to use conditions to refine queries and fetch specific documents."
+    },
+    {
+      "key": "mongodb/sort_documents",
+      "slug": "sort_documents",
+      "name": "Sort Documents",
+      "desc": "Sort Documents Learn how to sort query results based on specific fields in ascending or descending order."
+    },
+    {
+      "key": "mongodb/project_fields",
+      "slug": "project_fields",
+      "name": "Project Fields",
+      "desc": "Project Fields Understand how to project specific fields to control the output of a query."
+    },
+    {
+      "key": "mongodb/use_numeric_data_types",
+      "slug": "use_numeric_data_types",
+      "name": "Use Numeric Data Types",
+      "desc": "Use Numeric Data Types Learn how to use and store numeric data types in MongoDB documents."
+    },
+    {
+      "key": "mongodb/use_string_data_types",
+      "slug": "use_string_data_types",
+      "name": "Use String Data Types",
+      "desc": "Use String Data Types Understand how to use and store string data types in MongoDB documents."
+    },
+    {
+      "key": "mongodb/work_with_array_data_types",
+      "slug": "work_with_array_data_types",
+      "name": "Work with Array Data Types",
+      "desc": "Work with Array Data Types Learn how to use arrays as a data type to store lists of values within a document."
+    },
+    {
+      "key": "mongodb/manage_array_elements",
+      "slug": "manage_array_elements",
+      "name": "Manage Array Elements",
+      "desc": "Manage Array Elements Understand how to add, update, or remove elements within an array in a MongoDB document."
+    },
+    {
+      "key": "mongodb/design_order_schema",
+      "slug": "design_order_schema",
+      "name": "Design Order Schema",
+      "desc": "Design Order Schema Learn how to design a database schema for storing order-related data."
+    },
+    {
+      "key": "mongodb/add_customer_information",
+      "slug": "add_customer_information",
+      "name": "Add Customer Information",
+      "desc": "Add Customer Information Understand how to add and manage customer information within a MongoDB schema."
+    },
+    {
+      "key": "mongodb/create_embedded_documents",
+      "slug": "create_embedded_documents",
+      "name": "Create Embedded Documents",
+      "desc": "Create Embedded Documents Learn how to create embedded documents to structure nested data."
+    },
+    {
+      "key": "mongodb/query_embedded_documents",
+      "slug": "query_embedded_documents",
+      "name": "Query Embedded Documents",
+      "desc": "Query Embedded Documents Understand how to query data that is stored within embedded documents."
+    },
+    {
+      "key": "mongodb/create_index",
+      "slug": "create_index",
+      "name": "Create Index",
+      "desc": "Create Index Learn how to create an index to improve the performance of queries."
+    },
+    {
+      "key": "mongodb/build_compound_index",
+      "slug": "build_compound_index",
+      "name": "Build Compound Index",
+      "desc": "Build Compound Index Understand how to create compound indexes to optimize multi-field queries."
+    },
+    {
+      "key": "mongodb/handle_connection_errors",
+      "slug": "handle_connection_errors",
+      "name": "Handle Connection Errors",
+      "desc": "Handle Connection Errors Learn how to handle errors that occur when connecting to a MongoDB server."
+    },
+    {
+      "key": "mongodb/handle_write_errors",
+      "slug": "handle_write_errors",
+      "name": "Handle Write Errors",
+      "desc": "Handle Write Errors Understand how to manage write errors during insert, update, or delete operations."
+    },
+    {
+      "key": "mongodb/group_documents",
+      "slug": "group_documents",
+      "name": "Group Documents",
+      "desc": "Group Documents Learn how to group documents using the aggregation framework."
+    },
+    {
+      "key": "mongodb/aggregate_group_totals",
+      "slug": "aggregate_group_totals",
+      "name": "Aggregate Group Totals",
+      "desc": "Aggregate Group Totals Understand how to calculate group totals using MongoDB's aggregation features."
+    },
+    {
+      "key": "mongodb/import_data_json",
+      "slug": "import_data_json",
+      "name": "Import Data from JSON",
+      "desc": "Import Data from JSON Learn how to import data into MongoDB from JSON files."
+    },
+    {
+      "key": "mongodb/import_data_csv",
+      "slug": "import_data_csv",
+      "name": "Import Data from CSV",
+      "desc": "Import Data from CSV Understand how to import data from CSV files into a MongoDB collection."
+    },
+    {
+      "key": "mongodb/create_document_references",
+      "slug": "create_document_references",
+      "name": "Create Document References",
+      "desc": "Create Document References Learn how to create references between documents to establish relationships."
+    },
+    {
+      "key": "mongodb/link_related_documents",
+      "slug": "link_related_documents",
+      "name": "Link Related Documents",
+      "desc": "Link Related Documents Understand how to link and manage relationships between related documents."
+    }
+  ]
+}

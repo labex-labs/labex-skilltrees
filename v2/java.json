@@ -1,0 +1,2767 @@
+{
+  "key": "java",
+  "slug": "java",
+  "name": "Java",
+  "skills": [
+    {
+      "key": "java/program_structure",
+      "slug": "program_structure",
+      "name": "Program Structure",
+      "desc": "Program structure covers classes, methods, packages, source files, and application entry points.",
+      "i18n": {
+        "zh": {
+          "name": "程序结构",
+          "desc": "程序结构涵盖类、方法、包、源文件和应用程序入口点。"
+        },
+        "es": {
+          "name": "Estructura del programa",
+          "desc": "La estructura del programa cubre clases, métodos, paquetes, archivos fuente y puntos de entrada de la aplicación."
+        },
+        "fr": {
+          "name": "Structure du programme",
+          "desc": "La structure du programme couvre les classes, les méthodes, les packages, les fichiers sources et les points d'entrée des applications."
+        },
+        "de": {
+          "name": "Programmstruktur",
+          "desc": "Die Programmstruktur umfasst Klassen, Methoden, Pakete, Quelldateien und Anwendungseinstiegspunkte."
+        },
+        "ja": {
+          "name": "プログラムの構造",
+          "desc": "プログラム構造には、クラス、メソッド、パッケージ、ソースファイル、アプリケーションエントリポイントが含まれます。"
+        },
+        "ru": {
+          "name": "Структура программы",
+          "desc": "Структура программы охватывает классы, методы, пакеты, исходные файлы и точки входа приложения."
+        },
+        "ko": {
+          "name": "프로그램 구조",
+          "desc": "프로그램 구조는 클래스, 메서드, 패키지, 소스 파일 및 애플리케이션 진입점을 다룹니다."
+        },
+        "pt": {
+          "name": "Estrutura do Programa",
+          "desc": "A estrutura do programa abrange classes, métodos, pacotes, arquivos de origem e pontos de entrada do aplicativo."
+        }
+      }
+    },
+    {
+      "key": "java/variables",
+      "slug": "variables",
+      "name": "Variables",
+      "desc": "Variables cover declaring, assigning, and updating named values in Java.",
+      "i18n": {
+        "zh": {
+          "name": "变量",
+          "desc": "变量涵盖了 Java 中的声明、分配和更新命名值。"
+        },
+        "es": {
+          "name": "variables",
+          "desc": "Las variables cubren la declaración, asignación y actualización de valores con nombre en Java."
+        },
+        "fr": {
+          "name": "Variables",
+          "desc": "Les variables couvrent la déclaration, l'attribution et la mise à jour des valeurs nommées en Java."
+        },
+        "de": {
+          "name": "Variablen",
+          "desc": "Variablen umfassen das Deklarieren, Zuweisen und Aktualisieren benannter Werte in Java."
+        },
+        "ja": {
+          "name": "変数",
+          "desc": "変数には、Java での名前付き値の宣言、割り当て、更新が含まれます。"
+        },
+        "ru": {
+          "name": "Переменные",
+          "desc": "Переменные охватывают объявление, присвоение и обновление именованных значений в Java."
+        },
+        "ko": {
+          "name": "변수",
+          "desc": "변수는 Java에서 명명된 값의 선언, 할당 및 업데이트를 다룹니다."
+        },
+        "pt": {
+          "name": "Variáveis",
+          "desc": "As variáveis cobrem a declaração, atribuição e atualização de valores nomeados em Java."
+        }
+      }
+    },
+    {
+      "key": "java/primitive_types",
+      "slug": "primitive_types",
+      "name": "Primitive Types",
+      "desc": "Primitive types cover numeric, boolean, and character values.",
+      "i18n": {
+        "zh": {
+          "name": "原始类型",
+          "desc": "基本类型包括数字、布尔值和字符值。"
+        },
+        "es": {
+          "name": "Tipos primitivos",
+          "desc": "Los tipos primitivos cubren valores numéricos, booleanos y de caracteres."
+        },
+        "fr": {
+          "name": "Types primitifs",
+          "desc": "Les types primitifs couvrent les valeurs numériques, booléennes et caractères."
+        },
+        "de": {
+          "name": "Primitive Typen",
+          "desc": "Primitive Typen umfassen numerische, boolesche und Zeichenwerte."
+        },
+        "ja": {
+          "name": "プリミティブ型",
+          "desc": "プリミティブ型は、数値、ブール値、および文字値を扱います。"
+        },
+        "ru": {
+          "name": "Примитивные типы",
+          "desc": "Примитивные типы охватывают числовые, логические и символьные значения."
+        },
+        "ko": {
+          "name": "기본 타입",
+          "desc": "기본 타입은 숫자, 불리언 및 문자 값을 다룹니다."
+        },
+        "pt": {
+          "name": "Tipos Primitivos",
+          "desc": "Os tipos primitivos cobrem valores numéricos, booleanos e de caracteres."
+        }
+      }
+    },
+    {
+      "key": "java/strings",
+      "slug": "strings",
+      "name": "Strings",
+      "desc": "Strings cover immutable text values and common string operations.",
+      "i18n": {
+        "zh": {
+          "name": "字符串",
+          "desc": "字符串涵盖不可变的文本值和常见的字符串操作。"
+        },
+        "es": {
+          "name": "Cadenas",
+          "desc": "Las cadenas cubren valores de texto inmutables y operaciones de cadenas comunes."
+        },
+        "fr": {
+          "name": "Chaînes",
+          "desc": "Les chaînes couvrent les valeurs de texte immuables et les opérations de chaîne courantes."
+        },
+        "de": {
+          "name": "Zeichenfolgen",
+          "desc": "Zeichenfolgen umfassen unveränderliche Textwerte und allgemeine Zeichenfolgenoperationen."
+        },
+        "ja": {
+          "name": "文字列",
+          "desc": "文字列には、不変のテキスト値と一般的な文字列操作が含まれます。"
+        },
+        "ru": {
+          "name": "Строки",
+          "desc": "Строки охватывают неизменяемые текстовые значения и общие строковые операции."
+        },
+        "ko": {
+          "name": "문자열",
+          "desc": "문자열은 변경할 수 없는 텍스트 값과 일반적인 문자열 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Strings",
+          "desc": "Strings cobrem valores de texto imutáveis e operações comuns de strings."
+        }
+      }
+    },
+    {
+      "key": "java/operators",
+      "slug": "operators",
+      "name": "Operators",
+      "desc": "Operators cover arithmetic, comparison, logical, assignment, and precedence behavior.",
+      "i18n": {
+        "zh": {
+          "name": "运算符",
+          "desc": "运算符涵盖算术、比较、逻辑、赋值和优先级行为。"
+        },
+        "es": {
+          "name": "Operadores",
+          "desc": "Los operadores cubren comportamiento aritmético, de comparación, lógico, de asignación y de precedencia."
+        },
+        "fr": {
+          "name": "Opérateurs",
+          "desc": "Les opérateurs couvrent le comportement arithmétique, de comparaison, logique, d’affectation et de priorité."
+        },
+        "de": {
+          "name": "Operatoren",
+          "desc": "Operatoren umfassen Arithmetik, Vergleich, logisches Verhalten, Zuweisung und Vorrangverhalten."
+        },
+        "ja": {
+          "name": "オペレーター",
+          "desc": "演算子には、算術、比較、論理、代入、および優先順位の動作が含まれます。"
+        },
+        "ru": {
+          "name": "Операторы",
+          "desc": "Операторы охватывают арифметические, сравнительные, логические операции, операции присваивания и приоритеты."
+        },
+        "ko": {
+          "name": "연산자",
+          "desc": "연산자는 산술, 비교, 논리, 할당 및 우선 순위 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Operadores",
+          "desc": "Os operadores cobrem comportamento aritmético, de comparação, lógico, de atribuição e de precedência."
+        }
+      }
+    },
+    {
+      "key": "java/type_conversion",
+      "slug": "type_conversion",
+      "name": "Type Conversion",
+      "desc": "Type conversion covers casting, widening, boxing, unboxing, and parsing values.",
+      "i18n": {
+        "zh": {
+          "name": "类型转换",
+          "desc": "类型转换涵盖强制转换、类型提升、装箱、拆箱和解析值。"
+        },
+        "es": {
+          "name": "Conversión de tipo",
+          "desc": "La conversión de tipos cubre casting, ampliación, boxing, unboxing y análisis de valores."
+        },
+        "fr": {
+          "name": "Conversion de types",
+          "desc": "La conversion de type couvre le cast, l'élargissement, le boxing, l'unboxing et l'analyse des valeurs."
+        },
+        "de": {
+          "name": "Typkonvertierung",
+          "desc": "Die Typkonvertierung umfasst Casting, Widening, Boxing, Unboxing und das Parsen von Werten."
+        },
+        "ja": {
+          "name": "型変換",
+          "desc": "型変換には、値のキャスト、拡張、ボックス化、アンボックス化、および解析が含まれます。"
+        },
+        "ru": {
+          "name": "Преобразование типа",
+          "desc": "Преобразование типов охватывает приведение, расширение, упаковку, распаковку и анализ значений."
+        },
+        "ko": {
+          "name": "타입 변환",
+          "desc": "타입 변환은 캐스팅, widening, 박싱, 언박싱 및 값 파싱을 다룹니다."
+        },
+        "pt": {
+          "name": "Conversão de tipo",
+          "desc": "A conversão de tipo abrange casting, widening, boxing, unboxing e parsing de valores."
+        }
+      }
+    },
+    {
+      "key": "java/comments",
+      "slug": "comments",
+      "name": "Comments",
+      "desc": "Comments cover documenting intent and behavior in Java source code.",
+      "i18n": {
+        "zh": {
+          "name": "注释",
+          "desc": "注释涵盖在 Java 源代码中记录意图和行为。"
+        },
+        "es": {
+          "name": "Comentarios",
+          "desc": "Los comentarios cubren la documentación de la intención y el comportamiento en el código fuente de Java."
+        },
+        "fr": {
+          "name": "Commentaires",
+          "desc": "Les commentaires couvrent la documentation de l'intention et du comportement dans le code source Java."
+        },
+        "de": {
+          "name": "Kommentare",
+          "desc": "Kommentare behandeln die Dokumentation von Absicht und Verhalten im Java-Quellcode."
+        },
+        "ja": {
+          "name": "コメント",
+          "desc": "コメントには、Java ソースコードの意図と動作の文書化が含まれます。"
+        },
+        "ru": {
+          "name": "Комментарии",
+          "desc": "Комментарии охватывают документирование намерений и поведения в исходном коде Java."
+        },
+        "ko": {
+          "name": "주석",
+          "desc": "주석은 Java 소스 코드의 의도와 동작을 문서화하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Comentários",
+          "desc": "Os comentários cobrem a documentação da intenção e do comportamento no código-fonte Java."
+        }
+      }
+    },
+    {
+      "key": "java/conditional_statements",
+      "slug": "conditional_statements",
+      "name": "Conditional Statements",
+      "desc": "Conditional statements cover branching with if and else logic.",
+      "i18n": {
+        "zh": {
+          "name": "条件语句",
+          "desc": "条件语句涵盖使用 if 和 else 逻辑进行分支。"
+        },
+        "es": {
+          "name": "Sentencias condicionales",
+          "desc": "Las sentencias condicionales cubren la ramificación con lógica if y else."
+        },
+        "fr": {
+          "name": "Instructions conditionnelles",
+          "desc": "Les instructions conditionnelles couvrent le branchement avec la logique if et else."
+        },
+        "de": {
+          "name": "Bedingte Anweisungen",
+          "desc": "Bedingte Anweisungen umfassen Verzweigungen mit if- und else-Logik."
+        },
+        "ja": {
+          "name": "条件文",
+          "desc": "条件ステートメントは、if および else ロジックによる分岐を扱います。"
+        },
+        "ru": {
+          "name": "Условные операторы",
+          "desc": "Условные операторы охватывают ветвление с помощью логики if и else."
+        },
+        "ko": {
+          "name": "조건문",
+          "desc": "조건문은 if 및 else 논리를 사용한 분기를 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções condicionais",
+          "desc": "As instruções condicionais cobrem a ramificação com a lógica if e else."
+        }
+      }
+    },
+    {
+      "key": "java/switch_statements",
+      "slug": "switch_statements",
+      "name": "Switch Statements",
+      "desc": "Switch statements cover multi-branch control flow and switch expressions.",
+      "i18n": {
+        "zh": {
+          "name": "Switch 语句",
+          "desc": "switch 语句涵盖多分支控制流和 switch 表达式。"
+        },
+        "es": {
+          "name": "Sentencias switch",
+          "desc": "Las sentencias switch cubren el flujo de control multirrama y las expresiones switch."
+        },
+        "fr": {
+          "name": "Instructions switch",
+          "desc": "Les instructions Switch couvrent le flux de contrôle multibranche et les expressions switch."
+        },
+        "de": {
+          "name": "Switch-Anweisungen",
+          "desc": "Switch-Anweisungen decken den Kontrollfluss mit mehreren Zweigen und Switch-Ausdrücke ab."
+        },
+        "ja": {
+          "name": "スイッチステートメント",
+          "desc": "switch ステートメントは、マルチブランチ制御フローと switch 式を扱います。"
+        },
+        "ru": {
+          "name": "Операторы переключения",
+          "desc": "Операторы переключения охватывают многоветвевой поток управления и выражения переключения."
+        },
+        "ko": {
+          "name": "스위치 문",
+          "desc": "스위치 문은 다중 분기 제어 흐름과 스위치 표현식을 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções switch",
+          "desc": "As instruções switch cobrem o fluxo de controle de múltiplas ramificações e expressões switch."
+        }
+      }
+    },
+    {
+      "key": "java/loops",
+      "slug": "loops",
+      "name": "Loops",
+      "desc": "Loops cover repetition with for, enhanced for, while, and do-while structures.",
+      "i18n": {
+        "zh": {
+          "name": "循环",
+          "desc": "循环涵盖了 for、增强型 for、while 和 do-while 结构的重复。"
+        },
+        "es": {
+          "name": "Bucles",
+          "desc": "Los bucles cubren la repetición con estructuras for, for mejorado, while y do-while."
+        },
+        "fr": {
+          "name": "Boucles",
+          "desc": "Les boucles couvrent la répétition avec les structures for, enhanced for, while et do-while."
+        },
+        "de": {
+          "name": "Schleifen",
+          "desc": "Schleifen decken Wiederholungen mit den Strukturen „for“, „enhanced for“, „while“ und „do-while“ ab."
+        },
+        "ja": {
+          "name": "ループ",
+          "desc": "ループは、for、拡張 for、while、および do-while 構造を使用して繰り返しを扱います。"
+        },
+        "ru": {
+          "name": "Циклы",
+          "desc": "Циклы охватывают повторение с помощью структур for, enhanced for, while и do-while."
+        },
+        "ko": {
+          "name": "루프",
+          "desc": "루프는 for, 향상된 for, while 및 do-while 구조를 사용하여 반복을 다룹니다."
+        },
+        "pt": {
+          "name": "Laços",
+          "desc": "Os loops cobrem a repetição com estruturas for, for aprimoradas, while e do-while."
+        }
+      }
+    },
+    {
+      "key": "java/break_continue",
+      "slug": "break_continue",
+      "name": "Break and Continue",
+      "desc": "Break and continue cover changing loop or switch control flow deliberately.",
+      "i18n": {
+        "zh": {
+          "name": "break 和 continue",
+          "desc": "break 和 continue 涵盖有意改变循环或 switch 控制流。"
+        },
+        "es": {
+          "name": "break y continue",
+          "desc": "break y continue cubren el cambio deliberado del flujo de control en bucles o switch."
+        },
+        "fr": {
+          "name": "break et continue",
+          "desc": "break et continue couvrent la modification volontaire du flux de contrôle dans les boucles ou switch."
+        },
+        "de": {
+          "name": "break und continue",
+          "desc": "break und continue behandeln das gezielte Ändern des Kontrollflusses in Schleifen oder switch-Anweisungen."
+        },
+        "ja": {
+          "name": "break と continue",
+          "desc": "break と continue は、ループや switch の制御フローを意図的に変更する方法を扱います。"
+        },
+        "ru": {
+          "name": "break и continue",
+          "desc": "break и continue охватывают намеренное изменение потока управления в циклах или switch."
+        },
+        "ko": {
+          "name": "break와 continue",
+          "desc": "break와 continue는 루프 또는 switch의 제어 흐름을 의도적으로 변경하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "break e continue",
+          "desc": "break e continue cobrem a alteração deliberada do fluxo de controle em loops ou switch."
+        }
+      }
+    },
+    {
+      "key": "java/scope",
+      "slug": "scope",
+      "name": "Scope",
+      "desc": "Scope covers variable visibility and lifetime within blocks, methods, and classes.",
+      "i18n": {
+        "zh": {
+          "name": "作用域",
+          "desc": "作用域涵盖块、方法和类中的变量可见性和生命周期。"
+        },
+        "es": {
+          "name": "Alcance",
+          "desc": "El alcance cubre la visibilidad y la vida útil de las variables dentro de bloques, métodos y clases."
+        },
+        "fr": {
+          "name": "Portée",
+          "desc": "La portée couvre la visibilité et la durée de vie des variables au sein des blocs, des méthodes et des classes."
+        },
+        "de": {
+          "name": "Gültigkeitsbereich",
+          "desc": "Der Geltungsbereich umfasst die Sichtbarkeit und Lebensdauer von Variablen innerhalb von Blöcken, Methoden und Klassen."
+        },
+        "ja": {
+          "name": "範囲",
+          "desc": "スコープは、ブロック、メソッド、クラス内の変数の可視性と有効期間を扱います。"
+        },
+        "ru": {
+          "name": "Область видимости",
+          "desc": "Область действия охватывает видимость и время жизни переменных внутри блоков, методов и классов."
+        },
+        "ko": {
+          "name": "범위",
+          "desc": "범위는 블록, 메서드 및 클래스 내 변수의 가시성과 수명을 다룹니다."
+        },
+        "pt": {
+          "name": "Escopo",
+          "desc": "O escopo cobre a visibilidade e a vida útil das variáveis em blocos, métodos e classes."
+        }
+      }
+    },
+    {
+      "key": "java/methods",
+      "slug": "methods",
+      "name": "Methods",
+      "desc": "Methods cover defining, calling, and organizing reusable Java behavior.",
+      "i18n": {
+        "zh": {
+          "name": "方法",
+          "desc": "方法涵盖定义、调用和组织可重用的 Java 行为。"
+        },
+        "es": {
+          "name": "Métodos",
+          "desc": "Los métodos cubren definir, llamar y organizar comportamientos Java reutilizables."
+        },
+        "fr": {
+          "name": "Méthodes",
+          "desc": "Les méthodes couvrent la définition, l'appel et l'organisation du comportement Java réutilisable."
+        },
+        "de": {
+          "name": "Methoden",
+          "desc": "Die Methoden umfassen das Definieren, Aufrufen und Organisieren von wiederverwendbarem Java-Verhalten."
+        },
+        "ja": {
+          "name": "メソッド",
+          "desc": "メソッドには、再利用可能な Java 動作の定義、呼び出し、整理が含まれます。"
+        },
+        "ru": {
+          "name": "Методы",
+          "desc": "Методы охватывают определение, вызов и организацию многократно используемого поведения Java."
+        },
+        "ko": {
+          "name": "메서드",
+          "desc": "메서드에서는 재사용 가능한 Java 동작을 정의하고 호출하고 구성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Métodos",
+          "desc": "Os métodos cobrem a definição, chamada e organização do comportamento Java reutilizável."
+        }
+      }
+    },
+    {
+      "key": "java/parameters_return_values",
+      "slug": "parameters_return_values",
+      "name": "Parameters and Return Values",
+      "desc": "Parameters and return values cover passing data into methods and communicating results.",
+      "i18n": {
+        "zh": {
+          "name": "参数和返回值",
+          "desc": "参数和返回值涵盖将数据传递到方法和传达结果。"
+        },
+        "es": {
+          "name": "Parámetros y valores de retorno",
+          "desc": "Los parámetros y valores de retorno cubren el paso de datos a métodos y la comunicación de resultados."
+        },
+        "fr": {
+          "name": "Paramètres et valeurs de retour",
+          "desc": "Les paramètres et les valeurs de retour couvrent la transmission des données dans les méthodes et la communication des résultats."
+        },
+        "de": {
+          "name": "Parameter und Rückgabewerte",
+          "desc": "Parameter und Rückgabewerte umfassen die Übergabe von Daten an Methoden und die Kommunikation von Ergebnissen."
+        },
+        "ja": {
+          "name": "パラメータと戻り値",
+          "desc": "パラメーターと戻り値には、メソッドへのデータの受け渡しと結果の伝達が含まれます。"
+        },
+        "ru": {
+          "name": "Параметры и возвращаемые значения",
+          "desc": "Параметры и возвращаемые значения охватывают передачу данных в методы и передачу результатов."
+        },
+        "ko": {
+          "name": "매개변수 및 반환 값",
+          "desc": "매개변수 및 반환 값은 메서드에 데이터를 전달하고 결과를 돌려주는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Parâmetros e valores de retorno",
+          "desc": "Parâmetros e valores de retorno cobrem a passagem de dados para métodos e a comunicação de resultados."
+        }
+      }
+    },
+    {
+      "key": "java/method_overloading",
+      "slug": "method_overloading",
+      "name": "Method Overloading",
+      "desc": "Method overloading covers selecting methods by parameter lists.",
+      "i18n": {
+        "zh": {
+          "name": "方法重载",
+          "desc": "方法重载包括通过参数列表选择方法。"
+        },
+        "es": {
+          "name": "Sobrecarga de métodos",
+          "desc": "La sobrecarga de métodos cubre la selección de métodos mediante listas de parámetros."
+        },
+        "fr": {
+          "name": "Surcharge de méthode",
+          "desc": "La surcharge de méthodes couvre la sélection de méthodes par listes de paramètres."
+        },
+        "de": {
+          "name": "Methodenüberladung",
+          "desc": "Das Überladen von Methoden umfasst die Auswahl von Methoden anhand von Parameterlisten."
+        },
+        "ja": {
+          "name": "メソッドのオーバーロード",
+          "desc": "メソッドのオーバーロードでは、パラメーターリストによるメソッドの選択を扱います。"
+        },
+        "ru": {
+          "name": "Перегрузка метода",
+          "desc": "Перегрузка метода включает выбор методов по спискам параметров."
+        },
+        "ko": {
+          "name": "메서드 오버로딩",
+          "desc": "메서드 오버로딩은 매개변수 목록을 기준으로 호출할 메서드를 선택하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Sobrecarga de método",
+          "desc": "A sobrecarga de métodos abrange a seleção de métodos por listas de parâmetros."
+        }
+      }
+    },
+    {
+      "key": "java/recursion",
+      "slug": "recursion",
+      "name": "Recursion",
+      "desc": "Recursion covers methods that solve problems by calling themselves with smaller inputs.",
+      "i18n": {
+        "zh": {
+          "name": "递归",
+          "desc": "递归涵盖了通过使用较小的输入调用自身来解决问题的方法。"
+        },
+        "es": {
+          "name": "recursividad",
+          "desc": "La recursión cubre métodos que resuelven problemas llamándose a sí mismos con entradas más pequeñas."
+        },
+        "fr": {
+          "name": "Récursivité",
+          "desc": "La récursivité couvre les méthodes qui résolvent les problèmes en s'appelant elles-mêmes avec des entrées plus petites."
+        },
+        "de": {
+          "name": "Rekursion",
+          "desc": "Rekursion umfasst Methoden, die Probleme lösen, indem sie sich selbst mit kleineren Eingaben aufrufen."
+        },
+        "ja": {
+          "name": "再帰",
+          "desc": "再帰では、より小さな入力で自分自身を呼び出すことによって問題を解決するメソッドを扱います。"
+        },
+        "ru": {
+          "name": "Рекурсия",
+          "desc": "Рекурсия охватывает методы, которые решают проблемы, вызывая самих себя с меньшими входными данными."
+        },
+        "ko": {
+          "name": "재귀",
+          "desc": "재귀는 더 작은 입력으로 자신을 호출하여 문제를 해결하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Recursão",
+          "desc": "A recursão cobre métodos que resolvem problemas chamando a si mesmos com entradas menores."
+        }
+      }
+    },
+    {
+      "key": "java/lambda_expressions",
+      "slug": "lambda_expressions",
+      "name": "Lambda Expressions",
+      "desc": "Lambda expressions cover inline functions used with functional interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "Lambda 表达式",
+          "desc": "Lambda 表达式涵盖与函数式接口一起使用的内联函数。"
+        },
+        "es": {
+          "name": "Expresiones lambda",
+          "desc": "Las expresiones Lambda cubren funciones en línea utilizadas con interfaces funcionales."
+        },
+        "fr": {
+          "name": "Expressions lambda",
+          "desc": "Les expressions Lambda couvrent les fonctions en ligne utilisées avec les interfaces fonctionnelles."
+        },
+        "de": {
+          "name": "Lambda-Ausdrücke",
+          "desc": "Lambda-Ausdrücke decken Inline-Funktionen ab, die mit funktionalen Schnittstellen verwendet werden."
+        },
+        "ja": {
+          "name": "ラムダ式",
+          "desc": "ラムダ式は、関数型インターフェイスで使用されるインライン関数を扱います。"
+        },
+        "ru": {
+          "name": "Лямбда-выражения",
+          "desc": "Лямбда-выражения охватывают встроенные функции, используемые с функциональными интерфейсами."
+        },
+        "ko": {
+          "name": "람다 표현식",
+          "desc": "람다 표현식은 함수형 인터페이스와 함께 사용되는 인라인 함수를 다룹니다."
+        },
+        "pt": {
+          "name": "Expressões Lambda",
+          "desc": "As expressões lambda cobrem funções inline usadas com interfaces funcionais."
+        }
+      }
+    },
+    {
+      "key": "java/method_references",
+      "slug": "method_references",
+      "name": "Method References",
+      "desc": "Method references cover referring to existing methods as functional values.",
+      "i18n": {
+        "zh": {
+          "name": "方法引用",
+          "desc": "方法引用涵盖将现有方法引用为函数值。"
+        },
+        "es": {
+          "name": "Referencias de métodos",
+          "desc": "Las referencias a métodos cubren las referencias a métodos existentes como valores funcionales."
+        },
+        "fr": {
+          "name": "Références de méthodes",
+          "desc": "Les références aux méthodes couvrent la référence aux méthodes existantes en tant que valeurs fonctionnelles."
+        },
+        "de": {
+          "name": "Methodenreferenzen",
+          "desc": "Methodenreferenzen umfassen die Bezugnahme auf vorhandene Methoden als Funktionswerte."
+        },
+        "ja": {
+          "name": "メソッド参照",
+          "desc": "メソッド参照では、関数値としての既存のメソッドの参照について説明します。"
+        },
+        "ru": {
+          "name": "Ссылки на методы",
+          "desc": "Ссылки на методы охватывают обращение к существующим методам как к функциональным значениям."
+        },
+        "ko": {
+          "name": "메서드 참조",
+          "desc": "메서드 참조는 기존 메서드를 함수형 값으로 참조하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Referências de métodos",
+          "desc": "As referências de métodos abrangem referências a métodos existentes como valores funcionais."
+        }
+      }
+    },
+    {
+      "key": "java/classes_objects",
+      "slug": "classes_objects",
+      "name": "Classes and Objects",
+      "desc": "Classes and objects cover defining reference types and creating instances.",
+      "i18n": {
+        "zh": {
+          "name": "类和对象",
+          "desc": "类和对象涵盖定义引用类型和创建实例。"
+        },
+        "es": {
+          "name": "Clases y objetos",
+          "desc": "Las clases y objetos cubren la definición de tipos de referencia y la creación de instancias."
+        },
+        "fr": {
+          "name": "Classes et objets",
+          "desc": "Les classes et les objets couvrent la définition des types de référence et la création d'instances."
+        },
+        "de": {
+          "name": "Klassen und Objekte",
+          "desc": "Klassen und Objekte umfassen das Definieren von Referenztypen und das Erstellen von Instanzen."
+        },
+        "ja": {
+          "name": "クラスとオブジェクト",
+          "desc": "クラスとオブジェクトには、参照型の定義とインスタンスの作成が含まれます。"
+        },
+        "ru": {
+          "name": "Классы и объекты",
+          "desc": "Классы и объекты охватывают определение ссылочных типов и создание экземпляров."
+        },
+        "ko": {
+          "name": "클래스와 객체",
+          "desc": "클래스와 객체는 참조 타입 정의와 인스턴스 생성을 다룹니다."
+        },
+        "pt": {
+          "name": "Classes e objetos",
+          "desc": "Classes e objetos cobrem a definição de tipos de referência e a criação de instâncias."
+        }
+      }
+    },
+    {
+      "key": "java/constructors",
+      "slug": "constructors",
+      "name": "Constructors",
+      "desc": "Constructors cover initializing objects when instances are created.",
+      "i18n": {
+        "zh": {
+          "name": "构造函数",
+          "desc": "构造函数涵盖创建实例时初始化对象。"
+        },
+        "es": {
+          "name": "Constructores",
+          "desc": "Los constructores cubren la inicialización de objetos cuando se crean instancias."
+        },
+        "fr": {
+          "name": "Constructeurs",
+          "desc": "Les constructeurs couvrent l'initialisation des objets lors de la création d'instances."
+        },
+        "de": {
+          "name": "Konstruktoren",
+          "desc": "Konstruktoren decken die Initialisierung von Objekten ab, wenn Instanzen erstellt werden."
+        },
+        "ja": {
+          "name": "コンストラクター",
+          "desc": "コンストラクターは、インスタンスの作成時のオブジェクトの初期化を扱います。"
+        },
+        "ru": {
+          "name": "Конструкторы",
+          "desc": "Конструкторы охватывают инициализацию объектов при создании экземпляров."
+        },
+        "ko": {
+          "name": "생성자",
+          "desc": "생성자는 인스턴스가 생성될 때 객체 초기화를 다룹니다."
+        },
+        "pt": {
+          "name": "Construtores",
+          "desc": "Os construtores cobrem a inicialização de objetos quando as instâncias são criadas."
+        }
+      }
+    },
+    {
+      "key": "java/fields",
+      "slug": "fields",
+      "name": "Fields",
+      "desc": "Fields cover object and class state stored in Java types.",
+      "i18n": {
+        "zh": {
+          "name": "字段",
+          "desc": "字段涵盖存储在 Java 类型中的对象和类状态。"
+        },
+        "es": {
+          "name": "Campos",
+          "desc": "Los campos cubren el estado de objetos y clases almacenado en tipos Java."
+        },
+        "fr": {
+          "name": "Champs",
+          "desc": "Les champs couvrent l'état des objets et des classes stocké dans les types Java."
+        },
+        "de": {
+          "name": "Felder",
+          "desc": "Felder decken den Objekt- und Klassenstatus ab, der in Java-Typen gespeichert ist."
+        },
+        "ja": {
+          "name": "フィールド",
+          "desc": "フィールドは、Java 型で保存されたオブジェクトとクラスの状態を扱います。"
+        },
+        "ru": {
+          "name": "Поля",
+          "desc": "Поля охватывают состояние объекта и класса, хранящееся в Java типах."
+        },
+        "ko": {
+          "name": "필드",
+          "desc": "필드는 Java 타입에 저장된 객체 및 클래스 상태를 다룹니다."
+        },
+        "pt": {
+          "name": "Campos",
+          "desc": "Os campos cobrem o estado do objeto e da classe armazenados em tipos Java."
+        }
+      }
+    },
+    {
+      "key": "java/modifiers",
+      "slug": "modifiers",
+      "name": "Modifiers",
+      "desc": "Modifiers cover access, static, final, abstract, and other declaration controls.",
+      "i18n": {
+        "zh": {
+          "name": "修饰符",
+          "desc": "修饰符涵盖访问、静态、最终、抽象和其他声明控制。"
+        },
+        "es": {
+          "name": "Modificadores",
+          "desc": "Los modificadores cubren controles de acceso, estáticos, finales, abstractos y otros controles de declaración."
+        },
+        "fr": {
+          "name": "Modificateurs",
+          "desc": "Les modificateurs couvrent les contrôles d'accès, statiques, finaux, abstraits et autres contrôles de déclaration."
+        },
+        "de": {
+          "name": "Modifikatoren",
+          "desc": "Modifikatoren decken Zugriffs-, statische, endgültige, abstrakte und andere Deklarationskontrollen ab."
+        },
+        "ja": {
+          "name": "修飾子",
+          "desc": "修飾子は、アクセス、静的、最終、抽象、その他の宣言コントロールを扱います。"
+        },
+        "ru": {
+          "name": "Модификаторы",
+          "desc": "Модификаторы охватывают элементы управления доступом, статические, финальные, абстрактные и другие элементы управления объявлениями."
+        },
+        "ko": {
+          "name": "수정자",
+          "desc": "수정자는 액세스, 정적, 최종, 추상 및 기타 선언 제어를 다룹니다."
+        },
+        "pt": {
+          "name": "Modificadores",
+          "desc": "Os modificadores cobrem controles de acesso, estáticos, finais, abstratos e outros controles de declaração."
+        }
+      }
+    },
+    {
+      "key": "java/encapsulation",
+      "slug": "encapsulation",
+      "name": "Encapsulation",
+      "desc": "Encapsulation covers protecting state through controlled interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "封装",
+          "desc": "封装涵盖通过受控接口保护状态。"
+        },
+        "es": {
+          "name": "Encapsulación",
+          "desc": "La encapsulación cubre el estado de protección a través de interfaces controladas."
+        },
+        "fr": {
+          "name": "Encapsulation",
+          "desc": "L'encapsulation couvre la protection de l'état via des interfaces contrôlées."
+        },
+        "de": {
+          "name": "Kapselung",
+          "desc": "Die Kapselung umfasst den Schutz des Zustands durch kontrollierte Schnittstellen."
+        },
+        "ja": {
+          "name": "カプセル化",
+          "desc": "カプセル化は、制御されたインターフェイスを介した状態の保護を扱います。"
+        },
+        "ru": {
+          "name": "Инкапсуляция",
+          "desc": "Инкапсуляция обеспечивает защиту состояния через управляемые интерфейсы."
+        },
+        "ko": {
+          "name": "캡슐화",
+          "desc": "캡슐화는 제어된 인터페이스를 통해 상태를 보호하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Encapsulamento",
+          "desc": "O encapsulamento cobre a proteção do estado por meio de interfaces controladas."
+        }
+      }
+    },
+    {
+      "key": "java/inheritance",
+      "slug": "inheritance",
+      "name": "Inheritance",
+      "desc": "Inheritance covers deriving classes and reusing or extending behavior.",
+      "i18n": {
+        "zh": {
+          "name": "继承",
+          "desc": "继承涵盖派生类以及重用或扩展行为。"
+        },
+        "es": {
+          "name": "herencia",
+          "desc": "La herencia cubre la derivación de clases y la reutilización o extensión del comportamiento."
+        },
+        "fr": {
+          "name": "Héritage",
+          "desc": "L'héritage couvre la dérivation de classes et la réutilisation ou l'extension du comportement."
+        },
+        "de": {
+          "name": "Vererbung",
+          "desc": "Vererbung umfasst das Ableiten von Klassen und die Wiederverwendung oder Erweiterung von Verhalten."
+        },
+        "ja": {
+          "name": "継承",
+          "desc": "継承には、クラスの派生と動作の再利用または拡張が含まれます。"
+        },
+        "ru": {
+          "name": "Наследование",
+          "desc": "Наследование охватывает создание производных классов и повторное использование или расширение поведения."
+        },
+        "ko": {
+          "name": "상속",
+          "desc": "상속은 클래스 파생과 동작 재사용 또는 확장을 다룹니다."
+        },
+        "pt": {
+          "name": "Herança",
+          "desc": "A herança cobre a derivação de classes e a reutilização ou extensão de comportamento."
+        }
+      }
+    },
+    {
+      "key": "java/polymorphism",
+      "slug": "polymorphism",
+      "name": "Polymorphism",
+      "desc": "Polymorphism covers substitutable objects and dynamic method dispatch.",
+      "i18n": {
+        "zh": {
+          "name": "多态性",
+          "desc": "多态性涵盖可替换对象和动态方法分派。"
+        },
+        "es": {
+          "name": "polimorfismo",
+          "desc": "El polimorfismo cubre objetos sustituibles y envío de métodos dinámicos."
+        },
+        "fr": {
+          "name": "Polymorphisme",
+          "desc": "Le polymorphisme couvre les objets substituables et la répartition de méthodes dynamiques."
+        },
+        "de": {
+          "name": "Polymorphismus",
+          "desc": "Polymorphismus umfasst ersetzbare Objekte und den dynamischen Methodenversand."
+        },
+        "ja": {
+          "name": "ポリモーフィズム",
+          "desc": "ポリモーフィズムは、置換可能なオブジェクトと動的メソッドのディスパッチを扱います。"
+        },
+        "ru": {
+          "name": "Полиморфизм",
+          "desc": "Полиморфизм охватывает заменяемые объекты и динамическую отправку методов."
+        },
+        "ko": {
+          "name": "다형성",
+          "desc": "다형성은 대체 가능한 객체와 동적 메서드 디스패치를 다룹니다."
+        },
+        "pt": {
+          "name": "Polimorfismo",
+          "desc": "O polimorfismo cobre objetos substituíveis e envio de métodos dinâmicos."
+        }
+      }
+    },
+    {
+      "key": "java/abstract_classes",
+      "slug": "abstract_classes",
+      "name": "Abstract Classes",
+      "desc": "Abstract classes cover partial implementations intended for inheritance.",
+      "i18n": {
+        "zh": {
+          "name": "抽象类",
+          "desc": "抽象类涵盖了用于继承的部分实现。"
+        },
+        "es": {
+          "name": "Clases abstractas",
+          "desc": "Las clases abstractas cubren implementaciones parciales destinadas a la herencia."
+        },
+        "fr": {
+          "name": "Classes abstraites",
+          "desc": "Les classes abstraites couvrent les implémentations partielles destinées à l'héritage."
+        },
+        "de": {
+          "name": "Abstrakte Klassen",
+          "desc": "Abstrakte Klassen decken Teilimplementierungen ab, die zur Vererbung vorgesehen sind."
+        },
+        "ja": {
+          "name": "抽象クラス",
+          "desc": "抽象クラスは、継承を目的とした部分的な実装を扱います。"
+        },
+        "ru": {
+          "name": "Абстрактные классы",
+          "desc": "Абстрактные классы охватывают частичные реализации, предназначенные для наследования."
+        },
+        "ko": {
+          "name": "추상 클래스",
+          "desc": "추상 클래스는 상속을 위한 부분 구현을 다룹니다."
+        },
+        "pt": {
+          "name": "Classes abstratas",
+          "desc": "As classes abstratas cobrem implementações parciais destinadas à herança."
+        }
+      }
+    },
+    {
+      "key": "java/interfaces",
+      "slug": "interfaces",
+      "name": "Interfaces",
+      "desc": "Interfaces cover behavioral contracts and multiple type capabilities.",
+      "i18n": {
+        "zh": {
+          "name": "接口",
+          "desc": "接口涵盖行为契约和多种类型的能力。"
+        },
+        "es": {
+          "name": "Interfaces",
+          "desc": "Las interfaces cubren contratos de comportamiento y capacidades de múltiples tipos."
+        },
+        "fr": {
+          "name": "Interfaces",
+          "desc": "Les interfaces couvrent des contrats comportementaux et des capacités de types multiples."
+        },
+        "de": {
+          "name": "Schnittstellen",
+          "desc": "Schnittstellen decken Verhaltensverträge und die Implementierung durch mehrere Typen ab."
+        },
+        "ja": {
+          "name": "インターフェース",
+          "desc": "インターフェイスは、動作コントラクトと複数の型での実装を扱います。"
+        },
+        "ru": {
+          "name": "Интерфейсы",
+          "desc": "Интерфейсы охватывают поведенческие контракты и возможности нескольких типов."
+        },
+        "ko": {
+          "name": "인터페이스",
+          "desc": "인터페이스는 동작 계약과 여러 타입에서의 구현을 다룹니다."
+        },
+        "pt": {
+          "name": "Interfaces",
+          "desc": "As interfaces cobrem contratos comportamentais e implementação por vários tipos."
+        }
+      }
+    },
+    {
+      "key": "java/enums",
+      "slug": "enums",
+      "name": "Enums",
+      "desc": "Enums cover fixed sets of named instances.",
+      "i18n": {
+        "zh": {
+          "name": "枚举",
+          "desc": "枚举涵盖固定的命名实例集。"
+        },
+        "es": {
+          "name": "Enumeraciones",
+          "desc": "Las enumeraciones cubren conjuntos fijos de instancias con nombre."
+        },
+        "fr": {
+          "name": "Énumérations",
+          "desc": "Les énumérations couvrent des ensembles fixes d'instances nommées."
+        },
+        "de": {
+          "name": "Aufzählungen",
+          "desc": "Aufzählungen umfassen feste Mengen benannter Instanzen."
+        },
+        "ja": {
+          "name": "列挙型",
+          "desc": "列挙型は、名前付きインスタンスの固定セットを扱います。"
+        },
+        "ru": {
+          "name": "Перечисления",
+          "desc": "Перечисления охватывают фиксированные наборы именованных экземпляров."
+        },
+        "ko": {
+          "name": "열거형",
+          "desc": "열거형은 명명된 인스턴스의 고정 집합을 다룹니다."
+        },
+        "pt": {
+          "name": "Enums",
+          "desc": "Enums cobrem conjuntos fixos de instâncias nomeadas."
+        }
+      }
+    },
+    {
+      "key": "java/records",
+      "slug": "records",
+      "name": "Records",
+      "desc": "Records cover compact immutable data carrier classes.",
+      "i18n": {
+        "zh": {
+          "name": "Record 类",
+          "desc": "Record 类涵盖紧凑的不可变数据载体类。"
+        },
+        "es": {
+          "name": "Records",
+          "desc": "Records cubren clases compactas e inmutables para transportar datos."
+        },
+        "fr": {
+          "name": "Records",
+          "desc": "Les records couvrent des classes compactes et immuables servant de porteuses de données."
+        },
+        "de": {
+          "name": "Records",
+          "desc": "Records behandeln kompakte, unveränderliche Datenträgerklassen."
+        },
+        "ja": {
+          "name": "record クラス",
+          "desc": "レコードは、コンパクトな不変データキャリアクラスを扱います。"
+        },
+        "ru": {
+          "name": "Records",
+          "desc": "Records охватывают компактные неизменяемые классы-носители данных."
+        },
+        "ko": {
+          "name": "record 클래스",
+          "desc": "record 클래스는 간결한 불변 데이터 캐리어 클래스를 다룹니다."
+        },
+        "pt": {
+          "name": "Records",
+          "desc": "Records cobrem classes compactas e imutáveis para transporte de dados."
+        }
+      }
+    },
+    {
+      "key": "java/annotations",
+      "slug": "annotations",
+      "name": "Annotations",
+      "desc": "Annotations cover metadata attached to declarations for tools and runtime processing.",
+      "i18n": {
+        "zh": {
+          "name": "注解",
+          "desc": "注解涵盖附加到声明上、供工具和运行时处理使用的元数据。"
+        },
+        "es": {
+          "name": "Anotaciones",
+          "desc": "Las anotaciones cubren metadatos adjuntos a declaraciones para herramientas y procesamiento en tiempo de ejecución."
+        },
+        "fr": {
+          "name": "Annotations",
+          "desc": "Les annotations couvrent les métadonnées attachées aux déclarations pour les outils et le traitement d'exécution."
+        },
+        "de": {
+          "name": "Annotationen",
+          "desc": "Annotationen umfassen Metadaten, die für Tools und Laufzeitverarbeitung an Deklarationen angehängt sind."
+        },
+        "ja": {
+          "name": "注釈",
+          "desc": "注釈は、ツールや実行時処理のために宣言へ付加されるメタデータを扱います。"
+        },
+        "ru": {
+          "name": "Аннотации",
+          "desc": "Аннотации охватывают метаданные, прикрепленные к объявлениям для инструментов и обработки во время выполнения."
+        },
+        "ko": {
+          "name": "애너테이션",
+          "desc": "애너테이션은 도구 및 런타임 처리를 위해 선언에 첨부되는 메타데이터를 다룹니다."
+        },
+        "pt": {
+          "name": "Anotações",
+          "desc": "As anotações cobrem metadados anexados a declarações para ferramentas e processamento de tempo de execução."
+        }
+      }
+    },
+    {
+      "key": "java/arrays",
+      "slug": "arrays",
+      "name": "Arrays",
+      "desc": "Arrays cover fixed-size indexed collections.",
+      "i18n": {
+        "zh": {
+          "name": "数组",
+          "desc": "数组涵盖固定大小的索引集合。"
+        },
+        "es": {
+          "name": "Arreglos",
+          "desc": "Los arreglos cubren colecciones indexadas de tamaño fijo."
+        },
+        "fr": {
+          "name": "Tableaux",
+          "desc": "Les tableaux couvrent des collections indexées de taille fixe."
+        },
+        "de": {
+          "name": "Felder",
+          "desc": "Felder decken indizierte Sammlungen fester Größe ab."
+        },
+        "ja": {
+          "name": "配列",
+          "desc": "配列は、固定サイズのインデックス付きコレクションを扱います。"
+        },
+        "ru": {
+          "name": "Массивы",
+          "desc": "Массивы охватывают индексированные коллекции фиксированного размера."
+        },
+        "ko": {
+          "name": "배열",
+          "desc": "배열은 고정 크기의 인덱스 기반 컬렉션을 다룹니다."
+        },
+        "pt": {
+          "name": "Vetores",
+          "desc": "Vetores cobrem coleções indexadas de tamanho fixo."
+        }
+      }
+    },
+    {
+      "key": "java/collections",
+      "slug": "collections",
+      "name": "Collections",
+      "desc": "Collections cover lists, sets, maps, and common collection operations.",
+      "i18n": {
+        "zh": {
+          "name": "集合",
+          "desc": "集合涵盖了列表、集合、映射以及常见的集合操作。"
+        },
+        "es": {
+          "name": "Colecciones",
+          "desc": "Las colecciones cubren listas, conjuntos, mapas y operaciones comunes de colección."
+        },
+        "fr": {
+          "name": "Collections",
+          "desc": "Les collections couvrent les listes, les ensembles, les mappages et les opérations de collection courantes."
+        },
+        "de": {
+          "name": "Sammlungen",
+          "desc": "Collections umfassen Listen, Sets, Maps und allgemeine Collection-Operationen."
+        },
+        "ja": {
+          "name": "コレクション",
+          "desc": "コレクションには、リスト、セット、マップ、および一般的なコレクション操作が含まれます。"
+        },
+        "ru": {
+          "name": "Коллекции",
+          "desc": "Коллекции охватывают списки, множества, отображения и общие операции с коллекциями."
+        },
+        "ko": {
+          "name": "컬렉션",
+          "desc": "컬렉션은 리스트, 집합, 맵 및 일반적인 컬렉션 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Coleções",
+          "desc": "As coleções cobrem listas, conjuntos, mapas e operações comuns de coleção."
+        }
+      }
+    },
+    {
+      "key": "java/iterators",
+      "slug": "iterators",
+      "name": "Iterators",
+      "desc": "Iterators cover traversing collection values with standard iteration patterns.",
+      "i18n": {
+        "zh": {
+          "name": "迭代器",
+          "desc": "迭代器涵盖使用标准迭代模式遍历集合值。"
+        },
+        "es": {
+          "name": "Iteradores",
+          "desc": "Los iteradores cubren el recorrido de valores de colección con patrones de iteración estándar."
+        },
+        "fr": {
+          "name": "Itérateurs",
+          "desc": "Les itérateurs couvrent le parcours des valeurs de collection avec des modèles d’itération standard."
+        },
+        "de": {
+          "name": "Iteratoren",
+          "desc": "Iteratoren decken das Durchlaufen von Sammlungswerten mit Standarditerationsmustern ab."
+        },
+        "ja": {
+          "name": "イテレータ",
+          "desc": "イテレータは、標準的な反復パターンでコレクション値の走査を扱います。"
+        },
+        "ru": {
+          "name": "Итераторы",
+          "desc": "Итераторы охватывают перемещение значений коллекции с помощью стандартных шаблонов итерации."
+        },
+        "ko": {
+          "name": "반복자",
+          "desc": "반복자는 표준 반복 패턴으로 컬렉션 값 순회를 다룹니다."
+        },
+        "pt": {
+          "name": "Iteradores",
+          "desc": "Os iteradores cobrem a passagem de valores de coleção com padrões de iteração padrão."
+        }
+      }
+    },
+    {
+      "key": "java/generics",
+      "slug": "generics",
+      "name": "Generics",
+      "desc": "Generics cover type-parameterized classes, methods, and collections.",
+      "i18n": {
+        "zh": {
+          "name": "泛型",
+          "desc": "泛型涵盖类型参数化的类、方法和集合。"
+        },
+        "es": {
+          "name": "Genéricos",
+          "desc": "Los genéricos cubren clases, métodos y colecciones con parámetros de tipo."
+        },
+        "fr": {
+          "name": "Génériques",
+          "desc": "Les génériques couvrent les classes, méthodes et collections paramétrées par type."
+        },
+        "de": {
+          "name": "Generika",
+          "desc": "Generics umfassen typparametrisierte Klassen, Methoden und Sammlungen."
+        },
+        "ja": {
+          "name": "ジェネリック",
+          "desc": "ジェネリックスは、型パラメータ化されたクラス、メソッド、およびコレクションを扱います。"
+        },
+        "ru": {
+          "name": "Дженерики",
+          "desc": "Обобщенные типы охватывают классы, методы и коллекции с параметризованным типом."
+        },
+        "ko": {
+          "name": "제네릭",
+          "desc": "제네릭은 타입 매개변수가 있는 클래스, 메서드 및 컬렉션을 다룹니다."
+        },
+        "pt": {
+          "name": "Genéricos",
+          "desc": "Os genéricos cobrem classes, métodos e coleções com parâmetros de tipo."
+        }
+      }
+    },
+    {
+      "key": "java/ordering",
+      "slug": "ordering",
+      "name": "Ordering",
+      "desc": "Ordering covers defining comparison behavior and sorting values.",
+      "i18n": {
+        "zh": {
+          "name": "排序",
+          "desc": "排序包括定义比较行为和排序值。"
+        },
+        "es": {
+          "name": "Ordenación",
+          "desc": "Ordenar cubre la definición del comportamiento de comparación y la clasificación de valores."
+        },
+        "fr": {
+          "name": "Ordonnancement",
+          "desc": "L’ordonnancement couvre la définition du comportement de comparaison et le tri des valeurs."
+        },
+        "de": {
+          "name": "Sortierung",
+          "desc": "Die Sortierung umfasst das Definieren des Vergleichsverhaltens und das Sortieren von Werten."
+        },
+        "ja": {
+          "name": "順序付け",
+          "desc": "順序付けには、比較動作の定義と値の並べ替えが含まれます。"
+        },
+        "ru": {
+          "name": "Упорядочение",
+          "desc": "Упорядочение включает определение поведения сравнения и сортировку значений."
+        },
+        "ko": {
+          "name": "정렬",
+          "desc": "정렬은 비교 동작 정의와 값 정렬을 다룹니다."
+        },
+        "pt": {
+          "name": "Ordenação",
+          "desc": "A ordenação abrange a definição do comportamento de comparação e a classificação de valores."
+        }
+      }
+    },
+    {
+      "key": "java/streams",
+      "slug": "streams",
+      "name": "Streams",
+      "desc": "Streams cover declarative processing of sequences of values.",
+      "i18n": {
+        "zh": {
+          "name": "流",
+          "desc": "流涵盖了值序列的声明性处理。"
+        },
+        "es": {
+          "name": "Streams",
+          "desc": "Los flujos cubren el procesamiento declarativo de secuencias de valores."
+        },
+        "fr": {
+          "name": "Flux",
+          "desc": "Les flux couvrent le traitement déclaratif des séquences de valeurs."
+        },
+        "de": {
+          "name": "Streams",
+          "desc": "Streams umfassen die deklarative Verarbeitung von Wertefolgen."
+        },
+        "ja": {
+          "name": "ストリーム",
+          "desc": "ストリームは、値のシーケンスの宣言的な処理を扱います。"
+        },
+        "ru": {
+          "name": "Потоки",
+          "desc": "Потоки охватывают декларативную обработку последовательностей значений."
+        },
+        "ko": {
+          "name": "스트림",
+          "desc": "스트림은 값 시퀀스의 선언적 처리를 다룹니다."
+        },
+        "pt": {
+          "name": "Fluxos",
+          "desc": "Os fluxos cobrem o processamento declarativo de sequências de valores."
+        }
+      }
+    },
+    {
+      "key": "java/optional_values",
+      "slug": "optional_values",
+      "name": "Optional Values",
+      "desc": "Optional values cover representing and handling possibly absent results.",
+      "i18n": {
+        "zh": {
+          "name": "可选值",
+          "desc": "可选值涵盖表示和处理可能缺失的结果。"
+        },
+        "es": {
+          "name": "Valores opcionales",
+          "desc": "Los valores opcionales cubren la representación y el manejo de resultados posiblemente ausentes."
+        },
+        "fr": {
+          "name": "Valeurs facultatives",
+          "desc": "Les valeurs facultatives couvrent la représentation et la gestion des résultats éventuellement absents."
+        },
+        "de": {
+          "name": "Optionale Werte",
+          "desc": "Optionale Werte umfassen die Darstellung und Behandlung möglicherweise fehlender Ergebnisse."
+        },
+        "ja": {
+          "name": "オプションの値",
+          "desc": "オプションの値は、存在しない可能性のある結果の表現と処理を扱います。"
+        },
+        "ru": {
+          "name": "Необязательные значения",
+          "desc": "Необязательные значения охватывают представление и обработку возможно отсутствующих результатов."
+        },
+        "ko": {
+          "name": "선택적 값",
+          "desc": "Optional 값은 없을 수 있는 결과를 표현하고 처리하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Valores opcionais",
+          "desc": "Os valores opcionais abrangem a representação e o tratamento de resultados possivelmente ausentes."
+        }
+      }
+    },
+    {
+      "key": "java/exceptions",
+      "slug": "exceptions",
+      "name": "Exceptions",
+      "desc": "Exceptions cover failure reporting and propagation through throwable values.",
+      "i18n": {
+        "zh": {
+          "name": "异常",
+          "desc": "异常涵盖通过可抛出的值报告和传播失败。"
+        },
+        "es": {
+          "name": "Excepciones",
+          "desc": "Las excepciones cubren el informe y la propagación de fallas mediante valores que se pueden lanzar."
+        },
+        "fr": {
+          "name": "Exceptions",
+          "desc": "Les exceptions couvrent le signalement et la propagation des échecs via des valeurs pouvant être levées."
+        },
+        "de": {
+          "name": "Ausnahmen",
+          "desc": "Ausnahmen umfassen das Melden und Weitergeben von Fehlern über auslösbare Werte."
+        },
+        "ja": {
+          "name": "例外",
+          "desc": "例外は、throw 可能な値による失敗の報告と伝播を扱います。"
+        },
+        "ru": {
+          "name": "Исключения",
+          "desc": "Исключения охватывают сообщение о сбоях и их распространение через выбрасываемые значения."
+        },
+        "ko": {
+          "name": "예외",
+          "desc": "예외는 던질 수 있는 값을 통한 오류 보고와 전파를 다룹니다."
+        },
+        "pt": {
+          "name": "Exceções",
+          "desc": "As exceções cobrem relatórios de falhas e propagação por meio de valores que podem ser lançados."
+        }
+      }
+    },
+    {
+      "key": "java/try_catch_finally",
+      "slug": "try_catch_finally",
+      "name": "Try, Catch, and Finally",
+      "desc": "Try, catch, and finally cover handling exceptions and guaranteed cleanup.",
+      "i18n": {
+        "zh": {
+          "name": "try、catch 和 finally",
+          "desc": "try、catch 和 finally 涵盖处理异常和保证清理。"
+        },
+        "es": {
+          "name": "try, catch y finally",
+          "desc": "try, catch y finally cubren el manejo de excepciones y la limpieza garantizada."
+        },
+        "fr": {
+          "name": "try, catch et finally",
+          "desc": "try, catch et finally couvrent la gestion des exceptions et le nettoyage garanti."
+        },
+        "de": {
+          "name": "try, catch und finally",
+          "desc": "try, catch und finally behandeln Ausnahmebehandlung und garantierte Bereinigung."
+        },
+        "ja": {
+          "name": "try、catch、finally",
+          "desc": "try、catch、finally は、例外処理と確実なクリーンアップを扱います。"
+        },
+        "ru": {
+          "name": "try, catch и finally",
+          "desc": "try, catch и finally охватывают обработку исключений и гарантированную очистку."
+        },
+        "ko": {
+          "name": "try, catch, finally",
+          "desc": "try, catch, finally는 예외 처리와 보장된 정리 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "try, catch e finally",
+          "desc": "try, catch e finally cobrem o tratamento de exceções e a limpeza garantida."
+        }
+      }
+    },
+    {
+      "key": "java/try_with_resources",
+      "slug": "try_with_resources",
+      "name": "Try-With-Resources",
+      "desc": "Try-with-resources covers automatic cleanup of closeable resources.",
+      "i18n": {
+        "zh": {
+          "name": "try-with-resources",
+          "desc": "Try-with-resources 涵盖可关闭资源的自动清理。"
+        },
+        "es": {
+          "name": "try-with-resources",
+          "desc": "Try-with-resources cubre la limpieza automática de recursos que se pueden cerrar."
+        },
+        "fr": {
+          "name": "try-with-resources",
+          "desc": "Try-with-resources couvre le nettoyage automatique des ressources fermables."
+        },
+        "de": {
+          "name": "try-with-resources",
+          "desc": "try-with-resources behandelt die automatische Bereinigung schließbarer Ressourcen."
+        },
+        "ja": {
+          "name": "try-with-resources",
+          "desc": "Try-with-resources は、閉じられるリソースの自動クリーンアップを扱います。"
+        },
+        "ru": {
+          "name": "try-with-resources",
+          "desc": "Try-with-resources включает автоматическую очистку закрываемых ресурсов."
+        },
+        "ko": {
+          "name": "try-with-resources",
+          "desc": "try-with-resources는 닫을 수 있는 리소스의 자동 정리를 다룹니다."
+        },
+        "pt": {
+          "name": "try-with-resources",
+          "desc": "Try-with-resources cobre a limpeza automática de recursos que podem ser fechados."
+        }
+      }
+    },
+    {
+      "key": "java/custom_exceptions",
+      "slug": "custom_exceptions",
+      "name": "Custom Exceptions",
+      "desc": "Custom exceptions cover defining domain-specific failure types.",
+      "i18n": {
+        "zh": {
+          "name": "自定义异常",
+          "desc": "自定义异常涵盖定义特定领域的失败类型。"
+        },
+        "es": {
+          "name": "Excepciones personalizadas",
+          "desc": "Las excepciones personalizadas cubren la definición de tipos de fallas específicas del dominio."
+        },
+        "fr": {
+          "name": "Exceptions personnalisées",
+          "desc": "Les exceptions personnalisées couvrent la définition des types de pannes spécifiques au domaine."
+        },
+        "de": {
+          "name": "Benutzerdefinierte Ausnahmen",
+          "desc": "Benutzerdefinierte Ausnahmen umfassen die Definition domänenspezifischer Fehlertypen."
+        },
+        "ja": {
+          "name": "カスタム例外",
+          "desc": "カスタム例外は、ドメイン固有の障害タイプの定義を扱います。"
+        },
+        "ru": {
+          "name": "Пользовательские исключения",
+          "desc": "Пользовательские исключения охватывают определение типов ошибок, специфичных для домена."
+        },
+        "ko": {
+          "name": "사용자 정의 예외",
+          "desc": "사용자 정의 예외는 도메인별 오류 타입 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Exceções personalizadas",
+          "desc": "As exceções personalizadas abrangem a definição de tipos de falha específicos do domínio."
+        }
+      }
+    },
+    {
+      "key": "java/assertions",
+      "slug": "assertions",
+      "name": "Assertions",
+      "desc": "Assertions cover checking assumptions during development and tests.",
+      "i18n": {
+        "zh": {
+          "name": "断言",
+          "desc": "断言涵盖在开发和测试期间检查假设。"
+        },
+        "es": {
+          "name": "Aserciones",
+          "desc": "Las aserciones cubren la verificación de supuestos durante el desarrollo y las pruebas."
+        },
+        "fr": {
+          "name": "Assertions",
+          "desc": "Les assertions couvrent la vérification des hypothèses pendant le développement et les tests."
+        },
+        "de": {
+          "name": "Assertions",
+          "desc": "Assertions umfassen die Überprüfung von Annahmen während der Entwicklung und Tests."
+        },
+        "ja": {
+          "name": "アサーション",
+          "desc": "アサーションには、開発およびテスト中の前提条件のチェックが含まれます。"
+        },
+        "ru": {
+          "name": "Утверждения",
+          "desc": "Утверждения охватывают проверку предположений во время разработки и тестирования."
+        },
+        "ko": {
+          "name": "어설션",
+          "desc": "어설션은 개발 및 테스트 중 가정을 확인하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Asserções",
+          "desc": "As asserções cobrem a verificação de suposições durante o desenvolvimento e os testes."
+        }
+      }
+    },
+    {
+      "key": "java/input_validation",
+      "slug": "input_validation",
+      "name": "Input Validation",
+      "desc": "Input validation covers checking external or caller-provided data before use.",
+      "i18n": {
+        "zh": {
+          "name": "输入验证",
+          "desc": "输入验证包括在使用前检查外部或调用者提供的数据。"
+        },
+        "es": {
+          "name": "Validación de entrada",
+          "desc": "La validación de entrada cubre la verificación de datos externos o proporcionados por la persona que llama antes de su uso."
+        },
+        "fr": {
+          "name": "Validation des entrées",
+          "desc": "La validation des entrées couvre la vérification des données externes ou fournies par l'appelant avant utilisation."
+        },
+        "de": {
+          "name": "Eingabevalidierung",
+          "desc": "Die Eingabevalidierung umfasst die Überprüfung externer oder vom Anrufer bereitgestellter Daten vor der Verwendung."
+        },
+        "ja": {
+          "name": "入力の検証",
+          "desc": "入力検証には、使用前の外部データまたは呼び出し元が提供したデータのチェックが含まれます。"
+        },
+        "ru": {
+          "name": "Проверка ввода",
+          "desc": "Проверка ввода включает проверку внешних данных или данных, предоставленных вызывающим абонентом, перед использованием."
+        },
+        "ko": {
+          "name": "입력 검증",
+          "desc": "입력 검증은 사용 전에 외부 또는 호출자가 제공한 데이터를 확인하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Validação de entrada",
+          "desc": "A validação de entrada abrange a verificação de dados externos ou fornecidos pelo chamador antes do uso."
+        }
+      }
+    },
+    {
+      "key": "java/paths_files",
+      "slug": "paths_files",
+      "name": "Paths and Files",
+      "desc": "Paths and files cover filesystem paths and file operations through Java libraries.",
+      "i18n": {
+        "zh": {
+          "name": "路径和文件",
+          "desc": "路径和文件涵盖了通过 Java 库的文件系统路径和文件操作。"
+        },
+        "es": {
+          "name": "Rutas y archivos",
+          "desc": "Rutas y archivos cubren rutas del sistema de archivos y operaciones de archivos mediante las bibliotecas de Java."
+        },
+        "fr": {
+          "name": "Chemins et fichiers",
+          "desc": "Les chemins et fichiers couvrent les chemins du système de fichiers et les opérations sur les fichiers via les bibliothèques Java."
+        },
+        "de": {
+          "name": "Pfade und Dateien",
+          "desc": "Pfade und Dateien umfassen Dateisystempfade und Dateioperationen über Java-Bibliotheken."
+        },
+        "ja": {
+          "name": "パスとファイル",
+          "desc": "パスとファイルは、Java ライブラリを介したファイルシステムのパスとファイル操作を扱います。"
+        },
+        "ru": {
+          "name": "Пути и файлы",
+          "desc": "Пути и файлы охватывают пути файловой системы и файловые операции через библиотеки Java."
+        },
+        "ko": {
+          "name": "경로 및 파일",
+          "desc": "경로와 파일은 Java 라이브러리를 통한 파일 시스템 경로와 파일 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Caminhos e arquivos",
+          "desc": "Caminhos e arquivos cobrem caminhos de sistemas de arquivos e operações de arquivos por meio de bibliotecas Java."
+        }
+      }
+    },
+    {
+      "key": "java/text_io",
+      "slug": "text_io",
+      "name": "Text I/O",
+      "desc": "Text I/O covers reading and writing character data with readers and writers.",
+      "i18n": {
+        "zh": {
+          "name": "文本输入/输出",
+          "desc": "文本 I/O 涵盖使用读取器和写入器读取和写入字符数据。"
+        },
+        "es": {
+          "name": "E/S de texto",
+          "desc": "La E/S de texto cubre la lectura y escritura de datos de caracteres con lectores y escritores."
+        },
+        "fr": {
+          "name": "E/S texte",
+          "desc": "Les E/S de texte couvrent la lecture et l'écriture de données de caractères avec des lecteurs et des écrivains."
+        },
+        "de": {
+          "name": "Text-E/A",
+          "desc": "Text-I/O umfasst das Lesen und Schreiben von Zeichendaten mit Lese- und Schreibgeräten."
+        },
+        "ja": {
+          "name": "テキスト I/O",
+          "desc": "テキスト I/O は、リーダーとライターによる文字データの読み取りと書き込みを扱います。"
+        },
+        "ru": {
+          "name": "Текстовый ввод/вывод",
+          "desc": "Текстовый ввод-вывод охватывает чтение и запись символьных данных с помощью средств чтения и записи."
+        },
+        "ko": {
+          "name": "텍스트 I/O",
+          "desc": "텍스트 I/O는 Reader와 Writer로 문자 데이터를 읽고 쓰는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "E/S de texto",
+          "desc": "A E/S de texto cobre a leitura e gravação de dados de caracteres com leitores e escritores."
+        }
+      }
+    },
+    {
+      "key": "java/binary_io",
+      "slug": "binary_io",
+      "name": "Binary I/O",
+      "desc": "Binary I/O covers reading and writing byte streams.",
+      "i18n": {
+        "zh": {
+          "name": "二进制输入/输出",
+          "desc": "二进制 I/O 涵盖读取和写入字节流。"
+        },
+        "es": {
+          "name": "E/S binaria",
+          "desc": "La E/S binaria cubre la lectura y escritura de flujos de bytes."
+        },
+        "fr": {
+          "name": "E/S binaires",
+          "desc": "Les E/S binaires couvrent la lecture et l'écriture de flux d'octets."
+        },
+        "de": {
+          "name": "Binärer I/O",
+          "desc": "Binäre E/A umfasst das Lesen und Schreiben von Byteströmen."
+        },
+        "ja": {
+          "name": "バイナリ I/O",
+          "desc": "バイナリ I/O は、バイトストリームの読み取りと書き込みを扱います。"
+        },
+        "ru": {
+          "name": "Двоичный ввод-вывод",
+          "desc": "Двоичный ввод-вывод охватывает чтение и запись потоков байтов."
+        },
+        "ko": {
+          "name": "바이너리 I/O",
+          "desc": "바이너리 I/O는 바이트 스트림 읽기 및 쓰기를 다룹니다."
+        },
+        "pt": {
+          "name": "E/S binária",
+          "desc": "A E/S binária cobre a leitura e gravação de fluxos de bytes."
+        }
+      }
+    },
+    {
+      "key": "java/serialization",
+      "slug": "serialization",
+      "name": "Serialization",
+      "desc": "Serialization covers converting objects to and from stored or transmitted forms.",
+      "i18n": {
+        "zh": {
+          "name": "序列化",
+          "desc": "序列化涵盖对象与存储或传输形式之间的转换。"
+        },
+        "es": {
+          "name": "Serialización",
+          "desc": "La serialización cubre la conversión de objetos hacia y desde formas almacenadas o transmitidas."
+        },
+        "fr": {
+          "name": "Sérialisation",
+          "desc": "La sérialisation couvre la conversion d'objets vers et depuis des formes stockées ou transmises."
+        },
+        "de": {
+          "name": "Serialisierung",
+          "desc": "Die Serialisierung umfasst die Konvertierung von Objekten in und aus gespeicherten oder übertragenen Formen."
+        },
+        "ja": {
+          "name": "シリアル化",
+          "desc": "シリアル化は、オブジェクトを保存形式または転送形式へ変換し、そこから戻すことを扱います。"
+        },
+        "ru": {
+          "name": "Сериализация",
+          "desc": "Сериализация охватывает преобразование объектов в хранимые или передаваемые формы и обратно."
+        },
+        "ko": {
+          "name": "직렬화",
+          "desc": "직렬화는 객체를 저장 또는 전송 가능한 형식으로 변환하고 다시 복원하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Serialização",
+          "desc": "A serialização abrange a conversão de objetos de e para formulários armazenados ou transmitidos."
+        }
+      }
+    },
+    {
+      "key": "java/date_time",
+      "slug": "date_time",
+      "name": "Date and Time",
+      "desc": "Date and time cover representing, formatting, and calculating temporal values.",
+      "i18n": {
+        "zh": {
+          "name": "日期和时间",
+          "desc": "日期和时间涵盖表示、格式化和计算时间值。"
+        },
+        "es": {
+          "name": "Fecha y hora",
+          "desc": "Fecha y hora cubre la representación, el formato y el cálculo de valores temporales."
+        },
+        "fr": {
+          "name": "Date et heure",
+          "desc": "La date et l'heure couvrent la représentation, le formatage et le calcul des valeurs temporelles."
+        },
+        "de": {
+          "name": "Datum und Uhrzeit",
+          "desc": "Datum und Uhrzeit umfassen die Darstellung, Formatierung und Berechnung von Zeitwerten."
+        },
+        "ja": {
+          "name": "日付と時刻",
+          "desc": "日付と時刻には、一時的な値の表現、フォーマット、計算が含まれます。"
+        },
+        "ru": {
+          "name": "Дата и время",
+          "desc": "Дата и время представляют, форматируют и вычисляют временные значения."
+        },
+        "ko": {
+          "name": "날짜 및 시간",
+          "desc": "날짜 및 시간은 시간 값을 표현하고, 형식화하고, 계산합니다."
+        },
+        "pt": {
+          "name": "Data e hora",
+          "desc": "Data e hora cobre a representação, formatação e cálculo de valores temporais."
+        }
+      }
+    },
+    {
+      "key": "java/regular_expressions",
+      "slug": "regular_expressions",
+      "name": "Regular Expressions",
+      "desc": "Regular expressions cover pattern matching and text extraction.",
+      "i18n": {
+        "zh": {
+          "name": "正则表达式",
+          "desc": "正则表达式涵盖模式匹配和文本提取。"
+        },
+        "es": {
+          "name": "Expresiones regulares",
+          "desc": "Las expresiones regulares cubren la coincidencia de patrones y la extracción de texto."
+        },
+        "fr": {
+          "name": "Expressions régulières",
+          "desc": "Les expressions régulières couvrent la correspondance de modèles et l'extraction de texte."
+        },
+        "de": {
+          "name": "Reguläre Ausdrücke",
+          "desc": "Reguläre Ausdrücke decken den Mustervergleich und die Textextraktion ab."
+        },
+        "ja": {
+          "name": "正規表現",
+          "desc": "正規表現には、パターンマッチングとテキスト抽出が含まれます。"
+        },
+        "ru": {
+          "name": "Регулярные выражения",
+          "desc": "Регулярные выражения охватывают сопоставление с образцом и извлечение текста."
+        },
+        "ko": {
+          "name": "정규 표현식",
+          "desc": "정규 표현식은 패턴 매칭과 텍스트 추출을 다룹니다."
+        },
+        "pt": {
+          "name": "Expressões Regulares",
+          "desc": "Expressões regulares cobrem correspondência de padrões e extração de texto."
+        }
+      }
+    },
+    {
+      "key": "java/http_networking",
+      "slug": "http_networking",
+      "name": "HTTP Networking",
+      "desc": "HTTP networking covers making HTTP requests with Java standard libraries.",
+      "i18n": {
+        "zh": {
+          "name": "HTTP 网络",
+          "desc": "HTTP 网络涵盖使用 Java 标准库发出 HTTP 请求。"
+        },
+        "es": {
+          "name": "Redes HTTP",
+          "desc": "La programación de red HTTP cubre la realización de solicitudes HTTP con las bibliotecas estándar de Java."
+        },
+        "fr": {
+          "name": "Réseau HTTP",
+          "desc": "La programmation réseau HTTP couvre l’envoi de requêtes HTTP avec les bibliothèques standard Java."
+        },
+        "de": {
+          "name": "HTTP-Netzwerkprogrammierung",
+          "desc": "HTTP Networking umfasst das Erstellen von HTTP-Anfragen mit Java-Standardbibliotheken."
+        },
+        "ja": {
+          "name": "HTTP ネットワーキング",
+          "desc": "HTTP ネットワーキングでは、Java 標準ライブラリを使用した HTTP リクエストの作成を扱います。"
+        },
+        "ru": {
+          "name": "HTTP-сеть",
+          "desc": "HTTP-сеть охватывает выполнение HTTP-запросов с помощью стандартных библиотек Java."
+        },
+        "ko": {
+          "name": "HTTP 네트워킹",
+          "desc": "HTTP 네트워킹은 Java 표준 라이브러리를 사용한 HTTP 요청 생성을 다룹니다."
+        },
+        "pt": {
+          "name": "Rede HTTP",
+          "desc": "A rede HTTP cobre a realização de solicitações HTTP com bibliotecas padrão de Java."
+        }
+      }
+    },
+    {
+      "key": "java/jdbc",
+      "slug": "jdbc",
+      "name": "JDBC",
+      "desc": "JDBC covers connecting to databases and executing SQL from Java.",
+      "i18n": {
+        "zh": {
+          "name": "数据库连接",
+          "desc": "JDBC 涵盖连接数据库和从 Java 执行 SQL。"
+        },
+        "es": {
+          "name": "JDBC",
+          "desc": "JDBC cubre la conexión a bases de datos y la ejecución de SQL desde Java."
+        },
+        "fr": {
+          "name": "JDBC",
+          "desc": "JDBC couvre la connexion aux bases de données et l'exécution de SQL à partir de Java."
+        },
+        "de": {
+          "name": "JDBC",
+          "desc": "JDBC umfasst die Verbindung zu Datenbanken und die Ausführung von SQL aus Java."
+        },
+        "ja": {
+          "name": "JDBC",
+          "desc": "JDBC では、データベースへの接続と Java からの SQL の実行について説明します。"
+        },
+        "ru": {
+          "name": "JDBC",
+          "desc": "JDBC охватывает подключение к базам данных и выполнение SQL из Java."
+        },
+        "ko": {
+          "name": "JDBC",
+          "desc": "JDBC에서는 데이터베이스에 연결하고 Java에서 SQL을 실행하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "JDBC",
+          "desc": "JDBC cobre a conexão com bancos de dados e a execução de SQL em Java."
+        }
+      }
+    },
+    {
+      "key": "java/threads",
+      "slug": "threads",
+      "name": "Threads",
+      "desc": "Threads cover concurrent execution with Java threads.",
+      "i18n": {
+        "zh": {
+          "name": "线程",
+          "desc": "线程涵盖 Java 线程的并发执行。"
+        },
+        "es": {
+          "name": "Hilos",
+          "desc": "Los hilos cubren la ejecución concurrente con hilos de Java."
+        },
+        "fr": {
+          "name": "Threads",
+          "desc": "Les threads couvrent l'exécution concurrente avec les threads Java."
+        },
+        "de": {
+          "name": "Threads",
+          "desc": "Threads decken die gleichzeitige Ausführung mit Java-Threads ab."
+        },
+        "ja": {
+          "name": "スレッド",
+          "desc": "スレッドは、Java スレッドによる同時実行を扱います。"
+        },
+        "ru": {
+          "name": "Потоки выполнения",
+          "desc": "Потоки выполнения охватывают параллельное выполнение с потоками Java."
+        },
+        "ko": {
+          "name": "스레드",
+          "desc": "스레드는 Java 스레드의 동시 실행을 다룹니다."
+        },
+        "pt": {
+          "name": "Threads",
+          "desc": "Threads cobrem execução concorrente com threads Java."
+        }
+      }
+    },
+    {
+      "key": "java/synchronization",
+      "slug": "synchronization",
+      "name": "Synchronization",
+      "desc": "Synchronization covers coordinating shared state across threads.",
+      "i18n": {
+        "zh": {
+          "name": "同步",
+          "desc": "同步涵盖协调线程之间的共享状态。"
+        },
+        "es": {
+          "name": "Sincronización",
+          "desc": "La sincronización cubre la coordinación del estado compartido entre subprocesos."
+        },
+        "fr": {
+          "name": "Synchronisation",
+          "desc": "La synchronisation couvre la coordination de l'état partagé entre les threads."
+        },
+        "de": {
+          "name": "Synchronisierung",
+          "desc": "Die Synchronisierung umfasst die Koordinierung des gemeinsamen Status über Threads hinweg."
+        },
+        "ja": {
+          "name": "同期",
+          "desc": "同期には、スレッド間での共有状態の調整が含まれます。"
+        },
+        "ru": {
+          "name": "Синхронизация",
+          "desc": "Синхронизация охватывает координацию общего состояния между потоками."
+        },
+        "ko": {
+          "name": "동기화",
+          "desc": "동기화는 스레드 간 공유 상태 조정을 다룹니다."
+        },
+        "pt": {
+          "name": "Sincronização",
+          "desc": "A sincronização abrange a coordenação do estado compartilhado entre threads."
+        }
+      }
+    },
+    {
+      "key": "java/executors",
+      "slug": "executors",
+      "name": "Executors",
+      "desc": "Executors cover managing concurrent tasks through executor services.",
+      "i18n": {
+        "zh": {
+          "name": "Executor",
+          "desc": "Executor 涵盖通过 ExecutorService 管理并发任务。"
+        },
+        "es": {
+          "name": "Executors",
+          "desc": "Executors cubren la gestión de tareas concurrentes mediante ExecutorService."
+        },
+        "fr": {
+          "name": "Executors",
+          "desc": "Les Executors couvrent la gestion des tâches concurrentes via ExecutorService."
+        },
+        "de": {
+          "name": "Executors",
+          "desc": "Executors decken die Verwaltung nebenläufiger Aufgaben über ExecutorService ab."
+        },
+        "ja": {
+          "name": "Executor",
+          "desc": "Executor は、ExecutorService を通じた並行タスクの管理を扱います。"
+        },
+        "ru": {
+          "name": "Executors",
+          "desc": "Executors охватывают управление параллельными задачами с помощью ExecutorService."
+        },
+        "ko": {
+          "name": "Executor",
+          "desc": "Executor는 ExecutorService를 통한 동시 작업 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Executors",
+          "desc": "Executors cobrem o gerenciamento de tarefas concorrentes por meio de ExecutorService."
+        }
+      }
+    },
+    {
+      "key": "java/concurrent_collections",
+      "slug": "concurrent_collections",
+      "name": "Concurrent Collections",
+      "desc": "Concurrent collections cover thread-safe collection patterns.",
+      "i18n": {
+        "zh": {
+          "name": "并发集合",
+          "desc": "并发集合涵盖了线程安全的集合模式。"
+        },
+        "es": {
+          "name": "Colecciones concurrentes",
+          "desc": "Las colecciones concurrentes cubren patrones de colecciones seguras para subprocesos."
+        },
+        "fr": {
+          "name": "Collections concurrentes",
+          "desc": "Les collections concurrentes couvrent des modèles de collections sûres pour les threads."
+        },
+        "de": {
+          "name": "Nebenläufige Collections",
+          "desc": "Nebenläufige Collections behandeln threadsichere Sammlungsmuster."
+        },
+        "ja": {
+          "name": "並行コレクション",
+          "desc": "並行コレクションは、スレッドセーフなコレクションパターンを扱います。"
+        },
+        "ru": {
+          "name": "Параллельные коллекции",
+          "desc": "Параллельные коллекции охватывают потокобезопасные шаблоны коллекций."
+        },
+        "ko": {
+          "name": "동시 컬렉션",
+          "desc": "동시 컬렉션은 스레드 안전 컬렉션 패턴을 다룹니다."
+        },
+        "pt": {
+          "name": "Coleções concorrentes",
+          "desc": "Coleções concorrentes cobrem padrões de coleções seguras para threads."
+        }
+      }
+    },
+    {
+      "key": "java/jvm_memory",
+      "slug": "jvm_memory",
+      "name": "JVM Memory",
+      "desc": "JVM memory covers heap, stack, garbage collection, and memory behavior.",
+      "i18n": {
+        "zh": {
+          "name": "JVM 内存",
+          "desc": "JVM 内存涵盖堆、堆栈、垃圾回收和内存行为。"
+        },
+        "es": {
+          "name": "Memoria JVM",
+          "desc": "La memoria JVM cubre el montón, la pila, la recolección de basura y el comportamiento de la memoria."
+        },
+        "fr": {
+          "name": "Mémoire JVM",
+          "desc": "La mémoire JVM couvre le tas, la pile, le garbage collection et le comportement de la mémoire."
+        },
+        "de": {
+          "name": "JVM-Speicher",
+          "desc": "Der JVM-Speicher deckt Heap, Stack, Garbage Collection und Speicherverhalten ab."
+        },
+        "ja": {
+          "name": "JVM メモリ",
+          "desc": "JVM メモリには、ヒープ、スタック、ガベージコレクション、メモリ動作が含まれます。"
+        },
+        "ru": {
+          "name": "JVM-память",
+          "desc": "Память JVM охватывает кучу, стек, сборку мусора и поведение памяти."
+        },
+        "ko": {
+          "name": "JVM 메모리",
+          "desc": "JVM 메모리는 힙, 스택, 가비지 수집 및 메모리 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Memória JVM",
+          "desc": "A memória JVM cobre heap, pilha, coleta de lixo e comportamento de memória."
+        }
+      }
+    },
+    {
+      "key": "java/processes",
+      "slug": "processes",
+      "name": "Processes",
+      "desc": "Processes cover launching and coordinating external programs from Java.",
+      "i18n": {
+        "zh": {
+          "name": "进程",
+          "desc": "进程涵盖从 Java 启动和协调外部程序。"
+        },
+        "es": {
+          "name": "Procesos",
+          "desc": "Los procesos cubren el lanzamiento y la coordinación de programas externos desde Java."
+        },
+        "fr": {
+          "name": "Processus",
+          "desc": "Les processus couvrent le lancement et la coordination de programmes externes à partir de Java."
+        },
+        "de": {
+          "name": "Prozesse",
+          "desc": "Zu den Prozessen gehört das Starten und Koordinieren externer Programme aus Java."
+        },
+        "ja": {
+          "name": "プロセス",
+          "desc": "プロセスには、Java からの外部プログラムの起動と調整が含まれます。"
+        },
+        "ru": {
+          "name": "Процессы",
+          "desc": "Процессы охватывают запуск и координацию внешних программ на Java."
+        },
+        "ko": {
+          "name": "프로세스",
+          "desc": "프로세스는 Java에서 외부 프로그램을 시작하고 조정하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Processos",
+          "desc": "Os processos cobrem o lançamento e a coordenação de programas externos de Java."
+        }
+      }
+    },
+    {
+      "key": "java/packages_imports",
+      "slug": "packages_imports",
+      "name": "Packages and Imports",
+      "desc": "Packages and imports cover organizing Java types and referencing APIs.",
+      "i18n": {
+        "zh": {
+          "name": "包和导入",
+          "desc": "包和导入涵盖组织 Java 类型并引用 API。"
+        },
+        "es": {
+          "name": "Paquetes e Importaciones",
+          "desc": "Los paquetes y las importaciones cubren la organización de tipos Java y la referencia a APIs."
+        },
+        "fr": {
+          "name": "Packages et imports",
+          "desc": "Les packages et les imports couvrent l'organisation des types Java et la référence aux API."
+        },
+        "de": {
+          "name": "Pakete und Importe",
+          "desc": "Pakete und Importe umfassen das Organisieren von Java-Typen und das Referenzieren von APIs."
+        },
+        "ja": {
+          "name": "パッケージとインポート",
+          "desc": "パッケージとインポートでは、Java 型の整理と API の参照を扱います。"
+        },
+        "ru": {
+          "name": "Пакеты и импорт",
+          "desc": "Пакеты и импорт охватывают организацию Java типов и обращение к API."
+        },
+        "ko": {
+          "name": "패키지 및 가져오기",
+          "desc": "패키지 및 가져오기는 Java 타입 구성 및 API 참조를 다룹니다."
+        },
+        "pt": {
+          "name": "Pacotes e Importações",
+          "desc": "Pacotes e importações cobrem a organização de tipos Java e referência de APIs."
+        }
+      }
+    },
+    {
+      "key": "java/classpath",
+      "slug": "classpath",
+      "name": "Classpath",
+      "desc": "Classpath covers resolving Java classes and resources at compile time and run time.",
+      "i18n": {
+        "zh": {
+          "name": "类路径",
+          "desc": "类路径涵盖在编译时和运行时解析 Java 类和资源。"
+        },
+        "es": {
+          "name": "Classpath",
+          "desc": "Classpath cubre la resolución de clases y recursos Java en tiempo de compilación y tiempo de ejecución."
+        },
+        "fr": {
+          "name": "Chemin de classe",
+          "desc": "Classpath couvre la résolution des classes et ressources Java au moment de la compilation et de l’exécution."
+        },
+        "de": {
+          "name": "Klassenpfad",
+          "desc": "Classpath deckt das Auflösen von Java Klassen und Ressourcen zur Kompilierungszeit und Laufzeit ab."
+        },
+        "ja": {
+          "name": "クラスパス",
+          "desc": "クラスパスは、コンパイル時および実行時の Java クラスとリソースの解決を扱います。"
+        },
+        "ru": {
+          "name": "Путь к классам",
+          "desc": "Classpath охватывает разрешение Java классов и ресурсов во время компиляции и во время выполнения."
+        },
+        "ko": {
+          "name": "클래스 경로",
+          "desc": "클래스 경로는 컴파일 타임과 런타임에 Java 클래스와 리소스를 해결하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Caminho de classe",
+          "desc": "Classpath cobre a resolução de classes e recursos Java em tempo de compilação e tempo de execução."
+        }
+      }
+    },
+    {
+      "key": "java/java_modules",
+      "slug": "java_modules",
+      "name": "Java-Modules",
+      "desc": "Java modules cover modular application structure, module descriptors, and module boundaries.",
+      "i18n": {
+        "zh": {
+          "name": "Java 模块",
+          "desc": "Java 模块涵盖了模块化应用程序结构、模块描述符和模块边界。"
+        },
+        "es": {
+          "name": "Módulos Java",
+          "desc": "Los módulos Java cubren la estructura de aplicaciones modulares, los descriptores de módulo y los límites del módulo."
+        },
+        "fr": {
+          "name": "Modules Java",
+          "desc": "Les modules Java couvrent la structure d'application modulaire, les descripteurs de module et les limites des modules."
+        },
+        "de": {
+          "name": "Java-Module",
+          "desc": "Java-Module decken die modulare Anwendungsstruktur, Moduldeskriptoren und Modulgrenzen ab."
+        },
+        "ja": {
+          "name": "Java モジュール",
+          "desc": "Java モジュールは、モジュール型アプリケーション構造、モジュール記述子、およびモジュール境界を扱います。"
+        },
+        "ru": {
+          "name": "Модули Java",
+          "desc": "Модули Java охватывают модульную структуру приложения, дескрипторы модулей и границы модулей."
+        },
+        "ko": {
+          "name": "Java 모듈",
+          "desc": "Java 모듈은 모듈식 애플리케이션 구조, 모듈 설명자 및 모듈 경계를 다룹니다."
+        },
+        "pt": {
+          "name": "Módulos Java",
+          "desc": "Módulos Java cobrem estrutura modular de aplicativo, descritores de módulo e limites de módulo."
+        }
+      }
+    },
+    {
+      "key": "java/jar_files",
+      "slug": "jar_files",
+      "name": "JAR Files",
+      "desc": "JAR files cover packaging Java classes and resources for distribution.",
+      "i18n": {
+        "zh": {
+          "name": "JAR 文件",
+          "desc": "JAR 文件涵盖打包 Java 类和资源以供分发。"
+        },
+        "es": {
+          "name": "Archivos JAR",
+          "desc": "Los archivos JAR cubren el empaquetado de clases y recursos Java para su distribución."
+        },
+        "fr": {
+          "name": "Fichiers JAR",
+          "desc": "Les fichiers JAR couvrent l’empaquetage des classes et ressources Java pour la distribution."
+        },
+        "de": {
+          "name": "JAR-Dateien",
+          "desc": "JAR-Dateien umfassen die Verpackung von Java Klassen und Ressourcen für die Verteilung."
+        },
+        "ja": {
+          "name": "JAR ファイル",
+          "desc": "JAR ファイルは、配布用のパッケージ化 Java クラスとリソースを扱います。"
+        },
+        "ru": {
+          "name": "JAR-файлы",
+          "desc": "Файлы JAR охватывают упаковку Java классов и ресурсов для распространения."
+        },
+        "ko": {
+          "name": "JAR 파일",
+          "desc": "JAR 파일은 배포용 Java 클래스 및 리소스 패키징을 다룹니다."
+        },
+        "pt": {
+          "name": "Arquivos JAR",
+          "desc": "Os arquivos JAR cobrem o empacotamento de classes Java e recursos para distribuição."
+        }
+      }
+    },
+    {
+      "key": "java/dependency_management",
+      "slug": "dependency_management",
+      "name": "Dependency Management",
+      "desc": "Dependency management covers declaring and resolving Java library dependencies.",
+      "i18n": {
+        "zh": {
+          "name": "依赖管理",
+          "desc": "依赖关系管理涵盖声明和解决 Java 库依赖关系。"
+        },
+        "es": {
+          "name": "Gestión de dependencias",
+          "desc": "La gestión de dependencias cubre la declaración y resolución de dependencias de bibliotecas Java."
+        },
+        "fr": {
+          "name": "Gestion des dépendances",
+          "desc": "La gestion des dépendances couvre la déclaration et la résolution des dépendances de bibliothèques Java."
+        },
+        "de": {
+          "name": "Abhängigkeitsmanagement",
+          "desc": "Das Abhängigkeitsmanagement umfasst das Deklarieren und Auflösen von Java-Bibliotheksabhängigkeiten."
+        },
+        "ja": {
+          "name": "依存関係の管理",
+          "desc": "依存関係の管理には、Java ライブラリの依存関係の宣言と解決が含まれます。"
+        },
+        "ru": {
+          "name": "Управление зависимостями",
+          "desc": "Управление зависимостями охватывает объявление и разрешение Java библиотечных зависимостей."
+        },
+        "ko": {
+          "name": "종속성 관리",
+          "desc": "종속성 관리는 Java 라이브러리 종속성 선언 및 해결을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de Dependências",
+          "desc": "O gerenciamento de dependências abrange a declaração e resolução de dependências de bibliotecas Java."
+        }
+      }
+    },
+    {
+      "key": "java/build_lifecycle",
+      "slug": "build_lifecycle",
+      "name": "Build Lifecycle",
+      "desc": "Build lifecycle covers compiling, testing, packaging, and running Java projects.",
+      "i18n": {
+        "zh": {
+          "name": "构建生命周期",
+          "desc": "构建生命周期涵盖编译、测试、打包和运行 Java 项目。"
+        },
+        "es": {
+          "name": "Ciclo de vida de build",
+          "desc": "El ciclo de vida de build cubre compilar, probar, empaquetar y ejecutar proyectos Java."
+        },
+        "fr": {
+          "name": "Cycle de vie de build",
+          "desc": "Le cycle de vie de build couvre la compilation, les tests, le packaging et l’exécution de projets Java."
+        },
+        "de": {
+          "name": "Build-Lebenszyklus",
+          "desc": "Der Build-Lebenszyklus behandelt das Kompilieren, Testen, Paketieren und Ausführen von Java-Projekten."
+        },
+        "ja": {
+          "name": "ビルドのライフサイクル",
+          "desc": "ビルドライフサイクルには、Java プロジェクトのコンパイル、テスト、パッケージ化、実行が含まれます。"
+        },
+        "ru": {
+          "name": "Жизненный цикл сборки",
+          "desc": "Жизненный цикл сборки охватывает компиляцию, тестирование, упаковку и запуск Java-проектов."
+        },
+        "ko": {
+          "name": "빌드 수명 주기",
+          "desc": "빌드 수명 주기는 Java 프로젝트 컴파일, 테스트, 패키징 및 실행을 다룹니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida de build",
+          "desc": "O ciclo de vida de build abrange compilação, teste, empacotamento e execução de projetos Java."
+        }
+      }
+    },
+    {
+      "key": "java/unit_testing",
+      "slug": "unit_testing",
+      "name": "Unit Testing",
+      "desc": "Unit testing covers verifying Java behavior with focused automated tests.",
+      "i18n": {
+        "zh": {
+          "name": "单元测试",
+          "desc": "单元测试涵盖通过重点自动化测试来验证 Java 行为。"
+        },
+        "es": {
+          "name": "Pruebas unitarias",
+          "desc": "Las pruebas unitarias cubren la verificación del comportamiento Java con pruebas automatizadas enfocadas."
+        },
+        "fr": {
+          "name": "Tests unitaires",
+          "desc": "Les tests unitaires couvrent la vérification du comportement Java avec des tests automatisés ciblés."
+        },
+        "de": {
+          "name": "Unit-Tests",
+          "desc": "Unit-Tests umfassen die Überprüfung des Java-Verhaltens mit gezielten automatisierten Tests."
+        },
+        "ja": {
+          "name": "単体テスト",
+          "desc": "単体テストでは、焦点を絞った自動テストによる Java の動作の検証を扱います。"
+        },
+        "ru": {
+          "name": "Модульное тестирование",
+          "desc": "Модульное тестирование включает проверку поведения Java с помощью целенаправленных автоматических тестов."
+        },
+        "ko": {
+          "name": "단위 테스트",
+          "desc": "단위 테스트는 집중된 자동화 테스트를 통한 Java 동작 검증을 다룹니다."
+        },
+        "pt": {
+          "name": "Teste de Unidade",
+          "desc": "O teste de unidade cobre a verificação do comportamento do Java com testes automatizados focados."
+        }
+      }
+    },
+    {
+      "key": "java/mocking",
+      "slug": "mocking",
+      "name": "Mocking",
+      "desc": "Mocking covers replacing collaborators in tests to isolate behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Mocking",
+          "desc": "模拟包括在测试中替换协作者以隔离行为。"
+        },
+        "es": {
+          "name": "Mocking",
+          "desc": "Mocking cubre la sustitución de colaboradores en pruebas para aislar comportamientos."
+        },
+        "fr": {
+          "name": "Mocking",
+          "desc": "Le mocking couvre le remplacement de collaborateurs dans les tests pour isoler les comportements."
+        },
+        "de": {
+          "name": "Mocking",
+          "desc": "Mocking behandelt das Ersetzen von Abhängigkeiten in Tests, um Verhalten zu isolieren."
+        },
+        "ja": {
+          "name": "モッキング",
+          "desc": "モッキングでは、動作を分離するためにテスト内の依存関係を置き換えます。"
+        },
+        "ru": {
+          "name": "Мокинг",
+          "desc": "Мокинг охватывает замену зависимостей в тестах для изоляции поведения."
+        },
+        "ko": {
+          "name": "모킹",
+          "desc": "모킹은 동작을 격리하기 위해 테스트에서 협력 객체를 대체하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Mocking",
+          "desc": "Mocking cobre a substituição de colaboradores em testes para isolar comportamentos."
+        }
+      }
+    },
+    {
+      "key": "java/debugging",
+      "slug": "debugging",
+      "name": "Debugging",
+      "desc": "Debugging covers diagnosing Java program behavior with tools, stack traces, and runtime evidence.",
+      "i18n": {
+        "zh": {
+          "name": "调试",
+          "desc": "调试涵盖使用工具、堆栈跟踪和运行时证据来诊断 Java 程序行为。"
+        },
+        "es": {
+          "name": "Depuración",
+          "desc": "La depuración cubre el diagnóstico del comportamiento del programa Java con herramientas, seguimientos de pila y evidencia de tiempo de ejecución."
+        },
+        "fr": {
+          "name": "Débogage",
+          "desc": "Le débogage couvre le diagnostic du comportement du programme Java avec des outils, des traces de pile et des preuves d'exécution."
+        },
+        "de": {
+          "name": "Debuggen",
+          "desc": "Das Debuggen umfasst die Diagnose des Programmverhaltens mit Tools, Stack-Traces und Laufzeitnachweisen."
+        },
+        "ja": {
+          "name": "デバッグ",
+          "desc": "デバッグには、ツール、スタックトレース、実行時の証拠を使用した Java プログラムの動作の診断が含まれます。"
+        },
+        "ru": {
+          "name": "Отладка",
+          "desc": "Отладка включает в себя диагностику Java поведения программы с помощью инструментов, трассировок стека и данных времени выполнения."
+        },
+        "ko": {
+          "name": "디버깅",
+          "desc": "디버깅은 도구, 스택 추적 및 런타임 증거를 사용해 Java 프로그램 동작을 진단하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Depuração",
+          "desc": "A depuração abrange o diagnóstico do comportamento do programa Java com ferramentas, rastreamentos de pilha e evidências de tempo de execução."
+        }
+      }
+    },
+    {
+      "key": "java/logging",
+      "slug": "logging",
+      "name": "Logging",
+      "desc": "Logging covers emitting useful runtime information from Java programs.",
+      "i18n": {
+        "zh": {
+          "name": "日志记录",
+          "desc": "日志记录涵盖从 Java 程序发出有用的运行时信息。"
+        },
+        "es": {
+          "name": "Registro",
+          "desc": "El registro cubre la emisión de información útil en tiempo de ejecución desde programas Java."
+        },
+        "fr": {
+          "name": "Journalisation",
+          "desc": "La journalisation couvre l'émission d'informations d'exécution utiles à partir de programmes Java."
+        },
+        "de": {
+          "name": "Protokollierung",
+          "desc": "Die Protokollierung umfasst die Ausgabe nützlicher Laufzeitinformationen von Java-Programmen."
+        },
+        "ja": {
+          "name": "ロギング",
+          "desc": "ロギングには、Java プログラムからの有用なランタイム情報の出力が含まれます。"
+        },
+        "ru": {
+          "name": "Ведение журнала",
+          "desc": "Ведение журнала охватывает передачу полезной информации о времени выполнения из Java программ."
+        },
+        "ko": {
+          "name": "로깅",
+          "desc": "로깅은 Java 프로그램에서 유용한 런타임 정보를 내보내는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Logging",
+          "desc": "O registro cobre a emissão de informações úteis de tempo de execução de programas Java."
+        }
+      }
+    },
+    {
+      "key": "java/reflection",
+      "slug": "reflection",
+      "name": "Reflection",
+      "desc": "Reflection covers inspecting and invoking Java types dynamically.",
+      "i18n": {
+        "zh": {
+          "name": "反射",
+          "desc": "反射涵盖动态检查和调用 Java 类型。"
+        },
+        "es": {
+          "name": "Reflexión",
+          "desc": "La reflexión cubre la inspección e invocación dinámica de tipos Java."
+        },
+        "fr": {
+          "name": "Réflexion",
+          "desc": "La réflexion couvre l'inspection et l'invocation dynamique des types Java."
+        },
+        "de": {
+          "name": "Reflexion",
+          "desc": "Reflection behandelt das dynamische Überprüfen und Aufrufen von Java-Typen."
+        },
+        "ja": {
+          "name": "反射",
+          "desc": "リフレクションは、Java 型の動的検査と呼び出しを扱います。"
+        },
+        "ru": {
+          "name": "Отражение",
+          "desc": "Отражение охватывает проверку и динамический вызов Java типов."
+        },
+        "ko": {
+          "name": "반사",
+          "desc": "리플렉션은 Java 타입을 동적으로 검사하고 호출하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Reflexão",
+          "desc": "A reflexão cobre a inspeção e a invocação de tipos Java dinamicamente."
+        }
+      }
+    },
+    {
+      "key": "java/code_style",
+      "slug": "code_style",
+      "name": "Code Style",
+      "desc": "Code style covers formatting and readability conventions for Java source code.",
+      "i18n": {
+        "zh": {
+          "name": "代码风格",
+          "desc": "代码风格涵盖 Java 源代码的格式和可读性约定。"
+        },
+        "es": {
+          "name": "Estilo de código",
+          "desc": "El estilo del código cubre las convenciones de formato y legibilidad para el código fuente Java."
+        },
+        "fr": {
+          "name": "Style de code",
+          "desc": "Le style de code couvre les conventions de formatage et de lisibilité du code source Java."
+        },
+        "de": {
+          "name": "Codestil",
+          "desc": "Der Codestil umfasst Formatierungs- und Lesbarkeitskonventionen für Java-Quellcode."
+        },
+        "ja": {
+          "name": "コードスタイル",
+          "desc": "コードスタイルでは、Java ソースコードの書式設定と読みやすさの規則を取り上げます。"
+        },
+        "ru": {
+          "name": "Стиль кода",
+          "desc": "Стиль кода охватывает соглашения о форматировании и читаемости исходного кода Java."
+        },
+        "ko": {
+          "name": "코드 스타일",
+          "desc": "코드 스타일은 Java 소스 코드의 형식 지정 및 가독성 규칙을 다룹니다."
+        },
+        "pt": {
+          "name": "Estilo de código",
+          "desc": "O estilo de código cobre convenções de formatação e legibilidade para código-fonte Java."
+        }
+      }
+    }
+  ]
+}

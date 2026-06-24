@@ -1,0 +1,1287 @@
+{
+  "key": "sqlite",
+  "slug": "sqlite",
+  "name": "SQLite",
+  "skills": [
+    {
+      "key": "sqlite/database_files",
+      "slug": "database_files",
+      "name": "Database Files",
+      "desc": "Database files cover SQLite database storage as local files and the operational effects of file-based databases.",
+      "i18n": {
+        "zh": {
+          "name": "数据库文件",
+          "desc": "数据库文件涵盖 SQLite 作为本地文件数据库的存储方式，以及基于文件的数据库运行特性。"
+        },
+        "es": {
+          "name": "Archivos de base de datos",
+          "desc": "Los archivos de bases de datos cubren el almacenamiento SQLite de bases de datos como archivos locales y los efectos operativos de las bases de datos basadas en archivos."
+        },
+        "fr": {
+          "name": "Fichiers de base de données",
+          "desc": "Les fichiers de base de données couvrent le stockage SQLite de bases de données sous forme de fichiers locaux et les effets opérationnels des bases de données basées sur des fichiers."
+        },
+        "de": {
+          "name": "Datenbankdateien",
+          "desc": "Datenbankdateien umfassen die Speicherung von SQLite-Datenbanken als lokale Dateien und die betrieblichen Auswirkungen dateibasierter Datenbanken."
+        },
+        "ja": {
+          "name": "データベースファイル",
+          "desc": "データベースファイルは、ローカルファイルとしてのデータベースストレージと、ファイルベースのデータベースの運用上の影響を扱います。"
+        },
+        "ru": {
+          "name": "Файлы базы данных",
+          "desc": "Файлы базы данных охватывают хранение баз данных SQLite в виде локальных файлов и эксплуатационные эффекты файловых баз данных."
+        },
+        "ko": {
+          "name": "데이터베이스 파일",
+          "desc": "데이터베이스 파일은 로컬 파일로서의 SQLite 데이터베이스 저장과 파일 기반 데이터베이스의 운영 효과를 다룹니다."
+        },
+        "pt": {
+          "name": "Arquivos de banco de dados",
+          "desc": "Os arquivos de banco de dados abrangem o armazenamento de banco de dados como arquivos locais e os efeitos operacionais de bancos de dados baseados em arquivos."
+        }
+      }
+    },
+    {
+      "key": "sqlite/sqlite_shell",
+      "slug": "sqlite_shell",
+      "name": "SQLite Shell",
+      "desc": "SQLite shell covers connecting to databases and using shell commands for inspection and operation.",
+      "i18n": {
+        "zh": {
+          "name": "SQLite Shell",
+          "desc": "SQLite shell 涵盖连接数据库以及使用 shell 命令进行检查和操作。"
+        },
+        "es": {
+          "name": "SQLite Shell",
+          "desc": "SQLite shell cubre la conexión a bases de datos y el uso de comandos de shell para inspección y operación."
+        },
+        "fr": {
+          "name": "SQLite Shell",
+          "desc": "Le shell SQLite couvre la connexion aux bases de données et l'utilisation des commandes shell pour l'inspection et le fonctionnement."
+        },
+        "de": {
+          "name": "SQLite Shell",
+          "desc": "SQLite Shell umfasst die Verbindung zu Datenbanken und die Verwendung von Shell-Befehlen für Inspektion und Betrieb."
+        },
+        "ja": {
+          "name": "SQLite Shell",
+          "desc": "SQLite シェルでは、データベースへの接続と、検査と操作のためのシェルコマンドの使用について説明します。"
+        },
+        "ru": {
+          "name": "SQLite Shell",
+          "desc": "SQLite оболочка охватывает подключение к базам данных и использование команд оболочки для проверки и работы."
+        },
+        "ko": {
+          "name": "SQLite Shell",
+          "desc": "SQLite 셸에서는 데이터베이스에 연결하고 셸 명령을 사용하여 검사 및 작업을 수행하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "SQLite Shell",
+          "desc": "SQLite shell cobre a conexão com bancos de dados e o uso de comandos shell para inspeção e operação."
+        }
+      }
+    },
+    {
+      "key": "sqlite/metadata_inspection",
+      "slug": "metadata_inspection",
+      "name": "Metadata Inspection",
+      "desc": "Metadata inspection covers viewing tables, schemas, indexes, and database properties.",
+      "i18n": {
+        "zh": {
+          "name": "元数据检查",
+          "desc": "元数据检查包括查看表、模式、索引和数据库属性。"
+        },
+        "es": {
+          "name": "Inspección de metadatos",
+          "desc": "La inspección de metadatos cubre la visualización de tablas, esquemas, índices y propiedades de bases de datos."
+        },
+        "fr": {
+          "name": "Inspection des métadonnées",
+          "desc": "L'inspection des métadonnées couvre l'affichage des tables, des schémas, des index et des propriétés de base de données."
+        },
+        "de": {
+          "name": "Metadaten-Inspektion",
+          "desc": "Die Metadatenprüfung umfasst die Anzeige von Tabellen, Schemata, Indizes und Datenbankeigenschaften."
+        },
+        "ja": {
+          "name": "メタデータ検査",
+          "desc": "メタデータ検査には、テーブル、スキーマ、インデックス、データベースプロパティの表示が含まれます。"
+        },
+        "ru": {
+          "name": "Проверка метаданных",
+          "desc": "Проверка метаданных включает просмотр таблиц, схем, индексов и свойств базы данных."
+        },
+        "ko": {
+          "name": "메타데이터 검사",
+          "desc": "메타데이터 검사에는 테이블, 스키마, 인덱스 및 데이터베이스 속성 보기가 포함됩니다."
+        },
+        "pt": {
+          "name": "Inspeção de Metadados",
+          "desc": "A inspeção de metadados abrange a visualização de tabelas, esquemas, índices e propriedades de banco de dados."
+        }
+      }
+    },
+    {
+      "key": "sqlite/feature_compatibility",
+      "slug": "feature_compatibility",
+      "name": "Feature Compatibility",
+      "desc": "Feature compatibility covers recognizing SQLite version-dependent behavior and available features.",
+      "i18n": {
+        "zh": {
+          "name": "特性兼容性",
+          "desc": "特性兼容性包括识别 SQLite 版本相关的行为和可用特性。"
+        },
+        "es": {
+          "name": "Compatibilidad de funciones",
+          "desc": "La compatibilidad de funciones cubre el reconocimiento del comportamiento de SQLite dependiente de la versión y las funciones disponibles."
+        },
+        "fr": {
+          "name": "Compatibilité des fonctionnalités",
+          "desc": "La compatibilité des fonctionnalités couvre la reconnaissance du comportement SQLite dépendant de la version et des fonctionnalités disponibles."
+        },
+        "de": {
+          "name": "Funktionskompatibilität",
+          "desc": "Die Funktionskompatibilität umfasst das Erkennen von SQLite-versionsabhängigem Verhalten und verfügbaren Funktionen."
+        },
+        "ja": {
+          "name": "機能の互換性",
+          "desc": "機能の互換性には、SQLite バージョン依存の動作と利用可能な機能の認識が含まれます。"
+        },
+        "ru": {
+          "name": "Совместимость функций",
+          "desc": "Совместимость функций включает в себя распознавание поведения, зависящего от версии SQLite, и доступных функций."
+        },
+        "ko": {
+          "name": "기능 호환성",
+          "desc": "기능 호환성에는 SQLite 버전에 따른 동작 및 사용 가능한 기능 인식이 포함됩니다."
+        },
+        "pt": {
+          "name": "Compatibilidade de recursos",
+          "desc": "A compatibilidade de recursos abrange o reconhecimento do comportamento dependente da versão do SQLite e dos recursos disponíveis."
+        }
+      }
+    },
+    {
+      "key": "sqlite/table_creation",
+      "slug": "table_creation",
+      "name": "Table Creation",
+      "desc": "Table creation covers defining tables, columns, defaults, and basic schema structure.",
+      "i18n": {
+        "zh": {
+          "name": "表创建",
+          "desc": "表创建包括定义表、列、默认值和基本模式结构。"
+        },
+        "es": {
+          "name": "Creación de tablas",
+          "desc": "La creación de tablas cubre la definición de tablas, columnas, valores predeterminados y estructura de esquema básica."
+        },
+        "fr": {
+          "name": "Création de tables",
+          "desc": "La création de tables couvre la définition des tables, des colonnes, des valeurs par défaut et de la structure du schéma de base."
+        },
+        "de": {
+          "name": "Tabellenerstellung",
+          "desc": "Die Tabellenerstellung umfasst die Definition von Tabellen, Spalten, Standardwerten und der grundlegenden Schemastruktur."
+        },
+        "ja": {
+          "name": "テーブルの作成",
+          "desc": "テーブルの作成には、テーブル、列、デフォルト、および基本的なスキーマ構造の定義が含まれます。"
+        },
+        "ru": {
+          "name": "Создание таблицы",
+          "desc": "Создание таблиц включает определение таблиц, столбцов, значений по умолчанию и базовой структуры схемы."
+        },
+        "ko": {
+          "name": "테이블 생성",
+          "desc": "테이블 생성에는 테이블, 열, 기본값 및 기본 스키마 구조 정의가 포함됩니다."
+        },
+        "pt": {
+          "name": "Criação de Tabela",
+          "desc": "A criação de tabelas abrange a definição de tabelas, colunas, padrões e estrutura básica de esquema."
+        }
+      }
+    },
+    {
+      "key": "sqlite/table_modification",
+      "slug": "table_modification",
+      "name": "Table Modification",
+      "desc": "Table modification covers changing existing table definitions within SQLite constraints.",
+      "i18n": {
+        "zh": {
+          "name": "表修改",
+          "desc": "表修改涵盖在 SQLite 约束内更改现有表定义。"
+        },
+        "es": {
+          "name": "Modificación de tabla",
+          "desc": "La modificación de la tabla cubre el cambio de definiciones de tablas existentes dentro de las restricciones SQLite."
+        },
+        "fr": {
+          "name": "Modification de table",
+          "desc": "La modification de table couvre la modification des définitions de table existantes dans le cadre des contraintes SQLite."
+        },
+        "de": {
+          "name": "Tabellenänderung",
+          "desc": "Die Tabellenänderung umfasst die Änderung bestehender Tabellendefinitionen innerhalb von SQLite-Einschränkungen."
+        },
+        "ja": {
+          "name": "テーブルの変更",
+          "desc": "テーブルの変更には、SQLite 制約内での既存のテーブル定義の変更が含まれます。"
+        },
+        "ru": {
+          "name": "Модификация таблицы",
+          "desc": "Модификация таблицы включает изменение существующих определений таблиц в пределах ограничений SQLite."
+        },
+        "ko": {
+          "name": "테이블 수정",
+          "desc": "테이블 수정에는 SQLite 제약 조건 내에서 기존 테이블 정의를 변경하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Modificação de tabela",
+          "desc": "A modificação da tabela cobre a alteração das definições da tabela existente dentro das restrições SQLite."
+        }
+      }
+    },
+    {
+      "key": "sqlite/type_affinity",
+      "slug": "type_affinity",
+      "name": "Type Affinity",
+      "desc": "Type affinity covers SQLite affinity rules, storage classes, and SQLite-specific typing behavior.",
+      "i18n": {
+        "zh": {
+          "name": "类型亲和性",
+          "desc": "类型亲和性涵盖 SQLite 的亲和性规则、存储类和 SQLite 特定的类型行为。"
+        },
+        "es": {
+          "name": "Afinidad de tipos",
+          "desc": "La afinidad de tipos cubre reglas de afinidad de SQLite, clases de almacenamiento y comportamiento de tipado específico de SQLite."
+        },
+        "fr": {
+          "name": "Affinité de type",
+          "desc": "L'affinité de type couvre les règles d'affinité SQLite, les classes de stockage et le comportement de typage spécifique à SQLite."
+        },
+        "de": {
+          "name": "Typaffinität",
+          "desc": "Die Typaffinität umfasst SQLite-Affinitätsregeln, Speicherklassen und SQLite-spezifisches Typisierungsverhalten."
+        },
+        "ja": {
+          "name": "タイプのアフィニティ",
+          "desc": "型アフィニティは、SQLite アフィニティルール、ストレージクラス、および SQLite 固有の型指定動作を扱います。"
+        },
+        "ru": {
+          "name": "Типовая аффинность",
+          "desc": "Типовая аффинность охватывает правила аффинности SQLite, классы хранения и специфичное для SQLite поведение типизации."
+        },
+        "ko": {
+          "name": "타입 친화성",
+          "desc": "타입 친화성은 SQLite 친화성 규칙, 저장 클래스 및 SQLite 관련 타입 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Afinidade de tipo",
+          "desc": "A afinidade de tipo cobre regras de afinidade do SQLite, classes de armazenamento e comportamento de tipagem específico do SQLite."
+        }
+      }
+    },
+    {
+      "key": "sqlite/primary_keys",
+      "slug": "primary_keys",
+      "name": "Primary Keys",
+      "desc": "Primary keys cover uniquely identifying rows and understanding rowid behavior.",
+      "i18n": {
+        "zh": {
+          "name": "主键",
+          "desc": "主键涵盖唯一标识行和理解 rowid 行为。"
+        },
+        "es": {
+          "name": "Claves primarias",
+          "desc": "Las claves primarias cubren la identificación única de filas y la comprensión del comportamiento de los Rowid."
+        },
+        "fr": {
+          "name": "Clés primaires",
+          "desc": "Les clés primaires couvrent l’identification unique des lignes et la compréhension du comportement des rowids."
+        },
+        "de": {
+          "name": "Primärschlüssel",
+          "desc": "Primärschlüssel umfassen die eindeutige Identifizierung von Zeilen und das Verständnis des Rowid-Verhaltens."
+        },
+        "ja": {
+          "name": "主キー",
+          "desc": "主キーは、行を一意に識別し、ROWID の動作を理解することを扱います。"
+        },
+        "ru": {
+          "name": "Первичные ключи",
+          "desc": "Первичные ключи обеспечивают уникальную идентификацию строк и понимание поведения идентификаторов строк."
+        },
+        "ko": {
+          "name": "기본 키",
+          "desc": "기본 키는 행을 고유하게 식별하고 rowid 동작을 이해하는 데 사용됩니다."
+        },
+        "pt": {
+          "name": "Chaves primárias",
+          "desc": "As chaves primárias cobrem a identificação exclusiva de linhas e a compreensão do comportamento do rowid."
+        }
+      }
+    },
+    {
+      "key": "sqlite/foreign_keys",
+      "slug": "foreign_keys",
+      "name": "Foreign Keys",
+      "desc": "Foreign keys cover defining and enforcing relationships between tables.",
+      "i18n": {
+        "zh": {
+          "name": "外键",
+          "desc": "外键涵盖定义和强制表之间的关系。"
+        },
+        "es": {
+          "name": "Claves foráneas",
+          "desc": "Las claves externas cubren la definición y aplicación de relaciones entre tablas."
+        },
+        "fr": {
+          "name": "Clés étrangères",
+          "desc": "Les clés étrangères couvrent la définition et l'application des relations entre les tables."
+        },
+        "de": {
+          "name": "Fremdschlüssel",
+          "desc": "Fremdschlüssel decken das Definieren und Erzwingen von Beziehungen zwischen Tabellen ab."
+        },
+        "ja": {
+          "name": "外部キー",
+          "desc": "外部キーは、テーブル間の関係の定義と強制を扱います。"
+        },
+        "ru": {
+          "name": "Внешние ключи",
+          "desc": "Внешние ключи охватывают определение и обеспечение связей между таблицами."
+        },
+        "ko": {
+          "name": "외래 키",
+          "desc": "외래 키는 테이블 간의 관계 정의 및 적용을 다룹니다."
+        },
+        "pt": {
+          "name": "Chaves Estrangeiras",
+          "desc": "As chaves estrangeiras cobrem a definição e a aplicação de relacionamentos entre tabelas."
+        }
+      }
+    },
+    {
+      "key": "sqlite/constraints",
+      "slug": "constraints",
+      "name": "Constraints",
+      "desc": "Constraints cover rules that protect data validity during writes.",
+      "i18n": {
+        "zh": {
+          "name": "约束",
+          "desc": "约束涵盖在写入期间保护数据有效性的规则。"
+        },
+        "es": {
+          "name": "Restricciones",
+          "desc": "Las restricciones cubren reglas que protegen la validez de los datos durante las escrituras."
+        },
+        "fr": {
+          "name": "Contraintes",
+          "desc": "Les contraintes couvrent les règles qui protègent la validité des données lors des écritures."
+        },
+        "de": {
+          "name": "Constraints",
+          "desc": "Constraints umfassen Regeln, die die Datengültigkeit während Schreibvorgängen schützen."
+        },
+        "ja": {
+          "name": "制約",
+          "desc": "制約には、書き込み中のデータの有効性を保護するルールが含まれます。"
+        },
+        "ru": {
+          "name": "Ограничения",
+          "desc": "Ограничения охватывают правила, защищающие достоверность данных во время записи."
+        },
+        "ko": {
+          "name": "제약",
+          "desc": "제약조건은 쓰기 중에 데이터 유효성을 보호하는 규칙을 다룹니다."
+        },
+        "pt": {
+          "name": "Restrições",
+          "desc": "As restrições cobrem regras que protegem a validade dos dados durante gravações."
+        }
+      }
+    },
+    {
+      "key": "sqlite/select_queries",
+      "slug": "select_queries",
+      "name": "Select Queries",
+      "desc": "Select queries cover retrieving rows and columns from SQLite tables.",
+      "i18n": {
+        "zh": {
+          "name": "SELECT 查询",
+          "desc": "SELECT 查询涵盖从 SQLite 表中检索行和列。"
+        },
+        "es": {
+          "name": "Consultas SELECT",
+          "desc": "Las consultas SELECT cubren la recuperación de filas y columnas de tablas SQLite."
+        },
+        "fr": {
+          "name": "Requêtes SELECT",
+          "desc": "Les requêtes SELECT couvrent la récupération des lignes et des colonnes des tables SQLite."
+        },
+        "de": {
+          "name": "SELECT-Abfragen",
+          "desc": "SELECT-Abfragen umfassen das Abrufen von Zeilen und Spalten aus SQLite-Tabellen."
+        },
+        "ja": {
+          "name": "SELECT クエリ",
+          "desc": "SELECT クエリは、SQLite テーブルから行と列を取得する方法を扱います。"
+        },
+        "ru": {
+          "name": "SELECT-запросы",
+          "desc": "SELECT-запросы охватывают извлечение строк и столбцов из таблиц SQLite."
+        },
+        "ko": {
+          "name": "SELECT 쿼리",
+          "desc": "SELECT 쿼리는 SQLite 테이블에서 행과 열을 검색하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas SELECT",
+          "desc": "Consultas SELECT abrangem a recuperação de linhas e colunas de tabelas SQLite."
+        }
+      }
+    },
+    {
+      "key": "sqlite/query_filtering_sorting",
+      "slug": "query_filtering_sorting",
+      "name": "Query Filtering and Sorting",
+      "desc": "Query filtering and sorting cover narrowing, ordering, and limiting result sets.",
+      "i18n": {
+        "zh": {
+          "name": "查询过滤和排序",
+          "desc": "查询过滤和排序涵盖筛选、排序和限制结果集。"
+        },
+        "es": {
+          "name": "Filtrado y ordenación de consultas",
+          "desc": "El filtrado y la ordenación de consultas abarcan acotar, ordenar y limitar conjuntos de resultados."
+        },
+        "fr": {
+          "name": "Filtrage et tri des requêtes",
+          "desc": "Le filtrage et le tri des requêtes couvrent la réduction, le tri et la limitation des ensembles de résultats."
+        },
+        "de": {
+          "name": "Abfragefilterung und -sortierung",
+          "desc": "Das Filtern und Sortieren von Abfragen umfasst das Eingrenzen, Ordnen und Einschränken von Ergebnismengen."
+        },
+        "ja": {
+          "name": "クエリのフィルタリングと並べ替え",
+          "desc": "クエリのフィルタリングと並べ替えでは、結果セットの絞り込み、順序付け、制限が行われます。"
+        },
+        "ru": {
+          "name": "Фильтрация и сортировка запросов",
+          "desc": "Фильтрация и сортировка запросов позволяют сужать, упорядочивать и ограничивать наборы результатов."
+        },
+        "ko": {
+          "name": "쿼리 필터링 및 정렬",
+          "desc": "쿼리 필터링 및 정렬에는 결과 집합 필터링, 정렬 및 제한이 포함됩니다."
+        },
+        "pt": {
+          "name": "Filtragem e ordenação de consultas",
+          "desc": "A filtragem e ordenação de consultas abrangem restringir, ordenar e limitar conjuntos de resultados."
+        }
+      }
+    },
+    {
+      "key": "sqlite/aggregate_queries",
+      "slug": "aggregate_queries",
+      "name": "Aggregate Queries",
+      "desc": "Aggregate queries cover summarizing rows with aggregate functions and grouping.",
+      "i18n": {
+        "zh": {
+          "name": "聚合查询",
+          "desc": "聚合查询涵盖使用聚合函数和分组来汇总行。"
+        },
+        "es": {
+          "name": "Consultas agregadas",
+          "desc": "Las consultas agregadas cubren el resumen de filas con funciones agregadas y agrupación."
+        },
+        "fr": {
+          "name": "Requêtes agrégées",
+          "desc": "Les requêtes d'agrégation couvrent la synthèse des lignes avec des fonctions d'agrégation et de regroupement."
+        },
+        "de": {
+          "name": "Aggregierte Abfragen",
+          "desc": "Aggregatabfragen umfassen das Zusammenfassen von Zeilen mit Aggregatfunktionen und Gruppierung."
+        },
+        "ja": {
+          "name": "集計クエリ",
+          "desc": "集計クエリは、集計関数を使用した行の集計とグループ化を扱います。"
+        },
+        "ru": {
+          "name": "Агрегированные запросы",
+          "desc": "Агрегатные запросы охватывают суммирование строк с помощью агрегатных функций и группировки."
+        },
+        "ko": {
+          "name": "집계 쿼리",
+          "desc": "집계 쿼리는 집계 함수 및 그룹화를 사용하여 행 요약을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas agregadas",
+          "desc": "As consultas agregadas abrangem o resumo de linhas com funções agregadas e agrupamento."
+        }
+      }
+    },
+    {
+      "key": "sqlite/joins",
+      "slug": "joins",
+      "name": "Joins",
+      "desc": "Joins cover combining related rows across tables in SQLite queries.",
+      "i18n": {
+        "zh": {
+          "name": "连接",
+          "desc": "连接涵盖在 SQLite 查询中组合跨表的相关行。"
+        },
+        "es": {
+          "name": "Joins",
+          "desc": "Los joins cubren la combinación de filas relacionadas entre tablas en consultas SQLite."
+        },
+        "fr": {
+          "name": "Jointures",
+          "desc": "Les jointures couvrent la combinaison de lignes associées dans des tables dans les requêtes SQLite."
+        },
+        "de": {
+          "name": "Joins",
+          "desc": "Bei Joins geht es um das Kombinieren verwandter Zeilen über Tabellen hinweg in SQLite-Abfragen."
+        },
+        "ja": {
+          "name": "結合",
+          "desc": "結合は、SQLite クエリで関連する行をテーブル間で組み合わせる方法を扱います。"
+        },
+        "ru": {
+          "name": "Соединения",
+          "desc": "Соединения охватывают объединение связанных строк между таблицами в запросах SQLite."
+        },
+        "ko": {
+          "name": "조인",
+          "desc": "조인은 SQLite 쿼리에서 테이블 간 관련 행을 결합하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Junções",
+          "desc": "As junções cobrem a combinação de linhas relacionadas em tabelas em consultas SQLite."
+        }
+      }
+    },
+    {
+      "key": "sqlite/data_insertion",
+      "slug": "data_insertion",
+      "name": "Data Insertion",
+      "desc": "Data insertion covers adding rows while respecting defaults, constraints, and type behavior.",
+      "i18n": {
+        "zh": {
+          "name": "数据插入",
+          "desc": "数据插入包括在尊重默认值、约束和类型行为的同时添加行。"
+        },
+        "es": {
+          "name": "Inserción de datos",
+          "desc": "La inserción de datos cubre la adición de filas respetando los valores predeterminados, las restricciones y el comportamiento de los tipos."
+        },
+        "fr": {
+          "name": "Insertion de données",
+          "desc": "L'insertion de données couvre l'ajout de lignes tout en respectant les valeurs par défaut, les contraintes et le comportement du type."
+        },
+        "de": {
+          "name": "Dateneinfügung",
+          "desc": "Das Einfügen von Daten umfasst das Hinzufügen von Zeilen unter Berücksichtigung von Standardeinstellungen, Einschränkungen und Typverhalten."
+        },
+        "ja": {
+          "name": "データの挿入",
+          "desc": "データ挿入では、デフォルト、制約、および型の動作を尊重しながら行を追加します。"
+        },
+        "ru": {
+          "name": "Вставка данных",
+          "desc": "Вставка данных включает добавление строк с соблюдением значений по умолчанию, ограничений и поведения типов."
+        },
+        "ko": {
+          "name": "데이터 삽입",
+          "desc": "데이터 삽입에는 기본값, 제약 조건 및 유형 동작을 존중하면서 행을 추가하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Inserção de dados",
+          "desc": "A inserção de dados abrange a adição de linhas respeitando padrões, restrições e comportamento de tipo."
+        }
+      }
+    },
+    {
+      "key": "sqlite/data_updates",
+      "slug": "data_updates",
+      "name": "Data Updates",
+      "desc": "Data updates cover changing existing rows safely and deliberately.",
+      "i18n": {
+        "zh": {
+          "name": "数据更新",
+          "desc": "数据更新涵盖安全且有意地更改现有行。"
+        },
+        "es": {
+          "name": "Actualizaciones de datos",
+          "desc": "Las actualizaciones de datos cubren el cambio de filas existentes de forma segura y deliberada."
+        },
+        "fr": {
+          "name": "Mises à jour des données",
+          "desc": "Les mises à jour des données couvrent la modification des lignes existantes en toute sécurité et délibérément."
+        },
+        "de": {
+          "name": "Datenaktualisierungen",
+          "desc": "Datenaktualisierungen umfassen die sichere und gezielte Änderung vorhandener Zeilen."
+        },
+        "ja": {
+          "name": "データの更新",
+          "desc": "データ更新では、既存の行を安全かつ意図的に変更します。"
+        },
+        "ru": {
+          "name": "Обновления данных",
+          "desc": "Обновления данных охватывают безопасное и целенаправленное изменение существующих строк."
+        },
+        "ko": {
+          "name": "데이터 업데이트",
+          "desc": "데이터 업데이트에는 기존 행을 안전하고 의도적으로 변경하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Atualizações de dados",
+          "desc": "As atualizações de dados cobrem a alteração de linhas existentes de forma segura e deliberada."
+        }
+      }
+    },
+    {
+      "key": "sqlite/data_deletion",
+      "slug": "data_deletion",
+      "name": "Data Deletion",
+      "desc": "Data deletion covers removing rows while understanding constraints and transaction safety.",
+      "i18n": {
+        "zh": {
+          "name": "数据删除",
+          "desc": "数据删除包括删除行，同时了解约束和事务安全。"
+        },
+        "es": {
+          "name": "Eliminación de datos",
+          "desc": "La eliminación de datos abarca la eliminación de filas y, al mismo tiempo, la comprensión de las limitaciones y la seguridad de las transacciones."
+        },
+        "fr": {
+          "name": "Suppression des données",
+          "desc": "La suppression des données couvre la suppression des lignes tout en comprenant les contraintes et la sécurité des transactions."
+        },
+        "de": {
+          "name": "Datenlöschung",
+          "desc": "Das Löschen von Daten umfasst das Entfernen von Zeilen unter Berücksichtigung von Einschränkungen und Transaktionssicherheit."
+        },
+        "ja": {
+          "name": "データの削除",
+          "desc": "データの削除では、制約とトランザクションの安全性を理解しながら行を削除します。"
+        },
+        "ru": {
+          "name": "Удаление данных",
+          "desc": "Удаление данных подразумевает удаление строк с учетом ограничений и безопасности транзакций."
+        },
+        "ko": {
+          "name": "데이터 삭제",
+          "desc": "데이터 삭제에는 제약 조건과 트랜잭션 안전성을 이해하면서 행을 제거하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Exclusão de dados",
+          "desc": "A exclusão de dados abrange a remoção de linhas enquanto se entende as restrições e a segurança das transações."
+        }
+      }
+    },
+    {
+      "key": "sqlite/upserts",
+      "slug": "upserts",
+      "name": "Upserts",
+      "desc": "Upserts cover inserting or updating rows based on conflict targets.",
+      "i18n": {
+        "zh": {
+          "name": "Upsert",
+          "desc": "Upsert 涵盖根据冲突目标插入或更新行。"
+        },
+        "es": {
+          "name": "Upserts",
+          "desc": "Los upserts cubren la inserción o actualización de filas según objetivos de conflicto."
+        },
+        "fr": {
+          "name": "Upserts",
+          "desc": "Les upserts couvrent l'insertion ou la mise à jour de lignes en fonction des cibles de conflit."
+        },
+        "de": {
+          "name": "Upserts",
+          "desc": "Upserts umfassen das Einfügen oder Aktualisieren von Zeilen basierend auf Konfliktzielen."
+        },
+        "ja": {
+          "name": "アップサート",
+          "desc": "Upsert は、競合ターゲットに基づいた行の挿入または更新を扱います。"
+        },
+        "ru": {
+          "name": "UPSERT-операции",
+          "desc": "UPSERT-операции охватывают вставку или обновление строк на основе целей конфликта."
+        },
+        "ko": {
+          "name": "업서트",
+          "desc": "Upsert는 충돌 대상을 기반으로 행 삽입 또는 업데이트를 다룹니다."
+        },
+        "pt": {
+          "name": "Upserts",
+          "desc": "Upserts cobrem a inserção ou atualização de linhas com base em alvos de conflito."
+        }
+      }
+    },
+    {
+      "key": "sqlite/transactions",
+      "slug": "transactions",
+      "name": "Transactions",
+      "desc": "Transactions cover grouping changes atomically with commit and rollback behavior.",
+      "i18n": {
+        "zh": {
+          "name": "事务",
+          "desc": "事务涵盖通过提交和回滚行为以原子方式对更改进行分组。"
+        },
+        "es": {
+          "name": "Transacciones",
+          "desc": "Las transacciones cubren la agrupación de cambios de forma atómica con comportamiento de commit y rollback."
+        },
+        "fr": {
+          "name": "Transactions",
+          "desc": "Les transactions couvrent le regroupement atomique des modifications avec un comportement de commit et de rollback."
+        },
+        "de": {
+          "name": "Transaktionen",
+          "desc": "Transaktionen umfassen das atomare Gruppieren von Änderungen mit Commit- und Rollback-Verhalten."
+        },
+        "ja": {
+          "name": "トランザクション",
+          "desc": "トランザクションは、コミットおよびロールバック動作によって複数の変更をアトミックにグループ化する方法を扱います。"
+        },
+        "ru": {
+          "name": "Транзакции",
+          "desc": "Транзакции охватывают атомарную группировку изменений с поведением фиксации и отката."
+        },
+        "ko": {
+          "name": "트랜잭션",
+          "desc": "트랜잭션은 커밋 및 롤백 동작을 통해 변경 사항을 원자적으로 그룹화하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Transações",
+          "desc": "As transações cobrem o agrupamento atômico de alterações com comportamento de commit e rollback."
+        }
+      }
+    },
+    {
+      "key": "sqlite/conflict_resolution",
+      "slug": "conflict_resolution",
+      "name": "Conflict Resolution",
+      "desc": "Conflict resolution covers SQLite conflict policies and their effect on writes.",
+      "i18n": {
+        "zh": {
+          "name": "冲突解决",
+          "desc": "冲突解决涵盖 SQLite 冲突策略及其对写入的影响。"
+        },
+        "es": {
+          "name": "Resolución de conflictos",
+          "desc": "La resolución de conflictos cubre las políticas de conflicto de SQLite y su efecto en las escrituras."
+        },
+        "fr": {
+          "name": "Résolution des conflits",
+          "desc": "La résolution des conflits couvre les politiques de conflit de SQLite et leur effet sur les écritures."
+        },
+        "de": {
+          "name": "Konfliktlösung",
+          "desc": "Die Konfliktlösung umfasst SQLite-Konfliktrichtlinien und ihre Auswirkungen auf Schreibvorgänge."
+        },
+        "ja": {
+          "name": "競合解決",
+          "desc": "競合解決では、SQLite 競合ポリシーとその書き込みに対する影響について説明します。"
+        },
+        "ru": {
+          "name": "Разрешение конфликтов",
+          "desc": "Разрешение конфликтов охватывает политики конфликтов SQLite и их влияние на записи."
+        },
+        "ko": {
+          "name": "충돌 해결",
+          "desc": "충돌 해결은 SQLite 충돌 정책과 쓰기에 미치는 영향을 다룹니다."
+        },
+        "pt": {
+          "name": "Resolução de Conflitos",
+          "desc": "A resolução de conflitos abrange as políticas de conflito do SQLite e seus efeitos nas gravações."
+        }
+      }
+    },
+    {
+      "key": "sqlite/indexes",
+      "slug": "indexes",
+      "name": "Indexes",
+      "desc": "Indexes cover creating indexes to improve lookup and ordering behavior.",
+      "i18n": {
+        "zh": {
+          "name": "索引",
+          "desc": "索引涵盖创建索引以改进查找和排序行为。"
+        },
+        "es": {
+          "name": "Índices",
+          "desc": "Los índices cubren la creación de índices para mejorar el comportamiento de búsqueda y ordenación."
+        },
+        "fr": {
+          "name": "Index",
+          "desc": "Les index couvrent la création d’index pour améliorer le comportement de recherche et de tri."
+        },
+        "de": {
+          "name": "Indizes",
+          "desc": "Indizes umfassen die Erstellung von Indizes zur Verbesserung des Such- und Sortierverhaltens."
+        },
+        "ja": {
+          "name": "インデックス",
+          "desc": "インデックスでは、検索と順序付けの動作を改善するためのインデックスの作成について説明します。"
+        },
+        "ru": {
+          "name": "Индексы",
+          "desc": "Индексы охватывают создание индексов для улучшения поиска и упорядочения."
+        },
+        "ko": {
+          "name": "인덱스",
+          "desc": "인덱스는 조회 및 정렬 동작을 개선하기 위한 인덱스 생성을 다룹니다."
+        },
+        "pt": {
+          "name": "Índices",
+          "desc": "Os índices cobrem a criação de índices para melhorar o comportamento de pesquisa e ordenação."
+        }
+      }
+    },
+    {
+      "key": "sqlite/query_plans",
+      "slug": "query_plans",
+      "name": "Query Plans",
+      "desc": "Query plans cover interpreting SQLite query execution choices.",
+      "i18n": {
+        "zh": {
+          "name": "查询计划",
+          "desc": "查询计划涵盖解释 SQLite 为查询选择的执行策略。"
+        },
+        "es": {
+          "name": "Planes de consulta",
+          "desc": "Los planes de consulta cubren la interpretación de las opciones de ejecución de consultas de SQLite."
+        },
+        "fr": {
+          "name": "Plans de requête",
+          "desc": "Les plans de requête couvrent l’interprétation des choix d’exécution de requêtes SQLite."
+        },
+        "de": {
+          "name": "Abfragepläne",
+          "desc": "Abfragepläne umfassen die Interpretation von SQLite-Abfrageausführungsoptionen."
+        },
+        "ja": {
+          "name": "クエリプラン",
+          "desc": "クエリプランは、クエリ実行の選択肢の解釈を扱います。"
+        },
+        "ru": {
+          "name": "Планы запросов",
+          "desc": "Планы запросов охватывают интерпретацию вариантов выполнения запроса SQLite."
+        },
+        "ko": {
+          "name": "쿼리 계획",
+          "desc": "쿼리 계획은 SQLite 쿼리 실행 전략을 해석하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Planos de consulta",
+          "desc": "Os planos de consulta cobrem a interpretação das opções de execução de consultas do SQLite."
+        }
+      }
+    },
+    {
+      "key": "sqlite/views",
+      "slug": "views",
+      "name": "Views",
+      "desc": "Views cover stored query definitions used to simplify data access.",
+      "i18n": {
+        "zh": {
+          "name": "视图",
+          "desc": "视图涵盖用于简化数据访问的存储查询定义。"
+        },
+        "es": {
+          "name": "Vistas",
+          "desc": "Las vistas cubren definiciones de consultas almacenadas que se utilizan para simplificar el acceso a los datos."
+        },
+        "fr": {
+          "name": "Vues",
+          "desc": "Les vues couvrent les définitions de requêtes stockées utilisées pour simplifier l'accès aux données."
+        },
+        "de": {
+          "name": "Ansichten",
+          "desc": "Ansichten umfassen gespeicherte Abfragedefinitionen, die zur Vereinfachung des Datenzugriffs verwendet werden."
+        },
+        "ja": {
+          "name": "ビュー",
+          "desc": "ビューには、データアクセスを簡素化するために使用される保存されたクエリ定義が含まれます。"
+        },
+        "ru": {
+          "name": "Представления",
+          "desc": "Представления охватывают сохраненные определения запросов, используемые для упрощения доступа к данным."
+        },
+        "ko": {
+          "name": "뷰",
+          "desc": "뷰는 데이터 액세스를 단순화하는 데 사용되는 저장된 쿼리 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Visualizações",
+          "desc": "As visualizações abrangem definições de consulta armazenadas usadas para simplificar o acesso aos dados."
+        }
+      }
+    },
+    {
+      "key": "sqlite/triggers",
+      "slug": "triggers",
+      "name": "Triggers",
+      "desc": "Triggers cover automatic actions caused by table changes.",
+      "i18n": {
+        "zh": {
+          "name": "触发器",
+          "desc": "触发器涵盖由表更改引起的自动操作。"
+        },
+        "es": {
+          "name": "Disparadores",
+          "desc": "Los disparadores cubren acciones automáticas causadas por cambios en la tabla."
+        },
+        "fr": {
+          "name": "Déclencheurs",
+          "desc": "Les déclencheurs couvrent les actions automatiques provoquées par les modifications de table."
+        },
+        "de": {
+          "name": "Trigger",
+          "desc": "Trigger umfassen automatische Aktionen, die durch Tabellenänderungen verursacht werden."
+        },
+        "ja": {
+          "name": "トリガー",
+          "desc": "トリガーは、テーブルの変更によって引き起こされる自動アクションを扱います。"
+        },
+        "ru": {
+          "name": "Триггеры",
+          "desc": "Триггеры охватывают автоматические действия, вызванные изменениями таблицы."
+        },
+        "ko": {
+          "name": "트리거",
+          "desc": "트리거는 테이블 변경으로 인한 자동 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Gatilhos",
+          "desc": "Gatilhos cobrem ações automáticas causadas por alterações na tabela."
+        }
+      }
+    },
+    {
+      "key": "sqlite/prepared_statements",
+      "slug": "prepared_statements",
+      "name": "Prepared Statements",
+      "desc": "Prepared statements cover reusable SQL execution with separated query structure and values.",
+      "i18n": {
+        "zh": {
+          "name": "预处理语句",
+          "desc": "预处理语句涵盖可重用的 SQL 执行，具有分离的查询结构和值。"
+        },
+        "es": {
+          "name": "Sentencias preparadas",
+          "desc": "Las sentencias preparadas cubren la ejecución SQL reutilizable con estructura de consulta y valores separados."
+        },
+        "fr": {
+          "name": "Instructions préparées",
+          "desc": "Les instructions préparées couvrent l'exécution SQL réutilisable avec une structure de requête et des valeurs séparées."
+        },
+        "de": {
+          "name": "Parametrisierte SQL-Anweisungen",
+          "desc": "Parametrisierte SQL-Anweisungen decken die wiederverwendbare SQL-Ausführung mit getrennter Abfragestruktur und getrennten Werten ab."
+        },
+        "ja": {
+          "name": "プリペアドステートメント",
+          "desc": "準備済みステートメントは、分離されたクエリ構造と値を使用した再利用可能な SQL 実行を扱います。"
+        },
+        "ru": {
+          "name": "Подготовленные операторы",
+          "desc": "Подготовленные операторы охватывают многократное выполнение SQL с отдельной структурой и значениями запроса."
+        },
+        "ko": {
+          "name": "프리페어드 스테이트먼트",
+          "desc": "프리페어드 스테이트먼트는 분리된 쿼리 구조와 값을 사용해 SQL을 재사용 가능하게 실행하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções preparadas",
+          "desc": "As instruções preparadas cobrem a execução SQL reutilizável com estrutura de consulta e valores separados."
+        }
+      }
+    },
+    {
+      "key": "sqlite/parameter_binding",
+      "slug": "parameter_binding",
+      "name": "Parameter Binding",
+      "desc": "Parameter binding covers safely passing values into SQLite statements.",
+      "i18n": {
+        "zh": {
+          "name": "参数绑定",
+          "desc": "参数绑定涵盖安全地将值传递到 SQLite 语句中。"
+        },
+        "es": {
+          "name": "Vinculación de parámetros",
+          "desc": "La vinculación de parámetros cubre la transferencia segura de valores a sentencias SQLite."
+        },
+        "fr": {
+          "name": "Liaison de paramètres",
+          "desc": "La liaison de paramètres couvre la transmission en toute sécurité de valeurs dans les instructions SQLite."
+        },
+        "de": {
+          "name": "Parameterbindung",
+          "desc": "Die Parameterbindung umfasst die sichere Übergabe von Werten an SQLite-Anweisungen."
+        },
+        "ja": {
+          "name": "パラメータのバインド",
+          "desc": "パラメーターバインディングでは、値を SQLite ステートメントに安全に渡すことができます。"
+        },
+        "ru": {
+          "name": "Привязка параметров",
+          "desc": "Привязка параметров обеспечивает безопасную передачу значений в операторы SQLite."
+        },
+        "ko": {
+          "name": "매개변수 바인딩",
+          "desc": "매개변수 바인딩은 SQLite 문에 값을 안전하게 전달하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Vinculação de parâmetros",
+          "desc": "A vinculação de parâmetros cobre a passagem segura de valores para instruções SQLite."
+        }
+      }
+    },
+    {
+      "key": "sqlite/concurrency_limits",
+      "slug": "concurrency_limits",
+      "name": "Concurrency Limits",
+      "desc": "Concurrency limits cover SQLite locking, writers, readers, and file-level coordination.",
+      "i18n": {
+        "zh": {
+          "name": "并发限制",
+          "desc": "并发限制涵盖 SQLite 锁定、写入器、读取器和文件级协调。"
+        },
+        "es": {
+          "name": "Límites de simultaneidad",
+          "desc": "Los límites de simultaneidad cubren el bloqueo de SQLite, escritores, lectores y coordinación a nivel de archivos."
+        },
+        "fr": {
+          "name": "Limites de concurrence",
+          "desc": "Les limites de concurrence couvrent le verrouillage SQLite, les rédacteurs, les lecteurs et la coordination au niveau des fichiers."
+        },
+        "de": {
+          "name": "Nebenläufigkeitsgrenzen",
+          "desc": "Nebenläufigkeitsgrenzen umfassen SQLite-Sperren, Schreibprozesse, Leseprozesse und die Koordination auf Dateiebene."
+        },
+        "ja": {
+          "name": "同時実行の制限",
+          "desc": "同時実行制限には、ロック、ライター、リーダー、ファイルレベルの調整が含まれます。"
+        },
+        "ru": {
+          "name": "Ограничения конкурентного доступа",
+          "desc": "Ограничения конкурентного доступа охватывают блокировки SQLite, пишущие процессы, читающие процессы и координацию на уровне файлов."
+        },
+        "ko": {
+          "name": "동시성 제한",
+          "desc": "동시성 제한은 SQLite 잠금, 쓰기 작업, 읽기 작업 및 파일 수준 조정을 다룹니다."
+        },
+        "pt": {
+          "name": "Limites de simultaneidade",
+          "desc": "Os limites de simultaneidade cobrem bloqueio SQLite, gravadores, leitores e coordenação em nível de arquivo."
+        }
+      }
+    },
+    {
+      "key": "sqlite/import_export",
+      "slug": "import_export",
+      "name": "Import and Export",
+      "desc": "Import and export cover moving SQLite data into and out of files or external formats.",
+      "i18n": {
+        "zh": {
+          "name": "导入和导出",
+          "desc": "导入和导出涵盖在 SQLite 与文件或外部格式之间移动数据。"
+        },
+        "es": {
+          "name": "Importar y Exportar",
+          "desc": "La importación y exportación cubre mover datos de SQLite dentro y fuera de archivos o formatos externos."
+        },
+        "fr": {
+          "name": "Importation et exportation",
+          "desc": "L'importation et l'exportation couvrent le déplacement de données SQLite vers et depuis des fichiers ou des formats externes."
+        },
+        "de": {
+          "name": "Import und Export",
+          "desc": "Der Import und Export deckt das Verschieben von SQLite-Daten in und aus Dateien oder externen Formaten ab."
+        },
+        "ja": {
+          "name": "インポートとエクスポート",
+          "desc": "インポートとエクスポートでは、ファイルまたは外部形式へのデータの移動と、ファイルまたは外部形式からのデータの移動を扱います。"
+        },
+        "ru": {
+          "name": "Импорт и экспорт",
+          "desc": "Импорт и экспорт охватывают перемещение данных SQLite в файлы или внешние форматы и из них."
+        },
+        "ko": {
+          "name": "가져오기 및 내보내기",
+          "desc": "가져오기 및 내보내기는 SQLite 데이터와 파일 또는 외부 형식 사이에서 데이터를 이동하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Importar e Exportar",
+          "desc": "A importação e a exportação cobrem a movimentação de dados do SQLite para dentro e fora de arquivos ou formatos externos."
+        }
+      }
+    },
+    {
+      "key": "sqlite/backup_restore",
+      "slug": "backup_restore",
+      "name": "Backup and Restore",
+      "desc": "Backup and restore cover protecting and recovering SQLite database files safely.",
+      "i18n": {
+        "zh": {
+          "name": "备份与恢复",
+          "desc": "备份和恢复涵盖安全地保护和恢复 SQLite 数据库文件。"
+        },
+        "es": {
+          "name": "Copia de seguridad y restauración",
+          "desc": "La copia de seguridad y restauración cubre la protección y recuperación segura de archivos de bases de datos SQLite."
+        },
+        "fr": {
+          "name": "Sauvegarde et restauration",
+          "desc": "La sauvegarde et la restauration couvrent la protection et la récupération des fichiers de base de données SQLite en toute sécurité."
+        },
+        "de": {
+          "name": "Sichern und Wiederherstellen",
+          "desc": "Das Sichern und Wiederherstellen umfasst den sicheren Schutz und die sichere Wiederherstellung von SQLite-Datenbankdateien."
+        },
+        "ja": {
+          "name": "バックアップと復元",
+          "desc": "バックアップと復元は、SQLite データベースファイルの安全な保護と回復を扱います。"
+        },
+        "ru": {
+          "name": "Резервное копирование и восстановление",
+          "desc": "Резервное копирование и восстановление обеспечивают безопасную защиту и восстановление файлов базы данных SQLite."
+        },
+        "ko": {
+          "name": "백업 및 복원",
+          "desc": "백업 및 복원은 SQLite 데이터베이스 파일을 안전하게 보호하고 복구합니다."
+        },
+        "pt": {
+          "name": "Backup e restauração",
+          "desc": "Backup e restauração protegem e recuperam arquivos de banco de dados SQLite com segurança."
+        }
+      }
+    },
+    {
+      "key": "sqlite/vacuum_analyze",
+      "slug": "vacuum_analyze",
+      "name": "Vacuum and Analyze",
+      "desc": "Vacuum and analyze cover reclaiming space and refreshing statistics for query planning.",
+      "i18n": {
+        "zh": {
+          "name": "VACUUM 和 ANALYZE",
+          "desc": "VACUUM 和 ANALYZE 涵盖回收空间并刷新查询规划统计信息。"
+        },
+        "es": {
+          "name": "VACUUM y ANALYZE",
+          "desc": "VACUUM y ANALYZE cubren la recuperación de espacio y la actualización de estadísticas para la planificación de consultas."
+        },
+        "fr": {
+          "name": "VACUUM et ANALYZE",
+          "desc": "VACUUM et ANALYZE couvrent la récupération d’espace et l’actualisation des statistiques pour la planification des requêtes."
+        },
+        "de": {
+          "name": "VACUUM und ANALYZE",
+          "desc": "VACUUM und ANALYZE decken das Zurückgewinnen von Speicherplatz und das Aktualisieren von Statistiken für die Abfrageplanung ab."
+        },
+        "ja": {
+          "name": "VACUUM と ANALYZE",
+          "desc": "VACUUM と ANALYZE は、領域の再利用とクエリ計画用統計情報の更新を扱います。"
+        },
+        "ru": {
+          "name": "VACUUM и ANALYZE",
+          "desc": "VACUUM и ANALYZE охватывают освобождение пространства и обновление статистики для планирования запросов."
+        },
+        "ko": {
+          "name": "VACUUM 및 ANALYZE",
+          "desc": "VACUUM 및 ANALYZE는 공간 회수와 쿼리 계획을 위한 통계 갱신을 다룹니다."
+        },
+        "pt": {
+          "name": "VACUUM e ANALYZE",
+          "desc": "VACUUM e ANALYZE cobrem a recuperação de espaço e a atualização de estatísticas para planejamento de consultas."
+        }
+      }
+    },
+    {
+      "key": "sqlite/pragma_settings",
+      "slug": "pragma_settings",
+      "name": "PRAGMA Settings",
+      "desc": "PRAGMA settings cover SQLite-specific runtime and database configuration switches.",
+      "i18n": {
+        "zh": {
+          "name": "PRAGMA 设置",
+          "desc": "PRAGMA 设置涵盖 SQLite 特定的运行时和数据库配置开关。"
+        },
+        "es": {
+          "name": "Configuración de PRAGMA",
+          "desc": "La configuración de PRAGMA cubre los modificadores de configuración de base de datos y tiempo de ejecución específicos de SQLite."
+        },
+        "fr": {
+          "name": "Paramètres PRAGMA",
+          "desc": "Les paramètres PRAGMA couvrent les commutateurs de configuration d'exécution et de base de données spécifiques à SQLite."
+        },
+        "de": {
+          "name": "PRAGMA-Einstellungen",
+          "desc": "PRAGMA-Einstellungen decken SQLite-spezifische Laufzeit- und Datenbankkonfigurationsschalter ab."
+        },
+        "ja": {
+          "name": "プラグマ設定",
+          "desc": "PRAGMA 設定は、SQLite 固有のランタイムおよびデータベース構成スイッチを扱います。"
+        },
+        "ru": {
+          "name": "Настройки PRAGMA",
+          "desc": "Настройки PRAGMA охватывают специфичные для SQLite параметры среды выполнения и конфигурации базы данных."
+        },
+        "ko": {
+          "name": "PRAGMA 설정",
+          "desc": "PRAGMA 설정에는 SQLite 관련 런타임 및 데이터베이스 구성 스위치가 포함됩니다."
+        },
+        "pt": {
+          "name": "Configurações PRAGMA",
+          "desc": "As configurações do PRAGMA cobrem opções de tempo de execução e configuração de banco de dados específicas do SQLite."
+        }
+      }
+    },
+    {
+      "key": "sqlite/integrity_checks",
+      "slug": "integrity_checks",
+      "name": "Integrity Checks",
+      "desc": "Integrity checks cover validating database consistency and detecting corruption risk.",
+      "i18n": {
+        "zh": {
+          "name": "完整性检查",
+          "desc": "完整性检查包括验证数据库一致性和检测损坏风险。"
+        },
+        "es": {
+          "name": "Comprobaciones de integridad",
+          "desc": "Las comprobaciones de integridad cubren la validación de la coherencia de la base de datos y la detección de riesgos de corrupción."
+        },
+        "fr": {
+          "name": "Contrôles d'intégrité",
+          "desc": "Les contrôles d'intégrité couvrent la validation de la cohérence de la base de données et la détection des risques de corruption."
+        },
+        "de": {
+          "name": "Integritätsprüfungen",
+          "desc": "Integritätsprüfungen umfassen die Validierung der Datenbankkonsistenz und die Erkennung von Korruptionsrisiken."
+        },
+        "ja": {
+          "name": "整合性チェック",
+          "desc": "整合性チェックでは、データベースの整合性の検証と破損リスクの検出が行われます。"
+        },
+        "ru": {
+          "name": "Проверки целостности",
+          "desc": "Проверки целостности охватывают проверку согласованности базы данных и выявление риска повреждения данных."
+        },
+        "ko": {
+          "name": "무결성 검사",
+          "desc": "무결성 검사에는 데이터베이스 일관성 검증 및 손상 위험 감지가 포함됩니다."
+        },
+        "pt": {
+          "name": "Verificações de integridade",
+          "desc": "As verificações de integridade abrangem a validação da consistência do banco de dados e a detecção de risco de corrupção."
+        }
+      }
+    }
+  ]
+}

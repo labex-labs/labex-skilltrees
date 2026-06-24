@@ -1,0 +1,1607 @@
+{
+  "key": "cybersecurity",
+  "slug": "cybersecurity",
+  "name": "Cybersecurity",
+  "skills": [
+    {
+      "key": "cybersecurity/security_objectives",
+      "slug": "security_objectives",
+      "name": "Security Objectives",
+      "desc": "Security objectives cover confidentiality, integrity, availability, accountability, and resilience as goals for evaluating controls.",
+      "i18n": {
+        "zh": {
+          "name": "安全目标",
+          "desc": "安全目标涵盖机密性、完整性、可用性、可追责性和韧性，作为评估安全控制的目标。"
+        },
+        "es": {
+          "name": "Objetivos de seguridad",
+          "desc": "Los objetivos de seguridad cubren la confidencialidad, la integridad, la disponibilidad, la responsabilidad y la resiliencia como objetivos para evaluar los controles."
+        },
+        "fr": {
+          "name": "Objectifs de sécurité",
+          "desc": "Les objectifs de sécurité couvrent la confidentialité, l’intégrité, la disponibilité, la responsabilité et la résilience comme objectifs d’évaluation des contrôles."
+        },
+        "de": {
+          "name": "Sicherheitsziele",
+          "desc": "Sicherheitsziele umfassen Vertraulichkeit, Integrität, Verfügbarkeit, Verantwortlichkeit und Belastbarkeit als Ziele für die Bewertung von Kontrollen."
+        },
+        "ja": {
+          "name": "セキュリティ目標",
+          "desc": "セキュリティ目標には、コントロールを評価するための目標として、機密性、完全性、可用性、説明責任、回復力が含まれます。"
+        },
+        "ru": {
+          "name": "Цели безопасности",
+          "desc": "Цели безопасности охватывают конфиденциальность, целостность, доступность, подотчетность и отказоустойчивость как цели оценки средств контроля."
+        },
+        "ko": {
+          "name": "보안 목표",
+          "desc": "보안 목표는 보안 통제를 평가하기 위한 목표로 기밀성, 무결성, 가용성, 책임 추적성, 복원력을 다룹니다."
+        },
+        "pt": {
+          "name": "Objetivos de segurança",
+          "desc": "Os objetivos de segurança abrangem confidencialidade, integridade, disponibilidade, responsabilidade e resiliência como metas para avaliar controles."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/security_ethics",
+      "slug": "security_ethics",
+      "name": "Security Ethics",
+      "desc": "Security ethics covers authorized access, responsible testing boundaries, privacy, and disclosure expectations.",
+      "i18n": {
+        "zh": {
+          "name": "安全伦理",
+          "desc": "安全伦理涵盖授权访问、负责任的测试边界、隐私和漏洞披露要求。"
+        },
+        "es": {
+          "name": "Ética de seguridad",
+          "desc": "La ética de la seguridad cubre el acceso autorizado, los límites de las pruebas responsables, la privacidad y las expectativas de divulgación."
+        },
+        "fr": {
+          "name": "Éthique de sécurité",
+          "desc": "L'éthique de la sécurité couvre l'accès autorisé, les limites des tests responsables, la confidentialité et les attentes en matière de divulgation."
+        },
+        "de": {
+          "name": "Sicherheitsethik",
+          "desc": "Die Sicherheitsethik umfasst autorisierten Zugriff, verantwortungsvolle Testgrenzen, Datenschutz und Offenlegungserwartungen."
+        },
+        "ja": {
+          "name": "セキュリティ倫理",
+          "desc": "セキュリティ倫理は、許可されたアクセス、責任あるテスト範囲、プライバシー、および脆弱性開示の期待事項を扱います。"
+        },
+        "ru": {
+          "name": "Этика безопасности",
+          "desc": "Этика безопасности охватывает санкционированный доступ, границы ответственного тестирования, конфиденциальность и ожидания раскрытия информации."
+        },
+        "ko": {
+          "name": "보안 윤리",
+          "desc": "보안 윤리에는 승인된 액세스, 책임 있는 테스트 경계, 개인정보 보호 및 공개 기대치가 포함됩니다."
+        },
+        "pt": {
+          "name": "Ética de Segurança",
+          "desc": "A ética de segurança abrange acesso autorizado, limites de testes responsáveis, privacidade e expectativas de divulgação."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/asset_identification",
+      "slug": "asset_identification",
+      "name": "Asset Identification",
+      "desc": "Asset identification covers recognizing systems, data, services, users, and business processes that need protection.",
+      "i18n": {
+        "zh": {
+          "name": "资产识别",
+          "desc": "资产识别涵盖识别需要保护的系统、数据、服务、用户和业务流程。"
+        },
+        "es": {
+          "name": "Identificación de activos",
+          "desc": "La identificación de activos cubre el reconocimiento de sistemas, datos, servicios, usuarios y procesos comerciales que necesitan protección."
+        },
+        "fr": {
+          "name": "Identification des actifs",
+          "desc": "L'identification des actifs couvre la reconnaissance des systèmes, des données, des services, des utilisateurs et des processus métier qui nécessitent une protection."
+        },
+        "de": {
+          "name": "Identifizierung von Vermögenswerten",
+          "desc": "Die Asset-Identifizierung umfasst das Erkennen von Systemen, Daten, Diensten, Benutzern und Geschäftsprozessen, die geschützt werden müssen."
+        },
+        "ja": {
+          "name": "資産の識別",
+          "desc": "資産の識別には、保護が必要なシステム、データ、サービス、ユーザー、ビジネスプロセスの認識が含まれます。"
+        },
+        "ru": {
+          "name": "Идентификация активов",
+          "desc": "Идентификация активов включает в себя распознавание систем, данных, услуг, пользователей и бизнес-процессов, которые нуждаются в защите."
+        },
+        "ko": {
+          "name": "자산 식별",
+          "desc": "자산 식별에는 보호가 필요한 시스템, 데이터, 서비스, 사용자 및 비즈니스 프로세스 인식이 포함됩니다."
+        },
+        "pt": {
+          "name": "Identificação de Ativos",
+          "desc": "A identificação de ativos abrange o reconhecimento de sistemas, dados, serviços, usuários e processos de negócios que precisam de proteção."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/risk_assessment",
+      "slug": "risk_assessment",
+      "name": "Risk Assessment",
+      "desc": "Risk assessment covers identifying threats, likelihood, impact, exposure, and priorities.",
+      "i18n": {
+        "zh": {
+          "name": "风险评估",
+          "desc": "风险评估涵盖识别威胁、发生可能性、影响、暴露面和优先级。"
+        },
+        "es": {
+          "name": "Evaluación de riesgos",
+          "desc": "La evaluación de riesgos cubre la identificación de amenazas, probabilidad, impacto, exposición y prioridades."
+        },
+        "fr": {
+          "name": "Évaluation des risques",
+          "desc": "L'évaluation des risques couvre l'identification des menaces, de la probabilité, de l'impact, de l'exposition et des priorités."
+        },
+        "de": {
+          "name": "Risikobewertung",
+          "desc": "Die Risikobewertung umfasst die Identifizierung von Bedrohungen, Wahrscheinlichkeiten, Auswirkungen, Gefährdungen und Prioritäten."
+        },
+        "ja": {
+          "name": "リスク評価",
+          "desc": "リスク評価には、脅威、可能性、影響、露出度、優先順位の特定が含まれます。"
+        },
+        "ru": {
+          "name": "Оценка риска",
+          "desc": "Оценка рисков включает в себя выявление угроз, вероятности, воздействия, подверженности и приоритетов."
+        },
+        "ko": {
+          "name": "리스크 평가",
+          "desc": "리스크 평가는 위협, 발생 가능성, 영향, 노출 및 우선순위 식별을 다룹니다."
+        },
+        "pt": {
+          "name": "Avaliação de Risco",
+          "desc": "A avaliação de riscos abrange a identificação de ameaças, probabilidade, impacto, exposição e prioridades."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/threat_modeling",
+      "slug": "threat_modeling",
+      "name": "Threat Modeling",
+      "desc": "Threat modeling covers reasoning about attackers, attack paths, trust boundaries, and mitigations.",
+      "i18n": {
+        "zh": {
+          "name": "威胁建模",
+          "desc": "威胁建模涵盖分析攻击者、攻击路径、信任边界和缓解措施。"
+        },
+        "es": {
+          "name": "Modelado de amenazas",
+          "desc": "El modelado de amenazas cubre el razonamiento sobre los atacantes, las rutas de ataque, los límites de confianza y las mitigaciones."
+        },
+        "fr": {
+          "name": "Modélisation des menaces",
+          "desc": "La modélisation des menaces couvre le raisonnement sur les attaquants, les chemins d'attaque, les limites de confiance et les mesures d'atténuation."
+        },
+        "de": {
+          "name": "Bedrohungsmodellierung",
+          "desc": "Die Bedrohungsmodellierung umfasst Überlegungen zu Angreifern, Angriffspfaden, Vertrauensgrenzen und Abhilfemaßnahmen."
+        },
+        "ja": {
+          "name": "脅威モデリング",
+          "desc": "脅威モデリングでは、攻撃者、攻撃経路、信頼境界、および緩和策に関する推論が取り上げられます。"
+        },
+        "ru": {
+          "name": "Моделирование угроз",
+          "desc": "Моделирование угроз охватывает рассуждения о злоумышленниках, путях атак, границах доверия и мерах по снижению рисков."
+        },
+        "ko": {
+          "name": "위협 모델링",
+          "desc": "위협 모델링은 공격자, 공격 경로, 신뢰 경계 및 완화 방안을 분석하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelagem de ameaças",
+          "desc": "A modelagem de ameaças abrange o raciocínio sobre invasores, caminhos de ataque, limites de confiança e mitigações."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/attack_surface",
+      "slug": "attack_surface",
+      "name": "Attack Surface",
+      "desc": "Attack surface covers exposed systems, services, identities, inputs, and dependencies that could be targeted.",
+      "i18n": {
+        "zh": {
+          "name": "攻击面",
+          "desc": "攻击面涵盖可能成为目标的暴露系统、服务、身份、输入和依赖项。"
+        },
+        "es": {
+          "name": "Superficie de ataque",
+          "desc": "La superficie de ataque cubre sistemas, servicios, identidades, entradas y dependencias expuestos que podrían ser atacados."
+        },
+        "fr": {
+          "name": "Surface d'attaque",
+          "desc": "La surface d’attaque couvre les systèmes, services, identités, entrées et dépendances exposés qui pourraient être ciblés."
+        },
+        "de": {
+          "name": "Angriffsfläche",
+          "desc": "Die Angriffsfläche umfasst exponierte Systeme, Dienste, Identitäten, Eingaben und Abhängigkeiten, die angegriffen werden könnten."
+        },
+        "ja": {
+          "name": "攻撃対象領域",
+          "desc": "攻撃対象領域は、標的となる可能性のある、公開されたシステム、サービス、アイデンティティ、入力、依存関係を扱います。"
+        },
+        "ru": {
+          "name": "Поверхность атаки",
+          "desc": "Поверхность атаки охватывает открытые системы, службы, идентичности, входные данные и зависимости, которые могут стать целью атаки."
+        },
+        "ko": {
+          "name": "공격면",
+          "desc": "공격면은 표적이 될 수 있는 노출된 시스템, 서비스, ID, 입력 및 종속성을 다룹니다."
+        },
+        "pt": {
+          "name": "Superfície de Ataque",
+          "desc": "A superfície de ataque abrange sistemas, serviços, identidades, entradas e dependências expostas que podem ser visadas."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/security_controls",
+      "slug": "security_controls",
+      "name": "Security Controls",
+      "desc": "Security controls cover preventive, detective, corrective, administrative, technical, and physical safeguards.",
+      "i18n": {
+        "zh": {
+          "name": "安全控制",
+          "desc": "安全控制涵盖预防、检测、纠正、管理、技术和物理保障。"
+        },
+        "es": {
+          "name": "Controles de seguridad",
+          "desc": "Los controles de seguridad cubren salvaguardias preventivas, detectivas, correctivas, administrativas, técnicas y físicas."
+        },
+        "fr": {
+          "name": "Contrôles de sécurité",
+          "desc": "Les contrôles de sécurité couvrent les mesures de protection préventives, de détection, correctives, administratives, techniques et physiques."
+        },
+        "de": {
+          "name": "Sicherheitskontrollen",
+          "desc": "Sicherheitskontrollen umfassen präventive, erkennende, korrigierende, administrative, technische und physische Schutzmaßnahmen."
+        },
+        "ja": {
+          "name": "セキュリティコントロール",
+          "desc": "セキュリティコントロールには、予防的、検知的、是正的、管理的、技術的、および物理的な安全対策が含まれます。"
+        },
+        "ru": {
+          "name": "Средства контроля безопасности",
+          "desc": "Средства контроля безопасности охватывают превентивные, выявляющие, корректирующие, административные, технические и физические меры защиты."
+        },
+        "ko": {
+          "name": "보안 통제",
+          "desc": "보안 통제는 예방, 탐지, 교정, 관리, 기술 및 물리적 보호 조치를 다룹니다."
+        },
+        "pt": {
+          "name": "Controles de segurança",
+          "desc": "Os controles de segurança abrangem salvaguardas preventivas, de detecção, corretivas, administrativas, técnicas e físicas."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/defense_in_depth",
+      "slug": "defense_in_depth",
+      "name": "Defense in Depth",
+      "desc": "Defense in depth covers layering controls so a single failure does not expose critical assets.",
+      "i18n": {
+        "zh": {
+          "name": "纵深防御",
+          "desc": "纵深防御涵盖分层安全控制，使单点失效不会暴露关键资产。"
+        },
+        "es": {
+          "name": "Defensa en profundidad",
+          "desc": "La defensa en profundidad cubre controles en capas para que una sola falla no exponga activos críticos."
+        },
+        "fr": {
+          "name": "Défense en profondeur",
+          "desc": "La défense en profondeur couvre les contrôles superposés afin qu’une seule panne n’expose pas les actifs critiques."
+        },
+        "de": {
+          "name": "Verteidigung in der Tiefe",
+          "desc": "Verteidigung in der Tiefe umfasst mehrschichtige Sicherheitsmaßnahmen, sodass ein einzelner Ausfall keine kritischen Assets offenlegt."
+        },
+        "ja": {
+          "name": "多層防御",
+          "desc": "多層防御は階層化制御を扱うため、単一の障害によって重要な資産が漏洩することはありません。"
+        },
+        "ru": {
+          "name": "Глубокоэшелонированная защита",
+          "desc": "Глубокоэшелонированная защита охватывает многоуровневые средства контроля, чтобы единичный сбой не раскрывал критически важные активы."
+        },
+        "ko": {
+          "name": "심층 방어",
+          "desc": "심층 방어는 단일 장애로 중요한 자산이 노출되지 않도록 보안 통제를 계층화하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Defesa em profundidade",
+          "desc": "A defesa em profundidade abrange controles em camadas para que uma única falha não exponha ativos críticos."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/network_security",
+      "slug": "network_security",
+      "name": "Network Security",
+      "desc": "Network security covers protecting network communication, service exposure, and traffic boundaries.",
+      "i18n": {
+        "zh": {
+          "name": "网络安全",
+          "desc": "网络安全包括保护网络通信、服务暴露和流量边界。"
+        },
+        "es": {
+          "name": "Seguridad de la red",
+          "desc": "La seguridad de la red cubre la protección de la comunicación de la red, la exposición del servicio y los límites del tráfico."
+        },
+        "fr": {
+          "name": "Sécurité du réseau",
+          "desc": "La sécurité du réseau couvre la protection des communications réseau, l'exposition des services et les limites du trafic."
+        },
+        "de": {
+          "name": "Netzwerksicherheit",
+          "desc": "Die Netzwerksicherheit umfasst den Schutz der Netzwerkkommunikation, der Dienstexposition und der Verkehrsgrenzen."
+        },
+        "ja": {
+          "name": "ネットワークセキュリティ",
+          "desc": "ネットワークセキュリティには、ネットワーク通信、サービスの公開、トラフィック境界の保護が含まれます。"
+        },
+        "ru": {
+          "name": "Сетевая безопасность",
+          "desc": "Сетевая безопасность включает защиту сетевых коммуникаций, открытых сервисов и границ трафика."
+        },
+        "ko": {
+          "name": "네트워크 보안",
+          "desc": "네트워크 보안에는 네트워크 통신, 서비스 노출 및 트래픽 경계 보호가 포함됩니다."
+        },
+        "pt": {
+          "name": "Segurança de rede",
+          "desc": "A segurança da rede abrange a proteção da comunicação da rede, da exposição do serviço e dos limites de tráfego."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/network_segmentation",
+      "slug": "network_segmentation",
+      "name": "Network Segmentation",
+      "desc": "Network segmentation covers separating systems to limit exposure and lateral movement.",
+      "i18n": {
+        "zh": {
+          "name": "网络分段",
+          "desc": "网络分段涵盖通过分离系统来限制暴露和横向移动。"
+        },
+        "es": {
+          "name": "Segmentación de red",
+          "desc": "La segmentación de la red cubre la separación de sistemas para limitar la exposición y el movimiento lateral."
+        },
+        "fr": {
+          "name": "Segmentation du réseau",
+          "desc": "La segmentation du réseau couvre la séparation des systèmes pour limiter l’exposition et les mouvements latéraux."
+        },
+        "de": {
+          "name": "Netzwerksegmentierung",
+          "desc": "Die Netzwerksegmentierung umfasst das Trennen von Systemen, um Exposition und laterale Bewegungen zu begrenzen."
+        },
+        "ja": {
+          "name": "ネットワークのセグメンテーション",
+          "desc": "ネットワークセグメンテーションは、公開範囲とラテラルムーブメントを制限するためにシステムを分離することを扱います。"
+        },
+        "ru": {
+          "name": "Сегментация сети",
+          "desc": "Сегментация сети охватывает разделение систем для ограничения экспозиции и латерального перемещения."
+        },
+        "ko": {
+          "name": "네트워크 분할",
+          "desc": "네트워크 분할은 노출과 측면 이동을 제한하기 위해 시스템을 분리하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Segmentação de Rede",
+          "desc": "A segmentação da rede abrange a separação de sistemas para limitar a exposição e o movimento lateral."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/firewalls",
+      "slug": "firewalls",
+      "name": "Firewalls",
+      "desc": "Firewalls cover filtering traffic by policy across hosts, networks, and applications.",
+      "i18n": {
+        "zh": {
+          "name": "防火墙",
+          "desc": "防火墙涵盖通过主机、网络和应用程序的策略过滤流量。"
+        },
+        "es": {
+          "name": "Cortafuegos",
+          "desc": "Los firewalls cubren el filtrado del tráfico por política entre hosts, redes y aplicaciones."
+        },
+        "fr": {
+          "name": "Pare-feu",
+          "desc": "Les pare-feu couvrent le filtrage du trafic par politique sur les hôtes, les réseaux et les applications."
+        },
+        "de": {
+          "name": "Firewalls",
+          "desc": "Firewalls filtern Datenverkehr anhand von Richtlinien über Hosts, Netzwerke und Anwendungen hinweg."
+        },
+        "ja": {
+          "name": "ファイアウォール",
+          "desc": "ファイアウォールは、ホスト、ネットワーク、アプリケーション全体にわたるポリシーによるトラフィックのフィルタリングを扱います。"
+        },
+        "ru": {
+          "name": "Брандмауэры",
+          "desc": "Брандмауэры обеспечивают фильтрацию трафика по политикам между хостами, сетями и приложениями."
+        },
+        "ko": {
+          "name": "방화벽",
+          "desc": "방화벽은 호스트, 네트워크 및 애플리케이션 전반에 걸쳐 정책별로 트래픽을 필터링합니다."
+        },
+        "pt": {
+          "name": "Firewalls",
+          "desc": "Os firewalls cobrem a filtragem do tráfego por política em hosts, redes e aplicativos."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/intrusion_detection",
+      "slug": "intrusion_detection",
+      "name": "Intrusion Detection",
+      "desc": "Intrusion detection covers recognizing suspicious behavior from network, host, and application signals.",
+      "i18n": {
+        "zh": {
+          "name": "入侵检测",
+          "desc": "入侵检测涵盖从网络、主机和应用程序信号中识别可疑行为。"
+        },
+        "es": {
+          "name": "Detección de intrusiones",
+          "desc": "La detección de intrusiones cubre el reconocimiento de comportamientos sospechosos a partir de señales de red, host y aplicaciones."
+        },
+        "fr": {
+          "name": "Détection d'intrusion",
+          "desc": "La détection d'intrusion couvre la reconnaissance des comportements suspects à partir des signaux du réseau, de l'hôte et des applications."
+        },
+        "de": {
+          "name": "Angriffserkennung",
+          "desc": "Die Angriffserkennung umfasst die Erkennung verdächtigen Verhaltens anhand von Netzwerk-, Host- und Anwendungssignalen."
+        },
+        "ja": {
+          "name": "侵入検知",
+          "desc": "侵入検出には、ネットワーク、ホスト、アプリケーションの信号からの不審な動作の認識が含まれます。"
+        },
+        "ru": {
+          "name": "Обнаружение вторжений",
+          "desc": "Обнаружение вторжений включает в себя распознавание подозрительного поведения по сигналам сети, хоста и приложений."
+        },
+        "ko": {
+          "name": "침입 탐지",
+          "desc": "침입 탐지에는 네트워크, 호스트 및 애플리케이션 신호에서 의심스러운 동작을 인식하는 기능이 포함됩니다."
+        },
+        "pt": {
+          "name": "Detecção de intrusão",
+          "desc": "A detecção de intrusão abrange o reconhecimento de comportamento suspeito de sinais de rede, host e aplicativos."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/secure_remote_access",
+      "slug": "secure_remote_access",
+      "name": "Secure Remote Access",
+      "desc": "Secure remote access covers protecting administrative connectivity and remote user sessions.",
+      "i18n": {
+        "zh": {
+          "name": "安全远程访问",
+          "desc": "安全远程访问涵盖保护管理连接和远程用户会话。"
+        },
+        "es": {
+          "name": "Acceso remoto seguro",
+          "desc": "El acceso remoto seguro cubre la protección de la conectividad administrativa y las sesiones de usuarios remotos."
+        },
+        "fr": {
+          "name": "Accès à distance sécurisé",
+          "desc": "L'accès à distance sécurisé couvre la protection de la connectivité administrative et des sessions utilisateur à distance."
+        },
+        "de": {
+          "name": "Sicherer Fernzugriff",
+          "desc": "Der sichere Fernzugriff umfasst den Schutz der administrativen Konnektivität und Remote-Benutzersitzungen."
+        },
+        "ja": {
+          "name": "安全なリモートアクセス",
+          "desc": "安全なリモートアクセスには、管理接続とリモートユーザーセッションの保護が含まれます。"
+        },
+        "ru": {
+          "name": "Безопасный удаленный доступ",
+          "desc": "Безопасный удаленный доступ включает защиту административных подключений и сеансов удаленных пользователей."
+        },
+        "ko": {
+          "name": "보안 원격 액세스",
+          "desc": "보안 원격 액세스에는 관리 연결 및 원격 사용자 세션 보호가 포함됩니다."
+        },
+        "pt": {
+          "name": "Acesso remoto seguro",
+          "desc": "O acesso remoto seguro abrange a proteção da conectividade administrativa e das sessões de usuários remotos."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/identity_management",
+      "slug": "identity_management",
+      "name": "Identity Management",
+      "desc": "Identity management covers account lifecycle, identity sources, and identity assurance.",
+      "i18n": {
+        "zh": {
+          "name": "身份管理",
+          "desc": "身份管理涵盖账户生命周期、身份来源和身份可信度。"
+        },
+        "es": {
+          "name": "Gestión de identidad",
+          "desc": "La gestión de identidad cubre el ciclo de vida de la cuenta, las fuentes de identidad y la garantía de identidad."
+        },
+        "fr": {
+          "name": "Gestion des identités",
+          "desc": "La gestion des identités couvre le cycle de vie des comptes, les sources d'identité et l'assurance de l'identité."
+        },
+        "de": {
+          "name": "Identitätsmanagement",
+          "desc": "Das Identitätsmanagement umfasst den Kontolebenszyklus, Identitätsquellen und die Identitätssicherung."
+        },
+        "ja": {
+          "name": "アイデンティティ管理",
+          "desc": "アイデンティティ管理は、アカウントのライフサイクル、アイデンティティソース、アイデンティティ保証を扱います。"
+        },
+        "ru": {
+          "name": "Управление идентичностями",
+          "desc": "Управление идентичностями охватывает жизненный цикл учетных записей, источники идентичности и проверку надежности идентичности."
+        },
+        "ko": {
+          "name": "ID 관리",
+          "desc": "ID 관리는 계정 수명 주기, ID 소스 및 신원 보증을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de identidade",
+          "desc": "O gerenciamento de identidade abrange o ciclo de vida da conta, fontes de identidade e garantia de identidade."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/authentication",
+      "slug": "authentication",
+      "name": "Authentication",
+      "desc": "Authentication covers verifying user, service, and device identities.",
+      "i18n": {
+        "zh": {
+          "name": "认证",
+          "desc": "认证涵盖验证用户、服务和设备身份。"
+        },
+        "es": {
+          "name": "Autenticación",
+          "desc": "La autenticación cubre la verificación de las identidades de usuarios, servicios y dispositivos."
+        },
+        "fr": {
+          "name": "Authentification",
+          "desc": "L'authentification couvre la vérification des identités des utilisateurs, des services et des appareils."
+        },
+        "de": {
+          "name": "Authentifizierung",
+          "desc": "Die Authentifizierung umfasst die Überprüfung von Benutzer-, Dienst- und Geräteidentitäten."
+        },
+        "ja": {
+          "name": "認証",
+          "desc": "認証には、ユーザー、サービス、デバイスの ID の検証が含まれます。"
+        },
+        "ru": {
+          "name": "Аутентификация",
+          "desc": "Аутентификация включает проверку личности пользователя, службы и устройства."
+        },
+        "ko": {
+          "name": "인증",
+          "desc": "인증에는 사용자, 서비스 및 장치 ID 확인이 포함됩니다."
+        },
+        "pt": {
+          "name": "Autenticação",
+          "desc": "A autenticação abrange a verificação de identidades de usuários, serviços e dispositivos."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/authorization",
+      "slug": "authorization",
+      "name": "Authorization",
+      "desc": "Authorization covers granting and enforcing allowed actions after identity is established.",
+      "i18n": {
+        "zh": {
+          "name": "授权",
+          "desc": "授权涵盖在身份确认后授予并强制执行允许的操作。"
+        },
+        "es": {
+          "name": "Autorización",
+          "desc": "La autorización cubre otorgar y hacer cumplir las acciones permitidas después de que se establece la identidad."
+        },
+        "fr": {
+          "name": "Autorisation",
+          "desc": "L'autorisation couvre l'octroi et l'application des actions autorisées une fois l'identité établie."
+        },
+        "de": {
+          "name": "Autorisierung",
+          "desc": "Die Autorisierung umfasst die Gewährung und Durchsetzung zulässiger Aktionen nach Feststellung der Identität."
+        },
+        "ja": {
+          "name": "認可",
+          "desc": "認可には、ID が確立された後の許可されたアクションの付与と強制が含まれます。"
+        },
+        "ru": {
+          "name": "Авторизация",
+          "desc": "Авторизация включает предоставление и принудительное применение разрешенных действий после подтверждения идентичности."
+        },
+        "ko": {
+          "name": "권한 부여",
+          "desc": "권한 부여는 신원이 확인된 후 허용된 작업을 부여하고 적용하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Autorização",
+          "desc": "A autorização abrange a concessão e a aplicação de ações permitidas após o estabelecimento da identidade."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/access_control_models",
+      "slug": "access_control_models",
+      "name": "Access Control Models",
+      "desc": "Access control models cover role-based, attribute-based, discretionary, and mandatory access patterns.",
+      "i18n": {
+        "zh": {
+          "name": "访问控制模型",
+          "desc": "访问控制模型涵盖基于角色、基于属性、自主和强制访问模式。"
+        },
+        "es": {
+          "name": "Modelos de control de acceso",
+          "desc": "Los modelos de control de acceso cubren patrones de acceso basados en roles, atributos, discrecionales y obligatorios."
+        },
+        "fr": {
+          "name": "Modèles de contrôle d'accès",
+          "desc": "Les modèles de contrôle d'accès couvrent les modèles d'accès basés sur les rôles, les attributs, discrétionnaires et obligatoires."
+        },
+        "de": {
+          "name": "Zugangskontrollmodelle",
+          "desc": "Zugriffskontrollmodelle umfassen rollenbasierte, attributbasierte, diskretionäre und obligatorische Zugriffsmuster."
+        },
+        "ja": {
+          "name": "アクセス制御モデル",
+          "desc": "アクセス制御モデルは、役割ベース、属性ベース、任意、および必須のアクセスパターンを扱います。"
+        },
+        "ru": {
+          "name": "Модели контроля доступа",
+          "desc": "Модели управления доступом охватывают модели доступа на основе ролей, атрибутов, дискреционного и обязательного доступа."
+        },
+        "ko": {
+          "name": "액세스 제어 모델",
+          "desc": "액세스 제어 모델은 역할 기반, 속성 기반, 임의 및 필수 액세스 패턴을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelos de controle de acesso",
+          "desc": "Os modelos de controle de acesso abrangem padrões de acesso baseados em funções, atributos, discricionários e obrigatórios."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/multi_factor_authentication",
+      "slug": "multi_factor_authentication",
+      "name": "Multi-Factor Authentication",
+      "desc": "Multi-factor authentication covers combining independent proof factors to reduce account compromise risk.",
+      "i18n": {
+        "zh": {
+          "name": "多因素认证",
+          "desc": "多因素身份验证涵盖结合独立的身份验证因素，以降低账户泄露风险。"
+        },
+        "es": {
+          "name": "Autenticación multifactor",
+          "desc": "La autenticación multifactor cubre la combinación de factores de autenticación independientes para reducir el riesgo de compromiso de cuentas."
+        },
+        "fr": {
+          "name": "Authentification multifacteur",
+          "desc": "L’authentification multifacteur couvre la combinaison de facteurs d’authentification indépendants pour réduire le risque de compromission de comptes."
+        },
+        "de": {
+          "name": "Multi-Faktor-Authentifizierung",
+          "desc": "Die Multi-Faktor-Authentifizierung behandelt die Kombination unabhängiger Authentifizierungsfaktoren, um das Risiko einer Kontokompromittierung zu verringern."
+        },
+        "ja": {
+          "name": "多要素認証",
+          "desc": "多要素認証は、独立した認証要素を組み合わせてアカウント侵害リスクを下げることを扱います。"
+        },
+        "ru": {
+          "name": "Многофакторная аутентификация",
+          "desc": "Многофакторная аутентификация охватывает сочетание независимых факторов аутентификации для снижения риска компрометации учетной записи."
+        },
+        "ko": {
+          "name": "다중 요소 인증",
+          "desc": "다중 요소 인증은 독립적인 인증 요소를 결합하여 계정 침해 위험을 줄이는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Autenticação multifator",
+          "desc": "A autenticação multifator abrange a combinação de fatores de autenticação independentes para reduzir o risco de comprometimento de contas."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/password_security",
+      "slug": "password_security",
+      "name": "Password Security",
+      "desc": "Password security covers storage, policy, reuse risk, guessing resistance, and credential hygiene.",
+      "i18n": {
+        "zh": {
+          "name": "密码安全",
+          "desc": "密码安全涵盖存储、策略、重用风险、抵抗猜测攻击的能力和凭据管理。"
+        },
+        "es": {
+          "name": "Seguridad de contraseña",
+          "desc": "La seguridad de las contraseñas cubre el almacenamiento, las políticas, el riesgo de reutilización, la resistencia a ataques de adivinación y la gestión de credenciales."
+        },
+        "fr": {
+          "name": "Sécurité des mots de passe",
+          "desc": "La sécurité des mots de passe couvre le stockage, les politiques, le risque de réutilisation, la résistance aux attaques par devinette et la gestion des identifiants."
+        },
+        "de": {
+          "name": "Passwortsicherheit",
+          "desc": "Passwortsicherheit umfasst Speicherung, Richtlinien, Wiederverwendungsrisiko, Widerstand gegen Erraten und den Umgang mit Zugangsdaten."
+        },
+        "ja": {
+          "name": "パスワードセキュリティ",
+          "desc": "パスワードセキュリティは、保存、ポリシー、再利用リスク、推測攻撃への耐性、認証情報管理を扱います。"
+        },
+        "ru": {
+          "name": "Безопасность паролей",
+          "desc": "Безопасность паролей охватывает хранение, политики, риск повторного использования, устойчивость к угадыванию и управление учетными данными."
+        },
+        "ko": {
+          "name": "비밀번호 보안",
+          "desc": "비밀번호 보안은 저장, 정책, 재사용 위험, 추측 공격 저항성 및 자격 증명 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Segurança de senha",
+          "desc": "A segurança de senhas abrange armazenamento, políticas, risco de reutilização, resistência a tentativas de adivinhação e gestão de credenciais."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/privileged_access",
+      "slug": "privileged_access",
+      "name": "Privileged Access",
+      "desc": "Privileged access covers limiting, auditing, and protecting administrative capabilities.",
+      "i18n": {
+        "zh": {
+          "name": "特权访问",
+          "desc": "特权访问涵盖限制、审计和保护管理能力。"
+        },
+        "es": {
+          "name": "Acceso privilegiado",
+          "desc": "El acceso privilegiado cubre la limitación, auditoría y protección de las capacidades administrativas."
+        },
+        "fr": {
+          "name": "Accès privilégié",
+          "desc": "L’accès privilégié couvre la limitation, l’audit et la protection des capacités administratives."
+        },
+        "de": {
+          "name": "Privilegierter Zugriff",
+          "desc": "Der privilegierte Zugriff umfasst die Einschränkung, Überwachung und den Schutz administrativer Funktionen."
+        },
+        "ja": {
+          "name": "特権アクセス",
+          "desc": "特権アクセスには、管理機能の制限、監査、保護が含まれます。"
+        },
+        "ru": {
+          "name": "Привилегированный доступ",
+          "desc": "Привилегированный доступ охватывает ограничение, аудит и защиту административных возможностей."
+        },
+        "ko": {
+          "name": "특권 액세스",
+          "desc": "권한 있는 액세스에는 관리 기능 제한, 감사 및 보호가 포함됩니다."
+        },
+        "pt": {
+          "name": "Acesso Privilegiado",
+          "desc": "O acesso privilegiado abrange limitação, auditoria e proteção de recursos administrativos."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/symmetric_encryption",
+      "slug": "symmetric_encryption",
+      "name": "Symmetric Encryption",
+      "desc": "Symmetric encryption covers shared-key protection of data in storage or transit.",
+      "i18n": {
+        "zh": {
+          "name": "对称加密",
+          "desc": "对称加密涵盖存储或传输中数据的共享密钥保护。"
+        },
+        "es": {
+          "name": "Cifrado simétrico",
+          "desc": "El cifrado simétrico cubre la protección de clave compartida de los datos almacenados o en tránsito."
+        },
+        "fr": {
+          "name": "Chiffrement symétrique",
+          "desc": "Le chiffrement symétrique couvre la protection par clé partagée des données stockées ou en transit."
+        },
+        "de": {
+          "name": "Symmetrische Verschlüsselung",
+          "desc": "Die symmetrische Verschlüsselung umfasst den Shared-Key-Schutz von Daten bei der Speicherung oder Übertragung."
+        },
+        "ja": {
+          "name": "対称暗号化",
+          "desc": "対称暗号化は、ストレージまたは転送中のデータの共有キー保護を扱います。"
+        },
+        "ru": {
+          "name": "Симметричное шифрование",
+          "desc": "Симметричное шифрование обеспечивает защиту данных при хранении или передаче с помощью общего ключа."
+        },
+        "ko": {
+          "name": "대칭 암호화",
+          "desc": "대칭 암호화에는 저장 또는 전송 중인 데이터의 공유 키 보호가 포함됩니다."
+        },
+        "pt": {
+          "name": "Criptografia Simétrica",
+          "desc": "A criptografia simétrica cobre a proteção de dados em armazenamento ou trânsito com chave compartilhada."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/asymmetric_encryption",
+      "slug": "asymmetric_encryption",
+      "name": "Asymmetric Encryption",
+      "desc": "Asymmetric encryption covers public and private key cryptographic operations.",
+      "i18n": {
+        "zh": {
+          "name": "非对称加密",
+          "desc": "非对称加密涵盖公钥和私钥加密操作。"
+        },
+        "es": {
+          "name": "Cifrado asimétrico",
+          "desc": "El cifrado asimétrico cubre operaciones criptográficas de clave pública y privada."
+        },
+        "fr": {
+          "name": "Chiffrement asymétrique",
+          "desc": "Le chiffrement asymétrique couvre les opérations cryptographiques à clé publique et privée."
+        },
+        "de": {
+          "name": "Asymmetrische Verschlüsselung",
+          "desc": "Die asymmetrische Verschlüsselung umfasst kryptografische Operationen mit öffentlichen und privaten Schlüsseln."
+        },
+        "ja": {
+          "name": "非対称暗号化",
+          "desc": "非対称暗号化は、公開キーと秘密キーの暗号化操作を扱います。"
+        },
+        "ru": {
+          "name": "Асимметричное шифрование",
+          "desc": "Асимметричное шифрование охватывает криптографические операции с открытым и закрытым ключом."
+        },
+        "ko": {
+          "name": "비대칭 암호화",
+          "desc": "비대칭 암호화에는 공개 및 개인 키 암호화 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Criptografia Assimétrica",
+          "desc": "A criptografia assimétrica cobre operações criptográficas de chave pública e privada."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/hashing",
+      "slug": "hashing",
+      "name": "Hashing",
+      "desc": "Hashing covers one-way digests used for integrity checks, password storage, and data verification.",
+      "i18n": {
+        "zh": {
+          "name": "散列",
+          "desc": "散列涵盖用于完整性检查、密码存储和数据验证的单向摘要。"
+        },
+        "es": {
+          "name": "Hashing",
+          "desc": "El hash cubre resúmenes unidireccionales utilizados para comprobaciones de integridad, almacenamiento de contraseñas y verificación de datos."
+        },
+        "fr": {
+          "name": "Hachage",
+          "desc": "Le hachage couvre les résumés unidirectionnels utilisés pour les contrôles d'intégrité, le stockage des mots de passe et la vérification des données."
+        },
+        "de": {
+          "name": "Hashing",
+          "desc": "Hashing umfasst Einweg-Digests, die für Integritätsprüfungen, Passwortspeicherung und Datenüberprüfung verwendet werden."
+        },
+        "ja": {
+          "name": "ハッシュ化",
+          "desc": "ハッシュには、整合性チェック、パスワードの保存、データ検証に使用される一方向ダイジェストが含まれます。"
+        },
+        "ru": {
+          "name": "Хеширование",
+          "desc": "Хеширование охватывает односторонние дайджесты, используемые для проверки целостности, хранения паролей и проверки данных."
+        },
+        "ko": {
+          "name": "해싱",
+          "desc": "해싱은 무결성 검사, 비밀번호 저장 및 데이터 확인에 사용되는 단방향 다이제스트를 포함합니다."
+        },
+        "pt": {
+          "name": "Hashing",
+          "desc": "Hashing cobre resumos unidirecionais usados para verificações de integridade, armazenamento de senhas e verificação de dados."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/digital_signatures",
+      "slug": "digital_signatures",
+      "name": "Digital Signatures",
+      "desc": "Digital signatures cover proving authenticity and integrity with asymmetric keys.",
+      "i18n": {
+        "zh": {
+          "name": "数字签名",
+          "desc": "数字签名涵盖使用非对称密钥证明真实性和完整性。"
+        },
+        "es": {
+          "name": "Firmas digitales",
+          "desc": "Las firmas digitales cubren la prueba de autenticidad e integridad con claves asimétricas."
+        },
+        "fr": {
+          "name": "Signatures numériques",
+          "desc": "Les signatures numériques couvrent la preuve de l'authenticité et de l'intégrité avec des clés asymétriques."
+        },
+        "de": {
+          "name": "Digitale Signaturen",
+          "desc": "Digitale Signaturen umfassen den Nachweis von Authentizität und Integrität mit asymmetrischen Schlüsseln."
+        },
+        "ja": {
+          "name": "デジタル署名",
+          "desc": "デジタル署名は、非対称鍵による真正性と完全性の証明を扱います。"
+        },
+        "ru": {
+          "name": "Цифровые подписи",
+          "desc": "Цифровые подписи обеспечивают подтверждение подлинности и целостности с помощью асимметричных ключей."
+        },
+        "ko": {
+          "name": "디지털 서명",
+          "desc": "디지털 서명은 비대칭 키를 사용하여 진위성과 무결성을 입증하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Assinaturas Digitais",
+          "desc": "As assinaturas digitais abrangem a prova de autenticidade e integridade com chaves assimétricas."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/pki_certificates",
+      "slug": "pki_certificates",
+      "name": "PKI and Certificates",
+      "desc": "PKI and certificates cover trust chains, certificate authorities, identity binding, and certificate lifecycle.",
+      "i18n": {
+        "zh": {
+          "name": "PKI 和证书",
+          "desc": "PKI 和证书涵盖信任链、证书颁发机构、身份绑定和证书生命周期。"
+        },
+        "es": {
+          "name": "PKI y Certificados",
+          "desc": "La PKI y los certificados cubren cadenas de confianza, autoridades de certificación, vinculación de identidades y ciclo de vida de los certificados."
+        },
+        "fr": {
+          "name": "PKI et certificats",
+          "desc": "La PKI et les certificats couvrent les chaînes de confiance, les autorités de certification, la liaison d'identité et le cycle de vie des certificats."
+        },
+        "de": {
+          "name": "PKI und Zertifikate",
+          "desc": "PKI und Zertifikate decken Vertrauensketten, Zertifizierungsstellen, Identitätsbindung und Zertifikatslebenszyklus ab."
+        },
+        "ja": {
+          "name": "PKI と証明書",
+          "desc": "PKI と証明書は、信頼チェーン、認証局、ID バインディング、および証明書のライフサイクルを扱います。"
+        },
+        "ru": {
+          "name": "PKI и сертификаты",
+          "desc": "PKI и сертификаты охватывают цепочки доверия, центры сертификации, привязку удостоверений и жизненный цикл сертификата."
+        },
+        "ko": {
+          "name": "PKI 및 인증서",
+          "desc": "PKI 및 인증서에는 신뢰 체인, 인증 기관, ID 바인딩 및 인증서 수명주기가 포함됩니다."
+        },
+        "pt": {
+          "name": "PKI e certificados",
+          "desc": "PKI e certificados cobrem cadeias confiáveis, autoridades de certificação, vinculação de identidade e ciclo de vida do certificado."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/tls_security",
+      "slug": "tls_security",
+      "name": "TLS Security",
+      "desc": "TLS security covers encrypted network sessions, certificate validation, and common transport security risks.",
+      "i18n": {
+        "zh": {
+          "name": "TLS 安全",
+          "desc": "TLS 安全性涵盖加密网络会话、证书验证和常见传输安全风险。"
+        },
+        "es": {
+          "name": "Seguridad TLS",
+          "desc": "La seguridad TLS cubre sesiones de red cifradas, validación de certificados y riesgos comunes de seguridad de transporte."
+        },
+        "fr": {
+          "name": "Sécurité TLS",
+          "desc": "La sécurité TLS couvre les sessions réseau cryptées, la validation des certificats et les risques courants de sécurité des transports."
+        },
+        "de": {
+          "name": "TLS-Sicherheit",
+          "desc": "TLS-Sicherheit deckt verschlüsselte Netzwerksitzungen, Zertifikatsvalidierung und allgemeine Transportsicherheitsrisiken ab."
+        },
+        "ja": {
+          "name": "TLS セキュリティ",
+          "desc": "TLS セキュリティは、暗号化されたネットワークセッション、証明書の検証、および一般的なトランスポートセキュリティリスクを扱います。"
+        },
+        "ru": {
+          "name": "Безопасность TLS",
+          "desc": "Безопасность TLS охватывает зашифрованные сетевые сеансы, проверку сертификатов и общие риски безопасности транспорта."
+        },
+        "ko": {
+          "name": "TLS 보안",
+          "desc": "TLS 보안에는 암호화된 네트워크 세션, 인증서 확인 및 일반적인 전송 보안 위험이 포함됩니다."
+        },
+        "pt": {
+          "name": "Segurança TLS",
+          "desc": "A segurança TLS cobre sessões de rede criptografadas, validação de certificados e riscos comuns de segurança de transporte."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/vulnerability_management",
+      "slug": "vulnerability_management",
+      "name": "Vulnerability Management",
+      "desc": "Vulnerability management covers identifying, tracking, assigning ownership, and reducing known weaknesses.",
+      "i18n": {
+        "zh": {
+          "name": "漏洞管理",
+          "desc": "漏洞管理涵盖识别、跟踪、指定负责人并减少已知弱点。"
+        },
+        "es": {
+          "name": "Gestión de vulnerabilidades",
+          "desc": "La gestión de vulnerabilidades cubre la identificación, el seguimiento, la asignación de propiedad y la reducción de las debilidades conocidas."
+        },
+        "fr": {
+          "name": "Gestion des vulnérabilités",
+          "desc": "La gestion des vulnérabilités couvre l’identification, le suivi, l’attribution de propriété et la réduction des faiblesses connues."
+        },
+        "de": {
+          "name": "Schwachstellenmanagement",
+          "desc": "Das Schwachstellenmanagement umfasst die Identifizierung, Verfolgung, Zuweisung von Eigentümern und die Reduzierung bekannter Schwachstellen."
+        },
+        "ja": {
+          "name": "脆弱性管理",
+          "desc": "脆弱性管理には、特定、追跡、所有権の割り当て、既知の弱点の削減が含まれます。"
+        },
+        "ru": {
+          "name": "Управление уязвимостями",
+          "desc": "Управление уязвимостями включает в себя выявление, отслеживание, назначение владельца и уменьшение известных слабых мест."
+        },
+        "ko": {
+          "name": "취약점 관리",
+          "desc": "취약점 관리는 알려진 약점을 식별하고 추적하며 담당자를 지정하고 줄이는 과정을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de vulnerabilidades",
+          "desc": "O gerenciamento de vulnerabilidades abrange a identificação, o rastreamento, a atribuição de propriedade e a redução de pontos fracos conhecidos."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/vulnerability_prioritization",
+      "slug": "vulnerability_prioritization",
+      "name": "Vulnerability Prioritization",
+      "desc": "Vulnerability prioritization covers ranking weaknesses by exploitability, impact, exposure, and business context.",
+      "i18n": {
+        "zh": {
+          "name": "漏洞优先级排序",
+          "desc": "漏洞优先级划分涵盖按可利用性、影响、暴露度和业务环境对漏洞进行排名。"
+        },
+        "es": {
+          "name": "Priorización de vulnerabilidades",
+          "desc": "La priorización de vulnerabilidades cubre la clasificación de vulnerabilidades por explotabilidad, impacto, exposición y contexto empresarial."
+        },
+        "fr": {
+          "name": "Priorisation des vulnérabilités",
+          "desc": "La priorisation des vulnérabilités couvre le classement des vulnérabilités par exploitabilité, impact, exposition et contexte métier."
+        },
+        "de": {
+          "name": "Priorisierung von Schwachstellen",
+          "desc": "Die Priorisierung von Schwachstellen umfasst die Einstufung von Schwachstellen nach Ausnutzbarkeit, Auswirkung, Exposition und Geschäftskontext."
+        },
+        "ja": {
+          "name": "脆弱性の優先順位付け",
+          "desc": "脆弱性の優先順位付けでは、悪用可能性、影響、露出度、ビジネスコンテキストに基づいて脆弱性をランク付けします。"
+        },
+        "ru": {
+          "name": "Приоритизация уязвимостей",
+          "desc": "Приоритизация уязвимостей включает ранжирование уязвимостей по эксплуатируемости, влиянию, экспозиции и бизнес-контексту."
+        },
+        "ko": {
+          "name": "취약점 우선순위 지정",
+          "desc": "취약점 우선순위 지정은 악용 가능성, 영향, 노출 및 비즈니스 맥락에 따라 취약점 순위를 매기는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Priorização de vulnerabilidades",
+          "desc": "A priorização de vulnerabilidades abrange a classificação de vulnerabilidades por explorabilidade, impacto, exposição e contexto de negócios."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/patch_lifecycle",
+      "slug": "patch_lifecycle",
+      "name": "Patch Lifecycle",
+      "desc": "Patch lifecycle covers tracking updates, prioritizing fixes, testing changes, and validating remediation.",
+      "i18n": {
+        "zh": {
+          "name": "补丁生命周期",
+          "desc": "补丁生命周期涵盖跟踪更新、确定修复的优先级、测试更改和验证修复。"
+        },
+        "es": {
+          "name": "Ciclo de vida de los parches",
+          "desc": "El ciclo de vida de los parches cubre el seguimiento de actualizaciones, la priorización de correcciones, la prueba de cambios y la validación de remediaciones."
+        },
+        "fr": {
+          "name": "Cycle de vie des correctifs",
+          "desc": "Le cycle de vie des correctifs couvre le suivi des mises à jour, la priorisation des correctifs, le test des modifications et la validation des corrections."
+        },
+        "de": {
+          "name": "Patch-Lebenszyklus",
+          "desc": "Der Patch-Lebenszyklus umfasst die Verfolgung von Updates, die Priorisierung von Fixes, das Testen von Änderungen und die Validierung von Korrekturen."
+        },
+        "ja": {
+          "name": "パッチのライフサイクル",
+          "desc": "パッチのライフサイクルには、更新の追跡、修正の優先順位付け、変更のテスト、修復の検証が含まれます。"
+        },
+        "ru": {
+          "name": "Жизненный цикл исправлений",
+          "desc": "Жизненный цикл исправлений включает отслеживание обновлений, определение приоритета исправлений, тестирование изменений и проверку исправлений."
+        },
+        "ko": {
+          "name": "패치 수명 주기",
+          "desc": "패치 수명 주기는 업데이트 추적, 수정 사항 우선순위 지정, 변경 사항 테스트 및 조치 결과 검증을 다룹니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida dos patches",
+          "desc": "O ciclo de vida dos patches abrange o acompanhamento de atualizações, a priorização de correções, o teste de alterações e a validação de remediações."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/remediation_validation",
+      "slug": "remediation_validation",
+      "name": "Remediation Validation",
+      "desc": "Remediation validation covers confirming that fixes reduce or remove identified risk.",
+      "i18n": {
+        "zh": {
+          "name": "修复验证",
+          "desc": "修复验证涵盖确认修复措施减少或消除已识别的风险。"
+        },
+        "es": {
+          "name": "Validación de remediación",
+          "desc": "La validación de la corrección cubre la confirmación de que las correcciones reducen o eliminan el riesgo identificado."
+        },
+        "fr": {
+          "name": "Validation des mesures correctives",
+          "desc": "La validation des mesures correctives consiste à confirmer que les correctifs réduisent ou suppriment les risques identifiés."
+        },
+        "de": {
+          "name": "Validierung der Behebung",
+          "desc": "Die Validierung der Behebung umfasst die Bestätigung, dass Korrekturen das identifizierte Risiko reduzieren oder beseitigen."
+        },
+        "ja": {
+          "name": "修復の検証",
+          "desc": "修復の検証には、修正によって特定されたリスクが軽減または除去されることの確認が含まれます。"
+        },
+        "ru": {
+          "name": "Проверка исправления",
+          "desc": "Проверка исправлений включает подтверждение того, что исправления уменьшают или устраняют выявленный риск."
+        },
+        "ko": {
+          "name": "조치 검증",
+          "desc": "조치 검증은 수정 조치가 식별된 위험을 줄이거나 제거하는지 확인하는 과정을 다룹니다."
+        },
+        "pt": {
+          "name": "Validação de Remediação",
+          "desc": "A validação da correção abrange a confirmação de que as correções reduzem ou removem o risco identificado."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/input_validation",
+      "slug": "input_validation",
+      "name": "Input Validation",
+      "desc": "Input validation covers constraining untrusted data before processing, storage, or command execution.",
+      "i18n": {
+        "zh": {
+          "name": "输入验证",
+          "desc": "输入验证涵盖在处理、存储或命令执行之前限制不受信任的数据。"
+        },
+        "es": {
+          "name": "Validación de entrada",
+          "desc": "La validación de entrada cubre la restricción de datos que no son de confianza antes de su procesamiento, almacenamiento o ejecución de comandos."
+        },
+        "fr": {
+          "name": "Validation des entrées",
+          "desc": "La validation des entrées couvre la contrainte des données non fiables avant le traitement, le stockage ou l'exécution de commandes."
+        },
+        "de": {
+          "name": "Eingabevalidierung",
+          "desc": "Die Eingabevalidierung umfasst die Einschränkung nicht vertrauenswürdiger Daten vor der Verarbeitung, Speicherung oder Befehlsausführung."
+        },
+        "ja": {
+          "name": "入力の検証",
+          "desc": "入力検証では、信頼できないデータを処理、保存、またはコマンド実行する前に制限します。"
+        },
+        "ru": {
+          "name": "Проверка ввода",
+          "desc": "Проверка входных данных включает ограничение ненадежных данных перед обработкой, хранением или выполнением команды."
+        },
+        "ko": {
+          "name": "입력 검증",
+          "desc": "입력 유효성 검사에는 처리, 저장 또는 명령 실행 전에 신뢰할 수 없는 데이터 제한이 포함됩니다."
+        },
+        "pt": {
+          "name": "Validação de entrada",
+          "desc": "A validação de entrada abrange a restrição de dados não confiáveis antes do processamento, armazenamento ou execução de comandos."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/web_application_risks",
+      "slug": "web_application_risks",
+      "name": "Web Application Risks",
+      "desc": "Web application risks cover common flaws such as injection, broken access control, and cross-site scripting.",
+      "i18n": {
+        "zh": {
+          "name": "Web 应用风险",
+          "desc": "Web 应用程序风险涵盖常见缺陷，例如注入、失效的访问控制和跨站脚本。"
+        },
+        "es": {
+          "name": "Riesgos de las aplicaciones web",
+          "desc": "Los riesgos de las aplicaciones web cubren fallas comunes como inyección, control de acceso deficiente y cross-site scripting."
+        },
+        "fr": {
+          "name": "Risques liés aux applications Web",
+          "desc": "Les risques liés aux applications Web couvrent les failles courantes telles que l'injection, le contrôle d'accès défaillant et le cross-site scripting."
+        },
+        "de": {
+          "name": "Risiken von Webanwendungen",
+          "desc": "Zu den Risiken von Webanwendungen zählen häufige Fehler wie Injektion, fehlerhafte Zugriffskontrolle und Cross-Site-Scripting."
+        },
+        "ja": {
+          "name": "Web アプリケーションのリスク",
+          "desc": "Web アプリケーションのリスクは、インジェクション、アクセス制御の不備、クロスサイトスクリプティングなどの一般的な欠陥を扱います。"
+        },
+        "ru": {
+          "name": "Риски веб-приложений",
+          "desc": "Риски веб-приложений охватывают распространенные недостатки, такие как инъекции, нарушение контроля доступа и межсайтовый скриптинг."
+        },
+        "ko": {
+          "name": "웹 애플리케이션 위험",
+          "desc": "웹 애플리케이션 위험은 인젝션, 취약한 접근 제어, 크로스 사이트 스크립팅과 같은 일반적인 결함을 다룹니다."
+        },
+        "pt": {
+          "name": "Riscos de aplicativos da Web",
+          "desc": "Os riscos de aplicativos da Web cobrem falhas comuns, como injeção, controle de acesso falho e cross-site scripting."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/api_security",
+      "slug": "api_security",
+      "name": "API Security",
+      "desc": "API security covers authentication, authorization, input handling, rate controls, and data exposure in service interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "API 安全",
+          "desc": "API 安全涵盖服务接口中的认证、授权、输入处理、速率限制和数据暴露。"
+        },
+        "es": {
+          "name": "Seguridad de API",
+          "desc": "La seguridad de API cubre autenticación, autorización, manejo de entradas, controles de velocidad y exposición de datos en interfaces de servicio."
+        },
+        "fr": {
+          "name": "Sécurité des API",
+          "desc": "La sécurité API couvre l'authentification, l'autorisation, la gestion des entrées, les contrôles de débit et l'exposition des données dans les interfaces de service."
+        },
+        "de": {
+          "name": "API-Sicherheit",
+          "desc": "API-Sicherheit umfasst Authentifizierung, Autorisierung, Eingabeverarbeitung, Ratenbegrenzung und Datenexposition in Dienstschnittstellen."
+        },
+        "ja": {
+          "name": "API セキュリティ",
+          "desc": "API セキュリティは、サービスインターフェイスにおける認証、認可、入力処理、レート制限、データ露出を扱います。"
+        },
+        "ru": {
+          "name": "Безопасность API",
+          "desc": "Безопасность API включает аутентификацию, авторизацию, обработку ввода, контроль скорости и раскрытие данных в сервисных интерфейсах."
+        },
+        "ko": {
+          "name": "API 보안",
+          "desc": "API 보안에는 인증, 권한 부여, 입력 처리, 속도 제어 및 서비스 인터페이스의 데이터 노출이 포함됩니다."
+        },
+        "pt": {
+          "name": "Segurança de API",
+          "desc": "A segurança de API cobre autenticação, autorização, tratamento de entrada, controles de taxa e exposição de dados em interfaces de serviço."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/secure_sessions",
+      "slug": "secure_sessions",
+      "name": "Secure Sessions",
+      "desc": "Secure sessions cover protecting authentication state and browser or API session data.",
+      "i18n": {
+        "zh": {
+          "name": "安全会话",
+          "desc": "安全会话涵盖保护身份验证状态和浏览器或 API 会话数据。"
+        },
+        "es": {
+          "name": "Sesiones seguras",
+          "desc": "Las sesiones seguras cubren la protección del estado de autenticación y de los datos de sesión del navegador o de la API."
+        },
+        "fr": {
+          "name": "Sessions sécurisées",
+          "desc": "Les sessions sécurisées couvrent la protection de l'état d'authentification et des données de session du navigateur ou de l'API."
+        },
+        "de": {
+          "name": "Sichere Sitzungen",
+          "desc": "Sichere Sitzungen umfassen den Schutz des Authentifizierungsstatus und der Browser- oder API-Sitzungsdaten."
+        },
+        "ja": {
+          "name": "安全なセッション",
+          "desc": "安全なセッションは、認証状態とブラウザまたは API セッションデータの保護を扱います。"
+        },
+        "ru": {
+          "name": "Безопасные сеансы",
+          "desc": "Безопасные сеансы охватывают защиту состояния аутентификации и данных браузера или сеанса API."
+        },
+        "ko": {
+          "name": "보안 세션",
+          "desc": "보안 세션은 인증 상태와 브라우저 또는 API 세션 데이터를 보호하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Sessões seguras",
+          "desc": "Sessões seguras cobrem a proteção do estado de autenticação e dos dados de sessão do navegador ou da API."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/secure_coding",
+      "slug": "secure_coding",
+      "name": "Secure Coding",
+      "desc": "Secure coding covers designing and reviewing software to avoid common vulnerability classes.",
+      "i18n": {
+        "zh": {
+          "name": "安全编码",
+          "desc": "安全编码涵盖设计和审查软件以避免常见的漏洞类别。"
+        },
+        "es": {
+          "name": "Codificación segura",
+          "desc": "La codificación segura cubre el diseño y la revisión de software para evitar clases de vulnerabilidad comunes."
+        },
+        "fr": {
+          "name": "Codage sécurisé",
+          "desc": "Le codage sécurisé couvre la conception et la révision des logiciels pour éviter les classes de vulnérabilité courantes."
+        },
+        "de": {
+          "name": "Sichere Codierung",
+          "desc": "Sicheres Codieren umfasst das Entwerfen und Überprüfen von Software zur Vermeidung gängiger Schwachstellenklassen."
+        },
+        "ja": {
+          "name": "セキュアコーディング",
+          "desc": "セキュアコーディングでは、一般的な脆弱性クラスを回避するためのソフトウェアの設計とレビューを扱います。"
+        },
+        "ru": {
+          "name": "Безопасное кодирование",
+          "desc": "Безопасное кодирование включает в себя разработку и проверку программного обеспечения, позволяющую избежать распространенных классов уязвимостей."
+        },
+        "ko": {
+          "name": "시큐어코딩",
+          "desc": "보안 코딩은 일반적인 취약점 유형을 피하기 위한 소프트웨어 설계 및 검토를 다룹니다."
+        },
+        "pt": {
+          "name": "Codificação Segura",
+          "desc": "A codificação segura abrange o projeto e a revisão de software para evitar classes de vulnerabilidade comuns."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/security_logging",
+      "slug": "security_logging",
+      "name": "Security Logging",
+      "desc": "Security logging covers collecting event data needed for detection, investigation, and accountability.",
+      "i18n": {
+        "zh": {
+          "name": "安全日志记录",
+          "desc": "安全日志记录涵盖收集检测、调查和追责所需的事件数据。"
+        },
+        "es": {
+          "name": "Registro de seguridad",
+          "desc": "El registro de seguridad cubre la recopilación de datos de eventos necesarios para la detección, investigación y responsabilidad."
+        },
+        "fr": {
+          "name": "Journalisation de sécurité",
+          "desc": "La journalisation de sécurité couvre la collecte des données d'événements nécessaires à la détection, à l'enquête et à la responsabilité."
+        },
+        "de": {
+          "name": "Sicherheitsprotokollierung",
+          "desc": "Die Sicherheitsprotokollierung umfasst die Erfassung von Ereignisdaten, die für die Erkennung, Untersuchung und Verantwortlichkeit erforderlich sind."
+        },
+        "ja": {
+          "name": "セキュリティログ",
+          "desc": "セキュリティログには、検出、調査、説明責任に必要なイベントデータの収集が含まれます。"
+        },
+        "ru": {
+          "name": "Ведение журнала безопасности",
+          "desc": "Ведение журнала безопасности охватывает сбор данных о событиях, необходимых для обнаружения, расследования и ответственности."
+        },
+        "ko": {
+          "name": "보안 로깅",
+          "desc": "보안 로깅에는 탐지, 조사 및 책임 규명에 필요한 이벤트 데이터 수집이 포함됩니다."
+        },
+        "pt": {
+          "name": "Registro de segurança",
+          "desc": "O registro de segurança abrange a coleta de dados de eventos necessários para detecção, investigação e responsabilização."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/alert_triage",
+      "slug": "alert_triage",
+      "name": "Alert Triage",
+      "desc": "Alert triage covers evaluating security alerts for severity, scope, evidence, and required response.",
+      "i18n": {
+        "zh": {
+          "name": "告警分诊",
+          "desc": "告警分诊涵盖按严重性、影响范围、证据和所需响应评估安全告警。"
+        },
+        "es": {
+          "name": "Triaje de alertas",
+          "desc": "El triaje de alertas cubre la evaluación de alertas de seguridad según gravedad, alcance, evidencia y respuesta requerida."
+        },
+        "fr": {
+          "name": "Triage des alertes",
+          "desc": "Le triage des alertes couvre l’évaluation des alertes de sécurité selon la gravité, le périmètre, les preuves et la réponse requise."
+        },
+        "de": {
+          "name": "Alarmtriage",
+          "desc": "Die Alarmtriage umfasst die Bewertung von Sicherheitswarnungen nach Schweregrad, Umfang, Beweisen und erforderlicher Reaktion."
+        },
+        "ja": {
+          "name": "アラートトリアージ",
+          "desc": "アラートのトリアージでは、セキュリティアラートの重大度、範囲、証拠、必要な対応を評価します。"
+        },
+        "ru": {
+          "name": "Триаж оповещений",
+          "desc": "Триаж оповещений охватывает оценку предупреждений безопасности по серьезности, охвату, доказательствам и требуемому реагированию."
+        },
+        "ko": {
+          "name": "알림 분류",
+          "desc": "알림 분류는 심각도, 범위, 증거 및 필요한 대응을 기준으로 보안 알림을 평가하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Triagem de Alerta",
+          "desc": "A triagem de alertas abrange a avaliação de alertas de segurança quanto à gravidade, escopo, evidências e resposta necessária."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/incident_response",
+      "slug": "incident_response",
+      "name": "Incident Response",
+      "desc": "Incident response covers preparing for, containing, eradicating, and recovering from security events.",
+      "i18n": {
+        "zh": {
+          "name": "事件响应",
+          "desc": "事件响应包括准备、遏制、消除安全事件以及从安全事件中恢复。"
+        },
+        "es": {
+          "name": "Respuesta a incidentes",
+          "desc": "La respuesta a incidentes cubre la preparación, la contención, la erradicación y la recuperación de eventos de seguridad."
+        },
+        "fr": {
+          "name": "Réponse aux incidents",
+          "desc": "La réponse aux incidents couvre la préparation, le confinement, l’éradication et la récupération des événements de sécurité."
+        },
+        "de": {
+          "name": "Reaktion auf Vorfälle",
+          "desc": "Die Reaktion auf Vorfälle umfasst die Vorbereitung, Eindämmung, Beseitigung und Wiederherstellung nach Sicherheitsereignissen."
+        },
+        "ja": {
+          "name": "インシデント対応",
+          "desc": "インシデント対応は、セキュリティイベントへの備え、封じ込め、根絶、復旧を扱います。"
+        },
+        "ru": {
+          "name": "Реагирование на инциденты",
+          "desc": "Реагирование на инциденты включает подготовку, сдерживание, устранение и восстановление после событий безопасности."
+        },
+        "ko": {
+          "name": "사고 대응",
+          "desc": "사고 대응에는 보안 이벤트에 대한 준비, 억제, 근절 및 복구가 포함됩니다."
+        },
+        "pt": {
+          "name": "Resposta a Incidentes",
+          "desc": "A resposta a incidentes abrange a preparação, contenção, erradicação e recuperação de eventos de segurança."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/digital_forensics",
+      "slug": "digital_forensics",
+      "name": "Digital Forensics",
+      "desc": "Digital forensics covers evidence preservation, timeline reasoning, artifacts, and investigation boundaries.",
+      "i18n": {
+        "zh": {
+          "name": "数字取证",
+          "desc": "数字取证涵盖证据保存、时间线推理、取证痕迹和调查边界。"
+        },
+        "es": {
+          "name": "Informática forense",
+          "desc": "La informática forense cubre la preservación de evidencias, el análisis de líneas de tiempo, los artefactos y los límites de la investigación."
+        },
+        "fr": {
+          "name": "Forensique numérique",
+          "desc": "La forensique numérique couvre la préservation des preuves, l'analyse chronologique, les artefacts et les limites de l'enquête."
+        },
+        "de": {
+          "name": "Digitale Forensik",
+          "desc": "Die digitale Forensik umfasst Beweissicherung, zeitliche Argumentation, Artefakte und Untersuchungsgrenzen."
+        },
+        "ja": {
+          "name": "デジタルフォレンジック",
+          "desc": "デジタルフォレンジックは、証拠の保存、タイムラインの推論、アーティファクト、および調査の境界を扱います。"
+        },
+        "ru": {
+          "name": "Цифровая криминалистика",
+          "desc": "Цифровая криминалистика охватывает сохранение доказательств, анализ временной шкалы, артефакты и границы расследования."
+        },
+        "ko": {
+          "name": "디지털 포렌식",
+          "desc": "디지털 포렌식은 증거 보존, 타임라인 추론, 아티팩트, 조사 경계를 다룹니다."
+        },
+        "pt": {
+          "name": "Perícia Digital",
+          "desc": "A análise forense digital abrange preservação de evidências, raciocínio de cronograma, artefatos e limites de investigação."
+        }
+      }
+    },
+    {
+      "key": "cybersecurity/security_reporting",
+      "slug": "security_reporting",
+      "name": "Security Reporting",
+      "desc": "Security reporting covers documenting findings, impact, remediation, and decisions for stakeholders.",
+      "i18n": {
+        "zh": {
+          "name": "安全报告",
+          "desc": "安全报告涵盖为利益相关者记录发现项、影响、修复措施和决策。"
+        },
+        "es": {
+          "name": "Informes de seguridad",
+          "desc": "Los informes de seguridad cubren la documentación de hallazgos, impacto, remediación y decisiones para las partes interesadas."
+        },
+        "fr": {
+          "name": "Rapports de sécurité",
+          "desc": "Les rapports de sécurité couvrent la documentation des résultats, de l'impact, des mesures correctives et des décisions pour les parties prenantes."
+        },
+        "de": {
+          "name": "Sicherheitsberichte",
+          "desc": "Die Sicherheitsberichterstattung umfasst die Dokumentation von Ergebnissen, Auswirkungen, Abhilfemaßnahmen und Entscheidungen für Stakeholder."
+        },
+        "ja": {
+          "name": "セキュリティレポート",
+          "desc": "セキュリティレポートには、関係者向けの調査結果、影響、修復、意思決定の文書化が含まれます。"
+        },
+        "ru": {
+          "name": "Отчеты о безопасности",
+          "desc": "Отчеты о безопасности включают документирование выводов, последствий, исправлений и решений для заинтересованных сторон."
+        },
+        "ko": {
+          "name": "보안 보고",
+          "desc": "보안 보고에는 이해관계자를 위한 결과, 영향, 해결 및 결정을 문서화하는 내용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Relatórios de segurança",
+          "desc": "Os relatórios de segurança abrangem a documentação de descobertas, impacto, correção e decisões para as partes interessadas."
+        }
+      }
+    }
+  ]
+}

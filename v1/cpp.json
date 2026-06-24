@@ -1,0 +1,217 @@
+{
+  "key": "cpp",
+  "slug": "cpp",
+  "name": "C++",
+  "skills": [
+    {
+      "key": "cpp/variables",
+      "slug": "variables",
+      "name": "Variables",
+      "desc": "Variables are used to store data in C++. They have a specific data type and can hold values that can be changed during program execution."
+    },
+    {
+      "key": "cpp/data_types",
+      "slug": "data_types",
+      "name": "Data Types",
+      "desc": "Data types define the type of data that a variable can hold, such as int, double, char, etc., and determine how the data is stored and manipulated."
+    },
+    {
+      "key": "cpp/operators",
+      "slug": "operators",
+      "name": "Operators",
+      "desc": "Operators in C++ are used for performing various operations on data, such as arithmetic, logical, and relational operations."
+    },
+    {
+      "key": "cpp/booleans",
+      "slug": "booleans",
+      "name": "Booleans",
+      "desc": "Booleans represent true or false values and are used for making logical decisions in C++ programs."
+    },
+    {
+      "key": "cpp/arrays",
+      "slug": "arrays",
+      "name": "Arrays",
+      "desc": "Arrays are collections of elements of the same data type, allowing you to store and manipulate multiple values under a single variable name."
+    },
+    {
+      "key": "cpp/strings",
+      "slug": "strings",
+      "name": "Strings",
+      "desc": "Strings are sequences of characters used for working with text data in C++, and they have built-in functions for text manipulation."
+    },
+    {
+      "key": "cpp/conditions",
+      "slug": "conditions",
+      "name": "Conditions",
+      "desc": "Conditions in C++ are used to make decisions in the program flow, allowing different actions to be taken based on specified conditions."
+    },
+    {
+      "key": "cpp/if_else",
+      "slug": "if_else",
+      "name": "If...Else",
+      "desc": "The if...else statement is used to execute different code blocks based on whether a specified condition is true or false."
+    },
+    {
+      "key": "cpp/switch",
+      "slug": "switch",
+      "name": "Switch",
+      "desc": "The switch statement allows you to select one of many code blocks to be executed, based on the value of a given expression."
+    },
+    {
+      "key": "cpp/for_loop",
+      "slug": "for_loop",
+      "name": "For Loop",
+      "desc": "The for loop is used for iterating over a range of values or elements, executing a set of statements a specified number of times."
+    },
+    {
+      "key": "cpp/while_loop",
+      "slug": "while_loop",
+      "name": "While Loop",
+      "desc": "The while loop repeats a set of statements as long as a specified condition is true, allowing for flexible looping."
+    },
+    {
+      "key": "cpp/break_continue",
+      "slug": "break_continue",
+      "name": "Break/Continue",
+      "desc": "The break statement is used to exit a loop prematurely, while the continue statement skips the rest of the current iteration and proceeds to the next."
+    },
+    {
+      "key": "cpp/function_parameters",
+      "slug": "function_parameters",
+      "name": "Function Parameters",
+      "desc": "Function parameters are variables used to pass data to a function, allowing the function to work with different input values."
+    },
+    {
+      "key": "cpp/function_overloading",
+      "slug": "function_overloading",
+      "name": "Function Overloading",
+      "desc": "Function overloading enables the definition of multiple functions with the same name but different parameter lists, improving code readability."
+    },
+    {
+      "key": "cpp/recursion",
+      "slug": "recursion",
+      "name": "Recursion",
+      "desc": "Recursion is a technique where a function calls itself, often used for solving problems that can be broken down into smaller, similar subproblems."
+    },
+    {
+      "key": "cpp/classes_objects",
+      "slug": "classes_objects",
+      "name": "Classes/Objects",
+      "desc": "Classes serve as blueprints for creating objects, while objects are instances of classes that encapsulate data and behavior."
+    },
+    {
+      "key": "cpp/class_methods",
+      "slug": "class_methods",
+      "name": "Class Methods",
+      "desc": "Class methods are functions defined within a class and are used to perform operations on class attributes."
+    },
+    {
+      "key": "cpp/access_specifiers",
+      "slug": "access_specifiers",
+      "name": "Access Specifiers",
+      "desc": "Access specifiers (public, private, protected) determine the visibility and access level of class members in C++."
+    },
+    {
+      "key": "cpp/constructors",
+      "slug": "constructors",
+      "name": "Constructors",
+      "desc": "Constructors are special member functions used to initialize class objects, providing a way to set initial values."
+    },
+    {
+      "key": "cpp/encapsulation",
+      "slug": "encapsulation",
+      "name": "Encapsulation",
+      "desc": "Encapsulation is the concept of bundling data and methods that operate on that data into a single unit, known as a class."
+    },
+    {
+      "key": "cpp/inheritance",
+      "slug": "inheritance",
+      "name": "Inheritance",
+      "desc": "Inheritance allows a class to inherit properties and methods from another class, promoting code reusability."
+    },
+    {
+      "key": "cpp/polymorphism",
+      "slug": "polymorphism",
+      "name": "Polymorphism",
+      "desc": "Polymorphism allows objects of different classes to be treated as objects of a common base class, facilitating code flexibility and extensibility."
+    },
+    {
+      "key": "cpp/pointers",
+      "slug": "pointers",
+      "name": "Pointers",
+      "desc": "Pointers are variables that store memory addresses, enabling dynamic memory allocation and manipulation."
+    },
+    {
+      "key": "cpp/references",
+      "slug": "references",
+      "name": "References",
+      "desc": "References provide an alternative way to alias variables, offering a level of indirection without the complexity of pointers."
+    },
+    {
+      "key": "cpp/structures",
+      "slug": "structures",
+      "name": "Structures",
+      "desc": "Structures allow you to create user-defined data types that can contain members of different data types."
+    },
+    {
+      "key": "cpp/exceptions",
+      "slug": "exceptions",
+      "name": "Exceptions",
+      "desc": "Exceptions are used for handling runtime errors and exceptional situations, improving program robustness."
+    },
+    {
+      "key": "cpp/templates",
+      "slug": "templates",
+      "name": "Templates",
+      "desc": "Templates are used for generic programming, allowing the creation of functions and classes that work with multiple data types."
+    },
+    {
+      "key": "cpp/output",
+      "slug": "output",
+      "name": "Output",
+      "desc": "Output in C++ refers to displaying data or results to the console or other output streams, typically using cout."
+    },
+    {
+      "key": "cpp/user_input",
+      "slug": "user_input",
+      "name": "User Input",
+      "desc": "User input is the process of accepting data or values from the user during program execution, often using cin."
+    },
+    {
+      "key": "cpp/files",
+      "slug": "files",
+      "name": "Files",
+      "desc": "File handling involves reading from and writing to external files, allowing data to be stored persistently."
+    },
+    {
+      "key": "cpp/math",
+      "slug": "math",
+      "name": "Math",
+      "desc": "The Standard Library includes mathematical functions and constants for common mathematical operations."
+    },
+    {
+      "key": "cpp/string_manipulation",
+      "slug": "string_manipulation",
+      "name": "String Manipulation",
+      "desc": "String manipulation functions in the Standard Library offer a variety of tools for working with strings."
+    },
+    {
+      "key": "cpp/standard_containers",
+      "slug": "standard_containers",
+      "name": "Standard Containers",
+      "desc": "Standard containers such as vectors, lists, and maps provide data structures for storing and manipulating collections of data."
+    },
+    {
+      "key": "cpp/comments",
+      "slug": "comments",
+      "name": "Comments",
+      "desc": "Comments are used to provide explanatory notes within the code, enhancing code readability and understanding."
+    },
+    {
+      "key": "cpp/code_formatting",
+      "slug": "code_formatting",
+      "name": "Code Formatting",
+      "desc": "Code formatting involves following a consistent style and indentation to improve code readability and maintainability."
+    }
+  ]
+}

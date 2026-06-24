@@ -1,0 +1,3167 @@
+{
+  "key": "python",
+  "slug": "python",
+  "name": "Python",
+  "skills": [
+    {
+      "key": "python/variables_assignment",
+      "slug": "variables_assignment",
+      "name": "Variables and Assignment",
+      "desc": "Variables and assignment cover binding names to objects and updating references.",
+      "i18n": {
+        "zh": {
+          "name": "变量和赋值",
+          "desc": "变量和赋值涵盖了将名称绑定到对象以及更新引用。"
+        },
+        "es": {
+          "name": "Variables y asignación",
+          "desc": "Las variables y la asignación cubren la vinculación de nombres a objetos y la actualización de referencias."
+        },
+        "fr": {
+          "name": "Variables et affectation",
+          "desc": "Les variables et les affectations couvrent la liaison des noms aux objets et la mise à jour des références."
+        },
+        "de": {
+          "name": "Variablen und Zuweisung",
+          "desc": "Variablen und Zuweisungen umfassen das Binden von Namen an Objekte und das Aktualisieren von Referenzen."
+        },
+        "ja": {
+          "name": "変数と代入",
+          "desc": "変数と代入では、名前をオブジェクトにバインドし、参照を更新します。"
+        },
+        "ru": {
+          "name": "Переменные и присвоение",
+          "desc": "Переменные и присваивания охватывают привязку имен к объектам и обновление ссылок."
+        },
+        "ko": {
+          "name": "변수 및 할당",
+          "desc": "변수 및 할당에는 개체에 대한 이름 바인딩 및 참조 업데이트가 포함됩니다."
+        },
+        "pt": {
+          "name": "Variáveis e Atribuição",
+          "desc": "Variáveis e atribuições abrangem a vinculação de nomes a objetos e a atualização de referências."
+        }
+      }
+    },
+    {
+      "key": "python/numeric_types",
+      "slug": "numeric_types",
+      "name": "Numeric Types",
+      "desc": "Numeric types cover integers, floating-point values, complex numbers, and numeric operations.",
+      "i18n": {
+        "zh": {
+          "name": "数字类型",
+          "desc": "数字类型涵盖整数、浮点值、复数和数字运算。"
+        },
+        "es": {
+          "name": "Tipos numéricos",
+          "desc": "Los tipos numéricos cubren números enteros, valores de punto flotante, números complejos y operaciones numéricas."
+        },
+        "fr": {
+          "name": "Types numériques",
+          "desc": "Les types numériques couvrent les entiers, les valeurs à virgule flottante, les nombres complexes et les opérations numériques."
+        },
+        "de": {
+          "name": "Numerische Typen",
+          "desc": "Numerische Typen umfassen Ganzzahlen, Gleitkommawerte, komplexe Zahlen und numerische Operationen."
+        },
+        "ja": {
+          "name": "数値型",
+          "desc": "数値型には、整数、浮動小数点値、複素数、および数値演算が含まれます。"
+        },
+        "ru": {
+          "name": "Числовые типы",
+          "desc": "Числовые типы охватывают целые числа, значения с плавающей запятой, комплексные числа и числовые операции."
+        },
+        "ko": {
+          "name": "숫자 유형",
+          "desc": "숫자 유형에는 정수, 부동 소수점 값, 복소수 및 숫자 연산이 포함됩니다."
+        },
+        "pt": {
+          "name": "Tipos Numéricos",
+          "desc": "Os tipos numéricos abrangem números inteiros, valores de ponto flutuante, números complexos e operações numéricas."
+        }
+      }
+    },
+    {
+      "key": "python/strings",
+      "slug": "strings",
+      "name": "Strings",
+      "desc": "Strings cover immutable text values, formatting, and common text operations.",
+      "i18n": {
+        "zh": {
+          "name": "字符串",
+          "desc": "字符串涵盖不可变文本值、格式设置和常见文本操作。"
+        },
+        "es": {
+          "name": "Cadenas",
+          "desc": "Las cadenas cubren valores de texto inmutables, formato y operaciones de texto comunes."
+        },
+        "fr": {
+          "name": "Chaînes",
+          "desc": "Les chaînes couvrent les valeurs de texte immuables, le formatage et les opérations de texte courantes."
+        },
+        "de": {
+          "name": "Zeichenfolgen",
+          "desc": "Zeichenfolgen decken unveränderliche Textwerte, Formatierungen und allgemeine Textoperationen ab."
+        },
+        "ja": {
+          "name": "文字列",
+          "desc": "文字列は、不変のテキスト値、書式設定、および一般的なテキスト操作を扱います。"
+        },
+        "ru": {
+          "name": "Строки",
+          "desc": "Строки охватывают неизменяемые текстовые значения, форматирование и общие текстовые операции."
+        },
+        "ko": {
+          "name": "문자열",
+          "desc": "문자열은 변경할 수 없는 텍스트 값, 형식 지정 및 일반적인 텍스트 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Strings",
+          "desc": "Strings cobrem valores de texto imutáveis, formatação e operações de texto comuns."
+        }
+      }
+    },
+    {
+      "key": "python/booleans_truthiness",
+      "slug": "booleans_truthiness",
+      "name": "Booleans and Truthiness",
+      "desc": "Booleans and truthiness cover conditional interpretation of Python values.",
+      "i18n": {
+        "zh": {
+          "name": "布尔值和真假性",
+          "desc": "布尔值和真假性涵盖 Python 值在条件判断中的解释方式。"
+        },
+        "es": {
+          "name": "Booleanos y veracidad",
+          "desc": "Los booleanos y la veracidad cubren la interpretación condicional de valores de Python."
+        },
+        "fr": {
+          "name": "Booléens et vérité",
+          "desc": "Les booléens et la véracité couvrent l'interprétation conditionnelle des valeurs Python."
+        },
+        "de": {
+          "name": "Boolesche Werte und Truthiness",
+          "desc": "Boolesche Werte und Truthiness decken die Auswertung von Python-Werten in Bedingungen ab."
+        },
+        "ja": {
+          "name": "ブール値と真偽値性",
+          "desc": "ブール値と真偽値性は、Python 値が条件式でどのように評価されるかを扱います。"
+        },
+        "ru": {
+          "name": "Логические значения и истинность",
+          "desc": "Логические значения и истинность охватывают условную интерпретацию значений Python."
+        },
+        "ko": {
+          "name": "불리언과 참거짓 평가",
+          "desc": "불리언과 참거짓 평가는 Python 값이 조건문에서 어떻게 해석되는지 다룹니다."
+        },
+        "pt": {
+          "name": "Booleanos e veracidade",
+          "desc": "Booleanos e veracidade cobrem a interpretação condicional de valores Python."
+        }
+      }
+    },
+    {
+      "key": "python/none_values",
+      "slug": "none_values",
+      "name": "None Values",
+      "desc": "None values cover representing absence and comparing against None deliberately.",
+      "i18n": {
+        "zh": {
+          "name": "None 值",
+          "desc": "None 值涵盖表示缺失并有意与 None 进行比较。"
+        },
+        "es": {
+          "name": "Valores None",
+          "desc": "Los valores None cubren la representación de ausencia y la comparación deliberada con None."
+        },
+        "fr": {
+          "name": "Valeurs None",
+          "desc": "Les valeurs None couvrent la représentation de l’absence et la comparaison délibérée avec None."
+        },
+        "de": {
+          "name": "None-Werte",
+          "desc": "None-Werte umfassen die Darstellung von Abwesenheit und den bewussten Vergleich mit None."
+        },
+        "ja": {
+          "name": "None 値",
+          "desc": "None 値は、不在の表現と None との意図的な比較を扱います。"
+        },
+        "ru": {
+          "name": "Значения None",
+          "desc": "Значения None охватывают представление отсутствия и намеренное сравнение с None."
+        },
+        "ko": {
+          "name": "None 값",
+          "desc": "None 값은 부재를 나타내고 의도적으로 None과 비교하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Valores None",
+          "desc": "Valores None cobrem a representação de ausência e a comparação deliberada com None."
+        }
+      }
+    },
+    {
+      "key": "python/type_conversion",
+      "slug": "type_conversion",
+      "name": "Type Conversion",
+      "desc": "Type conversion covers creating values of one type from another.",
+      "i18n": {
+        "zh": {
+          "name": "类型转换",
+          "desc": "类型转换涵盖从一种类型创建另一种类型的值。"
+        },
+        "es": {
+          "name": "Conversión de tipo",
+          "desc": "La conversión de tipos cubre la creación de valores de un tipo a partir de otro."
+        },
+        "fr": {
+          "name": "Conversion de types",
+          "desc": "La conversion de type couvre la création de valeurs d'un type à partir d'un autre."
+        },
+        "de": {
+          "name": "Typkonvertierung",
+          "desc": "Die Typkonvertierung umfasst das Erstellen von Werten eines Typs aus einem anderen."
+        },
+        "ja": {
+          "name": "型変換",
+          "desc": "型変換には、ある型の値を別の型から作成することが含まれます。"
+        },
+        "ru": {
+          "name": "Преобразование типа",
+          "desc": "Преобразование типов охватывает создание значений одного типа из другого."
+        },
+        "ko": {
+          "name": "타입 변환",
+          "desc": "타입 변환은 한 타입의 값에서 다른 타입의 값을 생성하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Conversão de tipo",
+          "desc": "A conversão de tipo abrange a criação de valores de um tipo a partir de outro."
+        }
+      }
+    },
+    {
+      "key": "python/expressions_operators",
+      "slug": "expressions_operators",
+      "name": "Expressions and Operators",
+      "desc": "Expressions and operators cover arithmetic, comparison, logical, membership, and identity behavior.",
+      "i18n": {
+        "zh": {
+          "name": "表达式和运算符",
+          "desc": "表达式和运算符涵盖算术、比较、逻辑、成员关系和身份比较行为。"
+        },
+        "es": {
+          "name": "Expresiones y operadores",
+          "desc": "Las expresiones y operadores cubren comportamiento aritmético, de comparación, lógico, de membresía y de identidad."
+        },
+        "fr": {
+          "name": "Expressions et opérateurs",
+          "desc": "Les expressions et les opérateurs couvrent le comportement arithmétique, de comparaison, logique, d'appartenance et d'identité."
+        },
+        "de": {
+          "name": "Ausdrücke und Operatoren",
+          "desc": "Ausdrücke und Operatoren decken Arithmetik, Vergleich, logisches Verhalten, Zugehörigkeitsverhalten und Identitätsverhalten ab."
+        },
+        "ja": {
+          "name": "式と演算子",
+          "desc": "式と演算子は、算術、比較、論理、メンバーシップ、および恒等の動作を扱います。"
+        },
+        "ru": {
+          "name": "Выражения и операторы",
+          "desc": "Выражения и операторы охватывают арифметику, сравнение, логические операции, проверку принадлежности и идентичность объектов."
+        },
+        "ko": {
+          "name": "표현식 및 연산자",
+          "desc": "식과 연산자는 산술, 비교, 논리, 멤버십 및 객체 동일성 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Expressões e Operadores",
+          "desc": "Expressões e operadores abrangem comportamento aritmético, de comparação, lógico, de associação e de identidade."
+        }
+      }
+    },
+    {
+      "key": "python/conditional_statements",
+      "slug": "conditional_statements",
+      "name": "Conditional Statements",
+      "desc": "Conditional statements cover branching with if, elif, and else logic.",
+      "i18n": {
+        "zh": {
+          "name": "条件语句",
+          "desc": "条件语句涵盖使用 if、elif 和 else 逻辑进行分支。"
+        },
+        "es": {
+          "name": "Sentencias condicionales",
+          "desc": "Las sentencias condicionales cubren la ramificación con lógica if, elif y else."
+        },
+        "fr": {
+          "name": "Instructions conditionnelles",
+          "desc": "Les instructions conditionnelles couvrent le branchement avec la logique if, elif et else."
+        },
+        "de": {
+          "name": "Bedingte Anweisungen",
+          "desc": "Bedingte Anweisungen umfassen Verzweigungen mit if-, elif- und else-Logik."
+        },
+        "ja": {
+          "name": "条件文",
+          "desc": "条件文は、if、elif、else ロジックによる分岐を扱います。"
+        },
+        "ru": {
+          "name": "Условные операторы",
+          "desc": "Условные операторы охватывают ветвление с помощью логики if, elif и else."
+        },
+        "ko": {
+          "name": "조건문",
+          "desc": "조건문은 if, elif 및 else 논리를 사용한 분기를 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções condicionais",
+          "desc": "As instruções condicionais cobrem ramificações com lógica if, elif e else."
+        }
+      }
+    },
+    {
+      "key": "python/match_statements",
+      "slug": "match_statements",
+      "name": "Match Statements",
+      "desc": "Match statements cover structural pattern matching for branching on value shape.",
+      "i18n": {
+        "zh": {
+          "name": "match 语句",
+          "desc": "match 语句涵盖用于根据值结构进行分支的结构模式匹配。"
+        },
+        "es": {
+          "name": "Sentencias match",
+          "desc": "Las sentencias match cubren la coincidencia de patrones estructurales para ramificar según la forma del valor."
+        },
+        "fr": {
+          "name": "Instructions match",
+          "desc": "Les instructions match couvrent la correspondance de motifs structurels pour brancher selon la forme de la valeur."
+        },
+        "de": {
+          "name": "Match-Anweisungen",
+          "desc": "Match-Anweisungen decken den strukturellen Mustervergleich für die Verzweigung nach Wertform ab."
+        },
+        "ja": {
+          "name": "match 文",
+          "desc": "match 文は、値の構造に応じて分岐するための構造的パターンマッチングを扱います。"
+        },
+        "ru": {
+          "name": "Операторы match",
+          "desc": "Операторы match охватывают структурное сопоставление с образцом для ветвления по форме значения."
+        },
+        "ko": {
+          "name": "match 문",
+          "desc": "match 문은 값의 구조에 따라 분기하기 위한 구조적 패턴 매칭을 다룹니다."
+        },
+        "pt": {
+          "name": "Instruções match",
+          "desc": "As instruções match cobrem a correspondência estrutural de padrões para ramificar conforme a forma do valor."
+        }
+      }
+    },
+    {
+      "key": "python/loops",
+      "slug": "loops",
+      "name": "Loops",
+      "desc": "Loops cover repetition with for and while statements.",
+      "i18n": {
+        "zh": {
+          "name": "循环",
+          "desc": "循环涵盖了 for 和 while 语句的重复。"
+        },
+        "es": {
+          "name": "Bucles",
+          "desc": "Los bucles cubren la repetición con sentencias for y while."
+        },
+        "fr": {
+          "name": "Boucles",
+          "desc": "Les boucles couvrent la répétition avec les instructions for et while."
+        },
+        "de": {
+          "name": "Schleifen",
+          "desc": "Schleifen umfassen Wiederholungen mit for- und while-Anweisungen."
+        },
+        "ja": {
+          "name": "ループ",
+          "desc": "ループは、for ステートメントと while ステートメントを使用して繰り返しを扱います。"
+        },
+        "ru": {
+          "name": "Циклы",
+          "desc": "Циклы охватывают повторение с помощью операторов for и while."
+        },
+        "ko": {
+          "name": "루프",
+          "desc": "루프는 for 및 while 문으로 반복을 다룹니다."
+        },
+        "pt": {
+          "name": "Laços",
+          "desc": "Os loops cobrem a repetição com instruções for e while."
+        }
+      }
+    },
+    {
+      "key": "python/range_iteration",
+      "slug": "range_iteration",
+      "name": "Range Iteration",
+      "desc": "Range iteration covers generating integer sequences for controlled iteration.",
+      "i18n": {
+        "zh": {
+          "name": "范围迭代",
+          "desc": "范围迭代涵盖生成用于受控迭代的整数序列。"
+        },
+        "es": {
+          "name": "Iteración de rango",
+          "desc": "La iteración de rango cubre la generación de secuencias de números enteros para una iteración controlada."
+        },
+        "fr": {
+          "name": "Itération de plage",
+          "desc": "L'itération de plage couvre la génération de séquences entières pour une itération contrôlée."
+        },
+        "de": {
+          "name": "Bereichsiteration",
+          "desc": "Die Bereichsiteration umfasst die Erzeugung ganzzahliger Sequenzen für die kontrollierte Iteration."
+        },
+        "ja": {
+          "name": "範囲の反復",
+          "desc": "範囲反復では、制御された反復のための整数シーケンスの生成を扱います。"
+        },
+        "ru": {
+          "name": "Итерация диапазона",
+          "desc": "Итерация диапазона охватывает создание целочисленных последовательностей для контролируемой итерации."
+        },
+        "ko": {
+          "name": "범위 반복",
+          "desc": "범위 반복은 제어된 반복을 위한 정수 시퀀스 생성을 다룹니다."
+        },
+        "pt": {
+          "name": "Iteração de intervalo",
+          "desc": "A iteração de intervalo cobre a geração de sequências inteiras para iteração controlada."
+        }
+      }
+    },
+    {
+      "key": "python/break_continue",
+      "slug": "break_continue",
+      "name": "Break and Continue",
+      "desc": "Break and continue cover changing loop control flow deliberately.",
+      "i18n": {
+        "zh": {
+          "name": "break 和 continue",
+          "desc": "break 和 continue 涵盖有意改变循环控制流。"
+        },
+        "es": {
+          "name": "break y continue",
+          "desc": "break y continue cubren el cambio deliberado del flujo de control en bucles."
+        },
+        "fr": {
+          "name": "break et continue",
+          "desc": "break et continue couvrent la modification volontaire du flux de contrôle dans les boucles."
+        },
+        "de": {
+          "name": "break und continue",
+          "desc": "break und continue behandeln das gezielte Ändern des Kontrollflusses in Schleifen."
+        },
+        "ja": {
+          "name": "break と continue",
+          "desc": "break と continue は、ループの制御フローを意図的に変更する方法を扱います。"
+        },
+        "ru": {
+          "name": "break и continue",
+          "desc": "break и continue охватывают намеренное изменение потока управления в циклах."
+        },
+        "ko": {
+          "name": "break와 continue",
+          "desc": "break와 continue는 루프 제어 흐름을 의도적으로 변경하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "break e continue",
+          "desc": "break e continue cobrem a alteração deliberada do fluxo de controle em loops."
+        }
+      }
+    },
+    {
+      "key": "python/lists",
+      "slug": "lists",
+      "name": "Lists",
+      "desc": "Lists cover mutable ordered sequences and list operations.",
+      "i18n": {
+        "zh": {
+          "name": "列表",
+          "desc": "列表涵盖可变有序序列和列表操作。"
+        },
+        "es": {
+          "name": "Listas",
+          "desc": "Las listas cubren secuencias ordenadas mutables y operaciones de listas."
+        },
+        "fr": {
+          "name": "Listes",
+          "desc": "Les listes couvrent les séquences ordonnées mutables et les opérations de liste."
+        },
+        "de": {
+          "name": "Listen",
+          "desc": "Listen umfassen veränderbare geordnete Sequenzen und Listenoperationen."
+        },
+        "ja": {
+          "name": "リスト",
+          "desc": "リストは、変更可能な順序付きシーケンスとリスト操作を扱います。"
+        },
+        "ru": {
+          "name": "Списки",
+          "desc": "Списки охватывают изменяемые упорядоченные последовательности и операции со списками."
+        },
+        "ko": {
+          "name": "목록",
+          "desc": "목록은 변경 가능한 순서 시퀀스와 목록 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Listas",
+          "desc": "As listas cobrem sequências ordenadas mutáveis e operações de lista."
+        }
+      }
+    },
+    {
+      "key": "python/tuples",
+      "slug": "tuples",
+      "name": "Tuples",
+      "desc": "Tuples cover immutable ordered collections and tuple packing or unpacking.",
+      "i18n": {
+        "zh": {
+          "name": "元组",
+          "desc": "元组涵盖不可变的有序集合和元组打包或解包。"
+        },
+        "es": {
+          "name": "Tuplas",
+          "desc": "Las tuplas cubren colecciones ordenadas inmutables y el empaquetado o desempaquetado de tuplas."
+        },
+        "fr": {
+          "name": "Tuples",
+          "desc": "Les tuples couvrent les collections ordonnées immuables et l'empaquetage ou le dépaquetage des tuples."
+        },
+        "de": {
+          "name": "Tupel",
+          "desc": "Tupel decken unveränderliche geordnete Sammlungen und das Packen oder Entpacken von Tupeln ab."
+        },
+        "ja": {
+          "name": "タプル",
+          "desc": "タプルは、不変の順序付きコレクションとタプルのパッキングまたはアンパッキングを扱います。"
+        },
+        "ru": {
+          "name": "Кортежи",
+          "desc": "Кортежи охватывают неизменяемые упорядоченные коллекции, а также упаковку и распаковку кортежей."
+        },
+        "ko": {
+          "name": "튜플",
+          "desc": "튜플은 불변의 순서 컬렉션과 튜플 패킹 또는 언패킹을 포함합니다."
+        },
+        "pt": {
+          "name": "Tuplas",
+          "desc": "As tuplas cobrem coleções ordenadas imutáveis e empacotamento ou desempacotamento de tuplas."
+        }
+      }
+    },
+    {
+      "key": "python/dictionaries",
+      "slug": "dictionaries",
+      "name": "Dictionaries",
+      "desc": "Dictionaries cover key-value mappings and lookup behavior.",
+      "i18n": {
+        "zh": {
+          "name": "词典",
+          "desc": "字典涵盖键值映射和查找行为。"
+        },
+        "es": {
+          "name": "Diccionarios",
+          "desc": "Los diccionarios cubren asignaciones de valores clave y comportamiento de búsqueda."
+        },
+        "fr": {
+          "name": "Dictionnaires",
+          "desc": "Les dictionnaires couvrent les mappages clé-valeur et le comportement de recherche."
+        },
+        "de": {
+          "name": "Wörterbücher",
+          "desc": "Wörterbücher decken Schlüsselwertzuordnungen und Suchverhalten ab."
+        },
+        "ja": {
+          "name": "辞書",
+          "desc": "辞書は、キーと値のマッピングと検索動作を扱います。"
+        },
+        "ru": {
+          "name": "Словари",
+          "desc": "Словари охватывают сопоставления «ключ-значение» и поведение поиска."
+        },
+        "ko": {
+          "name": "사전",
+          "desc": "사전은 키-값 매핑 및 조회 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Dicionários",
+          "desc": "Os dicionários cobrem mapeamentos de valores-chave e comportamento de pesquisa."
+        }
+      }
+    },
+    {
+      "key": "python/sets",
+      "slug": "sets",
+      "name": "Sets",
+      "desc": "Sets cover unique unordered values and set operations.",
+      "i18n": {
+        "zh": {
+          "name": "集合",
+          "desc": "集合涵盖唯一的无序值和集合操作。"
+        },
+        "es": {
+          "name": "Conjuntos",
+          "desc": "Los conjuntos cubren valores desordenados únicos y operaciones de conjuntos."
+        },
+        "fr": {
+          "name": "Ensembles",
+          "desc": "Les ensembles couvrent des valeurs non ordonnées uniques et des opérations d'ensemble."
+        },
+        "de": {
+          "name": "Sets",
+          "desc": "Mengen umfassen eindeutige ungeordnete Werte und Mengenoperationen."
+        },
+        "ja": {
+          "name": "セット",
+          "desc": "セットは、順序付けされていない一意の値とセット演算を扱います。"
+        },
+        "ru": {
+          "name": "Наборы",
+          "desc": "Наборы охватывают уникальные неупорядоченные значения и операции над множествами."
+        },
+        "ko": {
+          "name": "세트",
+          "desc": "세트에는 순서가 지정되지 않은 고유한 값과 세트 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Conjuntos",
+          "desc": "Os conjuntos cobrem valores não ordenados exclusivos e operações de conjunto."
+        }
+      }
+    },
+    {
+      "key": "python/sequence_operations",
+      "slug": "sequence_operations",
+      "name": "Sequence Operations",
+      "desc": "Sequence operations cover indexing, slicing, containment, and iteration over ordered collections.",
+      "i18n": {
+        "zh": {
+          "name": "序列操作",
+          "desc": "序列操作涵盖有序集合上的索引、切片、包含和迭代。"
+        },
+        "es": {
+          "name": "Operaciones de secuencia",
+          "desc": "Las operaciones de secuencia cubren indexación, slicing, comprobación de pertenencia e iteración sobre colecciones ordenadas."
+        },
+        "fr": {
+          "name": "Opérations de séquence",
+          "desc": "Les opérations de séquence couvrent l'indexation, le slicing, les tests d'appartenance et l'itération sur des collections ordonnées."
+        },
+        "de": {
+          "name": "Sequenzoperationen",
+          "desc": "Sequenzoperationen umfassen Indizierung, Slicing, Zugehörigkeitsprüfung und Iteration über geordnete Sammlungen."
+        },
+        "ja": {
+          "name": "シーケンス操作",
+          "desc": "シーケンス操作には、インデックス付け、スライス、包含、および順序付けられたコレクションの反復が含まれます。"
+        },
+        "ru": {
+          "name": "Операции с последовательностями",
+          "desc": "Операции с последовательностями охватывают индексацию, срезы, проверку принадлежности и итерацию по упорядоченным коллекциям."
+        },
+        "ko": {
+          "name": "시퀀스 작업",
+          "desc": "시퀀스 작업에는 순서가 있는 컬렉션에 대한 인덱싱, 슬라이싱, 포함 여부 검사 및 반복이 포함됩니다."
+        },
+        "pt": {
+          "name": "Operações de sequência",
+          "desc": "As operações de sequência cobrem indexação, fatiamento, teste de pertencimento e iteração em coleções ordenadas."
+        }
+      }
+    },
+    {
+      "key": "python/unpacking",
+      "slug": "unpacking",
+      "name": "Unpacking",
+      "desc": "Unpacking covers assigning values from iterable structures to names.",
+      "i18n": {
+        "zh": {
+          "name": "解包",
+          "desc": "解包涵盖将可迭代结构中的值分配给名称。"
+        },
+        "es": {
+          "name": "Desempaquetado",
+          "desc": "Desempacar cubre la asignación de valores de estructuras iterables a nombres."
+        },
+        "fr": {
+          "name": "Dépaquetage",
+          "desc": "Le dépaquetage couvre l'attribution de valeurs issues de structures itérables à des noms."
+        },
+        "de": {
+          "name": "Entpacken",
+          "desc": "Das Entpacken umfasst das Zuweisen von Werten aus iterierbaren Strukturen zu Namen."
+        },
+        "ja": {
+          "name": "アンパック",
+          "desc": "アンパックでは、反復可能な構造から名前への値の割り当てについて説明します。"
+        },
+        "ru": {
+          "name": "Распаковка",
+          "desc": "Распаковка включает в себя присвоение значений из итерируемых структур именам."
+        },
+        "ko": {
+          "name": "언패킹",
+          "desc": "언패킹은 반복 가능한 구조의 값을 이름에 할당하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Desempacotamento",
+          "desc": "O desempacotamento abrange a atribuição de valores de estruturas iteráveis a nomes."
+        }
+      }
+    },
+    {
+      "key": "python/comprehensions",
+      "slug": "comprehensions",
+      "name": "Comprehensions",
+      "desc": "Comprehensions cover building collections from iterable transformations and filters.",
+      "i18n": {
+        "zh": {
+          "name": "推导式",
+          "desc": "推导式涵盖了通过可迭代转换和过滤器构建集合。"
+        },
+        "es": {
+          "name": "Comprensiones",
+          "desc": "Las comprensiones cubren la creación de colecciones a partir de transformaciones y filtros iterables."
+        },
+        "fr": {
+          "name": "Compréhensions",
+          "desc": "Les compréhensions couvrent la création de collections à partir de transformations et de filtres itérables."
+        },
+        "de": {
+          "name": "Comprehensions",
+          "desc": "Comprehensions behandeln den Aufbau von Collections aus iterierbaren Transformationen und Filtern."
+        },
+        "ja": {
+          "name": "内包表記",
+          "desc": "内包表記は、反復可能な変換とフィルターからコレクションを構築することを扱います。"
+        },
+        "ru": {
+          "name": "Comprehensions",
+          "desc": "Comprehensions охватывают создание коллекций на основе итерируемых преобразований и фильтров."
+        },
+        "ko": {
+          "name": "컴프리헨션",
+          "desc": "컴프리헨션은 iterable 변환과 필터를 통해 컬렉션을 구성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Compreensões",
+          "desc": "As compreensões abrangem a construção de coleções a partir de transformações e filtros iteráveis."
+        }
+      }
+    },
+    {
+      "key": "python/mutability_copying",
+      "slug": "mutability_copying",
+      "name": "Mutability and Copying",
+      "desc": "Mutability and copying cover object mutation, aliases, shallow copies, and deep copies.",
+      "i18n": {
+        "zh": {
+          "name": "可变性和复制",
+          "desc": "可变性和复制涵盖对象突变、别名、浅复制和深复制。"
+        },
+        "es": {
+          "name": "Mutabilidad y copia",
+          "desc": "La mutabilidad y la copia cubren la mutación de objetos, los alias, las copias superficiales y las copias profundas."
+        },
+        "fr": {
+          "name": "Mutabilité et copie",
+          "desc": "La mutabilité et la copie couvrent la mutation d'objets, les alias, les copies superficielles et les copies profondes."
+        },
+        "de": {
+          "name": "Veränderlichkeit und Kopieren",
+          "desc": "Veränderbarkeit und Kopieren umfassen Objektmutation, Aliase, flache Kopien und tiefe Kopien."
+        },
+        "ja": {
+          "name": "可変性とコピー",
+          "desc": "可変性とコピーは、オブジェクトの変更、エイリアス、浅いコピー、深いコピーを扱います。"
+        },
+        "ru": {
+          "name": "Изменяемость и копирование",
+          "desc": "Изменяемость и копирование охватывают мутацию объектов, псевдонимы, поверхностные и глубокие копии."
+        },
+        "ko": {
+          "name": "가변성과 복사",
+          "desc": "가변성 및 복사에는 객체 변형, 별칭, 얕은 복사본 및 깊은 복사본이 포함됩니다."
+        },
+        "pt": {
+          "name": "Mutabilidade e cópia",
+          "desc": "Mutabilidade e cópia abrangem mutação de objeto, aliases, cópias superficiais e cópias profundas."
+        }
+      }
+    },
+    {
+      "key": "python/functions",
+      "slug": "functions",
+      "name": "Functions",
+      "desc": "Functions cover defining, calling, and organizing reusable Python behavior.",
+      "i18n": {
+        "zh": {
+          "name": "函数",
+          "desc": "函数涵盖定义、调用和组织可重用的 Python 行为。"
+        },
+        "es": {
+          "name": "Funciones",
+          "desc": "Las funciones cubren definir, llamar y organizar comportamientos Python reutilizables."
+        },
+        "fr": {
+          "name": "Fonctions",
+          "desc": "Les fonctions couvrent la définition, l'appel et l'organisation du comportement Python réutilisable."
+        },
+        "de": {
+          "name": "Funktionen",
+          "desc": "Funktionen umfassen das Definieren, Aufrufen und Organisieren von wiederverwendbarem Python-Verhalten."
+        },
+        "ja": {
+          "name": "関数",
+          "desc": "関数は、再利用可能な Python 動作の定義、呼び出し、整理を扱います。"
+        },
+        "ru": {
+          "name": "Функции",
+          "desc": "Функции охватывают определение, вызов и организацию многократно используемого поведения Python."
+        },
+        "ko": {
+          "name": "함수",
+          "desc": "함수에서는 재사용 가능한 Python 동작 정의, 호출 및 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Funções",
+          "desc": "As funções cobrem a definição, chamada e organização de comportamento Python reutilizável."
+        }
+      }
+    },
+    {
+      "key": "python/arguments_return_values",
+      "slug": "arguments_return_values",
+      "name": "Arguments and Return Values",
+      "desc": "Arguments and return values cover passing data into functions and communicating results.",
+      "i18n": {
+        "zh": {
+          "name": "参数和返回值",
+          "desc": "参数和返回值涵盖将数据传递到函数和传达结果。"
+        },
+        "es": {
+          "name": "Argumentos y valores de retorno",
+          "desc": "Los argumentos y valores de retorno cubren el paso de datos a funciones y la comunicación de resultados."
+        },
+        "fr": {
+          "name": "Arguments et valeurs de retour",
+          "desc": "Les arguments et les valeurs de retour couvrent la transmission des données aux fonctions et la communication des résultats."
+        },
+        "de": {
+          "name": "Argumente und Rückgabewerte",
+          "desc": "Argumente und Rückgabewerte umfassen die Übergabe von Daten an Funktionen und die Kommunikation von Ergebnissen."
+        },
+        "ja": {
+          "name": "引数と戻り値",
+          "desc": "引数と戻り値には、関数へのデータの受け渡しと結果の伝達が含まれます。"
+        },
+        "ru": {
+          "name": "Аргументы и возвращаемые значения",
+          "desc": "Аргументы и возвращаемые значения охватывают передачу данных в функции и передачу результатов."
+        },
+        "ko": {
+          "name": "인수 및 반환 값",
+          "desc": "인수 및 반환 값에는 데이터를 함수에 전달하고 결과를 전달하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Argumentos e valores de retorno",
+          "desc": "Argumentos e valores de retorno cobrem a passagem de dados para funções e a comunicação de resultados."
+        }
+      }
+    },
+    {
+      "key": "python/default_arguments",
+      "slug": "default_arguments",
+      "name": "Default Arguments",
+      "desc": "Default arguments cover optional function inputs and mutable default risks.",
+      "i18n": {
+        "zh": {
+          "name": "默认参数",
+          "desc": "默认参数涵盖可选的函数输入以及可变默认值带来的风险。"
+        },
+        "es": {
+          "name": "Argumentos predeterminados",
+          "desc": "Los argumentos predeterminados cubren entradas de funciones opcionales y riesgos predeterminados mutables."
+        },
+        "fr": {
+          "name": "Arguments par défaut",
+          "desc": "Les arguments par défaut couvrent les entrées de fonction facultatives et les risques liés aux valeurs par défaut mutables."
+        },
+        "de": {
+          "name": "Standardargumente",
+          "desc": "Standardargumente decken optionale Funktionseingaben und Risiken veränderbarer Standardwerte ab."
+        },
+        "ja": {
+          "name": "デフォルトの引数",
+          "desc": "デフォルトの引数は、オプションの関数入力と変更可能なデフォルトのリスクを扱います。"
+        },
+        "ru": {
+          "name": "Аргументы по умолчанию",
+          "desc": "Аргументы по умолчанию охватывают необязательные параметры функции и риски изменяемых значений по умолчанию."
+        },
+        "ko": {
+          "name": "기본 인수",
+          "desc": "기본 인수는 선택적 함수 입력과 변경 가능한 기본값의 위험을 다룹니다."
+        },
+        "pt": {
+          "name": "Argumentos padrão",
+          "desc": "Os argumentos padrão cobrem entradas de funções opcionais e riscos de valores padrão mutáveis."
+        }
+      }
+    },
+    {
+      "key": "python/keyword_arguments",
+      "slug": "keyword_arguments",
+      "name": "Keyword Arguments",
+      "desc": "Keyword arguments cover named inputs and call-site clarity.",
+      "i18n": {
+        "zh": {
+          "name": "关键字参数",
+          "desc": "关键字参数涵盖命名输入以及调用处的可读性。"
+        },
+        "es": {
+          "name": "Argumentos de palabras clave",
+          "desc": "Los argumentos de palabras clave cubren entradas con nombre y claridad en el punto de llamada."
+        },
+        "fr": {
+          "name": "Arguments de mots clés",
+          "desc": "Les arguments de mots clés couvrent les entrées nommées et la clarté au point d'appel."
+        },
+        "de": {
+          "name": "Schlüsselwortargumente",
+          "desc": "Schlüsselwortargumente decken benannte Eingaben und die Klarheit der Aufrufstelle ab."
+        },
+        "ja": {
+          "name": "キーワード引数",
+          "desc": "キーワード引数は、名前付き入力と呼び出しサイトの明確さを扱います。"
+        },
+        "ru": {
+          "name": "Аргументы ключевых слов",
+          "desc": "Аргументы ключевых слов охватывают именованные входные данные и ясность места вызова."
+        },
+        "ko": {
+          "name": "키워드 인수",
+          "desc": "키워드 인수는 명명된 입력과 호출 지점의 명확성을 다룹니다."
+        },
+        "pt": {
+          "name": "Argumentos de palavras-chave",
+          "desc": "Os argumentos de palavras-chave cobrem entradas nomeadas e clareza no ponto de chamada."
+        }
+      }
+    },
+    {
+      "key": "python/arbitrary_arguments",
+      "slug": "arbitrary_arguments",
+      "name": "Arbitrary Arguments",
+      "desc": "Arbitrary arguments cover collecting variable positional and keyword inputs.",
+      "i18n": {
+        "zh": {
+          "name": "任意参数",
+          "desc": "任意参数涵盖收集可变数量的位置参数和关键字参数。"
+        },
+        "es": {
+          "name": "Argumentos arbitrarios",
+          "desc": "Los argumentos arbitrarios cubren la recopilación de entradas de palabras clave y posicionales variables."
+        },
+        "fr": {
+          "name": "Arguments arbitraires",
+          "desc": "Les arguments arbitraires couvrent la collecte d'entrées de position variable et de mots clés."
+        },
+        "de": {
+          "name": "Beliebige Argumente",
+          "desc": "Beliebige Argumente umfassen das Sammeln variabler Positions- und Schlüsselworteingaben."
+        },
+        "ja": {
+          "name": "任意の引数",
+          "desc": "任意の引数は、変数の位置入力とキーワード入力の収集を扱います。"
+        },
+        "ru": {
+          "name": "Произвольные аргументы",
+          "desc": "Произвольные аргументы охватывают сбор переменного числа позиционных и именованных аргументов."
+        },
+        "ko": {
+          "name": "임의의 인수",
+          "desc": "임의의 인수는 가변 개수의 위치 인수와 키워드 인수를 수집하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Argumentos Arbitrários",
+          "desc": "Argumentos arbitrários cobrem a coleta de entradas posicionais e de palavras-chave variáveis."
+        }
+      }
+    },
+    {
+      "key": "python/lambda_functions",
+      "slug": "lambda_functions",
+      "name": "Lambda Functions",
+      "desc": "Lambda functions cover small anonymous callable values.",
+      "i18n": {
+        "zh": {
+          "name": "Lambda 函数",
+          "desc": "Lambda 函数涵盖小型匿名可调用值。"
+        },
+        "es": {
+          "name": "Funciones Lambda",
+          "desc": "Las funciones Lambda cubren pequeños valores invocables anónimos."
+        },
+        "fr": {
+          "name": "Fonctions Lambda",
+          "desc": "Les fonctions Lambda couvrent de petites valeurs appelables anonymes."
+        },
+        "de": {
+          "name": "Lambda-Funktionen",
+          "desc": "Lambda-Funktionen decken kleine anonyme aufrufbare Werte ab."
+        },
+        "ja": {
+          "name": "ラムダ関数",
+          "desc": "Lambda 関数は、小さな匿名の呼び出し可能な値を扱います。"
+        },
+        "ru": {
+          "name": "Лямбда-функции",
+          "desc": "Лямбда-функции охватывают небольшие анонимные вызываемые значения."
+        },
+        "ko": {
+          "name": "람다 함수",
+          "desc": "Lambda 함수는 작은 익명 호출 가능 값을 다룹니다."
+        },
+        "pt": {
+          "name": "Funções Lambda",
+          "desc": "As funções Lambda cobrem pequenos valores anônimos que podem ser chamados."
+        }
+      }
+    },
+    {
+      "key": "python/scope",
+      "slug": "scope",
+      "name": "Scope",
+      "desc": "Scope covers local, enclosing, global, and built-in name resolution.",
+      "i18n": {
+        "zh": {
+          "name": "作用域",
+          "desc": "作用域涵盖局部、外层、全局和内置命名空间中的名称解析。"
+        },
+        "es": {
+          "name": "Alcance",
+          "desc": "El alcance cubre la resolución de nombres local, adjunta, global e integrada."
+        },
+        "fr": {
+          "name": "Portée",
+          "desc": "La portée couvre la résolution de noms locale, englobante, globale et intégrée."
+        },
+        "de": {
+          "name": "Gültigkeitsbereich",
+          "desc": "Der Geltungsbereich umfasst die lokale, umschließende, globale und integrierte Namensauflösung."
+        },
+        "ja": {
+          "name": "スコープ",
+          "desc": "スコープは、ローカル、エンクロージング、グローバル、および組み込みの名前解決を扱います。"
+        },
+        "ru": {
+          "name": "Область видимости",
+          "desc": "Область действия охватывает локальное, включающее, глобальное и встроенное разрешение имен."
+        },
+        "ko": {
+          "name": "스코프",
+          "desc": "스코프는 로컬, 외부, 전역 및 내장 네임스페이스의 이름 해석을 다룹니다."
+        },
+        "pt": {
+          "name": "Escopo",
+          "desc": "O escopo abrange resolução de nomes local, envolvente, global e integrada."
+        }
+      }
+    },
+    {
+      "key": "python/closures",
+      "slug": "closures",
+      "name": "Closures",
+      "desc": "Closures cover functions that capture and use surrounding state.",
+      "i18n": {
+        "zh": {
+          "name": "闭包",
+          "desc": "闭包涵盖了捕获和使用周围状态的函数。"
+        },
+        "es": {
+          "name": "Clausuras",
+          "desc": "Las clausuras cubren funciones que capturan y utilizan el estado circundante."
+        },
+        "fr": {
+          "name": "Closures",
+          "desc": "Les closures couvrent des fonctions qui capturent et utilisent l’état environnant."
+        },
+        "de": {
+          "name": "Closures",
+          "desc": "Closures behandeln Funktionen, die umgebenden Zustand erfassen und verwenden."
+        },
+        "ja": {
+          "name": "クロージャ",
+          "desc": "クロージャは、外側の状態を捕捉して使用する関数を扱います。"
+        },
+        "ru": {
+          "name": "Замыкания",
+          "desc": "Замыкания охватывают функции, которые фиксируют и используют окружающее состояние."
+        },
+        "ko": {
+          "name": "클로저",
+          "desc": "클로저는 주변 상태를 캡처하고 사용하는 함수를 다룹니다."
+        },
+        "pt": {
+          "name": "Fechamentos",
+          "desc": "Os fechamentos cobrem funções que capturam e usam o estado circundante."
+        }
+      }
+    },
+    {
+      "key": "python/decorators",
+      "slug": "decorators",
+      "name": "Decorators",
+      "desc": "Decorators cover wrapping functions or classes to modify behavior declaratively.",
+      "i18n": {
+        "zh": {
+          "name": "装饰器",
+          "desc": "装饰器涵盖包装函数或类以声明性地修改行为。"
+        },
+        "es": {
+          "name": "Decoradores",
+          "desc": "Los decoradores cubren envolver funciones o clases para modificar el comportamiento de forma declarativa."
+        },
+        "fr": {
+          "name": "Décorateurs",
+          "desc": "Les décorateurs couvrent l’enveloppement de fonctions ou de classes pour modifier le comportement de façon déclarative."
+        },
+        "de": {
+          "name": "Dekoratoren",
+          "desc": "Dekoratoren behandeln das Wrappen von Funktionen oder Klassen, um Verhalten zu erweitern."
+        },
+        "ja": {
+          "name": "デコレーター",
+          "desc": "デコレータは、宣言的に動作を変更するための関数またはクラスのラッピングを扱います。"
+        },
+        "ru": {
+          "name": "Декораторы",
+          "desc": "Декораторы охватывают оборачивание функций или классов для декларативного изменения поведения."
+        },
+        "ko": {
+          "name": "데코레이터",
+          "desc": "데코레이터는 동작을 선언적으로 수정하기 위해 함수나 클래스를 래핑하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Decoradores",
+          "desc": "Os decoradores cobrem o envolvimento de funções ou classes para modificar o comportamento de forma declarativa."
+        }
+      }
+    },
+    {
+      "key": "python/modules_imports",
+      "slug": "modules_imports",
+      "name": "Modules and Imports",
+      "desc": "Modules and imports cover organizing code into files and referencing Python APIs.",
+      "i18n": {
+        "zh": {
+          "name": "模块和导入",
+          "desc": "模块和导入涵盖将代码组织到文件中以及引用 Python API。"
+        },
+        "es": {
+          "name": "Módulos e Importaciones",
+          "desc": "Los módulos y las importaciones cubren la organización del código en archivos y la referencia a API de Python."
+        },
+        "fr": {
+          "name": "Modules et importations",
+          "desc": "Les modules et les imports couvrent l'organisation du code en fichiers et la référence aux API Python."
+        },
+        "de": {
+          "name": "Module und Importe",
+          "desc": "Module und Importe umfassen das Organisieren von Code in Dateien und das Referenzieren von Python-APIs."
+        },
+        "ja": {
+          "name": "モジュールとインポート",
+          "desc": "モジュールとインポートでは、コードをファイルに整理し、Python API を参照します。"
+        },
+        "ru": {
+          "name": "Модули и импорт",
+          "desc": "Модули и импорт охватывают организацию кода в файлы и обращение к API Python."
+        },
+        "ko": {
+          "name": "모듈과 임포트",
+          "desc": "모듈과 임포트는 코드를 파일로 구성하고 Python API를 참조하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Módulos e Importações",
+          "desc": "Módulos e imports cobrem a organização do código em arquivos e a referência a APIs Python."
+        }
+      }
+    },
+    {
+      "key": "python/packages",
+      "slug": "packages",
+      "name": "Packages",
+      "desc": "Packages cover organizing modules into importable directory structures.",
+      "i18n": {
+        "zh": {
+          "name": "包",
+          "desc": "包涵盖将模块组织到可导入的目录结构中。"
+        },
+        "es": {
+          "name": "Paquetes",
+          "desc": "Los paquetes cubren la organización de módulos en estructuras de directorios importables."
+        },
+        "fr": {
+          "name": "Packages",
+          "desc": "Les packages couvrent l'organisation des modules dans des structures de répertoires importables."
+        },
+        "de": {
+          "name": "Pakete",
+          "desc": "Pakete umfassen das Organisieren von Modulen in importierbaren Verzeichnisstrukturen."
+        },
+        "ja": {
+          "name": "パッケージ",
+          "desc": "パッケージは、モジュールをインポート可能なディレクトリ構造に編成することを扱います。"
+        },
+        "ru": {
+          "name": "Пакеты",
+          "desc": "Пакеты охватывают организацию модулей в импортируемые структуры каталогов."
+        },
+        "ko": {
+          "name": "패키지",
+          "desc": "패키지는 모듈을 가져오기 가능한 디렉토리 구조로 구성하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Pacotes",
+          "desc": "Os pacotes cobrem a organização de módulos em estruturas de diretórios importáveis."
+        }
+      }
+    },
+    {
+      "key": "python/module_execution",
+      "slug": "module_execution",
+      "name": "Module Execution",
+      "desc": "Module execution covers running Python files and modules as programs.",
+      "i18n": {
+        "zh": {
+          "name": "模块执行",
+          "desc": "模块执行涵盖将 Python 文件和模块作为程序运行。"
+        },
+        "es": {
+          "name": "Ejecución del módulo",
+          "desc": "La ejecución del módulo cubre la ejecución de archivos Python y módulos como programas."
+        },
+        "fr": {
+          "name": "Exécution des modules",
+          "desc": "L’exécution de modules couvre l’exécution de fichiers Python et de modules en tant que programmes."
+        },
+        "de": {
+          "name": "Modulausführung",
+          "desc": "Die Modulausführung umfasst das Ausführen von Python-Dateien und Modulen als Programme."
+        },
+        "ja": {
+          "name": "モジュールの実行",
+          "desc": "モジュールの実行には、Python ファイルとモジュールをプログラムとして実行することが含まれます。"
+        },
+        "ru": {
+          "name": "Выполнение модуля",
+          "desc": "Выполнение модуля включает запуск файлов и модулей Python как программ."
+        },
+        "ko": {
+          "name": "모듈 실행",
+          "desc": "모듈 실행에는 Python 파일과 모듈을 프로그램으로 실행하는 것이 포함됩니다."
+        },
+        "pt": {
+          "name": "Execução do Módulo",
+          "desc": "A execução do módulo abrange a execução de arquivos e módulos Python como programas."
+        }
+      }
+    },
+    {
+      "key": "python/virtual_environments",
+      "slug": "virtual_environments",
+      "name": "Virtual Environments",
+      "desc": "Virtual environments cover isolating interpreter and dependency contexts.",
+      "i18n": {
+        "zh": {
+          "name": "虚拟环境",
+          "desc": "虚拟环境涵盖隔离解释器和依赖上下文。"
+        },
+        "es": {
+          "name": "Entornos virtuales",
+          "desc": "Los entornos virtuales cubren contextos aislados de intérpretes y de dependencia."
+        },
+        "fr": {
+          "name": "Environnements virtuels",
+          "desc": "Les environnements virtuels couvrent l’isolation des contextes d’interpréteur et de dépendance."
+        },
+        "de": {
+          "name": "Virtuelle Umgebungen",
+          "desc": "Virtuelle Umgebungen decken isolierte Interpreter- und Abhängigkeitskontexte ab."
+        },
+        "ja": {
+          "name": "仮想環境",
+          "desc": "仮想環境では、インタープリターと依存関係コンテキストの分離を扱います。"
+        },
+        "ru": {
+          "name": "Виртуальные среды",
+          "desc": "Виртуальные среды изолируют контексты интерпретатора и зависимостей."
+        },
+        "ko": {
+          "name": "가상 환경",
+          "desc": "가상 환경은 격리된 인터프리터 및 종속성 컨텍스트를 다룹니다."
+        },
+        "pt": {
+          "name": "Ambientes Virtuais",
+          "desc": "Os ambientes virtuais cobrem o isolamento de contextos de intérpretes e dependências."
+        }
+      }
+    },
+    {
+      "key": "python/package_management",
+      "slug": "package_management",
+      "name": "Package Management",
+      "desc": "Package management covers installing, upgrading, and recording Python dependencies.",
+      "i18n": {
+        "zh": {
+          "name": "包管理",
+          "desc": "包管理涵盖安装、升级和记录 Python 依赖项。"
+        },
+        "es": {
+          "name": "Gestión de paquetes",
+          "desc": "La gestión de paquetes cubre la instalación, actualización y registro de dependencias Python."
+        },
+        "fr": {
+          "name": "Gestion des paquets",
+          "desc": "La gestion des paquets couvre l'installation, la mise à niveau et l'enregistrement des dépendances Python."
+        },
+        "de": {
+          "name": "Paketverwaltung",
+          "desc": "Die Paketverwaltung umfasst die Installation, Aktualisierung und Aufzeichnung von Python-Abhängigkeiten."
+        },
+        "ja": {
+          "name": "パッケージ管理",
+          "desc": "パッケージ管理には、インストール、アップグレード、依存関係の記録が含まれます。"
+        },
+        "ru": {
+          "name": "Управление пакетами",
+          "desc": "Управление пакетами включает установку, обновление и запись зависимостей Python."
+        },
+        "ko": {
+          "name": "패키지 관리",
+          "desc": "패키지 관리에는 설치, 업그레이드 및 Python 종속성 기록이 포함됩니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de Pacotes",
+          "desc": "O gerenciamento de pacotes cobre a instalação, atualização e registro de dependências Python."
+        }
+      }
+    },
+    {
+      "key": "python/classes_objects",
+      "slug": "classes_objects",
+      "name": "Classes and Objects",
+      "desc": "Classes and objects cover defining types and creating instances.",
+      "i18n": {
+        "zh": {
+          "name": "类和对象",
+          "desc": "类和对象涵盖定义类型和创建实例。"
+        },
+        "es": {
+          "name": "Clases y objetos",
+          "desc": "Las clases y objetos cubren la definición de tipos y la creación de instancias."
+        },
+        "fr": {
+          "name": "Classes et objets",
+          "desc": "Les classes et les objets couvrent la définition des types et la création d'instances."
+        },
+        "de": {
+          "name": "Klassen und Objekte",
+          "desc": "Klassen und Objekte umfassen das Definieren von Typen und das Erstellen von Instanzen."
+        },
+        "ja": {
+          "name": "クラスとオブジェクト",
+          "desc": "クラスとオブジェクトには、型の定義とインスタンスの作成が含まれます。"
+        },
+        "ru": {
+          "name": "Классы и объекты",
+          "desc": "Классы и объекты охватывают определение типов и создание экземпляров."
+        },
+        "ko": {
+          "name": "클래스와 객체",
+          "desc": "클래스와 객체는 유형 정의와 인스턴스 생성을 다룹니다."
+        },
+        "pt": {
+          "name": "Classes e objetos",
+          "desc": "Classes e objetos cobrem a definição de tipos e a criação de instâncias."
+        }
+      }
+    },
+    {
+      "key": "python/object_initialization",
+      "slug": "object_initialization",
+      "name": "Object Initialization",
+      "desc": "Object initialization covers constructing objects and setting initial state.",
+      "i18n": {
+        "zh": {
+          "name": "对象初始化",
+          "desc": "对象初始化包括构造对象和设置初始状态。"
+        },
+        "es": {
+          "name": "Inicialización de objetos",
+          "desc": "La inicialización de objetos cubre la construcción de objetos y el establecimiento del estado inicial."
+        },
+        "fr": {
+          "name": "Initialisation d'objet",
+          "desc": "L'initialisation des objets couvre la construction d'objets et la définition de l'état initial."
+        },
+        "de": {
+          "name": "Objektinitialisierung",
+          "desc": "Die Objektinitialisierung umfasst das Erstellen von Objekten und das Festlegen des Anfangszustands."
+        },
+        "ja": {
+          "name": "オブジェクトの初期化",
+          "desc": "オブジェクトの初期化には、オブジェクトの構築と初期状態の設定が含まれます。"
+        },
+        "ru": {
+          "name": "Инициализация объекта",
+          "desc": "Инициализация объекта включает в себя создание объектов и установку начального состояния."
+        },
+        "ko": {
+          "name": "객체 초기화",
+          "desc": "객체 초기화에는 객체 구성과 초기 상태 설정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Inicialização de objeto",
+          "desc": "A inicialização de objetos abrange a construção de objetos e a definição do estado inicial."
+        }
+      }
+    },
+    {
+      "key": "python/attributes_methods",
+      "slug": "attributes_methods",
+      "name": "Attributes and Methods",
+      "desc": "Attributes and methods cover object state and behavior.",
+      "i18n": {
+        "zh": {
+          "name": "属性和方法",
+          "desc": "属性和方法涵盖对象的状态和行为。"
+        },
+        "es": {
+          "name": "Atributos y métodos",
+          "desc": "Los atributos y métodos cubren el estado y el comportamiento del objeto."
+        },
+        "fr": {
+          "name": "Attributs et méthodes",
+          "desc": "Les attributs et les méthodes couvrent l'état et le comportement des objets."
+        },
+        "de": {
+          "name": "Attribute und Methoden",
+          "desc": "Attribute und Methoden decken den Zustand und das Verhalten von Objekten ab."
+        },
+        "ja": {
+          "name": "属性とメソッド",
+          "desc": "属性とメソッドはオブジェクトの状態と動作を扱います。"
+        },
+        "ru": {
+          "name": "Атрибуты и методы",
+          "desc": "Атрибуты и методы охватывают состояние и поведение объекта."
+        },
+        "ko": {
+          "name": "속성 및 메서드",
+          "desc": "속성과 메서드는 객체의 상태와 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Atributos e Métodos",
+          "desc": "Atributos e métodos cobrem o estado e o comportamento do objeto."
+        }
+      }
+    },
+    {
+      "key": "python/inheritance",
+      "slug": "inheritance",
+      "name": "Inheritance",
+      "desc": "Inheritance covers deriving classes and reusing or extending behavior.",
+      "i18n": {
+        "zh": {
+          "name": "继承",
+          "desc": "继承涵盖派生类以及重用或扩展行为。"
+        },
+        "es": {
+          "name": "herencia",
+          "desc": "La herencia cubre la derivación de clases y la reutilización o extensión del comportamiento."
+        },
+        "fr": {
+          "name": "Héritage",
+          "desc": "L'héritage couvre la dérivation de classes et la réutilisation ou l'extension du comportement."
+        },
+        "de": {
+          "name": "Vererbung",
+          "desc": "Vererbung umfasst das Ableiten von Klassen und die Wiederverwendung oder Erweiterung von Verhalten."
+        },
+        "ja": {
+          "name": "継承",
+          "desc": "継承には、クラスの派生と動作の再利用または拡張が含まれます。"
+        },
+        "ru": {
+          "name": "Наследование",
+          "desc": "Наследование охватывает создание производных классов и повторное использование или расширение поведения."
+        },
+        "ko": {
+          "name": "상속",
+          "desc": "상속은 클래스 파생과 동작 재사용 또는 확장을 다룹니다."
+        },
+        "pt": {
+          "name": "Herança",
+          "desc": "A herança cobre a derivação de classes e a reutilização ou extensão de comportamento."
+        }
+      }
+    },
+    {
+      "key": "python/polymorphism",
+      "slug": "polymorphism",
+      "name": "Polymorphism",
+      "desc": "Polymorphism covers substitutable objects and shared protocols of behavior.",
+      "i18n": {
+        "zh": {
+          "name": "多态性",
+          "desc": "多态性涵盖可替换的对象和共享的行为协议。"
+        },
+        "es": {
+          "name": "polimorfismo",
+          "desc": "El polimorfismo cubre objetos sustituibles y protocolos de comportamiento compartidos."
+        },
+        "fr": {
+          "name": "Polymorphisme",
+          "desc": "Le polymorphisme couvre les objets substituables et les protocoles de comportement partagés."
+        },
+        "de": {
+          "name": "Polymorphismus",
+          "desc": "Polymorphismus umfasst austauschbare Objekte und gemeinsame Verhaltensprotokolle."
+        },
+        "ja": {
+          "name": "ポリモーフィズム",
+          "desc": "ポリモーフィズムは、置換可能なオブジェクトと動作の共有プロトコルを扱います。"
+        },
+        "ru": {
+          "name": "Полиморфизм",
+          "desc": "Полиморфизм охватывает заменяемые объекты и общие протоколы поведения."
+        },
+        "ko": {
+          "name": "다형성",
+          "desc": "다형성은 서로 대체 가능한 객체와 공유 동작 프로토콜을 다룹니다."
+        },
+        "pt": {
+          "name": "Polimorfismo",
+          "desc": "O polimorfismo cobre objetos substituíveis e protocolos de comportamento compartilhados."
+        }
+      }
+    },
+    {
+      "key": "python/encapsulation",
+      "slug": "encapsulation",
+      "name": "Encapsulation",
+      "desc": "Encapsulation covers controlling object state through conventions and interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "封装",
+          "desc": "封装涵盖通过约定和接口控制对象状态。"
+        },
+        "es": {
+          "name": "Encapsulación",
+          "desc": "La encapsulación cubre el control del estado del objeto a través de convenciones e interfaces."
+        },
+        "fr": {
+          "name": "Encapsulation",
+          "desc": "L'encapsulation couvre le contrôle de l'état des objets via des conventions et des interfaces."
+        },
+        "de": {
+          "name": "Kapselung",
+          "desc": "Die Kapselung umfasst die Steuerung des Objektzustands durch Konventionen und Schnittstellen."
+        },
+        "ja": {
+          "name": "カプセル化",
+          "desc": "カプセル化では、規約とインターフェイスを通じてオブジェクトの状態を制御します。"
+        },
+        "ru": {
+          "name": "Инкапсуляция",
+          "desc": "Инкапсуляция охватывает управление состоянием объекта посредством соглашений и интерфейсов."
+        },
+        "ko": {
+          "name": "캡슐화",
+          "desc": "캡슐화는 규칙과 인터페이스를 통해 객체 상태를 제어하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Encapsulamento",
+          "desc": "O encapsulamento cobre o controle do estado do objeto por meio de convenções e interfaces."
+        }
+      }
+    },
+    {
+      "key": "python/properties",
+      "slug": "properties",
+      "name": "Properties",
+      "desc": "Properties cover computed or validated attribute access.",
+      "i18n": {
+        "zh": {
+          "name": "属性",
+          "desc": "属性涵盖计算或验证的属性访问。"
+        },
+        "es": {
+          "name": "Propiedades",
+          "desc": "Las propiedades cubren el acceso a atributos calculados o validados."
+        },
+        "fr": {
+          "name": "Propriétés",
+          "desc": "Les propriétés couvrent l’accès aux attributs calculés ou validés."
+        },
+        "de": {
+          "name": "Eigenschaften",
+          "desc": "Eigenschaften umfassen den berechneten oder validierten Attributzugriff."
+        },
+        "ja": {
+          "name": "プロパティ",
+          "desc": "プロパティは、計算または検証された属性アクセスを扱います。"
+        },
+        "ru": {
+          "name": "Свойства",
+          "desc": "Свойства охватывают вычисляемый или проверенный доступ к атрибутам."
+        },
+        "ko": {
+          "name": "속성",
+          "desc": "속성은 계산되거나 검증된 속성 액세스를 포함합니다."
+        },
+        "pt": {
+          "name": "Propriedades",
+          "desc": "As propriedades cobrem o acesso a atributos computados ou validados."
+        }
+      }
+    },
+    {
+      "key": "python/special_methods",
+      "slug": "special_methods",
+      "name": "Special Methods",
+      "desc": "Special methods cover customizing Python object behavior through data model hooks.",
+      "i18n": {
+        "zh": {
+          "name": "特殊方法",
+          "desc": "特殊方法涵盖通过数据模型钩子自定义 Python 对象行为。"
+        },
+        "es": {
+          "name": "Métodos especiales",
+          "desc": "Los métodos especiales cubren la personalización del comportamiento de objetos Python mediante puntos de extensión del modelo de datos."
+        },
+        "fr": {
+          "name": "Méthodes spéciales",
+          "desc": "Les méthodes spéciales couvrent la personnalisation du comportement des objets Python via des points d’extension du modèle de données."
+        },
+        "de": {
+          "name": "Spezielle Methoden",
+          "desc": "Spezielle Methoden umfassen die Anpassung des Objektverhaltens durch Datenmodell-Hooks."
+        },
+        "ja": {
+          "name": "特殊メソッド",
+          "desc": "特殊メソッドでは、データモデルフックを使って Python オブジェクトの動作をカスタマイズする方法を扱います。"
+        },
+        "ru": {
+          "name": "Специальные методы",
+          "desc": "Специальные методы охватывают настройку поведения объекта Python с помощью перехватчиков модели данных."
+        },
+        "ko": {
+          "name": "특수 메서드",
+          "desc": "특수 메서드는 데이터 모델 후크를 통한 Python 객체 동작 사용자 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Métodos Especiais",
+          "desc": "Métodos especiais cobrem a personalização do comportamento do objeto Python por meio de pontos de extensão do modelo de dados."
+        }
+      }
+    },
+    {
+      "key": "python/exceptions",
+      "slug": "exceptions",
+      "name": "Exceptions",
+      "desc": "Exceptions cover catching, raising, and propagating failure conditions.",
+      "i18n": {
+        "zh": {
+          "name": "异常",
+          "desc": "异常包括捕获、抛出和传播错误条件。"
+        },
+        "es": {
+          "name": "Excepciones",
+          "desc": "Las excepciones cubren capturar, lanzar y propagar condiciones de fallo."
+        },
+        "fr": {
+          "name": "Exceptions",
+          "desc": "Les exceptions couvrent la capture, le déclenchement et la propagation des conditions d’échec."
+        },
+        "de": {
+          "name": "Ausnahmen",
+          "desc": "Ausnahmen decken das Abfangen, Auslösen und Weitergeben von Fehlerbedingungen ab."
+        },
+        "ja": {
+          "name": "例外",
+          "desc": "例外は、障害状態の捕捉、送出、伝播を扱います。"
+        },
+        "ru": {
+          "name": "Исключения",
+          "desc": "Исключения охватывают перехват, выбрасывание и распространение ошибочных условий."
+        },
+        "ko": {
+          "name": "예외",
+          "desc": "예외는 오류 조건의 포착, 발생 및 전파를 다룹니다."
+        },
+        "pt": {
+          "name": "Exceções",
+          "desc": "As exceções cobrem a captura, o lançamento e a propagação de condições de falha."
+        }
+      }
+    },
+    {
+      "key": "python/custom_exceptions",
+      "slug": "custom_exceptions",
+      "name": "Custom Exceptions",
+      "desc": "Custom exceptions cover defining domain-specific failure types.",
+      "i18n": {
+        "zh": {
+          "name": "自定义异常",
+          "desc": "自定义异常涵盖定义特定于领域的错误类型。"
+        },
+        "es": {
+          "name": "Excepciones personalizadas",
+          "desc": "Las excepciones personalizadas cubren la definición de tipos de fallas específicas del dominio."
+        },
+        "fr": {
+          "name": "Exceptions personnalisées",
+          "desc": "Les exceptions personnalisées couvrent la définition de types d'erreurs propres au domaine."
+        },
+        "de": {
+          "name": "Benutzerdefinierte Ausnahmen",
+          "desc": "Benutzerdefinierte Ausnahmen umfassen die Definition domänenspezifischer Fehlertypen."
+        },
+        "ja": {
+          "name": "カスタム例外",
+          "desc": "カスタム例外は、ドメイン固有の障害タイプの定義を扱います。"
+        },
+        "ru": {
+          "name": "Пользовательские исключения",
+          "desc": "Пользовательские исключения охватывают определение типов ошибок, специфичных для домена."
+        },
+        "ko": {
+          "name": "사용자 정의 예외",
+          "desc": "사용자 정의 예외에는 도메인별 오류 유형 정의가 포함됩니다."
+        },
+        "pt": {
+          "name": "Exceções personalizadas",
+          "desc": "As exceções personalizadas abrangem a definição de tipos de falha específicos do domínio."
+        }
+      }
+    },
+    {
+      "key": "python/exception_cleanup",
+      "slug": "exception_cleanup",
+      "name": "Exception Cleanup",
+      "desc": "Exception cleanup covers finally blocks and cleanup behavior around failures.",
+      "i18n": {
+        "zh": {
+          "name": "异常清理",
+          "desc": "异常清理涵盖 finally 块和围绕失败的清理行为。"
+        },
+        "es": {
+          "name": "Limpieza de excepciones",
+          "desc": "La limpieza de excepciones cubre los bloques finally y el comportamiento de limpieza ante fallos."
+        },
+        "fr": {
+          "name": "Nettoyage des exceptions",
+          "desc": "Le nettoyage des exceptions couvre les blocs finally et le comportement de nettoyage en cas d’échec."
+        },
+        "de": {
+          "name": "Ausnahmebereinigung",
+          "desc": "Die Ausnahmebereinigung deckt finally-Blöcke und das Bereinigungsverhalten bei Fehlern ab."
+        },
+        "ja": {
+          "name": "例外のクリーンアップ",
+          "desc": "例外のクリーンアップは、finally ブロックと失敗時のクリーンアップ動作を扱います。"
+        },
+        "ru": {
+          "name": "Очистка исключений",
+          "desc": "Очистка исключений охватывает блоки finally и поведение очистки при сбоях."
+        },
+        "ko": {
+          "name": "예외 정리",
+          "desc": "예외 정리는 오류 상황에서 finally 블록과 정리 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Limpeza de exceção",
+          "desc": "A limpeza de exceções abrange blocos finally e o comportamento de limpeza em caso de falhas."
+        }
+      }
+    },
+    {
+      "key": "python/file_objects",
+      "slug": "file_objects",
+      "name": "File Objects",
+      "desc": "File objects cover opening, closing, and using file handles.",
+      "i18n": {
+        "zh": {
+          "name": "文件对象",
+          "desc": "文件对象涵盖打开、关闭和使用文件句柄。"
+        },
+        "es": {
+          "name": "Objetos de archivo",
+          "desc": "Los objetos de archivo cubren la apertura, el cierre y el uso de identificadores de archivo."
+        },
+        "fr": {
+          "name": "Objets de fichier",
+          "desc": "Les objets fichier couvrent l’ouverture, la fermeture et l’utilisation des descripteurs de fichiers."
+        },
+        "de": {
+          "name": "Dateiobjekte",
+          "desc": "Dateiobjekte umfassen das Öffnen, Schließen und Verwenden von Dateihandles."
+        },
+        "ja": {
+          "name": "ファイルオブジェクト",
+          "desc": "ファイルオブジェクトには、ファイルハンドルのオープン、クローズ、および使用が含まれます。"
+        },
+        "ru": {
+          "name": "Файловые объекты",
+          "desc": "Файловые объекты охватывают открытие, закрытие и использование дескрипторов файлов."
+        },
+        "ko": {
+          "name": "파일 객체",
+          "desc": "파일 객체는 파일 핸들 열기, 닫기 및 사용을 다룹니다."
+        },
+        "pt": {
+          "name": "Objetos de arquivo",
+          "desc": "Os objetos de arquivo cobrem a abertura, o fechamento e o uso de identificadores de arquivo."
+        }
+      }
+    },
+    {
+      "key": "python/file_reading_writing",
+      "slug": "file_reading_writing",
+      "name": "File Reading and Writing",
+      "desc": "File reading and writing cover working with text and binary file content.",
+      "i18n": {
+        "zh": {
+          "name": "文件读写",
+          "desc": "文件读取和写入涵盖处理文本和二进制文件内容。"
+        },
+        "es": {
+          "name": "Lectura y escritura de archivos",
+          "desc": "La lectura y escritura de archivos cubre trabajar con contenido de archivos de texto y binarios."
+        },
+        "fr": {
+          "name": "Lecture et écriture de fichiers",
+          "desc": "La lecture et l’écriture de fichiers couvrent le travail avec le contenu de fichiers texte et binaires."
+        },
+        "de": {
+          "name": "Lesen und Schreiben von Dateien",
+          "desc": "Das Lesen und Schreiben von Dateien umfasst die Arbeit mit Text- und Binärdateiinhalten."
+        },
+        "ja": {
+          "name": "ファイルの読み取りと書き込み",
+          "desc": "ファイルの読み取りと書き込みは、テキストファイルとバイナリファイルの内容を扱います。"
+        },
+        "ru": {
+          "name": "Чтение и запись файлов",
+          "desc": "Чтение и запись файлов охватывают работу с текстовым и двоичным содержимым файлов."
+        },
+        "ko": {
+          "name": "파일 읽기 및 쓰기",
+          "desc": "파일 읽기 및 쓰기는 텍스트 및 바이너리 파일 콘텐츠 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Leitura e escrita de arquivos",
+          "desc": "Leitura e escrita de arquivos cobrem o trabalho com conteúdo de arquivos de texto e binários."
+        }
+      }
+    },
+    {
+      "key": "python/path_handling",
+      "slug": "path_handling",
+      "name": "Path Handling",
+      "desc": "Path handling covers constructing and manipulating filesystem paths.",
+      "i18n": {
+        "zh": {
+          "name": "路径处理",
+          "desc": "路径处理涵盖构建和操作文件系统路径。"
+        },
+        "es": {
+          "name": "Gestión de rutas",
+          "desc": "La gestión de rutas cubre la construcción y manipulación de rutas del sistema de archivos."
+        },
+        "fr": {
+          "name": "Gestion des chemins",
+          "desc": "La gestion des chemins couvre la construction et la manipulation des chemins du système de fichiers."
+        },
+        "de": {
+          "name": "Pfadverarbeitung",
+          "desc": "Die Pfadverarbeitung umfasst das Erstellen und Bearbeiten von Dateisystempfaden."
+        },
+        "ja": {
+          "name": "パスの処理",
+          "desc": "パス処理には、ファイルシステムパスの構築と操作が含まれます。"
+        },
+        "ru": {
+          "name": "Обработка путей",
+          "desc": "Обработка путей охватывает создание и управление путями файловой системы."
+        },
+        "ko": {
+          "name": "경로 처리",
+          "desc": "경로 처리에는 파일 시스템 경로 구성 및 조작이 포함됩니다."
+        },
+        "pt": {
+          "name": "Tratamento de caminhos",
+          "desc": "O tratamento de caminhos abrange a construção e manipulação de caminhos de sistemas de arquivos."
+        }
+      }
+    },
+    {
+      "key": "python/filesystem_manipulation",
+      "slug": "filesystem_manipulation",
+      "name": "Filesystem Manipulation",
+      "desc": "Filesystem manipulation covers creating, moving, deleting, and inspecting filesystem objects.",
+      "i18n": {
+        "zh": {
+          "name": "文件系统操作",
+          "desc": "文件系统操作包括创建、移动、删除和检查文件系统对象。"
+        },
+        "es": {
+          "name": "Manipulación del sistema de archivos",
+          "desc": "La manipulación del sistema de archivos cubre la creación, movimiento, eliminación e inspección de objetos del sistema de archivos."
+        },
+        "fr": {
+          "name": "Manipulation du système de fichiers",
+          "desc": "La manipulation du système de fichiers couvre la création, le déplacement, la suppression et l'inspection des objets du système de fichiers."
+        },
+        "de": {
+          "name": "Dateisystembearbeitung",
+          "desc": "Die Dateisystembearbeitung umfasst das Erstellen, Verschieben, Löschen und Überprüfen von Dateisystemobjekten."
+        },
+        "ja": {
+          "name": "ファイルシステムの操作",
+          "desc": "ファイルシステムの操作には、ファイルシステムオブジェクトの作成、移動、削除、検査が含まれます。"
+        },
+        "ru": {
+          "name": "Операции с файловой системой",
+          "desc": "Операции с файловой системой включают создание, перемещение, удаление и проверку объектов файловой системы."
+        },
+        "ko": {
+          "name": "파일 시스템 조작",
+          "desc": "파일 시스템 조작에는 파일 시스템 개체 생성, 이동, 삭제 및 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Manipulação do sistema de arquivos",
+          "desc": "A manipulação do sistema de arquivos abrange a criação, movimentação, exclusão e inspeção de objetos do sistema de arquivos."
+        }
+      }
+    },
+    {
+      "key": "python/text_encoding",
+      "slug": "text_encoding",
+      "name": "Text Encoding",
+      "desc": "Text encoding covers converting between text and bytes with explicit encodings.",
+      "i18n": {
+        "zh": {
+          "name": "文本编码",
+          "desc": "文本编码涵盖使用显式编码在文本和字节之间进行转换。"
+        },
+        "es": {
+          "name": "Codificación de texto",
+          "desc": "La codificación de texto cubre la conversión entre texto y bytes con codificaciones explícitas."
+        },
+        "fr": {
+          "name": "Encodage de texte",
+          "desc": "Le codage de texte couvre la conversion entre le texte et les octets avec des codages explicites."
+        },
+        "de": {
+          "name": "Textkodierung",
+          "desc": "Die Textkodierung umfasst die Konvertierung zwischen Text und Bytes mit expliziten Kodierungen."
+        },
+        "ja": {
+          "name": "テキストエンコーディング",
+          "desc": "テキストエンコーディングは、明示的なエンコーディングを使用したテキストとバイト間の変換を扱います。"
+        },
+        "ru": {
+          "name": "Кодирование текста",
+          "desc": "Кодирование текста включает преобразование текста и байтов с помощью явного кодирования."
+        },
+        "ko": {
+          "name": "텍스트 인코딩",
+          "desc": "텍스트 인코딩은 명시적 인코딩을 사용하여 텍스트와 바이트 간의 변환을 다룹니다."
+        },
+        "pt": {
+          "name": "Codificação de texto",
+          "desc": "A codificação de texto abrange a conversão entre texto e bytes com codificações explícitas."
+        }
+      }
+    },
+    {
+      "key": "python/json_data",
+      "slug": "json_data",
+      "name": "JSON Data",
+      "desc": "JSON data covers encoding and decoding JSON values.",
+      "i18n": {
+        "zh": {
+          "name": "JSON 数据",
+          "desc": "JSON 数据涵盖编码和解码 JSON 值。"
+        },
+        "es": {
+          "name": "Datos JSON",
+          "desc": "Los datos JSON cubren la codificación y decodificación de valores JSON."
+        },
+        "fr": {
+          "name": "Données JSON",
+          "desc": "Les données JSON couvrent le codage et le décodage des valeurs JSON."
+        },
+        "de": {
+          "name": "JSON-Daten",
+          "desc": "Die JSON-Daten umfassen die Kodierung und Dekodierung von JSON-Werten."
+        },
+        "ja": {
+          "name": "JSON データ",
+          "desc": "JSON データは、JSON 値のエンコードとデコードを扱います。"
+        },
+        "ru": {
+          "name": "Данные JSON",
+          "desc": "Данные JSON охватывают кодирование и декодирование значений JSON."
+        },
+        "ko": {
+          "name": "JSON 데이터",
+          "desc": "JSON 데이터에는 JSON 값의 인코딩 및 디코딩이 포함됩니다."
+        },
+        "pt": {
+          "name": "Dados JSON",
+          "desc": "Dados JSON cobrem codificação e decodificação de valores JSON."
+        }
+      }
+    },
+    {
+      "key": "python/csv_files",
+      "slug": "csv_files",
+      "name": "CSV Files",
+      "desc": "CSV files cover reading and writing comma-separated tabular data.",
+      "i18n": {
+        "zh": {
+          "name": "CSV 文件",
+          "desc": "CSV 文件涵盖读取和写入逗号分隔的表格数据。"
+        },
+        "es": {
+          "name": "Archivos CSV",
+          "desc": "Los archivos CSV cubren la lectura y escritura de datos tabulares separados por comas."
+        },
+        "fr": {
+          "name": "Fichiers CSV",
+          "desc": "Les fichiers CSV couvrent la lecture et l'écriture de données tabulaires séparées par des virgules."
+        },
+        "de": {
+          "name": "CSV-Dateien",
+          "desc": "CSV-Dateien umfassen das Lesen und Schreiben von durch Kommas getrennten Tabellendaten."
+        },
+        "ja": {
+          "name": "CSV ファイル",
+          "desc": "CSV ファイルは、カンマ区切りの表形式データの読み取りと書き込みを扱います。"
+        },
+        "ru": {
+          "name": "CSV-файлы",
+          "desc": "Файлы CSV предназначены для чтения и записи табличных данных, разделенных запятыми."
+        },
+        "ko": {
+          "name": "CSV 파일",
+          "desc": "CSV 파일에는 쉼표로 구분된 표 형식 데이터 읽기 및 쓰기가 포함됩니다."
+        },
+        "pt": {
+          "name": "Arquivos CSV",
+          "desc": "Os arquivos CSV cobrem a leitura e gravação de dados tabulares separados por vírgula."
+        }
+      }
+    },
+    {
+      "key": "python/iterators",
+      "slug": "iterators",
+      "name": "Iterators",
+      "desc": "Iterators cover lazy traversal protocols and iterator objects.",
+      "i18n": {
+        "zh": {
+          "name": "迭代器",
+          "desc": "迭代器涵盖惰性遍历协议和迭代器对象。"
+        },
+        "es": {
+          "name": "Iteradores",
+          "desc": "Los iteradores cubren protocolos de recorrido perezoso y objetos iteradores."
+        },
+        "fr": {
+          "name": "Itérateurs",
+          "desc": "Les itérateurs couvrent les protocoles de parcours paresseux et les objets itérateurs."
+        },
+        "de": {
+          "name": "Iteratoren",
+          "desc": "Iteratoren umfassen Lazy-Traversal-Protokolle und Iteratorobjekte."
+        },
+        "ja": {
+          "name": "イテレータ",
+          "desc": "イテレータは、遅延トラバーサルプロトコルとイテレータオブジェクトを扱います。"
+        },
+        "ru": {
+          "name": "Итераторы",
+          "desc": "Итераторы охватывают протоколы ленивого обхода и объекты итераторов."
+        },
+        "ko": {
+          "name": "반복자",
+          "desc": "반복자는 지연 순회 프로토콜과 반복자 객체를 다룹니다."
+        },
+        "pt": {
+          "name": "Iteradores",
+          "desc": "Os iteradores cobrem protocolos de percurso lazy e objetos iteradores."
+        }
+      }
+    },
+    {
+      "key": "python/generators",
+      "slug": "generators",
+      "name": "Generators",
+      "desc": "Generators cover producing values lazily with generator functions and expressions.",
+      "i18n": {
+        "zh": {
+          "name": "生成器",
+          "desc": "生成器涵盖了使用生成器函数和表达式延迟生成值。"
+        },
+        "es": {
+          "name": "Generadores",
+          "desc": "Los generadores cubren la producción de valores de forma diferida con funciones y expresiones generadoras."
+        },
+        "fr": {
+          "name": "Générateurs",
+          "desc": "Les générateurs couvrent la production différée de valeurs avec des fonctions et expressions génératrices."
+        },
+        "de": {
+          "name": "Generatoren",
+          "desc": "Generatoren decken das träge Erzeugen von Werten mit Generatorfunktionen und -ausdrücken ab."
+        },
+        "ja": {
+          "name": "ジェネレーター",
+          "desc": "ジェネレーターは、ジェネレーター関数と式を使用して値を遅延生成する方法を扱います。"
+        },
+        "ru": {
+          "name": "Генераторы",
+          "desc": "Генераторы позволяют лениво создавать значения с помощью функций и выражений генератора."
+        },
+        "ko": {
+          "name": "생성기",
+          "desc": "생성기는 생성기 함수와 표현식을 사용해 값을 지연 생성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Geradores",
+          "desc": "Os geradores cobrem a produção sob demanda de valores com funções e expressões geradoras."
+        }
+      }
+    },
+    {
+      "key": "python/context_managers",
+      "slug": "context_managers",
+      "name": "Context Managers",
+      "desc": "Context managers cover setup and cleanup with with statements.",
+      "i18n": {
+        "zh": {
+          "name": "上下文管理器",
+          "desc": "上下文管理器涵盖使用 with 语句进行设置和清理。"
+        },
+        "es": {
+          "name": "Gestores de contexto",
+          "desc": "Los gestores de contexto cubren la configuración y limpieza mediante sentencias with."
+        },
+        "fr": {
+          "name": "Gestionnaires de contexte",
+          "desc": "Les gestionnaires de contexte couvrent la configuration et le nettoyage avec les instructions with."
+        },
+        "de": {
+          "name": "Kontextmanager",
+          "desc": "Kontextmanager behandeln die Einrichtung und Bereinigung mit with-Anweisungen."
+        },
+        "ja": {
+          "name": "コンテキストマネージャー",
+          "desc": "コンテキストマネージャーは、with ステートメントを使用したセットアップとクリーンアップを扱います。"
+        },
+        "ru": {
+          "name": "Менеджеры контекста",
+          "desc": "Менеджеры контекста описывают настройку и очистку с помощью инструкций with."
+        },
+        "ko": {
+          "name": "컨텍스트 관리자",
+          "desc": "컨텍스트 관리자는 with 문을 사용한 설정과 정리를 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciadores de contexto",
+          "desc": "Gerenciadores de contexto cobrem configuração e limpeza com instruções with."
+        }
+      }
+    },
+    {
+      "key": "python/itertools",
+      "slug": "itertools",
+      "name": "Itertools",
+      "desc": "Itertools cover composable iterator building blocks from the standard library.",
+      "i18n": {
+        "zh": {
+          "name": "itertools",
+          "desc": "itertools 涵盖标准库中可组合的迭代器构建块。"
+        },
+        "es": {
+          "name": "itertools",
+          "desc": "Itertools cubre los bloques de construcción de iteradores componibles de la biblioteca estándar."
+        },
+        "fr": {
+          "name": "Itertools",
+          "desc": "Itertools couvre les blocs de construction d'itérateurs composables de la bibliothèque standard."
+        },
+        "de": {
+          "name": "Itertools",
+          "desc": "Itertools umfassen zusammensetzbare Iteratorbausteine aus der Standardbibliothek."
+        },
+        "ja": {
+          "name": "itertools",
+          "desc": "itertools は、標準ライブラリにある組み合わせ可能なイテレータ部品を扱います。"
+        },
+        "ru": {
+          "name": "itertools",
+          "desc": "Itertools охватывает составные строительные блоки итераторов из стандартной библиотеки."
+        },
+        "ko": {
+          "name": "itertools",
+          "desc": "itertools는 표준 라이브러리의 조합 가능한 이터레이터 구성 요소를 다룹니다."
+        },
+        "pt": {
+          "name": "itertools",
+          "desc": "itertools cobre blocos de construção de iteradores combináveis da biblioteca padrão."
+        }
+      }
+    },
+    {
+      "key": "python/runtime_environment",
+      "slug": "runtime_environment",
+      "name": "Runtime Environment",
+      "desc": "Runtime environment covers interacting with interpreter, process, and operating system context.",
+      "i18n": {
+        "zh": {
+          "name": "运行环境",
+          "desc": "运行时环境涵盖与解释器、进程和操作系统上下文的交互。"
+        },
+        "es": {
+          "name": "Entorno de ejecución",
+          "desc": "El entorno de ejecución cubre la interacción con el intérprete, el proceso y el contexto del sistema operativo."
+        },
+        "fr": {
+          "name": "Environnement d'exécution",
+          "desc": "L'environnement d'exécution couvre l'interaction avec le contexte de l'interpréteur, du processus et du système d'exploitation."
+        },
+        "de": {
+          "name": "Laufzeitumgebung",
+          "desc": "Die Laufzeitumgebung umfasst die Interaktion mit Interpreter, Prozess und Betriebssystemkontext."
+        },
+        "ja": {
+          "name": "実行環境",
+          "desc": "ランタイム環境には、インタープリター、プロセス、およびオペレーティングシステムコンテキストとの対話が含まれます。"
+        },
+        "ru": {
+          "name": "Среда выполнения",
+          "desc": "Среда выполнения охватывает взаимодействие с интерпретатором, процессом и контекстом операционной системы."
+        },
+        "ko": {
+          "name": "런타임 환경",
+          "desc": "런타임 환경은 인터프리터, 프로세스 및 운영 체제 컨텍스트와의 상호 작용을 다룹니다."
+        },
+        "pt": {
+          "name": "Ambiente de execução",
+          "desc": "O ambiente de execução cobre a interação com o intérprete, o processo e o contexto do sistema operacional."
+        }
+      }
+    },
+    {
+      "key": "python/command_line_arguments",
+      "slug": "command_line_arguments",
+      "name": "Command-Line Arguments",
+      "desc": "Command-line arguments cover receiving and parsing process inputs.",
+      "i18n": {
+        "zh": {
+          "name": "命令行参数",
+          "desc": "命令行参数涵盖接收和解析进程输入。"
+        },
+        "es": {
+          "name": "Argumentos de línea de comando",
+          "desc": "Los argumentos de la línea de comandos cubren la recepción y el análisis de las entradas del proceso."
+        },
+        "fr": {
+          "name": "Arguments de ligne de commande",
+          "desc": "Les arguments de ligne de commande couvrent la réception et l’analyse des entrées du processus."
+        },
+        "de": {
+          "name": "Befehlszeilenargumente",
+          "desc": "Befehlszeilenargumente decken den Empfang und das Parsen von Prozesseingaben ab."
+        },
+        "ja": {
+          "name": "コマンドライン引数",
+          "desc": "コマンドライン引数は、プロセス入力の受信と解析を扱います。"
+        },
+        "ru": {
+          "name": "Аргументы командной строки",
+          "desc": "Аргументы командной строки охватывают получение и анализ входных данных процесса."
+        },
+        "ko": {
+          "name": "명령줄 인수",
+          "desc": "명령줄 인수는 프로세스 입력 수신 및 구문 분석을 다룹니다."
+        },
+        "pt": {
+          "name": "Argumentos de linha de comando",
+          "desc": "Os argumentos da linha de comando cobrem o recebimento e a análise de entradas do processo."
+        }
+      }
+    },
+    {
+      "key": "python/subprocesses",
+      "slug": "subprocesses",
+      "name": "Subprocesses",
+      "desc": "Subprocesses cover starting and coordinating external programs from Python.",
+      "i18n": {
+        "zh": {
+          "name": "子进程",
+          "desc": "子进程涵盖从 Python 启动和协调外部程序。"
+        },
+        "es": {
+          "name": "Subprocesos",
+          "desc": "Los subprocesos cubren el inicio y la coordinación de programas externos desde Python."
+        },
+        "fr": {
+          "name": "Sous-processus",
+          "desc": "Les sous-processus couvrent le démarrage et la coordination de programmes externes à partir de Python."
+        },
+        "de": {
+          "name": "Unterprozesse",
+          "desc": "Unterprozesse umfassen das Starten und Koordinieren externer Programme aus Python."
+        },
+        "ja": {
+          "name": "サブプロセス",
+          "desc": "サブプロセスは、Python からの外部プログラムの開始と調整を扱います。"
+        },
+        "ru": {
+          "name": "Подпроцессы",
+          "desc": "Подпроцессы охватывают запуск и координацию внешних программ из Python."
+        },
+        "ko": {
+          "name": "하위 프로세스",
+          "desc": "하위 프로세스는 Python에서 외부 프로그램을 시작하고 조정하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Subprocessos",
+          "desc": "Os subprocessos cobrem o início e a coordenação de programas externos do Python."
+        }
+      }
+    },
+    {
+      "key": "python/regular_expressions",
+      "slug": "regular_expressions",
+      "name": "Regular Expressions",
+      "desc": "Regular expressions cover pattern matching and text extraction.",
+      "i18n": {
+        "zh": {
+          "name": "正则表达式",
+          "desc": "正则表达式涵盖模式匹配和文本提取。"
+        },
+        "es": {
+          "name": "Expresiones regulares",
+          "desc": "Las expresiones regulares cubren la coincidencia de patrones y la extracción de texto."
+        },
+        "fr": {
+          "name": "Expressions régulières",
+          "desc": "Les expressions régulières couvrent la correspondance de modèles et l'extraction de texte."
+        },
+        "de": {
+          "name": "Reguläre Ausdrücke",
+          "desc": "Reguläre Ausdrücke decken den Mustervergleich und die Textextraktion ab."
+        },
+        "ja": {
+          "name": "正規表現",
+          "desc": "正規表現には、パターンマッチングとテキスト抽出が含まれます。"
+        },
+        "ru": {
+          "name": "Регулярные выражения",
+          "desc": "Регулярные выражения охватывают сопоставление с образцом и извлечение текста."
+        },
+        "ko": {
+          "name": "정규 표현식",
+          "desc": "정규식에는 패턴 일치와 텍스트 추출이 포함됩니다."
+        },
+        "pt": {
+          "name": "Expressões Regulares",
+          "desc": "Expressões regulares cobrem correspondência de padrões e extração de texto."
+        }
+      }
+    },
+    {
+      "key": "python/date_time",
+      "slug": "date_time",
+      "name": "Date and Time",
+      "desc": "Date and time cover representing, formatting, and calculating temporal values.",
+      "i18n": {
+        "zh": {
+          "name": "日期和时间",
+          "desc": "日期和时间涵盖表示、格式化和计算时间值。"
+        },
+        "es": {
+          "name": "Fecha y hora",
+          "desc": "Fecha y hora cubre la representación, el formato y el cálculo de valores temporales."
+        },
+        "fr": {
+          "name": "Date et heure",
+          "desc": "La date et l'heure couvrent la représentation, le formatage et le calcul des valeurs temporelles."
+        },
+        "de": {
+          "name": "Datum und Uhrzeit",
+          "desc": "Datum und Uhrzeit umfassen die Darstellung, Formatierung und Berechnung von Zeitwerten."
+        },
+        "ja": {
+          "name": "日付と時刻",
+          "desc": "日付と時刻は、日時値の表現、フォーマット、計算を扱います。"
+        },
+        "ru": {
+          "name": "Дата и время",
+          "desc": "Дата и время представляют, форматируют и вычисляют временные значения."
+        },
+        "ko": {
+          "name": "날짜 및 시간",
+          "desc": "날짜 및 시간은 시간 값을 표현하고, 형식화하고, 계산합니다."
+        },
+        "pt": {
+          "name": "Data e hora",
+          "desc": "Data e hora cobrem a representação, formatação e cálculo de valores temporais."
+        }
+      }
+    },
+    {
+      "key": "python/logging",
+      "slug": "logging",
+      "name": "Logging",
+      "desc": "Logging covers emitting useful runtime information from Python programs.",
+      "i18n": {
+        "zh": {
+          "name": "日志记录",
+          "desc": "日志记录涵盖从 Python 程序发出有用的运行时信息。"
+        },
+        "es": {
+          "name": "Registro",
+          "desc": "El registro cubre la emisión de información útil en tiempo de ejecución desde programas Python."
+        },
+        "fr": {
+          "name": "Journalisation",
+          "desc": "La journalisation couvre l'émission d'informations d'exécution utiles à partir de programmes Python."
+        },
+        "de": {
+          "name": "Protokollierung",
+          "desc": "Die Protokollierung umfasst die Ausgabe nützlicher Laufzeitinformationen von Python-Programmen."
+        },
+        "ja": {
+          "name": "ロギング",
+          "desc": "ロギングには、Python プログラムからの有用なランタイム情報の出力が含まれます。"
+        },
+        "ru": {
+          "name": "Ведение журнала",
+          "desc": "Ведение журнала охватывает вывод полезной информации о времени выполнения из программ Python."
+        },
+        "ko": {
+          "name": "로깅",
+          "desc": "로깅은 Python 프로그램에서 유용한 런타임 정보를 내보내는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Registro",
+          "desc": "O registro abrange a emissão de informações úteis de tempo de execução de programas Python."
+        }
+      }
+    },
+    {
+      "key": "python/threading",
+      "slug": "threading",
+      "name": "Threading",
+      "desc": "Threading covers concurrent execution with threads and shared process memory.",
+      "i18n": {
+        "zh": {
+          "name": "线程",
+          "desc": "线程涵盖使用线程和共享进程内存进行并发执行。"
+        },
+        "es": {
+          "name": "Hilos",
+          "desc": "Los hilos cubren la ejecución concurrente con hilos y memoria de proceso compartida."
+        },
+        "fr": {
+          "name": "Threads",
+          "desc": "Les threads couvrent l'exécution simultanée avec des threads et une mémoire de processus partagée."
+        },
+        "de": {
+          "name": "Threading",
+          "desc": "Threading umfasst die gleichzeitige Ausführung mit Threads und gemeinsam genutztem Prozessspeicher."
+        },
+        "ja": {
+          "name": "スレッド処理",
+          "desc": "スレッド処理は、スレッドと共有プロセスメモリを使った並行実行を扱います。"
+        },
+        "ru": {
+          "name": "Потоки",
+          "desc": "Потоки охватывают конкурентное выполнение с потоками и общей памятью процесса."
+        },
+        "ko": {
+          "name": "스레딩",
+          "desc": "스레딩은 스레드 및 공유 프로세스 메모리를 사용한 동시 실행을 다룹니다."
+        },
+        "pt": {
+          "name": "Threads",
+          "desc": "Threads cobrem a execução simultânea com threads e memória de processo compartilhada."
+        }
+      }
+    },
+    {
+      "key": "python/multiprocessing",
+      "slug": "multiprocessing",
+      "name": "Multiprocessing",
+      "desc": "Multiprocessing covers parallel execution with separate Python processes.",
+      "i18n": {
+        "zh": {
+          "name": "多进程",
+          "desc": "多处理涵盖使用单独的 Python 进程并行执行。"
+        },
+        "es": {
+          "name": "Multiprocesamiento",
+          "desc": "El multiprocesamiento cubre la ejecución paralela con procesos Python separados."
+        },
+        "fr": {
+          "name": "Multitraitement",
+          "desc": "Le multitraitement couvre l'exécution parallèle avec des processus Python séparés."
+        },
+        "de": {
+          "name": "Multiprocessing",
+          "desc": "Multiprocessing umfasst die parallele Ausführung mit separaten Python-Prozessen."
+        },
+        "ja": {
+          "name": "マルチプロセッシング",
+          "desc": "マルチプロセッシングは、個別の Python プロセスによる並列実行を扱います。"
+        },
+        "ru": {
+          "name": "Многопроцессность",
+          "desc": "Многопроцессность охватывает параллельное выполнение отдельных процессов Python."
+        },
+        "ko": {
+          "name": "다중 처리",
+          "desc": "다중 처리는 별도의 Python 프로세스를 통한 병렬 실행을 다룹니다."
+        },
+        "pt": {
+          "name": "Multiprocessamento",
+          "desc": "O multiprocessamento cobre a execução paralela com processos Python separados."
+        }
+      }
+    },
+    {
+      "key": "python/concurrent_futures",
+      "slug": "concurrent_futures",
+      "name": "Concurrent Futures",
+      "desc": "Concurrent futures cover managing asynchronous tasks with executor abstractions.",
+      "i18n": {
+        "zh": {
+          "name": "concurrent.futures",
+          "desc": "concurrent.futures 涵盖使用 Executor 和 Future 抽象管理异步任务。"
+        },
+        "es": {
+          "name": "concurrent.futures",
+          "desc": "concurrent.futures cubre la gestión de tareas asincrónicas con abstracciones Executor y Future."
+        },
+        "fr": {
+          "name": "concurrent.futures",
+          "desc": "concurrent.futures couvre la gestion des tâches asynchrones avec les abstractions Executor et Future."
+        },
+        "de": {
+          "name": "concurrent.futures",
+          "desc": "concurrent.futures behandelt die Verwaltung asynchroner Aufgaben mit Executor- und Future-Abstraktionen."
+        },
+        "ja": {
+          "name": "concurrent.futures",
+          "desc": "concurrent.futures は、Executor と Future の抽象化を使った非同期タスク管理を扱います。"
+        },
+        "ru": {
+          "name": "concurrent.futures",
+          "desc": "concurrent.futures охватывает управление асинхронными задачами с помощью абстракций Executor и Future."
+        },
+        "ko": {
+          "name": "concurrent.futures",
+          "desc": "concurrent.futures는 Executor와 Future 추상화를 사용한 비동기 작업 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "concurrent.futures",
+          "desc": "concurrent.futures cobre o gerenciamento de tarefas assíncronas com abstrações Executor e Future."
+        }
+      }
+    },
+    {
+      "key": "python/async_functions",
+      "slug": "async_functions",
+      "name": "Async Functions",
+      "desc": "Async functions cover defining coroutines with async and await syntax.",
+      "i18n": {
+        "zh": {
+          "name": "异步函数",
+          "desc": "异步函数涵盖使用 async 和 await 语法定义协程。"
+        },
+        "es": {
+          "name": "Funciones asíncronas",
+          "desc": "Las funciones asíncronas cubren la definición de corrutinas con sintaxis async y await."
+        },
+        "fr": {
+          "name": "Fonctions asynchrones",
+          "desc": "Les fonctions asynchrones couvrent la définition de coroutines avec la syntaxe async et await."
+        },
+        "de": {
+          "name": "Asynchrone Funktionen",
+          "desc": "Async-Funktionen umfassen das Definieren von Coroutinen mit async- und await-Syntax."
+        },
+        "ja": {
+          "name": "非同期関数",
+          "desc": "非同期関数は、async および await 構文を使用したコルーチンの定義を扱います。"
+        },
+        "ru": {
+          "name": "Асинхронные функции",
+          "desc": "Асинхронные функции охватывают определение сопрограмм с помощью синтаксиса async и await."
+        },
+        "ko": {
+          "name": "비동기 함수",
+          "desc": "비동기 함수는 async 및 await 구문을 사용해 코루틴을 정의하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Funções assíncronas",
+          "desc": "As funções assíncronas cobrem a definição de corrotinas com sintaxe async e await."
+        }
+      }
+    },
+    {
+      "key": "python/asyncio",
+      "slug": "asyncio",
+      "name": "Asyncio",
+      "desc": "Asyncio covers event-loop-based concurrency and asynchronous I/O coordination.",
+      "i18n": {
+        "zh": {
+          "name": "asyncio",
+          "desc": "Asyncio 涵盖基于事件循环的并发和异步 I/O 协调。"
+        },
+        "es": {
+          "name": "asyncio",
+          "desc": "Asyncio cubre la concurrencia basada en bucles de eventos y la coordinación de E/S asíncrona."
+        },
+        "fr": {
+          "name": "Asyncio",
+          "desc": "Asyncio couvre la concurrence basée sur les boucles d'événements et la coordination des E/S asynchrones."
+        },
+        "de": {
+          "name": "Asyncio",
+          "desc": "Asyncio deckt ereignisschleifenbasierte Parallelität und asynchrone E/A-Koordination ab."
+        },
+        "ja": {
+          "name": "asyncio",
+          "desc": "Asyncio は、イベントループベースの同時実行性と非同期 I/O 調整を扱います。"
+        },
+        "ru": {
+          "name": "asyncio",
+          "desc": "Asyncio охватывает параллелизм на основе цикла событий и координацию асинхронного ввода-вывода."
+        },
+        "ko": {
+          "name": "asyncio",
+          "desc": "Asyncio는 이벤트 루프 기반 동시성과 비동기 I/O 조정을 다룹니다."
+        },
+        "pt": {
+          "name": "asyncio",
+          "desc": "Asyncio cobre simultaneidade baseada em loop de eventos e coordenação de E/S assíncrona."
+        }
+      }
+    },
+    {
+      "key": "python/assertions",
+      "slug": "assertions",
+      "name": "Assertions",
+      "desc": "Assertions cover checking assumptions during development and tests.",
+      "i18n": {
+        "zh": {
+          "name": "断言",
+          "desc": "断言涵盖在开发和测试期间检查假设。"
+        },
+        "es": {
+          "name": "Aserciones",
+          "desc": "Las aserciones cubren la verificación de supuestos durante el desarrollo y las pruebas."
+        },
+        "fr": {
+          "name": "Assertions",
+          "desc": "Les assertions couvrent la vérification des hypothèses pendant le développement et les tests."
+        },
+        "de": {
+          "name": "Assertions",
+          "desc": "Assertions umfassen die Überprüfung von Annahmen während der Entwicklung und Tests."
+        },
+        "ja": {
+          "name": "アサーション",
+          "desc": "アサーションには、開発およびテスト中の前提条件のチェックが含まれます。"
+        },
+        "ru": {
+          "name": "Утверждения",
+          "desc": "Утверждения охватывают проверку предположений во время разработки и тестирования."
+        },
+        "ko": {
+          "name": "어설션",
+          "desc": "어설션은 개발 및 테스트 중 가정을 확인하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Asserções",
+          "desc": "As asserções cobrem a verificação de suposições durante o desenvolvimento e os testes."
+        }
+      }
+    },
+    {
+      "key": "python/unit_testing",
+      "slug": "unit_testing",
+      "name": "Unit Testing",
+      "desc": "Unit testing covers verifying Python behavior with focused automated tests.",
+      "i18n": {
+        "zh": {
+          "name": "单元测试",
+          "desc": "单元测试涵盖通过重点自动化测试来验证 Python 行为。"
+        },
+        "es": {
+          "name": "Pruebas unitarias",
+          "desc": "Las pruebas unitarias cubren la verificación del comportamiento Python con pruebas automatizadas enfocadas."
+        },
+        "fr": {
+          "name": "Tests unitaires",
+          "desc": "Les tests unitaires couvrent la vérification du comportement Python avec des tests automatisés ciblés."
+        },
+        "de": {
+          "name": "Unit-Tests",
+          "desc": "Unit-Tests umfassen die Überprüfung des Python-Verhaltens mit gezielten automatisierten Tests."
+        },
+        "ja": {
+          "name": "単体テスト",
+          "desc": "単体テストでは、焦点を絞った自動テストによる動作の検証を扱います。"
+        },
+        "ru": {
+          "name": "Модульное тестирование",
+          "desc": "Модульное тестирование включает проверку поведения Python с помощью целенаправленных автоматических тестов."
+        },
+        "ko": {
+          "name": "단위 테스트",
+          "desc": "단위 테스트에는 집중된 자동화 테스트를 통한 Python 동작 검증이 포함됩니다."
+        },
+        "pt": {
+          "name": "Teste de Unidade",
+          "desc": "O teste de unidade cobre a verificação do comportamento do Python com testes automatizados focados."
+        }
+      }
+    },
+    {
+      "key": "python/mocking",
+      "slug": "mocking",
+      "name": "Mocking",
+      "desc": "Mocking covers replacing collaborators in tests to isolate behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Mocking",
+          "desc": "Mocking 涵盖在测试中替换协作对象以隔离行为。"
+        },
+        "es": {
+          "name": "Mocking",
+          "desc": "Mocking cubre la sustitución de colaboradores en pruebas para aislar comportamientos."
+        },
+        "fr": {
+          "name": "Mocking",
+          "desc": "Le mocking couvre le remplacement de collaborateurs dans les tests pour isoler les comportements."
+        },
+        "de": {
+          "name": "Mocking",
+          "desc": "Mocking behandelt das Ersetzen von Abhängigkeiten in Tests, um Verhalten zu isolieren."
+        },
+        "ja": {
+          "name": "モッキング",
+          "desc": "モッキングでは、動作を分離するためにテスト内の依存関係を置き換えます。"
+        },
+        "ru": {
+          "name": "Мокинг",
+          "desc": "Мокинг охватывает замену зависимостей в тестах для изоляции поведения."
+        },
+        "ko": {
+          "name": "모킹",
+          "desc": "모킹은 동작을 격리하기 위해 테스트에서 협력 객체를 대체하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Mocking",
+          "desc": "Mocking cobre a substituição de colaboradores em testes para isolar comportamentos."
+        }
+      }
+    },
+    {
+      "key": "python/debugging",
+      "slug": "debugging",
+      "name": "Debugging",
+      "desc": "Debugging covers diagnosing Python program behavior with tools, tracebacks, and runtime evidence.",
+      "i18n": {
+        "zh": {
+          "name": "调试",
+          "desc": "调试涵盖使用工具、回溯和运行时证据来诊断 Python 程序行为。"
+        },
+        "es": {
+          "name": "Depuración",
+          "desc": "La depuración cubre el diagnóstico del comportamiento del programa Python con herramientas, rastreos y evidencia de tiempo de ejecución."
+        },
+        "fr": {
+          "name": "Débogage",
+          "desc": "Le débogage couvre le diagnostic du comportement du programme Python avec des outils, des traçages et des preuves d'exécution."
+        },
+        "de": {
+          "name": "Debuggen",
+          "desc": "Das Debuggen umfasst die Diagnose des Programmverhaltens mit Tools, Tracebacks und Laufzeitnachweisen."
+        },
+        "ja": {
+          "name": "デバッグ",
+          "desc": "デバッグには、ツール、トレースバック、実行時の証拠を使用した Python プログラムの動作の診断が含まれます。"
+        },
+        "ru": {
+          "name": "Отладка",
+          "desc": "Отладка охватывает диагностику поведения программы Python с помощью инструментов, обратных трассировок и данных времени выполнения."
+        },
+        "ko": {
+          "name": "디버깅",
+          "desc": "디버깅에는 도구, 역추적 및 런타임 증거를 사용하여 Python 프로그램 동작을 진단하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Depuração",
+          "desc": "A depuração abrange o diagnóstico do comportamento do programa Python com ferramentas, rastreamentos e evidências de tempo de execução."
+        }
+      }
+    },
+    {
+      "key": "python/profiling",
+      "slug": "profiling",
+      "name": "Profiling",
+      "desc": "Profiling covers measuring Python runtime cost to identify performance bottlenecks.",
+      "i18n": {
+        "zh": {
+          "name": "性能分析",
+          "desc": "性能分析涵盖测量 Python 运行时成本以识别性能瓶颈。"
+        },
+        "es": {
+          "name": "Perfilado",
+          "desc": "El perfilado cubre la medición del costo de ejecución de Python para identificar cuellos de botella de rendimiento."
+        },
+        "fr": {
+          "name": "Profilage",
+          "desc": "Le profilage couvre la mesure du coût d’exécution de Python afin d’identifier les goulots d’étranglement des performances."
+        },
+        "de": {
+          "name": "Profilierung",
+          "desc": "Profiling behandelt das Messen der Python-Laufzeitkosten, um Leistungsengpässe zu identifizieren."
+        },
+        "ja": {
+          "name": "プロファイリング",
+          "desc": "プロファイリングでは、パフォーマンスのボトルネックを特定するために Python ランタイムコストの測定を行います。"
+        },
+        "ru": {
+          "name": "Профилирование",
+          "desc": "Профилирование охватывает измерение затрат времени выполнения Python для выявления узких мест производительности."
+        },
+        "ko": {
+          "name": "프로파일링",
+          "desc": "프로파일링에는 성능 병목 현상을 식별하기 위한 Python 런타임 비용 측정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Perfilamento",
+          "desc": "O perfilamento abrange a medição do custo de execução de Python para identificar gargalos de desempenho."
+        }
+      }
+    },
+    {
+      "key": "python/code_style",
+      "slug": "code_style",
+      "name": "Code Style",
+      "desc": "Code style covers formatting and readability conventions for Python source code.",
+      "i18n": {
+        "zh": {
+          "name": "代码风格",
+          "desc": "代码风格涵盖 Python 源代码的格式和可读性约定。"
+        },
+        "es": {
+          "name": "Estilo de código",
+          "desc": "El estilo del código cubre las convenciones de formato y legibilidad para el código fuente Python."
+        },
+        "fr": {
+          "name": "Style de code",
+          "desc": "Le style de code couvre les conventions de formatage et de lisibilité du code source Python."
+        },
+        "de": {
+          "name": "Codestil",
+          "desc": "Der Codestil umfasst Formatierungs- und Lesbarkeitskonventionen für Python-Quellcode."
+        },
+        "ja": {
+          "name": "コードスタイル",
+          "desc": "コードスタイルでは、Python ソースコードの書式設定と読みやすさの規則を取り上げます。"
+        },
+        "ru": {
+          "name": "Стиль кода",
+          "desc": "Стиль кода охватывает соглашения о форматировании и читаемости исходного кода Python."
+        },
+        "ko": {
+          "name": "코드 스타일",
+          "desc": "코드 스타일은 Python 소스 코드의 형식 지정 및 가독성 규칙을 다룹니다."
+        },
+        "pt": {
+          "name": "Estilo de código",
+          "desc": "O estilo de código cobre convenções de formatação e legibilidade para código-fonte Python."
+        }
+      }
+    },
+    {
+      "key": "python/docstrings",
+      "slug": "docstrings",
+      "name": "Docstrings",
+      "desc": "Docstrings cover documenting modules, classes, functions, and methods with embedded strings.",
+      "i18n": {
+        "zh": {
+          "name": "文档字符串",
+          "desc": "文档字符串涵盖使用嵌入的字符串为模块、类、函数和方法编写文档。"
+        },
+        "es": {
+          "name": "Docstrings",
+          "desc": "Las docstrings cubren la documentación de módulos, clases, funciones y métodos con cadenas incrustadas."
+        },
+        "fr": {
+          "name": "Docstrings",
+          "desc": "Les docstrings couvrent la documentation des modules, des classes, des fonctions et des méthodes avec des chaînes intégrées."
+        },
+        "de": {
+          "name": "Docstrings",
+          "desc": "Docstrings umfassen die Dokumentation von Modulen, Klassen, Funktionen und Methoden mit eingebetteten Strings."
+        },
+        "ja": {
+          "name": "ドキュメントストリング",
+          "desc": "docstring は、文字列が埋め込まれたモジュール、クラス、関数、メソッドの文書化を扱います。"
+        },
+        "ru": {
+          "name": "Строки документации",
+          "desc": "Строки документации охватывают документирование модулей, классов, функций и методов со встроенными строками."
+        },
+        "ko": {
+          "name": "독스트링",
+          "desc": "Docstring은 모듈, 클래스, 함수, 메서드에 포함된 문자열 문서를 다룹니다."
+        },
+        "pt": {
+          "name": "Docstrings",
+          "desc": "Docstrings cobrem a documentação de módulos, classes, funções e métodos com strings incorporadas."
+        }
+      }
+    },
+    {
+      "key": "python/type_hints",
+      "slug": "type_hints",
+      "name": "Type Hints",
+      "desc": "Type hints cover annotating Python values, functions, and APIs for static understanding.",
+      "i18n": {
+        "zh": {
+          "name": "类型提示",
+          "desc": "类型提示涵盖注释 Python 值、函数和 API 以进行静态理解。"
+        },
+        "es": {
+          "name": "Anotaciones de tipo",
+          "desc": "Las anotaciones de tipo cubren la anotación de valores, funciones y API de Python para facilitar el análisis estático."
+        },
+        "fr": {
+          "name": "Annotations de type",
+          "desc": "Les annotations de type couvrent l’annotation des valeurs, fonctions et API Python pour l’analyse statique."
+        },
+        "de": {
+          "name": "Typannotationen",
+          "desc": "Typannotationen umfassen das Annotieren von Python-Werten, Funktionen und APIs für statische Analysen."
+        },
+        "ja": {
+          "name": "タイプヒント",
+          "desc": "型ヒントでは、静的に理解できるように、値、関数、API に注釈を付けることを扱います。"
+        },
+        "ru": {
+          "name": "Аннотации типов",
+          "desc": "Аннотации типов охватывают аннотирование значений, функций и API Python для статического анализа."
+        },
+        "ko": {
+          "name": "타입 힌트",
+          "desc": "타입 힌트는 정적 분석을 위해 Python 값, 함수 및 API에 타입을 주석으로 표시하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Anotações de tipo",
+          "desc": "As dicas de tipo cobrem a anotação de valores Python, funções e APIs para compreensão estática."
+        }
+      }
+    },
+    {
+      "key": "python/generic_types",
+      "slug": "generic_types",
+      "name": "Generic Types",
+      "desc": "Generic types cover parameterized containers and reusable typed abstractions.",
+      "i18n": {
+        "zh": {
+          "name": "泛型类型",
+          "desc": "泛型类型涵盖参数化容器和可重用类型抽象。"
+        },
+        "es": {
+          "name": "Tipos genéricos",
+          "desc": "Los tipos genéricos cubren contenedores parametrizados y abstracciones tipadas reutilizables."
+        },
+        "fr": {
+          "name": "Types génériques",
+          "desc": "Les types génériques couvrent les conteneurs paramétrés et les abstractions typées réutilisables."
+        },
+        "de": {
+          "name": "Generische Typen",
+          "desc": "Generische Typen umfassen parametrisierte Container und wiederverwendbare typisierte Abstraktionen."
+        },
+        "ja": {
+          "name": "ジェネリックタイプ",
+          "desc": "ジェネリック型は、パラメーター化されたコンテナーと再利用可能な型付き抽象化を扱います。"
+        },
+        "ru": {
+          "name": "Обобщенные типы",
+          "desc": "Универсальные типы охватывают параметризованные контейнеры и повторно используемые типизированные абстракции."
+        },
+        "ko": {
+          "name": "제네릭 타입",
+          "desc": "제네릭 타입은 매개변수화된 컨테이너와 재사용 가능한 타입 추상화를 다룹니다."
+        },
+        "pt": {
+          "name": "Tipos genéricos",
+          "desc": "Os tipos genéricos abrangem contêineres parametrizados e abstrações digitadas reutilizáveis."
+        }
+      }
+    },
+    {
+      "key": "python/union_optional_types",
+      "slug": "union_optional_types",
+      "name": "Union and Optional Types",
+      "desc": "Union and optional types cover values that can take multiple possible types or be absent.",
+      "i18n": {
+        "zh": {
+          "name": "联合和可选类型",
+          "desc": "联合和可选类型涵盖可以采用多种可能类型或不存在的值。"
+        },
+        "es": {
+          "name": "Tipos de unión y opcionales",
+          "desc": "Los tipos de unión y opcionales cubren valores que pueden tomar múltiples tipos posibles o estar ausentes."
+        },
+        "fr": {
+          "name": "Types union et optionnels",
+          "desc": "Les types union et facultatifs couvrent des valeurs qui peuvent prendre plusieurs types possibles ou être absentes."
+        },
+        "de": {
+          "name": "Unions- und optionale Typen",
+          "desc": "Union- und optionale Typen decken Werte ab, die mehrere mögliche Typen annehmen oder fehlen können."
+        },
+        "ja": {
+          "name": "ユニオン型とオプション型",
+          "desc": "Union 型と Optional 型は、複数の可能な型を取る値や存在しない可能性のある値を扱います。"
+        },
+        "ru": {
+          "name": "Union и Optional типы",
+          "desc": "Типы Union и необязательные типы охватывают значения, которые могут принимать несколько возможных типов или отсутствовать."
+        },
+        "ko": {
+          "name": "Union 및 Optional 유형",
+          "desc": "Union 및 Optional 유형은 가능한 여러 유형을 취하거나 없을 수 있는 값을 포함합니다."
+        },
+        "pt": {
+          "name": "União e tipos opcionais",
+          "desc": "Os tipos de união e opcionais cobrem valores que podem assumir vários tipos possíveis ou estar ausentes."
+        }
+      }
+    },
+    {
+      "key": "python/protocols",
+      "slug": "protocols",
+      "name": "Protocols",
+      "desc": "Protocols cover structural typing and behavior-based interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "协议",
+          "desc": "协议涵盖结构类型和基于行为的接口。"
+        },
+        "es": {
+          "name": "Protocolos",
+          "desc": "Los protocolos cubren tipos estructurales e interfaces basadas en el comportamiento."
+        },
+        "fr": {
+          "name": "Protocoles",
+          "desc": "Les protocoles couvrent le typage structurel et les interfaces basées sur le comportement."
+        },
+        "de": {
+          "name": "Protokolle",
+          "desc": "Protokolle umfassen strukturelle Typisierung und verhaltensbasierte Schnittstellen."
+        },
+        "ja": {
+          "name": "プロトコル",
+          "desc": "プロトコルは、構造的な型指定と動作ベースのインターフェイスを扱います。"
+        },
+        "ru": {
+          "name": "Протоколы",
+          "desc": "Протоколы охватывают структурную типизацию и интерфейсы, основанные на поведении."
+        },
+        "ko": {
+          "name": "프로토콜",
+          "desc": "프로토콜은 구조적 유형 지정 및 동작 기반 인터페이스를 다룹니다."
+        },
+        "pt": {
+          "name": "Protocolos",
+          "desc": "Os protocolos cobrem tipagem estrutural e interfaces baseadas em comportamento."
+        }
+      }
+    },
+    {
+      "key": "python/dataclasses",
+      "slug": "dataclasses",
+      "name": "Dataclasses",
+      "desc": "Dataclasses cover concise class definitions for structured data objects.",
+      "i18n": {
+        "zh": {
+          "name": "数据类",
+          "desc": "数据类涵盖结构化数据对象的简明类定义。"
+        },
+        "es": {
+          "name": "Clases de datos",
+          "desc": "Las clases de datos cubren definiciones de clases concisas para objetos de datos estructurados."
+        },
+        "fr": {
+          "name": "Classes de données",
+          "desc": "Les classes de données couvrent des définitions de classe concises pour les objets de données structurées."
+        },
+        "de": {
+          "name": "Datenklassen",
+          "desc": "Datenklassen umfassen prägnante Klassendefinitionen für strukturierte Datenobjekte."
+        },
+        "ja": {
+          "name": "データクラス",
+          "desc": "データクラスは、構造化データオブジェクトの簡潔なクラス定義を扱います。"
+        },
+        "ru": {
+          "name": "Классы данных",
+          "desc": "Классы данных охватывают краткие определения классов для объектов структурированных данных."
+        },
+        "ko": {
+          "name": "데이터 클래스",
+          "desc": "데이터 클래스는 구조화된 데이터 객체에 대한 간결한 클래스 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Classes de dados",
+          "desc": "As classes de dados cobrem definições de classe concisas para objetos de dados estruturados."
+        }
+      }
+    }
+  ]
+}

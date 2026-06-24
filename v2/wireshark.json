@@ -1,0 +1,1287 @@
+{
+  "key": "wireshark",
+  "slug": "wireshark",
+  "name": "Wireshark",
+  "skills": [
+    {
+      "key": "wireshark/interface_selection",
+      "slug": "interface_selection",
+      "name": "Interface Selection",
+      "desc": "Interface selection covers choosing network interfaces and understanding capture visibility.",
+      "i18n": {
+        "zh": {
+          "name": "接口选择",
+          "desc": "接口选择包括选择网络接口和了解捕获可见性。"
+        },
+        "es": {
+          "name": "Selección de interfaz",
+          "desc": "La selección de interfaz cubre la elección de interfaces de red y la comprensión de la visibilidad de la captura."
+        },
+        "fr": {
+          "name": "Sélection d'interface",
+          "desc": "La sélection des interfaces couvre le choix des interfaces réseau et la compréhension de la visibilité de la capture."
+        },
+        "de": {
+          "name": "Schnittstellenauswahl",
+          "desc": "Die Schnittstellenauswahl umfasst die Auswahl von Netzwerkschnittstellen und das Verständnis der Erfassungssichtbarkeit."
+        },
+        "ja": {
+          "name": "インターフェースの選択",
+          "desc": "インターフェイスの選択では、ネットワークインターフェイスの選択とキャプチャの可視性について説明します。"
+        },
+        "ru": {
+          "name": "Выбор интерфейса",
+          "desc": "Выбор интерфейса включает в себя выбор сетевых интерфейсов и понимание видимости захвата."
+        },
+        "ko": {
+          "name": "인터페이스 선택",
+          "desc": "인터페이스 선택에는 네트워크 인터페이스 선택과 캡처 가시성 이해가 포함됩니다."
+        },
+        "pt": {
+          "name": "Seleção de Interface",
+          "desc": "A seleção de interface abrange a escolha de interfaces de rede e a compreensão da visibilidade da captura."
+        }
+      }
+    },
+    {
+      "key": "wireshark/capture_scope",
+      "slug": "capture_scope",
+      "name": "Capture Scope",
+      "desc": "Capture scope covers defining a bounded investigation window and packet collection objective.",
+      "i18n": {
+        "zh": {
+          "name": "捕获范围",
+          "desc": "捕获范围包括定义有界调查窗口和数据包收集目标。"
+        },
+        "es": {
+          "name": "Alcance de captura",
+          "desc": "El alcance de captura cubre la definición de una ventana de investigación limitada y un objetivo de recopilación de paquetes."
+        },
+        "fr": {
+          "name": "Portée de capture",
+          "desc": "La portée de capture couvre la définition d’une fenêtre d’investigation limitée et d’un objectif de collecte de paquets."
+        },
+        "de": {
+          "name": "Erfassungsbereich",
+          "desc": "Der Erfassungsbereich umfasst die Definition eines begrenzten Untersuchungsfensters und eines Paketerfassungsziels."
+        },
+        "ja": {
+          "name": "キャプチャ範囲",
+          "desc": "キャプチャ範囲には、制限された調査ウィンドウとパケット収集目標の定義が含まれます。"
+        },
+        "ru": {
+          "name": "Область захвата",
+          "desc": "Область захвата охватывает определение ограниченного окна расследования и цели сбора пакетов."
+        },
+        "ko": {
+          "name": "캡처 범위",
+          "desc": "캡처 범위에는 제한된 조사 창 및 패킷 수집 목표 정의가 포함됩니다."
+        },
+        "pt": {
+          "name": "Escopo de captura",
+          "desc": "O escopo de captura abrange a definição de uma janela de investigação limitada e um objetivo de coleta de pacotes."
+        }
+      }
+    },
+    {
+      "key": "wireshark/capture_options",
+      "slug": "capture_options",
+      "name": "Capture Options",
+      "desc": "Capture options cover name resolution, promiscuous mode, buffering, and file settings.",
+      "i18n": {
+        "zh": {
+          "name": "捕获选项",
+          "desc": "捕获选项包括名称解析、混杂模式、缓冲和文件设置。"
+        },
+        "es": {
+          "name": "Opciones de captura",
+          "desc": "Las opciones de captura cubren la resolución de nombres, el modo promiscuo, el almacenamiento en búfer y la configuración de archivos."
+        },
+        "fr": {
+          "name": "Options de capture",
+          "desc": "Les options de capture couvrent la résolution de nom, le mode promiscuité, la mise en mémoire tampon et les paramètres de fichier."
+        },
+        "de": {
+          "name": "Aufnahmeoptionen",
+          "desc": "Zu den Aufnahmeoptionen gehören Namensauflösung, Promiscuous-Modus, Pufferung und Dateieinstellungen."
+        },
+        "ja": {
+          "name": "キャプチャオプション",
+          "desc": "キャプチャオプションには、名前解決、プロミスキャスモード、バッファリング、およびファイル設定が含まれます。"
+        },
+        "ru": {
+          "name": "Параметры захвата",
+          "desc": "Параметры захвата включают разрешение имен, promiscuous mode, буферизацию и настройки файлов."
+        },
+        "ko": {
+          "name": "캡처 옵션",
+          "desc": "캡처 옵션에는 이름 확인, promiscuous 모드, 버퍼링 및 파일 설정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Opções de captura",
+          "desc": "As opções de captura abrangem resolução de nomes, modo promíscuo, buffer e configurações de arquivo."
+        }
+      }
+    },
+    {
+      "key": "wireshark/capture_filters",
+      "slug": "capture_filters",
+      "name": "Capture Filters",
+      "desc": "Capture filters cover limiting collected traffic before packets are stored.",
+      "i18n": {
+        "zh": {
+          "name": "捕获过滤器",
+          "desc": "捕获过滤器涵盖在存储数据包之前限制收集的流量。"
+        },
+        "es": {
+          "name": "Filtros de captura",
+          "desc": "Los filtros de captura cubren la limitación del tráfico recopilado antes de que se almacenen los paquetes."
+        },
+        "fr": {
+          "name": "Filtres de capture",
+          "desc": "Les filtres de capture couvrent la limitation du trafic collecté avant que les paquets ne soient stockés."
+        },
+        "de": {
+          "name": "Erfassungsfilter",
+          "desc": "Erfassungsfilter dienen dazu, den gesammelten Datenverkehr zu begrenzen, bevor Pakete gespeichert werden."
+        },
+        "ja": {
+          "name": "キャプチャフィルター",
+          "desc": "キャプチャフィルターは、パケットが保存される前に収集されたトラフィックを制限します。"
+        },
+        "ru": {
+          "name": "Фильтры захвата",
+          "desc": "Фильтры захвата ограничивают собранный трафик перед сохранением пакетов."
+        },
+        "ko": {
+          "name": "캡처 필터",
+          "desc": "캡처 필터는 패킷이 저장되기 전에 수집된 트래픽을 제한합니다."
+        },
+        "pt": {
+          "name": "Filtros de captura",
+          "desc": "Os filtros de captura limitam o tráfego coletado antes que os pacotes sejam armazenados."
+        }
+      }
+    },
+    {
+      "key": "wireshark/capture_file_handling",
+      "slug": "capture_file_handling",
+      "name": "Capture File Handling",
+      "desc": "Capture file handling covers saving, opening, rotating, and preserving packet capture files.",
+      "i18n": {
+        "zh": {
+          "name": "捕获文件处理",
+          "desc": "捕获文件处理包括保存、打开、旋转和保留数据包捕获文件。"
+        },
+        "es": {
+          "name": "Gestión de archivos de captura",
+          "desc": "El manejo de archivos de captura cubre guardar, abrir, rotar y conservar archivos de captura de paquetes."
+        },
+        "fr": {
+          "name": "Gestion des fichiers de capture",
+          "desc": "La gestion des fichiers de capture couvre l'enregistrement, l'ouverture, la rotation et la préservation des fichiers de capture de paquets."
+        },
+        "de": {
+          "name": "Umgang mit Erfassungsdateien",
+          "desc": "Der Umgang mit Erfassungsdateien umfasst das Speichern, Öffnen, Rotieren und Bewahren von Paketerfassungsdateien."
+        },
+        "ja": {
+          "name": "キャプチャファイルの処理",
+          "desc": "キャプチャファイルの処理は、パケットキャプチャファイルの保存、オープン、ローテーション、保全を扱います。"
+        },
+        "ru": {
+          "name": "Обработка файлов захвата",
+          "desc": "Обработка файлов захвата включает сохранение, открытие, ротацию и сохранение файлов захвата пакетов."
+        },
+        "ko": {
+          "name": "캡처 파일 처리",
+          "desc": "캡처 파일 처리에는 패킷 캡처 파일 저장, 열기, 회전 및 보존이 포함됩니다."
+        },
+        "pt": {
+          "name": "Tratamento de arquivos de captura",
+          "desc": "O manuseio de arquivos de captura abrange salvar, abrir, rotacionar e preservar arquivos de captura de pacotes."
+        }
+      }
+    },
+    {
+      "key": "wireshark/packet_navigation",
+      "slug": "packet_navigation",
+      "name": "Packet Navigation",
+      "desc": "Packet navigation covers moving through captured frames, streams, and conversations.",
+      "i18n": {
+        "zh": {
+          "name": "数据包导航",
+          "desc": "数据包导航涵盖在捕获的帧、流和对话中移动。"
+        },
+        "es": {
+          "name": "Navegación de paquetes",
+          "desc": "La navegación de paquetes cubre moverse por tramas, flujos y conversaciones capturados."
+        },
+        "fr": {
+          "name": "Navigation dans les paquets",
+          "desc": "La navigation dans les paquets couvre le déplacement dans les trames, les flux et les conversations capturés."
+        },
+        "de": {
+          "name": "Paketnavigation",
+          "desc": "Die Paketnavigation umfasst das Navigieren durch erfasste Frames, Datenströme und Konversationen."
+        },
+        "ja": {
+          "name": "パケットナビゲーション",
+          "desc": "パケットナビゲーションでは、キャプチャされたフレーム、ストリーム、通信セッション間の移動を扱います。"
+        },
+        "ru": {
+          "name": "Навигация по пакетам",
+          "desc": "Пакетная навигация охватывает перемещение по захваченным кадрам, потокам и сетевым сеансам."
+        },
+        "ko": {
+          "name": "패킷 탐색",
+          "desc": "패킷 탐색은 캡처된 프레임, 스트림 및 통신 세션 간 이동을 다룹니다."
+        },
+        "pt": {
+          "name": "Navegação de pacotes",
+          "desc": "A navegação de pacotes abrange a movimentação por frames, fluxos e sessões de comunicação capturados."
+        }
+      }
+    },
+    {
+      "key": "wireshark/packet_details",
+      "slug": "packet_details",
+      "name": "Packet Details",
+      "desc": "Packet details cover inspecting decoded protocol fields, nested layers, and raw bytes for selected packets.",
+      "i18n": {
+        "zh": {
+          "name": "数据包详情",
+          "desc": "数据包详细信息包括检查所选数据包的解码协议字段、嵌套层和原始字节。"
+        },
+        "es": {
+          "name": "Detalles del paquete",
+          "desc": "Los detalles del paquete cubren la inspección de campos de protocolo decodificados, capas anidadas y bytes sin procesar para paquetes seleccionados."
+        },
+        "fr": {
+          "name": "Détails du paquet",
+          "desc": "Les détails des paquets couvrent l'inspection des champs de protocole décodés, des couches imbriquées et des octets bruts pour les paquets sélectionnés."
+        },
+        "de": {
+          "name": "Paketdetails",
+          "desc": "Zu den Paketdetails gehört die Überprüfung dekodierter Protokollfelder, verschachtelter Schichten und Rohbytes für ausgewählte Pakete."
+        },
+        "ja": {
+          "name": "パケットの詳細",
+          "desc": "パケットの詳細には、デコードされたプロトコルフィールド、ネストされたレイヤー、および選択されたパケットの生バイトの検査が含まれます。"
+        },
+        "ru": {
+          "name": "Детали пакета",
+          "desc": "Сведения о пакете включают проверку декодированных полей протокола, вложенных слоев и необработанных байтов для выбранных пакетов."
+        },
+        "ko": {
+          "name": "패킷 세부정보",
+          "desc": "패킷 세부 정보에는 선택한 패킷에 대한 디코딩된 프로토콜 필드, 중첩 레이어 및 원시 바이트 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Detalhes do pacote",
+          "desc": "Os detalhes do pacote abrangem a inspeção de campos de protocolo decodificados, camadas aninhadas e bytes brutos para pacotes selecionados."
+        }
+      }
+    },
+    {
+      "key": "wireshark/display_filtering",
+      "slug": "display_filtering",
+      "name": "Display Filtering",
+      "desc": "Display filtering covers narrowing visible packets with field-based expressions.",
+      "i18n": {
+        "zh": {
+          "name": "显示过滤",
+          "desc": "显示过滤涵盖使用基于字段的表达式缩小可见数据包的范围。"
+        },
+        "es": {
+          "name": "Filtrado de visualización",
+          "desc": "El filtrado de visualización cubre reducir los paquetes visibles con expresiones basadas en campos."
+        },
+        "fr": {
+          "name": "Filtrage d'affichage",
+          "desc": "Le filtrage d’affichage couvre la réduction des paquets visibles avec des expressions basées sur des champs."
+        },
+        "de": {
+          "name": "Anzeigefilterung",
+          "desc": "Die Anzeigefilterung umfasst das Eingrenzen sichtbarer Pakete mit feldbasierten Ausdrücken."
+        },
+        "ja": {
+          "name": "表示フィルタリング",
+          "desc": "表示フィルタリングは、フィールドベースの式を使用して表示パケットの絞り込みを行います。"
+        },
+        "ru": {
+          "name": "Фильтрация отображения",
+          "desc": "Фильтрация отображения охватывает сужение видимых пакетов с помощью выражений на основе полей."
+        },
+        "ko": {
+          "name": "디스플레이 필터링",
+          "desc": "디스플레이 필터링은 필드 기반 표현을 사용하여 표시되는 패킷 범위를 좁힙니다."
+        },
+        "pt": {
+          "name": "Filtragem de exibição",
+          "desc": "A filtragem de exibição abrange a redução de pacotes visíveis com expressões baseadas em campos."
+        }
+      }
+    },
+    {
+      "key": "wireshark/coloring_rules",
+      "slug": "coloring_rules",
+      "name": "Coloring Rules",
+      "desc": "Coloring rules cover visually highlighting packets by protocol or condition.",
+      "i18n": {
+        "zh": {
+          "name": "着色规则",
+          "desc": "着色规则涵盖按协议或条件在视觉上突出显示数据包。"
+        },
+        "es": {
+          "name": "Reglas de coloración",
+          "desc": "Las reglas de coloración cubren resaltar visualmente los paquetes por protocolo o condición."
+        },
+        "fr": {
+          "name": "Règles de coloration",
+          "desc": "Les règles de coloration couvrent la mise en évidence visuelle des paquets par protocole ou condition."
+        },
+        "de": {
+          "name": "Farbregeln",
+          "desc": "Farbregeln umfassen die visuelle Hervorhebung von Paketen nach Protokoll oder Bedingung."
+        },
+        "ja": {
+          "name": "色分けルール",
+          "desc": "色分けルールは、プロトコルまたは条件ごとにパケットを視覚的に強調表示することを扱います。"
+        },
+        "ru": {
+          "name": "Правила раскрашивания",
+          "desc": "Правила раскраски охватывают визуальное выделение пакетов по протоколу или условию."
+        },
+        "ko": {
+          "name": "색상 지정 규칙",
+          "desc": "색상 지정 규칙은 프로토콜이나 조건별로 패킷을 시각적으로 강조 표시합니다."
+        },
+        "pt": {
+          "name": "Regras de coloração",
+          "desc": "As regras de coloração cobrem o destaque visual dos pacotes por protocolo ou condição."
+        }
+      }
+    },
+    {
+      "key": "wireshark/traffic_conversations",
+      "slug": "traffic_conversations",
+      "name": "Traffic Conversations",
+      "desc": "Traffic conversations cover summarizing endpoints, flows, and exchanged traffic.",
+      "i18n": {
+        "zh": {
+          "name": "流量会话",
+          "desc": "流量会话涵盖端点、流和交换流量的汇总。"
+        },
+        "es": {
+          "name": "Conversaciones de tráfico",
+          "desc": "Las conversaciones de tráfico cubren el resumen de puntos finales, flujos y tráfico intercambiado."
+        },
+        "fr": {
+          "name": "Conversations réseau",
+          "desc": "Les conversations réseau couvrent la synthèse des points de terminaison, des flux et du trafic échangé."
+        },
+        "de": {
+          "name": "Verkehrskonversationen",
+          "desc": "Verkehrskonversationen umfassen die Zusammenfassung von Endpunkten, Flüssen und ausgetauschtem Datenverkehr."
+        },
+        "ja": {
+          "name": "トラフィック通信セッション",
+          "desc": "トラフィック通信セッションは、エンドポイント、フロー、交換されたトラフィックの要約を扱います。"
+        },
+        "ru": {
+          "name": "Сеансы трафика",
+          "desc": "Сеансы трафика охватывают сводку конечных точек, потоков и обменянного трафика."
+        },
+        "ko": {
+          "name": "트래픽 세션",
+          "desc": "트래픽 세션은 엔드포인트, 흐름 및 교환된 트래픽 요약을 다룹니다."
+        },
+        "pt": {
+          "name": "Sessões de tráfego",
+          "desc": "As sessões de tráfego abrangem o resumo de pontos de extremidade, fluxos e tráfego trocado."
+        }
+      }
+    },
+    {
+      "key": "wireshark/ethernet_analysis",
+      "slug": "ethernet_analysis",
+      "name": "Ethernet Analysis",
+      "desc": "Ethernet analysis covers frame structure, MAC addresses, and local network behavior.",
+      "i18n": {
+        "zh": {
+          "name": "以太网分析",
+          "desc": "以太网分析涵盖帧结构、MAC 地址和本地网络行为。"
+        },
+        "es": {
+          "name": "Análisis de Ethernet",
+          "desc": "El análisis de Ethernet cubre la estructura de la trama, las direcciones MAC y el comportamiento de la red local."
+        },
+        "fr": {
+          "name": "Analyse Ethernet",
+          "desc": "L'analyse Ethernet couvre la structure des trames, les adresses MAC et le comportement du réseau local."
+        },
+        "de": {
+          "name": "Ethernet-Analyse",
+          "desc": "Die Ethernet-Analyse umfasst Frame-Struktur, MAC-Adressen und lokales Netzwerkverhalten."
+        },
+        "ja": {
+          "name": "イーサネット解析",
+          "desc": "イーサネット分析には、フレーム構造、MAC アドレス、ローカルネットワークの動作が含まれます。"
+        },
+        "ru": {
+          "name": "Анализ Ethernet",
+          "desc": "Анализ Ethernet охватывает структуру кадра, MAC-адреса и поведение локальной сети."
+        },
+        "ko": {
+          "name": "이더넷 분석",
+          "desc": "이더넷 분석에는 프레임 구조, MAC 주소 및 로컬 네트워크 동작이 포함됩니다."
+        },
+        "pt": {
+          "name": "Análise Ethernet",
+          "desc": "A análise Ethernet abrange estrutura de quadros, endereços MAC e comportamento da rede local."
+        }
+      }
+    },
+    {
+      "key": "wireshark/ip_analysis",
+      "slug": "ip_analysis",
+      "name": "IP Analysis",
+      "desc": "IP analysis covers addressing, fragmentation, TTL, and routing-relevant fields.",
+      "i18n": {
+        "zh": {
+          "name": "IP 分析",
+          "desc": "IP 分析涵盖寻址、分段、TTL 和路由相关字段。"
+        },
+        "es": {
+          "name": "Análisis de IP",
+          "desc": "El análisis IP cubre campos relevantes para el direccionamiento, la fragmentación, TTL y el enrutamiento."
+        },
+        "fr": {
+          "name": "Analyse IP",
+          "desc": "L'analyse IP couvre les champs pertinents pour l'adressage, la fragmentation, TTL et le routage."
+        },
+        "de": {
+          "name": "IP-Analyse",
+          "desc": "Die IP-Analyse umfasst Adressierung, Fragmentierung, TTL und Routing-relevante Felder."
+        },
+        "ja": {
+          "name": "IP 解析",
+          "desc": "IP 分析は、アドレス指定、断片化、TTL、およびルーティング関連フィールドを扱います。"
+        },
+        "ru": {
+          "name": "IP-анализ",
+          "desc": "Анализ IP охватывает поля адресации, фрагментации, TTL и маршрутизации."
+        },
+        "ko": {
+          "name": "IP 분석",
+          "desc": "IP 분석은 주소 지정, 단편화, TTL 및 라우팅 관련 필드를 다룹니다."
+        },
+        "pt": {
+          "name": "Análise de IP",
+          "desc": "A análise IP abrange campos relevantes de endereçamento, fragmentação, TTL e roteamento."
+        }
+      }
+    },
+    {
+      "key": "wireshark/tcp_analysis",
+      "slug": "tcp_analysis",
+      "name": "TCP Analysis",
+      "desc": "TCP analysis covers handshakes, sequence numbers, retransmissions, and connection teardown.",
+      "i18n": {
+        "zh": {
+          "name": "TCP 分析",
+          "desc": "TCP 分析涵盖握手、序列号、重传和连接拆除。"
+        },
+        "es": {
+          "name": "Análisis TCP",
+          "desc": "El análisis TCP cubre el intercambio inicial, números de secuencia, retransmisiones y cierre de conexiones."
+        },
+        "fr": {
+          "name": "Analyse TCP",
+          "desc": "L’analyse TCP couvre les handshakes, les numéros de séquence, les retransmissions et la fermeture de connexion."
+        },
+        "de": {
+          "name": "TCP-Analyse",
+          "desc": "Die TCP-Analyse umfasst Verbindungsaufbauten, Sequenznummern, Neuübertragungen und Verbindungsabbau."
+        },
+        "ja": {
+          "name": "TCP 分析",
+          "desc": "TCP 分析には、ハンドシェイク、シーケンス番号、再送信、接続の切断が含まれます。"
+        },
+        "ru": {
+          "name": "Анализ TCP",
+          "desc": "Анализ TCP охватывает установление соединения, порядковые номера, повторные передачи и завершение соединения."
+        },
+        "ko": {
+          "name": "TCP 분석",
+          "desc": "TCP 분석에는 핸드셰이크, 시퀀스 번호, 재전송 및 연결 해제가 포함됩니다."
+        },
+        "pt": {
+          "name": "Análise TCP",
+          "desc": "A análise TCP cobre negociação inicial, números de sequência, retransmissões e encerramento de conexão."
+        }
+      }
+    },
+    {
+      "key": "wireshark/udp_analysis",
+      "slug": "udp_analysis",
+      "name": "UDP Analysis",
+      "desc": "UDP analysis covers connectionless traffic and application protocol behavior over UDP.",
+      "i18n": {
+        "zh": {
+          "name": "UDP 分析",
+          "desc": "UDP 分析涵盖无连接流量和 UDP 上的应用程序协议行为。"
+        },
+        "es": {
+          "name": "Análisis UDP",
+          "desc": "El análisis UDP cubre el tráfico sin conexión y el comportamiento del protocolo de aplicación a través de UDP."
+        },
+        "fr": {
+          "name": "Analyse UDP",
+          "desc": "L'analyse UDP couvre le trafic sans connexion et le comportement du protocole d'application sur UDP."
+        },
+        "de": {
+          "name": "UDP-Analyse",
+          "desc": "Die UDP-Analyse deckt verbindungslosen Datenverkehr und das Verhalten des Anwendungsprotokolls über UDP ab."
+        },
+        "ja": {
+          "name": "UDP 分析",
+          "desc": "UDP 分析では、UDP 上のコネクションレストラフィックとアプリケーションプロトコルの動作を対象としています。"
+        },
+        "ru": {
+          "name": "Анализ UDP",
+          "desc": "Анализ UDP охватывает трафик без установления соединения и поведение протокола приложения через UDP."
+        },
+        "ko": {
+          "name": "UDP 분석",
+          "desc": "UDP 분석은 UDP를 통한 비연결 트래픽 및 애플리케이션 프로토콜 동작을 다룹니다."
+        },
+        "pt": {
+          "name": "Análise UDP",
+          "desc": "A análise UDP cobre o tráfego sem conexão e o comportamento do protocolo de aplicação sobre UDP."
+        }
+      }
+    },
+    {
+      "key": "wireshark/dns_analysis",
+      "slug": "dns_analysis",
+      "name": "DNS Analysis",
+      "desc": "DNS analysis covers name lookup queries, responses, and resolution failures.",
+      "i18n": {
+        "zh": {
+          "name": "DNS 分析",
+          "desc": "DNS 分析涵盖名称查找查询、响应和解析失败。"
+        },
+        "es": {
+          "name": "Análisis DNS",
+          "desc": "El análisis DNS cubre consultas de búsqueda de nombres, respuestas y fallas de resolución."
+        },
+        "fr": {
+          "name": "Analyse DNS",
+          "desc": "L'analyse DNS couvre les requêtes de recherche de nom, les réponses et les échecs de résolution."
+        },
+        "de": {
+          "name": "DNS-Analyse",
+          "desc": "Die DNS-Analyse deckt Namenssuchanfragen, Antworten und Auflösungsfehler ab."
+        },
+        "ja": {
+          "name": "DNS 分析",
+          "desc": "DNS 分析では、名前検索クエリ、応答、解決エラーを扱います。"
+        },
+        "ru": {
+          "name": "Анализ DNS",
+          "desc": "DNS анализ охватывает запросы поиска имени, ответы и ошибки разрешения."
+        },
+        "ko": {
+          "name": "DNS 분석",
+          "desc": "DNS 분석에는 이름 조회 쿼리, 응답 및 해결 실패가 포함됩니다."
+        },
+        "pt": {
+          "name": "Análise DNS",
+          "desc": "A análise DNS cobre consultas de pesquisa de nomes, respostas e falhas de resolução."
+        }
+      }
+    },
+    {
+      "key": "wireshark/http_analysis",
+      "slug": "http_analysis",
+      "name": "HTTP Analysis",
+      "desc": "HTTP analysis covers requests, responses, headers, status codes, and payload inspection.",
+      "i18n": {
+        "zh": {
+          "name": "HTTP 分析",
+          "desc": "HTTP 分析涵盖请求、响应、标头、状态代码和载荷检查。"
+        },
+        "es": {
+          "name": "Análisis HTTP",
+          "desc": "El análisis HTTP cubre solicitudes, respuestas, encabezados, códigos de estado e inspección de carga útil."
+        },
+        "fr": {
+          "name": "Analyse HTTP",
+          "desc": "L’analyse HTTP couvre les requêtes, les réponses, les en-têtes, les codes d’état et l’inspection de la charge utile."
+        },
+        "de": {
+          "name": "HTTP-Analyse",
+          "desc": "Die HTTP-Analyse umfasst Anfragen, Antworten, Header, Statuscodes und Nutzlastprüfung."
+        },
+        "ja": {
+          "name": "HTTP 分析",
+          "desc": "HTTP 分析には、リクエスト、レスポンス、ヘッダー、ステータスコード、ペイロード検査が含まれます。"
+        },
+        "ru": {
+          "name": "Анализ HTTP",
+          "desc": "Анализ HTTP охватывает запросы, ответы, заголовки, коды состояния и проверку полезной нагрузки."
+        },
+        "ko": {
+          "name": "HTTP 분석",
+          "desc": "HTTP 분석에는 요청, 응답, 헤더, 상태 코드 및 페이로드 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Análise HTTP",
+          "desc": "A análise HTTP abrange solicitações, respostas, cabeçalhos, códigos de status e inspeção de carga útil."
+        }
+      }
+    },
+    {
+      "key": "wireshark/tls_analysis",
+      "slug": "tls_analysis",
+      "name": "TLS Analysis",
+      "desc": "TLS analysis covers handshakes, certificates, encryption negotiation, and visible metadata.",
+      "i18n": {
+        "zh": {
+          "name": "TLS 分析",
+          "desc": "TLS 分析涵盖握手、证书、加密协商和可见元数据。"
+        },
+        "es": {
+          "name": "Análisis TLS",
+          "desc": "El análisis TLS cubre handshakes, certificados, negociación de cifrado y metadatos visibles."
+        },
+        "fr": {
+          "name": "Analyse TLS",
+          "desc": "L’analyse TLS couvre les handshakes, les certificats, la négociation de chiffrement et les métadonnées visibles."
+        },
+        "de": {
+          "name": "TLS-Analyse",
+          "desc": "Die TLS-Analyse umfasst TLS-Handshakes, Zertifikate, Verschlüsselungsaushandlung und sichtbare Metadaten."
+        },
+        "ja": {
+          "name": "TLS 分析",
+          "desc": "TLS 分析には、ハンドシェイク、証明書、暗号化ネゴシエーション、および可視メタデータが含まれます。"
+        },
+        "ru": {
+          "name": "Анализ TLS",
+          "desc": "Анализ TLS охватывает начальное согласование, сертификаты, согласование шифрования и видимые метаданные."
+        },
+        "ko": {
+          "name": "TLS 분석",
+          "desc": "TLS 분석에는 핸드셰이크, 인증서, 암호화 협상 및 표시되는 메타데이터가 포함됩니다."
+        },
+        "pt": {
+          "name": "Análise TLS",
+          "desc": "A análise TLS abrange negociação inicial, certificados, negociação de criptografia e metadados visíveis."
+        }
+      }
+    },
+    {
+      "key": "wireshark/follow_streams",
+      "slug": "follow_streams",
+      "name": "Follow Streams",
+      "desc": "Follow streams cover reconstructing TCP, UDP, or HTTP conversations.",
+      "i18n": {
+        "zh": {
+          "name": "跟踪流",
+          "desc": "跟踪流涵盖重建 TCP、UDP 或 HTTP 会话。"
+        },
+        "es": {
+          "name": "Seguimiento de flujos",
+          "desc": "El seguimiento de flujos cubre la reconstrucción de conversaciones TCP, UDP o HTTP."
+        },
+        "fr": {
+          "name": "Suivi des flux",
+          "desc": "Le suivi des flux couvre la reconstruction des conversations TCP, UDP ou HTTP."
+        },
+        "de": {
+          "name": "Datenströme verfolgen",
+          "desc": "Das Verfolgen von Datenströmen umfasst die Rekonstruktion von TCP-, UDP- oder HTTP-Konversationen."
+        },
+        "ja": {
+          "name": "ストリームの追跡",
+          "desc": "ストリームの追跡は、TCP、UDP、HTTP の通信セッションを再構成することを扱います。"
+        },
+        "ru": {
+          "name": "Отслеживание потоков",
+          "desc": "Отслеживание потоков охватывает восстановление TCP-, UDP- или HTTP-сеансов."
+        },
+        "ko": {
+          "name": "스트림 추적",
+          "desc": "스트림 추적은 TCP, UDP 또는 HTTP 통신 세션을 재구성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Seguimento de fluxos",
+          "desc": "O seguimento de fluxos cobre a reconstrução de sessões TCP, UDP ou HTTP."
+        }
+      }
+    },
+    {
+      "key": "wireshark/object_export",
+      "slug": "object_export",
+      "name": "Object Export",
+      "desc": "Object export covers extracting files or transferred objects from supported protocols.",
+      "i18n": {
+        "zh": {
+          "name": "对象导出",
+          "desc": "对象导出涵盖从支持的协议中提取文件或传输的对象。"
+        },
+        "es": {
+          "name": "Exportación de objetos",
+          "desc": "La exportación de objetos cubre la extracción de archivos u objetos transferidos desde protocolos compatibles."
+        },
+        "fr": {
+          "name": "Exportation d'objet",
+          "desc": "L'exportation d'objets couvre l'extraction de fichiers ou d'objets transférés à partir de protocoles pris en charge."
+        },
+        "de": {
+          "name": "Objektexport",
+          "desc": "Der Objektexport umfasst das Extrahieren von Dateien oder übertragenen Objekten aus unterstützten Protokollen."
+        },
+        "ja": {
+          "name": "オブジェクトのエクスポート",
+          "desc": "オブジェクトのエクスポートには、サポートされているプロトコルからのファイルまたは転送されたオブジェクトの抽出が含まれます。"
+        },
+        "ru": {
+          "name": "Экспорт объекта",
+          "desc": "Экспорт объектов включает извлечение файлов или переданных объектов из поддерживаемых протоколов."
+        },
+        "ko": {
+          "name": "객체 내보내기",
+          "desc": "개체 내보내기에는 지원되는 프로토콜에서 파일 또는 전송된 개체를 추출하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Exportação de objeto",
+          "desc": "A exportação de objetos abrange a extração de arquivos ou objetos transferidos de protocolos suportados."
+        }
+      }
+    },
+    {
+      "key": "wireshark/packet_export",
+      "slug": "packet_export",
+      "name": "Packet Export",
+      "desc": "Packet export covers saving selected packets or filtered subsets for sharing.",
+      "i18n": {
+        "zh": {
+          "name": "数据包导出",
+          "desc": "数据包导出包括保存选定的数据包或过滤的子集以供共享。"
+        },
+        "es": {
+          "name": "Exportación de paquetes",
+          "desc": "La exportación de paquetes cubre guardar paquetes seleccionados o subconjuntos filtrados para compartir."
+        },
+        "fr": {
+          "name": "Exportation de paquets",
+          "desc": "L'exportation de paquets couvre la sauvegarde des paquets sélectionnés ou des sous-ensembles filtrés pour le partage."
+        },
+        "de": {
+          "name": "Paketexport",
+          "desc": "Der Paketexport umfasst das Speichern ausgewählter Pakete oder gefilterter Teilmengen zur gemeinsamen Nutzung."
+        },
+        "ja": {
+          "name": "パケットのエクスポート",
+          "desc": "パケットのエクスポートでは、選択したパケットまたはフィルタリングされたサブセットを共有用に保存します。"
+        },
+        "ru": {
+          "name": "Экспорт пакетов",
+          "desc": "Экспорт пакетов включает сохранение выбранных пакетов или отфильтрованных подмножеств для совместного использования."
+        },
+        "ko": {
+          "name": "패킷 내보내기",
+          "desc": "패킷 내보내기에는 공유를 위해 선택한 패킷 또는 필터링된 하위 집합을 저장하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Exportação de pacotes",
+          "desc": "A exportação de pacotes abrange o salvamento de pacotes selecionados ou subconjuntos filtrados para compartilhamento."
+        }
+      }
+    },
+    {
+      "key": "wireshark/traffic_statistics",
+      "slug": "traffic_statistics",
+      "name": "Traffic Statistics",
+      "desc": "Traffic statistics cover using summaries, protocol hierarchy, endpoints, conversations, and I/O graphs.",
+      "i18n": {
+        "zh": {
+          "name": "流量统计",
+          "desc": "流量统计涵盖使用摘要、协议层次结构、端点、对话和 I/O 图。"
+        },
+        "es": {
+          "name": "Estadísticas de tráfico",
+          "desc": "Las estadísticas de tráfico cubren el uso de resúmenes, jerarquía de protocolos, puntos finales, conversaciones y gráficos de E/S."
+        },
+        "fr": {
+          "name": "Statistiques de trafic",
+          "desc": "Les statistiques de trafic couvrent l’utilisation de résumés, de la hiérarchie des protocoles, des points de terminaison, des conversations et des graphiques d’E/S."
+        },
+        "de": {
+          "name": "Verkehrsstatistiken",
+          "desc": "Verkehrsstatistiken umfassen Zusammenfassungen, Protokollhierarchien, Endpunkte, Konversationen und E/A-Diagramme."
+        },
+        "ja": {
+          "name": "トラフィック統計",
+          "desc": "トラフィック統計には、概要、プロトコル階層、エンドポイント、通信セッション、および I/O グラフの使用が含まれます。"
+        },
+        "ru": {
+          "name": "Статистика трафика",
+          "desc": "Статистика трафика охватывает использование сводных данных, иерархии протоколов, конечных точек, сетевых сеансов и графиков ввода-вывода."
+        },
+        "ko": {
+          "name": "트래픽 통계",
+          "desc": "트래픽 통계에는 요약, 프로토콜 계층, 엔드포인트, 통신 세션 및 I/O 그래프 사용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Estatísticas de tráfego",
+          "desc": "As estatísticas de tráfego abrangem o uso de resumos, hierarquia de protocolo, pontos de extremidade, sessões e gráficos de E/S."
+        }
+      }
+    },
+    {
+      "key": "wireshark/time_analysis",
+      "slug": "time_analysis",
+      "name": "Time Analysis",
+      "desc": "Time analysis covers interpreting timestamps, deltas, and packet timing patterns.",
+      "i18n": {
+        "zh": {
+          "name": "时间分析",
+          "desc": "时间分析包括解释时间戳、增量和数据包计时模式。"
+        },
+        "es": {
+          "name": "Análisis de tiempo",
+          "desc": "El análisis de tiempo cubre la interpretación de marcas de tiempo, deltas y patrones de sincronización de paquetes."
+        },
+        "fr": {
+          "name": "Analyse du temps",
+          "desc": "L'analyse temporelle couvre l'interprétation des horodatages, des deltas et des modèles de synchronisation des paquets."
+        },
+        "de": {
+          "name": "Zeitanalyse",
+          "desc": "Die Zeitanalyse umfasst die Interpretation von Zeitstempeln, Deltas und Paket-Timing-Mustern."
+        },
+        "ja": {
+          "name": "時間分析",
+          "desc": "時間分析には、タイムスタンプ、デルタ、パケットタイミングパターンの解釈が含まれます。"
+        },
+        "ru": {
+          "name": "Временной анализ",
+          "desc": "Временной анализ охватывает интерпретацию временных меток, дельт и шаблонов синхронизации пакетов."
+        },
+        "ko": {
+          "name": "시간 분석",
+          "desc": "시간 분석에는 타임스탬프, 델타 및 패킷 타이밍 패턴 해석이 포함됩니다."
+        },
+        "pt": {
+          "name": "Análise de Tempo",
+          "desc": "A análise de tempo abrange a interpretação de carimbos de data/hora, deltas e padrões de temporização de pacotes."
+        }
+      }
+    },
+    {
+      "key": "wireshark/connectivity_troubleshooting",
+      "slug": "connectivity_troubleshooting",
+      "name": "Connectivity Troubleshooting",
+      "desc": "Connectivity troubleshooting covers identifying failed handshakes, unreachable hosts, and reset connections.",
+      "i18n": {
+        "zh": {
+          "name": "连接故障排除",
+          "desc": "连接故障排除包括识别失败的握手、无法访问的主机和重置连接。"
+        },
+        "es": {
+          "name": "Solución de problemas de conectividad",
+          "desc": "La solución de problemas de conectividad cubre la identificación de establecimientos de conexión fallidos, hosts inalcanzables y conexiones restablecidas."
+        },
+        "fr": {
+          "name": "Dépannage de connectivité",
+          "desc": "Le dépannage de connectivité couvre l’identification des établissements de connexion échoués, des hôtes inaccessibles et des connexions réinitialisées."
+        },
+        "de": {
+          "name": "Fehlerbehebung bei Konnektivität",
+          "desc": "Die Fehlerbehebung bei Konnektivität umfasst die Identifizierung fehlgeschlagener Verbindungsaufbauten, nicht erreichbarer Hosts und zurückgesetzter Verbindungen."
+        },
+        "ja": {
+          "name": "接続のトラブルシューティング",
+          "desc": "接続のトラブルシューティングには、失敗したハンドシェイク、到達不能なホスト、およびリセットされた接続の特定が含まれます。"
+        },
+        "ru": {
+          "name": "Устранение неполадок подключения",
+          "desc": "Устранение неполадок подключения включает выявление неудачных рукопожатий, недоступных хостов и сброшенных соединений."
+        },
+        "ko": {
+          "name": "연결 문제 해결",
+          "desc": "연결 문제 해결에는 실패한 핸드셰이크 식별, 연결할 수 없는 호스트 식별, 연결 재설정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Solução de problemas de conectividade",
+          "desc": "A solução de problemas de conectividade abrange a identificação de negociações iniciais com falha, hosts inacessíveis e conexões redefinidas."
+        }
+      }
+    },
+    {
+      "key": "wireshark/latency_analysis",
+      "slug": "latency_analysis",
+      "name": "Latency Analysis",
+      "desc": "Latency analysis covers finding slow responses, retransmissions, and timing gaps.",
+      "i18n": {
+        "zh": {
+          "name": "延迟分析",
+          "desc": "延迟分析包括查找缓慢响应、重传和时序间隙。"
+        },
+        "es": {
+          "name": "Análisis de latencia",
+          "desc": "El análisis de latencia cubre la búsqueda de respuestas lentas, retransmisiones y brechas de tiempo."
+        },
+        "fr": {
+          "name": "Analyse de latence",
+          "desc": "L'analyse de la latence couvre la recherche de réponses lentes, de retransmissions et d'écarts de synchronisation."
+        },
+        "de": {
+          "name": "Latenzanalyse",
+          "desc": "Die Latenzanalyse umfasst die Suche nach langsamen Antworten, Neuübertragungen und Zeitlücken."
+        },
+        "ja": {
+          "name": "レイテンシー分析",
+          "desc": "遅延分析には、遅い応答、再送信、タイミングギャップの発見が含まれます。"
+        },
+        "ru": {
+          "name": "Анализ задержки",
+          "desc": "Анализ задержки охватывает поиск медленных ответов, повторных передач и временных промежутков."
+        },
+        "ko": {
+          "name": "지연 분석",
+          "desc": "지연 시간 분석에는 느린 응답, 재전송 및 타이밍 차이를 찾는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Análise de Latência",
+          "desc": "A análise de latência abrange a localização de respostas lentas, retransmissões e lacunas de tempo."
+        }
+      }
+    },
+    {
+      "key": "wireshark/packet_loss_analysis",
+      "slug": "packet_loss_analysis",
+      "name": "Packet Loss Analysis",
+      "desc": "Packet loss analysis covers recognizing retransmissions, duplicate acknowledgments, and missing responses.",
+      "i18n": {
+        "zh": {
+          "name": "丢包分析",
+          "desc": "数据包丢失分析包括识别重传、重复确认和丢失响应。"
+        },
+        "es": {
+          "name": "Análisis de pérdida de paquetes",
+          "desc": "El análisis de pérdida de paquetes cubre el reconocimiento de retransmisiones, ACK duplicados y respuestas faltantes."
+        },
+        "fr": {
+          "name": "Analyse de perte de paquets",
+          "desc": "L’analyse des pertes de paquets couvre la reconnaissance des retransmissions, des ACK dupliqués et des réponses manquantes."
+        },
+        "de": {
+          "name": "Paketverlustanalyse",
+          "desc": "Die Paketverlustanalyse umfasst die Erkennung erneuter Übertragungen, doppelter ACKs und fehlender Antworten."
+        },
+        "ja": {
+          "name": "パケットロス分析",
+          "desc": "パケット損失分析には、再送信、重複した確認応答、応答の欠落の認識が含まれます。"
+        },
+        "ru": {
+          "name": "Анализ потерь пакетов",
+          "desc": "Анализ потери пакетов охватывает распознавание повторных передач, дублирующих подтверждений и отсутствующих ответов."
+        },
+        "ko": {
+          "name": "패킷 손실 분석",
+          "desc": "패킷 손실 분석은 재전송, 중복 ACK 및 누락된 응답을 인식하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Análise de perda de pacotes",
+          "desc": "A análise de perda de pacotes abrange o reconhecimento de retransmissões, confirmações duplicadas e respostas ausentes."
+        }
+      }
+    },
+    {
+      "key": "wireshark/protocol_debugging",
+      "slug": "protocol_debugging",
+      "name": "Protocol Debugging",
+      "desc": "Protocol debugging covers correlating packet behavior with application or service symptoms.",
+      "i18n": {
+        "zh": {
+          "name": "协议调试",
+          "desc": "协议调试涵盖将数据包行为与应用程序或服务症状相关联。"
+        },
+        "es": {
+          "name": "Depuración de protocolos",
+          "desc": "La depuración de protocolos cubre la correlación del comportamiento de los paquetes con los síntomas de la aplicación o del servicio."
+        },
+        "fr": {
+          "name": "Débogage du protocole",
+          "desc": "Le débogage du protocole couvre la corrélation du comportement des paquets avec les symptômes de l'application ou du service."
+        },
+        "de": {
+          "name": "Protokoll-Debugging",
+          "desc": "Das Protokoll-Debugging umfasst die Korrelation des Paketverhaltens mit Anwendungs- oder Dienstsymptomen."
+        },
+        "ja": {
+          "name": "プロトコルのデバッグ",
+          "desc": "プロトコルのデバッグでは、パケットの動作とアプリケーションまたはサービスの症状との相関関係を扱います。"
+        },
+        "ru": {
+          "name": "Отладка протокола",
+          "desc": "Отладка протокола охватывает корреляцию поведения пакетов с симптомами приложения или службы."
+        },
+        "ko": {
+          "name": "프로토콜 디버깅",
+          "desc": "프로토콜 디버깅은 패킷 동작과 응용 프로그램 또는 서비스 증상의 상관 관계를 다룹니다."
+        },
+        "pt": {
+          "name": "Depuração de protocolo",
+          "desc": "A depuração de protocolo abrange a correlação do comportamento do pacote com sintomas de aplicativos ou serviços."
+        }
+      }
+    },
+    {
+      "key": "wireshark/baseline_comparison",
+      "slug": "baseline_comparison",
+      "name": "Baseline Comparison",
+      "desc": "Baseline comparison covers comparing healthy and unhealthy captures to isolate differences.",
+      "i18n": {
+        "zh": {
+          "name": "基线比较",
+          "desc": "基线比较包括比较正常和异常的捕获以隔离差异。"
+        },
+        "es": {
+          "name": "Comparación de referencia",
+          "desc": "La comparación de referencia cubre la comparación de capturas normales y anómalas para aislar las diferencias."
+        },
+        "fr": {
+          "name": "Comparaison de base",
+          "desc": "La comparaison de base consiste à comparer des captures normales et anormales pour isoler les différences."
+        },
+        "de": {
+          "name": "Basisvergleich",
+          "desc": "Der Basisvergleich umfasst den Vergleich normaler und anomaler Mitschnitte, um Unterschiede zu isolieren."
+        },
+        "ja": {
+          "name": "ベースラインの比較",
+          "desc": "ベースライン比較では、正常なキャプチャと異常なキャプチャを比較して違いを分離します。"
+        },
+        "ru": {
+          "name": "Базовое сравнение",
+          "desc": "Базовое сравнение включает сравнение нормальных и аномальных захватов для выявления различий."
+        },
+        "ko": {
+          "name": "기준선 비교",
+          "desc": "기준선 비교는 정상 캡처와 비정상 캡처를 비교하여 차이점을 격리하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Comparação de linha de base",
+          "desc": "A comparação de linha de base abrange a comparação de capturas normais e anômalas para isolar diferenças."
+        }
+      }
+    },
+    {
+      "key": "wireshark/suspicious_traffic",
+      "slug": "suspicious_traffic",
+      "name": "Suspicious Traffic",
+      "desc": "Suspicious traffic covers identifying unusual protocols, destinations, timing, or payload indicators.",
+      "i18n": {
+        "zh": {
+          "name": "可疑流量",
+          "desc": "可疑流量包括识别异常协议、目的地、时间模式或载荷指标。"
+        },
+        "es": {
+          "name": "Tráfico sospechoso",
+          "desc": "El tráfico sospechoso cubre la identificación de protocolos, destinos, patrones temporales o indicadores de carga útil inusuales."
+        },
+        "fr": {
+          "name": "Trafic suspect",
+          "desc": "Le trafic suspect couvre l’identification de protocoles, de destinations, de schémas temporels ou d’indicateurs de charge utile inhabituels."
+        },
+        "de": {
+          "name": "Verdächtiger Datenverkehr",
+          "desc": "Verdächtiger Datenverkehr umfasst die Identifizierung ungewöhnlicher Protokolle, Ziele, Zeitmuster oder Nutzlastindikatoren."
+        },
+        "ja": {
+          "name": "不審なトラフィック",
+          "desc": "不審なトラフィックには、異常なプロトコル、宛先、タイミング、またはペイロードインジケーターの特定が含まれます。"
+        },
+        "ru": {
+          "name": "Подозрительный трафик",
+          "desc": "Подозрительный трафик включает выявление необычных протоколов, пунктов назначения, временных шаблонов или индикаторов полезной нагрузки."
+        },
+        "ko": {
+          "name": "의심스러운 트래픽",
+          "desc": "의심스러운 트래픽에는 비정상적인 프로토콜, 대상, 타이밍 또는 페이로드 표시기를 식별하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Tráfego Suspeito",
+          "desc": "O tráfego suspeito abrange a identificação de protocolos, destinos, padrões temporais ou indicadores de carga útil incomuns."
+        }
+      }
+    },
+    {
+      "key": "wireshark/credential_exposure",
+      "slug": "credential_exposure",
+      "name": "Credential Exposure",
+      "desc": "Credential exposure covers recognizing sensitive data sent through insecure protocols.",
+      "i18n": {
+        "zh": {
+          "name": "凭据暴露",
+          "desc": "凭据暴露包括识别通过不安全协议发送的敏感数据。"
+        },
+        "es": {
+          "name": "Exposición de credenciales",
+          "desc": "La exposición de credenciales cubre el reconocimiento de datos confidenciales enviados a través de protocolos inseguros."
+        },
+        "fr": {
+          "name": "Exposition des identifiants",
+          "desc": "L’exposition des identifiants couvre la reconnaissance des données sensibles envoyées via des protocoles non sécurisés."
+        },
+        "de": {
+          "name": "Offenlegung von Zugangsdaten",
+          "desc": "Die Offenlegung von Zugangsdaten umfasst die Erkennung sensibler Daten, die über unsichere Protokolle gesendet werden."
+        },
+        "ja": {
+          "name": "資格情報の漏洩",
+          "desc": "資格情報の漏洩には、安全でないプロトコルを通じて送信された機密データの認識が含まれます。"
+        },
+        "ru": {
+          "name": "Раскрытие учетных данных",
+          "desc": "Раскрытие учетных данных охватывает распознавание конфиденциальных данных, отправленных через небезопасные протоколы."
+        },
+        "ko": {
+          "name": "자격 증명 노출",
+          "desc": "자격 증명 노출에는 안전하지 않은 프로토콜을 통해 전송된 민감한 데이터를 인식하는 것이 포함됩니다."
+        },
+        "pt": {
+          "name": "Exposição de credenciais",
+          "desc": "A exposição de credenciais abrange o reconhecimento de dados confidenciais enviados por meio de protocolos inseguros."
+        }
+      }
+    },
+    {
+      "key": "wireshark/malware_traffic_indicators",
+      "slug": "malware_traffic_indicators",
+      "name": "Malware Traffic Indicators",
+      "desc": "Malware traffic indicators cover command-and-control patterns, beacons, and anomalous flows.",
+      "i18n": {
+        "zh": {
+          "name": "恶意软件流量指标",
+          "desc": "恶意软件流量指标涵盖 C2 模式、信标和异常流。"
+        },
+        "es": {
+          "name": "Indicadores de tráfico de malware",
+          "desc": "Los indicadores de tráfico de malware cubren patrones de C2, beacons y flujos anómalos."
+        },
+        "fr": {
+          "name": "Indicateurs de trafic de logiciels malveillants",
+          "desc": "Les indicateurs de trafic de logiciels malveillants couvrent les modèles C2, les beacons et les flux anormaux."
+        },
+        "de": {
+          "name": "Indikatoren für den Malware-Verkehr",
+          "desc": "Malware-Verkehrsindikatoren decken C2-Muster, Beacons und anomale Flüsse ab."
+        },
+        "ja": {
+          "name": "マルウェアトラフィック指標",
+          "desc": "マルウェアトラフィック指標は、C2 パターン、ビーコン、異常なフローを扱います。"
+        },
+        "ru": {
+          "name": "Индикаторы трафика вредоносных программ",
+          "desc": "Индикаторы трафика вредоносного ПО охватывают C2-шаблоны, beacons и аномальные потоки."
+        },
+        "ko": {
+          "name": "악성코드 트래픽 지표",
+          "desc": "악성코드 트래픽 지표는 C2 패턴, 비콘 및 비정상적인 흐름을 다룹니다."
+        },
+        "pt": {
+          "name": "Indicadores de tráfego de malware",
+          "desc": "Os indicadores de tráfego de malware abrangem padrões de C2, beacons e fluxos anômalos."
+        }
+      }
+    },
+    {
+      "key": "wireshark/tls_certificate_review",
+      "slug": "tls_certificate_review",
+      "name": "TLS Certificate Review",
+      "desc": "TLS certificate review covers evaluating certificate metadata and trust signals in captured sessions.",
+      "i18n": {
+        "zh": {
+          "name": "TLS 证书审核",
+          "desc": "TLS 证书审查涵盖评估捕获会话中的证书元数据和信任信号。"
+        },
+        "es": {
+          "name": "Revisión de certificados TLS",
+          "desc": "La revisión de certificados TLS cubre la evaluación de metadatos de certificados y señales de confianza en sesiones capturadas."
+        },
+        "fr": {
+          "name": "Examen des certificats TLS",
+          "desc": "L'examen des certificats TLS couvre l'évaluation des métadonnées des certificats et des signaux de confiance dans les sessions capturées."
+        },
+        "de": {
+          "name": "TLS-Zertifikatsüberprüfung",
+          "desc": "Die TLS-Zertifikatsüberprüfung umfasst die Auswertung von Zertifikatsmetadaten und Vertrauenssignalen in erfassten Sitzungen."
+        },
+        "ja": {
+          "name": "TLS 証明書のレビュー",
+          "desc": "TLS 証明書のレビューでは、キャプチャされたセッションにおける証明書のメタデータと信頼シグナルの評価が対象になります。"
+        },
+        "ru": {
+          "name": "Проверка TLS-сертификатов",
+          "desc": "Проверка TLS-сертификатов охватывает оценку метаданных сертификатов и сигналов доверия в захваченных сеансах."
+        },
+        "ko": {
+          "name": "TLS 인증서 검토",
+          "desc": "TLS 인증서 검토에는 캡처된 세션의 인증서 메타데이터 및 신뢰 신호 평가가 포함됩니다."
+        },
+        "pt": {
+          "name": "Revisão de certificados TLS",
+          "desc": "A revisão de certificados TLS abrange a avaliação de metadados de certificados e sinais de confiança em sessões capturadas."
+        }
+      }
+    },
+    {
+      "key": "wireshark/evidence_reporting",
+      "slug": "evidence_reporting",
+      "name": "Evidence Reporting",
+      "desc": "Evidence reporting covers documenting packets, filters, timestamps, and interpretations for review.",
+      "i18n": {
+        "zh": {
+          "name": "证据记录",
+          "desc": "证据记录涵盖为复核记录数据包、过滤器、时间戳和分析解释。"
+        },
+        "es": {
+          "name": "Documentación de evidencia",
+          "desc": "La documentación de evidencia cubre registrar paquetes, filtros, marcas de tiempo e interpretaciones para revisión."
+        },
+        "fr": {
+          "name": "Documentation des preuves",
+          "desc": "La documentation des preuves couvre l’enregistrement des paquets, des filtres, des horodatages et des interprétations pour examen."
+        },
+        "de": {
+          "name": "Beweisdokumentation",
+          "desc": "Die Beweisdokumentation umfasst das Festhalten von Paketen, Filtern, Zeitstempeln und Interpretationen zur Überprüfung."
+        },
+        "ja": {
+          "name": "証拠の記録",
+          "desc": "証拠の記録は、レビュー用にパケット、フィルター、タイムスタンプ、解釈を文書化することを扱います。"
+        },
+        "ru": {
+          "name": "Документирование доказательств",
+          "desc": "Документирование доказательств охватывает фиксацию пакетов, фильтров, временных меток и интерпретаций для проверки."
+        },
+        "ko": {
+          "name": "증거 문서화",
+          "desc": "증거 문서화는 검토를 위해 패킷, 필터, 타임스탬프 및 해석을 기록하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Documentação de evidências",
+          "desc": "A documentação de evidências abrange registrar pacotes, filtros, carimbos de data/hora e interpretações para revisão."
+        }
+      }
+    }
+  ]
+}

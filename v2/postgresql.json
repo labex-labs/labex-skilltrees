@@ -1,0 +1,1687 @@
+{
+  "key": "postgresql",
+  "slug": "postgresql",
+  "name": "PostgreSQL",
+  "skills": [
+    {
+      "key": "postgresql/server_connection",
+      "slug": "server_connection",
+      "name": "Server Connection",
+      "desc": "Server connection covers connecting to PostgreSQL instances and selecting database context.",
+      "i18n": {
+        "zh": {
+          "name": "服务器连接",
+          "desc": "服务器连接包括连接 PostgreSQL 实例和选择数据库上下文。"
+        },
+        "es": {
+          "name": "Conexión del servidor",
+          "desc": "La conexión del servidor cubre la conexión a instancias PostgreSQL y la selección del contexto de la base de datos."
+        },
+        "fr": {
+          "name": "Connexion au serveur",
+          "desc": "La connexion au serveur couvre la connexion aux instances PostgreSQL et la sélection du contexte de la base de données."
+        },
+        "de": {
+          "name": "Serververbindung",
+          "desc": "Die Serververbindung umfasst die Verbindung zu PostgreSQL-Instanzen und die Auswahl des Datenbankkontexts."
+        },
+        "ja": {
+          "name": "サーバー接続",
+          "desc": "サーバー接続では、PostgreSQL インスタンスへの接続とデータベースコンテキストの選択について説明します。"
+        },
+        "ru": {
+          "name": "Подключение к серверу",
+          "desc": "Подключение к серверу включает подключение к экземплярам PostgreSQL и выбор контекста базы данных."
+        },
+        "ko": {
+          "name": "서버 연결",
+          "desc": "서버 연결에는 PostgreSQL 인스턴스 연결 및 데이터베이스 컨텍스트 선택이 포함됩니다."
+        },
+        "pt": {
+          "name": "Conexão do servidor",
+          "desc": "A conexão do servidor cobre a conexão com instâncias PostgreSQL e a seleção do contexto do banco de dados."
+        }
+      }
+    },
+    {
+      "key": "postgresql/database_lifecycle",
+      "slug": "database_lifecycle",
+      "name": "Database Lifecycle",
+      "desc": "Database lifecycle covers creating, connecting to, altering, and dropping databases.",
+      "i18n": {
+        "zh": {
+          "name": "数据库生命周期",
+          "desc": "数据库生命周期涵盖创建、连接、更改和删除数据库。"
+        },
+        "es": {
+          "name": "Ciclo de vida de la base de datos",
+          "desc": "El ciclo de vida de la base de datos cubre la creación, conexión, modificación y eliminación de bases de datos."
+        },
+        "fr": {
+          "name": "Cycle de vie de la base de données",
+          "desc": "Le cycle de vie des bases de données couvre la création, la connexion, la modification et la suppression de bases de données."
+        },
+        "de": {
+          "name": "Datenbanklebenszyklus",
+          "desc": "Der Datenbanklebenszyklus umfasst das Erstellen, Herstellen einer Verbindung mit, Ändern und Löschen von Datenbanken."
+        },
+        "ja": {
+          "name": "データベースのライフサイクル",
+          "desc": "データベースのライフサイクルには、データベースの作成、接続、変更、削除が含まれます。"
+        },
+        "ru": {
+          "name": "Жизненный цикл базы данных",
+          "desc": "Жизненный цикл базы данных охватывает создание, подключение, изменение и удаление баз данных."
+        },
+        "ko": {
+          "name": "데이터베이스 수명주기",
+          "desc": "데이터베이스 수명주기에는 데이터베이스 생성, 연결, 변경 및 삭제가 포함됩니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida do banco de dados",
+          "desc": "O ciclo de vida do banco de dados abrange a criação, conexão, alteração e eliminação de bancos de dados."
+        }
+      }
+    },
+    {
+      "key": "postgresql/schemas",
+      "slug": "schemas",
+      "name": "Schemas",
+      "desc": "Schemas cover namespaces for organizing PostgreSQL database objects.",
+      "i18n": {
+        "zh": {
+          "name": "模式",
+          "desc": "模式涵盖用于组织 PostgreSQL 数据库对象的命名空间。"
+        },
+        "es": {
+          "name": "Esquemas",
+          "desc": "Los esquemas cubren espacios de nombres para organizar objetos de base de datos de PostgreSQL."
+        },
+        "fr": {
+          "name": "Schémas",
+          "desc": "Les schémas couvrent les espaces de noms utilisés pour organiser les objets de base de données PostgreSQL."
+        },
+        "de": {
+          "name": "Schemata",
+          "desc": "Schemata decken Namensräume zum Organisieren von PostgreSQL-Datenbankobjekten ab."
+        },
+        "ja": {
+          "name": "スキーマ",
+          "desc": "スキーマは、PostgreSQL データベースオブジェクトを編成するための名前空間を扱います。"
+        },
+        "ru": {
+          "name": "Схемы",
+          "desc": "Схемы охватывают пространства имен для организации объектов базы данных PostgreSQL."
+        },
+        "ko": {
+          "name": "스키마",
+          "desc": "스키마는 PostgreSQL 데이터베이스 개체를 구성하기 위한 네임스페이스를 다룹니다."
+        },
+        "pt": {
+          "name": "Esquemas",
+          "desc": "Os esquemas cobrem espaços de nomes para organizar objetos de banco de dados do PostgreSQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/table_design",
+      "slug": "table_design",
+      "name": "Table Design",
+      "desc": "Table design covers defining tables, columns, defaults, and schema structure.",
+      "i18n": {
+        "zh": {
+          "name": "表设计",
+          "desc": "表设计涵盖定义 PostgreSQL 表、列、默认值和模式结构。"
+        },
+        "es": {
+          "name": "Diseño de tablas",
+          "desc": "El diseño de tablas cubre la definición de tablas, columnas, valores predeterminados y estructura de esquema en PostgreSQL."
+        },
+        "fr": {
+          "name": "Conception de tables",
+          "desc": "La conception de tables couvre la définition des tables, des colonnes, des valeurs par défaut et de la structure de schéma dans PostgreSQL."
+        },
+        "de": {
+          "name": "Tabellendesign",
+          "desc": "Tabellendesign behandelt das Definieren von PostgreSQL-Tabellen, Spalten, Standardwerten und Schemastruktur."
+        },
+        "ja": {
+          "name": "テーブル設計",
+          "desc": "PostgreSQL のテーブル、列、デフォルト値、スキーマ構造の定義を扱います。"
+        },
+        "ru": {
+          "name": "Проектирование таблиц",
+          "desc": "Проектирование таблиц охватывает определение таблиц PostgreSQL, столбцов, значений по умолчанию и структуры схемы."
+        },
+        "ko": {
+          "name": "테이블 설계",
+          "desc": "PostgreSQL 테이블, 열, 기본값 및 스키마 구조 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Design de tabelas",
+          "desc": "O design de tabelas abrange a definição de tabelas, colunas, valores padrão e estrutura de esquema no PostgreSQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/table_modification",
+      "slug": "table_modification",
+      "name": "Table Modification",
+      "desc": "Table modification covers changing existing table definitions safely.",
+      "i18n": {
+        "zh": {
+          "name": "表修改",
+          "desc": "表修改涵盖安全地更改现有表定义。"
+        },
+        "es": {
+          "name": "Modificación de tabla",
+          "desc": "La modificación de tablas cubre el cambio de definiciones de tablas existentes de forma segura."
+        },
+        "fr": {
+          "name": "Modification de table",
+          "desc": "La modification de table couvre la modification des définitions de table existantes en toute sécurité."
+        },
+        "de": {
+          "name": "Tabellenänderung",
+          "desc": "Bei der Tabellenänderung handelt es sich um die sichere Änderung bestehender Tabellendefinitionen."
+        },
+        "ja": {
+          "name": "テーブルの変更",
+          "desc": "テーブルの変更では、既存のテーブル定義を安全に変更できます。"
+        },
+        "ru": {
+          "name": "Модификация таблицы",
+          "desc": "Модификация таблицы включает безопасное изменение существующих определений таблиц."
+        },
+        "ko": {
+          "name": "테이블 수정",
+          "desc": "테이블 수정에는 기존 테이블 정의를 안전하게 변경하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Modificação de tabela",
+          "desc": "A modificação da tabela abrange a alteração segura das definições da tabela existente."
+        }
+      }
+    },
+    {
+      "key": "postgresql/data_types",
+      "slug": "data_types",
+      "name": "Data Types",
+      "desc": "Data types cover choosing PostgreSQL column types and understanding type behavior.",
+      "i18n": {
+        "zh": {
+          "name": "数据类型",
+          "desc": "数据类型包括选择 PostgreSQL 列类型和理解类型行为。"
+        },
+        "es": {
+          "name": "Tipos de datos",
+          "desc": "Los tipos de datos cubren la elección de tipos de columnas de PostgreSQL y la comprensión del comportamiento de los tipos."
+        },
+        "fr": {
+          "name": "Types de données",
+          "desc": "Les types de données couvrent le choix des types de colonnes PostgreSQL et la compréhension du comportement des types."
+        },
+        "de": {
+          "name": "Datentypen",
+          "desc": "Zu den Datentypen gehören die Auswahl von PostgreSQL Spaltentypen und das Verständnis des Typverhaltens."
+        },
+        "ja": {
+          "name": "データ型",
+          "desc": "データ型には、PostgreSQL 列型の選択と型の動作の理解が含まれます。"
+        },
+        "ru": {
+          "name": "Типы данных",
+          "desc": "Типы данных охватывают выбор PostgreSQL типов столбцов и понимание поведения типов."
+        },
+        "ko": {
+          "name": "데이터 유형",
+          "desc": "데이터 유형에는 PostgreSQL 열 유형 선택 및 유형 동작 이해가 포함됩니다."
+        },
+        "pt": {
+          "name": "Tipos de dados",
+          "desc": "Os tipos de dados cobrem a escolha dos tipos de coluna PostgreSQL e a compreensão do comportamento do tipo."
+        }
+      }
+    },
+    {
+      "key": "postgresql/primary_keys",
+      "slug": "primary_keys",
+      "name": "Primary Keys",
+      "desc": "Primary keys cover uniquely identifying rows and supporting relational design.",
+      "i18n": {
+        "zh": {
+          "name": "主键",
+          "desc": "主键涵盖唯一标识行和支持关系设计。"
+        },
+        "es": {
+          "name": "Claves primarias",
+          "desc": "Las claves primarias cubren la identificación única de filas y respaldan el diseño relacional."
+        },
+        "fr": {
+          "name": "Clés primaires",
+          "desc": "Les clés primaires couvrent l’identification unique des lignes et prennent en charge la conception relationnelle."
+        },
+        "de": {
+          "name": "Primärschlüssel",
+          "desc": "Primärschlüssel decken die eindeutige Identifizierung von Zeilen und die Unterstützung des relationalen Designs ab."
+        },
+        "ja": {
+          "name": "主キー",
+          "desc": "主キーは行を一意に識別し、リレーショナル設計をサポートします。"
+        },
+        "ru": {
+          "name": "Первичные ключи",
+          "desc": "Первичные ключи обеспечивают уникальную идентификацию строк и поддержку реляционного дизайна."
+        },
+        "ko": {
+          "name": "기본 키",
+          "desc": "기본 키는 행을 고유하게 식별하고 관계형 설계를 지원하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Chaves primárias",
+          "desc": "As chaves primárias cobrem a identificação exclusiva de linhas e o suporte ao design relacional."
+        }
+      }
+    },
+    {
+      "key": "postgresql/foreign_keys",
+      "slug": "foreign_keys",
+      "name": "Foreign Keys",
+      "desc": "Foreign keys cover defining and enforcing relationships between PostgreSQL tables.",
+      "i18n": {
+        "zh": {
+          "name": "外键",
+          "desc": "外键涵盖定义和强制 PostgreSQL 表之间的关系。"
+        },
+        "es": {
+          "name": "Claves foráneas",
+          "desc": "Las claves externas cubren la definición y aplicación de relaciones entre tablas PostgreSQL."
+        },
+        "fr": {
+          "name": "Clés étrangères",
+          "desc": "Les clés étrangères couvrent la définition et l'application des relations entre les tables PostgreSQL."
+        },
+        "de": {
+          "name": "Fremdschlüssel",
+          "desc": "Fremdschlüssel decken das Definieren und Erzwingen von Beziehungen zwischen PostgreSQL-Tabellen ab."
+        },
+        "ja": {
+          "name": "外部キー",
+          "desc": "外部キーは、PostgreSQL テーブル間の関係の定義と強制を扱います。"
+        },
+        "ru": {
+          "name": "Внешние ключи",
+          "desc": "Внешние ключи охватывают определение и обеспечение связей между таблицами PostgreSQL."
+        },
+        "ko": {
+          "name": "외래 키",
+          "desc": "외래 키는 PostgreSQL 테이블 간의 관계 정의 및 적용을 다룹니다."
+        },
+        "pt": {
+          "name": "Chaves Estrangeiras",
+          "desc": "As chaves estrangeiras cobrem a definição e a aplicação de relacionamentos entre tabelas PostgreSQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/constraints",
+      "slug": "constraints",
+      "name": "Constraints",
+      "desc": "Constraints cover rules such as uniqueness, nullability, and checks that protect data validity during writes.",
+      "i18n": {
+        "zh": {
+          "name": "约束",
+          "desc": "约束涵盖诸如唯一性、可为空性以及在写入期间保护数据有效性的检查等规则。"
+        },
+        "es": {
+          "name": "Restricciones",
+          "desc": "Las restricciones cubren reglas como la unicidad, la nulidad y las comprobaciones que protegen la validez de los datos durante las escrituras."
+        },
+        "fr": {
+          "name": "Contraintes",
+          "desc": "Les contraintes couvrent des règles telles que l'unicité, la nullité et les vérifications qui protègent la validité des données lors des écritures."
+        },
+        "de": {
+          "name": "Constraints",
+          "desc": "Constraints umfassen Regeln wie Eindeutigkeit, NULL-Zulässigkeit und CHECK-Prüfungen, die die Datengültigkeit während Schreibvorgängen schützen."
+        },
+        "ja": {
+          "name": "制約",
+          "desc": "制約には、一意性、NULL 可能性、書き込み中のデータの有効性を保護するチェックなどのルールが含まれます。"
+        },
+        "ru": {
+          "name": "Ограничения",
+          "desc": "Ограничения охватывают такие правила, как уникальность, допустимость NULL и CHECK-проверки, защищающие корректность данных во время записи."
+        },
+        "ko": {
+          "name": "제약",
+          "desc": "제약 조건은 쓰기 중 데이터 유효성을 보호하는 고유성, Null 허용 여부 및 검사와 같은 규칙을 다룹니다."
+        },
+        "pt": {
+          "name": "Restrições",
+          "desc": "As restrições abrangem regras como exclusividade, nulidade e verificações que protegem a validade dos dados durante gravações."
+        }
+      }
+    },
+    {
+      "key": "postgresql/sequences_identity",
+      "slug": "sequences_identity",
+      "name": "Sequences and Identity",
+      "desc": "Sequences and identity columns cover generated values for row identifiers.",
+      "i18n": {
+        "zh": {
+          "name": "序列和标识列",
+          "desc": "序列和标识列涵盖行标识符的生成值。"
+        },
+        "es": {
+          "name": "Secuencias e identidad",
+          "desc": "Las secuencias y las columnas de identidad cubren los valores generados para los identificadores de fila."
+        },
+        "fr": {
+          "name": "Séquences et identité",
+          "desc": "Les séquences et les colonnes d’identité couvrent les valeurs générées pour les identifiants de ligne."
+        },
+        "de": {
+          "name": "Sequenzen und Identität",
+          "desc": "Sequenzen und Identitätsspalten decken generierte Werte für Zeilenbezeichner ab."
+        },
+        "ja": {
+          "name": "シーケンスと ID 列",
+          "desc": "シーケンスと ID 列は、行識別子の生成された値を扱います。"
+        },
+        "ru": {
+          "name": "Последовательности и identity-столбцы",
+          "desc": "Столбцы последовательностей и идентификаторов охватывают сгенерированные значения идентификаторов строк."
+        },
+        "ko": {
+          "name": "시퀀스와 ID 열",
+          "desc": "시퀀스와 ID 열은 행 식별자를 위해 생성되는 값을 다룹니다."
+        },
+        "pt": {
+          "name": "Sequências e Identidade",
+          "desc": "Sequências e colunas de identidade cobrem valores gerados para identificadores de linha."
+        }
+      }
+    },
+    {
+      "key": "postgresql/select_queries",
+      "slug": "select_queries",
+      "name": "Select Queries",
+      "desc": "Select queries cover retrieving rows and columns from PostgreSQL tables.",
+      "i18n": {
+        "zh": {
+          "name": "SELECT 查询",
+          "desc": "SELECT 查询涵盖从 PostgreSQL 表中检索行和列。"
+        },
+        "es": {
+          "name": "Consultas SELECT",
+          "desc": "Las consultas SELECT cubren la recuperación de filas y columnas de tablas PostgreSQL."
+        },
+        "fr": {
+          "name": "Requêtes SELECT",
+          "desc": "Les requêtes SELECT couvrent la récupération des lignes et des colonnes des tables PostgreSQL."
+        },
+        "de": {
+          "name": "SELECT-Abfragen",
+          "desc": "SELECT-Abfragen umfassen das Abrufen von Zeilen und Spalten aus PostgreSQL-Tabellen."
+        },
+        "ja": {
+          "name": "SELECT クエリ",
+          "desc": "SELECT クエリは、PostgreSQL テーブルから行と列を取得する方法を扱います。"
+        },
+        "ru": {
+          "name": "SELECT-запросы",
+          "desc": "Выборочные запросы охватывают извлечение строк и столбцов из PostgreSQL таблиц."
+        },
+        "ko": {
+          "name": "SELECT 쿼리",
+          "desc": "SELECT 쿼리는 PostgreSQL 테이블에서 행과 열을 검색하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas SELECT",
+          "desc": "Consultas SELECT abrangem a recuperação de linhas e colunas de tabelas PostgreSQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/query_filtering_sorting",
+      "slug": "query_filtering_sorting",
+      "name": "Query Filtering and Sorting",
+      "desc": "Query filtering and sorting cover narrowing, ordering, and limiting result sets.",
+      "i18n": {
+        "zh": {
+          "name": "查询过滤和排序",
+          "desc": "查询过滤和排序涵盖筛选、排序和限制结果集。"
+        },
+        "es": {
+          "name": "Filtrado y ordenación de consultas",
+          "desc": "El filtrado y la ordenación de consultas abarcan acotar, ordenar y limitar conjuntos de resultados."
+        },
+        "fr": {
+          "name": "Filtrage et tri des requêtes",
+          "desc": "Le filtrage et le tri des requêtes couvrent la réduction, le tri et la limitation des ensembles de résultats."
+        },
+        "de": {
+          "name": "Abfragefilterung und -sortierung",
+          "desc": "Das Filtern und Sortieren von Abfragen umfasst das Eingrenzen, Ordnen und Einschränken von Ergebnismengen."
+        },
+        "ja": {
+          "name": "クエリのフィルタリングと並べ替え",
+          "desc": "クエリのフィルタリングと並べ替えでは、結果セットの絞り込み、順序付け、制限が行われます。"
+        },
+        "ru": {
+          "name": "Фильтрация и сортировка запросов",
+          "desc": "Фильтрация и сортировка запросов позволяют сужать, упорядочивать и ограничивать наборы результатов."
+        },
+        "ko": {
+          "name": "쿼리 필터링 및 정렬",
+          "desc": "쿼리 필터링 및 정렬에는 결과 집합 축소, 정렬 및 제한이 포함됩니다."
+        },
+        "pt": {
+          "name": "Filtragem e ordenação de consultas",
+          "desc": "A filtragem e ordenação de consultas abrangem restringir, ordenar e limitar conjuntos de resultados."
+        }
+      }
+    },
+    {
+      "key": "postgresql/aggregate_queries",
+      "slug": "aggregate_queries",
+      "name": "Aggregate Queries",
+      "desc": "Aggregate queries cover summarizing rows with aggregate functions, grouping, and HAVING.",
+      "i18n": {
+        "zh": {
+          "name": "聚合查询",
+          "desc": "聚合查询涵盖使用聚合函数、分组和 HAVING 来汇总行。"
+        },
+        "es": {
+          "name": "Consultas agregadas",
+          "desc": "Las consultas agregadas cubren el resumen de filas con funciones agregadas, agrupación y HAVING."
+        },
+        "fr": {
+          "name": "Requêtes agrégées",
+          "desc": "Les requêtes d'agrégation couvrent la synthèse des lignes avec des fonctions d'agrégation, de regroupement et HAVING."
+        },
+        "de": {
+          "name": "Aggregierte Abfragen",
+          "desc": "Aggregatabfragen umfassen das Zusammenfassen von Zeilen mit Aggregatfunktionen, Gruppierung und HAVING."
+        },
+        "ja": {
+          "name": "集計クエリ",
+          "desc": "集計クエリでは、集計関数、グループ化、HAVING を使用した行の集計が行われます。"
+        },
+        "ru": {
+          "name": "Агрегированные запросы",
+          "desc": "Агрегатные запросы охватывают суммирование строк с помощью агрегатных функций, группировку и HAVING."
+        },
+        "ko": {
+          "name": "집계 쿼리",
+          "desc": "집계 쿼리는 집계 함수, 그룹화 및 HAVING을 사용하여 행 요약을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas agregadas",
+          "desc": "As consultas agregadas cobrem o resumo de linhas com funções agregadas, agrupamento e HAVING."
+        }
+      }
+    },
+    {
+      "key": "postgresql/subqueries_ctes",
+      "slug": "subqueries_ctes",
+      "name": "Subqueries and CTEs",
+      "desc": "Subqueries and CTEs cover structuring intermediate query results inside PostgreSQL statements.",
+      "i18n": {
+        "zh": {
+          "name": "子查询和 CTE",
+          "desc": "子查询和 CTE 涵盖在 PostgreSQL 语句内构建中间查询结果。"
+        },
+        "es": {
+          "name": "Subconsultas y CTE",
+          "desc": "Las subconsultas y CTE cubren la estructuración de resultados de consultas intermedias dentro de sentencias PostgreSQL."
+        },
+        "fr": {
+          "name": "Sous-requêtes et CTE",
+          "desc": "Les sous-requêtes et les CTE couvrent la structuration des résultats de requêtes intermédiaires dans les instructions PostgreSQL."
+        },
+        "de": {
+          "name": "Unterabfragen und CTEs",
+          "desc": "Unterabfragen und CTEs decken die Strukturierung von Zwischenabfrageergebnissen innerhalb von PostgreSQL-Anweisungen ab."
+        },
+        "ja": {
+          "name": "サブクエリと CTE",
+          "desc": "サブクエリと CTE は、PostgreSQL ステートメント内の中間クエリ結果の構造化を扱います。"
+        },
+        "ru": {
+          "name": "Подзапросы и CTE",
+          "desc": "Подзапросы и CTE охватывают структурирование результатов промежуточных запросов внутри операторов PostgreSQL."
+        },
+        "ko": {
+          "name": "하위 쿼리 및 CTE",
+          "desc": "하위 쿼리 및 CTE는 PostgreSQL 문 내의 중간 쿼리 결과 구조화를 다룹니다."
+        },
+        "pt": {
+          "name": "Subconsultas e CTEs",
+          "desc": "Subconsultas e CTEs cobrem a estruturação de resultados de consultas intermediárias dentro de instruções PostgreSQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/joins",
+      "slug": "joins",
+      "name": "Joins",
+      "desc": "Joins cover combining related rows across tables with inner, outer, and relationship-aware query patterns.",
+      "i18n": {
+        "zh": {
+          "name": "连接",
+          "desc": "连接涉及使用内连接、外连接和基于关系的查询模式将表之间的相关行组合起来。"
+        },
+        "es": {
+          "name": "Joins",
+          "desc": "Los joins cubren la combinación de filas relacionadas entre tablas mediante patrones de consulta internos, externos y basados en relaciones."
+        },
+        "fr": {
+          "name": "Jointures",
+          "desc": "Les jointures couvrent la combinaison de lignes associées entre tables avec des modèles de requête internes, externes et basés sur les relations."
+        },
+        "de": {
+          "name": "Joins",
+          "desc": "Joins umfassen das Kombinieren verwandter Zeilen über Tabellen hinweg mit inneren, äußeren und beziehungsbewussten Abfragemustern."
+        },
+        "ja": {
+          "name": "結合",
+          "desc": "結合は、PostgreSQL クエリで関連する行をテーブル間で組み合わせる方法を扱います。"
+        },
+        "ru": {
+          "name": "Соединения",
+          "desc": "Соединения охватывают объединение связанных строк между таблицами с помощью внутренних, внешних и учитывающих связи шаблонов запросов."
+        },
+        "ko": {
+          "name": "조인",
+          "desc": "조인은 PostgreSQL 쿼리에서 테이블 간 관련 행을 결합하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Junções",
+          "desc": "As junções abrangem a combinação de linhas relacionadas em tabelas com padrões de consulta internos, externos e com reconhecimento de relacionamento."
+        }
+      }
+    },
+    {
+      "key": "postgresql/data_insertion",
+      "slug": "data_insertion",
+      "name": "Data Insertion",
+      "desc": "Data insertion covers adding rows while respecting defaults, constraints, and type behavior.",
+      "i18n": {
+        "zh": {
+          "name": "数据插入",
+          "desc": "数据插入包括在尊重默认值、约束和类型行为的同时添加行。"
+        },
+        "es": {
+          "name": "Inserción de datos",
+          "desc": "La inserción de datos cubre la adición de filas respetando los valores predeterminados, las restricciones y el comportamiento de los tipos."
+        },
+        "fr": {
+          "name": "Insertion de données",
+          "desc": "L'insertion de données couvre l'ajout de lignes tout en respectant les valeurs par défaut, les contraintes et le comportement du type."
+        },
+        "de": {
+          "name": "Dateneinfügung",
+          "desc": "Das Einfügen von Daten umfasst das Hinzufügen von Zeilen unter Berücksichtigung von Standardeinstellungen, Einschränkungen und Typverhalten."
+        },
+        "ja": {
+          "name": "データの挿入",
+          "desc": "データ挿入では、デフォルト、制約、および型の動作を尊重しながら行を追加します。"
+        },
+        "ru": {
+          "name": "Вставка данных",
+          "desc": "Вставка данных включает добавление строк с соблюдением значений по умолчанию, ограничений и поведения типов."
+        },
+        "ko": {
+          "name": "데이터 삽입",
+          "desc": "데이터 삽입에는 기본값, 제약 조건 및 유형 동작을 존중하면서 행을 추가하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Inserção de dados",
+          "desc": "A inserção de dados abrange a adição de linhas respeitando padrões, restrições e comportamento de tipo."
+        }
+      }
+    },
+    {
+      "key": "postgresql/data_updates",
+      "slug": "data_updates",
+      "name": "Data Updates",
+      "desc": "Data updates cover changing existing rows safely and deliberately.",
+      "i18n": {
+        "zh": {
+          "name": "数据更新",
+          "desc": "数据更新涵盖安全且有意地更改现有行。"
+        },
+        "es": {
+          "name": "Actualizaciones de datos",
+          "desc": "Las actualizaciones de datos cubren el cambio de filas existentes de forma segura y deliberada."
+        },
+        "fr": {
+          "name": "Mises à jour des données",
+          "desc": "Les mises à jour des données couvrent la modification des lignes existantes en toute sécurité et délibérément."
+        },
+        "de": {
+          "name": "Datenaktualisierungen",
+          "desc": "Datenaktualisierungen umfassen die sichere und gezielte Änderung vorhandener Zeilen."
+        },
+        "ja": {
+          "name": "データの更新",
+          "desc": "データ更新では、既存の行を安全かつ意図的に変更します。"
+        },
+        "ru": {
+          "name": "Обновления данных",
+          "desc": "Обновления данных охватывают безопасное и целенаправленное изменение существующих строк."
+        },
+        "ko": {
+          "name": "데이터 업데이트",
+          "desc": "데이터 업데이트에는 기존 행을 안전하고 의도적으로 변경하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Atualizações de dados",
+          "desc": "As atualizações de dados cobrem a alteração de linhas existentes de forma segura e deliberada."
+        }
+      }
+    },
+    {
+      "key": "postgresql/data_deletion",
+      "slug": "data_deletion",
+      "name": "Data Deletion",
+      "desc": "Data deletion covers removing rows while understanding constraints and transaction safety.",
+      "i18n": {
+        "zh": {
+          "name": "数据删除",
+          "desc": "数据删除包括删除行，同时了解约束和事务安全。"
+        },
+        "es": {
+          "name": "Eliminación de datos",
+          "desc": "La eliminación de datos abarca la eliminación de filas y, al mismo tiempo, la comprensión de las limitaciones y la seguridad de las transacciones."
+        },
+        "fr": {
+          "name": "Suppression des données",
+          "desc": "La suppression des données couvre la suppression des lignes tout en comprenant les contraintes et la sécurité des transactions."
+        },
+        "de": {
+          "name": "Datenlöschung",
+          "desc": "Das Löschen von Daten umfasst das Entfernen von Zeilen unter Berücksichtigung von Einschränkungen und Transaktionssicherheit."
+        },
+        "ja": {
+          "name": "データの削除",
+          "desc": "データの削除では、制約とトランザクションの安全性を理解しながら行を削除します。"
+        },
+        "ru": {
+          "name": "Удаление данных",
+          "desc": "Удаление данных подразумевает удаление строк с учетом ограничений и безопасности транзакций."
+        },
+        "ko": {
+          "name": "데이터 삭제",
+          "desc": "데이터 삭제에는 제약 조건과 트랜잭션 안전성을 이해하면서 행을 제거하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Exclusão de dados",
+          "desc": "A exclusão de dados abrange a remoção de linhas enquanto se entende as restrições e a segurança das transações."
+        }
+      }
+    },
+    {
+      "key": "postgresql/upserts",
+      "slug": "upserts",
+      "name": "Upserts",
+      "desc": "Upserts cover inserting or updating rows based on conflict targets.",
+      "i18n": {
+        "zh": {
+          "name": "Upsert",
+          "desc": "Upsert 涵盖根据冲突目标插入或更新行。"
+        },
+        "es": {
+          "name": "Upserts",
+          "desc": "Los upserts cubren la inserción o actualización de filas según objetivos de conflicto."
+        },
+        "fr": {
+          "name": "Upserts",
+          "desc": "Les upserts couvrent l'insertion ou la mise à jour de lignes en fonction des cibles de conflit."
+        },
+        "de": {
+          "name": "Upserts",
+          "desc": "Upserts umfassen das Einfügen oder Aktualisieren von Zeilen basierend auf Konfliktzielen."
+        },
+        "ja": {
+          "name": "アップサート",
+          "desc": "Upsert は、競合ターゲットに基づいた行の挿入または更新を扱います。"
+        },
+        "ru": {
+          "name": "UPSERT-операции",
+          "desc": "UPSERT-операции охватывают вставку или обновление строк на основе целей конфликта."
+        },
+        "ko": {
+          "name": "업서트",
+          "desc": "Upsert는 충돌 대상을 기반으로 행 삽입 또는 업데이트를 다룹니다."
+        },
+        "pt": {
+          "name": "Upserts",
+          "desc": "Upserts cobrem a inserção ou atualização de linhas com base em alvos de conflito."
+        }
+      }
+    },
+    {
+      "key": "postgresql/transactions",
+      "slug": "transactions",
+      "name": "Transactions",
+      "desc": "Transactions cover grouping changes atomically with commit and rollback behavior.",
+      "i18n": {
+        "zh": {
+          "name": "事务",
+          "desc": "事务涵盖通过提交和回滚行为以原子方式对更改进行分组。"
+        },
+        "es": {
+          "name": "Transacciones",
+          "desc": "Las transacciones cubren la agrupación de cambios de forma atómica con comportamiento de commit y rollback."
+        },
+        "fr": {
+          "name": "Transactions",
+          "desc": "Les transactions couvrent le regroupement atomique des modifications avec un comportement de commit et de rollback."
+        },
+        "de": {
+          "name": "Transaktionen",
+          "desc": "Transaktionen umfassen das atomare Gruppieren von Änderungen mit Commit- und Rollback-Verhalten."
+        },
+        "ja": {
+          "name": "トランザクション",
+          "desc": "トランザクションは、コミットおよびロールバック動作によって複数の変更をアトミックにグループ化する方法を扱います。"
+        },
+        "ru": {
+          "name": "Транзакции",
+          "desc": "Транзакции охватывают атомарную группировку изменений с поведением фиксации и отката."
+        },
+        "ko": {
+          "name": "트랜잭션",
+          "desc": "트랜잭션은 커밋 및 롤백 동작을 통해 변경 사항을 원자적으로 그룹화하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Transações",
+          "desc": "As transações cobrem o agrupamento atômico de alterações com comportamento de commit e rollback."
+        }
+      }
+    },
+    {
+      "key": "postgresql/isolation_locks",
+      "slug": "isolation_locks",
+      "name": "Isolation and Locks",
+      "desc": "Isolation and locks cover MVCC, transaction isolation, and lock contention.",
+      "i18n": {
+        "zh": {
+          "name": "隔离和锁",
+          "desc": "隔离和锁涵盖 MVCC、事务隔离和锁争用。"
+        },
+        "es": {
+          "name": "Aislamiento y bloqueos",
+          "desc": "El aislamiento y los bloqueos cubren MVCC, el aislamiento de transacciones y la contención de bloqueos."
+        },
+        "fr": {
+          "name": "Isolation et verrous",
+          "desc": "L'isolement et les verrous couvrent MVCC, l'isolement des transactions et les conflits de verrouillage."
+        },
+        "de": {
+          "name": "Isolation und Sperren",
+          "desc": "Isolation und Sperren umfassen MVCC, Transaktionsisolation und Sperrkonflikte."
+        },
+        "ja": {
+          "name": "分離とロック",
+          "desc": "分離とロックでは、MVCC、トランザクション分離、およびロック競合を扱います。"
+        },
+        "ru": {
+          "name": "Изоляция и блокировки",
+          "desc": "Изоляция и блокировки охватывают MVCC, изоляцию транзакций и конфликты блокировок."
+        },
+        "ko": {
+          "name": "격리 및 잠금",
+          "desc": "격리 및 잠금에는 MVCC, 트랜잭션 격리 및 잠금 경합이 포함됩니다."
+        },
+        "pt": {
+          "name": "Isolamento e Bloqueios",
+          "desc": "Isolamento e bloqueios cobrem MVCC, isolamento de transações e contenção de bloqueios."
+        }
+      }
+    },
+    {
+      "key": "postgresql/btree_indexes",
+      "slug": "btree_indexes",
+      "name": "B-Tree Indexes",
+      "desc": "B-tree indexes cover common PostgreSQL indexing for equality, ordering, and range lookups.",
+      "i18n": {
+        "zh": {
+          "name": "B 树索引",
+          "desc": "B 树索引涵盖了用于相等、排序和范围查找的常见 PostgreSQL 索引。"
+        },
+        "es": {
+          "name": "Índices B-tree",
+          "desc": "Los índices B-tree cubren la indexación común de PostgreSQL para búsquedas de igualdad, ordenación y rango."
+        },
+        "fr": {
+          "name": "Index B-Tree",
+          "desc": "Les index B-tree couvrent l'indexation PostgreSQL courante pour les recherches d'égalité, d'ordre et de plage."
+        },
+        "de": {
+          "name": "B-Tree-Indizes",
+          "desc": "B-Tree-Indizes decken die allgemeine PostgreSQL-Indizierung für Gleichheits-, Sortier- und Bereichssuchen ab."
+        },
+        "ja": {
+          "name": "B ツリーインデックス",
+          "desc": "B ツリーインデックスは、等価検索、順序付け検索、および範囲検索のための一般的な PostgreSQL インデックス作成を扱います。"
+        },
+        "ru": {
+          "name": "Индексы B-дерева",
+          "desc": "Индексы B-дерева охватывают распространенную индексацию PostgreSQL для поиска равенства, упорядочения и поиска по диапазону."
+        },
+        "ko": {
+          "name": "B-트리 인덱스",
+          "desc": "B-트리 인덱스는 동일성, 순서 및 범위 조회를 위한 일반적인 PostgreSQL 인덱싱을 다룹니다."
+        },
+        "pt": {
+          "name": "Índices de árvore B",
+          "desc": "Os índices de árvore B cobrem a indexação comum do PostgreSQL para pesquisas de igualdade, ordem e intervalo."
+        }
+      }
+    },
+    {
+      "key": "postgresql/specialized_indexes",
+      "slug": "specialized_indexes",
+      "name": "Specialized Indexes",
+      "desc": "Specialized indexes cover expression, partial, and PostgreSQL-specific index patterns.",
+      "i18n": {
+        "zh": {
+          "name": "专用索引",
+          "desc": "专用索引涵盖表达式索引、部分索引和 PostgreSQL 特定的索引模式。"
+        },
+        "es": {
+          "name": "Índices especializados",
+          "desc": "Los índices especializados cubren patrones de índice de expresión, parciales y específicos de PostgreSQL."
+        },
+        "fr": {
+          "name": "Index spécialisés",
+          "desc": "Les index spécialisés couvrent les modèles d'index d'expression, partiels et spécifiques à PostgreSQL."
+        },
+        "de": {
+          "name": "Spezialisierte Indizes",
+          "desc": "Spezialisierte Indizes decken Ausdrucks-, Teil- und PostgreSQL-spezifische Indexmuster ab."
+        },
+        "ja": {
+          "name": "特殊なインデックス",
+          "desc": "特殊なインデックスは、式、部分、PostgreSQL 固有のインデックスパターンを扱います。"
+        },
+        "ru": {
+          "name": "Специализированные индексы",
+          "desc": "Специализированные индексы охватывают выражения, частичные индексы и шаблоны индексов, специфичные для PostgreSQL."
+        },
+        "ko": {
+          "name": "특수 인덱스",
+          "desc": "특수 인덱스는 표현식 인덱스, 부분 인덱스 및 PostgreSQL 관련 인덱스 패턴을 다룹니다."
+        },
+        "pt": {
+          "name": "Índices especializados",
+          "desc": "Índices especializados abrangem padrões de índices de expressão, parciais e específicos do PostgreSQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/query_plans",
+      "slug": "query_plans",
+      "name": "Query Plans",
+      "desc": "Query plans cover interpreting PostgreSQL execution choices for SQL statements.",
+      "i18n": {
+        "zh": {
+          "name": "查询计划",
+          "desc": "查询计划涵盖解释 PostgreSQL 为 SQL 语句选择的执行策略。"
+        },
+        "es": {
+          "name": "Planes de consulta",
+          "desc": "Los planes de consulta cubren la interpretación de las opciones de ejecución de PostgreSQL para sentencias SQL."
+        },
+        "fr": {
+          "name": "Plans de requête",
+          "desc": "Les plans de requête couvrent l'interprétation des choix d'exécution de PostgreSQL pour les instructions SQL."
+        },
+        "de": {
+          "name": "Abfragepläne",
+          "desc": "Abfragepläne umfassen die Interpretation der PostgreSQL-Ausführungsoptionen für SQL-Anweisungen."
+        },
+        "ja": {
+          "name": "クエリプラン",
+          "desc": "クエリプランは、SQL ステートメントの PostgreSQL 実行選択肢の解釈を扱います。"
+        },
+        "ru": {
+          "name": "Планы запросов",
+          "desc": "Планы запросов охватывают интерпретацию вариантов выполнения PostgreSQL для операторов SQL."
+        },
+        "ko": {
+          "name": "쿼리 계획",
+          "desc": "쿼리 계획은 SQL 문에 대해 PostgreSQL이 선택한 실행 전략을 해석하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Planos de consulta",
+          "desc": "Os planos de consulta cobrem a interpretação das opções de execução do PostgreSQL para instruções SQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/vacuum_analyze",
+      "slug": "vacuum_analyze",
+      "name": "Vacuum and Analyze",
+      "desc": "Vacuum and analyze cover tuple cleanup, statistics, and query planning health.",
+      "i18n": {
+        "zh": {
+          "name": "VACUUM 和 ANALYZE",
+          "desc": "VACUUM 和 ANALYZE 涵盖元组清理、统计信息和查询规划健康状况。"
+        },
+        "es": {
+          "name": "VACUUM y ANALYZE",
+          "desc": "VACUUM y ANALYZE cubren la limpieza de tuplas, estadísticas y salud de la planificación de consultas."
+        },
+        "fr": {
+          "name": "VACUUM et ANALYZE",
+          "desc": "VACUUM et ANALYZE couvrent le nettoyage des tuples, les statistiques et l’état de la planification des requêtes."
+        },
+        "de": {
+          "name": "VACUUM und ANALYZE",
+          "desc": "VACUUM und ANALYZE decken Tupelbereinigung, Statistiken und den Zustand der Abfrageplanung ab."
+        },
+        "ja": {
+          "name": "VACUUM と ANALYZE",
+          "desc": "VACUUM と ANALYZE は、タプルのクリーンアップ、統計情報、クエリ計画の健全性を扱います。"
+        },
+        "ru": {
+          "name": "VACUUM и ANALYZE",
+          "desc": "VACUUM и ANALYZE охватывают очистку кортежей, статистику и состояние планирования запросов."
+        },
+        "ko": {
+          "name": "VACUUM 및 ANALYZE",
+          "desc": "VACUUM 및 ANALYZE는 튜플 정리, 통계 및 쿼리 계획 상태를 다룹니다."
+        },
+        "pt": {
+          "name": "VACUUM e ANALYZE",
+          "desc": "VACUUM e ANALYZE cobrem limpeza de tuplas, estatísticas e integridade do planejamento de consultas."
+        }
+      }
+    },
+    {
+      "key": "postgresql/performance_tuning",
+      "slug": "performance_tuning",
+      "name": "Performance Tuning",
+      "desc": "Performance tuning covers improving PostgreSQL behavior using plans, indexes, statistics, and configuration awareness.",
+      "i18n": {
+        "zh": {
+          "name": "性能调优",
+          "desc": "性能调优涵盖使用查询计划、索引、统计信息和配置知识来改进 PostgreSQL 性能。"
+        },
+        "es": {
+          "name": "Ajuste de rendimiento",
+          "desc": "El ajuste del rendimiento cubre la mejora del comportamiento PostgreSQL mediante planes, índices, estadísticas y conocimiento de la configuración."
+        },
+        "fr": {
+          "name": "Optimisation des performances",
+          "desc": "L'optimisation des performances couvre l'amélioration du comportement de PostgreSQL à l'aide de plans, d'index, de statistiques et de connaissances de configuration."
+        },
+        "de": {
+          "name": "Leistungsoptimierung",
+          "desc": "Die Leistungsoptimierung umfasst die Verbesserung der PostgreSQL-Leistung mithilfe von Plänen, Indizes, Statistiken und Konfigurationswissen."
+        },
+        "ja": {
+          "name": "パフォーマンスチューニング",
+          "desc": "パフォーマンスチューニングは、プラン、インデックス、統計情報、設定知識を使って PostgreSQL の性能を改善する方法を扱います。"
+        },
+        "ru": {
+          "name": "Настройка производительности",
+          "desc": "Настройка производительности включает в себя улучшение поведения PostgreSQL с использованием планов, индексов, статистики и сведений о конфигурации."
+        },
+        "ko": {
+          "name": "성능 튜닝",
+          "desc": "성능 튜닝은 계획, 인덱스, 통계 및 설정 지식을 사용해 PostgreSQL 성능을 개선하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Ajuste de desempenho",
+          "desc": "O ajuste de desempenho abrange a melhoria do comportamento do PostgreSQL usando planos, índices, estatísticas e reconhecimento de configuração."
+        }
+      }
+    },
+    {
+      "key": "postgresql/views",
+      "slug": "views",
+      "name": "Views",
+      "desc": "Views cover stored query definitions used to simplify data access.",
+      "i18n": {
+        "zh": {
+          "name": "视图",
+          "desc": "视图涵盖用于简化数据访问的存储查询定义。"
+        },
+        "es": {
+          "name": "Vistas",
+          "desc": "Las vistas cubren definiciones de consultas almacenadas que se utilizan para simplificar el acceso a los datos."
+        },
+        "fr": {
+          "name": "Vues",
+          "desc": "Les vues couvrent les définitions de requêtes stockées utilisées pour simplifier l'accès aux données."
+        },
+        "de": {
+          "name": "Ansichten",
+          "desc": "Ansichten umfassen gespeicherte Abfragedefinitionen, die zur Vereinfachung des Datenzugriffs verwendet werden."
+        },
+        "ja": {
+          "name": "ビュー",
+          "desc": "ビューには、データアクセスを簡素化するために使用される保存されたクエリ定義が含まれます。"
+        },
+        "ru": {
+          "name": "Представления",
+          "desc": "Представления охватывают сохраненные определения запросов, используемые для упрощения доступа к данным."
+        },
+        "ko": {
+          "name": "뷰",
+          "desc": "뷰는 데이터 액세스를 단순화하는 데 사용되는 저장된 쿼리 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Visualizações",
+          "desc": "As visualizações abrangem definições de consulta armazenadas usadas para simplificar o acesso aos dados."
+        }
+      }
+    },
+    {
+      "key": "postgresql/materialized_views",
+      "slug": "materialized_views",
+      "name": "Materialized Views",
+      "desc": "Materialized views cover stored query results and refresh behavior.",
+      "i18n": {
+        "zh": {
+          "name": "物化视图",
+          "desc": "物化视图涵盖存储的查询结果和刷新行为。"
+        },
+        "es": {
+          "name": "Vistas materializadas",
+          "desc": "Las vistas materializadas cubren los resultados de consultas almacenados y el comportamiento de actualización."
+        },
+        "fr": {
+          "name": "Vues matérialisées",
+          "desc": "Les vues matérialisées couvrent les résultats des requêtes stockées et le comportement d'actualisation."
+        },
+        "de": {
+          "name": "Materialisierte Ansichten",
+          "desc": "Materialisierte Ansichten decken gespeicherte Abfrageergebnisse und Aktualisierungsverhalten ab."
+        },
+        "ja": {
+          "name": "マテリアライズドビュー",
+          "desc": "マテリアライズドビューは、保存されたクエリ結果と更新動作を扱います。"
+        },
+        "ru": {
+          "name": "Материализованные представления",
+          "desc": "Материализованные представления охватывают сохраненные результаты запросов и поведение обновления."
+        },
+        "ko": {
+          "name": "구체화된 뷰",
+          "desc": "구체화된 뷰에는 저장된 쿼리 결과와 새로 고침 동작이 포함됩니다."
+        },
+        "pt": {
+          "name": "Visualizações materializadas",
+          "desc": "As visualizações materializadas cobrem os resultados da consulta armazenados e o comportamento de atualização."
+        }
+      }
+    },
+    {
+      "key": "postgresql/functions_procedures",
+      "slug": "functions_procedures",
+      "name": "Functions and Procedures",
+      "desc": "Functions and procedures cover reusable database-side logic in PostgreSQL.",
+      "i18n": {
+        "zh": {
+          "name": "函数与过程",
+          "desc": "函数和过程涵盖 PostgreSQL 中可重用的数据库端逻辑。"
+        },
+        "es": {
+          "name": "Funciones y Procedimientos",
+          "desc": "Las funciones y procedimientos cubren la lógica reutilizable del lado de la base de datos en PostgreSQL."
+        },
+        "fr": {
+          "name": "Fonctions et procédures",
+          "desc": "Les fonctions et procédures couvrent la logique réutilisable côté base de données dans PostgreSQL."
+        },
+        "de": {
+          "name": "Funktionen und Prozeduren",
+          "desc": "Funktionen und Prozeduren decken wiederverwendbare datenbankseitige Logik in PostgreSQL ab."
+        },
+        "ja": {
+          "name": "関数とプロシージャ",
+          "desc": "関数とプロシージャは、PostgreSQL の再利用可能なデータベース側ロジックを扱います。"
+        },
+        "ru": {
+          "name": "Функции и процедуры",
+          "desc": "Функции и процедуры охватывают многократно используемую логику на стороне базы данных в PostgreSQL."
+        },
+        "ko": {
+          "name": "함수와 프로시저",
+          "desc": "함수와 프로시저는 PostgreSQL의 재사용 가능한 데이터베이스 측 논리를 다룹니다."
+        },
+        "pt": {
+          "name": "Funções e Procedimentos",
+          "desc": "Funções e procedimentos cobrem a lógica reutilizável do lado do banco de dados no PostgreSQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/triggers",
+      "slug": "triggers",
+      "name": "Triggers",
+      "desc": "Triggers cover automatic actions caused by table changes.",
+      "i18n": {
+        "zh": {
+          "name": "触发器",
+          "desc": "触发器涵盖由表更改引起的自动操作。"
+        },
+        "es": {
+          "name": "Disparadores",
+          "desc": "Los disparadores cubren acciones automáticas causadas por cambios en la tabla."
+        },
+        "fr": {
+          "name": "Déclencheurs",
+          "desc": "Les déclencheurs couvrent les actions automatiques provoquées par les modifications de table."
+        },
+        "de": {
+          "name": "Trigger",
+          "desc": "Trigger umfassen automatische Aktionen, die durch Tabellenänderungen verursacht werden."
+        },
+        "ja": {
+          "name": "トリガー",
+          "desc": "トリガーは、テーブルの変更によって引き起こされる自動アクションを扱います。"
+        },
+        "ru": {
+          "name": "Триггеры",
+          "desc": "Триггеры охватывают автоматические действия, вызванные изменениями таблицы."
+        },
+        "ko": {
+          "name": "트리거",
+          "desc": "트리거는 테이블 변경으로 인한 자동 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Gatilhos",
+          "desc": "Gatilhos cobrem ações automáticas causadas por alterações na tabela."
+        }
+      }
+    },
+    {
+      "key": "postgresql/json_data",
+      "slug": "json_data",
+      "name": "JSON Data",
+      "desc": "JSON data covers storing, querying, and indexing semi-structured values in PostgreSQL.",
+      "i18n": {
+        "zh": {
+          "name": "JSON 数据",
+          "desc": "JSON 数据涵盖 PostgreSQL 中的半结构化值的存储、查询和索引。"
+        },
+        "es": {
+          "name": "Datos JSON",
+          "desc": "Los datos JSON cubren el almacenamiento, consulta e indexación de valores semiestructurados en PostgreSQL."
+        },
+        "fr": {
+          "name": "Données JSON",
+          "desc": "Les données JSON couvrent le stockage, l'interrogation et l'indexation de valeurs semi-structurées dans PostgreSQL."
+        },
+        "de": {
+          "name": "JSON-Daten",
+          "desc": "JSON-Daten umfassen das Speichern, Abfragen und Indizieren halbstrukturierter Werte in PostgreSQL."
+        },
+        "ja": {
+          "name": "JSON データ",
+          "desc": "JSON データは、PostgreSQL での半構造化値の保存、クエリ、インデックス付けを扱います。"
+        },
+        "ru": {
+          "name": "Данные JSON",
+          "desc": "Данные JSON охватывают хранение, запросы и индексирование полуструктурированных значений в PostgreSQL."
+        },
+        "ko": {
+          "name": "JSON 데이터",
+          "desc": "JSON 데이터에는 PostgreSQL의 반구조화된 값 저장, 쿼리 및 인덱싱이 포함됩니다."
+        },
+        "pt": {
+          "name": "Dados JSON",
+          "desc": "Dados JSON cobrem armazenamento, consulta e indexação de valores semiestruturados no PostgreSQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/extensions",
+      "slug": "extensions",
+      "name": "Extensions",
+      "desc": "Extensions cover adding packaged PostgreSQL capabilities to a database.",
+      "i18n": {
+        "zh": {
+          "name": "扩展",
+          "desc": "扩展涵盖向数据库添加打包提供的 PostgreSQL 功能。"
+        },
+        "es": {
+          "name": "Extensiones",
+          "desc": "Las extensiones cubren la adición de capacidades PostgreSQL empaquetadas a una base de datos."
+        },
+        "fr": {
+          "name": "Extensions",
+          "desc": "Les extensions couvrent l'ajout de fonctionnalités PostgreSQL empaquetées à une base de données."
+        },
+        "de": {
+          "name": "Erweiterungen",
+          "desc": "Erweiterungen umfassen das Hinzufügen paketierter PostgreSQL-Funktionen zu einer Datenbank."
+        },
+        "ja": {
+          "name": "拡張機能",
+          "desc": "拡張機能は、パッケージ化された PostgreSQL 機能をデータベースに追加することを扱います。"
+        },
+        "ru": {
+          "name": "Расширения",
+          "desc": "Расширения охватывают добавление пакетных возможностей PostgreSQL в базу данных."
+        },
+        "ko": {
+          "name": "확장",
+          "desc": "확장은 패키지된 PostgreSQL 기능을 데이터베이스에 추가하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Extensões",
+          "desc": "As extensões cobrem a adição de recursos PostgreSQL empacotados a um banco de dados."
+        }
+      }
+    },
+    {
+      "key": "postgresql/roles",
+      "slug": "roles",
+      "name": "Roles",
+      "desc": "Roles cover PostgreSQL identities used for login, ownership, and access control.",
+      "i18n": {
+        "zh": {
+          "name": "角色",
+          "desc": "角色涵盖用于登录、所有权和访问控制的 PostgreSQL 账户主体。"
+        },
+        "es": {
+          "name": "Roles",
+          "desc": "Los roles cubren identidades de PostgreSQL utilizadas para inicio de sesión, propiedad y control de acceso."
+        },
+        "fr": {
+          "name": "Rôles",
+          "desc": "Les rôles couvrent les identités PostgreSQL utilisées pour la connexion, la propriété et le contrôle d'accès."
+        },
+        "de": {
+          "name": "Rollen",
+          "desc": "Rollen umfassen PostgreSQL-Identitäten, die für Anmeldung, Besitz und Zugriffskontrolle verwendet werden."
+        },
+        "ja": {
+          "name": "ロール",
+          "desc": "ロールには、ログイン、所有権、アクセス制御に使用される PostgreSQL ID が含まれます。"
+        },
+        "ru": {
+          "name": "Роли",
+          "desc": "Роли охватывают идентификаторы PostgreSQL, используемые для входа в систему, владения и контроля доступа."
+        },
+        "ko": {
+          "name": "롤",
+          "desc": "롤은 로그인, 소유권, 액세스 제어에 사용되는 PostgreSQL 계정 주체를 다룹니다."
+        },
+        "pt": {
+          "name": "Papéis",
+          "desc": "Papéis abrangem identidades do PostgreSQL usadas para login, propriedade e controle de acesso."
+        }
+      }
+    },
+    {
+      "key": "postgresql/privileges",
+      "slug": "privileges",
+      "name": "Privileges",
+      "desc": "Privileges cover granting and revoking permissions on PostgreSQL objects.",
+      "i18n": {
+        "zh": {
+          "name": "权限",
+          "desc": "权限涵盖授予和撤销对 PostgreSQL 对象的访问权限。"
+        },
+        "es": {
+          "name": "Privilegios",
+          "desc": "Los privilegios cubren la concesión y revocación de permisos sobre objetos de PostgreSQL."
+        },
+        "fr": {
+          "name": "Privilèges",
+          "desc": "Les privilèges couvrent l’octroi et la révocation d’autorisations sur les objets PostgreSQL."
+        },
+        "de": {
+          "name": "Privilegien",
+          "desc": "Privilegien umfassen das Erteilen und Entziehen von Berechtigungen für PostgreSQL-Objekte."
+        },
+        "ja": {
+          "name": "権限",
+          "desc": "権限は、PostgreSQL オブジェクトに対するアクセス権の付与と取り消しを扱います。"
+        },
+        "ru": {
+          "name": "Привилегии",
+          "desc": "Привилегии охватывают предоставление и отзыв разрешений на объекты PostgreSQL."
+        },
+        "ko": {
+          "name": "권한",
+          "desc": "권한에는 PostgreSQL 개체에 대한 권한 부여 및 취소가 포함됩니다."
+        },
+        "pt": {
+          "name": "Privilégios",
+          "desc": "Os privilégios cobrem a concessão e revogação de permissões em objetos do PostgreSQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/row_level_security",
+      "slug": "row_level_security",
+      "name": "Row-Level Security",
+      "desc": "Row-level security covers restricting row visibility through database policies.",
+      "i18n": {
+        "zh": {
+          "name": "行级安全性",
+          "desc": "行级安全性包括通过数据库策略限制行可见性。"
+        },
+        "es": {
+          "name": "Seguridad a nivel de fila",
+          "desc": "La seguridad a nivel de fila cubre la restricción de la visibilidad de las filas a través de políticas de base de datos."
+        },
+        "fr": {
+          "name": "Sécurité au niveau des lignes",
+          "desc": "La sécurité au niveau des lignes couvre la restriction de la visibilité des lignes via les politiques de base de données."
+        },
+        "de": {
+          "name": "Sicherheit auf Zeilenebene",
+          "desc": "Die Sicherheit auf Zeilenebene umfasst die Einschränkung der Zeilensichtbarkeit durch Datenbankrichtlinien."
+        },
+        "ja": {
+          "name": "行レベルのセキュリティ",
+          "desc": "行レベルのセキュリティには、データベースポリシーによる行の可視性の制限が含まれます。"
+        },
+        "ru": {
+          "name": "Безопасность на уровне строк",
+          "desc": "Безопасность на уровне строк включает ограничение видимости строк с помощью политик базы данных."
+        },
+        "ko": {
+          "name": "행 수준 보안",
+          "desc": "행 수준 보안에는 데이터베이스 정책을 통한 행 가시성 제한이 포함됩니다."
+        },
+        "pt": {
+          "name": "Segurança em nível de linha",
+          "desc": "A segurança em nível de linha abrange a restrição da visibilidade da linha por meio de políticas de banco de dados."
+        }
+      }
+    },
+    {
+      "key": "postgresql/authentication",
+      "slug": "authentication",
+      "name": "Authentication",
+      "desc": "Authentication covers PostgreSQL login methods and access configuration.",
+      "i18n": {
+        "zh": {
+          "name": "认证",
+          "desc": "认证涵盖 PostgreSQL 登录方式和访问配置。"
+        },
+        "es": {
+          "name": "Autenticación",
+          "desc": "La autenticación cubre métodos de inicio de sesión PostgreSQL y configuración de acceso."
+        },
+        "fr": {
+          "name": "Authentification",
+          "desc": "L'authentification couvre les méthodes de connexion PostgreSQL et la configuration des accès."
+        },
+        "de": {
+          "name": "Authentifizierung",
+          "desc": "Die Authentifizierung umfasst PostgreSQL Anmeldemethoden und Zugriffskonfiguration."
+        },
+        "ja": {
+          "name": "認証",
+          "desc": "認証には、PostgreSQL ログイン方法とアクセス構成が含まれます。"
+        },
+        "ru": {
+          "name": "Аутентификация",
+          "desc": "Аутентификация охватывает PostgreSQL способы входа в систему и настройку доступа."
+        },
+        "ko": {
+          "name": "인증",
+          "desc": "인증에는 PostgreSQL 로그인 방법 및 액세스 구성이 포함됩니다."
+        },
+        "pt": {
+          "name": "Autenticação",
+          "desc": "A autenticação abrange métodos de login PostgreSQL e configuração de acesso."
+        }
+      }
+    },
+    {
+      "key": "postgresql/secure_connections",
+      "slug": "secure_connections",
+      "name": "Secure Connections",
+      "desc": "Secure connections cover encrypted PostgreSQL client-server communication and certificate-aware access.",
+      "i18n": {
+        "zh": {
+          "name": "安全连接",
+          "desc": "安全连接涵盖加密的 PostgreSQL 客户端-服务器通信和证书感知访问。"
+        },
+        "es": {
+          "name": "Conexiones seguras",
+          "desc": "Las conexiones seguras cubren la comunicación cliente-servidor PostgreSQL cifrada y el acceso basado en certificados."
+        },
+        "fr": {
+          "name": "Connexions sécurisées",
+          "desc": "Les connexions sécurisées couvrent la communication client-serveur PostgreSQL chiffrée et l’accès tenant compte des certificats."
+        },
+        "de": {
+          "name": "Sichere Verbindungen",
+          "desc": "Sichere Verbindungen umfassen verschlüsselte PostgreSQL-Client-Server-Kommunikation und zertifikatsbasierten Zugriff."
+        },
+        "ja": {
+          "name": "安全な接続",
+          "desc": "安全な接続は、暗号化されたクライアント/サーバー通信と証明書対応アクセスを扱います。"
+        },
+        "ru": {
+          "name": "Безопасные соединения",
+          "desc": "Безопасные соединения охватывают зашифрованную клиент-серверную связь PostgreSQL и доступ с учетом сертификатов."
+        },
+        "ko": {
+          "name": "보안 연결",
+          "desc": "보안 연결은 암호화된 PostgreSQL 클라이언트-서버 통신 및 인증서 기반 접근을 다룹니다."
+        },
+        "pt": {
+          "name": "Conexões Seguras",
+          "desc": "Conexões seguras cobrem comunicação criptografada cliente-servidor do PostgreSQL e acesso baseado em certificados."
+        }
+      }
+    },
+    {
+      "key": "postgresql/psql_client",
+      "slug": "psql_client",
+      "name": "psql Client",
+      "desc": "psql client covers using PostgreSQL command-line client features and meta-commands.",
+      "i18n": {
+        "zh": {
+          "name": "psql 命令行客户端",
+          "desc": "psql 命令行客户端涵盖使用 PostgreSQL 命令行客户端功能和元命令。"
+        },
+        "es": {
+          "name": "Cliente psql",
+          "desc": "El cliente psql cubre el uso de funciones del cliente de línea de comandos de PostgreSQL y metacomandos."
+        },
+        "fr": {
+          "name": "Client psql",
+          "desc": "Le client psql couvre l’utilisation des fonctionnalités du client en ligne de commande PostgreSQL et des méta-commandes."
+        },
+        "de": {
+          "name": "psql-Client",
+          "desc": "Der psql-Client behandelt die Verwendung des PostgreSQL-Befehlszeilenclients und von Metabefehlen."
+        },
+        "ja": {
+          "name": "psql クライアント",
+          "desc": "psql クライアントでは、PostgreSQL コマンドラインクライアント機能とメタコマンドの使用について説明します。"
+        },
+        "ru": {
+          "name": "Клиент psql",
+          "desc": "Клиент psql охватывает использование функций клиента командной строки PostgreSQL и метакоманд."
+        },
+        "ko": {
+          "name": "psql 클라이언트",
+          "desc": "psql 클라이언트에서는 PostgreSQL 명령줄 클라이언트 기능과 메타 명령 사용을 다룹니다."
+        },
+        "pt": {
+          "name": "Cliente psql",
+          "desc": "O cliente psql cobre o uso dos recursos do cliente de linha de comando PostgreSQL e metacomandos."
+        }
+      }
+    },
+    {
+      "key": "postgresql/backup_restore",
+      "slug": "backup_restore",
+      "name": "Backup and Restore",
+      "desc": "Backup and restore cover protecting and recovering PostgreSQL data safely.",
+      "i18n": {
+        "zh": {
+          "name": "备份与恢复",
+          "desc": "备份和恢复涵盖安全地保护和恢复 PostgreSQL 数据。"
+        },
+        "es": {
+          "name": "Copia de seguridad y restauración",
+          "desc": "Copia de seguridad y restauración cubren la protección y recuperación de datos PostgreSQL de forma segura."
+        },
+        "fr": {
+          "name": "Sauvegarde et restauration",
+          "desc": "La sauvegarde et la restauration couvrent la protection et la récupération des données PostgreSQL en toute sécurité."
+        },
+        "de": {
+          "name": "Sichern und Wiederherstellen",
+          "desc": "Sicherung und Wiederherstellung umfassen den Schutz und die sichere Wiederherstellung von PostgreSQL-Daten."
+        },
+        "ja": {
+          "name": "バックアップと復元",
+          "desc": "バックアップと復元は、PostgreSQL データを安全に保護および回復することを扱います。"
+        },
+        "ru": {
+          "name": "Резервное копирование и восстановление",
+          "desc": "Резервное копирование и восстановление обеспечивают безопасную защиту и восстановление данных PostgreSQL."
+        },
+        "ko": {
+          "name": "백업 및 복원",
+          "desc": "백업 및 복원은 PostgreSQL 데이터를 안전하게 보호하고 복구합니다."
+        },
+        "pt": {
+          "name": "Backup e restauração",
+          "desc": "Backup e restauração protegem e recuperam dados do PostgreSQL com segurança."
+        }
+      }
+    },
+    {
+      "key": "postgresql/import_export",
+      "slug": "import_export",
+      "name": "Import and Export",
+      "desc": "Import and export cover moving PostgreSQL data into and out of files or external formats.",
+      "i18n": {
+        "zh": {
+          "name": "导入和导出",
+          "desc": "导入和导出涵盖将 PostgreSQL 数据移入和移出文件或外部格式。"
+        },
+        "es": {
+          "name": "Importar y Exportar",
+          "desc": "La importación y exportación cubre mover datos PostgreSQL dentro y fuera de archivos o formatos externos."
+        },
+        "fr": {
+          "name": "Importation et exportation",
+          "desc": "L'importation et l'exportation couvrent le déplacement de données PostgreSQL vers et hors de fichiers ou de formats externes."
+        },
+        "de": {
+          "name": "Import und Export",
+          "desc": "Import und Export decken das Verschieben von PostgreSQL-Daten in und aus Dateien oder externen Formaten ab."
+        },
+        "ja": {
+          "name": "インポートとエクスポート",
+          "desc": "インポートとエクスポートでは、PostgreSQL データをファイルや外部形式との間で移動する方法を扱います。"
+        },
+        "ru": {
+          "name": "Импорт и экспорт",
+          "desc": "Импорт и экспорт охватывают перемещение данных PostgreSQL в файлы или внешние форматы и из них."
+        },
+        "ko": {
+          "name": "가져오기 및 내보내기",
+          "desc": "가져오기 및 내보내기는 PostgreSQL 데이터를 파일이나 외부 형식과 주고받는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Importar e Exportar",
+          "desc": "A importação e a exportação cobrem a movimentação de dados do PostgreSQL para dentro e fora de arquivos ou formatos externos."
+        }
+      }
+    },
+    {
+      "key": "postgresql/server_status",
+      "slug": "server_status",
+      "name": "Server Status",
+      "desc": "Server status covers inspecting PostgreSQL runtime state, sessions, and activity.",
+      "i18n": {
+        "zh": {
+          "name": "服务器状态",
+          "desc": "服务器状态涵盖检查 PostgreSQL 运行时状态、会话和活动。"
+        },
+        "es": {
+          "name": "Estado del servidor",
+          "desc": "El estado del servidor cubre la inspección del estado de ejecución, las sesiones y la actividad de PostgreSQL."
+        },
+        "fr": {
+          "name": "Statut du serveur",
+          "desc": "L'état du serveur couvre l'inspection de l'état d'exécution, des sessions et de l'activité PostgreSQL."
+        },
+        "de": {
+          "name": "Serverstatus",
+          "desc": "Der Serverstatus umfasst die Überprüfung des PostgreSQL-Laufzeitstatus, der Sitzungen und der Aktivität."
+        },
+        "ja": {
+          "name": "サーバーステータス",
+          "desc": "サーバーステータスには、PostgreSQL ランタイム状態、セッション、およびアクティビティの検査が含まれます。"
+        },
+        "ru": {
+          "name": "Статус сервера",
+          "desc": "Статус сервера включает проверку текущего состояния PostgreSQL, сеансов и активности."
+        },
+        "ko": {
+          "name": "서버 상태",
+          "desc": "서버 상태에는 PostgreSQL 런타임 상태, 세션 및 활동 검사가 포함됩니다."
+        },
+        "pt": {
+          "name": "Status do servidor",
+          "desc": "O status do servidor abrange a inspeção do estado do tempo de execução, sessões e atividades do PostgreSQL."
+        }
+      }
+    },
+    {
+      "key": "postgresql/logs_diagnostics",
+      "slug": "logs_diagnostics",
+      "name": "Logs and Diagnostics",
+      "desc": "Logs and diagnostics cover reading PostgreSQL logs and diagnostic output to investigate issues.",
+      "i18n": {
+        "zh": {
+          "name": "日志和诊断",
+          "desc": "日志和诊断包括读取 PostgreSQL 日志和诊断输出以调查问题。"
+        },
+        "es": {
+          "name": "Registros y diagnósticos",
+          "desc": "Los registros y diagnósticos cubren la lectura de registros PostgreSQL y resultados de diagnóstico para investigar problemas."
+        },
+        "fr": {
+          "name": "Journaux et diagnostics",
+          "desc": "Les journaux et les diagnostics couvrent la lecture des journaux PostgreSQL et les résultats de diagnostic pour enquêter sur les problèmes."
+        },
+        "de": {
+          "name": "Protokolle und Diagnose",
+          "desc": "Protokolle und Diagnose umfassen das Lesen von PostgreSQL-Protokollen und Diagnoseausgaben zur Untersuchung von Problemen."
+        },
+        "ja": {
+          "name": "ログと診断",
+          "desc": "ログと診断では、問題を調査するための PostgreSQL ログと診断出力の読み取りについて説明します。"
+        },
+        "ru": {
+          "name": "Журналы и диагностика",
+          "desc": "Журналы и диагностика включают чтение журналов PostgreSQL и диагностического вывода для выявления проблем."
+        },
+        "ko": {
+          "name": "로그 및 진단",
+          "desc": "로그 및 진단에서는 문제 조사를 위한 PostgreSQL 로그 및 진단 출력 읽기를 다룹니다."
+        },
+        "pt": {
+          "name": "Registros e diagnósticos",
+          "desc": "Registros e diagnósticos cobrem a leitura de registros do PostgreSQL e saída de diagnóstico para investigar problemas."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "key": "kubernetes",
+  "slug": "kubernetes",
+  "name": "Kubernetes",
+  "skills": [
+    {
+      "key": "kubernetes/dashboard",
+      "slug": "dashboard",
+      "name": "Dashboard",
+      "desc": "The 'dashboard' skill involves using the Kubernetes Dashboard, a web-based user interface for managing Kubernetes clusters. It provides a visual overview of cluster resources and simplifies administrative tasks."
+    },
+    {
+      "key": "kubernetes/initialization",
+      "slug": "initialization",
+      "name": "Initialization",
+      "desc": "Initialization in Kubernetes involves setting up the initial state of a cluster. This includes tasks like bootstrapping the cluster, setting up essential services, and configuring network policies."
+    },
+    {
+      "key": "kubernetes/get",
+      "slug": "get",
+      "name": "Get",
+      "desc": "The 'get' command is used to retrieve information about one or more resources in a Kubernetes cluster. It provides a quick way to see the status of resources like pods, services, deployments, etc."
+    },
+    {
+      "key": "kubernetes/create",
+      "slug": "create",
+      "name": "Create",
+      "desc": "The 'create' command allows users to create new resources in a Kubernetes cluster. It is commonly used to create objects like pods, deployments, services, using either command-line parameters or YAML configuration files."
+    },
+    {
+      "key": "kubernetes/delete",
+      "slug": "delete",
+      "name": "Delete",
+      "desc": "The 'delete' command is used to remove resources from a Kubernetes cluster. It can be used to delete various types of resources like pods, services, or entire deployments, either individually or in bulk."
+    },
+    {
+      "key": "kubernetes/edit",
+      "slug": "edit",
+      "name": "Edit",
+      "desc": "The 'edit' command lets users modify the configuration of existing resources in a Kubernetes cluster. It opens the configuration in an editor, allowing for live changes to the resource's properties."
+    },
+    {
+      "key": "kubernetes/set",
+      "slug": "set",
+      "name": "Set",
+      "desc": "The 'set' command is used to change specific aspects of existing resources in a Kubernetes environment. This could include changing environment variables, image versions, or resource limits for a deployment."
+    },
+    {
+      "key": "kubernetes/expose",
+      "slug": "expose",
+      "name": "Expose",
+      "desc": "The 'expose' command in Kubernetes is used to expose a resource like a pod, deployment, or service to the internet or other pods within the cluster. It is a key command for making applications accessible."
+    },
+    {
+      "key": "kubernetes/run",
+      "slug": "run",
+      "name": "Run",
+      "desc": "The 'run' command in Kubernetes creates and runs a particular image in a pod. It is a quick way to start a single-instance stateless application or to run a one-off task in a pod."
+    },
+    {
+      "key": "kubernetes/annotate",
+      "slug": "annotate",
+      "name": "Annotate",
+      "desc": "The 'annotate' command is used to add or update annotations on Kubernetes resources. Annotations are key/value pairs that can be used to store additional metadata about the resource."
+    },
+    {
+      "key": "kubernetes/cordon",
+      "slug": "cordon",
+      "name": "Cordon",
+      "desc": "The 'cordon' command marks a node in a Kubernetes cluster as unschedulable. This prevents new pods from being scheduled on the node, while existing pods remain running."
+    },
+    {
+      "key": "kubernetes/uncordon",
+      "slug": "uncordon",
+      "name": "Uncordon",
+      "desc": "The 'uncordon' command reverses the action of 'cordon', allowing a previously cordoned node to schedule new pods. It's used in node maintenance or upgrade scenarios."
+    },
+    {
+      "key": "kubernetes/taint",
+      "slug": "taint",
+      "name": "Taint",
+      "desc": "The 'taint' command in Kubernetes is used to mark a node with a key-value pair that repels certain pods. It allows for control over which pods can or cannot be scheduled on a particular node."
+    },
+    {
+      "key": "kubernetes/apply",
+      "slug": "apply",
+      "name": "Apply",
+      "desc": "The 'apply' command is used to apply changes to resources in a Kubernetes cluster. It is a powerful tool for managing applications and infrastructure, allowing users to declare desired states for resources."
+    },
+    {
+      "key": "kubernetes/rollout",
+      "slug": "rollout",
+      "name": "Rollout",
+      "desc": "The 'rollout' command manages the deployment process in Kubernetes. It is used for tasks like updating applications, rolling back changes, and viewing the status of ongoing rollouts."
+    },
+    {
+      "key": "kubernetes/scale",
+      "slug": "scale",
+      "name": "Scale",
+      "desc": "The 'scale' command adjusts the number of replicas in a deployment, replicaset, or stateful set. It is crucial for managing the scaling of applications to meet demand or resource constraints."
+    },
+    {
+      "key": "kubernetes/architecture",
+      "slug": "architecture",
+      "name": "Architecture",
+      "desc": "The 'architecture' skill involves understanding the components and operational principles of a Kubernetes cluster. This includes knowledge of nodes, pods, services, and how they interact within the Kubernetes ecosystem."
+    },
+    {
+      "key": "kubernetes/cluster_info",
+      "slug": "cluster_info",
+      "name": "Cluster Info",
+      "desc": "The 'cluster-info' command provides key information about the cluster's status and the location of its primary services. This includes details about the master and Kubernetes dashboard among others."
+    },
+    {
+      "key": "kubernetes/top",
+      "slug": "top",
+      "name": "Top",
+      "desc": "The 'top' command displays resource usage statistics for nodes or pods in a Kubernetes cluster. It is an important tool for monitoring the performance and resource consumption of the cluster."
+    },
+    {
+      "key": "kubernetes/describe",
+      "slug": "describe",
+      "name": "Describe",
+      "desc": "The 'describe' command provides detailed information about Kubernetes resources. It's used to inspect and diagnose the status, events, and configuration details of any Kubernetes object."
+    },
+    {
+      "key": "kubernetes/exec",
+      "slug": "exec",
+      "name": "Exec",
+      "desc": "The 'exec' command is used to execute commands within a container in a Kubernetes pod. It is an essential tool for debugging running containers by providing access to the container's environment."
+    },
+    {
+      "key": "kubernetes/logs",
+      "slug": "logs",
+      "name": "Logs",
+      "desc": "The 'logs' command retrieves logs from containers in a Kubernetes pod. It is an essential debugging tool, allowing developers to view stdout and stderr logs to diagnose application issues."
+    },
+    {
+      "key": "kubernetes/port_forward",
+      "slug": "port_forward",
+      "name": "Port-Forward",
+      "desc": "The 'port-forward' command in Kubernetes is used to forward one or more local ports to a pod. This is particularly useful for debugging, testing, or direct access to applications running in pods."
+    },
+    {
+      "key": "kubernetes/proxy",
+      "slug": "proxy",
+      "name": "Proxy",
+      "desc": "The 'proxy' command creates a proxy server between your machine and the Kubernetes API server. It is used for securing and controlling access to the Kubernetes cluster API from a development environment."
+    },
+    {
+      "key": "kubernetes/label",
+      "slug": "label",
+      "name": "Label",
+      "desc": "The 'label' command is used to add, update, or delete labels on Kubernetes resources. Labels are key/value pairs attached to resources, used for organizing and selecting subsets of objects."
+    },
+    {
+      "key": "kubernetes/config",
+      "slug": "config",
+      "name": "Config",
+      "desc": "The 'config' command manages the kubeconfig files that store configuration and authentication information of the Kubernetes clusters. It's vital for managing access to multiple clusters."
+    },
+    {
+      "key": "kubernetes/version",
+      "slug": "version",
+      "name": "Version",
+      "desc": "The 'version' command is used to display the current version of Kubernetes that the kubectl client and the server are running. It helps in ensuring compatibility and troubleshooting version-related issues."
+    }
+  ]
+}

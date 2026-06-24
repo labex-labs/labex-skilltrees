@@ -1,0 +1,1567 @@
+{
+  "key": "shell",
+  "slug": "shell",
+  "name": "Shell",
+  "skills": [
+    {
+      "key": "shell/script_execution",
+      "slug": "script_execution",
+      "name": "Script Execution",
+      "desc": "Script execution covers shebangs, interpreter selection, executable permissions, and script invocation methods.",
+      "i18n": {
+        "zh": {
+          "name": "脚本执行",
+          "desc": "脚本执行涵盖 shebang、解释器选择、可执行权限、脚本调用方式等。"
+        },
+        "es": {
+          "name": "Ejecución de scripts",
+          "desc": "La ejecución de scripts cubre shebangs, selección de intérpretes, permisos ejecutables y métodos de invocación de scripts."
+        },
+        "fr": {
+          "name": "Exécution de scripts",
+          "desc": "L'exécution du script couvre les shebangs, la sélection de l'interpréteur, les autorisations des exécutables et les méthodes d'invocation du script."
+        },
+        "de": {
+          "name": "Skriptausführung",
+          "desc": "Die Skriptausführung umfasst Shebangs, Interpreterauswahl, ausführbare Berechtigungen und Skriptaufrufmethoden."
+        },
+        "ja": {
+          "name": "スクリプトの実行",
+          "desc": "スクリプトの実行には、シバン、インタープリターの選択、実行可能アクセス許可、およびスクリプト呼び出し方法が含まれます。"
+        },
+        "ru": {
+          "name": "Выполнение скриптов",
+          "desc": "Выполнение скриптов охватывает шебанги, выбор интерпретатора, разрешения исполняемого файла и методы вызова скриптов."
+        },
+        "ko": {
+          "name": "스크립트 실행",
+          "desc": "스크립트 실행에는 shebang, 인터프리터 선택, 실행 권한 및 스크립트 호출 방법이 포함됩니다."
+        },
+        "pt": {
+          "name": "Execução de script",
+          "desc": "A execução de script abrange shebangs, seleção de intérprete, permissões executáveis e métodos de invocação de script."
+        }
+      }
+    },
+    {
+      "key": "shell/command_exit_status",
+      "slug": "command_exit_status",
+      "name": "Command Exit Status",
+      "desc": "Command exit status covers interpreting and propagating command success or failure in shell workflows.",
+      "i18n": {
+        "zh": {
+          "name": "命令退出状态",
+          "desc": "命令退出状态涵盖在 shell 工作流程中解释和传播命令成功或失败。"
+        },
+        "es": {
+          "name": "Código de salida del comando",
+          "desc": "El estado de salida del comando cubre la interpretación y propagación del éxito o fracaso del comando en los flujos de trabajo del shell."
+        },
+        "fr": {
+          "name": "État de sortie de commande",
+          "desc": "L’état de sortie de la commande couvre l’interprétation et la propagation du succès ou de l’échec de la commande dans les flux de travail du shell."
+        },
+        "de": {
+          "name": "Befehls-Exit-Status",
+          "desc": "Der Befehls-Exit-Status umfasst die Interpretation und Weitergabe des Befehlserfolgs oder -fehlers in Shell-Workflows."
+        },
+        "ja": {
+          "name": "コマンド終了ステータス",
+          "desc": "コマンド終了ステータスには、シェルワークフローでのコマンドの成功または失敗の解釈と伝達が含まれます。"
+        },
+        "ru": {
+          "name": "Статус выхода команды",
+          "desc": "Статус завершения команды охватывает интерпретацию и распространение успеха или неудачи команды в рабочих процессах оболочки."
+        },
+        "ko": {
+          "name": "명령 종료 상태",
+          "desc": "명령 종료 상태에는 셸 워크플로의 명령 성공 또는 실패 해석 및 전파가 포함됩니다."
+        },
+        "pt": {
+          "name": "Status de saída do comando",
+          "desc": "O status de saída do comando abrange a interpretação e propagação do sucesso ou falha do comando em fluxos de trabalho de shell."
+        }
+      }
+    },
+    {
+      "key": "shell/command_lists",
+      "slug": "command_lists",
+      "name": "Command Lists",
+      "desc": "Command lists cover sequencing commands with shell list operators and using exit status to control follow-up execution.",
+      "i18n": {
+        "zh": {
+          "name": "命令列表",
+          "desc": "命令列表涵盖使用 shell 列表运算符对命令进行排序并使用退出状态来控制后续执行。"
+        },
+        "es": {
+          "name": "Listas de comandos",
+          "desc": "Las listas de comandos cubren la secuenciación de comandos con operadores de lista de shell y el uso del estado de salida para controlar la ejecución de seguimiento."
+        },
+        "fr": {
+          "name": "Listes de commandes",
+          "desc": "Les listes de commandes couvrent le séquençage des commandes avec des opérateurs de liste shell et l'utilisation de l'état de sortie pour contrôler l'exécution ultérieure."
+        },
+        "de": {
+          "name": "Befehlslisten",
+          "desc": "Befehlslisten umfassen die Sequenzierung von Befehlen mit Shell-Listenoperatoren und die Verwendung des Exit-Status zur Steuerung der Folgeausführung."
+        },
+        "ja": {
+          "name": "コマンドリスト",
+          "desc": "コマンドリストでは、シェルリスト演算子を使用したコマンドの順序付けと、終了ステータスを使用した後続の実行の制御について説明します。"
+        },
+        "ru": {
+          "name": "Списки команд",
+          "desc": "Списки команд охватывают последовательное выполнение команд с помощью операторов списка оболочки и использование статуса выхода для управления последующим выполнением."
+        },
+        "ko": {
+          "name": "명령 목록",
+          "desc": "명령 목록에는 쉘 목록 연산자를 사용한 명령 순서 지정과 종료 상태를 사용하여 후속 실행을 제어하는 내용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Listas de Comandos",
+          "desc": "As listas de comandos abrangem o sequenciamento de comandos com operadores de lista do shell e o uso do status de saída para controlar a execução posterior."
+        }
+      }
+    },
+    {
+      "key": "shell/script_arguments",
+      "slug": "script_arguments",
+      "name": "Script Arguments",
+      "desc": "Script arguments cover accepting positional parameters, argument counts, and script input values.",
+      "i18n": {
+        "zh": {
+          "name": "脚本参数",
+          "desc": "脚本参数包括接受位置参数、参数计数和脚本输入值。"
+        },
+        "es": {
+          "name": "Argumentos de scripts",
+          "desc": "Los argumentos del script cubren la aceptación de parámetros posicionales, recuentos de argumentos y valores de entrada del script."
+        },
+        "fr": {
+          "name": "Arguments du script",
+          "desc": "Les arguments de script couvrent l'acceptation des paramètres de position, du nombre d'arguments et des valeurs d'entrée de script."
+        },
+        "de": {
+          "name": "Skriptargumente",
+          "desc": "Skriptargumente umfassen das Akzeptieren von Positionsparametern, Argumentanzahlen und Skripteingabewerten."
+        },
+        "ja": {
+          "name": "スクリプトの引数",
+          "desc": "スクリプト引数には、位置パラメータ、引数の数、およびスクリプトの入力値の受け入れが含まれます。"
+        },
+        "ru": {
+          "name": "Аргументы скриптов",
+          "desc": "Аргументы скриптов охватывают принятие позиционных параметров, количества аргументов и входных значений скрипта."
+        },
+        "ko": {
+          "name": "스크립트 인수",
+          "desc": "스크립트 인수에는 위치 매개변수, 인수 개수 및 스크립트 입력 값 허용이 포함됩니다."
+        },
+        "pt": {
+          "name": "Argumentos de script",
+          "desc": "Os argumentos do script abrangem a aceitação de parâmetros posicionais, contagens de argumentos e valores de entrada do script."
+        }
+      }
+    },
+    {
+      "key": "shell/option_parsing",
+      "slug": "option_parsing",
+      "name": "Option Parsing",
+      "desc": "Option parsing covers handling flags, named inputs, and option-like arguments in shell scripts.",
+      "i18n": {
+        "zh": {
+          "name": "选项解析",
+          "desc": "选项解析涵盖了 shell 脚本中处理标志、命名输入和类似选项的参数。"
+        },
+        "es": {
+          "name": "Análisis de opciones",
+          "desc": "El análisis de opciones cubre el manejo de indicadores, entradas con nombre y argumentos similares a opciones en scripts de shell."
+        },
+        "fr": {
+          "name": "Analyse des options",
+          "desc": "L'analyse des options couvre la gestion des indicateurs, des entrées nommées et des arguments de type option dans les scripts shell."
+        },
+        "de": {
+          "name": "Optionsanalyse",
+          "desc": "Das Parsen von Optionen umfasst die Behandlung von Flags, benannten Eingaben und optionähnlichen Argumenten in Shell-Skripten."
+        },
+        "ja": {
+          "name": "オプションの解析",
+          "desc": "オプションの解析では、シェルスクリプトでのフラグ、名前付き入力、およびオプションのような引数の処理を扱います。"
+        },
+        "ru": {
+          "name": "Разбор опций",
+          "desc": "Анализ параметров охватывает обработку флагов, именованных входных данных и аргументов, подобных параметрам, в сценариях оболочки."
+        },
+        "ko": {
+          "name": "옵션 구문 분석",
+          "desc": "옵션 구문 분석에는 쉘 스크립트의 플래그, 명명된 입력 및 옵션과 유사한 인수 처리가 포함됩니다."
+        },
+        "pt": {
+          "name": "Análise de opções",
+          "desc": "A análise de opções abrange o tratamento de sinalizadores, entradas nomeadas e argumentos semelhantes a opções em scripts de shell."
+        }
+      }
+    },
+    {
+      "key": "shell/variable_assignment",
+      "slug": "variable_assignment",
+      "name": "Variable Assignment",
+      "desc": "Variable assignment covers creating, updating, and reading shell variables.",
+      "i18n": {
+        "zh": {
+          "name": "变量赋值",
+          "desc": "变量赋值包括创建、更新和读取 shell 变量。"
+        },
+        "es": {
+          "name": "Asignación de variables",
+          "desc": "La asignación de variables cubre la creación, actualización y lectura de variables de shell."
+        },
+        "fr": {
+          "name": "Affectation de variables",
+          "desc": "L'affectation de variables couvre la création, la mise à jour et la lecture des variables shell."
+        },
+        "de": {
+          "name": "Variablenzuweisung",
+          "desc": "Die Variablenzuweisung umfasst das Erstellen, Aktualisieren und Lesen von Shell-Variablen."
+        },
+        "ja": {
+          "name": "変数の割り当て",
+          "desc": "変数の割り当てには、シェル変数の作成、更新、読み取りが含まれます。"
+        },
+        "ru": {
+          "name": "Назначение переменной",
+          "desc": "Назначение переменных охватывает создание, обновление и чтение переменных оболочки."
+        },
+        "ko": {
+          "name": "변수 할당",
+          "desc": "변수 할당에는 쉘 변수 생성, 업데이트 및 읽기가 포함됩니다."
+        },
+        "pt": {
+          "name": "Atribuição de Variável",
+          "desc": "A atribuição de variáveis abrange a criação, atualização e leitura de variáveis de shell."
+        }
+      }
+    },
+    {
+      "key": "shell/parameter_expansion",
+      "slug": "parameter_expansion",
+      "name": "Parameter Expansion",
+      "desc": "Parameter expansion covers defaulting, slicing, transforming, and safely expanding shell parameter values.",
+      "i18n": {
+        "zh": {
+          "name": "参数展开",
+          "desc": "参数展开涵盖默认值、切片、转换以及安全展开 shell 参数值。"
+        },
+        "es": {
+          "name": "Expansión de parámetros",
+          "desc": "La expansión de parámetros cubre valores de parámetros de shell predeterminados, divididos, transformados y expandidos de forma segura."
+        },
+        "fr": {
+          "name": "Expansion des paramètres",
+          "desc": "L’expansion des paramètres couvre la définition par défaut, le découpage, la transformation et l’expansion en toute sécurité des valeurs des paramètres du shell."
+        },
+        "de": {
+          "name": "Parameterexpansion",
+          "desc": "Die Parameterexpansion umfasst Default-Werte, Slicing, Transformationen und das sichere Expandieren von Shell-Parameterwerten."
+        },
+        "ja": {
+          "name": "パラメータの拡張",
+          "desc": "パラメータの拡張では、シェルパラメータ値のデフォルト設定、スライス、変換、安全な拡張が行われます。"
+        },
+        "ru": {
+          "name": "Подстановка параметров",
+          "desc": "Подстановка параметров охватывает значения по умолчанию, срезы, преобразования и безопасное раскрытие значений параметров оболочки."
+        },
+        "ko": {
+          "name": "매개변수 전개",
+          "desc": "매개변수 전개는 셸 매개변수 값의 기본값 설정, 슬라이싱, 변환 및 안전한 전개를 다룹니다."
+        },
+        "pt": {
+          "name": "Expansão de parâmetros",
+          "desc": "A expansão de parâmetros abrange valores padrão, fatiamento, transformação e expansão segura dos valores dos parâmetros do shell."
+        }
+      }
+    },
+    {
+      "key": "shell/quoting",
+      "slug": "quoting",
+      "name": "Quoting",
+      "desc": "Quoting covers controlling word splitting, globbing, variable expansion, and literal text interpretation.",
+      "i18n": {
+        "zh": {
+          "name": "Shell 引号处理",
+          "desc": "Shell 引号处理涵盖控制分词、通配符展开、变量扩展和字面文本解释。"
+        },
+        "es": {
+          "name": "Entrecomillado de shell",
+          "desc": "El entrecomillado de shell cubre el control de la separación de palabras, el globbing, la expansión de variables y la interpretación de texto literal."
+        },
+        "fr": {
+          "name": "Guillemets du shell",
+          "desc": "Les guillemets du shell couvrent le contrôle du découpage des mots, du globbing, de l’expansion des variables et de l’interprétation du texte littéral."
+        },
+        "de": {
+          "name": "Shell-Quoting",
+          "desc": "Shell-Quoting umfasst die Steuerung von Wortaufteilung, Globbing, Variablenerweiterung und wörtlicher Textinterpretation."
+        },
+        "ja": {
+          "name": "シェルのクォート",
+          "desc": "シェルのクォートでは、単語分割、グロブ展開、変数展開、およびリテラルテキストの解釈を制御します。"
+        },
+        "ru": {
+          "name": "Кавычки в оболочке",
+          "desc": "Кавычки в оболочке охватывают управление разделением слов, glob-подстановкой, расширением переменных и буквальной интерпретацией текста."
+        },
+        "ko": {
+          "name": "셸 인용 처리",
+          "desc": "셸 인용 처리는 단어 분리, 글로빙, 변수 확장 및 리터럴 텍스트 해석 제어를 다룹니다."
+        },
+        "pt": {
+          "name": "Uso de aspas no shell",
+          "desc": "O uso de aspas no shell abrange o controle da divisão de palavras, globbing, expansão de variáveis e interpretação literal de texto."
+        }
+      }
+    },
+    {
+      "key": "shell/command_substitution",
+      "slug": "command_substitution",
+      "name": "Command Substitution",
+      "desc": "Command substitution covers capturing command output into shell expressions and assignments.",
+      "i18n": {
+        "zh": {
+          "name": "命令替换",
+          "desc": "命令替换涵盖将命令输出捕获到 shell 表达式和赋值中。"
+        },
+        "es": {
+          "name": "Sustitución de comando",
+          "desc": "La sustitución de comandos cubre la captura de la salida del comando en expresiones y asignaciones del shell."
+        },
+        "fr": {
+          "name": "Remplacement de commande",
+          "desc": "La substitution de commandes couvre la capture du résultat de la commande dans des expressions et des affectations shell."
+        },
+        "de": {
+          "name": "Befehlsersetzung",
+          "desc": "Die Befehlsersetzung umfasst das Erfassen der Befehlsausgabe in Shell-Ausdrücken und -Zuweisungen."
+        },
+        "ja": {
+          "name": "コマンド置換",
+          "desc": "コマンド置換では、コマンド出力をシェル式および代入に取り込むことができます。"
+        },
+        "ru": {
+          "name": "Замена команды",
+          "desc": "Подстановка команд охватывает запись вывода команды в выражения и назначения оболочки."
+        },
+        "ko": {
+          "name": "명령 대체",
+          "desc": "명령 대체에는 명령 출력을 쉘 표현식 및 할당으로 캡처하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Substituição de comando",
+          "desc": "A substituição de comandos abrange a captura da saída do comando em expressões e atribuições de shell."
+        }
+      }
+    },
+    {
+      "key": "shell/arithmetic_expansion",
+      "slug": "arithmetic_expansion",
+      "name": "Arithmetic Expansion",
+      "desc": "Arithmetic expansion covers integer calculations and numeric expressions in shell scripts.",
+      "i18n": {
+        "zh": {
+          "name": "算术扩展",
+          "desc": "算术扩展涵盖了 shell 脚本中的整数计算和数值表达式。"
+        },
+        "es": {
+          "name": "Expansión aritmética",
+          "desc": "La expansión aritmética cubre cálculos de números enteros y expresiones numéricas en scripts de shell."
+        },
+        "fr": {
+          "name": "Expansion arithmétique",
+          "desc": "L'expansion arithmétique couvre les calculs d'entiers et les expressions numériques dans les scripts shell."
+        },
+        "de": {
+          "name": "Arithmetische Erweiterung",
+          "desc": "Die arithmetische Erweiterung umfasst Ganzzahlberechnungen und numerische Ausdrücke in Shell-Skripten."
+        },
+        "ja": {
+          "name": "算術拡張",
+          "desc": "算術拡張では、シェルスクリプトの整数計算と数値式を扱います。"
+        },
+        "ru": {
+          "name": "Арифметическое расширение",
+          "desc": "Арифметическое расширение охватывает целочисленные вычисления и числовые выражения в сценариях оболочки."
+        },
+        "ko": {
+          "name": "산술 확장",
+          "desc": "산술 확장에는 쉘 스크립트의 정수 계산과 숫자 표현식이 포함됩니다."
+        },
+        "pt": {
+          "name": "Expansão Aritmética",
+          "desc": "A expansão aritmética abrange cálculos inteiros e expressões numéricas em scripts de shell."
+        }
+      }
+    },
+    {
+      "key": "shell/arrays",
+      "slug": "arrays",
+      "name": "Arrays",
+      "desc": "Arrays cover storing, indexing, and iterating over ordered shell values.",
+      "i18n": {
+        "zh": {
+          "name": "数组",
+          "desc": "数组涵盖存储、索引和迭代有序 shell 值。"
+        },
+        "es": {
+          "name": "Arreglos",
+          "desc": "Los arreglos cubren el almacenamiento, la indexación y la iteración sobre valores de shell ordenados."
+        },
+        "fr": {
+          "name": "Tableaux",
+          "desc": "Les tableaux couvrent le stockage, l'indexation et l'itération sur les valeurs ordonnées du shell."
+        },
+        "de": {
+          "name": "Arrays",
+          "desc": "Arrays umfassen das Speichern, Indizieren und Iterieren über geordnete Shell-Werte."
+        },
+        "ja": {
+          "name": "配列",
+          "desc": "配列は、順序付けられたシェル値の保存、インデックス付け、反復処理を扱います。"
+        },
+        "ru": {
+          "name": "Массивы",
+          "desc": "Массивы охватывают хранение, индексацию и перебор упорядоченных значений оболочки."
+        },
+        "ko": {
+          "name": "배열",
+          "desc": "배열은 정렬된 쉘 값에 대한 저장, 인덱싱 및 반복을 다룹니다."
+        },
+        "pt": {
+          "name": "Vetores",
+          "desc": "Vetores cobrem armazenamento, indexação e iteração sobre valores de shell ordenados."
+        }
+      }
+    },
+    {
+      "key": "shell/environment_variables",
+      "slug": "environment_variables",
+      "name": "Environment Variables",
+      "desc": "Environment variables cover exporting values to child processes and controlling inherited execution context.",
+      "i18n": {
+        "zh": {
+          "name": "环境变量",
+          "desc": "环境变量涵盖将值导出到子进程和控制继承的执行上下文。"
+        },
+        "es": {
+          "name": "Variables de entorno",
+          "desc": "Las variables de entorno cubren la exportación de valores a procesos secundarios y el control del contexto de ejecución heredado."
+        },
+        "fr": {
+          "name": "Variables d'environnement",
+          "desc": "Les variables d'environnement couvrent l'exportation de valeurs vers des processus enfants et le contrôle du contexte d'exécution hérité."
+        },
+        "de": {
+          "name": "Umgebungsvariablen",
+          "desc": "Umgebungsvariablen umfassen den Export von Werten in untergeordnete Prozesse und die Steuerung des geerbten Ausführungskontexts."
+        },
+        "ja": {
+          "name": "環境変数",
+          "desc": "環境変数は、子プロセスへの値のエクスポートと、継承された実行コンテキストの制御を扱います。"
+        },
+        "ru": {
+          "name": "Переменные среды",
+          "desc": "Переменные среды охватывают экспорт значений в дочерние процессы и управление унаследованным контекстом выполнения."
+        },
+        "ko": {
+          "name": "환경 변수",
+          "desc": "환경 변수는 값을 하위 프로세스로 내보내고 상속된 실행 컨텍스트를 제어하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Variáveis de ambiente",
+          "desc": "As variáveis de ambiente cobrem a exportação de valores para processos filhos e o controle do contexto de execução herdado."
+        }
+      }
+    },
+    {
+      "key": "shell/test_expressions",
+      "slug": "test_expressions",
+      "name": "Test Expressions",
+      "desc": "Test expressions cover evaluating strings, numbers, files, and command results for control flow.",
+      "i18n": {
+        "zh": {
+          "name": "测试表达式",
+          "desc": "测试表达式涵盖评估控制流的字符串、数字、文件和命令结果。"
+        },
+        "es": {
+          "name": "Expresiones de prueba",
+          "desc": "Las expresiones de prueba cubren la evaluación de cadenas, números, archivos y resultados de comandos para el flujo de control."
+        },
+        "fr": {
+          "name": "Expressions de test",
+          "desc": "Les expressions de test couvrent l'évaluation des chaînes, des nombres, des fichiers et des résultats de commandes pour le flux de contrôle."
+        },
+        "de": {
+          "name": "Testausdrücke",
+          "desc": "Testausdrücke umfassen die Auswertung von Zeichenfolgen, Zahlen, Dateien und Befehlsergebnissen für die Ablaufsteuerung."
+        },
+        "ja": {
+          "name": "テスト式",
+          "desc": "テスト式は、文字列、数値、ファイル、および制御フローのコマンド結果の評価を扱います。"
+        },
+        "ru": {
+          "name": "Тестовые выражения",
+          "desc": "Тестовые выражения охватывают оценку строк, чисел, файлов и результатов команд для потока управления."
+        },
+        "ko": {
+          "name": "테스트 표현식",
+          "desc": "테스트 표현식에는 제어 흐름에 대한 문자열, 숫자, 파일 및 명령 결과 평가가 포함됩니다."
+        },
+        "pt": {
+          "name": "Expressões de teste",
+          "desc": "As expressões de teste abrangem a avaliação de strings, números, arquivos e resultados de comandos para fluxo de controle."
+        }
+      }
+    },
+    {
+      "key": "shell/conditional_branching",
+      "slug": "conditional_branching",
+      "name": "Conditional Branching",
+      "desc": "Conditional branching covers choosing execution paths with if and case logic in shell scripts.",
+      "i18n": {
+        "zh": {
+          "name": "条件分支",
+          "desc": "条件分支包括在 shell 脚本中使用 if 和 case 逻辑选择执行路径。"
+        },
+        "es": {
+          "name": "Ramificación condicional",
+          "desc": "La bifurcación condicional cubre la elección de rutas de ejecución con lógica if y case en scripts de shell."
+        },
+        "fr": {
+          "name": "Branchement conditionnel",
+          "desc": "Le branchement conditionnel couvre le choix des chemins d'exécution avec la logique if et case dans les scripts shell."
+        },
+        "de": {
+          "name": "Bedingte Verzweigung",
+          "desc": "Die bedingte Verzweigung umfasst die Auswahl von Ausführungspfaden mit If- und Case-Logik in Shell-Skripten."
+        },
+        "ja": {
+          "name": "条件分岐",
+          "desc": "条件分岐では、シェルスクリプトの if および case ロジックを使用した実行パスの選択を扱います。"
+        },
+        "ru": {
+          "name": "Условное ветвление",
+          "desc": "Условное ветвление охватывает выбор путей выполнения с логикой if и case в сценариях оболочки."
+        },
+        "ko": {
+          "name": "조건부 분기",
+          "desc": "조건부 분기는 쉘 스크립트의 if 및 Case 논리를 사용하여 실행 경로를 선택하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Ramificação Condicional",
+          "desc": "A ramificação condicional cobre a escolha de caminhos de execução com lógica if e case em scripts de shell."
+        }
+      }
+    },
+    {
+      "key": "shell/shell_loops",
+      "slug": "shell_loops",
+      "name": "Shell Loops",
+      "desc": "Shell loops cover repeating commands with list-based and condition-controlled loop structures.",
+      "i18n": {
+        "zh": {
+          "name": "Shell 循环",
+          "desc": "Shell 循环涵盖使用基于列表和条件控制的循环结构重复执行命令。"
+        },
+        "es": {
+          "name": "Shell Bucles",
+          "desc": "Los bucles de shell cubren la repetición de comandos con estructuras de bucle basadas en listas y controladas por condiciones."
+        },
+        "fr": {
+          "name": "Shell Boucles",
+          "desc": "Les boucles Shell couvrent les commandes répétitives avec des structures de boucles basées sur des listes et contrôlées par des conditions."
+        },
+        "de": {
+          "name": "Shell Schleifen",
+          "desc": "Shell Schleifen umfassen sich wiederholende Befehle mit listenbasierten und bedingungsgesteuerten Schleifenstrukturen."
+        },
+        "ja": {
+          "name": "Shell ループ",
+          "desc": "Shell ループは、リストベースおよび条件制御のループ構造でコマンドの繰り返しを扱います。"
+        },
+        "ru": {
+          "name": "Циклы shell",
+          "desc": "Циклы Shell охватывают повторяющиеся команды со структурами циклов на основе списков и с контролем условий."
+        },
+        "ko": {
+          "name": "Shell 루프",
+          "desc": "Shell 루프는 목록 기반 및 조건 제어 루프 구조를 사용하여 반복 명령을 다룹니다."
+        },
+        "pt": {
+          "name": "Shell Loops",
+          "desc": "Loops de shell cobrem a repetição de comandos com estruturas de loop baseadas em listas e controladas por condições."
+        }
+      }
+    },
+    {
+      "key": "shell/loop_control",
+      "slug": "loop_control",
+      "name": "Loop Control",
+      "desc": "Loop control covers breaking out of loops and continuing to later iterations.",
+      "i18n": {
+        "zh": {
+          "name": "循环控制",
+          "desc": "循环控制包括跳出循环并继续进行后续迭代。"
+        },
+        "es": {
+          "name": "Control de bucle",
+          "desc": "El control de bucle cubre romper bucles y continuar con iteraciones posteriores."
+        },
+        "fr": {
+          "name": "Contrôle de boucle",
+          "desc": "Le contrôle des boucles couvre la rupture des boucles et la poursuite des itérations ultérieures."
+        },
+        "de": {
+          "name": "Schleifensteuerung",
+          "desc": "Die Schleifenkontrolle umfasst das Ausbrechen von Schleifen und das Fortfahren mit späteren Iterationen."
+        },
+        "ja": {
+          "name": "ループ制御",
+          "desc": "ループ制御は、ループの抜け出しと後の反復への継続を扱います。"
+        },
+        "ru": {
+          "name": "Управление циклами",
+          "desc": "Управление циклами включает выход из циклов и продолжение последующих итераций."
+        },
+        "ko": {
+          "name": "루프 제어",
+          "desc": "루프 제어는 루프에서 벗어나 이후 반복을 계속하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Controle de loop",
+          "desc": "O controle de loop cobre a interrupção de loops e a continuação para iterações posteriores."
+        }
+      }
+    },
+    {
+      "key": "shell/shell_functions",
+      "slug": "shell_functions",
+      "name": "Shell Functions",
+      "desc": "Shell functions cover defining reusable logic, passing arguments, returning status, and limiting local state.",
+      "i18n": {
+        "zh": {
+          "name": "Shell 函数",
+          "desc": "Shell 函数涵盖定义可重用逻辑、传递参数、返回状态和限制本地状态。"
+        },
+        "es": {
+          "name": "Funciones de shell",
+          "desc": "Las funciones Shell cubren la definición de lógica reutilizable, el paso de argumentos, la devolución del estado y la limitación del estado local."
+        },
+        "fr": {
+          "name": "Fonctions shell",
+          "desc": "Les fonctions Shell couvrent la définition d'une logique réutilisable, la transmission d'arguments, le renvoi du statut et la limitation de l'état local."
+        },
+        "de": {
+          "name": "Shell-Funktionen",
+          "desc": "Shell-Funktionen umfassen das Definieren wiederverwendbarer Logik, das Übergeben von Argumenten, das Zurückgeben des Status und das Einschränken des lokalen Status."
+        },
+        "ja": {
+          "name": "Shell 関数",
+          "desc": "Shell 関数は、再利用可能なロジックの定義、引数の受け渡し、ステータスの返し、ローカル状態の制限を扱います。"
+        },
+        "ru": {
+          "name": "Функции shell",
+          "desc": "Shell функции охватывают определение повторно используемой логики, передачу аргументов, возврат статуса и ограничение локального состояния."
+        },
+        "ko": {
+          "name": "Shell 함수",
+          "desc": "Shell 함수에는 재사용 가능한 논리 정의, 인수 전달, 상태 반환 및 로컬 상태 제한이 포함됩니다."
+        },
+        "pt": {
+          "name": "Funções de shell",
+          "desc": "As funções Shell cobrem a definição de lógica reutilizável, passagem de argumentos, retorno de status e limitação de estado local."
+        }
+      }
+    },
+    {
+      "key": "shell/library_scripts",
+      "slug": "library_scripts",
+      "name": "Library Scripts",
+      "desc": "Library scripts cover sourcing reusable shell code across scripts while controlling shared state.",
+      "i18n": {
+        "zh": {
+          "name": "库脚本",
+          "desc": "库脚本涵盖在多个脚本中引入可重用的 shell 代码，同时控制共享状态。"
+        },
+        "es": {
+          "name": "Scripts de biblioteca",
+          "desc": "Los scripts de biblioteca cubren la carga de código shell reutilizable entre scripts mientras se controla el estado compartido."
+        },
+        "fr": {
+          "name": "Scripts de bibliothèque",
+          "desc": "Les scripts de bibliothèque couvrent l'inclusion de code shell réutilisable entre scripts tout en contrôlant l'état partagé."
+        },
+        "de": {
+          "name": "Bibliotheksskripte",
+          "desc": "Bibliotheksskripte umfassen das Einbinden von wiederverwendbarem Shell-Code über Skripte hinweg und die Kontrolle des gemeinsamen Zustands."
+        },
+        "ja": {
+          "name": "ライブラリスクリプト",
+          "desc": "ライブラリスクリプトは、共有状態を制御しながら、スクリプト間で再利用可能なシェルコードを読み込む方法を扱います。"
+        },
+        "ru": {
+          "name": "Библиотечные скрипты",
+          "desc": "Библиотечные скрипты охватывают использование многократно используемого shell-кода в скриптах при контроле общего состояния."
+        },
+        "ko": {
+          "name": "라이브러리 스크립트",
+          "desc": "라이브러리 스크립트는 공유 상태를 제어하면서 스크립트 전체에서 재사용 가능한 셸 코드 소싱을 다룹니다."
+        },
+        "pt": {
+          "name": "Scripts de biblioteca",
+          "desc": "Os scripts de biblioteca cobrem a inclusão de código shell reutilizável entre scripts enquanto controlam o estado compartilhado."
+        }
+      }
+    },
+    {
+      "key": "shell/standard_streams",
+      "slug": "standard_streams",
+      "name": "Standard Streams",
+      "desc": "Standard streams cover stdin, stdout, stderr, and file descriptor usage in shell commands and scripts.",
+      "i18n": {
+        "zh": {
+          "name": "标准流",
+          "desc": "标准流涵盖 shell 命令和脚本中的 stdin、stdout、stderr 和文件描述符用法。"
+        },
+        "es": {
+          "name": "Flujos estándar",
+          "desc": "Los flujos estándar cubren el uso de stdin, stdout, stderr y descriptores de archivos en scripts y comandos de shell."
+        },
+        "fr": {
+          "name": "Flux standards",
+          "desc": "Les flux standard couvrent l'utilisation de stdin, stdout, stderr et des descripteurs de fichiers dans les commandes et les scripts shell."
+        },
+        "de": {
+          "name": "Standardströme",
+          "desc": "Standardströme decken die Verwendung von stdin, stdout, stderr und Dateideskriptoren in Shell-Befehlen und Skripten ab."
+        },
+        "ja": {
+          "name": "標準ストリーム",
+          "desc": "標準ストリームは、シェルコマンドおよびスクリプトでの stdin、stdout、stderr、およびファイル記述子の使用法を扱います。"
+        },
+        "ru": {
+          "name": "Стандартные потоки",
+          "desc": "Стандартные потоки охватывают использование stdin, stdout, stderr и файловых дескрипторов в командах и сценариях оболочки."
+        },
+        "ko": {
+          "name": "표준 스트림",
+          "desc": "표준 스트림은 쉘 명령 및 스크립트에서 stdin, stdout, stderr 및 파일 설명자 사용을 다룹니다."
+        },
+        "pt": {
+          "name": "Fluxos padrão",
+          "desc": "Os fluxos padrão cobrem o uso de stdin, stdout, stderr e descritor de arquivo em comandos e scripts shell."
+        }
+      }
+    },
+    {
+      "key": "shell/redirection",
+      "slug": "redirection",
+      "name": "Redirection",
+      "desc": "Redirection covers sending command input and output to files, descriptors, and shell-provided text.",
+      "i18n": {
+        "zh": {
+          "name": "重定向",
+          "desc": "重定向包括将命令输入和输出发送到文件、描述符和 shell 提供的文本。"
+        },
+        "es": {
+          "name": "Redirección",
+          "desc": "La redirección cubre el envío de entradas y salidas de comandos a archivos, descriptores y texto proporcionado por el shell."
+        },
+        "fr": {
+          "name": "Redirection",
+          "desc": "La redirection couvre l'envoi d'entrées et de sorties de commandes vers des fichiers, des descripteurs et du texte fourni par le shell."
+        },
+        "de": {
+          "name": "Umleitung",
+          "desc": "Die Umleitung umfasst das Senden von Befehlseingaben und -ausgaben an Dateien, Deskriptoren und von der Shell bereitgestellten Text."
+        },
+        "ja": {
+          "name": "リダイレクト",
+          "desc": "リダイレクトには、コマンドの入力と出力をファイル、記述子、およびシェルが提供するテキストに送信することが含まれます。"
+        },
+        "ru": {
+          "name": "Перенаправление",
+          "desc": "Перенаправление включает отправку входных и выходных данных команды в файлы, дескрипторы и текст, предоставленный оболочкой."
+        },
+        "ko": {
+          "name": "리디렉션",
+          "desc": "리디렉션에는 명령 입력 및 출력을 파일, 설명자 및 쉘 제공 텍스트로 보내는 것이 포함됩니다."
+        },
+        "pt": {
+          "name": "Redirecionamento",
+          "desc": "O redirecionamento abrange o envio de entrada e saída de comandos para arquivos, descritores e texto fornecido pelo shell."
+        }
+      }
+    },
+    {
+      "key": "shell/pipelines",
+      "slug": "pipelines",
+      "name": "Pipelines",
+      "desc": "Pipelines cover connecting commands through streams and interpreting pipeline behavior in shell workflows.",
+      "i18n": {
+        "zh": {
+          "name": "管道",
+          "desc": "管道涵盖通过流连接命令以及解释 shell 工作流中的管道行为。"
+        },
+        "es": {
+          "name": "Canalizaciones",
+          "desc": "Las canalizaciones cubren la conexión de comandos mediante flujos y la interpretación del comportamiento de las canalizaciones en flujos de trabajo de shell."
+        },
+        "fr": {
+          "name": "Pipelines",
+          "desc": "Les pipelines couvrent la connexion de commandes via des flux et l’interprétation du comportement des pipelines dans les workflows shell."
+        },
+        "de": {
+          "name": "Pipelines",
+          "desc": "Pipelines behandeln das Verbinden von Befehlen über Streams und die Interpretation des Pipeline-Verhaltens in Shell-Workflows."
+        },
+        "ja": {
+          "name": "パイプライン",
+          "desc": "Pipelines では、ストリームを介したコマンドの接続と、シェルワークフローでのパイプライン動作の解釈について説明します。"
+        },
+        "ru": {
+          "name": "Конвейеры",
+          "desc": "Конвейеры охватывают соединение команд через потоки и интерпретацию поведения конвейеров в рабочих процессах оболочки."
+        },
+        "ko": {
+          "name": "파이프라인",
+          "desc": "파이프라인은 스트림을 통해 명령을 연결하고 셸 워크플로에서 파이프라인 동작을 해석하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Pipelines",
+          "desc": "Os pipelines abordam a conexão de comandos por meio de fluxos e a interpretação do comportamento dos pipelines em fluxos de trabalho de shell."
+        }
+      }
+    },
+    {
+      "key": "shell/here_documents",
+      "slug": "here_documents",
+      "name": "Here Documents",
+      "desc": "Here documents cover embedding multi-line input directly in shell scripts and command invocations.",
+      "i18n": {
+        "zh": {
+          "name": "Here 文档",
+          "desc": "Here 文档涵盖将多行输入直接嵌入到 shell 脚本和命令调用中。"
+        },
+        "es": {
+          "name": "Documentos here",
+          "desc": "Los documentos here cubren la incorporación de entradas multilínea directamente en scripts de shell e invocaciones de comandos."
+        },
+        "fr": {
+          "name": "Documents here",
+          "desc": "Les documents here couvrent l’intégration d’entrées multilignes directement dans les scripts shell et les invocations de commandes."
+        },
+        "de": {
+          "name": "Here-Dokumente",
+          "desc": "Here-Dokumente behandeln das direkte Einbetten mehrzeiliger Eingaben in Shell-Skripte und Befehlsaufrufe."
+        },
+        "ja": {
+          "name": "ヒアドキュメント",
+          "desc": "ヒアドキュメントでは、シェルスクリプトやコマンド呼び出しに複数行の入力を直接埋め込む方法を扱います。"
+        },
+        "ru": {
+          "name": "Here-документы",
+          "desc": "Here-документы охватывают встраивание многострочного ввода непосредственно в shell-скрипты и вызовы команд."
+        },
+        "ko": {
+          "name": "Here 문서",
+          "desc": "Here 문서는 셸 스크립트와 명령 호출에 여러 줄 입력을 직접 포함하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Documentos here",
+          "desc": "Documentos here cobrem a incorporação de entradas multilinha diretamente em scripts shell e invocações de comandos."
+        }
+      }
+    },
+    {
+      "key": "shell/subshells",
+      "slug": "subshells",
+      "name": "Subshells",
+      "desc": "Subshells cover running grouped commands in separate shell environments and understanding scope effects.",
+      "i18n": {
+        "zh": {
+          "name": "子 shell",
+          "desc": "子 shell 涵盖在单独的 shell 环境中运行分组命令以及了解作用域效果。"
+        },
+        "es": {
+          "name": "Subshells",
+          "desc": "Los subshells cubren la ejecución de comandos agrupados en entornos de shell separados y la comprensión de los efectos de ámbito."
+        },
+        "fr": {
+          "name": "Sous-shells",
+          "desc": "Les sous-shells couvrent l’exécution de commandes groupées dans des environnements shell distincts et la compréhension des effets de portée."
+        },
+        "de": {
+          "name": "Subshells",
+          "desc": "Subshells behandeln die Ausführung gruppierter Befehle in separaten Shell-Umgebungen und das Verständnis von Gültigkeitsbereichseffekten."
+        },
+        "ja": {
+          "name": "サブシェル",
+          "desc": "サブシェルでは、個別のシェル環境でのグループ化されたコマンドの実行と、スコープの影響について説明します。"
+        },
+        "ru": {
+          "name": "Подоболочки",
+          "desc": "Подоболочки охватывают выполнение сгруппированных команд в отдельных средах оболочки и понимание эффектов области действия."
+        },
+        "ko": {
+          "name": "서브쉘",
+          "desc": "서브셸에서는 별도의 셸 환경에서 그룹화된 명령을 실행하고 범위 효과를 이해하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Subshells",
+          "desc": "Subshells cobrem a execução de comandos agrupados em ambientes shell separados e a compreensão dos efeitos de escopo."
+        }
+      }
+    },
+    {
+      "key": "shell/background_jobs",
+      "slug": "background_jobs",
+      "name": "Background Jobs",
+      "desc": "Background jobs cover running commands asynchronously from a script or interactive shell.",
+      "i18n": {
+        "zh": {
+          "name": "后台作业",
+          "desc": "后台作业包括从脚本或交互式 shell 异步运行命令。"
+        },
+        "es": {
+          "name": "Trabajos en segundo plano",
+          "desc": "Los trabajos en segundo plano cubren la ejecución de comandos de forma asincrónica desde un script o shell interactivo."
+        },
+        "fr": {
+          "name": "Travaux en arrière-plan",
+          "desc": "Les tâches en arrière-plan couvrent l'exécution de commandes de manière asynchrone à partir d'un script ou d'un shell interactif."
+        },
+        "de": {
+          "name": "Hintergrundjobs",
+          "desc": "Hintergrundjobs umfassen die asynchrone Ausführung von Befehlen über ein Skript oder eine interaktive Shell."
+        },
+        "ja": {
+          "name": "バックグラウンドジョブ",
+          "desc": "バックグラウンドジョブは、スクリプトまたは対話型シェルからのコマンドの非同期実行を扱います。"
+        },
+        "ru": {
+          "name": "Фоновые задания",
+          "desc": "Фоновые задания охватывают асинхронный запуск команд из сценария или интерактивной оболочки."
+        },
+        "ko": {
+          "name": "백그라운드 작업",
+          "desc": "백그라운드 작업은 스크립트 또는 대화형 셸에서 비동기적으로 명령을 실행하는 작업을 다룹니다."
+        },
+        "pt": {
+          "name": "Trabalhos em segundo plano",
+          "desc": "Os trabalhos em segundo plano abrangem a execução de comandos de forma assíncrona a partir de um script ou shell interativo."
+        }
+      }
+    },
+    {
+      "key": "shell/process_waiting",
+      "slug": "process_waiting",
+      "name": "Process Waiting",
+      "desc": "Process waiting covers coordinating shell flow with child process completion.",
+      "i18n": {
+        "zh": {
+          "name": "进程等待",
+          "desc": "进程等待涵盖协调 shell 流程与子进程完成。"
+        },
+        "es": {
+          "name": "Espera de procesos",
+          "desc": "La espera de procesos cubre la coordinación del flujo del shell con la finalización de procesos hijo."
+        },
+        "fr": {
+          "name": "Attente de processus",
+          "desc": "L’attente de processus couvre la coordination du flux du shell avec la fin des processus enfants."
+        },
+        "de": {
+          "name": "Warten auf Prozesse",
+          "desc": "Das Warten auf Prozesse behandelt die Koordination des Shell-Ablaufs mit dem Abschluss von Kindprozessen."
+        },
+        "ja": {
+          "name": "プロセス待機",
+          "desc": "プロセス待機は、子プロセスの完了に合わせて shell の流れを調整することを扱います。"
+        },
+        "ru": {
+          "name": "Ожидание процесса",
+          "desc": "Ожидание процесса охватывает координацию потока оболочки с завершением дочернего процесса."
+        },
+        "ko": {
+          "name": "프로세스 대기",
+          "desc": "프로세스 대기에는 하위 프로세스 완료와 함께 쉘 흐름 조정이 포함됩니다."
+        },
+        "pt": {
+          "name": "Espera de processos",
+          "desc": "A espera de processos abrange a coordenação do fluxo do shell com a conclusão de processos filhos."
+        }
+      }
+    },
+    {
+      "key": "shell/signals_traps",
+      "slug": "signals_traps",
+      "name": "Signals and Traps",
+      "desc": "Signals and traps cover responding to interrupts, termination, and cleanup events.",
+      "i18n": {
+        "zh": {
+          "name": "信号和 trap",
+          "desc": "信号和 trap 涵盖对中断、终止和清理事件的响应。"
+        },
+        "es": {
+          "name": "Señales y traps",
+          "desc": "Las señales y traps cubren la respuesta a interrupciones, terminaciones y eventos de limpieza."
+        },
+        "fr": {
+          "name": "Signaux et traps",
+          "desc": "Les signaux et traps couvrent la réponse aux interruptions, terminaisons et événements de nettoyage."
+        },
+        "de": {
+          "name": "Signale und Traps",
+          "desc": "Signale und Traps umfassen die Reaktion auf Unterbrechungen, Beendigungen und Bereinigungsereignisse."
+        },
+        "ja": {
+          "name": "シグナルとトラップ",
+          "desc": "シグナルとトラップは、割り込み、終了、クリーンアップイベントへの応答を扱います。"
+        },
+        "ru": {
+          "name": "Сигналы и traps",
+          "desc": "Сигналы и traps охватывают реагирование на прерывания, завершение и события очистки."
+        },
+        "ko": {
+          "name": "신호와 trap",
+          "desc": "신호와 trap은 인터럽트, 종료 및 정리 이벤트에 대한 응답을 다룹니다."
+        },
+        "pt": {
+          "name": "Sinais e traps",
+          "desc": "Sinais e traps cobrem a resposta a interrupções, encerramento e eventos de limpeza."
+        }
+      }
+    },
+    {
+      "key": "shell/temporary_files",
+      "slug": "temporary_files",
+      "name": "Temporary Files",
+      "desc": "Temporary files cover safely creating, using, and cleaning up transient script data.",
+      "i18n": {
+        "zh": {
+          "name": "临时文件",
+          "desc": "临时文件涵盖安全地创建、使用和清理临时脚本数据。"
+        },
+        "es": {
+          "name": "Archivos temporales",
+          "desc": "Los archivos temporales cubren la creación, el uso y la limpieza segura de datos de scripts transitorios."
+        },
+        "fr": {
+          "name": "Fichiers temporaires",
+          "desc": "Les fichiers temporaires couvrent la création, l'utilisation et le nettoyage en toute sécurité des données de script transitoires."
+        },
+        "de": {
+          "name": "Temporäre Dateien",
+          "desc": "Temporäre Dateien umfassen das sichere Erstellen, Verwenden und Bereinigen transienter Skriptdaten."
+        },
+        "ja": {
+          "name": "一時ファイル",
+          "desc": "一時ファイルは、一時的なスクリプトデータの安全な作成、使用、クリーンアップを扱います。"
+        },
+        "ru": {
+          "name": "Временные файлы",
+          "desc": "Временные файлы охватывают безопасное создание, использование и очистку данных временных сценариев."
+        },
+        "ko": {
+          "name": "임시 파일",
+          "desc": "임시 파일은 임시 스크립트 데이터의 안전한 생성, 사용 및 정리를 다룹니다."
+        },
+        "pt": {
+          "name": "Arquivos temporários",
+          "desc": "Os arquivos temporários abrangem a criação, o uso e a limpeza segura de dados de script transitórios."
+        }
+      }
+    },
+    {
+      "key": "shell/file_tests",
+      "slug": "file_tests",
+      "name": "File Tests",
+      "desc": "File tests cover checking file existence, type, permissions, and timestamps in shell logic.",
+      "i18n": {
+        "zh": {
+          "name": "文件测试",
+          "desc": "文件测试包括检查 shell 逻辑中的文件存在、类型、权限和时间戳。"
+        },
+        "es": {
+          "name": "Pruebas de archivos",
+          "desc": "Las pruebas de archivos cubren la verificación de la existencia, el tipo, los permisos y las marcas de tiempo del archivo en la lógica del shell."
+        },
+        "fr": {
+          "name": "Tests de fichiers",
+          "desc": "Les tests de fichiers couvrent la vérification de l'existence, du type, des autorisations et des horodatages des fichiers dans la logique du shell."
+        },
+        "de": {
+          "name": "Dateitests",
+          "desc": "Dateitests umfassen die Überprüfung der Existenz, des Typs, der Berechtigungen und der Zeitstempel von Dateien in der Shell-Logik."
+        },
+        "ja": {
+          "name": "ファイルテスト",
+          "desc": "ファイルテストでは、シェルロジックでのファイルの存在、タイプ、アクセス許可、タイムスタンプのチェックが行われます。"
+        },
+        "ru": {
+          "name": "Файловые тесты",
+          "desc": "Тесты файлов охватывают проверку существования, типа, разрешений и временных меток файла в логике оболочки."
+        },
+        "ko": {
+          "name": "파일 테스트",
+          "desc": "파일 테스트에는 셸 논리에서 파일 존재, 유형, 권한 및 타임스탬프 확인이 포함됩니다."
+        },
+        "pt": {
+          "name": "Testes de arquivo",
+          "desc": "Os testes de arquivo cobrem a verificação da existência, tipo, permissões e carimbos de data/hora do arquivo na lógica do shell."
+        }
+      }
+    },
+    {
+      "key": "shell/path_handling",
+      "slug": "path_handling",
+      "name": "Path Handling",
+      "desc": "Path handling covers building, validating, and normalizing filesystem paths in shell scripts.",
+      "i18n": {
+        "zh": {
+          "name": "路径处理",
+          "desc": "路径处理涵盖在 shell 脚本中构建、验证和规范化文件系统路径。"
+        },
+        "es": {
+          "name": "Gestión de rutas",
+          "desc": "El manejo de rutas cubre la creación, validación y normalización de rutas del sistema de archivos en scripts de shell."
+        },
+        "fr": {
+          "name": "Gestion des chemins",
+          "desc": "La gestion des chemins couvre la création, la validation et la normalisation des chemins du système de fichiers dans les scripts shell."
+        },
+        "de": {
+          "name": "Pfadverarbeitung",
+          "desc": "Die Pfadverarbeitung umfasst das Erstellen, Überprüfen und Normalisieren von Dateisystempfaden in Shell-Skripten."
+        },
+        "ja": {
+          "name": "パスの処理",
+          "desc": "パス処理には、シェルスクリプトでのファイルシステムパスの構築、検証、正規化が含まれます。"
+        },
+        "ru": {
+          "name": "Обработка путей",
+          "desc": "Обработка путей охватывает создание, проверку и нормализацию путей файловой системы в сценариях оболочки."
+        },
+        "ko": {
+          "name": "경로 처리",
+          "desc": "경로 처리에는 쉘 스크립트의 파일 시스템 경로 구축, 검증 및 정규화가 포함됩니다."
+        },
+        "pt": {
+          "name": "Tratamento de caminhos",
+          "desc": "O tratamento de caminhos abrange a construção, validação e normalização de caminhos de sistemas de arquivos em scripts de shell."
+        }
+      }
+    },
+    {
+      "key": "shell/glob_patterns",
+      "slug": "glob_patterns",
+      "name": "Glob Patterns",
+      "desc": "Glob patterns cover matching groups of pathnames with shell pattern syntax.",
+      "i18n": {
+        "zh": {
+          "name": "glob 模式",
+          "desc": "glob 模式涵盖使用 shell 模式语法匹配一组路径名。"
+        },
+        "es": {
+          "name": "Patrones glob",
+          "desc": "Los patrones glob cubren la coincidencia de grupos de rutas mediante la sintaxis de patrones de shell."
+        },
+        "fr": {
+          "name": "Modèles glob",
+          "desc": "Les modèles glob couvrent la correspondance de groupes de chemins avec la syntaxe de motifs du shell."
+        },
+        "de": {
+          "name": "Glob-Muster",
+          "desc": "Glob-Muster decken das Abgleichen von Gruppen von Pfadnamen mit Shell-Mustersyntax ab."
+        },
+        "ja": {
+          "name": "グロブパターン",
+          "desc": "グロブパターンは、シェルパターン構文を使用して一致するパス名のグループを扱います。"
+        },
+        "ru": {
+          "name": "Glob-шаблоны",
+          "desc": "Glob-шаблоны охватывают сопоставление групп путей с помощью синтаксиса шаблонов оболочки."
+        },
+        "ko": {
+          "name": "글로브 패턴",
+          "desc": "glob 패턴은 셸 패턴 구문으로 경로 이름 그룹을 매칭하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Padrões glob",
+          "desc": "Os padrões glob cobrem a correspondência de grupos de nomes de caminhos com a sintaxe de padrões do shell."
+        }
+      }
+    },
+    {
+      "key": "shell/directory_traversal",
+      "slug": "directory_traversal",
+      "name": "Directory Traversal",
+      "desc": "Directory traversal covers iterating over filesystem structures safely in shell scripts.",
+      "i18n": {
+        "zh": {
+          "name": "目录遍历",
+          "desc": "目录遍历涵盖了在 shell 脚本中安全地迭代文件系统结构。"
+        },
+        "es": {
+          "name": "Recorrido de directorios",
+          "desc": "El recorrido de directorio cubre la iteración sobre estructuras de sistemas de archivos de forma segura en scripts de shell."
+        },
+        "fr": {
+          "name": "Parcours de répertoires",
+          "desc": "Le parcours de répertoires couvre l’itération sûre sur les structures du système de fichiers dans des scripts shell."
+        },
+        "de": {
+          "name": "Durchlaufen von Verzeichnissen",
+          "desc": "Das Durchlaufen von Verzeichnissen umfasst die sichere Iteration über Dateisystemstrukturen in Shell-Skripten."
+        },
+        "ja": {
+          "name": "ディレクトリの走査",
+          "desc": "ディレクトリの走査では、シェルスクリプトでファイルシステム構造を安全に反復処理します。"
+        },
+        "ru": {
+          "name": "Обход каталогов",
+          "desc": "Обход каталогов охватывает безопасный перебор структур файловой системы в сценариях оболочки."
+        },
+        "ko": {
+          "name": "디렉터리 탐색",
+          "desc": "디렉토리 탐색에는 쉘 스크립트에서 파일 시스템 구조를 안전하게 반복하는 작업이 포함됩니다."
+        },
+        "pt": {
+          "name": "Percurso de diretórios",
+          "desc": "O percurso de diretórios cobre a iteração segura por estruturas do sistema de arquivos em scripts de shell."
+        }
+      }
+    },
+    {
+      "key": "shell/configuration_files",
+      "slug": "configuration_files",
+      "name": "Configuration Files",
+      "desc": "Configuration files cover reading and writing simple script configuration data.",
+      "i18n": {
+        "zh": {
+          "name": "配置文件",
+          "desc": "配置文件涵盖读取和写入简单的脚本配置数据。"
+        },
+        "es": {
+          "name": "Archivos de configuración",
+          "desc": "Los archivos de configuración cubren la lectura y escritura de datos de configuración de scripts simples."
+        },
+        "fr": {
+          "name": "Fichiers de configuration",
+          "desc": "Les fichiers de configuration couvrent la lecture et l'écriture de données de configuration de script simples."
+        },
+        "de": {
+          "name": "Konfigurationsdateien",
+          "desc": "Konfigurationsdateien umfassen das Lesen und Schreiben einfacher Skriptkonfigurationsdaten."
+        },
+        "ja": {
+          "name": "設定ファイル",
+          "desc": "構成ファイルは、単純なスクリプト構成データの読み取りと書き込みを扱います。"
+        },
+        "ru": {
+          "name": "Файлы конфигурации",
+          "desc": "Файлы конфигурации охватывают чтение и запись данных конфигурации простых сценариев."
+        },
+        "ko": {
+          "name": "구성 파일",
+          "desc": "구성 파일에는 간단한 스크립트 구성 데이터 읽기 및 쓰기가 포함됩니다."
+        },
+        "pt": {
+          "name": "Arquivos de configuração",
+          "desc": "Os arquivos de configuração cobrem a leitura e gravação de dados de configuração de script simples."
+        }
+      }
+    },
+    {
+      "key": "shell/structured_output",
+      "slug": "structured_output",
+      "name": "Structured Output",
+      "desc": "Structured output covers producing script output that humans or programs can parse reliably.",
+      "i18n": {
+        "zh": {
+          "name": "结构化输出",
+          "desc": "结构化输出涵盖生成人类或程序可以可靠解析的脚本输出。"
+        },
+        "es": {
+          "name": "Salida estructurada",
+          "desc": "La salida estructurada cubre producir salida de scripts que humanos o programas puedan analizar de manera confiable."
+        },
+        "fr": {
+          "name": "Sortie structurée",
+          "desc": "La sortie structurée couvre la production d’une sortie de script que les humains ou les programmes peuvent analyser de manière fiable."
+        },
+        "de": {
+          "name": "Strukturierte Ausgabe",
+          "desc": "Unter strukturierter Ausgabe versteht man die Erstellung von Skriptausgaben, die von Menschen oder Programmen zuverlässig analysiert werden können."
+        },
+        "ja": {
+          "name": "構造化された出力",
+          "desc": "構造化された出力には、人間またはプログラムが確実に解析できるスクリプト出力の生成が含まれます。"
+        },
+        "ru": {
+          "name": "Структурированный вывод",
+          "desc": "Структурированный вывод включает в себя создание вывода сценария, который люди или программы могут надежно проанализировать."
+        },
+        "ko": {
+          "name": "구조화된 출력",
+          "desc": "구조화된 출력은 사람이나 프로그램이 안정적으로 파싱할 수 있는 스크립트 출력을 생성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Saída Estruturada",
+          "desc": "A saída estruturada abrange a produção de saída de script que humanos ou programas podem analisar de forma confiável."
+        }
+      }
+    },
+    {
+      "key": "shell/shell_options",
+      "slug": "shell_options",
+      "name": "Shell Options",
+      "desc": "Shell options cover configuring shell behavior that affects expansion, tracing, errors, and script execution.",
+      "i18n": {
+        "zh": {
+          "name": "Shell 选项",
+          "desc": "Shell 选项涵盖配置影响展开、跟踪、错误和脚本执行的 shell 行为。"
+        },
+        "es": {
+          "name": "Opciones del shell",
+          "desc": "Las opciones del shell cubren la configuración del comportamiento del shell que afecta la expansión, el seguimiento, los errores y la ejecución de scripts."
+        },
+        "fr": {
+          "name": "Options du shell",
+          "desc": "Les options du shell couvrent la configuration du comportement du shell qui affecte l’expansion, le traçage, les erreurs et l’exécution des scripts."
+        },
+        "de": {
+          "name": "Shell-Optionen",
+          "desc": "Shell-Optionen umfassen die Konfiguration des Shell-Verhaltens, das sich auf Expansion, Ablaufverfolgung, Fehler und Skriptausführung auswirkt."
+        },
+        "ja": {
+          "name": "Shell オプション",
+          "desc": "Shell オプションでは、展開、トレース、エラー、スクリプトの実行に影響を与えるシェルの動作の構成を扱います。"
+        },
+        "ru": {
+          "name": "Параметры оболочки",
+          "desc": "Параметры оболочки охватывают настройку поведения оболочки, влияющую на раскрытие, трассировку, ошибки и выполнение сценариев."
+        },
+        "ko": {
+          "name": "Shell 옵션",
+          "desc": "Shell 옵션은 전개, 추적, 오류 및 스크립트 실행에 영향을 미치는 셸 동작을 설정하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Opções do shell",
+          "desc": "As opções do shell cobrem a configuração do comportamento do shell que afeta expansão, rastreamento, erros e execução de script."
+        }
+      }
+    },
+    {
+      "key": "shell/error_handling",
+      "slug": "error_handling",
+      "name": "Error Handling",
+      "desc": "Error handling covers detecting failures, reporting useful messages, and stopping safely.",
+      "i18n": {
+        "zh": {
+          "name": "错误处理",
+          "desc": "错误处理包括检测故障、报告有用消息和安全停止。"
+        },
+        "es": {
+          "name": "Gestión de errores",
+          "desc": "El manejo de errores cubre la detección de fallas, la notificación de mensajes útiles y la detención segura."
+        },
+        "fr": {
+          "name": "Gestion des erreurs",
+          "desc": "La gestion des erreurs couvre la détection des pannes, le signalement des messages utiles et l'arrêt en toute sécurité."
+        },
+        "de": {
+          "name": "Fehlerbehandlung",
+          "desc": "Die Fehlerbehandlung umfasst das Erkennen von Fehlern, das Melden nützlicher Meldungen und das sichere Anhalten."
+        },
+        "ja": {
+          "name": "エラー処理",
+          "desc": "エラー処理には、障害の検出、有用なメッセージの報告、安全な停止が含まれます。"
+        },
+        "ru": {
+          "name": "Обработка ошибок",
+          "desc": "Обработка ошибок включает обнаружение сбоев, вывод полезных сообщений и безопасную остановку."
+        },
+        "ko": {
+          "name": "오류 처리",
+          "desc": "오류 처리에는 오류 감지, 유용한 메시지 보고 및 안전한 중지가 포함됩니다."
+        },
+        "pt": {
+          "name": "Tratamento de erros",
+          "desc": "O tratamento de erros abrange a detecção de falhas, o relato de mensagens úteis e a parada segura."
+        }
+      }
+    },
+    {
+      "key": "shell/input_validation",
+      "slug": "input_validation",
+      "name": "Input Validation",
+      "desc": "Input validation covers checking script inputs before using them in commands or expansions.",
+      "i18n": {
+        "zh": {
+          "name": "输入验证",
+          "desc": "输入验证包括在命令或展开中使用脚本输入之前检查它们。"
+        },
+        "es": {
+          "name": "Validación de entrada",
+          "desc": "La validación de entradas cubre la verificación de las entradas del script antes de usarlas en comandos o expansiones."
+        },
+        "fr": {
+          "name": "Validation des entrées",
+          "desc": "La validation des entrées couvre la vérification des entrées de script avant de les utiliser dans des commandes ou des expansions."
+        },
+        "de": {
+          "name": "Eingabevalidierung",
+          "desc": "Die Eingabevalidierung umfasst die Überprüfung von Skripteingaben vor deren Verwendung in Befehlen oder Expansionen."
+        },
+        "ja": {
+          "name": "入力の検証",
+          "desc": "入力検証では、スクリプト入力をコマンドまたは拡張で使用する前にチェックすることが含まれます。"
+        },
+        "ru": {
+          "name": "Проверка ввода",
+          "desc": "Проверка ввода включает проверку входных данных сценария перед их использованием в командах или подстановках."
+        },
+        "ko": {
+          "name": "입력 검증",
+          "desc": "입력 검증은 명령이나 전개에 사용하기 전에 스크립트 입력을 확인하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Validação de entrada",
+          "desc": "A validação de entrada abrange a verificação de entradas de script antes de usá-las em comandos ou expansões."
+        }
+      }
+    },
+    {
+      "key": "shell/portability",
+      "slug": "portability",
+      "name": "Portability",
+      "desc": "Portability covers writing scripts that behave consistently across supported shells and systems.",
+      "i18n": {
+        "zh": {
+          "name": "可移植性",
+          "desc": "可移植性包括编写在受支持的 shell 和系统中表现一致的脚本。"
+        },
+        "es": {
+          "name": "Portabilidad",
+          "desc": "La portabilidad cubre la escritura de scripts que se comportan de manera consistente en todos los shells y sistemas compatibles."
+        },
+        "fr": {
+          "name": "Portabilité",
+          "desc": "La portabilité couvre l'écriture de scripts qui se comportent de manière cohérente sur tous les shells et systèmes pris en charge."
+        },
+        "de": {
+          "name": "Portabilität",
+          "desc": "Portabilität umfasst das Schreiben von Skripten, die sich über alle unterstützten Shells und Systeme hinweg konsistent verhalten."
+        },
+        "ja": {
+          "name": "移植性",
+          "desc": "移植性には、サポートされているシェルおよびシステム間で一貫して動作するスクリプトの作成が含まれます。"
+        },
+        "ru": {
+          "name": "Портативность",
+          "desc": "Переносимость подразумевает написание сценариев, которые ведут себя одинаково в поддерживаемых оболочках и системах."
+        },
+        "ko": {
+          "name": "이식성",
+          "desc": "이식성은 지원되는 셸과 시스템 전체에서 일관되게 동작하는 스크립트 작성을 포함합니다."
+        },
+        "pt": {
+          "name": "Portabilidade",
+          "desc": "A portabilidade abrange a escrita de scripts que se comportam de forma consistente em shells e sistemas suportados."
+        }
+      }
+    },
+    {
+      "key": "shell/debugging",
+      "slug": "debugging",
+      "name": "Debugging",
+      "desc": "Debugging covers tracing script execution and diagnosing unexpected shell behavior.",
+      "i18n": {
+        "zh": {
+          "name": "调试",
+          "desc": "调试包括跟踪脚本执行和诊断意外的 shell 行为。"
+        },
+        "es": {
+          "name": "Depuración",
+          "desc": "La depuración cubre el seguimiento de la ejecución del script y el diagnóstico de comportamientos inesperados del shell."
+        },
+        "fr": {
+          "name": "Débogage",
+          "desc": "Le débogage couvre le suivi de l'exécution du script et le diagnostic du comportement inattendu du shell."
+        },
+        "de": {
+          "name": "Debuggen",
+          "desc": "Das Debuggen umfasst die Verfolgung der Skriptausführung und die Diagnose unerwarteten Shell-Verhaltens."
+        },
+        "ja": {
+          "name": "デバッグ",
+          "desc": "デバッグでは、スクリプトの実行を追跡し、予期しないシェルの動作を診断します。"
+        },
+        "ru": {
+          "name": "Отладка",
+          "desc": "Отладка включает в себя отслеживание выполнения сценариев и диагностику неожиданного поведения оболочки."
+        },
+        "ko": {
+          "name": "디버깅",
+          "desc": "디버깅에는 스크립트 실행 추적과 예상치 못한 셸 동작 진단이 포함됩니다."
+        },
+        "pt": {
+          "name": "Depuração",
+          "desc": "A depuração abrange o rastreamento da execução do script e o diagnóstico de comportamento inesperado do shell."
+        }
+      }
+    },
+    {
+      "key": "shell/idempotent_scripts",
+      "slug": "idempotent_scripts",
+      "name": "Idempotent Scripts",
+      "desc": "Idempotent scripts cover making repeated script runs converge without harmful side effects.",
+      "i18n": {
+        "zh": {
+          "name": "幂等脚本",
+          "desc": "幂等脚本涵盖使重复的脚本运行收敛而不会产生有害的副作用。"
+        },
+        "es": {
+          "name": "Scripts idempotentes",
+          "desc": "Los scripts idempotentes cubren hacer que las ejecuciones repetidas de scripts converjan sin efectos secundarios dañinos."
+        },
+        "fr": {
+          "name": "Scripts idempotents",
+          "desc": "Les scripts idempotents permettent de faire converger les exécutions répétées de scripts sans effets secondaires nuisibles."
+        },
+        "de": {
+          "name": "Idempotente Skripte",
+          "desc": "Idempotente Skripte ermöglichen die Konvergenz wiederholter Skriptausführungen ohne schädliche Nebenwirkungen."
+        },
+        "ja": {
+          "name": "冪等スクリプト",
+          "desc": "冪等スクリプトは、スクリプトの繰り返し実行を有害な副作用なしに収束させることを扱います。"
+        },
+        "ru": {
+          "name": "Идемпотентные скрипты",
+          "desc": "Идемпотентные скрипты обеспечивают сходимость повторяющихся запусков скриптов без вредных побочных эффектов."
+        },
+        "ko": {
+          "name": "멱등성 스크립트",
+          "desc": "멱등성 스크립트는 반복되는 스크립트 실행이 유해한 부작용 없이 수렴되도록 하는 것을 다룹니다."
+        },
+        "pt": {
+          "name": "Scripts Idempotentes",
+          "desc": "Scripts idempotentes cobrem a convergência de execuções repetidas de scripts sem efeitos colaterais prejudiciais."
+        }
+      }
+    }
+  ]
+}

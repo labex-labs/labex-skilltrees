@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+.history/
+*.swp
+*.swo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node (formatting tools)
+node_modules/
+dist/
+tsconfig.tsbuildinfo
+src/generated/
+
+# CI / local tooling
+.deps/
+
+# Temporary files
+*.tmp
+*.bak
+.wrangler/
