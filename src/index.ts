@@ -1,4 +1,5 @@
 import { catalogVersions } from './generated/catalog';
+import { handleBadgeRequest } from './badges';
 import type { SkillTreeCatalog, SkillTreeSummariesResponse, SkillTreeVersion, SkillTreesResponse } from './types';
 
 const DEFAULT_VERSION = 'v2' satisfies SkillTreeVersion;
@@ -198,6 +199,11 @@ function normalizePathname(pathname: string): RouteMatch | null {
 
 function handleRequest(request: Request) {
 	const url = new URL(request.url);
+	const badgeResponse = handleBadgeRequest(request, getCatalog(DEFAULT_VERSION));
+	if (badgeResponse) {
+		return badgeResponse;
+	}
+
 	const route = normalizePathname(url.pathname);
 	const catalog = route ? getCatalog(route.version) : getCatalog(DEFAULT_VERSION);
 
