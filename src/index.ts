@@ -143,6 +143,11 @@ function rootResponse(request: Request) {
 			},
 			{
 				method: 'GET',
+				path: '/badges/v2/{locale}/{skilltreeKey}/{skillSlug}.svg',
+				description: 'Returns an SVG badge for a canonical v2 skill. Use earned=true or earned=false to request earned or unearned variants.',
+			},
+			{
+				method: 'GET',
 				path: '/api/{version}/manifest',
 				description: 'Returns catalog version, hash, and update timestamp for v1 or v2.',
 			},
