@@ -10,9 +10,11 @@
   "scripts": {
     "validate": "node scripts/validate-skilltrees.mjs",
     "generate:catalog": "node scripts/generate-catalog.mjs",
-    "dev": "npm run validate && npm run generate:catalog && wrangler dev",
+    "generate:icons": "node scripts/generate-icons.mjs",
+    "generate": "npm run generate:catalog && npm run generate:icons",
+    "dev": "npm run validate && npm run generate && wrangler dev",
     "start": "wrangler dev",
-    "build": "npm run validate && npm run generate:catalog && tsc --noEmit",
+    "build": "npm run validate && npm run generate && tsc --noEmit",
     "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
