@@ -2,10 +2,7 @@ import { createHash } from "node:crypto";
 import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 
-export const CATALOG_VERSIONS = {
-  v1: "v1",
-  v2: "v2"
-};
+export const CURRENT_CATALOG_DIR = "v2";
 
 function stableStringify(value) {
   if (Array.isArray(value)) {
@@ -38,7 +35,7 @@ async function getLatestSkilltreeCommitDate(rootDir, dataDir) {
   }
 }
 
-export async function loadSkillTrees(rootDir = process.cwd(), dataDir = CATALOG_VERSIONS.v2) {
+export async function loadSkillTrees(rootDir = process.cwd(), dataDir = CURRENT_CATALOG_DIR) {
   const skilltreesDir = join(rootDir, dataDir);
   const fileNames = (await readdir(skilltreesDir))
     .filter((fileName) => fileName.endsWith(".json"))
@@ -54,7 +51,7 @@ export async function loadSkillTrees(rootDir = process.cwd(), dataDir = CATALOG_
   return skillTrees.sort((a, b) => a.key.localeCompare(b.key));
 }
 
-export async function buildCatalog(rootDir = process.cwd(), dataDir = CATALOG_VERSIONS.v2) {
+export async function buildCatalog(rootDir = process.cwd(), dataDir = CURRENT_CATALOG_DIR) {
   const skilltrees = await loadSkillTrees(rootDir, dataDir);
   const canonicalJson = stableStringify(skilltrees);
   const hash = `sha256:${createHash("sha256").update(canonicalJson).digest("hex")}`;

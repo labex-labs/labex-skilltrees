@@ -1,7 +1,7 @@
 import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { CATALOG_VERSIONS } from "./catalog.mjs";
 
+const DATA_DIRS = ["v1", "v2"];
 const LOCALES = new Set(["zh", "es", "fr", "de", "ja", "ru", "ko", "pt"]);
 const TREE_KEY_PATTERN = /^[a-z0-9][a-z0-9_-]*$/;
 const SKILL_SLUG_PATTERN = /^[A-Za-z0-9][A-Za-z0-9_-]*$/;
@@ -156,8 +156,8 @@ async function validateVersion(rootDir, version) {
   }
 }
 
-for (const version of Object.values(CATALOG_VERSIONS)) {
-  await validateVersion(process.cwd(), version);
+for (const dataDir of DATA_DIRS) {
+  await validateVersion(process.cwd(), dataDir);
 }
 
 if (failures.length > 0) {

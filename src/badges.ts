@@ -3,8 +3,8 @@ import { skilltreeIcons } from './generated/skilltree-icons';
 
 const SUPPORTED_BADGE_LOCALES = new Set(['en', 'zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
 const LOCALIZED_SKILL_LOCALES = new Set(['zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
-const LOCALIZED_BADGE_PATH_PATTERN = /^\/badges\/v2\/([a-z]{2})\/([^/]+)\/([^/]+)\.svg$/;
-const DEFAULT_BADGE_PATH_PATTERN = /^\/badges\/v2\/([^/]+)\/([^/]+)\.svg$/;
+const LOCALIZED_BADGE_PATH_PATTERN = /^\/badges\/([a-z]{2})\/([^/]+)\/([^/]+)\.svg$/;
+const DEFAULT_BADGE_PATH_PATTERN = /^\/badges\/([^/]+)\/([^/]+)\.svg$/;
 const BADGE_HEIGHT = 40;
 const ICON_SIZE = 32;
 const ICON_X = 4;

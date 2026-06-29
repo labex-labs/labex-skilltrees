@@ -85,10 +85,10 @@ function getBadgePath(skilltreeKey: string, skillSlug: string, locale?: string) 
 	const badgeFileName = encodeURIComponent(skillSlug.replace(/_/g, '-'));
 	if (locale) {
 		const encodedLocale = encodeURIComponent(locale);
-		return `/badges/v2/${encodedLocale}/${encodedSkilltreeKey}/${badgeFileName}.svg`;
+		return `/badges/${encodedLocale}/${encodedSkilltreeKey}/${badgeFileName}.svg`;
 	}
 
-	return `/badges/v2/${encodedSkilltreeKey}/${badgeFileName}.svg`;
+	return `/badges/${encodedSkilltreeKey}/${badgeFileName}.svg`;
 }
 
 function withSkillBadges(skilltree: SkillTree): SkillTreeWithBadges {
@@ -182,12 +182,12 @@ function rootResponse(request: Request) {
 			},
 			{
 				method: 'GET',
-				path: '/badges/v2/{skilltreeKey}/{skillSlug}.svg',
+				path: '/badges/{skilltreeKey}/{skillSlug}.svg',
 				description: 'Returns an English SVG badge for a skill. Use earned=true or earned=false to request earned or unearned variants.',
 			},
 			{
 				method: 'GET',
-				path: '/badges/v2/{locale}/{skilltreeKey}/{skillSlug}.svg',
+				path: '/badges/{locale}/{skilltreeKey}/{skillSlug}.svg',
 				description: 'Returns a localized SVG badge for a skill. Use earned=true or earned=false to request earned or unearned variants.',
 			},
 		],
