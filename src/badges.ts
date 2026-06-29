@@ -83,7 +83,6 @@ interface BadgeStyle {
 	iconBackingOpacity: number;
 	primaryFill: string;
 	secondaryFill: string;
-	checkOpacity: number;
 }
 
 const BADGE_STYLES: Record<BadgeVariant, BadgeStyle> = {
@@ -99,8 +98,7 @@ const BADGE_STYLES: Record<BadgeVariant, BadgeStyle> = {
 		iconBackingFill: '#FFFFFF',
 		iconBackingOpacity: 0.08,
 		primaryFill: '#F8FAFC',
-		secondaryFill: '#AEB8C8',
-		checkOpacity: 0
+		secondaryFill: '#AEB8C8'
 	},
 	earned: {
 		backgroundStops: `
@@ -114,23 +112,21 @@ const BADGE_STYLES: Record<BadgeVariant, BadgeStyle> = {
 		iconBackingFill: '#FFFFFF',
 		iconBackingOpacity: 0.08,
 		primaryFill: '#F8FAFC',
-		secondaryFill: '#AEB8C8',
-		checkOpacity: 1
+		secondaryFill: '#AEB8C8'
 	},
 	unearned: {
 		backgroundStops: `
-			<stop offset="0%" stop-color="#F8FAFC" />
-			<stop offset="58%" stop-color="#F1F5F9" />
-			<stop offset="100%" stop-color="#E5E7EB" />`,
-		borderColor: '#CBD5E1',
+			<stop offset="0%" stop-color="#20242D" />
+			<stop offset="58%" stop-color="#111827" />
+			<stop offset="100%" stop-color="#090D14" />`,
+		borderColor: '#343B49',
 		innerStrokeColor: '#FFFFFF',
-		innerStrokeOpacity: 0.68,
-		iconOpacity: 0.42,
-		iconBackingFill: '#CBD5E1',
-		iconBackingOpacity: 0.32,
-		primaryFill: '#475569',
-		secondaryFill: '#94A3B8',
-		checkOpacity: 0
+		innerStrokeOpacity: 0.08,
+		iconOpacity: 1,
+		iconBackingFill: '#FFFFFF',
+		iconBackingOpacity: 0.08,
+		primaryFill: '#F8FAFC',
+		secondaryFill: '#AEB8C8'
 	}
 };
 
@@ -161,16 +157,23 @@ function renderSkilltreeIcon(treeKey: string, x: number, y: number, size: number
 		</svg>`;
 }
 
-function renderCheckMark(x: number, y: number, opacity: number) {
-	if (opacity === 0) {
+function renderStatusIcon(x: number, y: number, variant: BadgeVariant) {
+	if (variant === 'default') {
 		return '';
 	}
 
 	const centerX = x + CHECK_SIZE / 2;
 	const centerY = y + CHECK_SIZE / 2;
 
+	if (variant === 'unearned') {
+		return `
+	<g>
+		<circle cx="${centerX}" cy="${centerY}" r="5.35" fill="none" stroke="#94A3B8" stroke-width="1.35" stroke-dasharray="1.6 2.1" stroke-linecap="round" />
+	</g>`;
+	}
+
 	return `
-	<g opacity="${opacity}">
+	<g>
 		<circle cx="${centerX}" cy="${centerY}" r="6" fill="#22C55E" />
 		<path d="m${centerX - 2.9} ${centerY + 0.2} 2 2 3.9-4.3" fill="none" stroke="#FFFFFF" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" />
 	</g>`;
@@ -180,11 +183,11 @@ function renderSkillBadgeSvg(skilltree: SkillTree, skill: Skill, locale: string,
 	const skillName = getLocalizedSkillName(skill, locale);
 	const skilltreeName = skilltree.name;
 	const style = BADGE_STYLES[variant];
-	const showsCheck = variant === 'earned';
-	const badgeWidth = badgeWidthForText(skillName, skilltreeName, showsCheck);
+	const showsStatus = variant !== 'default';
+	const badgeWidth = badgeWidthForText(skillName, skilltreeName, showsStatus);
 	const primaryFontSize = hasCjkText(skillName) ? 15 : 15;
 	const secondaryFontSize = hasCjkText(skilltreeName) ? 9 : 9;
-	const primaryTextX = showsCheck ? TEXT_X + CHECK_SIZE + CHECK_GAP : TEXT_X;
+	const primaryTextX = showsStatus ? TEXT_X + CHECK_SIZE + CHECK_GAP : TEXT_X;
 
 	return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${badgeWidth}" height="${BADGE_HEIGHT}" viewBox="0 0 ${badgeWidth} ${BADGE_HEIGHT}" role="img" aria-labelledby="title desc">
@@ -215,7 +218,7 @@ function renderSkillBadgeSvg(skilltree: SkillTree, skill: Skill, locale: string,
 	${renderSkilltreeIcon(skilltree.key, ICON_X, ICON_X, ICON_SIZE, style.iconOpacity)}
 	<g class="badge-label">
 		<text x="${TEXT_X}" y="14" class="secondary" font-size="${secondaryFontSize}">${escapeXml(skilltreeName.toUpperCase())}</text>
-		${showsCheck ? renderCheckMark(TEXT_X, 19, style.checkOpacity) : ''}
+		${renderStatusIcon(TEXT_X, 19, variant)}
 		<text x="${primaryTextX}" y="30" class="primary" font-size="${primaryFontSize}">${escapeXml(skillName)}</text>
 	</g>
 </svg>`;
