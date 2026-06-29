@@ -29,7 +29,7 @@ src/                    Optional JSON API implementation
 skilltree.schema.json   JSON Schema for one skill tree file
 ```
 
-The current canonical dataset is `v2`. It contains 25 skill trees and 1,129 skills. The `v1` dataset is retained for consumers that still need the earlier model.
+The current canonical dataset is `v2`. It contains 25 skill trees and 1,129 skills. The `v1` dataset is retained in the repository for historical reference, but the public API only serves the current canonical dataset.
 
 ## Data Format
 
@@ -80,11 +80,21 @@ Common public endpoints:
 - `GET https://skilltrees.labex.app/api/skilltrees/summary`
 - `GET https://skilltrees.labex.app/api/skilltrees`
 - `GET https://skilltrees.labex.app/api/skilltrees/{key}`
-- `GET https://skilltrees.labex.app/api/v1/skilltrees/summary`
-- `GET https://skilltrees.labex.app/api/v2/skilltrees/summary`
+- `GET https://skilltrees.labex.app/api/{locale}/skilltrees`
+- `GET https://skilltrees.labex.app/api/{locale}/skilltrees/{key}`
+- `GET https://skilltrees.labex.app/badges/v2/{skilltreeKey}/{skillSlug}.svg`
 - `GET https://skilltrees.labex.app/badges/v2/{locale}/{skilltreeKey}/{skillSlug}.svg`
 
 `/api/skilltrees/summary` is the lightweight index endpoint. It returns each skill tree's `key`, `slug`, `name`, `skill_count`, and relative API `path`, so clients can discover valid keys before requesting `/api/skilltrees/{key}`.
+
+Localized API routes are available for `en`, `zh`, `es`, `fr`, `de`, `ja`, `ru`, `ko`, and `pt`:
+
+```text
+GET /api/{locale}/skilltrees
+GET /api/{locale}/skilltrees/{key}
+```
+
+Localized skill responses replace `name` and `desc` with the requested locale when available, fall back to English when a translation is missing, and omit the full `i18n` payload. For example, `/api/zh/skilltrees/linux` returns Chinese skill names and descriptions directly in `name` and `desc`.
 
 ### Skill Badges
 
@@ -93,11 +103,13 @@ Canonical v2 skill responses include a `badge` field on each skill. The field is
 Badge endpoint:
 
 ```text
+GET /badges/v2/{skilltreeKey}/{skillSlug}.svg
+HEAD /badges/v2/{skilltreeKey}/{skillSlug}.svg
 GET /badges/v2/{locale}/{skilltreeKey}/{skillSlug}.svg
 HEAD /badges/v2/{locale}/{skilltreeKey}/{skillSlug}.svg
 ```
 
-Supported badge locales are `en`, `zh`, `es`, `fr`, `de`, `ja`, `ru`, `ko`, and `pt`. Non-English locales use localized skill names when available and fall back to English otherwise.
+The route without `{locale}` returns the English badge. Supported localized badge routes are `en`, `zh`, `es`, `fr`, `de`, `ja`, `ru`, `ko`, and `pt`. Non-English locales use localized skill names when available and fall back to English otherwise.
 
 Badge variants are controlled with the optional `earned` query parameter:
 
@@ -108,7 +120,8 @@ Badge variants are controlled with the optional `earned` query parameter:
 Example:
 
 ```text
-https://skilltrees.labex.app/badges/v2/en/linux/terminal-sessions.svg
+https://skilltrees.labex.app/badges/v2/linux/terminal-sessions.svg
+https://skilltrees.labex.app/badges/v2/zh/linux/terminal-sessions.svg
 ```
 
 Prerequisite: Node.js 22 or newer.
@@ -131,8 +144,9 @@ Common API endpoints:
 - `GET /api/skilltrees/summary`
 - `GET /api/skilltrees`
 - `GET /api/skilltrees/{key}`
-- `GET /api/v1/skilltrees/summary`
-- `GET /api/v2/skilltrees/summary`
+- `GET /api/{locale}/skilltrees`
+- `GET /api/{locale}/skilltrees/{key}`
+- `GET /badges/v2/{skilltreeKey}/{skillSlug}.svg`
 - `GET /badges/v2/{locale}/{skilltreeKey}/{skillSlug}.svg`
 
 The API implementation is optional. The skill tree data model is independent of any hosting provider.

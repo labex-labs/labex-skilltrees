@@ -40,18 +40,14 @@ export interface CatalogManifest {
 }
 
 export interface SkillTreesResponse extends CatalogManifest {
-  skilltrees: SkillTree[] | SkillTreeWithBadges[];
+  skilltrees: SkillTreeWithBadges[];
 }
 
 export interface SkillTreeSummariesResponse extends CatalogManifest {
   skilltrees: SkillTreeSummary[];
 }
 
-export type SkillTreeVersion = "v1" | "v2";
-
 export interface SkillTreeCatalog {
   manifest: CatalogManifest;
   skilltrees: SkillTree[];
 }
-
-export type VersionedCatalogs = Record<SkillTreeVersion, SkillTreeCatalog>;

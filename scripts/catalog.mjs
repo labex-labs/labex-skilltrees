@@ -70,11 +70,3 @@ export async function buildCatalog(rootDir = process.cwd(), dataDir = CATALOG_VE
     skilltrees
   };
 }
-
-export async function buildVersionedCatalogs(rootDir = process.cwd()) {
-  return Object.fromEntries(
-    await Promise.all(
-      Object.entries(CATALOG_VERSIONS).map(async ([version, dataDir]) => [version, await buildCatalog(rootDir, dataDir)])
-    )
-  );
-}

@@ -3,7 +3,8 @@ import { skilltreeIcons } from './generated/skilltree-icons';
 
 const SUPPORTED_BADGE_LOCALES = new Set(['en', 'zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
 const LOCALIZED_SKILL_LOCALES = new Set(['zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
-const BADGE_PATH_PATTERN = /^\/badges\/v2\/([a-z]{2})\/([^/]+)\/([^/]+)\.svg$/;
+const LOCALIZED_BADGE_PATH_PATTERN = /^\/badges\/v2\/([a-z]{2})\/([^/]+)\/([^/]+)\.svg$/;
+const DEFAULT_BADGE_PATH_PATTERN = /^\/badges\/v2\/([^/]+)\/([^/]+)\.svg$/;
 const BADGE_HEIGHT = 40;
 const ICON_SIZE = 32;
 const ICON_X = 4;
@@ -221,17 +222,31 @@ function renderSkillBadgeSvg(skilltree: SkillTree, skill: Skill, locale: string,
 }
 
 function parseBadgePath(pathname: string): BadgeRouteMatch | null {
-	const match = pathname.match(BADGE_PATH_PATTERN);
+	const localizedMatch = pathname.match(LOCALIZED_BADGE_PATH_PATTERN);
 
-	if (!match) {
+	if (localizedMatch) {
+		try {
+			return {
+				locale: localizedMatch[1],
+				treeKey: decodeURIComponent(localizedMatch[2]),
+				skillSlug: decodeURIComponent(localizedMatch[3])
+			};
+		} catch {
+			return null;
+		}
+	}
+
+	const defaultMatch = pathname.match(DEFAULT_BADGE_PATH_PATTERN);
+
+	if (!defaultMatch) {
 		return null;
 	}
 
 	try {
 		return {
-			locale: match[1],
-			treeKey: decodeURIComponent(match[2]),
-			skillSlug: decodeURIComponent(match[3])
+			locale: 'en',
+			treeKey: decodeURIComponent(defaultMatch[1]),
+			skillSlug: decodeURIComponent(defaultMatch[2])
 		};
 	} catch {
 		return null;
