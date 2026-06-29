@@ -199,7 +199,7 @@ function renderSkillBadgeSvg(skilltree: SkillTree, skill: Skill, locale: string,
 			}
 			.primary {
 				fill: ${style.primaryFill};
-				font-weight: 760;
+				font-weight: 400;
 			}
 			.secondary {
 				fill: ${style.secondaryFill};
