@@ -1,9 +1,10 @@
 import { catalogVersions } from './generated/catalog';
 import { handleBadgeRequest } from './badges';
-import type { SkillTreeCatalog, SkillTreeSummariesResponse, SkillTreeVersion, SkillTreesResponse } from './types';
+import type { SkillTree, SkillTreeCatalog, SkillTreeSummariesResponse, SkillTreeVersion, SkillTreesResponse, SkillTreeWithBadges } from './types';
 
 const DEFAULT_VERSION = 'v2' satisfies SkillTreeVersion;
 const SUPPORTED_VERSIONS = Object.keys(catalogVersions) as SkillTreeVersion[];
+const RESPONSE_SCHEMA_VERSION = 'badge-field-2026-06-29';
 
 const JSON_HEADERS = {
 	'Access-Control-Allow-Origin': '*',
@@ -19,10 +20,11 @@ function getCatalog(version: SkillTreeVersion) {
 function getCacheHeaders(routePathname: string, catalog: SkillTreeCatalog) {
 	const maxAge = routePathname === '/manifest' ? '60' : '300';
 	const sMaxAge = routePathname === '/manifest' ? '300' : '3600';
+	const etag = routePathname === '/manifest' ? catalog.manifest.hash : `${catalog.manifest.hash}:${RESPONSE_SCHEMA_VERSION}`;
 
 	return {
 		'Cache-Control': `public, max-age=${maxAge}, s-maxage=${sMaxAge}`,
-		ETag: JSON.stringify(catalog.manifest.hash),
+		ETag: JSON.stringify(etag),
 	};
 }
 
@@ -44,7 +46,7 @@ function jsonResponse(
 		headers.set(key, value);
 	}
 
-	if (status === 200 && request.headers.get('If-None-Match') === JSON.stringify(catalog.manifest.hash)) {
+	if (status === 200 && request.headers.get('If-None-Match') === headers.get('ETag')) {
 		return new Response(null, {
 			status: 304,
 			headers,
@@ -68,6 +70,27 @@ function optionsResponse() {
 function getSkilltreePath(version: SkillTreeVersion, key: string) {
 	const encodedKey = encodeURIComponent(key);
 	return version === DEFAULT_VERSION ? `/api/skilltrees/${encodedKey}` : `/api/${version}/skilltrees/${encodedKey}`;
+}
+
+function getBadgePath(skilltreeKey: string, skillSlug: string) {
+	const encodedSkilltreeKey = encodeURIComponent(skilltreeKey);
+	const badgeFileName = encodeURIComponent(skillSlug.replace(/_/g, '-'));
+
+	return `/badges/v2/en/${encodedSkilltreeKey}/${badgeFileName}.svg`;
+}
+
+function withSkillBadges(version: SkillTreeVersion, skilltree: SkillTree): SkillTree | SkillTreeWithBadges {
+	if (version !== DEFAULT_VERSION) {
+		return skilltree;
+	}
+
+	return {
+		...skilltree,
+		skills: skilltree.skills.map((skill) => ({
+			...skill,
+			badge: getBadgePath(skilltree.key, skill.slug),
+		})),
+	};
 }
 
 function getSkilltreeSummaries(version: SkillTreeVersion, catalog: SkillTreeCatalog): SkillTreeSummariesResponse {
@@ -232,7 +255,7 @@ function handleRequest(request: Request) {
 	if (pathname === '/skilltrees') {
 		const body: SkillTreesResponse = {
 			...catalog.manifest,
-			skilltrees: catalog.skilltrees,
+			skilltrees: catalog.skilltrees.map((skilltree) => withSkillBadges(route.version, skilltree)),
 		};
 
 		return jsonResponse(request, pathname, catalog, body);
@@ -246,7 +269,7 @@ function handleRequest(request: Request) {
 	if (skilltreeKey) {
 		const skilltree = catalog.skilltrees.find((item) => item.key === skilltreeKey);
 		return skilltree
-			? jsonResponse(request, pathname, catalog, skilltree)
+			? jsonResponse(request, pathname, catalog, withSkillBadges(route.version, skilltree))
 			: errorResponse(request, pathname, catalog, 'skilltree_not_found', 404);
 	}
 

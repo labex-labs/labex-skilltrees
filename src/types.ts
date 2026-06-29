@@ -10,11 +10,19 @@ export interface Skill {
   i18n?: I18nText;
 }
 
+export interface SkillWithBadge extends Skill {
+  badge: string;
+}
+
 export interface SkillTree {
   key: string;
   slug: string;
   name: string;
   skills: Skill[];
+}
+
+export interface SkillTreeWithBadges extends Omit<SkillTree, "skills"> {
+  skills: SkillWithBadge[];
 }
 
 export interface SkillTreeSummary {
@@ -32,7 +40,7 @@ export interface CatalogManifest {
 }
 
 export interface SkillTreesResponse extends CatalogManifest {
-  skilltrees: SkillTree[];
+  skilltrees: SkillTree[] | SkillTreeWithBadges[];
 }
 
 export interface SkillTreeSummariesResponse extends CatalogManifest {
