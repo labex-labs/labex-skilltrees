@@ -1,4 +1,5 @@
 import type { I18nLocale, Skill, SkillTree, SkillTreeCatalog } from './types';
+import { skilltreeIcons } from './generated/skilltree-icons';
 
 const SUPPORTED_BADGE_LOCALES = new Set(['en', 'zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
 const LOCALIZED_SKILL_LOCALES = new Set(['zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
@@ -12,12 +13,30 @@ interface BadgeRouteMatch {
 }
 
 interface BadgeTheme {
-	hue: number;
-	accentHue: number;
-	shape: 'circle' | 'hexagon' | 'shield' | 'octagon';
-	pattern: 'grid' | 'rays' | 'rings' | 'diagonal';
-	rotation: number;
+	palette: BadgePalette;
+	angle: number;
+	highlightX: number;
+	highlightY: number;
 }
+
+interface BadgePalette {
+	base: string;
+	mid: string;
+	deep: string;
+	accent: string;
+	foil: string;
+}
+
+const BADGE_PALETTES: BadgePalette[] = [
+	{ base: '#172033', mid: '#31445F', deep: '#070B12', accent: '#8FB7D7', foil: '#D8C68A' },
+	{ base: '#132B2B', mid: '#27645F', deep: '#061211', accent: '#89D0C3', foil: '#D7C894' },
+	{ base: '#241A32', mid: '#57466A', deep: '#0C0712', accent: '#C7A7DD', foil: '#D8C28E' },
+	{ base: '#2A201D', mid: '#6E5147', deep: '#100B09', accent: '#E0B19E', foil: '#D7BB82' },
+	{ base: '#202818', mid: '#52664A', deep: '#0B1008', accent: '#BED9A4', foil: '#D8C88C' },
+	{ base: '#1B2330', mid: '#445E7A', deep: '#090D14', accent: '#A8CCE4', foil: '#DCC48D' },
+	{ base: '#272420', mid: '#6A6257', deep: '#100E0C', accent: '#D0C2AE', foil: '#D4B873' },
+	{ base: '#142A34', mid: '#3D7281', deep: '#071116', accent: '#A8D7DD', foil: '#D8C58A' }
+];
 
 function hashString(value: string) {
 	let hash = 2166136261;
@@ -32,16 +51,12 @@ function hashString(value: string) {
 
 function themeFromSkillKey(skillKey: string): BadgeTheme {
 	const seed = hashString(`v2:${skillKey}`);
-	const shapes = ['circle', 'hexagon', 'shield', 'octagon'] as const;
-	const patterns = ['grid', 'rays', 'rings', 'diagonal'] as const;
-	const hue = seed % 360;
 
 	return {
-		hue,
-		accentHue: (hue + 52 + ((seed >>> 8) % 96)) % 360,
-		shape: shapes[(seed >>> 16) % shapes.length],
-		pattern: patterns[(seed >>> 20) % patterns.length],
-		rotation: (seed >>> 24) % 360
+		palette: BADGE_PALETTES[(seed >>> 8) % BADGE_PALETTES.length],
+		angle: 22 + ((seed >>> 16) % 28),
+		highlightX: 30 + ((seed >>> 20) % 26),
+		highlightY: 18 + ((seed >>> 24) % 22)
 	};
 }
 
@@ -96,12 +111,12 @@ function splitWordsLine(value: string, maxCharacters: number) {
 function fitTextLines(value: string) {
 	const normalized = value.trim().replace(/\s+/g, ' ');
 	const cjk = hasCjkText(normalized);
-	const maxCharacters = cjk ? 9 : 18;
+	const maxCharacters = cjk ? 7 : 14;
 	const rawLines = cjk ? splitCjkLine(normalized, maxCharacters) : splitWordsLine(normalized, maxCharacters);
 	const lines = rawLines.slice(0, 3);
 	const longestLineLength = Math.max(...lines.map((line) => Array.from(line).length), 1);
-	const baseSize = lines.length === 1 ? 84 : lines.length === 2 ? 72 : 60;
-	const fontSize = Math.max(42, Math.min(baseSize, Math.floor((cjk ? 560 : 640) / longestLineLength)));
+	const baseSize = lines.length === 1 ? 74 : lines.length === 2 ? 58 : 46;
+	const fontSize = Math.max(36, Math.min(baseSize, Math.floor((cjk ? 430 : 500) / longestLineLength)));
 
 	if (rawLines.length > 3) {
 		const lastLine = lines[2] ?? '';
@@ -123,64 +138,6 @@ function getLocalizedSkillName(skill: Skill, locale: string) {
 	return skill.i18n?.[locale as I18nLocale]?.name ?? skill.name;
 }
 
-function badgeShapePath(shape: BadgeTheme['shape']) {
-	if (shape === 'hexagon') {
-		return '<polygon points="512 90 846 283 846 741 512 934 178 741 178 283" />';
-	}
-
-	if (shape === 'shield') {
-		return '<path d="M512 83 832 190v270c0 218-128 363-320 477-192-114-320-259-320-477V190L512 83Z" />';
-	}
-
-	if (shape === 'octagon') {
-		return '<polygon points="342 108 682 108 916 342 916 682 682 916 342 916 108 682 108 342" />';
-	}
-
-	return '<circle cx="512" cy="512" r="430" />';
-}
-
-function patternMarkup(theme: BadgeTheme) {
-	if (theme.pattern === 'rays') {
-		return `
-			<g opacity="0.24" stroke="url(#accentStroke)" stroke-width="4">
-				${Array.from({ length: 24 }, (_, index) => {
-					const angle = index * 15 + theme.rotation;
-					return `<line x1="512" y1="512" x2="${512 + Math.cos((angle * Math.PI) / 180) * 430}" y2="${
-						512 + Math.sin((angle * Math.PI) / 180) * 430
-					}" />`;
-				}).join('')}
-			</g>`;
-	}
-
-	if (theme.pattern === 'rings') {
-		return `
-			<g opacity="0.26" fill="none" stroke="url(#accentStroke)" stroke-width="3">
-				<circle cx="512" cy="512" r="150" />
-				<circle cx="512" cy="512" r="230" />
-				<circle cx="512" cy="512" r="310" />
-				<circle cx="512" cy="512" r="390" />
-			</g>`;
-	}
-
-	if (theme.pattern === 'diagonal') {
-		return `
-			<g opacity="0.18" stroke="url(#accentStroke)" stroke-width="18">
-				${Array.from({ length: 13 }, (_, index) => {
-					const offset = -300 + index * 120;
-					return `<line x1="${offset}" y1="920" x2="${offset + 620}" y2="300" />`;
-				}).join('')}
-			</g>`;
-	}
-
-	return `
-		<g opacity="0.2" stroke="url(#accentStroke)" stroke-width="2">
-			${Array.from({ length: 11 }, (_, index) => {
-				const offset = 172 + index * 68;
-				return `<path d="M${offset} 150v724M150 ${offset}h724" />`;
-			}).join('')}
-		</g>`;
-}
-
 function renderTextLines(lines: string[], x: number, startY: number, fontSize: number, lineHeight: number) {
 	return lines
 		.map(
@@ -190,86 +147,148 @@ function renderTextLines(lines: string[], x: number, startY: number, fontSize: n
 		.join('');
 }
 
+function renderSkilltreeIcon(treeKey: string) {
+	const icon = skilltreeIcons[treeKey];
+
+	if (!icon) {
+		return '';
+	}
+
+	return `
+		<g filter="url(#iconLift)">
+			<circle cx="512" cy="512" r="176" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1.5" />
+			<svg x="352" y="352" width="320" height="320" viewBox="${escapeXml(icon.viewBox)}" aria-hidden="true" focusable="false">
+				${icon.body}
+			</svg>
+		</g>`;
+}
+
+function fitArcText(value: string, maxCharacters: number) {
+	const normalized = value.trim().replace(/\s+/g, ' ');
+	const characters = Array.from(normalized);
+
+	if (characters.length <= maxCharacters) {
+		return normalized;
+	}
+
+	return `${characters.slice(0, Math.max(1, maxCharacters - 1)).join('')}…`;
+}
+
 function renderSkillBadgeSvg(skilltree: SkillTree, skill: Skill, locale: string) {
 	const theme = themeFromSkillKey(skill.key);
 	const skillName = getLocalizedSkillName(skill, locale);
-	const fittedSkillName = fitTextLines(skillName);
-	const skillNameBlockHeight = (fittedSkillName.lines.length - 1) * fittedSkillName.lineHeight;
-	const skillNameStartY = 500 - Math.round(skillNameBlockHeight / 2);
-	const skilltreeName = skilltree.name.toUpperCase();
+	const skilltreeName = fitArcText(skilltree.name.toUpperCase(), 22);
+	const skillNameIsCjk = hasCjkText(skillName);
+	const arcSkillName = fitArcText(skillNameIsCjk ? skillName : skillName.toUpperCase(), skillNameIsCjk ? 16 : 28);
+	const bottomArcFontSize = skillNameIsCjk && Array.from(skillName).length <= 4 ? 56 : skillNameIsCjk ? 46 : 38;
+	const bottomArcLetterSpacing = skillNameIsCjk ? 6 : 2;
+	const { palette } = theme;
 
 	return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${SVG_SIZE}" height="${SVG_SIZE}" viewBox="0 0 ${SVG_SIZE} ${SVG_SIZE}" role="img" aria-labelledby="title desc">
 	<title id="title">${escapeXml(skilltree.name)} - ${escapeXml(skillName)}</title>
 	<desc id="desc">LabEx skill badge for ${escapeXml(skill.key)}</desc>
 	<defs>
-		<linearGradient id="badgeFill" x1="18%" y1="12%" x2="82%" y2="88%">
-			<stop offset="0%" stop-color="hsl(${theme.hue} 76% 52%)" />
-			<stop offset="54%" stop-color="hsl(${theme.accentHue} 68% 42%)" />
-			<stop offset="100%" stop-color="hsl(${theme.hue} 72% 24%)" />
+		<linearGradient id="badgeFill" x1="18%" y1="8%" x2="82%" y2="92%" gradientTransform="rotate(${theme.angle} 0.5 0.5)">
+			<stop offset="0%" stop-color="${palette.mid}" />
+			<stop offset="48%" stop-color="${palette.base}" />
+			<stop offset="100%" stop-color="${palette.deep}" />
 		</linearGradient>
-		<linearGradient id="accentStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-			<stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="0.85" />
-			<stop offset="100%" stop-color="rgb(255,255,255)" stop-opacity="0.1" />
+		<radialGradient id="surfaceLight" cx="${theme.highlightX}%" cy="${theme.highlightY}%" r="72%">
+			<stop offset="0%" stop-color="${palette.accent}" stop-opacity="0.42" />
+			<stop offset="48%" stop-color="#ffffff" stop-opacity="0.07" />
+			<stop offset="100%" stop-color="#000000" stop-opacity="0" />
+		</radialGradient>
+		<linearGradient id="edgeStroke" x1="18%" y1="8%" x2="82%" y2="92%">
+			<stop offset="0%" stop-color="#ffffff" stop-opacity="0.42" />
+			<stop offset="50%" stop-color="${palette.foil}" stop-opacity="0.28" />
+			<stop offset="100%" stop-color="#ffffff" stop-opacity="0.16" />
 		</linearGradient>
-		<filter id="shadow" x="-20%" y="-20%" width="140%" height="145%">
-			<feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="rgb(15,23,42)" flood-opacity="0.32" />
+		<linearGradient id="topLine" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+			<stop offset="50%" stop-color="${palette.accent}" stop-opacity="0.72" />
+			<stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+		</linearGradient>
+		<filter id="shadow" x="-18%" y="-18%" width="136%" height="140%">
+			<feDropShadow dx="0" dy="24" stdDeviation="34" flood-color="#020617" flood-opacity="0.2" />
+		</filter>
+		<filter id="textLift" x="-20%" y="-20%" width="140%" height="150%">
+			<feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#020617" flood-opacity="0.24" />
+		</filter>
+		<filter id="iconLift" x="-20%" y="-20%" width="140%" height="150%">
+			<feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#020617" flood-opacity="0.24" />
+		</filter>
+		<filter id="grain" x="0" y="0" width="100%" height="100%">
+			<feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="2" seed="7" result="noise" />
+			<feColorMatrix in="noise" type="saturate" values="0" />
+			<feComponentTransfer>
+				<feFuncA type="table" tableValues="0 0.05" />
+			</feComponentTransfer>
 		</filter>
 		<clipPath id="badgeClip">
-			${badgeShapePath(theme.shape)}
+			<circle cx="512" cy="512" r="424" />
 		</clipPath>
+		<path id="topTextArc" d="M232 512a280 280 0 0 1 560 0" />
+		<path id="bottomTextArc" d="M232 512a280 280 0 0 0 560 0" />
 		<style>
 			.badge-text {
 				font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Noto Sans JP", "Noto Sans KR", sans-serif;
 				text-anchor: middle;
-				fill: white;
+				fill: #f8fafc;
 			}
 			.domain-name {
-				font-size: 40px;
-				font-weight: 800;
-				letter-spacing: 4px;
-				opacity: 0.88;
+				font-size: 34px;
+				font-weight: 760;
+				letter-spacing: 6px;
+				opacity: 0.8;
+				filter: url(#textLift);
 			}
-			.skill-name {
+			.arc-text {
 				font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Noto Sans JP", "Noto Sans KR", sans-serif;
-				text-anchor: middle;
-				fill: white;
-				font-weight: 850;
-				letter-spacing: 0;
+				fill: #ffffff;
+				font-weight: 820;
+				letter-spacing: 3px;
 				paint-order: stroke;
-				stroke: rgb(15,23,42);
-				stroke-opacity: 0.22;
-				stroke-width: 8px;
+				stroke: #0f172a;
+				stroke-opacity: 0.12;
+				stroke-width: 3px;
 				stroke-linejoin: round;
+				filter: url(#textLift);
 			}
-			.badge-key {
-				font-size: 30px;
-				font-weight: 700;
-				letter-spacing: 1px;
-				opacity: 0.72;
+			.top-arc {
+				font-size: 42px;
+			}
+			.bottom-arc {
+				font-size: 38px;
+				letter-spacing: 2px;
 			}
 		</style>
 	</defs>
 	<rect width="1024" height="1024" fill="transparent" />
 	<g filter="url(#shadow)">
 		<g clip-path="url(#badgeClip)">
-			<rect x="72" y="72" width="880" height="880" fill="url(#badgeFill)" />
-			<circle cx="360" cy="250" r="390" fill="rgb(255,255,255)" fill-opacity="0.2" />
-			<circle cx="780" cy="820" r="350" fill="rgb(15,23,42)" fill-opacity="0.16" />
-			${patternMarkup(theme)}
-			<rect x="72" y="72" width="880" height="880" fill="rgb(255,255,255)" fill-opacity="0.04" />
+			<circle cx="512" cy="512" r="424" fill="url(#badgeFill)" />
+			<circle cx="512" cy="512" r="424" fill="url(#surfaceLight)" />
+			<circle cx="342" cy="260" r="320" fill="#ffffff" fill-opacity="0.06" />
+			<circle cx="740" cy="782" r="380" fill="#020617" fill-opacity="0.18" />
+			<path d="M190 676c88 102 195 153 322 153s234-51 322-153" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="16" />
+			<circle cx="512" cy="512" r="424" filter="url(#grain)" opacity="0.55" />
 		</g>
-		<g fill="none" stroke="rgb(255,255,255)" stroke-opacity="0.72" stroke-width="18">
-			${badgeShapePath(theme.shape)}
-		</g>
-		<g fill="none" stroke="rgb(15,23,42)" stroke-opacity="0.22" stroke-width="5">
-			${badgeShapePath(theme.shape)}
-		</g>
+		<circle cx="512" cy="512" r="436" fill="none" stroke="#020617" stroke-opacity="0.12" stroke-width="18" />
+		<circle cx="512" cy="512" r="421" fill="none" stroke="url(#edgeStroke)" stroke-width="5" />
+		<circle cx="512" cy="512" r="388" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5" />
+		<circle cx="512" cy="512" r="334" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1" stroke-dasharray="2 14" />
 	</g>
 	<g class="badge-text">
-		<text x="512" y="300" class="domain-name">${escapeXml(skilltreeName)}</text>
-		${renderTextLines(fittedSkillName.lines, 512, skillNameStartY, fittedSkillName.fontSize, fittedSkillName.lineHeight)}
-		<text x="512" y="735" class="badge-key">${escapeXml(skill.slug.replace(/_/g, ' '))}</text>
+		<text class="arc-text top-arc">
+			<textPath href="#topTextArc" startOffset="50%" text-anchor="middle">${escapeXml(skilltreeName)}</textPath>
+		</text>
+		${renderSkilltreeIcon(skilltree.key)}
+		<text class="arc-text bottom-arc">
+			<textPath href="#bottomTextArc" startOffset="50%" text-anchor="middle" font-size="${bottomArcFontSize}" letter-spacing="${bottomArcLetterSpacing}">${escapeXml(
+				arcSkillName
+			)}</textPath>
+		</text>
 	</g>
 </svg>`;
 }
