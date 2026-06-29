@@ -15,6 +15,7 @@ const CHECK_SIZE = 12;
 const CHECK_GAP = 4;
 
 type BadgeVariant = 'default' | 'earned' | 'unearned';
+type BadgeTheme = 'dark' | 'light';
 
 interface BadgeRouteMatch {
 	locale: string;
@@ -83,50 +84,57 @@ interface BadgeStyle {
 	iconBackingOpacity: number;
 	primaryFill: string;
 	secondaryFill: string;
+	unearnedStroke: string;
+	earnedFill: string;
+	earnedCheckStroke: string;
 }
 
-const BADGE_STYLES: Record<BadgeVariant, BadgeStyle> = {
-	default: {
-		backgroundStops: `
-			<stop offset="0%" stop-color="#20242D" />
-			<stop offset="58%" stop-color="#111827" />
-			<stop offset="100%" stop-color="#090D14" />`,
-		borderColor: '#343B49',
-		innerStrokeColor: '#FFFFFF',
-		innerStrokeOpacity: 0.08,
-		iconOpacity: 1,
-		iconBackingFill: '#FFFFFF',
-		iconBackingOpacity: 0.08,
-		primaryFill: '#F8FAFC',
-		secondaryFill: '#AEB8C8'
+const DARK_BADGE_STYLE: BadgeStyle = {
+	backgroundStops: `
+		<stop offset="0%" stop-color="#20242D" />
+		<stop offset="58%" stop-color="#111827" />
+		<stop offset="100%" stop-color="#090D14" />`,
+	borderColor: '#343B49',
+	innerStrokeColor: '#FFFFFF',
+	innerStrokeOpacity: 0.08,
+	iconOpacity: 1,
+	iconBackingFill: '#FFFFFF',
+	iconBackingOpacity: 0.08,
+	primaryFill: '#F8FAFC',
+	secondaryFill: '#AEB8C8',
+	unearnedStroke: '#94A3B8',
+	earnedFill: '#22C55E',
+	earnedCheckStroke: '#FFFFFF'
+};
+
+const LIGHT_BADGE_STYLE: BadgeStyle = {
+	backgroundStops: `
+		<stop offset="0%" stop-color="#FFFFFF" />
+		<stop offset="58%" stop-color="#F8FAFC" />
+		<stop offset="100%" stop-color="#EEF2F7" />`,
+	borderColor: '#CBD5E1',
+	innerStrokeColor: '#FFFFFF',
+	innerStrokeOpacity: 0.8,
+	iconOpacity: 0.92,
+	iconBackingFill: '#0F172A',
+	iconBackingOpacity: 0.06,
+	primaryFill: '#0F172A',
+	secondaryFill: '#475569',
+	unearnedStroke: '#64748B',
+	earnedFill: '#16A34A',
+	earnedCheckStroke: '#FFFFFF'
+};
+
+const BADGE_STYLES: Record<BadgeTheme, Record<BadgeVariant, BadgeStyle>> = {
+	dark: {
+		default: DARK_BADGE_STYLE,
+		earned: DARK_BADGE_STYLE,
+		unearned: DARK_BADGE_STYLE
 	},
-	earned: {
-		backgroundStops: `
-			<stop offset="0%" stop-color="#20242D" />
-			<stop offset="58%" stop-color="#111827" />
-			<stop offset="100%" stop-color="#090D14" />`,
-		borderColor: '#343B49',
-		innerStrokeColor: '#FFFFFF',
-		innerStrokeOpacity: 0.08,
-		iconOpacity: 1,
-		iconBackingFill: '#FFFFFF',
-		iconBackingOpacity: 0.08,
-		primaryFill: '#F8FAFC',
-		secondaryFill: '#AEB8C8'
-	},
-	unearned: {
-		backgroundStops: `
-			<stop offset="0%" stop-color="#20242D" />
-			<stop offset="58%" stop-color="#111827" />
-			<stop offset="100%" stop-color="#090D14" />`,
-		borderColor: '#343B49',
-		innerStrokeColor: '#FFFFFF',
-		innerStrokeOpacity: 0.08,
-		iconOpacity: 1,
-		iconBackingFill: '#FFFFFF',
-		iconBackingOpacity: 0.08,
-		primaryFill: '#F8FAFC',
-		secondaryFill: '#AEB8C8'
+	light: {
+		default: LIGHT_BADGE_STYLE,
+		earned: LIGHT_BADGE_STYLE,
+		unearned: LIGHT_BADGE_STYLE
 	}
 };
 
@@ -144,6 +152,10 @@ function getBadgeVariant(searchParams: URLSearchParams): BadgeVariant {
 	return 'default';
 }
 
+function getBadgeTheme(searchParams: URLSearchParams): BadgeTheme {
+	return searchParams.get('theme') === 'light' ? 'light' : 'dark';
+}
+
 function renderSkilltreeIcon(treeKey: string, x: number, y: number, size: number, opacity: number) {
 	const icon = skilltreeIcons[treeKey];
 
@@ -157,7 +169,7 @@ function renderSkilltreeIcon(treeKey: string, x: number, y: number, size: number
 		</svg>`;
 }
 
-function renderStatusIcon(x: number, y: number, variant: BadgeVariant) {
+function renderStatusIcon(x: number, y: number, variant: BadgeVariant, style: BadgeStyle) {
 	if (variant === 'default') {
 		return '';
 	}
@@ -168,21 +180,21 @@ function renderStatusIcon(x: number, y: number, variant: BadgeVariant) {
 	if (variant === 'unearned') {
 		return `
 	<g>
-		<circle cx="${centerX}" cy="${centerY}" r="5.35" fill="none" stroke="#94A3B8" stroke-width="1.35" stroke-dasharray="1.6 2.1" stroke-linecap="round" />
+		<circle cx="${centerX}" cy="${centerY}" r="5.35" fill="none" stroke="${style.unearnedStroke}" stroke-width="1.35" stroke-dasharray="1.6 2.1" stroke-linecap="round" />
 	</g>`;
 	}
 
 	return `
 	<g>
-		<circle cx="${centerX}" cy="${centerY}" r="6" fill="#22C55E" />
-		<path d="m${centerX - 2.9} ${centerY + 0.2} 2 2 3.9-4.3" fill="none" stroke="#FFFFFF" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" />
+		<circle cx="${centerX}" cy="${centerY}" r="6" fill="${style.earnedFill}" />
+		<path d="m${centerX - 2.9} ${centerY + 0.2} 2 2 3.9-4.3" fill="none" stroke="${style.earnedCheckStroke}" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" />
 	</g>`;
 }
 
-function renderSkillBadgeSvg(skilltree: SkillTree, skill: Skill, locale: string, variant: BadgeVariant) {
+function renderSkillBadgeSvg(skilltree: SkillTree, skill: Skill, locale: string, variant: BadgeVariant, theme: BadgeTheme) {
 	const skillName = getLocalizedSkillName(skill, locale);
 	const skilltreeName = skilltree.name;
-	const style = BADGE_STYLES[variant];
+	const style = BADGE_STYLES[theme][variant];
 	const showsStatus = variant !== 'default';
 	const badgeWidth = badgeWidthForText(skillName, skilltreeName, showsStatus);
 	const primaryFontSize = hasCjkText(skillName) ? 15 : 15;
@@ -215,10 +227,10 @@ function renderSkillBadgeSvg(skilltree: SkillTree, skill: Skill, locale: string,
 	<rect x="0.5" y="0.5" width="${badgeWidth - 1}" height="${BADGE_HEIGHT - 1}" rx="19.5" fill="url(#badgeFill)" stroke="${style.borderColor}" />
 	<rect x="1.5" y="1.5" width="${badgeWidth - 3}" height="${BADGE_HEIGHT - 3}" rx="18.5" fill="none" stroke="${style.innerStrokeColor}" stroke-opacity="${style.innerStrokeOpacity}" />
 	<circle cx="20" cy="20" r="16.5" fill="${style.iconBackingFill}" fill-opacity="${style.iconBackingOpacity}" />
-	${renderSkilltreeIcon(skilltree.key, ICON_X, ICON_X, ICON_SIZE, style.iconOpacity)}
+		${renderSkilltreeIcon(skilltree.key, ICON_X, ICON_X, ICON_SIZE, style.iconOpacity)}
 	<g class="badge-label">
 		<text x="${TEXT_X}" y="14" class="secondary" font-size="${secondaryFontSize}">${escapeXml(skilltreeName.toUpperCase())}</text>
-		${renderStatusIcon(TEXT_X, 19, variant)}
+		${renderStatusIcon(TEXT_X, 19, variant, style)}
 		<text x="${primaryTextX}" y="30" class="primary" font-size="${primaryFontSize}">${escapeXml(skillName)}</text>
 	</g>
 </svg>`;
@@ -285,6 +297,7 @@ export function handleBadgeRequest(request: Request, catalog: SkillTreeCatalog) 
 	const url = new URL(request.url);
 	const match = parseBadgePath(url.pathname);
 	const variant = getBadgeVariant(url.searchParams);
+	const theme = getBadgeTheme(url.searchParams);
 
 	if (!match) {
 		return null;
@@ -319,7 +332,7 @@ export function handleBadgeRequest(request: Request, catalog: SkillTreeCatalog) 
 		return badgeErrorResponse('skill_not_found', 404);
 	}
 
-	const etag = JSON.stringify(`${catalog.manifest.hash}:badge:${match.locale}:${skill.key}:${variant}`);
+	const etag = JSON.stringify(`${catalog.manifest.hash}:badge:${match.locale}:${skill.key}:${variant}:${theme}`);
 	const headers = new Headers({
 		'Access-Control-Allow-Origin': '*',
 		'Content-Type': 'image/svg+xml; charset=utf-8',
@@ -334,7 +347,7 @@ export function handleBadgeRequest(request: Request, catalog: SkillTreeCatalog) 
 		});
 	}
 
-	const svg = renderSkillBadgeSvg(skilltree, skill, match.locale, variant);
+	const svg = renderSkillBadgeSvg(skilltree, skill, match.locale, variant, theme);
 
 	return new Response(request.method === 'HEAD' ? null : svg, {
 		status: 200,

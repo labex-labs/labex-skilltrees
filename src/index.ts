@@ -183,12 +183,12 @@ function rootResponse(request: Request) {
 			{
 				method: 'GET',
 				path: '/badges/{skilltreeKey}/{skillSlug}.svg',
-				description: 'Returns an English SVG badge for a skill. Use earned=true or earned=false to request earned or unearned variants.',
+				description: 'Returns an English SVG badge for a skill. Use earned=true or earned=false to request earned or unearned variants, and theme=light or theme=dark to choose the badge theme.',
 			},
 			{
 				method: 'GET',
 				path: '/badges/{locale}/{skilltreeKey}/{skillSlug}.svg',
-				description: 'Returns a localized SVG badge for a skill. Use earned=true or earned=false to request earned or unearned variants.',
+				description: 'Returns a localized SVG badge for a skill. Use earned=true or earned=false to request earned or unearned variants, and theme=light or theme=dark to choose the badge theme.',
 			},
 		],
 	});

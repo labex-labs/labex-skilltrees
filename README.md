@@ -117,11 +117,18 @@ Badge variants are controlled with the optional `earned` query parameter:
 - `?earned=false` or `?earned=0`: unearned badge style.
 - Omit `earned`: default badge style.
 
+Badge themes are controlled with the optional `theme` query parameter:
+
+- `?theme=dark`: dark badge theme.
+- `?theme=light`: light badge theme.
+- Omit `theme`: dark badge theme.
+
 Example:
 
 ```text
 https://skilltrees.labex.app/badges/linux/terminal-sessions.svg
 https://skilltrees.labex.app/badges/zh/linux/terminal-sessions.svg
+https://skilltrees.labex.app/badges/linux/terminal-sessions.svg?theme=light
 ```
 
 Prerequisite: Node.js 22 or newer.
