@@ -12,6 +12,7 @@
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "types": ["@cloudflare/workers-types"],
     "noEmit": true
   },
   "include": ["src/**/*.ts"]

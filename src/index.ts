@@ -1,5 +1,6 @@
 import { catalog } from './generated/catalog';
 import { handleBadgeRequest } from './badges';
+import { handleCourseBadgeRequest } from './course-badges';
 import type {
 	I18nLocale,
 	Skill,
@@ -255,9 +256,14 @@ function getRouteCachePathname(route: RouteMatch) {
 	return `/api/${route.locale}${route.pathname}`;
 }
 
-function handleRequest(request: Request) {
+async function handleRequest(request: Request, env: Env, ctx: ExecutionContext) {
 	const url = new URL(request.url);
 	const catalog = getCatalog();
+	const courseBadgeResponse = await handleCourseBadgeRequest(request, env, ctx);
+	if (courseBadgeResponse) {
+		return courseBadgeResponse;
+	}
+
 	const badgeResponse = handleBadgeRequest(request, catalog);
 	if (badgeResponse) {
 		return badgeResponse;
@@ -322,7 +328,7 @@ function handleRequest(request: Request) {
 }
 
 export default {
-	fetch(request: Request) {
-		return handleRequest(request);
+	fetch(request: Request, env: Env, ctx: ExecutionContext) {
+		return handleRequest(request, env, ctx);
 	},
 };

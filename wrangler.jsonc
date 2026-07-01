@@ -7,6 +7,12 @@
   "name": "skilltrees",
   "main": "src/index.ts",
   "compatibility_date": "2025-12-02",
+  "kv_namespaces": [
+    {
+      "binding": "COURSE_CACHE",
+      "id": "f3712e2fec9b4f918dda88c23fb650b3",
+    },
+  ],
   "observability": {
     "logs": {
       "enabled": true,
