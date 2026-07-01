@@ -8,6 +8,7 @@ const RIGHT_PADDING = 14;
 const MIN_BADGE_WIDTH = 132;
 const CHECK_SIZE = 12;
 const CHECK_GAP = 4;
+const SECONDARY_LETTER_SPACING = 0.9;
 
 export type BadgeVariant = 'default' | 'earned' | 'unearned';
 export type BadgeTheme = 'dark' | 'light';
@@ -123,7 +124,9 @@ function estimateTextWidth(value: string, fontSize: number) {
 
 function badgeWidthForText(primaryText: string, secondaryText: string, reservesCheck: boolean) {
 	const primaryWidth = estimateTextWidth(primaryText, hasCjkText(primaryText) ? 15 : 15);
-	const secondaryWidth = estimateTextWidth(secondaryText, hasCjkText(secondaryText) ? 9 : 9);
+	const secondaryWidth =
+		estimateTextWidth(secondaryText, hasCjkText(secondaryText) ? 9 : 9) +
+		Math.max(0, Array.from(secondaryText).length - 1) * SECONDARY_LETTER_SPACING;
 	const statusWidth = reservesCheck ? CHECK_SIZE + CHECK_GAP : 0;
 
 	return Math.ceil(Math.max(MIN_BADGE_WIDTH, TEXT_X + Math.max(primaryWidth + statusWidth, secondaryWidth) + RIGHT_PADDING + 6));
@@ -185,9 +188,10 @@ export function getBadgeTheme(searchParams: URLSearchParams): BadgeTheme {
 export function renderBadgeSvg(options: BadgeSvgOptions) {
 	const style = BADGE_STYLES[options.theme][options.variant];
 	const showsStatus = options.variant !== 'default';
-	const badgeWidth = badgeWidthForText(options.primaryText, options.secondaryText, showsStatus);
+	const secondaryText = options.secondaryText.toUpperCase();
+	const badgeWidth = badgeWidthForText(options.primaryText, secondaryText, showsStatus);
 	const primaryFontSize = hasCjkText(options.primaryText) ? 15 : 15;
-	const secondaryFontSize = hasCjkText(options.secondaryText) ? 9 : 9;
+	const secondaryFontSize = hasCjkText(secondaryText) ? 9 : 9;
 	const primaryTextX = showsStatus ? TEXT_X + CHECK_SIZE + CHECK_GAP : TEXT_X;
 
 	return `<?xml version="1.0" encoding="UTF-8"?>
@@ -218,7 +222,7 @@ export function renderBadgeSvg(options: BadgeSvgOptions) {
 	<circle cx="20" cy="20" r="16.5" fill="${style.iconBackingFill}" fill-opacity="${style.iconBackingOpacity}" />
 		${renderSkilltreeIcon(options.iconKey, ICON_X, ICON_X, ICON_SIZE, style.iconOpacity)}
 	<g class="badge-label">
-		<text x="${TEXT_X}" y="14" class="secondary" font-size="${secondaryFontSize}">${escapeXml(options.secondaryText.toUpperCase())}</text>
+		<text x="${TEXT_X}" y="14" class="secondary" font-size="${secondaryFontSize}">${escapeXml(secondaryText)}</text>
 		${renderStatusIcon(TEXT_X, 19, options.variant, style)}
 		<text x="${primaryTextX}" y="30" class="primary" font-size="${primaryFontSize}">${escapeXml(options.primaryText)}</text>
 	</g>

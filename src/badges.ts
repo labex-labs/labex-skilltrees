@@ -1,4 +1,5 @@
 import type { I18nLocale, Skill, SkillTree, SkillTreeCatalog } from './types';
+import { formatBadgeSecondaryText } from './badge-labels';
 import { getBadgeTheme, getBadgeVariant, renderBadgeSvg } from './badge-renderer';
 
 const SUPPORTED_BADGE_LOCALES = new Set(['en', 'zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
@@ -26,7 +27,7 @@ function renderSkillBadgeSvg(skilltree: SkillTree, skill: Skill, locale: string,
 		title: `${skilltree.name} - ${skillName}`,
 		desc: `LabEx skill badge for ${skill.key}`,
 		primaryText: skillName,
-		secondaryText: skilltree.name,
+		secondaryText: formatBadgeSecondaryText(skilltree.name, 'skill', locale),
 		variant,
 		theme,
 	});

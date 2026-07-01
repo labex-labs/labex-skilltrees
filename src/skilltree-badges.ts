@@ -1,3 +1,4 @@
+import { getBadgeResourceLabel } from './badge-labels';
 import { getBadgeTheme, renderBadgeSvg } from './badge-renderer';
 import type { SkillTree, SkillTreeCatalog } from './types';
 
@@ -39,13 +40,15 @@ function skilltreeBadgeErrorResponse(error: string, status: number) {
 	});
 }
 
-function renderSkilltreeBadgeSvg(skilltree: SkillTree, theme: ReturnType<typeof getBadgeTheme>) {
+function renderSkilltreeBadgeSvg(skilltree: SkillTree, lang: string, theme: ReturnType<typeof getBadgeTheme>) {
+	const secondaryText = `LabEx ${getBadgeResourceLabel('skilltree', lang)}`;
+
 	return renderBadgeSvg({
 		iconKey: skilltree.key,
-		title: `LabEx Skilltree - ${skilltree.name}`,
+		title: `${secondaryText} - ${skilltree.name}`,
 		desc: `LabEx skilltree badge for ${skilltree.key}`,
 		primaryText: skilltree.name,
-		secondaryText: 'Skilltree',
+		secondaryText,
 		variant: 'default',
 		theme,
 	});
@@ -100,7 +103,7 @@ export function handleSkilltreeBadgeRequest(request: Request, catalog: SkillTree
 		});
 	}
 
-	const svg = renderSkilltreeBadgeSvg(skilltree, theme);
+	const svg = renderSkilltreeBadgeSvg(skilltree, lang, theme);
 
 	return new Response(request.method === 'HEAD' ? null : svg, {
 		status: 200,

@@ -1,3 +1,4 @@
+import { formatBadgeSecondaryText } from './badge-labels';
 import { getBadgeTheme, renderBadgeSvg } from './badge-renderer';
 import { getSkilltreeIconKeyForCoursePath } from './course-paths';
 
@@ -131,7 +132,7 @@ function normalizeCoursePayload(payload: unknown, alias: string, lang: string, n
 		alias: normalizedAlias,
 		lang,
 		name: courseName,
-		skillTreeName: skillTreeName ?? 'Course',
+		skillTreeName: skillTreeName ?? 'LabEx',
 		skillTree: stringValue(course.skill_tree),
 		level: numberValue(course.level),
 		userCount: numberValue(course.user_count),
@@ -287,7 +288,7 @@ export async function handleCourseBadgeRequest(request: Request, env: Env, ctx: 
 		title: `${course.skillTreeName} - ${course.name}`,
 		desc: `LabEx course badge for ${course.alias}`,
 		primaryText: course.name,
-		secondaryText: course.skillTreeName,
+		secondaryText: formatBadgeSecondaryText(course.skillTreeName, 'course', course.lang),
 		variant: 'default',
 		theme,
 	});
