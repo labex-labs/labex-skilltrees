@@ -82,8 +82,7 @@ Common public endpoints:
 - `GET https://skilltrees.labex.app/api/skilltrees/{key}`
 - `GET https://skilltrees.labex.app/api/{locale}/skilltrees`
 - `GET https://skilltrees.labex.app/api/{locale}/skilltrees/{key}`
-- `GET https://skilltrees.labex.app/badges/{skilltreeKey}/{skillSlug}.svg`
-- `GET https://skilltrees.labex.app/badges/{locale}/{skilltreeKey}/{skillSlug}.svg`
+- `GET https://skilltrees.labex.app/badges/skills/{skilltreeKey}/{skillSlug}.svg`
 
 `/api/skilltrees/summary` is the lightweight index endpoint. It returns each skill tree's `key`, `slug`, `name`, `skill_count`, and relative API `path`, so clients can discover valid keys before requesting `/api/skilltrees/{key}`.
 
@@ -103,13 +102,11 @@ Canonical skill responses include a `badge` field on each skill. The field is a 
 Badge endpoint:
 
 ```text
-GET /badges/{skilltreeKey}/{skillSlug}.svg
-HEAD /badges/{skilltreeKey}/{skillSlug}.svg
-GET /badges/{locale}/{skilltreeKey}/{skillSlug}.svg
-HEAD /badges/{locale}/{skilltreeKey}/{skillSlug}.svg
+GET /badges/skills/{skilltreeKey}/{skillSlug}.svg
+HEAD /badges/skills/{skilltreeKey}/{skillSlug}.svg
 ```
 
-The route without `{locale}` returns the English badge. Supported localized badge routes are `en`, `zh`, `es`, `fr`, `de`, `ja`, `ru`, `ko`, and `pt`. Non-English locales use localized skill names when available and fall back to English otherwise.
+The default badge language is English. Use the optional `lang` query parameter to request localized badge text. Supported badge languages are `en`, `zh`, `es`, `fr`, `de`, `ja`, `ru`, `ko`, and `pt`. Non-English locales use localized skill names when available and fall back to English otherwise.
 
 Badge variants are controlled with the optional `earned` query parameter:
 
@@ -126,9 +123,9 @@ Badge themes are controlled with the optional `theme` query parameter:
 Example:
 
 ```text
-https://skilltrees.labex.app/badges/linux/terminal-sessions.svg
-https://skilltrees.labex.app/badges/zh/linux/terminal-sessions.svg
-https://skilltrees.labex.app/badges/linux/terminal-sessions.svg?theme=light
+https://skilltrees.labex.app/badges/skills/linux/terminal-sessions.svg
+https://skilltrees.labex.app/badges/skills/linux/terminal-sessions.svg?lang=zh
+https://skilltrees.labex.app/badges/skills/linux/terminal-sessions.svg?theme=light
 ```
 
 Prerequisite: Node.js 22 or newer.
@@ -153,8 +150,7 @@ Common API endpoints:
 - `GET /api/skilltrees/{key}`
 - `GET /api/{locale}/skilltrees`
 - `GET /api/{locale}/skilltrees/{key}`
-- `GET /badges/{skilltreeKey}/{skillSlug}.svg`
-- `GET /badges/{locale}/{skilltreeKey}/{skillSlug}.svg`
+- `GET /badges/skills/{skilltreeKey}/{skillSlug}.svg`
 
 The API implementation is optional. The skill tree data model is independent of any hosting provider.
 

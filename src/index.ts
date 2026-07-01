@@ -84,12 +84,13 @@ function getSkilltreePath(key: string) {
 function getBadgePath(skilltreeKey: string, skillSlug: string, locale?: string) {
 	const encodedSkilltreeKey = encodeURIComponent(skilltreeKey);
 	const badgeFileName = encodeURIComponent(skillSlug.replace(/_/g, '-'));
-	if (locale) {
-		const encodedLocale = encodeURIComponent(locale);
-		return `/badges/${encodedLocale}/${encodedSkilltreeKey}/${badgeFileName}.svg`;
+	const badgePath = `/badges/skills/${encodedSkilltreeKey}/${badgeFileName}.svg`;
+
+	if (locale && locale !== 'en') {
+		return `${badgePath}?lang=${encodeURIComponent(locale)}`;
 	}
 
-	return `/badges/${encodedSkilltreeKey}/${badgeFileName}.svg`;
+	return badgePath;
 }
 
 function withSkillBadges(skilltree: SkillTree): SkillTreeWithBadges {
@@ -183,13 +184,8 @@ function rootResponse(request: Request) {
 			},
 			{
 				method: 'GET',
-				path: '/badges/{skilltreeKey}/{skillSlug}.svg',
-				description: 'Returns an English SVG badge for a skill. Use earned=true or earned=false to request earned or unearned variants, and theme=light or theme=dark to choose the badge theme.',
-			},
-			{
-				method: 'GET',
-				path: '/badges/{locale}/{skilltreeKey}/{skillSlug}.svg',
-				description: 'Returns a localized SVG badge for a skill. Use earned=true or earned=false to request earned or unearned variants, and theme=light or theme=dark to choose the badge theme.',
+				path: '/badges/skills/{skilltreeKey}/{skillSlug}.svg',
+				description: 'Returns an SVG badge for a skill. Use lang={locale} to localize badge text, earned=true or earned=false to request earned or unearned variants, and theme=light or theme=dark to choose the badge theme.',
 			},
 		],
 	});

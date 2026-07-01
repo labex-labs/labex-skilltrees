@@ -3,11 +3,9 @@ import { getBadgeTheme, getBadgeVariant, renderBadgeSvg } from './badge-renderer
 
 const SUPPORTED_BADGE_LOCALES = new Set(['en', 'zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
 const LOCALIZED_SKILL_LOCALES = new Set(['zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
-const LOCALIZED_BADGE_PATH_PATTERN = /^\/badges\/([a-z]{2})\/([^/]+)\/([^/]+)\.svg$/;
-const DEFAULT_BADGE_PATH_PATTERN = /^\/badges\/([^/]+)\/([^/]+)\.svg$/;
+const SKILL_BADGE_PATH_PATTERN = /^\/badges\/skills\/([^/]+)\/([^/]+)\.svg$/;
 
 interface BadgeRouteMatch {
-	locale: string;
 	treeKey: string;
 	skillSlug: string;
 }
@@ -35,35 +33,23 @@ function renderSkillBadgeSvg(skilltree: SkillTree, skill: Skill, locale: string,
 }
 
 function parseBadgePath(pathname: string): BadgeRouteMatch | null {
-	const localizedMatch = pathname.match(LOCALIZED_BADGE_PATH_PATTERN);
-
-	if (localizedMatch) {
-		try {
-			return {
-				locale: localizedMatch[1],
-				treeKey: decodeURIComponent(localizedMatch[2]),
-				skillSlug: decodeURIComponent(localizedMatch[3]),
-			};
-		} catch {
-			return null;
-		}
-	}
-
-	const defaultMatch = pathname.match(DEFAULT_BADGE_PATH_PATTERN);
-
-	if (!defaultMatch) {
+	const match = pathname.match(SKILL_BADGE_PATH_PATTERN);
+	if (!match) {
 		return null;
 	}
 
 	try {
 		return {
-			locale: 'en',
-			treeKey: decodeURIComponent(defaultMatch[1]),
-			skillSlug: decodeURIComponent(defaultMatch[2]),
+			treeKey: decodeURIComponent(match[1]),
+			skillSlug: decodeURIComponent(match[2]),
 		};
 	} catch {
 		return null;
 	}
+}
+
+function getBadgeLocale(searchParams: URLSearchParams) {
+	return searchParams.get('lang')?.toLowerCase() || 'en';
 }
 
 function findSkillForBadgePath(skilltree: SkillTree, skillSlug: string) {
@@ -94,6 +80,7 @@ function badgeErrorResponse(error: string, status: number) {
 export function handleBadgeRequest(request: Request, catalog: SkillTreeCatalog) {
 	const url = new URL(request.url);
 	const match = parseBadgePath(url.pathname);
+	const locale = getBadgeLocale(url.searchParams);
 	const variant = getBadgeVariant(url.searchParams);
 	const theme = getBadgeTheme(url.searchParams);
 
@@ -116,7 +103,7 @@ export function handleBadgeRequest(request: Request, catalog: SkillTreeCatalog) 
 		return badgeErrorResponse('method_not_allowed', 405);
 	}
 
-	if (!SUPPORTED_BADGE_LOCALES.has(match.locale)) {
+	if (!SUPPORTED_BADGE_LOCALES.has(locale)) {
 		return badgeErrorResponse('unsupported_locale', 404);
 	}
 
@@ -130,7 +117,7 @@ export function handleBadgeRequest(request: Request, catalog: SkillTreeCatalog) 
 		return badgeErrorResponse('skill_not_found', 404);
 	}
 
-	const etag = JSON.stringify(`${catalog.manifest.hash}:badge:${match.locale}:${skill.key}:${variant}:${theme}`);
+	const etag = JSON.stringify(`${catalog.manifest.hash}:badge:${locale}:${skill.key}:${variant}:${theme}`);
 	const headers = new Headers({
 		'Access-Control-Allow-Origin': '*',
 		'Content-Type': 'image/svg+xml; charset=utf-8',
@@ -145,7 +132,7 @@ export function handleBadgeRequest(request: Request, catalog: SkillTreeCatalog) 
 		});
 	}
 
-	const svg = renderSkillBadgeSvg(skilltree, skill, match.locale, variant, theme);
+	const svg = renderSkillBadgeSvg(skilltree, skill, locale, variant, theme);
 
 	return new Response(request.method === 'HEAD' ? null : svg, {
 		status: 200,
