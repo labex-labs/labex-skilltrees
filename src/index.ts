@@ -1,6 +1,7 @@
 import { catalog } from './generated/catalog';
 import { handleBadgeRequest } from './badges';
 import { handleCourseBadgeRequest } from './course-badges';
+import { handleSkilltreeBadgeRequest } from './skilltree-badges';
 import type {
 	I18nLocale,
 	Skill,
@@ -187,6 +188,11 @@ function rootResponse(request: Request) {
 				path: '/badges/skills/{skilltreeKey}/{skillSlug}.svg',
 				description: 'Returns an SVG badge for a skill. Use lang={locale} to localize badge text, earned=true or earned=false to request earned or unearned variants, and theme=light or theme=dark to choose the badge theme.',
 			},
+			{
+				method: 'GET',
+				path: '/badges/skilltrees/{skilltreeKey}.svg',
+				description: 'Returns an SVG badge for a skilltree. Use theme=light or theme=dark to choose the badge theme.',
+			},
 		],
 	});
 }
@@ -258,6 +264,11 @@ async function handleRequest(request: Request, env: Env, ctx: ExecutionContext) 
 	const courseBadgeResponse = await handleCourseBadgeRequest(request, env, ctx);
 	if (courseBadgeResponse) {
 		return courseBadgeResponse;
+	}
+
+	const skilltreeBadgeResponse = handleSkilltreeBadgeRequest(request, catalog);
+	if (skilltreeBadgeResponse) {
+		return skilltreeBadgeResponse;
 	}
 
 	const badgeResponse = handleBadgeRequest(request, catalog);

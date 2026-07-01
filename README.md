@@ -83,6 +83,7 @@ Common public endpoints:
 - `GET https://skilltrees.labex.app/api/{locale}/skilltrees`
 - `GET https://skilltrees.labex.app/api/{locale}/skilltrees/{key}`
 - `GET https://skilltrees.labex.app/badges/skills/{skilltreeKey}/{skillSlug}.svg`
+- `GET https://skilltrees.labex.app/badges/skilltrees/{skilltreeKey}.svg`
 
 `/api/skilltrees/summary` is the lightweight index endpoint. It returns each skill tree's `key`, `slug`, `name`, `skill_count`, and relative API `path`, so clients can discover valid keys before requesting `/api/skilltrees/{key}`.
 
@@ -128,6 +129,24 @@ https://skilltrees.labex.app/badges/skills/linux/terminal-sessions.svg?lang=zh
 https://skilltrees.labex.app/badges/skills/linux/terminal-sessions.svg?theme=light
 ```
 
+### Skilltree Badges
+
+Skilltree badge endpoint:
+
+```text
+GET /badges/skilltrees/{skilltreeKey}.svg
+HEAD /badges/skilltrees/{skilltreeKey}.svg
+```
+
+Skilltree badge themes use the same optional `theme` query parameter as skill badges.
+
+Example:
+
+```text
+https://skilltrees.labex.app/badges/skilltrees/linux.svg
+https://skilltrees.labex.app/badges/skilltrees/linux.svg?theme=light
+```
+
 Prerequisite: Node.js 22 or newer.
 
 ```bash
@@ -151,6 +170,7 @@ Common API endpoints:
 - `GET /api/{locale}/skilltrees`
 - `GET /api/{locale}/skilltrees/{key}`
 - `GET /badges/skills/{skilltreeKey}/{skillSlug}.svg`
+- `GET /badges/skilltrees/{skilltreeKey}.svg`
 
 The API implementation is optional. The skill tree data model is independent of any hosting provider.
 
