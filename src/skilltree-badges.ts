@@ -45,7 +45,7 @@ function renderSkilltreeBadgeSvg(skilltree: SkillTree, theme: ReturnType<typeof 
 		title: `LabEx Skilltree - ${skilltree.name}`,
 		desc: `LabEx skilltree badge for ${skilltree.key}`,
 		primaryText: skilltree.name,
-		secondaryText: 'LabEx Skilltree',
+		secondaryText: 'Skilltree',
 		variant: 'default',
 		theme,
 	});
