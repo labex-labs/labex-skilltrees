@@ -182,7 +182,7 @@ async function fetchCourseFromApi(alias: string, lang: string) {
 }
 
 async function readCachedCourse(env: Env, alias: string, lang: string) {
-	const cached = await env.COURSE_CACHE.get(courseCacheKey(alias, lang), 'json');
+	const cached = await env.SKILLTREES_APP_KV.get(courseCacheKey(alias, lang), 'json');
 	return isCachedCourse(cached) ? cached : null;
 }
 
@@ -190,15 +190,15 @@ async function refreshCourseCache(env: Env, alias: string, lang: string) {
 	const result = await fetchCourseFromApi(alias, lang);
 
 	if (result.status === 'ok') {
-		await env.COURSE_CACHE.put(courseCacheKey(alias, lang), JSON.stringify(result.course), {
+		await env.SKILLTREES_APP_KV.put(courseCacheKey(alias, lang), JSON.stringify(result.course), {
 			expirationTtl: COURSE_CACHE_STALE_SECONDS,
 		});
-		await env.COURSE_CACHE.delete(courseMissCacheKey(alias, lang));
+		await env.SKILLTREES_APP_KV.delete(courseMissCacheKey(alias, lang));
 		return result.course;
 	}
 
 	if (result.status === 'not_found') {
-		await env.COURSE_CACHE.put(courseMissCacheKey(alias, lang), '1', {
+		await env.SKILLTREES_APP_KV.put(courseMissCacheKey(alias, lang), '1', {
 			expirationTtl: COURSE_NEGATIVE_CACHE_SECONDS,
 		});
 	}
@@ -219,7 +219,7 @@ async function getCourseForBadge(env: Env, ctx: ExecutionContext, alias: string,
 		return cached;
 	}
 
-	const negativeCache = await env.COURSE_CACHE.get(courseMissCacheKey(alias, lang));
+	const negativeCache = await env.SKILLTREES_APP_KV.get(courseMissCacheKey(alias, lang));
 	if (negativeCache) {
 		return null;
 	}
