@@ -3,9 +3,9 @@ import { getSkilltreeIconKeyForCoursePath } from './course-paths';
 
 const COURSE_BADGE_PATH_PATTERN = /^\/badges\/courses\/([^/]+)\.svg$/;
 const SUPPORTED_COURSE_BADGE_LANGS = new Set(['en', 'zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
-const COURSE_CACHE_VERSION = 'v1';
-const COURSE_CACHE_FRESH_SECONDS = 60 * 60 * 6;
-const COURSE_CACHE_STALE_SECONDS = 60 * 60 * 24 * 7;
+const COURSE_DATA_CACHE_VERSION = 'v1';
+const COURSE_DATA_CACHE_FRESH_SECONDS = 60 * 60 * 6;
+const COURSE_DATA_CACHE_STALE_SECONDS = 60 * 60 * 24 * 7;
 const COURSE_NEGATIVE_CACHE_SECONDS = 60 * 5;
 const COURSE_API_TIMEOUT_MS = 3000;
 
@@ -13,7 +13,6 @@ interface LabExCourseApiResponse {
 	course?: {
 		alias?: unknown;
 		name?: unknown;
-		tags?: unknown;
 		level?: unknown;
 		user_count?: unknown;
 		updated_at?: unknown;
@@ -34,7 +33,6 @@ interface CachedCourse {
 	name: string;
 	skillTreeName: string;
 	skillTree?: string;
-	tags: string[];
 	level?: number;
 	userCount?: number;
 	updatedAt?: string;
@@ -67,11 +65,11 @@ function normalizeCourseLang(searchParams: URLSearchParams) {
 }
 
 function courseCacheKey(alias: string, lang: string) {
-	return `course:${COURSE_CACHE_VERSION}:${lang}:${alias}`;
+	return `course:${COURSE_DATA_CACHE_VERSION}:${lang}:${alias}`;
 }
 
 function courseMissCacheKey(alias: string, lang: string) {
-	return `course-miss:${COURSE_CACHE_VERSION}:${lang}:${alias}`;
+	return `course-miss:${COURSE_DATA_CACHE_VERSION}:${lang}:${alias}`;
 }
 
 function isObject(value: unknown): value is Record<string, unknown> {
@@ -84,10 +82,6 @@ function stringValue(value: unknown) {
 
 function numberValue(value: unknown) {
 	return typeof value === 'number' && Number.isFinite(value) ? value : undefined;
-}
-
-function stringArrayValue(value: unknown) {
-	return Array.isArray(value) ? value.filter((item): item is string => typeof item === 'string' && item.trim() !== '') : [];
 }
 
 function getFirstCoursePath(value: unknown) {
@@ -105,8 +99,6 @@ function isCachedCourse(value: unknown): value is CachedCourse {
 		typeof value.lang === 'string' &&
 		typeof value.name === 'string' &&
 		typeof value.skillTreeName === 'string' &&
-		Array.isArray(value.tags) &&
-		value.tags.every((item) => typeof item === 'string') &&
 		typeof value.fetchedAt === 'string' &&
 		typeof value.freshUntil === 'string' &&
 		(value.skillTree === undefined || typeof value.skillTree === 'string') &&
@@ -140,13 +132,12 @@ function normalizeCoursePayload(payload: unknown, alias: string, lang: string, n
 		lang,
 		name: courseName,
 		skillTreeName: skillTreeName ?? 'Course',
-		skillTree: stringValue(course.skill_tree) ?? stringValue(firstPath?.alias),
-		tags: stringArrayValue(course.tags),
+		skillTree: stringValue(course.skill_tree),
 		level: numberValue(course.level),
 		userCount: numberValue(course.user_count),
 		updatedAt: stringValue(course.updated_at),
 		fetchedAt: now.toISOString(),
-		freshUntil: new Date(now.getTime() + COURSE_CACHE_FRESH_SECONDS * 1000).toISOString(),
+		freshUntil: new Date(now.getTime() + COURSE_DATA_CACHE_FRESH_SECONDS * 1000).toISOString(),
 	};
 }
 
@@ -191,7 +182,7 @@ async function refreshCourseCache(env: Env, alias: string, lang: string) {
 
 	if (result.status === 'ok') {
 		await env.SKILLTREES_APP_KV.put(courseCacheKey(alias, lang), JSON.stringify(result.course), {
-			expirationTtl: COURSE_CACHE_STALE_SECONDS,
+			expirationTtl: COURSE_DATA_CACHE_STALE_SECONDS,
 		});
 		await env.SKILLTREES_APP_KV.delete(courseMissCacheKey(alias, lang));
 		return result.course;
@@ -276,7 +267,7 @@ export async function handleCourseBadgeRequest(request: Request, env: Env, ctx: 
 		return courseBadgeErrorResponse('course_not_found', 404);
 	}
 
-	const etag = JSON.stringify(`course-badge:${COURSE_CACHE_VERSION}:${course.alias}:${course.lang}:${theme}:${course.updatedAt ?? ''}:${course.fetchedAt}`);
+	const etag = JSON.stringify(`course-badge:${COURSE_DATA_CACHE_VERSION}:${course.alias}:${course.lang}:${theme}:${course.updatedAt ?? ''}:${course.fetchedAt}`);
 	const headers = new Headers({
 		'Access-Control-Allow-Origin': '*',
 		'Content-Type': 'image/svg+xml; charset=utf-8',
