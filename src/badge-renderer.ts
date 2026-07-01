@@ -4,7 +4,7 @@ const BADGE_HEIGHT = 40;
 const ICON_SIZE = 32;
 const ICON_X = 4;
 const TEXT_X = 48;
-const RIGHT_PADDING = 14;
+const RIGHT_PADDING = 10;
 const MIN_BADGE_WIDTH = 132;
 const CHECK_SIZE = 12;
 const CHECK_GAP = 4;
@@ -129,7 +129,7 @@ function badgeWidthForText(primaryText: string, secondaryText: string, reservesC
 		Math.max(0, Array.from(secondaryText).length - 1) * SECONDARY_LETTER_SPACING;
 	const statusWidth = reservesCheck ? CHECK_SIZE + CHECK_GAP : 0;
 
-	return Math.ceil(Math.max(MIN_BADGE_WIDTH, TEXT_X + Math.max(primaryWidth + statusWidth, secondaryWidth) + RIGHT_PADDING + 6));
+	return Math.ceil(Math.max(MIN_BADGE_WIDTH, TEXT_X + Math.max(primaryWidth + statusWidth, secondaryWidth) + RIGHT_PADDING));
 }
 
 function renderSkilltreeIcon(treeKey: string | undefined, x: number, y: number, size: number, opacity: number) {
