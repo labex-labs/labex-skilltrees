@@ -29,7 +29,7 @@ src/                    Optional JSON API implementation
 skilltree.schema.json   JSON Schema for one skill tree file
 ```
 
-The current canonical dataset is `v2`. It contains 25 skill trees and 1,129 skills. The `v1` dataset is retained in the repository for historical reference, but the public API only serves the current canonical dataset.
+The current canonical dataset is `v2`. It contains 26 skill trees and 1,181 skills. The `v1` dataset is retained in the repository for historical reference, but the public API only serves the current canonical dataset.
 
 ## Data Format
 

@@ -1,0 +1,2087 @@
+{
+  "key": "cloudflare",
+  "slug": "cloudflare",
+  "name": "Cloudflare",
+  "skills": [
+    {
+      "key": "cloudflare/account_authorization",
+      "slug": "account_authorization",
+      "name": "Account Authorization",
+      "desc": "Account authorization covers selecting Cloudflare accounts and managing scoped credentials for development tools and API access.",
+      "i18n": {
+        "zh": {
+          "name": "账号授权",
+          "desc": "账号授权涵盖选择 Cloudflare 账号，以及管理供开发工具和 API 访问使用的限定权限凭据。"
+        },
+        "es": {
+          "name": "Autorización de cuentas",
+          "desc": "La autorización de cuentas abarca seleccionar cuentas de Cloudflare y gestionar credenciales con permisos delimitados para herramientas de desarrollo y acceso a la API."
+        },
+        "fr": {
+          "name": "Autorisation des comptes",
+          "desc": "L'autorisation des comptes couvre la sélection des comptes Cloudflare et la gestion d'identifiants à permissions limitées pour les outils de développement et l'accès à l'API."
+        },
+        "de": {
+          "name": "Kontoautorisierung",
+          "desc": "Die Kontoautorisierung umfasst die Auswahl von Cloudflare-Konten und die Verwaltung von Zugangsdaten mit begrenzten Berechtigungen für Entwicklungswerkzeuge und API-Zugriffe."
+        },
+        "ja": {
+          "name": "アカウント認可",
+          "desc": "アカウント認可では、Cloudflare アカウントの選択と、開発ツールおよび API アクセス用の権限範囲を限定した認証情報の管理を扱います。"
+        },
+        "ru": {
+          "name": "Авторизация аккаунтов",
+          "desc": "Авторизация аккаунтов охватывает выбор аккаунтов Cloudflare и управление учётными данными с ограниченными правами для инструментов разработки и доступа к API."
+        },
+        "ko": {
+          "name": "계정 권한 부여",
+          "desc": "계정 권한 부여는 Cloudflare 계정 선택과 개발 도구 및 API 접근에 사용할 권한 범위가 제한된 자격 증명 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Autorização de contas",
+          "desc": "A autorização de contas abrange a seleção de contas Cloudflare e o gerenciamento de credenciais com permissões delimitadas para ferramentas de desenvolvimento e acesso à API."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/worker_configuration",
+      "slug": "worker_configuration",
+      "name": "Worker Configuration",
+      "desc": "Worker configuration covers defining entrypoints, compatibility settings, environment-specific values, and secrets for Worker applications.",
+      "i18n": {
+        "zh": {
+          "name": "Worker 配置",
+          "desc": "Worker 配置涵盖为 Worker 应用定义入口点、兼容性设置、环境专用值和密钥。"
+        },
+        "es": {
+          "name": "Configuración de Workers",
+          "desc": "La configuración de Workers abarca definir puntos de entrada, ajustes de compatibilidad, valores por entorno y secretos para aplicaciones Worker."
+        },
+        "fr": {
+          "name": "Configuration des Workers",
+          "desc": "La configuration des Workers couvre la définition des points d'entrée, des paramètres de compatibilité, des valeurs propres aux environnements et des secrets des applications Worker."
+        },
+        "de": {
+          "name": "Worker-Konfiguration",
+          "desc": "Die Worker-Konfiguration umfasst Einstiegspunkte, Kompatibilitätseinstellungen, umgebungsspezifische Werte und Secrets für Worker-Anwendungen."
+        },
+        "ja": {
+          "name": "Worker の設定",
+          "desc": "Worker の設定では、Worker アプリケーションのエントリーポイント、互換性設定、環境別の値、シークレットの定義を扱います。"
+        },
+        "ru": {
+          "name": "Конфигурация Workers",
+          "desc": "Конфигурация Workers охватывает определение точек входа, параметров совместимости, значений для отдельных окружений и секретов приложений Worker."
+        },
+        "ko": {
+          "name": "Worker 구성",
+          "desc": "Worker 구성은 Worker 애플리케이션의 진입점, 호환성 설정, 환경별 값 및 비밀 값 정의를 다룹니다."
+        },
+        "pt": {
+          "name": "Configuração de Workers",
+          "desc": "A configuração de Workers abrange a definição de pontos de entrada, ajustes de compatibilidade, valores por ambiente e segredos para aplicações Worker."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/worker_request_handling",
+      "slug": "worker_request_handling",
+      "name": "Worker Request Handling",
+      "desc": "Worker request handling covers implementing fetch handlers that route incoming requests, call upstream services, and construct responses within the Workers runtime.",
+      "i18n": {
+        "zh": {
+          "name": "Worker 请求处理",
+          "desc": "Worker 请求处理涵盖实现 fetch 处理函数，在 Workers 运行时中路由传入请求、调用上游服务并构建响应。"
+        },
+        "es": {
+          "name": "Gestión de solicitudes en Workers",
+          "desc": "La gestión de solicitudes en Workers abarca implementar controladores fetch que enrutan solicitudes entrantes, llaman a servicios de origen y construyen respuestas en el entorno de ejecución de Workers."
+        },
+        "fr": {
+          "name": "Traitement des requêtes des Workers",
+          "desc": "Le traitement des requêtes des Workers couvre l'implémentation de gestionnaires fetch qui acheminent les requêtes entrantes, appellent les services en amont et construisent les réponses dans l'environnement d'exécution Workers."
+        },
+        "de": {
+          "name": "Worker-Anfrageverarbeitung",
+          "desc": "Die Worker-Anfrageverarbeitung umfasst fetch-Handler, die eingehende Anfragen weiterleiten, vorgelagerte Dienste aufrufen und Antworten in der Workers-Laufzeit erstellen."
+        },
+        "ja": {
+          "name": "Worker のリクエスト処理",
+          "desc": "Worker のリクエスト処理では、Workers ランタイム内で受信リクエストを振り分け、上流サービスを呼び出し、レスポンスを構築する fetch ハンドラーの実装を扱います。"
+        },
+        "ru": {
+          "name": "Обработка запросов в Workers",
+          "desc": "Обработка запросов в Workers охватывает реализацию обработчиков fetch, которые маршрутизируют входящие запросы, вызывают вышестоящие сервисы и формируют ответы в среде выполнения Workers."
+        },
+        "ko": {
+          "name": "Worker 요청 처리",
+          "desc": "Worker 요청 처리는 Workers 런타임에서 수신 요청을 라우팅하고 업스트림 서비스를 호출하며 응답을 구성하는 fetch 핸들러 구현을 다룹니다."
+        },
+        "pt": {
+          "name": "Tratamento de requisições em Workers",
+          "desc": "O tratamento de requisições em Workers abrange a implementação de handlers fetch que roteiam requisições recebidas, chamam serviços upstream e constroem respostas no ambiente de execução Workers."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/worker_resource_bindings",
+      "slug": "worker_resource_bindings",
+      "name": "Worker Resource Bindings",
+      "desc": "Worker resource bindings cover declaring resource access and connecting Workers to platform services or other Workers through environment bindings.",
+      "i18n": {
+        "zh": {
+          "name": "Worker 资源绑定",
+          "desc": "Worker 资源绑定涵盖声明资源访问，并通过环境绑定将 Worker 连接到平台服务或其他 Worker。"
+        },
+        "es": {
+          "name": "Vinculación de recursos de Workers",
+          "desc": "La vinculación de recursos de Workers abarca declarar el acceso a recursos y conectar Workers con servicios de la plataforma u otros Workers mediante vinculaciones de entorno."
+        },
+        "fr": {
+          "name": "Liaisons de ressources des Workers",
+          "desc": "Les liaisons de ressources des Workers couvrent la déclaration des accès aux ressources et la connexion aux services de la plateforme ou à d'autres Workers via les liaisons d'environnement."
+        },
+        "de": {
+          "name": "Worker-Ressourcenbindungen",
+          "desc": "Worker-Ressourcenbindungen umfassen die Deklaration von Ressourcenzugriffen und die Verbindung mit Plattformdiensten oder anderen Workers über Umgebungsbindungen."
+        },
+        "ja": {
+          "name": "Worker のリソースバインディング",
+          "desc": "Worker のリソースバインディングでは、リソースアクセスの宣言と、環境バインディングを介したプラットフォームサービスや他の Worker への接続を扱います。"
+        },
+        "ru": {
+          "name": "Привязки ресурсов Workers",
+          "desc": "Привязки ресурсов Workers охватывают объявление доступа к ресурсам и подключение Workers к сервисам платформы или другим Workers через привязки окружения."
+        },
+        "ko": {
+          "name": "Worker 리소스 바인딩",
+          "desc": "Worker 리소스 바인딩은 리소스 접근 선언과 환경 바인딩을 통한 플랫폼 서비스 또는 다른 Worker 연결을 다룹니다."
+        },
+        "pt": {
+          "name": "Vínculos de recursos de Workers",
+          "desc": "Os vínculos de recursos de Workers abrangem a declaração de acesso a recursos e a conexão com serviços da plataforma ou outros Workers por meio de vínculos de ambiente."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/worker_development_testing",
+      "slug": "worker_development_testing",
+      "name": "Worker Development and Testing",
+      "desc": "Worker development and testing cover running and testing handlers with the Workers runtime while controlling local state and remote resource connections.",
+      "i18n": {
+        "zh": {
+          "name": "Worker 开发与测试",
+          "desc": "Worker 开发与测试涵盖在 Workers 运行时中运行和测试处理函数，并控制本地状态及远程资源连接。"
+        },
+        "es": {
+          "name": "Desarrollo y pruebas de Workers",
+          "desc": "El desarrollo y las pruebas de Workers abarcan ejecutar y probar controladores en el entorno de ejecución de Workers, controlando el estado local y las conexiones a recursos remotos."
+        },
+        "fr": {
+          "name": "Développement et tests des Workers",
+          "desc": "Le développement et les tests des Workers couvrent l'exécution et le test des gestionnaires dans l'environnement Workers, en contrôlant l'état local et les connexions aux ressources distantes."
+        },
+        "de": {
+          "name": "Worker-Entwicklung und Tests",
+          "desc": "Worker-Entwicklung und Tests umfassen das Ausführen und Testen von Handlern in der Workers-Laufzeit unter Kontrolle des lokalen Zustands und der Verbindungen zu entfernten Ressourcen."
+        },
+        "ja": {
+          "name": "Worker の開発とテスト",
+          "desc": "Worker の開発とテストでは、ローカル状態とリモートリソースへの接続を制御しながら、Workers ランタイムでハンドラーを実行・テストする方法を扱います。"
+        },
+        "ru": {
+          "name": "Разработка и тестирование Workers",
+          "desc": "Разработка и тестирование Workers охватывают запуск и проверку обработчиков в среде выполнения Workers с контролем локального состояния и подключений к удалённым ресурсам."
+        },
+        "ko": {
+          "name": "Worker 개발 및 테스트",
+          "desc": "Worker 개발 및 테스트는 로컬 상태와 원격 리소스 연결을 제어하면서 Workers 런타임에서 핸들러를 실행하고 테스트하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Desenvolvimento e testes de Workers",
+          "desc": "O desenvolvimento e os testes de Workers abrangem a execução e o teste de handlers no ambiente Workers, controlando o estado local e as conexões com recursos remotos."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/worker_deployments",
+      "slug": "worker_deployments",
+      "name": "Worker Deployment Management",
+      "desc": "Worker deployment management covers publishing versions, configuring traffic entrypoints, inspecting active releases, and rolling back code and configuration.",
+      "i18n": {
+        "zh": {
+          "name": "Worker 部署管理",
+          "desc": "Worker 部署管理涵盖发布版本、配置流量入口、检查当前发布状态，以及回滚代码和配置。"
+        },
+        "es": {
+          "name": "Gestión de despliegues de Workers",
+          "desc": "La gestión de despliegues de Workers abarca publicar versiones, configurar puntos de entrada del tráfico, inspeccionar versiones activas y revertir código y configuración."
+        },
+        "fr": {
+          "name": "Gestion des déploiements des Workers",
+          "desc": "La gestion des déploiements des Workers couvre la publication des versions, la configuration des points d'entrée du trafic, l'inspection des versions actives et le rétablissement du code et de la configuration antérieurs."
+        },
+        "de": {
+          "name": "Worker-Deployment-Verwaltung",
+          "desc": "Die Worker-Deployment-Verwaltung umfasst die Veröffentlichung von Versionen, die Konfiguration von Traffic-Einstiegspunkten, die Prüfung aktiver Releases und das Zurücksetzen von Code und Konfiguration."
+        },
+        "ja": {
+          "name": "Worker のデプロイ管理",
+          "desc": "Worker のデプロイ管理では、バージョンの公開、トラフィック入口の設定、稼働中のリリースの確認、コードと設定のロールバックを扱います。"
+        },
+        "ru": {
+          "name": "Управление развёртываниями Workers",
+          "desc": "Управление развёртываниями Workers охватывает публикацию версий, настройку точек входа трафика, проверку активных выпусков и откат кода и конфигурации."
+        },
+        "ko": {
+          "name": "Worker 배포 관리",
+          "desc": "Worker 배포 관리는 버전 게시, 트래픽 진입점 구성, 활성 릴리스 확인 및 코드와 구성 롤백을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de implantações de Workers",
+          "desc": "O gerenciamento de implantações de Workers abrange publicar versões, configurar pontos de entrada do tráfego, inspecionar versões ativas e reverter código e configuração."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/worker_static_assets",
+      "slug": "worker_static_assets",
+      "name": "Worker Static Assets",
+      "desc": "Worker static assets cover serving application files and coordinating asset delivery with Worker request handling.",
+      "i18n": {
+        "zh": {
+          "name": "Worker 静态资源",
+          "desc": "Worker 静态资源涵盖提供应用文件，并协调静态资源分发与 Worker 请求处理。"
+        },
+        "es": {
+          "name": "Recursos estáticos de Workers",
+          "desc": "Los recursos estáticos de Workers abarcan servir archivos de aplicaciones y coordinar su entrega con la gestión de solicitudes del Worker."
+        },
+        "fr": {
+          "name": "Ressources statiques des Workers",
+          "desc": "Les ressources statiques des Workers couvrent la distribution des fichiers d'application et sa coordination avec le traitement des requêtes du Worker."
+        },
+        "de": {
+          "name": "Statische Worker-Ressourcen",
+          "desc": "Statische Worker-Ressourcen umfassen das Ausliefern von Anwendungsdateien und die Abstimmung ihrer Auslieferung mit der Worker-Anfrageverarbeitung."
+        },
+        "ja": {
+          "name": "Worker の静的アセット",
+          "desc": "Worker の静的アセットでは、アプリケーションファイルの配信と、アセット配信と Worker のリクエスト処理との連携を扱います。"
+        },
+        "ru": {
+          "name": "Статические ресурсы Workers",
+          "desc": "Статические ресурсы Workers охватывают раздачу файлов приложения и согласование доставки ресурсов с обработкой запросов Worker."
+        },
+        "ko": {
+          "name": "Worker 정적 자산",
+          "desc": "Worker 정적 자산은 애플리케이션 파일 제공과 자산 전달 및 Worker 요청 처리 간의 조정을 다룹니다."
+        },
+        "pt": {
+          "name": "Ativos estáticos de Workers",
+          "desc": "Os ativos estáticos de Workers abrangem servir arquivos de aplicações e coordenar sua entrega com o tratamento de requisições do Worker."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/worker_event_processing",
+      "slug": "worker_event_processing",
+      "name": "Worker Event Processing",
+      "desc": "Worker event processing covers handling scheduled invocations and managing request-associated background work within the runtime lifetime constraints.",
+      "i18n": {
+        "zh": {
+          "name": "Worker 事件处理",
+          "desc": "Worker 事件处理涵盖处理定时调用，并在运行时生命周期限制内管理与请求关联的后台任务。"
+        },
+        "es": {
+          "name": "Procesamiento de eventos en Workers",
+          "desc": "El procesamiento de eventos en Workers abarca atender invocaciones programadas y gestionar tareas en segundo plano asociadas a solicitudes dentro de los límites de duración del entorno de ejecución."
+        },
+        "fr": {
+          "name": "Traitement des événements des Workers",
+          "desc": "Le traitement des événements des Workers couvre les invocations planifiées et la gestion des tâches d'arrière-plan associées aux requêtes dans les limites de durée de vie de l'environnement d'exécution."
+        },
+        "de": {
+          "name": "Worker-Ereignisverarbeitung",
+          "desc": "Die Worker-Ereignisverarbeitung umfasst geplante Aufrufe und die Verwaltung anfragebezogener Hintergrundaufgaben innerhalb der Lebensdauergrenzen der Laufzeit."
+        },
+        "ja": {
+          "name": "Worker のイベント処理",
+          "desc": "Worker のイベント処理では、スケジュールされた呼び出しへの対応と、ランタイムの存続期間の制約内でのリクエスト関連バックグラウンド処理の管理を扱います。"
+        },
+        "ru": {
+          "name": "Обработка событий в Workers",
+          "desc": "Обработка событий в Workers охватывает запланированные вызовы и управление связанными с запросами фоновыми задачами в пределах времени жизни среды выполнения."
+        },
+        "ko": {
+          "name": "Worker 이벤트 처리",
+          "desc": "Worker 이벤트 처리는 예약된 호출 처리와 런타임 수명 제한 내에서 요청에 연결된 백그라운드 작업 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Processamento de eventos em Workers",
+          "desc": "O processamento de eventos em Workers abrange chamadas agendadas e o gerenciamento de tarefas em segundo plano associadas a requisições dentro dos limites de vida do ambiente de execução."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/worker_caching",
+      "slug": "worker_caching",
+      "name": "Worker Caching",
+      "desc": "Worker caching covers using the Cache API to select cacheable responses, construct cache keys, and manage response reuse and invalidation.",
+      "i18n": {
+        "zh": {
+          "name": "Worker 缓存",
+          "desc": "Worker 缓存涵盖使用 Cache API 选择可缓存响应、构建缓存键，以及管理响应复用和缓存失效。"
+        },
+        "es": {
+          "name": "Caché de Workers",
+          "desc": "La caché de Workers abarca usar Cache API para seleccionar respuestas almacenables, construir claves de caché y gestionar la reutilización y la invalidación de respuestas."
+        },
+        "fr": {
+          "name": "Mise en cache des Workers",
+          "desc": "La mise en cache des Workers couvre l'utilisation de Cache API pour sélectionner les réponses à mettre en cache, construire les clés et gérer la réutilisation et l'invalidation des réponses."
+        },
+        "de": {
+          "name": "Worker-Caching",
+          "desc": "Worker-Caching umfasst die Auswahl cachefähiger Antworten mit der Cache API, die Bildung von Cache-Schlüsseln sowie die Verwaltung von Wiederverwendung und Invalidierung."
+        },
+        "ja": {
+          "name": "Worker のキャッシュ",
+          "desc": "Worker のキャッシュでは、Cache API によるキャッシュ可能なレスポンスの選択、キャッシュキーの構築、レスポンスの再利用と無効化の管理を扱います。"
+        },
+        "ru": {
+          "name": "Кэширование в Workers",
+          "desc": "Кэширование в Workers охватывает выбор кэшируемых ответов с помощью Cache API, формирование ключей кэша, управление повторным использованием и инвалидацией ответов."
+        },
+        "ko": {
+          "name": "Worker 캐싱",
+          "desc": "Worker 캐싱은 Cache API를 사용한 캐시 가능 응답 선택, 캐시 키 구성 및 응답 재사용과 무효화 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Cache de Workers",
+          "desc": "O cache de Workers abrange usar a Cache API para selecionar respostas armazenáveis, construir chaves de cache e gerenciar a reutilização e a invalidação de respostas."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/worker_observability",
+      "slug": "worker_observability",
+      "name": "Worker Observability",
+      "desc": "Worker observability covers interpreting logs, exceptions, and platform metrics to diagnose application behavior and execution-limit failures.",
+      "i18n": {
+        "zh": {
+          "name": "Worker 可观测性",
+          "desc": "Worker 可观测性涵盖解读日志、异常和平台指标，以诊断应用行为及执行限制导致的故障。"
+        },
+        "es": {
+          "name": "Observabilidad de Workers",
+          "desc": "La observabilidad de Workers abarca interpretar registros, excepciones y métricas de la plataforma para diagnosticar el comportamiento de las aplicaciones y fallos por límites de ejecución."
+        },
+        "fr": {
+          "name": "Observabilité des Workers",
+          "desc": "L'observabilité des Workers couvre l'interprétation des journaux, exceptions et métriques de la plateforme pour diagnostiquer le comportement des applications et les défaillances dues aux limites d'exécution."
+        },
+        "de": {
+          "name": "Worker-Observability",
+          "desc": "Worker-Observability umfasst die Auswertung von Logs, Ausnahmen und Plattformmetriken zur Diagnose des Anwendungsverhaltens und von Fehlern durch Ausführungsgrenzen."
+        },
+        "ja": {
+          "name": "Worker の可観測性",
+          "desc": "Worker の可観測性では、ログ、例外、プラットフォーム指標を読み解き、アプリケーションの動作と実行制限による障害を診断する方法を扱います。"
+        },
+        "ru": {
+          "name": "Наблюдаемость Workers",
+          "desc": "Наблюдаемость Workers охватывает интерпретацию журналов, исключений и метрик платформы для диагностики поведения приложений и сбоев из-за ограничений выполнения."
+        },
+        "ko": {
+          "name": "Worker 관측 가능성",
+          "desc": "Worker 관측 가능성은 로그, 예외 및 플랫폼 지표를 해석하여 애플리케이션 동작과 실행 제한으로 인한 장애를 진단하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Observabilidade de Workers",
+          "desc": "A observabilidade de Workers abrange interpretar logs, exceções e métricas da plataforma para diagnosticar o comportamento das aplicações e falhas causadas por limites de execução."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/kv_data_management",
+      "slug": "kv_data_management",
+      "name": "KV Data Management",
+      "desc": "KV data management covers managing namespaces and entries, including bulk operations, expiration, and entry metadata.",
+      "i18n": {
+        "zh": {
+          "name": "KV 数据管理",
+          "desc": "KV 数据管理涵盖管理命名空间和条目，包括批量操作、过期时间和条目元数据。"
+        },
+        "es": {
+          "name": "Gestión de datos de KV",
+          "desc": "La gestión de datos de KV abarca administrar espacios de nombres y entradas, incluidas operaciones masivas, caducidad y metadatos de las entradas."
+        },
+        "fr": {
+          "name": "Gestion des données KV",
+          "desc": "La gestion des données KV couvre les espaces de noms et les entrées, notamment les opérations en masse, l'expiration et les métadonnées des entrées."
+        },
+        "de": {
+          "name": "KV-Datenverwaltung",
+          "desc": "Die KV-Datenverwaltung umfasst Namensräume und Einträge einschließlich Massenoperationen, Ablaufzeiten und Eintragsmetadaten."
+        },
+        "ja": {
+          "name": "KV のデータ管理",
+          "desc": "KV のデータ管理では、名前空間とエントリーの管理に加え、一括操作、有効期限、エントリーのメタデータを扱います。"
+        },
+        "ru": {
+          "name": "Управление данными KV",
+          "desc": "Управление данными KV охватывает пространства имён и записи, включая массовые операции, сроки действия и метаданные записей."
+        },
+        "ko": {
+          "name": "KV 데이터 관리",
+          "desc": "KV 데이터 관리는 네임스페이스와 항목 관리 및 일괄 작업, 만료, 항목 메타데이터를 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de dados do KV",
+          "desc": "O gerenciamento de dados do KV abrange namespaces e entradas, incluindo operações em lote, expiração e metadados das entradas."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/kv_application_integration",
+      "slug": "kv_application_integration",
+      "name": "KV Application Integration",
+      "desc": "KV application integration covers designing Worker data access around KV cached reads, eventual consistency, and suitability for application workloads.",
+      "i18n": {
+        "zh": {
+          "name": "KV 应用集成",
+          "desc": "KV 应用集成涵盖根据 KV 的缓存读取、最终一致性及其对应用负载的适用性，设计 Worker 数据访问。"
+        },
+        "es": {
+          "name": "Integración de KV en aplicaciones",
+          "desc": "La integración de KV en aplicaciones abarca diseñar el acceso a datos de Workers teniendo en cuenta las lecturas en caché, la consistencia eventual y la adecuación de KV a las cargas de trabajo."
+        },
+        "fr": {
+          "name": "Intégration de KV aux applications",
+          "desc": "L'intégration de KV aux applications couvre la conception de l'accès aux données des Workers en tenant compte des lectures en cache, de la cohérence à terme et de l'adéquation de KV aux charges applicatives."
+        },
+        "de": {
+          "name": "KV-Anwendungsintegration",
+          "desc": "Die KV-Anwendungsintegration umfasst die Gestaltung des Worker-Datenzugriffs unter Berücksichtigung gecachter Lesezugriffe, letztendlicher Konsistenz und der Eignung von KV für Anwendungs-Workloads."
+        },
+        "ja": {
+          "name": "KV のアプリケーション統合",
+          "desc": "KV のアプリケーション統合では、キャッシュ読み取り、結果整合性、アプリケーションの負荷への適合性を踏まえた Worker のデータアクセス設計を扱います。"
+        },
+        "ru": {
+          "name": "Интеграция KV с приложениями",
+          "desc": "Интеграция KV с приложениями охватывает проектирование доступа к данным из Workers с учётом кэшируемого чтения, согласованности в конечном счёте и пригодности KV для нагрузки приложения."
+        },
+        "ko": {
+          "name": "KV 애플리케이션 통합",
+          "desc": "KV 애플리케이션 통합은 KV의 캐시 읽기, 최종 일관성 및 애플리케이션 워크로드 적합성을 고려한 Worker 데이터 접근 설계를 다룹니다."
+        },
+        "pt": {
+          "name": "Integração do KV com aplicações",
+          "desc": "A integração do KV com aplicações abrange projetar o acesso a dados dos Workers considerando leituras em cache, consistência eventual e adequação do KV às cargas de trabalho."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/d1_database_management",
+      "slug": "d1_database_management",
+      "name": "D1 Database Management",
+      "desc": "D1 database management covers provisioning databases and managing schema migrations independently across local and remote environments.",
+      "i18n": {
+        "zh": {
+          "name": "D1 数据库管理",
+          "desc": "D1 数据库管理涵盖创建数据库，并在本地与远程环境中独立管理数据库结构迁移。"
+        },
+        "es": {
+          "name": "Gestión de bases de datos D1",
+          "desc": "La gestión de bases de datos D1 abarca aprovisionar bases de datos y gestionar migraciones de esquema de forma independiente en entornos locales y remotos."
+        },
+        "fr": {
+          "name": "Gestion des bases de données D1",
+          "desc": "La gestion des bases de données D1 couvre leur provisionnement et la gestion indépendante des migrations de schéma dans les environnements locaux et distants."
+        },
+        "de": {
+          "name": "D1-Datenbankverwaltung",
+          "desc": "Die D1-Datenbankverwaltung umfasst die Bereitstellung von Datenbanken und die unabhängige Verwaltung von Schemamigrationen in lokalen und entfernten Umgebungen."
+        },
+        "ja": {
+          "name": "D1 のデータベース管理",
+          "desc": "D1 のデータベース管理では、データベースの作成と、ローカル環境およびリモート環境で独立したスキーママイグレーションの管理を扱います。"
+        },
+        "ru": {
+          "name": "Управление базами данных D1",
+          "desc": "Управление базами данных D1 охватывает создание баз и независимое управление миграциями схемы в локальных и удалённых окружениях."
+        },
+        "ko": {
+          "name": "D1 데이터베이스 관리",
+          "desc": "D1 데이터베이스 관리는 데이터베이스 프로비저닝과 로컬 및 원격 환경에서 독립적인 스키마 마이그레이션 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de bancos de dados D1",
+          "desc": "O gerenciamento de bancos de dados D1 abrange provisionar bancos e gerenciar migrações de esquema de forma independente em ambientes locais e remotos."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/d1_application_integration",
+      "slug": "d1_application_integration",
+      "name": "D1 Application Integration",
+      "desc": "D1 application integration covers using the D1 query interface, prepared query batches, and read sessions to implement application data access.",
+      "i18n": {
+        "zh": {
+          "name": "D1 应用集成",
+          "desc": "D1 应用集成涵盖使用 D1 查询接口、预编译查询批处理和读取会话，实现应用数据访问。"
+        },
+        "es": {
+          "name": "Integración de D1 en aplicaciones",
+          "desc": "La integración de D1 en aplicaciones abarca usar la interfaz de consultas de D1, lotes de consultas preparadas y sesiones de lectura para implementar el acceso a datos."
+        },
+        "fr": {
+          "name": "Intégration de D1 aux applications",
+          "desc": "L'intégration de D1 aux applications couvre l'utilisation de l'interface de requêtes D1, des lots de requêtes préparées et des sessions de lecture pour implémenter l'accès aux données."
+        },
+        "de": {
+          "name": "D1-Anwendungsintegration",
+          "desc": "Die D1-Anwendungsintegration umfasst die D1-Abfrageschnittstelle, Stapel vorbereiteter Abfragen und Lesesitzungen zur Implementierung des Anwendungsdatenzugriffs."
+        },
+        "ja": {
+          "name": "D1 のアプリケーション統合",
+          "desc": "D1 のアプリケーション統合では、D1 クエリーインターフェース、プリペアドクエリーのバッチ、読み取りセッションを使ったデータアクセスの実装を扱います。"
+        },
+        "ru": {
+          "name": "Интеграция D1 с приложениями",
+          "desc": "Интеграция D1 с приложениями охватывает использование интерфейса запросов D1, пакетов подготовленных запросов и сеансов чтения для реализации доступа к данным."
+        },
+        "ko": {
+          "name": "D1 애플리케이션 통합",
+          "desc": "D1 애플리케이션 통합은 D1 쿼리 인터페이스, 준비된 쿼리 일괄 처리 및 읽기 세션을 사용한 애플리케이션 데이터 접근 구현을 다룹니다."
+        },
+        "pt": {
+          "name": "Integração do D1 com aplicações",
+          "desc": "A integração do D1 com aplicações abrange usar a interface de consultas do D1, lotes de consultas preparadas e sessões de leitura para implementar o acesso a dados."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/d1_data_recovery",
+      "slug": "d1_data_recovery",
+      "name": "D1 Data Recovery",
+      "desc": "D1 data recovery covers exporting and importing database contents and restoring earlier state through Time Travel.",
+      "i18n": {
+        "zh": {
+          "name": "D1 数据恢复",
+          "desc": "D1 数据恢复涵盖导出和导入数据库内容，以及通过 Time Travel 恢复先前状态。"
+        },
+        "es": {
+          "name": "Recuperación de datos de D1",
+          "desc": "La recuperación de datos de D1 abarca exportar e importar el contenido de bases de datos y restaurar estados anteriores mediante Time Travel."
+        },
+        "fr": {
+          "name": "Récupération des données D1",
+          "desc": "La récupération des données D1 couvre l'exportation et l'importation du contenu des bases et la restauration d'un état antérieur avec Time Travel."
+        },
+        "de": {
+          "name": "D1-Datenwiederherstellung",
+          "desc": "Die D1-Datenwiederherstellung umfasst den Export und Import von Datenbankinhalten sowie die Wiederherstellung früherer Zustände mit Time Travel."
+        },
+        "ja": {
+          "name": "D1 のデータ復旧",
+          "desc": "D1 のデータ復旧では、データベース内容のエクスポートとインポート、および Time Travel による以前の状態への復元を扱います。"
+        },
+        "ru": {
+          "name": "Восстановление данных D1",
+          "desc": "Восстановление данных D1 охватывает экспорт и импорт содержимого баз и возврат к предыдущему состоянию с помощью Time Travel."
+        },
+        "ko": {
+          "name": "D1 데이터 복구",
+          "desc": "D1 데이터 복구는 데이터베이스 내용 내보내기와 가져오기 및 Time Travel을 통한 이전 상태 복원을 다룹니다."
+        },
+        "pt": {
+          "name": "Recuperação de dados do D1",
+          "desc": "A recuperação de dados do D1 abrange exportar e importar o conteúdo dos bancos e restaurar estados anteriores com Time Travel."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/r2_object_management",
+      "slug": "r2_object_management",
+      "name": "R2 Object Management",
+      "desc": "R2 object management covers managing buckets and stored objects, including multipart transfers, object metadata, and incomplete uploads.",
+      "i18n": {
+        "zh": {
+          "name": "R2 对象管理",
+          "desc": "R2 对象管理涵盖管理存储桶和已存储对象，包括分段传输、对象元数据和未完成的上传。"
+        },
+        "es": {
+          "name": "Gestión de objetos de R2",
+          "desc": "La gestión de objetos de R2 abarca administrar buckets y objetos almacenados, incluidas transferencias multiparte, metadatos de objetos y cargas incompletas."
+        },
+        "fr": {
+          "name": "Gestion des objets R2",
+          "desc": "La gestion des objets R2 couvre les buckets et les objets stockés, notamment les transferts multiparties, les métadonnées des objets et les téléversements incomplets."
+        },
+        "de": {
+          "name": "R2-Objektverwaltung",
+          "desc": "Die R2-Objektverwaltung umfasst Buckets und gespeicherte Objekte einschließlich mehrteiliger Übertragungen, Objektmetadaten und unvollständiger Uploads."
+        },
+        "ja": {
+          "name": "R2 のオブジェクト管理",
+          "desc": "R2 のオブジェクト管理では、バケットと保存済みオブジェクトの管理に加え、マルチパート転送、オブジェクトメタデータ、未完了のアップロードを扱います。"
+        },
+        "ru": {
+          "name": "Управление объектами R2",
+          "desc": "Управление объектами R2 охватывает бакеты и сохранённые объекты, включая передачу по частям, метаданные объектов и незавершённые загрузки."
+        },
+        "ko": {
+          "name": "R2 객체 관리",
+          "desc": "R2 객체 관리는 버킷과 저장된 객체 관리 및 멀티파트 전송, 객체 메타데이터, 미완료 업로드를 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de objetos do R2",
+          "desc": "O gerenciamento de objetos do R2 abrange buckets e objetos armazenados, incluindo transferências multipartes, metadados de objetos e uploads incompletos."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/r2_application_integration",
+      "slug": "r2_application_integration",
+      "name": "R2 Application Integration",
+      "desc": "R2 application integration covers serving object data through Worker applications with streaming, range selection, and conditional HTTP responses.",
+      "i18n": {
+        "zh": {
+          "name": "R2 应用集成",
+          "desc": "R2 应用集成涵盖通过 Worker 应用提供对象数据，支持流式传输、范围选择和条件 HTTP 响应。"
+        },
+        "es": {
+          "name": "Integración de R2 en aplicaciones",
+          "desc": "La integración de R2 en aplicaciones abarca servir datos de objetos mediante aplicaciones Worker con transmisión en streaming, selección de rangos y respuestas HTTP condicionales."
+        },
+        "fr": {
+          "name": "Intégration de R2 aux applications",
+          "desc": "L'intégration de R2 aux applications couvre la distribution des données d'objets via des applications Worker avec diffusion en continu, sélection de plages et réponses HTTP conditionnelles."
+        },
+        "de": {
+          "name": "R2-Anwendungsintegration",
+          "desc": "Die R2-Anwendungsintegration umfasst das Bereitstellen von Objektdaten über Worker-Anwendungen mit Streaming, Bereichsauswahl und bedingten HTTP-Antworten."
+        },
+        "ja": {
+          "name": "R2 のアプリケーション統合",
+          "desc": "R2 のアプリケーション統合では、ストリーミング、範囲選択、条件付き HTTP レスポンスを用いて Worker アプリケーションからオブジェクトデータを配信する方法を扱います。"
+        },
+        "ru": {
+          "name": "Интеграция R2 с приложениями",
+          "desc": "Интеграция R2 с приложениями охватывает раздачу данных объектов через приложения Worker с потоковой передачей, выбором диапазонов и условными HTTP-ответами."
+        },
+        "ko": {
+          "name": "R2 애플리케이션 통합",
+          "desc": "R2 애플리케이션 통합은 스트리밍, 범위 선택 및 조건부 HTTP 응답을 사용하여 Worker 애플리케이션에서 객체 데이터를 제공하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Integração do R2 com aplicações",
+          "desc": "A integração do R2 com aplicações abrange servir dados de objetos por aplicações Worker com streaming, seleção de intervalos e respostas HTTP condicionais."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/r2_access_control",
+      "slug": "r2_access_control",
+      "name": "R2 Access Control",
+      "desc": "R2 access control covers configuring scoped storage credentials, public access, presigned operations, and browser-origin policies while distinguishing their authorization effects.",
+      "i18n": {
+        "zh": {
+          "name": "R2 访问控制",
+          "desc": "R2 访问控制涵盖配置限定权限的存储凭据、公开访问、预签名操作和浏览器来源策略，并区分这些机制对授权的影响。"
+        },
+        "es": {
+          "name": "Control de acceso de R2",
+          "desc": "El control de acceso de R2 abarca configurar credenciales de almacenamiento con permisos delimitados, acceso público, operaciones prefirmadas y políticas de origen del navegador, distinguiendo sus efectos sobre la autorización."
+        },
+        "fr": {
+          "name": "Contrôle d'accès R2",
+          "desc": "Le contrôle d'accès R2 couvre les identifiants de stockage à permissions limitées, l'accès public, les opérations présignées et les politiques d'origine du navigateur, en distinguant leurs effets sur l'autorisation."
+        },
+        "de": {
+          "name": "R2-Zugriffskontrolle",
+          "desc": "Die R2-Zugriffskontrolle umfasst Speicherzugangsdaten mit begrenzten Berechtigungen, öffentlichen Zugriff, vorsignierte Operationen und Browser-Origin-Richtlinien unter Unterscheidung ihrer Autorisierungswirkungen."
+        },
+        "ja": {
+          "name": "R2 のアクセス制御",
+          "desc": "R2 のアクセス制御では、権限範囲を限定したストレージ認証情報、公開アクセス、事前署名付き操作、ブラウザーのオリジンポリシーを設定し、それぞれの認可への影響を区別する方法を扱います。"
+        },
+        "ru": {
+          "name": "Контроль доступа R2",
+          "desc": "Контроль доступа R2 охватывает настройку учётных данных хранилища с ограниченными правами, публичного доступа, предварительно подписанных операций и политик источников браузера с различением их влияния на авторизацию."
+        },
+        "ko": {
+          "name": "R2 접근 제어",
+          "desc": "R2 접근 제어는 권한 범위가 제한된 스토리지 자격 증명, 공개 접근, 사전 서명된 작업 및 브라우저 출처 정책을 구성하고 각각의 권한 부여 효과를 구분하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Controle de acesso do R2",
+          "desc": "O controle de acesso do R2 abrange configurar credenciais de armazenamento com permissões delimitadas, acesso público, operações pré-assinadas e políticas de origem do navegador, distinguindo seus efeitos sobre a autorização."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/r2_lifecycle_policies",
+      "slug": "r2_lifecycle_policies",
+      "name": "R2 Lifecycle Policies",
+      "desc": "R2 lifecycle policies cover applying retention, storage-class transitions, and automatic incomplete-upload cleanup to selected objects.",
+      "i18n": {
+        "zh": {
+          "name": "R2 生命周期策略",
+          "desc": "R2 生命周期策略涵盖对选定对象应用保留规则、存储类别转换及未完成上传的自动清理。"
+        },
+        "es": {
+          "name": "Políticas de ciclo de vida de R2",
+          "desc": "Las políticas de ciclo de vida de R2 abarcan aplicar retención, transiciones de clase de almacenamiento y limpieza automática de cargas incompletas a objetos seleccionados."
+        },
+        "fr": {
+          "name": "Politiques de cycle de vie R2",
+          "desc": "Les politiques de cycle de vie R2 couvrent la rétention, les transitions de classe de stockage et le nettoyage automatique des téléversements incomplets pour les objets sélectionnés."
+        },
+        "de": {
+          "name": "R2-Lebenszyklusrichtlinien",
+          "desc": "R2-Lebenszyklusrichtlinien umfassen Aufbewahrung, Speicherklassenwechsel und die automatische Bereinigung unvollständiger Uploads für ausgewählte Objekte."
+        },
+        "ja": {
+          "name": "R2 のライフサイクルポリシー",
+          "desc": "R2 のライフサイクルポリシーでは、選択したオブジェクトへの保持ルール、ストレージクラスの移行、未完了アップロードの自動削除の適用を扱います。"
+        },
+        "ru": {
+          "name": "Политики жизненного цикла R2",
+          "desc": "Политики жизненного цикла R2 охватывают применение правил хранения, переходов между классами хранения и автоматической очистки незавершённых загрузок к выбранным объектам."
+        },
+        "ko": {
+          "name": "R2 수명 주기 정책",
+          "desc": "R2 수명 주기 정책은 선택한 객체에 보존 규칙, 스토리지 클래스 전환 및 미완료 업로드 자동 정리를 적용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Políticas de ciclo de vida do R2",
+          "desc": "As políticas de ciclo de vida do R2 abrangem aplicar retenção, transições de classe de armazenamento e limpeza automática de uploads incompletos a objetos selecionados."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/queue_integration",
+      "slug": "queue_integration",
+      "name": "Queue Integration",
+      "desc": "Queue integration covers connecting producers, platform event sources, and Worker or HTTP pull consumers through Cloudflare Queues.",
+      "i18n": {
+        "zh": {
+          "name": "队列集成",
+          "desc": "队列集成涵盖通过 Cloudflare Queues 连接生产者、平台事件源，以及 Worker 消费者或 HTTP 拉取消费者。"
+        },
+        "es": {
+          "name": "Integración de colas",
+          "desc": "La integración de colas abarca conectar productores, fuentes de eventos de la plataforma y consumidores Worker o consumidores por extracción HTTP mediante Cloudflare Queues."
+        },
+        "fr": {
+          "name": "Intégration des files d'attente",
+          "desc": "L'intégration des files d'attente couvre la connexion des producteurs, des sources d'événements de la plateforme et des consommateurs Worker ou par extraction HTTP via Cloudflare Queues."
+        },
+        "de": {
+          "name": "Queue-Integration",
+          "desc": "Die Queue-Integration umfasst die Verbindung von Produzenten, Plattformereignisquellen und Worker- oder HTTP-Pull-Konsumenten über Cloudflare Queues."
+        },
+        "ja": {
+          "name": "キュー統合",
+          "desc": "キュー統合では、Cloudflare Queues を介したプロデューサー、プラットフォームイベントソース、Worker コンシューマーまたは HTTP プルコンシューマーの接続を扱います。"
+        },
+        "ru": {
+          "name": "Интеграция очередей",
+          "desc": "Интеграция очередей охватывает подключение производителей, источников событий платформы и потребителей Worker или HTTP pull через Cloudflare Queues."
+        },
+        "ko": {
+          "name": "큐 통합",
+          "desc": "큐 통합은 Cloudflare Queues를 통한 생산자, 플랫폼 이벤트 소스 및 Worker 소비자 또는 HTTP 풀 소비자 연결을 다룹니다."
+        },
+        "pt": {
+          "name": "Integração de filas",
+          "desc": "A integração de filas abrange conectar produtores, fontes de eventos da plataforma e consumidores Worker ou consumidores por extração HTTP usando Cloudflare Queues."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/queue_delivery_control",
+      "slug": "queue_delivery_control",
+      "name": "Queue Delivery Control",
+      "desc": "Queue delivery control covers configuring batching, acknowledgments, delivery delays, and consumer visibility behavior.",
+      "i18n": {
+        "zh": {
+          "name": "队列投递控制",
+          "desc": "队列投递控制涵盖配置批处理、消息确认、投递延迟和消费者可见性行为。"
+        },
+        "es": {
+          "name": "Control de entrega de colas",
+          "desc": "El control de entrega de colas abarca configurar lotes, confirmaciones, retrasos de entrega y el comportamiento de visibilidad para los consumidores."
+        },
+        "fr": {
+          "name": "Contrôle de livraison des files d'attente",
+          "desc": "Le contrôle de livraison des files d'attente couvre la configuration des lots, des acquittements, des délais de livraison et du comportement de visibilité pour les consommateurs."
+        },
+        "de": {
+          "name": "Queue-Zustellsteuerung",
+          "desc": "Die Queue-Zustellsteuerung umfasst die Konfiguration von Stapelverarbeitung, Bestätigungen, Zustellverzögerungen und Sichtbarkeitsverhalten für Konsumenten."
+        },
+        "ja": {
+          "name": "キューの配信制御",
+          "desc": "キューの配信制御では、バッチ処理、確認応答、配信遅延、コンシューマーに対する可視性の動作設定を扱います。"
+        },
+        "ru": {
+          "name": "Управление доставкой очередей",
+          "desc": "Управление доставкой очередей охватывает настройку пакетной обработки, подтверждений, задержек доставки и поведения видимости для потребителей."
+        },
+        "ko": {
+          "name": "큐 전달 제어",
+          "desc": "큐 전달 제어는 일괄 처리, 수신 확인, 전달 지연 및 소비자에 대한 가시성 동작 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Controle de entrega de filas",
+          "desc": "O controle de entrega de filas abrange configurar lotes, confirmações, atrasos de entrega e o comportamento de visibilidade para consumidores."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/queue_failure_recovery",
+      "slug": "queue_failure_recovery",
+      "name": "Queue Failure Recovery",
+      "desc": "Queue failure recovery covers handling redelivery safely through idempotent processing, bounded retries, and dead letter queues.",
+      "i18n": {
+        "zh": {
+          "name": "队列故障恢复",
+          "desc": "队列故障恢复涵盖通过幂等处理、有限重试和死信队列，安全处理重复投递。"
+        },
+        "es": {
+          "name": "Recuperación ante fallos de colas",
+          "desc": "La recuperación ante fallos de colas abarca gestionar reentregas de forma segura mediante procesamiento idempotente, reintentos limitados y colas de mensajes fallidos."
+        },
+        "fr": {
+          "name": "Reprise après échec des files d'attente",
+          "desc": "La reprise après échec des files d'attente couvre la gestion sûre des livraisons répétées grâce au traitement idempotent, aux tentatives limitées et aux files de lettres mortes."
+        },
+        "de": {
+          "name": "Queue-Fehlerbehandlung",
+          "desc": "Die Queue-Fehlerbehandlung umfasst den sicheren Umgang mit erneuter Zustellung durch idempotente Verarbeitung, begrenzte Wiederholungsversuche und Dead-Letter-Queues."
+        },
+        "ja": {
+          "name": "キューの障害復旧",
+          "desc": "キューの障害復旧では、冪等な処理、回数を制限した再試行、デッドレターキューによる安全な再配信処理を扱います。"
+        },
+        "ru": {
+          "name": "Восстановление после сбоев очередей",
+          "desc": "Восстановление после сбоев очередей охватывает безопасную повторную доставку благодаря идемпотентной обработке, ограниченным повторам и очередям недоставленных сообщений."
+        },
+        "ko": {
+          "name": "큐 장애 복구",
+          "desc": "큐 장애 복구는 멱등 처리, 제한된 재시도 및 데드 레터 큐를 통한 안전한 재전달 처리를 다룹니다."
+        },
+        "pt": {
+          "name": "Recuperação de falhas de filas",
+          "desc": "A recuperação de falhas de filas abrange tratar reentregas com segurança por meio de processamento idempotente, tentativas limitadas e filas de mensagens não processadas."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/durable_object_identity_communication",
+      "slug": "durable_object_identity_communication",
+      "name": "Durable Object Identity and Communication",
+      "desc": "Durable Object identity and communication cover defining object classes, resolving stable instances, and invoking their methods through stubs.",
+      "i18n": {
+        "zh": {
+          "name": "Durable Object 标识与通信",
+          "desc": "Durable Object 标识与通信涵盖定义对象类、定位具有稳定标识的实例，以及通过 stub 调用实例方法。"
+        },
+        "es": {
+          "name": "Identidad y comunicación de Durable Objects",
+          "desc": "La identidad y la comunicación de Durable Objects abarcan definir clases de objetos, localizar instancias con identidad estable e invocar sus métodos mediante stubs."
+        },
+        "fr": {
+          "name": "Identité et communication des Durable Objects",
+          "desc": "L'identité et la communication des Durable Objects couvrent la définition des classes d'objets, la résolution d'instances à identité stable et l'appel de leurs méthodes via des stubs."
+        },
+        "de": {
+          "name": "Durable-Object-Identität und -Kommunikation",
+          "desc": "Durable-Object-Identität und -Kommunikation umfassen die Definition von Objektklassen, das Auflösen stabil identifizierter Instanzen und den Aufruf ihrer Methoden über Stubs."
+        },
+        "ja": {
+          "name": "Durable Object の識別と通信",
+          "desc": "Durable Object の識別と通信では、オブジェクトクラスの定義、安定した識別子によるインスタンスの解決、stub を介したメソッド呼び出しを扱います。"
+        },
+        "ru": {
+          "name": "Идентификация и связь Durable Objects",
+          "desc": "Идентификация и связь Durable Objects охватывают определение классов объектов, поиск экземпляров со стабильной идентичностью и вызов их методов через стабы."
+        },
+        "ko": {
+          "name": "Durable Object 식별 및 통신",
+          "desc": "Durable Object 식별 및 통신은 객체 클래스 정의, 안정적인 식별자를 가진 인스턴스 확인 및 스텁을 통한 메서드 호출을 다룹니다."
+        },
+        "pt": {
+          "name": "Identidade e comunicação de Durable Objects",
+          "desc": "A identidade e a comunicação de Durable Objects abrangem definir classes de objetos, localizar instâncias com identidade estável e invocar seus métodos por stubs."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/durable_object_state",
+      "slug": "durable_object_state",
+      "name": "Durable Object State Management",
+      "desc": "Durable Object state management covers maintaining instance-owned persistent data and coordinating state changes across initialization and asynchronous requests.",
+      "i18n": {
+        "zh": {
+          "name": "Durable Object 状态管理",
+          "desc": "Durable Object 状态管理涵盖维护实例专属的持久化数据，并协调初始化与异步请求过程中的状态变更。"
+        },
+        "es": {
+          "name": "Gestión de estado de Durable Objects",
+          "desc": "La gestión de estado de Durable Objects abarca mantener datos persistentes propios de cada instancia y coordinar cambios de estado durante la inicialización y las solicitudes asíncronas."
+        },
+        "fr": {
+          "name": "Gestion de l'état des Durable Objects",
+          "desc": "La gestion de l'état des Durable Objects couvre les données persistantes propres aux instances et la coordination des changements d'état pendant l'initialisation et les requêtes asynchrones."
+        },
+        "de": {
+          "name": "Durable-Object-Zustandsverwaltung",
+          "desc": "Die Durable-Object-Zustandsverwaltung umfasst instanzeigene persistente Daten und die Koordination von Zustandsänderungen bei Initialisierung und asynchronen Anfragen."
+        },
+        "ja": {
+          "name": "Durable Object の状態管理",
+          "desc": "Durable Object の状態管理では、インスタンス固有の永続データの維持と、初期化および非同期リクエストにまたがる状態変更の調整を扱います。"
+        },
+        "ru": {
+          "name": "Управление состоянием Durable Objects",
+          "desc": "Управление состоянием Durable Objects охватывает постоянные данные отдельных экземпляров и координацию изменений состояния при инициализации и асинхронных запросах."
+        },
+        "ko": {
+          "name": "Durable Object 상태 관리",
+          "desc": "Durable Object 상태 관리는 인스턴스별 영구 데이터 유지와 초기화 및 비동기 요청에 걸친 상태 변경 조정을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de estado de Durable Objects",
+          "desc": "O gerenciamento de estado de Durable Objects abrange manter dados persistentes próprios das instâncias e coordenar mudanças de estado durante a inicialização e as requisições assíncronas."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/durable_object_scheduling",
+      "slug": "durable_object_scheduling",
+      "name": "Durable Object Scheduling",
+      "desc": "Durable Object scheduling covers using persistent alarms and accounting for repeated execution when processing scheduled work.",
+      "i18n": {
+        "zh": {
+          "name": "Durable Object 调度",
+          "desc": "Durable Object 调度涵盖使用持久化 alarm，并在处理定时任务时考虑重复执行。"
+        },
+        "es": {
+          "name": "Programación de Durable Objects",
+          "desc": "La programación de Durable Objects abarca usar alarmas persistentes y tener en cuenta la ejecución repetida al procesar tareas programadas."
+        },
+        "fr": {
+          "name": "Planification des Durable Objects",
+          "desc": "La planification des Durable Objects couvre l'utilisation d'alarmes persistantes et la prise en compte des exécutions répétées des tâches planifiées."
+        },
+        "de": {
+          "name": "Durable-Object-Aufgabenplanung",
+          "desc": "Die Durable-Object-Aufgabenplanung umfasst persistente Alarme und die Berücksichtigung wiederholter Ausführung bei geplanten Aufgaben."
+        },
+        "ja": {
+          "name": "Durable Object のスケジューリング",
+          "desc": "Durable Object のスケジューリングでは、永続的なアラームの使用と、スケジュール処理における再実行への配慮を扱います。"
+        },
+        "ru": {
+          "name": "Планирование Durable Objects",
+          "desc": "Планирование Durable Objects охватывает использование сохраняемых таймеров alarm и учёт повторного выполнения запланированных задач."
+        },
+        "ko": {
+          "name": "Durable Object 스케줄링",
+          "desc": "Durable Object 스케줄링은 영구 알람 사용과 예약 작업 처리 시 반복 실행에 대한 고려를 다룹니다."
+        },
+        "pt": {
+          "name": "Agendamento de Durable Objects",
+          "desc": "O agendamento de Durable Objects abrange usar alarmes persistentes e considerar execuções repetidas ao processar tarefas agendadas."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/durable_object_realtime",
+      "slug": "durable_object_realtime",
+      "name": "Durable Object Real-Time Communication",
+      "desc": "Durable Object real-time communication covers coordinating WebSocket clients and restoring connection context across hibernation.",
+      "i18n": {
+        "zh": {
+          "name": "Durable Object 实时通信",
+          "desc": "Durable Object 实时通信涵盖协调 WebSocket 客户端，以及在休眠后恢复连接上下文。"
+        },
+        "es": {
+          "name": "Comunicación en tiempo real de Durable Objects",
+          "desc": "La comunicación en tiempo real de Durable Objects abarca coordinar clientes WebSocket y restaurar el contexto de las conexiones tras la hibernación."
+        },
+        "fr": {
+          "name": "Communication en temps réel des Durable Objects",
+          "desc": "La communication en temps réel des Durable Objects couvre la coordination des clients WebSocket et la restauration du contexte des connexions après hibernation."
+        },
+        "de": {
+          "name": "Durable-Object-Echtzeitkommunikation",
+          "desc": "Die Durable-Object-Echtzeitkommunikation umfasst die Koordination von WebSocket-Clients und die Wiederherstellung des Verbindungskontexts nach der Hibernation."
+        },
+        "ja": {
+          "name": "Durable Object のリアルタイム通信",
+          "desc": "Durable Object のリアルタイム通信では、WebSocket クライアントの協調と、休止後の接続コンテキストの復元を扱います。"
+        },
+        "ru": {
+          "name": "Связь Durable Objects в реальном времени",
+          "desc": "Связь Durable Objects в реальном времени охватывает координацию клиентов WebSocket и восстановление контекста соединений после гибернации."
+        },
+        "ko": {
+          "name": "Durable Object 실시간 통신",
+          "desc": "Durable Object 실시간 통신은 WebSocket 클라이언트 조정과 최대 절전 모드 이후 연결 컨텍스트 복원을 다룹니다."
+        },
+        "pt": {
+          "name": "Comunicação em tempo real de Durable Objects",
+          "desc": "A comunicação em tempo real de Durable Objects abrange coordenar clientes WebSocket e restaurar o contexto das conexões após a hibernação."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/workflow_execution",
+      "slug": "workflow_execution",
+      "name": "Workflow Execution",
+      "desc": "Workflow execution covers defining durable steps, passing persisted results, and managing the lifecycle of Workflow instances.",
+      "i18n": {
+        "zh": {
+          "name": "工作流执行",
+          "desc": "工作流执行涵盖定义持久化步骤、传递持久化结果，以及管理 Workflow 实例的生命周期。"
+        },
+        "es": {
+          "name": "Ejecución de flujos de trabajo",
+          "desc": "La ejecución de flujos de trabajo abarca definir pasos duraderos, transmitir resultados persistidos y gestionar el ciclo de vida de las instancias de Workflow."
+        },
+        "fr": {
+          "name": "Exécution des workflows",
+          "desc": "L'exécution des workflows couvre la définition d'étapes durables, la transmission de résultats persistés et la gestion du cycle de vie des instances de Workflow."
+        },
+        "de": {
+          "name": "Workflow-Ausführung",
+          "desc": "Die Workflow-Ausführung umfasst die Definition dauerhafter Schritte, die Weitergabe persistierter Ergebnisse und die Verwaltung des Lebenszyklus von Workflow-Instanzen."
+        },
+        "ja": {
+          "name": "ワークフローの実行",
+          "desc": "ワークフローの実行では、永続的なステップの定義、永続化された結果の受け渡し、Workflow インスタンスのライフサイクル管理を扱います。"
+        },
+        "ru": {
+          "name": "Выполнение рабочих процессов",
+          "desc": "Выполнение рабочих процессов охватывает определение устойчивых шагов, передачу сохранённых результатов и управление жизненным циклом экземпляров Workflow."
+        },
+        "ko": {
+          "name": "워크플로 실행",
+          "desc": "워크플로 실행은 내구성 있는 단계 정의, 영구 저장된 결과 전달 및 Workflow 인스턴스의 수명 주기 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Execução de fluxos de trabalho",
+          "desc": "A execução de fluxos de trabalho abrange definir etapas duráveis, transmitir resultados persistidos e gerenciar o ciclo de vida das instâncias de Workflow."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/workflow_reliability",
+      "slug": "workflow_reliability",
+      "name": "Workflow Reliability",
+      "desc": "Workflow reliability covers configuring timeouts and retries and making external side effects safe when steps execute again.",
+      "i18n": {
+        "zh": {
+          "name": "工作流可靠性",
+          "desc": "工作流可靠性涵盖配置超时和重试，并确保步骤重复执行时外部副作用仍可安全处理。"
+        },
+        "es": {
+          "name": "Fiabilidad de flujos de trabajo",
+          "desc": "La fiabilidad de flujos de trabajo abarca configurar tiempos de espera y reintentos, y garantizar la seguridad de los efectos secundarios externos cuando se repiten los pasos."
+        },
+        "fr": {
+          "name": "Fiabilité des workflows",
+          "desc": "La fiabilité des workflows couvre la configuration des délais d'expiration et des nouvelles tentatives, ainsi que la gestion sûre des effets de bord externes lors de la réexécution des étapes."
+        },
+        "de": {
+          "name": "Workflow-Zuverlässigkeit",
+          "desc": "Die Workflow-Zuverlässigkeit umfasst Zeitlimits und Wiederholungsversuche sowie den sicheren Umgang mit externen Seiteneffekten bei erneuter Schrittausführung."
+        },
+        "ja": {
+          "name": "ワークフローの信頼性",
+          "desc": "ワークフローの信頼性では、タイムアウトと再試行の設定、およびステップ再実行時の外部副作用の安全な処理を扱います。"
+        },
+        "ru": {
+          "name": "Надёжность рабочих процессов",
+          "desc": "Надёжность рабочих процессов охватывает настройку тайм-аутов и повторов, а также безопасную обработку внешних побочных эффектов при повторном выполнении шагов."
+        },
+        "ko": {
+          "name": "워크플로 신뢰성",
+          "desc": "워크플로 신뢰성은 시간 초과와 재시도 구성 및 단계 재실행 시 외부 부수 효과의 안전한 처리를 다룹니다."
+        },
+        "pt": {
+          "name": "Confiabilidade de fluxos de trabalho",
+          "desc": "A confiabilidade de fluxos de trabalho abrange configurar tempos limite e novas tentativas, além de tratar com segurança os efeitos colaterais externos quando etapas são executadas novamente."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/workflow_event_coordination",
+      "slug": "workflow_event_coordination",
+      "name": "Workflow Event Coordination",
+      "desc": "Workflow event coordination covers suspending execution for deadlines or external signals and resuming the appropriate instance.",
+      "i18n": {
+        "zh": {
+          "name": "工作流事件协调",
+          "desc": "工作流事件协调涵盖暂停执行以等待指定时间点或外部信号，并恢复对应实例。"
+        },
+        "es": {
+          "name": "Coordinación de eventos de flujos de trabajo",
+          "desc": "La coordinación de eventos de flujos de trabajo abarca suspender la ejecución hasta una fecha límite o una señal externa y reanudar la instancia correspondiente."
+        },
+        "fr": {
+          "name": "Coordination des événements des workflows",
+          "desc": "La coordination des événements des workflows couvre la suspension de l'exécution jusqu'à une échéance ou un signal externe et la reprise de l'instance appropriée."
+        },
+        "de": {
+          "name": "Workflow-Ereigniskoordination",
+          "desc": "Die Workflow-Ereigniskoordination umfasst das Pausieren bis zu einem Zeitpunkt oder externen Signal und das Fortsetzen der passenden Instanz."
+        },
+        "ja": {
+          "name": "ワークフローのイベント調整",
+          "desc": "ワークフローのイベント調整では、指定時刻や外部シグナルを待つための実行の中断と、対象インスタンスの再開を扱います。"
+        },
+        "ru": {
+          "name": "Координация событий рабочих процессов",
+          "desc": "Координация событий рабочих процессов охватывает приостановку выполнения до заданного времени или внешнего сигнала и возобновление нужного экземпляра."
+        },
+        "ko": {
+          "name": "워크플로 이벤트 조정",
+          "desc": "워크플로 이벤트 조정은 지정 시점이나 외부 신호를 기다리기 위한 실행 중단과 해당 인스턴스 재개를 다룹니다."
+        },
+        "pt": {
+          "name": "Coordenação de eventos de fluxos de trabalho",
+          "desc": "A coordenação de eventos de fluxos de trabalho abrange suspender a execução até um prazo ou sinal externo e retomar a instância apropriada."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/pipeline_ingestion_delivery",
+      "slug": "pipeline_ingestion_delivery",
+      "name": "Pipeline Ingestion and Delivery",
+      "desc": "Pipeline ingestion and delivery cover configuring event streams and storage sinks and verifying that accepted events reach their destination.",
+      "i18n": {
+        "zh": {
+          "name": "Pipeline 摄取与投递",
+          "desc": "Pipeline 摄取与投递涵盖配置事件流和存储目标，并验证已接受的事件能到达目标。"
+        },
+        "es": {
+          "name": "Ingesta y entrega de Pipelines",
+          "desc": "La ingesta y la entrega de Pipelines abarcan configurar flujos de eventos y destinos de almacenamiento, y verificar que los eventos aceptados lleguen a su destino."
+        },
+        "fr": {
+          "name": "Ingestion et livraison des Pipelines",
+          "desc": "L'ingestion et la livraison des Pipelines couvrent la configuration des flux d'événements et des destinations de stockage, ainsi que la vérification de l'arrivée des événements acceptés."
+        },
+        "de": {
+          "name": "Pipeline-Aufnahme und -Zustellung",
+          "desc": "Pipeline-Aufnahme und -Zustellung umfassen die Konfiguration von Ereignisströmen und Speicherzielen sowie die Prüfung, ob angenommene Ereignisse ihr Ziel erreichen."
+        },
+        "ja": {
+          "name": "Pipeline の取り込みと配信",
+          "desc": "Pipeline の取り込みと配信では、イベントストリームとストレージシンクの設定、および受け付けたイベントが宛先に到達したことの検証を扱います。"
+        },
+        "ru": {
+          "name": "Приём и доставка Pipelines",
+          "desc": "Приём и доставка Pipelines охватывают настройку потоков событий и целевых хранилищ, а также проверку доставки принятых событий по назначению."
+        },
+        "ko": {
+          "name": "Pipeline 수집 및 전달",
+          "desc": "Pipeline 수집 및 전달은 이벤트 스트림과 스토리지 싱크 구성 및 수락된 이벤트가 목적지에 도달하는지 검증하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Ingestão e entrega de Pipelines",
+          "desc": "A ingestão e a entrega de Pipelines abrangem configurar fluxos de eventos e destinos de armazenamento e verificar se os eventos aceitos chegam ao destino."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/pipeline_data_transformation",
+      "slug": "pipeline_data_transformation",
+      "name": "Pipeline Data Transformation",
+      "desc": "Pipeline data transformation covers connecting streams to sinks with supported SQL filtering, projection, and restructuring operations.",
+      "i18n": {
+        "zh": {
+          "name": "Pipeline 数据转换",
+          "desc": "Pipeline 数据转换涵盖使用受支持的 SQL 过滤、投影和结构重组操作，将数据流连接到存储目标。"
+        },
+        "es": {
+          "name": "Transformación de datos de Pipelines",
+          "desc": "La transformación de datos de Pipelines abarca conectar flujos con destinos mediante operaciones SQL compatibles de filtrado, proyección y reestructuración."
+        },
+        "fr": {
+          "name": "Transformation des données des Pipelines",
+          "desc": "La transformation des données des Pipelines couvre la connexion des flux aux destinations via les opérations SQL prises en charge de filtrage, projection et restructuration."
+        },
+        "de": {
+          "name": "Pipeline-Datentransformation",
+          "desc": "Die Pipeline-Datentransformation umfasst die Verbindung von Strömen mit Zielen durch unterstützte SQL-Operationen für Filterung, Projektion und Umstrukturierung."
+        },
+        "ja": {
+          "name": "Pipeline のデータ変換",
+          "desc": "Pipeline のデータ変換では、対応する SQL のフィルタリング、射影、再構成操作によるストリームとシンクの接続を扱います。"
+        },
+        "ru": {
+          "name": "Преобразование данных Pipelines",
+          "desc": "Преобразование данных Pipelines охватывает соединение потоков с приёмниками через поддерживаемые операции SQL для фильтрации, проекции и переструктурирования."
+        },
+        "ko": {
+          "name": "Pipeline 데이터 변환",
+          "desc": "Pipeline 데이터 변환은 지원되는 SQL 필터링, 프로젝션 및 재구성 작업을 사용하여 스트림을 싱크에 연결하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Transformação de dados de Pipelines",
+          "desc": "A transformação de dados de Pipelines abrange conectar fluxos a destinos por operações SQL compatíveis de filtragem, projeção e reestruturação."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/analytics_engine_data_modeling",
+      "slug": "analytics_engine_data_modeling",
+      "name": "Analytics Engine Data Modeling",
+      "desc": "Analytics Engine data modeling covers choosing sampling indexes and measurement dimensions when recording Worker application events.",
+      "i18n": {
+        "zh": {
+          "name": "Analytics Engine 数据建模",
+          "desc": "Analytics Engine 数据建模涵盖在记录 Worker 应用事件时选择采样索引和测量维度。"
+        },
+        "es": {
+          "name": "Modelado de datos de Analytics Engine",
+          "desc": "El modelado de datos de Analytics Engine abarca elegir índices de muestreo y dimensiones de medición al registrar eventos de aplicaciones Worker."
+        },
+        "fr": {
+          "name": "Modélisation des données Analytics Engine",
+          "desc": "La modélisation des données Analytics Engine couvre le choix des index d'échantillonnage et des dimensions de mesure lors de l'enregistrement des événements d'applications Worker."
+        },
+        "de": {
+          "name": "Analytics-Engine-Datenmodellierung",
+          "desc": "Die Analytics-Engine-Datenmodellierung umfasst die Auswahl von Sampling-Indizes und Messdimensionen beim Erfassen von Worker-Anwendungsereignissen."
+        },
+        "ja": {
+          "name": "Analytics Engine のデータモデリング",
+          "desc": "Analytics Engine のデータモデリングでは、Worker アプリケーションのイベントを記録する際のサンプリングインデックスと測定ディメンションの選択を扱います。"
+        },
+        "ru": {
+          "name": "Моделирование данных Analytics Engine",
+          "desc": "Моделирование данных Analytics Engine охватывает выбор индексов сэмплирования и измерений при записи событий приложений Worker."
+        },
+        "ko": {
+          "name": "Analytics Engine 데이터 모델링",
+          "desc": "Analytics Engine 데이터 모델링은 Worker 애플리케이션 이벤트 기록 시 샘플링 인덱스와 측정 차원 선택을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelagem de dados do Analytics Engine",
+          "desc": "A modelagem de dados do Analytics Engine abrange escolher índices de amostragem e dimensões de medição ao registrar eventos de aplicações Worker."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/analytics_engine_querying",
+      "slug": "analytics_engine_querying",
+      "name": "Analytics Engine Querying",
+      "desc": "Analytics Engine querying covers using its SQL API to filter and aggregate measurements while accounting for sampled data.",
+      "i18n": {
+        "zh": {
+          "name": "Analytics Engine 查询",
+          "desc": "Analytics Engine 查询涵盖通过其 SQL API 过滤和聚合测量数据，并考虑数据采样的影响。"
+        },
+        "es": {
+          "name": "Consultas de Analytics Engine",
+          "desc": "Las consultas de Analytics Engine abarcan usar su API SQL para filtrar y agregar mediciones teniendo en cuenta el muestreo de datos."
+        },
+        "fr": {
+          "name": "Requêtes Analytics Engine",
+          "desc": "Les requêtes Analytics Engine couvrent l'utilisation de son API SQL pour filtrer et agréger les mesures en tenant compte de l'échantillonnage des données."
+        },
+        "de": {
+          "name": "Analytics-Engine-Abfragen",
+          "desc": "Analytics-Engine-Abfragen umfassen das Filtern und Aggregieren von Messdaten über die SQL API unter Berücksichtigung des Samplings."
+        },
+        "ja": {
+          "name": "Analytics Engine のクエリー",
+          "desc": "Analytics Engine のクエリーでは、サンプリングを考慮しながら SQL API で測定データを絞り込み、集計する方法を扱います。"
+        },
+        "ru": {
+          "name": "Запросы Analytics Engine",
+          "desc": "Запросы Analytics Engine охватывают фильтрацию и агрегацию измерений через SQL API с учётом сэмплирования данных."
+        },
+        "ko": {
+          "name": "Analytics Engine 쿼리",
+          "desc": "Analytics Engine 쿼리는 데이터 샘플링을 고려하면서 SQL API로 측정 데이터를 필터링하고 집계하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas do Analytics Engine",
+          "desc": "As consultas do Analytics Engine abrangem usar sua API SQL para filtrar e agregar medições considerando a amostragem dos dados."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/turnstile_client_integration",
+      "slug": "turnstile_client_integration",
+      "name": "Turnstile Client Integration",
+      "desc": "Turnstile client integration covers configuring widget hostnames and coordinating widget rendering, token renewal, and form submission.",
+      "i18n": {
+        "zh": {
+          "name": "Turnstile 客户端集成",
+          "desc": "Turnstile 客户端集成涵盖配置组件主机名，并协调组件渲染、令牌更新和表单提交。"
+        },
+        "es": {
+          "name": "Integración de Turnstile en el cliente",
+          "desc": "La integración de Turnstile en el cliente abarca configurar los nombres de host del widget y coordinar su renderizado, la renovación de tokens y el envío de formularios."
+        },
+        "fr": {
+          "name": "Intégration cliente de Turnstile",
+          "desc": "L'intégration cliente de Turnstile couvre les noms d'hôte du widget et la coordination de son affichage, du renouvellement des jetons et de l'envoi des formulaires."
+        },
+        "de": {
+          "name": "Turnstile-Clientintegration",
+          "desc": "Die Turnstile-Clientintegration umfasst Widget-Hostnamen und die Koordination von Widget-Darstellung, Token-Erneuerung und Formularübermittlung."
+        },
+        "ja": {
+          "name": "Turnstile のクライアント統合",
+          "desc": "Turnstile のクライアント統合では、ウィジェットのホスト名設定と、描画、トークン更新、フォーム送信の調整を扱います。"
+        },
+        "ru": {
+          "name": "Клиентская интеграция Turnstile",
+          "desc": "Клиентская интеграция Turnstile охватывает настройку имён хостов виджета и согласование его отображения, обновления токенов и отправки форм."
+        },
+        "ko": {
+          "name": "Turnstile 클라이언트 통합",
+          "desc": "Turnstile 클라이언트 통합은 위젯 호스트 이름 구성과 위젯 렌더링, 토큰 갱신 및 폼 제출 조정을 다룹니다."
+        },
+        "pt": {
+          "name": "Integração do Turnstile no cliente",
+          "desc": "A integração do Turnstile no cliente abrange configurar nomes de host do widget e coordenar sua renderização, a renovação de tokens e o envio de formulários."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/turnstile_server_validation",
+      "slug": "turnstile_server_validation",
+      "name": "Turnstile Server Validation",
+      "desc": "Turnstile server validation covers checking Siteverify results and request context and testing acceptance and rejection paths with appropriate test credentials.",
+      "i18n": {
+        "zh": {
+          "name": "Turnstile 服务端验证",
+          "desc": "Turnstile 服务端验证涵盖检查 Siteverify 结果和请求上下文，并使用适当的测试凭据测试接受与拒绝路径。"
+        },
+        "es": {
+          "name": "Validación de Turnstile en el servidor",
+          "desc": "La validación de Turnstile en el servidor abarca comprobar los resultados de Siteverify y el contexto de la solicitud, y probar las rutas de aceptación y rechazo con credenciales de prueba adecuadas."
+        },
+        "fr": {
+          "name": "Validation serveur de Turnstile",
+          "desc": "La validation serveur de Turnstile couvre la vérification des résultats Siteverify et du contexte des requêtes, ainsi que le test des chemins d'acceptation et de rejet avec des identifiants de test adaptés."
+        },
+        "de": {
+          "name": "Turnstile-Servervalidierung",
+          "desc": "Die Turnstile-Servervalidierung umfasst die Prüfung von Siteverify-Ergebnissen und Anfragekontext sowie Tests von Annahme- und Ablehnungspfaden mit geeigneten Testzugangsdaten."
+        },
+        "ja": {
+          "name": "Turnstile のサーバー検証",
+          "desc": "Turnstile のサーバー検証では、Siteverify の結果とリクエストコンテキストの確認、および適切なテスト認証情報による受理・拒否経路のテストを扱います。"
+        },
+        "ru": {
+          "name": "Серверная проверка Turnstile",
+          "desc": "Серверная проверка Turnstile охватывает проверку результатов Siteverify и контекста запроса, а также тестирование принятия и отклонения с подходящими тестовыми учётными данными."
+        },
+        "ko": {
+          "name": "Turnstile 서버 검증",
+          "desc": "Turnstile 서버 검증은 Siteverify 결과와 요청 컨텍스트 확인 및 적절한 테스트 자격 증명을 사용한 수락·거부 경로 테스트를 다룹니다."
+        },
+        "pt": {
+          "name": "Validação do Turnstile no servidor",
+          "desc": "A validação do Turnstile no servidor abrange verificar resultados do Siteverify e o contexto das requisições, além de testar caminhos de aceitação e rejeição com credenciais de teste adequadas."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/browser_session_management",
+      "slug": "browser_session_management",
+      "name": "Browser Session Management",
+      "desc": "Browser session management covers launching, connecting to, reusing, and closing Cloudflare-hosted browser sessions within service constraints.",
+      "i18n": {
+        "zh": {
+          "name": "浏览器会话管理",
+          "desc": "浏览器会话管理涵盖在服务限制内启动、连接、复用和关闭 Cloudflare 托管的浏览器会话。"
+        },
+        "es": {
+          "name": "Gestión de sesiones de navegador",
+          "desc": "La gestión de sesiones de navegador abarca iniciar, conectar, reutilizar y cerrar sesiones de navegador alojadas en Cloudflare dentro de los límites del servicio."
+        },
+        "fr": {
+          "name": "Gestion des sessions de navigateur",
+          "desc": "La gestion des sessions de navigateur couvre le lancement, la connexion, la réutilisation et la fermeture des sessions hébergées par Cloudflare dans les limites du service."
+        },
+        "de": {
+          "name": "Browser-Sitzungsverwaltung",
+          "desc": "Die Browser-Sitzungsverwaltung umfasst das Starten, Verbinden, Wiederverwenden und Schließen von Cloudflare-gehosteten Browsersitzungen innerhalb der Dienstgrenzen."
+        },
+        "ja": {
+          "name": "ブラウザーセッション管理",
+          "desc": "ブラウザーセッション管理では、サービスの制約内で Cloudflare がホストするブラウザーセッションを起動、接続、再利用、終了する方法を扱います。"
+        },
+        "ru": {
+          "name": "Управление сеансами браузера",
+          "desc": "Управление сеансами браузера охватывает запуск, подключение, повторное использование и закрытие сеансов браузера на Cloudflare в пределах ограничений сервиса."
+        },
+        "ko": {
+          "name": "브라우저 세션 관리",
+          "desc": "브라우저 세션 관리는 서비스 제한 내에서 Cloudflare가 호스팅하는 브라우저 세션 시작, 연결, 재사용 및 종료를 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de sessões de navegador",
+          "desc": "O gerenciamento de sessões de navegador abrange iniciar, conectar, reutilizar e encerrar sessões hospedadas pela Cloudflare dentro dos limites do serviço."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/browser_automation_extraction",
+      "slug": "browser_automation_extraction",
+      "name": "Browser Automation and Extraction",
+      "desc": "Browser automation and extraction cover interacting with pages and producing content or visual artifacts through Cloudflare-hosted browsers.",
+      "i18n": {
+        "zh": {
+          "name": "浏览器自动化与提取",
+          "desc": "浏览器自动化与提取涵盖通过 Cloudflare 托管的浏览器与页面交互，并生成内容或可视化产物。"
+        },
+        "es": {
+          "name": "Automatización y extracción con navegadores",
+          "desc": "La automatización y la extracción con navegadores abarcan interactuar con páginas y generar contenido o artefactos visuales mediante navegadores alojados en Cloudflare."
+        },
+        "fr": {
+          "name": "Automatisation et extraction par navigateur",
+          "desc": "L'automatisation et l'extraction par navigateur couvrent l'interaction avec les pages et la production de contenu ou d'artefacts visuels via les navigateurs hébergés par Cloudflare."
+        },
+        "de": {
+          "name": "Browser-Automatisierung und -Extraktion",
+          "desc": "Browser-Automatisierung und -Extraktion umfassen Seiteninteraktionen und die Erzeugung von Inhalten oder visuellen Artefakten über Cloudflare-gehostete Browser."
+        },
+        "ja": {
+          "name": "ブラウザー自動化と抽出",
+          "desc": "ブラウザー自動化と抽出では、Cloudflare がホストするブラウザーでページを操作し、コンテンツや視覚的な成果物を生成する方法を扱います。"
+        },
+        "ru": {
+          "name": "Автоматизация и извлечение через браузер",
+          "desc": "Автоматизация и извлечение через браузер охватывают взаимодействие со страницами и получение контента или визуальных артефактов через браузеры на Cloudflare."
+        },
+        "ko": {
+          "name": "브라우저 자동화 및 추출",
+          "desc": "브라우저 자동화 및 추출은 Cloudflare가 호스팅하는 브라우저로 페이지와 상호작용하고 콘텐츠 또는 시각적 산출물을 생성하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Automação e extração com navegadores",
+          "desc": "A automação e a extração com navegadores abrangem interagir com páginas e produzir conteúdo ou artefatos visuais por navegadores hospedados pela Cloudflare."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/tunnel_management",
+      "slug": "tunnel_management",
+      "name": "Tunnel Management",
+      "desc": "Tunnel management covers authorizing connectors and creating, running, inspecting, and removing temporary or persistent Cloudflare Tunnels.",
+      "i18n": {
+        "zh": {
+          "name": "Tunnel 管理",
+          "desc": "Tunnel 管理涵盖授权连接器，以及创建、运行、检查和移除临时或持久的 Cloudflare Tunnel。"
+        },
+        "es": {
+          "name": "Gestión de Tunnel",
+          "desc": "La gestión de Tunnel abarca autorizar conectores y crear, ejecutar, inspeccionar y eliminar túneles temporales o persistentes de Cloudflare."
+        },
+        "fr": {
+          "name": "Gestion de Tunnel",
+          "desc": "La gestion de Tunnel couvre l'autorisation des connecteurs et la création, l'exécution, l'inspection et la suppression des tunnels Cloudflare temporaires ou persistants."
+        },
+        "de": {
+          "name": "Tunnel-Verwaltung",
+          "desc": "Die Tunnel-Verwaltung umfasst die Autorisierung von Konnektoren sowie das Erstellen, Ausführen, Prüfen und Entfernen temporärer oder persistenter Cloudflare Tunnels."
+        },
+        "ja": {
+          "name": "Tunnel の管理",
+          "desc": "Tunnel の管理では、コネクターの認可と、一時的または永続的な Cloudflare Tunnel の作成、実行、確認、削除を扱います。"
+        },
+        "ru": {
+          "name": "Управление Tunnel",
+          "desc": "Управление Tunnel охватывает авторизацию коннекторов и создание, запуск, проверку и удаление временных или постоянных туннелей Cloudflare."
+        },
+        "ko": {
+          "name": "Tunnel 관리",
+          "desc": "Tunnel 관리는 커넥터 권한 부여와 임시 또는 영구 Cloudflare Tunnel 생성, 실행, 확인 및 제거를 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de Tunnel",
+          "desc": "O gerenciamento de Tunnel abrange autorizar conectores e criar, executar, inspecionar e remover túneis temporários ou persistentes da Cloudflare."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/tunnel_routing_diagnostics",
+      "slug": "tunnel_routing_diagnostics",
+      "name": "Tunnel Routing and Diagnostics",
+      "desc": "Tunnel routing and diagnostics cover mapping published hostnames and paths to origin services and diagnosing connector, routing, and origin failures.",
+      "i18n": {
+        "zh": {
+          "name": "Tunnel 路由与诊断",
+          "desc": "Tunnel 路由与诊断涵盖将发布的主机名和路径映射到源站服务，并诊断连接器、路由和源站故障。"
+        },
+        "es": {
+          "name": "Enrutamiento y diagnóstico de Tunnel",
+          "desc": "El enrutamiento y el diagnóstico de Tunnel abarcan asignar nombres de host publicados y rutas a servicios de origen, y diagnosticar fallos de conectores, enrutamiento y origen."
+        },
+        "fr": {
+          "name": "Routage et diagnostic de Tunnel",
+          "desc": "Le routage et le diagnostic de Tunnel couvrent l'association des noms d'hôte publiés et des chemins aux services d'origine, ainsi que le diagnostic des défaillances des connecteurs, du routage et des origines."
+        },
+        "de": {
+          "name": "Tunnel-Routing und -Diagnose",
+          "desc": "Tunnel-Routing und -Diagnose umfassen die Zuordnung veröffentlichter Hostnamen und Pfade zu Ursprungsdiensten und die Diagnose von Konnektor-, Routing- und Ursprungsfehlern."
+        },
+        "ja": {
+          "name": "Tunnel のルーティングと診断",
+          "desc": "Tunnel のルーティングと診断では、公開ホスト名とパスのオリジンサービスへの対応付け、およびコネクター、ルーティング、オリジンの障害診断を扱います。"
+        },
+        "ru": {
+          "name": "Маршрутизация и диагностика Tunnel",
+          "desc": "Маршрутизация и диагностика Tunnel охватывают сопоставление опубликованных имён хостов и путей с исходными сервисами и диагностику сбоев коннекторов, маршрутизации и источников."
+        },
+        "ko": {
+          "name": "Tunnel 라우팅 및 진단",
+          "desc": "Tunnel 라우팅 및 진단은 게시된 호스트 이름과 경로를 원본 서비스에 매핑하고 커넥터, 라우팅 및 원본 장애를 진단하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Roteamento e diagnóstico de Tunnel",
+          "desc": "O roteamento e o diagnóstico de Tunnel abrangem mapear nomes de host publicados e caminhos para serviços de origem e diagnosticar falhas de conectores, roteamento e origem."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/workers_ai_inference",
+      "slug": "workers_ai_inference",
+      "name": "Workers AI Inference",
+      "desc": "Workers AI inference covers selecting compatible models, submitting model-specific inputs, and handling complete or streaming outputs through Cloudflare interfaces.",
+      "i18n": {
+        "zh": {
+          "name": "Workers AI 推理",
+          "desc": "Workers AI 推理涵盖选择兼容模型、提交模型专用输入，并通过 Cloudflare 接口处理完整或流式输出。"
+        },
+        "es": {
+          "name": "Inferencia de Workers AI",
+          "desc": "La inferencia de Workers AI abarca seleccionar modelos compatibles, enviar entradas específicas del modelo y gestionar salidas completas o en streaming mediante interfaces de Cloudflare."
+        },
+        "fr": {
+          "name": "Inférence Workers AI",
+          "desc": "L'inférence Workers AI couvre la sélection de modèles compatibles, l'envoi d'entrées propres aux modèles et le traitement des sorties complètes ou en continu via les interfaces Cloudflare."
+        },
+        "de": {
+          "name": "Workers-AI-Inferenz",
+          "desc": "Workers-AI-Inferenz umfasst die Auswahl kompatibler Modelle, die Übermittlung modellspezifischer Eingaben und die Verarbeitung vollständiger oder gestreamter Ausgaben über Cloudflare-Schnittstellen."
+        },
+        "ja": {
+          "name": "Workers AI の推論",
+          "desc": "Workers AI の推論では、互換モデルの選択、モデル固有の入力の送信、Cloudflare インターフェースによる完全な出力またはストリーミング出力の処理を扱います。"
+        },
+        "ru": {
+          "name": "Инференс Workers AI",
+          "desc": "Инференс Workers AI охватывает выбор совместимых моделей, отправку специфичных для модели входных данных и обработку полных или потоковых результатов через интерфейсы Cloudflare."
+        },
+        "ko": {
+          "name": "Workers AI 추론",
+          "desc": "Workers AI 추론은 호환 모델 선택, 모델별 입력 제출 및 Cloudflare 인터페이스를 통한 전체 출력 또는 스트리밍 출력 처리를 다룹니다."
+        },
+        "pt": {
+          "name": "Inferência do Workers AI",
+          "desc": "A inferência do Workers AI abrange selecionar modelos compatíveis, enviar entradas específicas do modelo e tratar saídas completas ou em streaming pelas interfaces Cloudflare."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/workers_ai_embeddings",
+      "slug": "workers_ai_embeddings",
+      "name": "Workers AI Embeddings",
+      "desc": "Workers AI embeddings cover generating vectors and maintaining consistent model and dimension choices for downstream retrieval.",
+      "i18n": {
+        "zh": {
+          "name": "Workers AI 向量嵌入",
+          "desc": "Workers AI 向量嵌入涵盖生成向量，并为下游检索保持一致的模型和维度选择。"
+        },
+        "es": {
+          "name": "Embeddings de Workers AI",
+          "desc": "Los embeddings de Workers AI abarcan generar vectores y mantener elecciones coherentes de modelo y dimensiones para la recuperación posterior."
+        },
+        "fr": {
+          "name": "Plongements vectoriels Workers AI",
+          "desc": "Les plongements vectoriels Workers AI couvrent la génération de vecteurs et la cohérence du choix des modèles et des dimensions pour la recherche en aval."
+        },
+        "de": {
+          "name": "Workers-AI-Embeddings",
+          "desc": "Workers-AI-Embeddings umfassen die Vektorerzeugung und konsistente Modell- und Dimensionsentscheidungen für nachgelagerte Suchvorgänge."
+        },
+        "ja": {
+          "name": "Workers AI の埋め込み",
+          "desc": "Workers AI の埋め込みでは、ベクトルの生成と、後段の検索に向けたモデルおよび次元の選択の一貫性維持を扱います。"
+        },
+        "ru": {
+          "name": "Эмбеддинги Workers AI",
+          "desc": "Эмбеддинги Workers AI охватывают генерацию векторов и согласованный выбор моделей и размерности для последующего поиска."
+        },
+        "ko": {
+          "name": "Workers AI 임베딩",
+          "desc": "Workers AI 임베딩은 벡터 생성과 후속 검색을 위한 일관된 모델 및 차원 선택 유지를 다룹니다."
+        },
+        "pt": {
+          "name": "Embeddings do Workers AI",
+          "desc": "Os embeddings do Workers AI abrangem gerar vetores e manter escolhas consistentes de modelo e dimensões para a recuperação posterior."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/workers_ai_structured_responses",
+      "slug": "workers_ai_structured_responses",
+      "name": "Workers AI Structured Responses",
+      "desc": "Workers AI structured responses cover requesting schema-constrained outputs or tool calls and validating model-generated data before application use.",
+      "i18n": {
+        "zh": {
+          "name": "Workers AI 结构化响应",
+          "desc": "Workers AI 结构化响应涵盖请求受模式约束的输出或工具调用，并在应用使用前验证模型生成的数据。"
+        },
+        "es": {
+          "name": "Respuestas estructuradas de Workers AI",
+          "desc": "Las respuestas estructuradas de Workers AI abarcan solicitar salidas restringidas por esquemas o llamadas a herramientas y validar los datos generados por el modelo antes de usarlos en la aplicación."
+        },
+        "fr": {
+          "name": "Réponses structurées Workers AI",
+          "desc": "Les réponses structurées Workers AI couvrent la demande de sorties contraintes par un schéma ou d'appels d'outils, et la validation des données générées avant leur utilisation dans l'application."
+        },
+        "de": {
+          "name": "Strukturierte Workers-AI-Antworten",
+          "desc": "Strukturierte Workers-AI-Antworten umfassen die Anforderung schemaeingeschränkter Ausgaben oder Tool-Aufrufe und die Validierung modellgenerierter Daten vor ihrer Anwendungsnutzung."
+        },
+        "ja": {
+          "name": "Workers AI の構造化レスポンス",
+          "desc": "Workers AI の構造化レスポンスでは、スキーマに制約された出力やツール呼び出しの要求、およびアプリケーションで使用する前のモデル生成データの検証を扱います。"
+        },
+        "ru": {
+          "name": "Структурированные ответы Workers AI",
+          "desc": "Структурированные ответы Workers AI охватывают запрос результатов по схеме или вызовов инструментов и проверку сгенерированных моделью данных перед использованием в приложении."
+        },
+        "ko": {
+          "name": "Workers AI 구조화된 응답",
+          "desc": "Workers AI 구조화된 응답은 스키마 제약 출력 또는 도구 호출 요청과 애플리케이션에서 사용하기 전 모델 생성 데이터 검증을 다룹니다."
+        },
+        "pt": {
+          "name": "Respostas estruturadas do Workers AI",
+          "desc": "As respostas estruturadas do Workers AI abrangem solicitar saídas restritas por esquema ou chamadas de ferramentas e validar os dados gerados pelo modelo antes do uso na aplicação."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/vectorize_data_management",
+      "slug": "vectorize_data_management",
+      "name": "Vectorize Data Management",
+      "desc": "Vectorize data management covers configuring indexes, maintaining identified vectors and metadata, and accounting for mutation visibility.",
+      "i18n": {
+        "zh": {
+          "name": "Vectorize 数据管理",
+          "desc": "Vectorize 数据管理涵盖配置索引、维护带标识的向量及元数据，并考虑数据变更的可见性。"
+        },
+        "es": {
+          "name": "Gestión de datos de Vectorize",
+          "desc": "La gestión de datos de Vectorize abarca configurar índices, mantener vectores identificados y metadatos, y tener en cuenta la visibilidad de las modificaciones."
+        },
+        "fr": {
+          "name": "Gestion des données Vectorize",
+          "desc": "La gestion des données Vectorize couvre la configuration des index, la maintenance des vecteurs identifiés et des métadonnées, et la prise en compte de la visibilité des modifications."
+        },
+        "de": {
+          "name": "Vectorize-Datenverwaltung",
+          "desc": "Die Vectorize-Datenverwaltung umfasst die Indexkonfiguration, die Pflege identifizierter Vektoren und Metadaten sowie die Berücksichtigung der Sichtbarkeit von Änderungen."
+        },
+        "ja": {
+          "name": "Vectorize のデータ管理",
+          "desc": "Vectorize のデータ管理では、インデックス設定、識別子付きベクトルとメタデータの維持、および変更の可視性への配慮を扱います。"
+        },
+        "ru": {
+          "name": "Управление данными Vectorize",
+          "desc": "Управление данными Vectorize охватывает настройку индексов, ведение векторов с идентификаторами и метаданных, а также учёт видимости изменений."
+        },
+        "ko": {
+          "name": "Vectorize 데이터 관리",
+          "desc": "Vectorize 데이터 관리는 인덱스 구성, 식별자가 있는 벡터와 메타데이터 유지 및 변경 사항의 가시성에 대한 고려를 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de dados do Vectorize",
+          "desc": "O gerenciamento de dados do Vectorize abrange configurar índices, manter vetores identificados e metadados e considerar a visibilidade das alterações."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/vectorize_retrieval",
+      "slug": "vectorize_retrieval",
+      "name": "Vectorize Retrieval",
+      "desc": "Vectorize retrieval covers querying nearest matches and restricting the search with metadata indexes, predicates, and namespaces.",
+      "i18n": {
+        "zh": {
+          "name": "Vectorize 检索",
+          "desc": "Vectorize 检索涵盖查询最相近的匹配项，并使用元数据索引、谓词和命名空间限定搜索范围。"
+        },
+        "es": {
+          "name": "Recuperación con Vectorize",
+          "desc": "La recuperación con Vectorize abarca consultar las coincidencias más cercanas y restringir la búsqueda mediante índices de metadatos, predicados y espacios de nombres."
+        },
+        "fr": {
+          "name": "Recherche avec Vectorize",
+          "desc": "La recherche avec Vectorize couvre la recherche des correspondances les plus proches et la restriction des recherches par index de métadonnées, prédicats et espaces de noms."
+        },
+        "de": {
+          "name": "Vectorize-Suche",
+          "desc": "Die Vectorize-Suche umfasst die Abfrage nächstgelegener Treffer und die Eingrenzung durch Metadatenindizes, Prädikate und Namensräume."
+        },
+        "ja": {
+          "name": "Vectorize の検索",
+          "desc": "Vectorize の検索では、最近傍の一致項目の照会と、メタデータインデックス、述語、名前空間による検索範囲の制限を扱います。"
+        },
+        "ru": {
+          "name": "Поиск Vectorize",
+          "desc": "Поиск Vectorize охватывает запрос ближайших совпадений и ограничение поиска с помощью индексов метаданных, предикатов и пространств имён."
+        },
+        "ko": {
+          "name": "Vectorize 검색",
+          "desc": "Vectorize 검색은 가장 가까운 일치 항목 조회와 메타데이터 인덱스, 조건식 및 네임스페이스를 통한 검색 범위 제한을 다룹니다."
+        },
+        "pt": {
+          "name": "Recuperação com Vectorize",
+          "desc": "A recuperação com Vectorize abrange consultar as correspondências mais próximas e restringir a busca com índices de metadados, predicados e namespaces."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/ai_gateway_provider_routing",
+      "slug": "ai_gateway_provider_routing",
+      "name": "AI Gateway Provider Routing",
+      "desc": "AI Gateway provider routing covers authorizing upstream access and configuring model selection and fallback paths for inference requests.",
+      "i18n": {
+        "zh": {
+          "name": "AI Gateway 提供商路由",
+          "desc": "AI Gateway 提供商路由涵盖授权上游访问，并为推理请求配置模型选择和回退路径。"
+        },
+        "es": {
+          "name": "Enrutamiento de proveedores de AI Gateway",
+          "desc": "El enrutamiento de proveedores de AI Gateway abarca autorizar el acceso a servicios externos y configurar la selección de modelos y las rutas alternativas para solicitudes de inferencia."
+        },
+        "fr": {
+          "name": "Routage des fournisseurs AI Gateway",
+          "desc": "Le routage des fournisseurs AI Gateway couvre l'autorisation des accès en amont et la configuration du choix des modèles et des chemins de repli pour les requêtes d'inférence."
+        },
+        "de": {
+          "name": "AI-Gateway-Anbieterrouting",
+          "desc": "AI-Gateway-Anbieterrouting umfasst die Autorisierung vorgelagerter Zugriffe und die Konfiguration von Modellauswahl und Ausweichpfaden für Inferenzanfragen."
+        },
+        "ja": {
+          "name": "AI Gateway のプロバイダールーティング",
+          "desc": "AI Gateway のプロバイダールーティングでは、上流アクセスの認可と、推論リクエストのモデル選択およびフォールバック経路の設定を扱います。"
+        },
+        "ru": {
+          "name": "Маршрутизация провайдеров AI Gateway",
+          "desc": "Маршрутизация провайдеров AI Gateway охватывает авторизацию доступа к вышестоящим сервисам, выбор моделей и настройку резервных путей для запросов инференса."
+        },
+        "ko": {
+          "name": "AI Gateway 제공업체 라우팅",
+          "desc": "AI Gateway 제공업체 라우팅은 업스트림 접근 권한 부여와 추론 요청에 대한 모델 선택 및 대체 경로 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Roteamento de provedores do AI Gateway",
+          "desc": "O roteamento de provedores do AI Gateway abrange autorizar o acesso upstream e configurar a seleção de modelos e rotas alternativas para requisições de inferência."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/ai_gateway_traffic_control",
+      "slug": "ai_gateway_traffic_control",
+      "name": "AI Gateway Traffic Control",
+      "desc": "AI Gateway traffic control covers configuring response caching and request or spending limits to control model traffic and consumption.",
+      "i18n": {
+        "zh": {
+          "name": "AI Gateway 流量控制",
+          "desc": "AI Gateway 流量控制涵盖配置响应缓存及请求或支出限制，以控制模型流量和消耗。"
+        },
+        "es": {
+          "name": "Control de tráfico de AI Gateway",
+          "desc": "El control de tráfico de AI Gateway abarca configurar la caché de respuestas y límites de solicitudes o gasto para controlar el tráfico y el consumo de modelos."
+        },
+        "fr": {
+          "name": "Contrôle du trafic AI Gateway",
+          "desc": "Le contrôle du trafic AI Gateway couvre la mise en cache des réponses et les limites de requêtes ou de dépenses pour maîtriser le trafic et la consommation des modèles."
+        },
+        "de": {
+          "name": "AI-Gateway-Traffic-Steuerung",
+          "desc": "Die AI-Gateway-Traffic-Steuerung umfasst Antwort-Caching sowie Anfrage- oder Ausgabenlimits zur Steuerung von Modellverkehr und Verbrauch."
+        },
+        "ja": {
+          "name": "AI Gateway のトラフィック制御",
+          "desc": "AI Gateway のトラフィック制御では、レスポンスキャッシュとリクエスト数または支出の制限を設定し、モデルのトラフィックと消費量を制御する方法を扱います。"
+        },
+        "ru": {
+          "name": "Управление трафиком AI Gateway",
+          "desc": "Управление трафиком AI Gateway охватывает настройку кэширования ответов и ограничений запросов или расходов для контроля трафика моделей и потребления."
+        },
+        "ko": {
+          "name": "AI Gateway 트래픽 제어",
+          "desc": "AI Gateway 트래픽 제어는 응답 캐싱과 요청 또는 지출 한도를 구성하여 모델 트래픽과 소비량을 제어하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Controle de tráfego do AI Gateway",
+          "desc": "O controle de tráfego do AI Gateway abrange configurar cache de respostas e limites de requisições ou gastos para controlar o tráfego e o consumo de modelos."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/ai_gateway_observability",
+      "slug": "ai_gateway_observability",
+      "name": "AI Gateway Observability",
+      "desc": "AI Gateway observability covers correlating request metadata, errors, latency, and usage through gateway logs and analytics.",
+      "i18n": {
+        "zh": {
+          "name": "AI Gateway 可观测性",
+          "desc": "AI Gateway 可观测性涵盖通过网关日志和分析，关联请求元数据、错误、延迟和用量。"
+        },
+        "es": {
+          "name": "Observabilidad de AI Gateway",
+          "desc": "La observabilidad de AI Gateway abarca correlacionar metadatos de solicitudes, errores, latencia y uso mediante los registros y análisis de la puerta de enlace."
+        },
+        "fr": {
+          "name": "Observabilité AI Gateway",
+          "desc": "L'observabilité AI Gateway couvre la corrélation des métadonnées de requêtes, erreurs, latences et usages via les journaux et les analyses de la passerelle."
+        },
+        "de": {
+          "name": "AI-Gateway-Observability",
+          "desc": "AI-Gateway-Observability umfasst die Verknüpfung von Anfragemetadaten, Fehlern, Latenzen und Nutzung anhand von Gateway-Logs und Analysen."
+        },
+        "ja": {
+          "name": "AI Gateway の可観測性",
+          "desc": "AI Gateway の可観測性では、ゲートウェイのログと分析を通じたリクエストメタデータ、エラー、遅延、使用量の関連付けを扱います。"
+        },
+        "ru": {
+          "name": "Наблюдаемость AI Gateway",
+          "desc": "Наблюдаемость AI Gateway охватывает сопоставление метаданных запросов, ошибок, задержек и использования через журналы и аналитику шлюза."
+        },
+        "ko": {
+          "name": "AI Gateway 관측 가능성",
+          "desc": "AI Gateway 관측 가능성은 게이트웨이 로그와 분석을 통한 요청 메타데이터, 오류, 지연 시간 및 사용량의 연관 분석을 다룹니다."
+        },
+        "pt": {
+          "name": "Observabilidade do AI Gateway",
+          "desc": "A observabilidade do AI Gateway abrange correlacionar metadados de requisições, erros, latência e uso por meio de logs e análises do gateway."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/agent_state_sessions",
+      "slug": "agent_state_sessions",
+      "name": "Agent State and Sessions",
+      "desc": "Agent state and sessions cover routing requests to named Cloudflare Agent instances and maintaining application state and conversation history across interactions.",
+      "i18n": {
+        "zh": {
+          "name": "Agent 状态与会话",
+          "desc": "Agent 状态与会话涵盖将请求路由到具名的 Cloudflare Agent 实例，并跨交互维护应用状态和对话历史。"
+        },
+        "es": {
+          "name": "Estado y sesiones de Agents",
+          "desc": "El estado y las sesiones de Agents abarcan enrutar solicitudes a instancias de Cloudflare Agent con nombre y mantener el estado de la aplicación y el historial de conversación entre interacciones."
+        },
+        "fr": {
+          "name": "État et sessions des Agents",
+          "desc": "L'état et les sessions des Agents couvrent le routage vers des instances Cloudflare Agent nommées et la conservation de l'état applicatif et de l'historique des conversations entre interactions."
+        },
+        "de": {
+          "name": "Agent-Zustand und -Sitzungen",
+          "desc": "Agent-Zustand und -Sitzungen umfassen das Routing zu benannten Cloudflare-Agent-Instanzen und die Bewahrung von Anwendungszustand und Gesprächsverlauf über Interaktionen hinweg."
+        },
+        "ja": {
+          "name": "Agent の状態とセッション",
+          "desc": "Agent の状態とセッションでは、名前付き Cloudflare Agent インスタンスへのルーティングと、複数のやり取りにわたるアプリケーション状態および会話履歴の維持を扱います。"
+        },
+        "ru": {
+          "name": "Состояние и сеансы Agents",
+          "desc": "Состояние и сеансы Agents охватывают маршрутизацию запросов к именованным экземплярам Cloudflare Agent и сохранение состояния приложения и истории диалога между взаимодействиями."
+        },
+        "ko": {
+          "name": "Agent 상태 및 세션",
+          "desc": "Agent 상태 및 세션은 이름이 지정된 Cloudflare Agent 인스턴스로 요청 라우팅 및 상호작용 간 애플리케이션 상태와 대화 기록 유지를 다룹니다."
+        },
+        "pt": {
+          "name": "Estado e sessões de Agents",
+          "desc": "O estado e as sessões de Agents abrangem rotear requisições para instâncias nomeadas de Cloudflare Agent e manter o estado da aplicação e o histórico de conversa entre interações."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/agent_client_communication",
+      "slug": "agent_client_communication",
+      "name": "Agent Client Communication",
+      "desc": "Agent client communication covers synchronizing client state, invoking exposed methods, and streaming Agent responses with appropriate access checks.",
+      "i18n": {
+        "zh": {
+          "name": "Agent 客户端通信",
+          "desc": "Agent 客户端通信涵盖同步客户端状态、调用公开方法，以及在适当的访问检查下流式传输 Agent 响应。"
+        },
+        "es": {
+          "name": "Comunicación de Agents con clientes",
+          "desc": "La comunicación de Agents con clientes abarca sincronizar el estado del cliente, invocar métodos expuestos y transmitir respuestas del Agent con las comprobaciones de acceso adecuadas."
+        },
+        "fr": {
+          "name": "Communication des Agents avec les clients",
+          "desc": "La communication des Agents avec les clients couvre la synchronisation de l'état client, l'appel des méthodes exposées et la diffusion des réponses avec les contrôles d'accès appropriés."
+        },
+        "de": {
+          "name": "Agent-Clientkommunikation",
+          "desc": "Die Agent-Clientkommunikation umfasst die Synchronisierung des Clientzustands, Aufrufe exponierter Methoden und das Streamen von Agent-Antworten mit geeigneten Zugriffsprüfungen."
+        },
+        "ja": {
+          "name": "Agent のクライアント通信",
+          "desc": "Agent のクライアント通信では、クライアント状態の同期、公開メソッドの呼び出し、適切なアクセス確認を伴う Agent レスポンスのストリーミングを扱います。"
+        },
+        "ru": {
+          "name": "Связь Agents с клиентами",
+          "desc": "Связь Agents с клиентами охватывает синхронизацию состояния клиента, вызов открытых методов и потоковую передачу ответов Agent с необходимыми проверками доступа."
+        },
+        "ko": {
+          "name": "Agent 클라이언트 통신",
+          "desc": "Agent 클라이언트 통신은 클라이언트 상태 동기화, 공개 메서드 호출 및 적절한 접근 검사를 통한 Agent 응답 스트리밍을 다룹니다."
+        },
+        "pt": {
+          "name": "Comunicação de Agents com clientes",
+          "desc": "A comunicação de Agents com clientes abrange sincronizar o estado do cliente, invocar métodos expostos e transmitir respostas do Agent em streaming com verificações de acesso apropriadas."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/agent_scheduling",
+      "slug": "agent_scheduling",
+      "name": "Agent Scheduling",
+      "desc": "Agent scheduling covers registering, inspecting, and canceling persistent tasks through the Cloudflare Agents SDK.",
+      "i18n": {
+        "zh": {
+          "name": "Agent 调度",
+          "desc": "Agent 调度涵盖通过 Cloudflare Agents SDK 注册、检查和取消持久化任务。"
+        },
+        "es": {
+          "name": "Programación de Agents",
+          "desc": "La programación de Agents abarca registrar, inspeccionar y cancelar tareas persistentes mediante Cloudflare Agents SDK."
+        },
+        "fr": {
+          "name": "Planification des Agents",
+          "desc": "La planification des Agents couvre l'enregistrement, l'inspection et l'annulation de tâches persistantes via Cloudflare Agents SDK."
+        },
+        "de": {
+          "name": "Agent-Aufgabenplanung",
+          "desc": "Die Agent-Aufgabenplanung umfasst das Registrieren, Prüfen und Abbrechen persistenter Aufgaben über das Cloudflare Agents SDK."
+        },
+        "ja": {
+          "name": "Agent のスケジューリング",
+          "desc": "Agent のスケジューリングでは、Cloudflare Agents SDK による永続タスクの登録、確認、取り消しを扱います。"
+        },
+        "ru": {
+          "name": "Планирование Agents",
+          "desc": "Планирование Agents охватывает регистрацию, проверку и отмену постоянных задач через Cloudflare Agents SDK."
+        },
+        "ko": {
+          "name": "Agent 스케줄링",
+          "desc": "Agent 스케줄링은 Cloudflare Agents SDK를 통한 영구 작업 등록, 확인 및 취소를 다룹니다."
+        },
+        "pt": {
+          "name": "Agendamento de Agents",
+          "desc": "O agendamento de Agents abrange registrar, inspecionar e cancelar tarefas persistentes pelo Cloudflare Agents SDK."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/agent_tool_execution",
+      "slug": "agent_tool_execution",
+      "name": "Agent Tool Execution",
+      "desc": "Agent tool execution covers connecting model-selected tools to application operations and enforcing input validation and approval boundaries.",
+      "i18n": {
+        "zh": {
+          "name": "Agent 工具执行",
+          "desc": "Agent 工具执行涵盖将模型选择的工具连接到应用操作，并实施输入验证和审批边界。"
+        },
+        "es": {
+          "name": "Ejecución de herramientas de Agents",
+          "desc": "La ejecución de herramientas de Agents abarca conectar herramientas seleccionadas por el modelo con operaciones de la aplicación y aplicar validación de entradas y límites de aprobación."
+        },
+        "fr": {
+          "name": "Exécution d'outils des Agents",
+          "desc": "L'exécution d'outils des Agents couvre la connexion des outils sélectionnés par le modèle aux opérations applicatives et l'application de la validation des entrées et des limites d'approbation."
+        },
+        "de": {
+          "name": "Agent-Tool-Ausführung",
+          "desc": "Die Agent-Tool-Ausführung umfasst die Verbindung modellgewählter Tools mit Anwendungsoperationen und die Durchsetzung von Eingabevalidierung und Freigabegrenzen."
+        },
+        "ja": {
+          "name": "Agent のツール実行",
+          "desc": "Agent のツール実行では、モデルが選択したツールとアプリケーション操作の接続、および入力検証と承認範囲の適用を扱います。"
+        },
+        "ru": {
+          "name": "Выполнение инструментов Agents",
+          "desc": "Выполнение инструментов Agents охватывает связывание выбранных моделью инструментов с операциями приложения, проверку входных данных и соблюдение границ одобрения."
+        },
+        "ko": {
+          "name": "Agent 도구 실행",
+          "desc": "Agent 도구 실행은 모델이 선택한 도구를 애플리케이션 작업에 연결하고 입력 검증 및 승인 경계를 적용하는 방법을 다룹니다."
+        },
+        "pt": {
+          "name": "Execução de ferramentas de Agents",
+          "desc": "A execução de ferramentas de Agents abrange conectar ferramentas selecionadas pelo modelo a operações da aplicação e aplicar validação de entradas e limites de aprovação."
+        }
+      }
+    },
+    {
+      "key": "cloudflare/agent_mcp_integration",
+      "slug": "agent_mcp_integration",
+      "name": "Agent MCP Integration",
+      "desc": "Agent MCP integration covers exposing tools through Cloudflare-hosted MCP transports and selecting appropriate session-state handling.",
+      "i18n": {
+        "zh": {
+          "name": "Agent MCP 集成",
+          "desc": "Agent MCP 集成涵盖通过 Cloudflare 托管的 MCP 传输机制暴露工具，并选择适当的会话状态处理方式。"
+        },
+        "es": {
+          "name": "Integración MCP de Agents",
+          "desc": "La integración MCP de Agents abarca exponer herramientas mediante transportes MCP alojados en Cloudflare y seleccionar una gestión adecuada del estado de sesión."
+        },
+        "fr": {
+          "name": "Intégration MCP des Agents",
+          "desc": "L'intégration MCP des Agents couvre l'exposition d'outils via des transports MCP hébergés par Cloudflare et le choix d'une gestion adaptée de l'état des sessions."
+        },
+        "de": {
+          "name": "Agent-MCP-Integration",
+          "desc": "Die Agent-MCP-Integration umfasst das Bereitstellen von Tools über Cloudflare-gehostete MCP-Transporte und die Auswahl einer geeigneten Sitzungszustandsverwaltung."
+        },
+        "ja": {
+          "name": "Agent の MCP 統合",
+          "desc": "Agent の MCP 統合では、Cloudflare がホストする MCP トランスポートによるツールの公開と、適切なセッション状態の処理方式の選択を扱います。"
+        },
+        "ru": {
+          "name": "Интеграция MCP для Agents",
+          "desc": "Интеграция MCP для Agents охватывает предоставление инструментов через MCP-транспорты на Cloudflare и выбор подходящего управления состоянием сеансов."
+        },
+        "ko": {
+          "name": "Agent MCP 통합",
+          "desc": "Agent MCP 통합은 Cloudflare가 호스팅하는 MCP 전송 계층을 통한 도구 공개와 적절한 세션 상태 처리 방식 선택을 다룹니다."
+        },
+        "pt": {
+          "name": "Integração MCP de Agents",
+          "desc": "A integração MCP de Agents abrange expor ferramentas por transportes MCP hospedados pela Cloudflare e selecionar o tratamento adequado do estado de sessão."
+        }
+      }
+    }
+  ]
+}
