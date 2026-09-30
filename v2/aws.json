@@ -1,0 +1,3447 @@
+{
+  "key": "aws",
+  "slug": "aws",
+  "name": "AWS",
+  "skills": [
+    {
+      "key": "aws/resource_identity",
+      "slug": "resource_identity",
+      "name": "Resource Identity",
+      "desc": "Resource identity covers locating AWS resources by service, account, Region, Availability Zone, identifier, and ARN while distinguishing regional and global scope.",
+      "i18n": {
+        "zh": {
+          "name": "资源标识",
+          "desc": "涵盖按服务、账号、区域、可用区、资源 ID 和 ARN 定位 AWS 资源，并区分区域性资源与全局资源。"
+        },
+        "es": {
+          "name": "Identificación de recursos",
+          "desc": "Permite localizar recursos de AWS por servicio, cuenta, región, zona de disponibilidad, identificador y ARN, distinguiendo el alcance regional del global."
+        },
+        "fr": {
+          "name": "Identification des ressources",
+          "desc": "Cette compétence couvre la localisation des ressources AWS par service, compte, région, zone de disponibilité, identifiant et ARN, en distinguant portée régionale et globale."
+        },
+        "de": {
+          "name": "Ressourcenidentifikation",
+          "desc": "Diese Fähigkeit umfasst das Auffinden von AWS-Ressourcen anhand von Dienst, Konto, Region, Verfügbarkeitszone, Kennung und ARN sowie die Unterscheidung regionaler und globaler Geltungsbereiche."
+        },
+        "ja": {
+          "name": "リソースの識別",
+          "desc": "サービス、アカウント、リージョン、アベイラビリティーゾーン、ID、ARN で AWS リソースを特定し、リージョン単位とグローバルな範囲を区別する能力を扱います。"
+        },
+        "ru": {
+          "name": "Идентификация ресурсов",
+          "desc": "Навык охватывает поиск ресурсов AWS по сервису, аккаунту, региону, зоне доступности, идентификатору и ARN с различением регионального и глобального охвата."
+        },
+        "ko": {
+          "name": "리소스 식별",
+          "desc": "서비스, 계정, 리전, 가용 영역, 식별자와 ARN으로 AWS 리소스를 찾고 리전 범위와 글로벌 범위를 구분하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Identificação de recursos",
+          "desc": "Abrange localizar recursos AWS por serviço, conta, região, zona de disponibilidade, identificador e ARN, distinguindo o escopo regional do global."
+        }
+      }
+    },
+    {
+      "key": "aws/cli_configuration",
+      "slug": "cli_configuration",
+      "name": "CLI Configuration",
+      "desc": "CLI configuration covers selecting AWS profiles, credential sources, Regions, and output settings and diagnosing which configuration a command uses.",
+      "i18n": {
+        "zh": {
+          "name": "CLI 配置",
+          "desc": "涵盖选择 AWS 配置档案、凭证来源、区域和输出设置，以及排查命令实际使用的配置。"
+        },
+        "es": {
+          "name": "Configuración de la CLI",
+          "desc": "Abarca la selección de perfiles de AWS, fuentes de credenciales, regiones y formatos de salida, y el diagnóstico de la configuración utilizada por un comando."
+        },
+        "fr": {
+          "name": "Configuration de la CLI",
+          "desc": "Cette compétence couvre les profils AWS, sources d’identifiants, régions et formats de sortie, ainsi que le diagnostic de la configuration utilisée par une commande."
+        },
+        "de": {
+          "name": "CLI-Konfiguration",
+          "desc": "Diese Fähigkeit umfasst AWS-Profile, Anmeldeinformationsquellen, Regionen und Ausgabeformate sowie die Ermittlung der von einem Befehl verwendeten Konfiguration."
+        },
+        "ja": {
+          "name": "CLI 設定",
+          "desc": "AWS プロファイル、認証情報の取得元、リージョン、出力形式の選択と、コマンドが実際に使用する設定の診断を扱います。"
+        },
+        "ru": {
+          "name": "Настройка CLI",
+          "desc": "Навык охватывает профили AWS, источники учётных данных, регионы и форматы вывода, а также определение конфигурации, используемой командой."
+        },
+        "ko": {
+          "name": "CLI 구성",
+          "desc": "AWS 프로필, 자격 증명 출처, 리전과 출력 설정을 선택하고 명령이 실제로 사용하는 구성을 진단하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Configuração da CLI",
+          "desc": "Abrange perfis AWS, fontes de credenciais, regiões e formatos de saída, além de diagnosticar a configuração utilizada por um comando."
+        }
+      }
+    },
+    {
+      "key": "aws/resource_queries",
+      "slug": "resource_queries",
+      "name": "Resource Queries",
+      "desc": "Resource queries cover using AWS service filters, pagination, and CLI query expressions to retrieve the intended resources and fields.",
+      "i18n": {
+        "zh": {
+          "name": "资源查询",
+          "desc": "涵盖使用 AWS 服务筛选条件、分页和 CLI 查询表达式，获取目标资源及所需字段。"
+        },
+        "es": {
+          "name": "Consultas de recursos",
+          "desc": "Abarca filtros de servicios de AWS, paginación y expresiones de consulta de la CLI para obtener los recursos y campos deseados."
+        },
+        "fr": {
+          "name": "Requêtes sur les ressources",
+          "desc": "Cette compétence couvre les filtres des services AWS, la pagination et les expressions de requête CLI pour obtenir les ressources et champs souhaités."
+        },
+        "de": {
+          "name": "Ressourcenabfragen",
+          "desc": "Diese Fähigkeit umfasst AWS-Dienstfilter, Seitennavigation und CLI-Abfrageausdrücke zum Abrufen der gewünschten Ressourcen und Felder."
+        },
+        "ja": {
+          "name": "リソースのクエリ",
+          "desc": "AWS サービスのフィルター、ページ分割、CLI クエリ式を使い、目的のリソースと項目を取得する能力を扱います。"
+        },
+        "ru": {
+          "name": "Запросы ресурсов",
+          "desc": "Навык охватывает фильтры сервисов AWS, постраничную выборку и выражения запросов CLI для получения нужных ресурсов и полей."
+        },
+        "ko": {
+          "name": "리소스 쿼리",
+          "desc": "AWS 서비스 필터, 페이지 매김과 CLI 쿼리 표현식을 사용해 필요한 리소스와 필드를 조회하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas de recursos",
+          "desc": "Abrange filtros dos serviços AWS, paginação e expressões de consulta da CLI para obter os recursos e campos desejados."
+        }
+      }
+    },
+    {
+      "key": "aws/resource_tagging",
+      "slug": "resource_tagging",
+      "name": "Resource Tagging",
+      "desc": "Resource tagging covers assigning and querying AWS resource tags to track ownership, environments, and resource organization.",
+      "i18n": {
+        "zh": {
+          "name": "资源标签",
+          "desc": "涵盖设置和查询 AWS 资源标签，以标识归属、环境并组织资源。"
+        },
+        "es": {
+          "name": "Etiquetado de recursos",
+          "desc": "Abarca la asignación y consulta de etiquetas de AWS para identificar responsables y entornos y organizar recursos."
+        },
+        "fr": {
+          "name": "Étiquetage des ressources",
+          "desc": "Cette compétence couvre l’attribution et la consultation d’étiquettes AWS pour identifier les responsables et les environnements et organiser les ressources."
+        },
+        "de": {
+          "name": "Ressourcen-Tags",
+          "desc": "Diese Fähigkeit umfasst das Zuweisen und Abfragen von AWS-Tags zur Kennzeichnung von Verantwortlichkeit und Umgebungen sowie zur Organisation von Ressourcen."
+        },
+        "ja": {
+          "name": "リソースのタグ付け",
+          "desc": "AWS タグの設定と検索を通じて、リソースの所有者や環境を識別し、リソースを整理する能力を扱います。"
+        },
+        "ru": {
+          "name": "Теги ресурсов",
+          "desc": "Навык охватывает назначение и поиск тегов AWS для обозначения владельцев, окружений и организации ресурсов."
+        },
+        "ko": {
+          "name": "리소스 태그 지정",
+          "desc": "AWS 태그를 지정하고 조회해 소유자와 환경을 식별하고 리소스를 체계적으로 관리하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Marcação de recursos",
+          "desc": "Abrange atribuir e consultar tags AWS para identificar responsáveis e ambientes e organizar recursos."
+        }
+      }
+    },
+    {
+      "key": "aws/s3_object_management",
+      "slug": "s3_object_management",
+      "name": "S3 Object Management",
+      "desc": "S3 object management covers creating buckets and uploading, inspecting, downloading, copying, and deleting objects, including multipart uploads, while preserving intended content.",
+      "i18n": {
+        "zh": {
+          "name": "S3 对象管理",
+          "desc": "涵盖创建存储桶，以及上传、检查、下载、复制和删除对象，包括分段上传，并确保内容符合预期。"
+        },
+        "es": {
+          "name": "Gestión de objetos en S3",
+          "desc": "Abarca la creación de buckets y la carga, inspección, descarga, copia y eliminación de objetos, incluidas cargas multiparte, preservando el contenido previsto."
+        },
+        "fr": {
+          "name": "Gestion des objets S3",
+          "desc": "Cette compétence couvre les compartiments et le téléversement, l’inspection, le téléchargement, la copie et la suppression d’objets, y compris les chargements multiparties, en préservant le contenu attendu."
+        },
+        "de": {
+          "name": "S3-Objektverwaltung",
+          "desc": "Diese Fähigkeit umfasst das Erstellen von Buckets sowie Hochladen, Prüfen, Herunterladen, Kopieren und Löschen von Objekten einschließlich mehrteiliger Uploads unter Wahrung der vorgesehenen Inhalte."
+        },
+        "ja": {
+          "name": "S3 オブジェクト管理",
+          "desc": "バケットの作成、オブジェクトのアップロード、確認、ダウンロード、コピー、削除、およびマルチパートアップロードを、意図した内容を保ちながら行う能力を扱います。"
+        },
+        "ru": {
+          "name": "Управление объектами S3",
+          "desc": "Навык охватывает создание бакетов, загрузку, проверку, скачивание, копирование и удаление объектов, включая многочастную загрузку, с сохранением ожидаемого содержимого."
+        },
+        "ko": {
+          "name": "S3 객체 관리",
+          "desc": "버킷 생성과 객체 업로드, 확인, 다운로드, 복사, 삭제를 수행하며 멀티파트 업로드에서도 의도한 콘텐츠를 유지하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de objetos S3",
+          "desc": "Abrange criar buckets e enviar, inspecionar, baixar, copiar e excluir objetos, incluindo uploads multipartes, preservando o conteúdo esperado."
+        }
+      }
+    },
+    {
+      "key": "aws/s3_object_organization",
+      "slug": "s3_object_organization",
+      "name": "S3 Object Organization",
+      "desc": "S3 object organization covers structuring object keys and prefixes and managing content types and user-defined metadata without treating prefixes as directories.",
+      "i18n": {
+        "zh": {
+          "name": "S3 对象组织",
+          "desc": "涵盖规划对象键和前缀、管理内容类型与用户自定义元数据，并理解前缀不是目录。"
+        },
+        "es": {
+          "name": "Organización de objetos en S3",
+          "desc": "Abarca claves, prefijos, tipos de contenido y metadatos definidos por el usuario, sin tratar los prefijos como directorios."
+        },
+        "fr": {
+          "name": "Organisation des objets S3",
+          "desc": "Cette compétence couvre les clés, préfixes, types de contenu et métadonnées personnalisées, sans assimiler les préfixes à des répertoires."
+        },
+        "de": {
+          "name": "S3-Objektorganisation",
+          "desc": "Diese Fähigkeit umfasst Objektschlüssel, Präfixe, Inhaltstypen und benutzerdefinierte Metadaten, wobei Präfixe nicht als Verzeichnisse behandelt werden."
+        },
+        "ja": {
+          "name": "S3 オブジェクトの整理",
+          "desc": "オブジェクトキー、プレフィックス、コンテンツタイプ、ユーザー定義メタデータの管理と、プレフィックスをディレクトリと区別する能力を扱います。"
+        },
+        "ru": {
+          "name": "Организация объектов S3",
+          "desc": "Навык охватывает ключи, префиксы, типы содержимого и пользовательские метаданные объектов, отличая префиксы от каталогов."
+        },
+        "ko": {
+          "name": "S3 객체 구성",
+          "desc": "객체 키, 접두사, 콘텐츠 유형과 사용자 정의 메타데이터를 관리하고 접두사를 디렉터리와 구분하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Organização de objetos S3",
+          "desc": "Abrange chaves, prefixos, tipos de conteúdo e metadados definidos pelo usuário, sem tratar prefixos como diretórios."
+        }
+      }
+    },
+    {
+      "key": "aws/s3_synchronization",
+      "slug": "s3_synchronization",
+      "name": "S3 Synchronization",
+      "desc": "S3 synchronization covers reconciling local files and S3 objects, interpreting transfer selection, and limiting deletion to the intended destination scope.",
+      "i18n": {
+        "zh": {
+          "name": "S3 同步",
+          "desc": "涵盖同步本地文件与 S3 对象、判断哪些内容需要传输，并将删除操作限定在目标范围内。"
+        },
+        "es": {
+          "name": "Sincronización con S3",
+          "desc": "Abarca la sincronización de archivos locales y objetos de S3, la selección de transferencias y la limitación de eliminaciones al destino previsto."
+        },
+        "fr": {
+          "name": "Synchronisation S3",
+          "desc": "Cette compétence couvre la synchronisation de fichiers locaux et d’objets S3, les critères de transfert et la limitation des suppressions au périmètre de destination prévu."
+        },
+        "de": {
+          "name": "S3-Synchronisierung",
+          "desc": "Diese Fähigkeit umfasst den Abgleich lokaler Dateien mit S3-Objekten, die Auswahl von Übertragungen und die Begrenzung von Löschungen auf den vorgesehenen Zielbereich."
+        },
+        "ja": {
+          "name": "S3 同期",
+          "desc": "ローカルファイルと S3 オブジェクトの同期、転送対象の判断、および削除を意図した転送先の範囲に限定する能力を扱います。"
+        },
+        "ru": {
+          "name": "Синхронизация S3",
+          "desc": "Навык охватывает синхронизацию локальных файлов и объектов S3, выбор передаваемых данных и ограничение удалений заданной областью назначения."
+        },
+        "ko": {
+          "name": "S3 동기화",
+          "desc": "로컬 파일과 S3 객체를 동기화하고 전송 대상을 판단하며 삭제를 의도한 대상 범위로 제한하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Sincronização com S3",
+          "desc": "Abrange sincronizar arquivos locais e objetos S3, interpretar a seleção de transferências e limitar exclusões ao escopo de destino previsto."
+        }
+      }
+    },
+    {
+      "key": "aws/s3_version_management",
+      "slug": "s3_version_management",
+      "name": "S3 Version Management",
+      "desc": "S3 version management covers configuring bucket versioning, identifying object versions and delete markers, restoring content, and deliberately removing historical versions.",
+      "i18n": {
+        "zh": {
+          "name": "S3 版本管理",
+          "desc": "涵盖配置存储桶版本控制、识别对象版本和删除标记、恢复内容，以及有目的地删除历史版本。"
+        },
+        "es": {
+          "name": "Gestión de versiones en S3",
+          "desc": "Abarca la configuración del control de versiones, la identificación de versiones y marcadores de eliminación, la recuperación de contenido y la eliminación deliberada de versiones anteriores."
+        },
+        "fr": {
+          "name": "Gestion des versions S3",
+          "desc": "Cette compétence couvre l’activation du versionnement, les versions et marqueurs de suppression, la restauration du contenu et la suppression délibérée d’anciennes versions."
+        },
+        "de": {
+          "name": "S3-Versionsverwaltung",
+          "desc": "Diese Fähigkeit umfasst Bucket-Versionierung, Objektversionen und Löschmarkierungen, Inhaltswiederherstellung sowie das gezielte Löschen älterer Versionen."
+        },
+        "ja": {
+          "name": "S3 バージョン管理",
+          "desc": "バケットのバージョニング設定、バージョンと削除マーカーの識別、内容の復元、および過去のバージョンの意図的な削除を扱います。"
+        },
+        "ru": {
+          "name": "Управление версиями S3",
+          "desc": "Навык охватывает версионирование бакетов, распознавание версий и маркеров удаления, восстановление содержимого и целенаправленное удаление старых версий."
+        },
+        "ko": {
+          "name": "S3 버전 관리",
+          "desc": "버킷 버전 관리 설정, 객체 버전과 삭제 마커 식별, 콘텐츠 복원과 이전 버전의 의도적인 삭제를 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de versões S3",
+          "desc": "Abrange configurar o versionamento, identificar versões e marcadores de exclusão, restaurar conteúdo e remover deliberadamente versões antigas."
+        }
+      }
+    },
+    {
+      "key": "aws/s3_access_settings",
+      "slug": "s3_access_settings",
+      "name": "S3 Access Settings",
+      "desc": "S3 access settings cover configuring Object Ownership, ACL behavior, and Block Public Access and evaluating how these settings constrain bucket and object access.",
+      "i18n": {
+        "zh": {
+          "name": "S3 访问设置",
+          "desc": "涵盖配置对象所有权、ACL 行为和阻止公有访问设置，并评估这些设置对存储桶和对象访问的限制。"
+        },
+        "es": {
+          "name": "Configuración de acceso a S3",
+          "desc": "Abarca Object Ownership, el comportamiento de las ACL y Block Public Access, y la evaluación de sus restricciones sobre buckets y objetos."
+        },
+        "fr": {
+          "name": "Paramètres d’accès S3",
+          "desc": "Cette compétence couvre Object Ownership, le comportement des ACL et Block Public Access, ainsi que leurs restrictions sur l’accès aux compartiments et objets."
+        },
+        "de": {
+          "name": "S3-Zugriffseinstellungen",
+          "desc": "Diese Fähigkeit umfasst Object Ownership, ACL-Verhalten und Block Public Access sowie die Bewertung ihrer Einschränkungen für Bucket- und Objektzugriffe."
+        },
+        "ja": {
+          "name": "S3 アクセス設定",
+          "desc": "オブジェクト所有権、ACL の動作、パブリックアクセスのブロックを設定し、バケットやオブジェクトへのアクセス制限を評価する能力を扱います。"
+        },
+        "ru": {
+          "name": "Настройки доступа S3",
+          "desc": "Навык охватывает Object Ownership, поведение ACL и Block Public Access, а также оценку ограничений доступа к бакетам и объектам."
+        },
+        "ko": {
+          "name": "S3 액세스 설정",
+          "desc": "객체 소유권, ACL 동작과 퍼블릭 액세스 차단을 구성하고 버킷과 객체 액세스에 미치는 제한을 평가하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Configurações de acesso ao S3",
+          "desc": "Abrange Object Ownership, comportamento de ACLs e Block Public Access, avaliando suas restrições sobre o acesso a buckets e objetos."
+        }
+      }
+    },
+    {
+      "key": "aws/s3_presigned_access",
+      "slug": "s3_presigned_access",
+      "name": "S3 Presigned Access",
+      "desc": "S3 presigned access covers issuing time-limited signed requests for specific object operations and evaluating signer permissions, credential lifetime, and request expiration.",
+      "i18n": {
+        "zh": {
+          "name": "S3 预签名访问",
+          "desc": "涵盖为指定对象操作生成限时签名请求，并评估签名者权限、凭证有效期和请求过期时间。"
+        },
+        "es": {
+          "name": "Acceso prefirmado a S3",
+          "desc": "Abarca solicitudes firmadas de duración limitada para operaciones específicas, considerando permisos del firmante, vigencia de las credenciales y caducidad de la solicitud."
+        },
+        "fr": {
+          "name": "Accès présigné S3",
+          "desc": "Cette compétence couvre les requêtes signées à durée limitée pour des opérations précises, en tenant compte des droits du signataire et de l’expiration des identifiants et requêtes."
+        },
+        "de": {
+          "name": "Vorsignierter S3-Zugriff",
+          "desc": "Diese Fähigkeit umfasst zeitlich begrenzte signierte Anfragen für bestimmte Objektoperationen unter Berücksichtigung von Signiererrechten, Anmeldeinformationsgültigkeit und Anfrageablauf."
+        },
+        "ja": {
+          "name": "S3 署名付きアクセス",
+          "desc": "特定のオブジェクト操作に対する有効期限付き署名リクエストを発行し、署名者の権限、認証情報の有効期間、リクエストの期限を評価する能力を扱います。"
+        },
+        "ru": {
+          "name": "Предподписанный доступ S3",
+          "desc": "Навык охватывает подписанные запросы с ограниченным сроком для конкретных операций, учитывая права подписанта и сроки действия учётных данных и запросов."
+        },
+        "ko": {
+          "name": "S3 사전 서명 액세스",
+          "desc": "특정 객체 작업에 대해 유효 기간이 있는 서명 요청을 발급하고 서명자 권한, 자격 증명 수명과 요청 만료를 평가하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Acesso pré-assinado ao S3",
+          "desc": "Abrange emitir solicitações assinadas com duração limitada para operações específicas, considerando permissões do signatário, validade das credenciais e expiração da solicitação."
+        }
+      }
+    },
+    {
+      "key": "aws/s3_lifecycle_policies",
+      "slug": "s3_lifecycle_policies",
+      "name": "S3 Lifecycle Policies",
+      "desc": "S3 lifecycle policies cover defining scoped storage transitions, object and version expiration, and incomplete multipart upload cleanup while distinguishing rules from completed lifecycle actions.",
+      "i18n": {
+        "zh": {
+          "name": "S3 生命周期策略",
+          "desc": "涵盖按范围定义存储类别转换、对象与版本过期及未完成分段上传清理规则，并区分规则配置与已执行的生命周期操作。"
+        },
+        "es": {
+          "name": "Políticas de ciclo de vida de S3",
+          "desc": "Abarca transiciones de almacenamiento, caducidad de objetos y versiones y limpieza de cargas multiparte incompletas por ámbito, distinguiendo reglas de acciones ya ejecutadas."
+        },
+        "fr": {
+          "name": "Politiques de cycle de vie S3",
+          "desc": "Cette compétence couvre les transitions de stockage, l’expiration des objets et versions et le nettoyage des chargements multiparties incomplets selon leur périmètre, en distinguant règles et actions exécutées."
+        },
+        "de": {
+          "name": "S3-Lebenszyklusrichtlinien",
+          "desc": "Diese Fähigkeit umfasst eingegrenzte Speicherklassenwechsel, Objekt- und Versionsablauf sowie die Bereinigung unvollständiger mehrteiliger Uploads und unterscheidet Regeln von ausgeführten Aktionen."
+        },
+        "ja": {
+          "name": "S3 ライフサイクルポリシー",
+          "desc": "対象を限定したストレージ移行、オブジェクトとバージョンの期限切れ、未完了マルチパートアップロードの削除を定義し、ルールと実行済みの処理を区別する能力を扱います。"
+        },
+        "ru": {
+          "name": "Политики жизненного цикла S3",
+          "desc": "Навык охватывает переходы классов хранения, истечение срока объектов и версий и очистку незавершённых многочастных загрузок в заданной области, отличая правила от выполненных действий."
+        },
+        "ko": {
+          "name": "S3 수명 주기 정책",
+          "desc": "범위를 정해 스토리지 전환, 객체와 버전 만료, 미완료 멀티파트 업로드 정리를 정의하고 규칙과 이미 실행된 작업을 구분하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Políticas de ciclo de vida do S3",
+          "desc": "Abrange transições de armazenamento, expiração de objetos e versões e limpeza de uploads multipartes incompletos por escopo, distinguindo regras de ações executadas."
+        }
+      }
+    },
+    {
+      "key": "aws/s3_encryption",
+      "slug": "s3_encryption",
+      "name": "S3 Encryption",
+      "desc": "S3 encryption covers configuring server-side encryption, inspecting object encryption settings, and evaluating the key permissions required for SSE-KMS operations.",
+      "i18n": {
+        "zh": {
+          "name": "S3 加密",
+          "desc": "涵盖配置服务端加密、检查对象加密设置，以及评估 SSE-KMS 操作所需的密钥权限。"
+        },
+        "es": {
+          "name": "Cifrado en S3",
+          "desc": "Abarca la configuración del cifrado del lado del servidor, la inspección del cifrado de objetos y los permisos de claves necesarios para SSE-KMS."
+        },
+        "fr": {
+          "name": "Chiffrement S3",
+          "desc": "Cette compétence couvre le chiffrement côté serveur, l’inspection des paramètres des objets et les autorisations de clé requises pour SSE-KMS."
+        },
+        "de": {
+          "name": "S3-Verschlüsselung",
+          "desc": "Diese Fähigkeit umfasst serverseitige Verschlüsselung, Prüfung der Objektverschlüsselung und Bewertung der für SSE-KMS erforderlichen Schlüsselberechtigungen."
+        },
+        "ja": {
+          "name": "S3 暗号化",
+          "desc": "サーバー側暗号化の設定、オブジェクトの暗号化設定の確認、および SSE-KMS に必要なキーの権限の評価を扱います。"
+        },
+        "ru": {
+          "name": "Шифрование S3",
+          "desc": "Навык охватывает серверное шифрование, проверку настроек объектов и оценку разрешений ключа, необходимых для SSE-KMS."
+        },
+        "ko": {
+          "name": "S3 암호화",
+          "desc": "서버 측 암호화 구성, 객체 암호화 설정 확인과 SSE-KMS 작업에 필요한 키 권한 평가를 다룹니다."
+        },
+        "pt": {
+          "name": "Criptografia do S3",
+          "desc": "Abrange configurar criptografia no servidor, verificar as configurações dos objetos e avaliar permissões de chaves necessárias para SSE-KMS."
+        }
+      }
+    },
+    {
+      "key": "aws/iam_identity_management",
+      "slug": "iam_identity_management",
+      "name": "IAM Identity Management",
+      "desc": "IAM identity management covers managing IAM users, groups, group membership, and attached permissions while distinguishing long-term identities from role sessions.",
+      "i18n": {
+        "zh": {
+          "name": "IAM 身份管理",
+          "desc": "涵盖管理 IAM 用户、用户组、组成员及附加权限，并区分长期身份与角色会话。"
+        },
+        "es": {
+          "name": "Gestión de identidades de IAM",
+          "desc": "Abarca usuarios, grupos, pertenencia a grupos y permisos asociados, distinguiendo identidades persistentes de sesiones de rol."
+        },
+        "fr": {
+          "name": "Gestion des identités IAM",
+          "desc": "Cette compétence couvre les utilisateurs, groupes, appartenances et autorisations associées, en distinguant identités durables et sessions de rôle."
+        },
+        "de": {
+          "name": "IAM-Identitätsverwaltung",
+          "desc": "Diese Fähigkeit umfasst IAM-Benutzer, Gruppen, Mitgliedschaften und zugewiesene Berechtigungen sowie die Unterscheidung dauerhafter Identitäten und Rollensitzungen."
+        },
+        "ja": {
+          "name": "IAM アイデンティティ管理",
+          "desc": "IAM ユーザー、グループ、所属、付与された権限の管理と、継続的に存在する IAM アイデンティティと一時的なロールセッションの区別を扱います。"
+        },
+        "ru": {
+          "name": "Управление идентификационными сущностями IAM",
+          "desc": "Навык охватывает пользователей, группы, членство и связанные разрешения IAM, отличая постоянные сущности от сеансов ролей."
+        },
+        "ko": {
+          "name": "IAM 자격 증명 관리",
+          "desc": "IAM 사용자, 그룹, 그룹 구성원과 연결된 권한을 관리하고 지속적으로 존재하는 IAM 주체와 임시 역할 세션을 구분하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de identidades IAM",
+          "desc": "Abrange usuários, grupos, membros e permissões associadas, distinguindo identidades persistentes de sessões de funções."
+        }
+      }
+    },
+    {
+      "key": "aws/iam_identity_policies",
+      "slug": "iam_identity_policies",
+      "name": "IAM Identity Policies",
+      "desc": "IAM identity policies cover expressing action, resource, and condition boundaries in permission statements and evaluating implicit denial and explicit denial when granting least privilege.",
+      "i18n": {
+        "zh": {
+          "name": "IAM 身份策略",
+          "desc": "涵盖在权限语句中界定操作、资源和条件，并通过分析隐式拒绝与显式拒绝落实最小权限。"
+        },
+        "es": {
+          "name": "Políticas de identidad de IAM",
+          "desc": "Abarca límites de acciones, recursos y condiciones en declaraciones de permisos, y denegaciones implícitas y explícitas para conceder privilegios mínimos."
+        },
+        "fr": {
+          "name": "Politiques d’identité IAM",
+          "desc": "Cette compétence couvre les limites d’actions, de ressources et de conditions dans les autorisations, ainsi que les refus implicites et explicites pour appliquer le moindre privilège."
+        },
+        "de": {
+          "name": "IAM-Identitätsrichtlinien",
+          "desc": "Diese Fähigkeit umfasst Aktions-, Ressourcen- und Bedingungsgrenzen in Berechtigungen sowie implizite und explizite Verweigerungen zur Umsetzung minimaler Rechte."
+        },
+        "ja": {
+          "name": "IAM アイデンティティベースのポリシー",
+          "desc": "権限ステートメントでアクション、リソース、条件の範囲を定め、暗黙的な拒否と明示的な拒否を評価して最小権限を付与する能力を扱います。"
+        },
+        "ru": {
+          "name": "Политики идентификационных сущностей IAM",
+          "desc": "Навык охватывает ограничения действий, ресурсов и условий в разрешениях, а также неявные и явные запреты для предоставления минимальных привилегий."
+        },
+        "ko": {
+          "name": "IAM 자격 증명 기반 정책",
+          "desc": "권한 명령문에서 작업, 리소스와 조건 범위를 정의하고 암시적 거부와 명시적 거부를 평가해 최소 권한을 부여하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Políticas de identidade IAM",
+          "desc": "Abrange limites de ações, recursos e condições em declarações de permissões e avaliação de negações implícitas e explícitas para conceder privilégios mínimos."
+        }
+      }
+    },
+    {
+      "key": "aws/resource_policies",
+      "slug": "resource_policies",
+      "name": "Resource Policies",
+      "desc": "Resource policies cover granting or restricting access through AWS resource-based permission statements and evaluating their interaction with identity permissions for the target service.",
+      "i18n": {
+        "zh": {
+          "name": "资源策略",
+          "desc": "涵盖使用 AWS 基于资源的权限语句授予或限制访问，并评估其与目标服务身份权限的相互作用。"
+        },
+        "es": {
+          "name": "Políticas de recursos",
+          "desc": "Abarca permisos basados en recursos de AWS y su interacción con permisos de identidad para conceder o restringir acceso al servicio correspondiente."
+        },
+        "fr": {
+          "name": "Politiques de ressources",
+          "desc": "Cette compétence couvre les autorisations fondées sur les ressources AWS et leur interaction avec les autorisations d’identité pour accorder ou restreindre l’accès au service concerné."
+        },
+        "de": {
+          "name": "Ressourcenrichtlinien",
+          "desc": "Diese Fähigkeit umfasst ressourcenbasierte AWS-Berechtigungen und ihr Zusammenspiel mit Identitätsberechtigungen, um Zugriffe auf den jeweiligen Dienst zu gewähren oder einzuschränken."
+        },
+        "ja": {
+          "name": "リソースポリシー",
+          "desc": "AWS のリソースベースの権限と ID ベースの権限の相互作用を評価し、対象サービスへのアクセスを許可または制限する能力を扱います。"
+        },
+        "ru": {
+          "name": "Политики ресурсов",
+          "desc": "Навык охватывает разрешения на основе ресурсов AWS и их взаимодействие с разрешениями идентификационных сущностей для предоставления или ограничения доступа к сервису."
+        },
+        "ko": {
+          "name": "리소스 정책",
+          "desc": "AWS 리소스 기반 권한으로 액세스를 허용하거나 제한하고 대상 서비스의 자격 증명 기반 권한과의 상호 작용을 평가하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Políticas de recursos",
+          "desc": "Abrange permissões baseadas em recursos AWS e sua interação com permissões de identidade para conceder ou restringir acesso ao serviço correspondente."
+        }
+      }
+    },
+    {
+      "key": "aws/iam_role_assumption",
+      "slug": "iam_role_assumption",
+      "name": "IAM Role Assumption",
+      "desc": "IAM role assumption covers configuring role trust and permissions, obtaining temporary credentials with STS, and distinguishing permission to assume a role from permission to act in its session.",
+      "i18n": {
+        "zh": {
+          "name": "IAM 角色代入",
+          "desc": "涵盖配置角色信任关系和权限、通过 STS 获取临时凭证，并区分代入角色的权限与角色会话中的操作权限。"
+        },
+        "es": {
+          "name": "Asunción de roles de IAM",
+          "desc": "Abarca confianza y permisos de roles, credenciales temporales mediante STS y la distinción entre asumir un rol y actuar dentro de su sesión."
+        },
+        "fr": {
+          "name": "Prise de rôle IAM",
+          "desc": "Cette compétence couvre la confiance et les permissions des rôles, les identifiants temporaires STS et la distinction entre assumer un rôle et agir dans sa session."
+        },
+        "de": {
+          "name": "IAM-Rollenübernahme",
+          "desc": "Diese Fähigkeit umfasst Rollenvertrauen und Berechtigungen, temporäre STS-Anmeldeinformationen sowie die Unterscheidung zwischen Rollenübernahme und Aktionen innerhalb der Rollensitzung."
+        },
+        "ja": {
+          "name": "IAM ロールの引き受け",
+          "desc": "ロールの信頼と権限の設定、STS による一時認証情報の取得、およびロールを引き受ける権限とセッション内で操作する権限の区別を扱います。"
+        },
+        "ru": {
+          "name": "Принятие ролей IAM",
+          "desc": "Навык охватывает доверие и разрешения ролей, временные учётные данные STS и различие между разрешением принять роль и действиями в её сеансе."
+        },
+        "ko": {
+          "name": "IAM 역할 수임",
+          "desc": "역할 신뢰와 권한 구성, STS 임시 자격 증명 획득, 역할 수임 권한과 역할 세션 내 작업 권한의 구분을 다룹니다."
+        },
+        "pt": {
+          "name": "Assunção de funções IAM",
+          "desc": "Abrange confiança e permissões de funções, credenciais temporárias via STS e a distinção entre assumir uma função e agir em sua sessão."
+        }
+      }
+    },
+    {
+      "key": "aws/iam_access_diagnosis",
+      "slug": "iam_access_diagnosis",
+      "name": "IAM Access Diagnosis",
+      "desc": "IAM access diagnosis covers identifying the active principal and tracing failed AWS requests to applicable action, resource, condition, trust, and denial constraints without unnecessarily expanding permissions.",
+      "i18n": {
+        "zh": {
+          "name": "IAM 访问诊断",
+          "desc": "涵盖识别当前主体，依据操作、资源、条件、信任关系和拒绝约束排查失败的 AWS 请求，避免不必要地扩大权限。"
+        },
+        "es": {
+          "name": "Diagnóstico de acceso en IAM",
+          "desc": "Permite identificar la entidad principal activa y diagnosticar solicitudes fallidas mediante acciones, recursos, condiciones, confianza y denegaciones, sin ampliar permisos innecesariamente."
+        },
+        "fr": {
+          "name": "Diagnostic des accès IAM",
+          "desc": "Cette compétence couvre l’identification du principal actif et le diagnostic des requêtes échouées selon les actions, ressources, conditions, relations de confiance et refus, sans élargir inutilement les droits."
+        },
+        "de": {
+          "name": "IAM-Zugriffsdiagnose",
+          "desc": "Diese Fähigkeit umfasst die Ermittlung des aktiven Principals und die Diagnose fehlgeschlagener Anfragen anhand von Aktionen, Ressourcen, Bedingungen, Vertrauen und Verweigerungen ohne unnötige Rechteausweitung."
+        },
+        "ja": {
+          "name": "IAM アクセス診断",
+          "desc": "現在のプリンシパルを特定し、アクション、リソース、条件、信頼、拒否の制約から失敗したリクエストを診断し、不要な権限拡大を避ける能力を扱います。"
+        },
+        "ru": {
+          "name": "Диагностика доступа IAM",
+          "desc": "Навык охватывает определение действующего субъекта и диагностику неудачных запросов по действиям, ресурсам, условиям, доверию и запретам без ненужного расширения прав."
+        },
+        "ko": {
+          "name": "IAM 액세스 진단",
+          "desc": "현재 보안 주체를 식별하고 작업, 리소스, 조건, 신뢰와 거부 제약에 따라 실패한 요청을 진단하며 불필요한 권한 확대를 피하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Diagnóstico de acesso IAM",
+          "desc": "Abrange identificar o principal ativo e diagnosticar solicitações falhas segundo ações, recursos, condições, confiança e negações, sem ampliar permissões desnecessariamente."
+        }
+      }
+    },
+    {
+      "key": "aws/vpc_addressing",
+      "slug": "vpc_addressing",
+      "name": "VPC Addressing",
+      "desc": "VPC addressing covers configuring VPC and subnet CIDR ranges, subnet placement, and address allocation while avoiding overlapping address space.",
+      "i18n": {
+        "zh": {
+          "name": "VPC 地址规划",
+          "desc": "涵盖配置 VPC 和子网的 CIDR 范围、子网位置及地址分配，并避免地址空间重叠。"
+        },
+        "es": {
+          "name": "Direccionamiento de VPC",
+          "desc": "Abarca rangos CIDR de VPC y subredes, ubicación de subredes y asignación de direcciones, evitando espacios de direcciones superpuestos."
+        },
+        "fr": {
+          "name": "Adressage VPC",
+          "desc": "Cette compétence couvre les plages CIDR des VPC et sous-réseaux, leur emplacement et l’attribution des adresses, en évitant les chevauchements."
+        },
+        "de": {
+          "name": "VPC-Adressierung",
+          "desc": "Diese Fähigkeit umfasst CIDR-Bereiche für VPCs und Subnetze, Subnetzplatzierung und Adressvergabe unter Vermeidung überlappender Adressräume."
+        },
+        "ja": {
+          "name": "VPC アドレス設計",
+          "desc": "VPC とサブネットの CIDR 範囲、サブネットの配置、アドレス割り当てを設定し、アドレス空間の重複を避ける能力を扱います。"
+        },
+        "ru": {
+          "name": "Адресация VPC",
+          "desc": "Навык охватывает диапазоны CIDR VPC и подсетей, размещение подсетей и выделение адресов без пересечения адресных пространств."
+        },
+        "ko": {
+          "name": "VPC 주소 지정",
+          "desc": "VPC와 서브넷의 CIDR 범위, 서브넷 배치와 주소 할당을 구성하고 주소 공간 중복을 방지하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Endereçamento de VPC",
+          "desc": "Abrange intervalos CIDR de VPCs e sub-redes, localização de sub-redes e atribuição de endereços, evitando sobreposição de espaços de endereços."
+        }
+      }
+    },
+    {
+      "key": "aws/vpc_routing",
+      "slug": "vpc_routing",
+      "name": "VPC Routing",
+      "desc": "VPC routing covers configuring route tables, subnet associations, and internet gateway paths and checking the address and routing conditions needed for connectivity.",
+      "i18n": {
+        "zh": {
+          "name": "VPC 路由",
+          "desc": "涵盖配置路由表、子网关联和互联网网关路径，并检查连接所需的地址与路由条件。"
+        },
+        "es": {
+          "name": "Enrutamiento de VPC",
+          "desc": "Abarca tablas de rutas, asociaciones de subredes y rutas mediante puertas de enlace de Internet, verificando las condiciones de direccionamiento y enrutamiento necesarias."
+        },
+        "fr": {
+          "name": "Routage VPC",
+          "desc": "Cette compétence couvre les tables de routage, associations de sous-réseaux et chemins via une passerelle Internet, ainsi que les conditions d’adressage et de routage nécessaires."
+        },
+        "de": {
+          "name": "VPC-Routing",
+          "desc": "Diese Fähigkeit umfasst Routingtabellen, Subnetzzuordnungen und Internet-Gateway-Pfade sowie die Prüfung erforderlicher Adressierungs- und Routingbedingungen."
+        },
+        "ja": {
+          "name": "VPC ルーティング",
+          "desc": "ルートテーブル、サブネットの関連付け、インターネットゲートウェイへの経路を設定し、接続に必要なアドレスと経路の条件を確認する能力を扱います。"
+        },
+        "ru": {
+          "name": "Маршрутизация VPC",
+          "desc": "Навык охватывает таблицы маршрутов, привязки подсетей и пути через интернет-шлюзы, а также проверку адресных и маршрутных условий соединения."
+        },
+        "ko": {
+          "name": "VPC 라우팅",
+          "desc": "라우팅 테이블, 서브넷 연결과 인터넷 게이트웨이 경로를 구성하고 연결에 필요한 주소 및 라우팅 조건을 확인하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Roteamento de VPC",
+          "desc": "Abrange tabelas de rotas, associações de sub-redes e caminhos por gateways de internet, verificando os requisitos de endereçamento e roteamento para conectividade."
+        }
+      }
+    },
+    {
+      "key": "aws/vpc_security_groups",
+      "slug": "vpc_security_groups",
+      "name": "VPC Security Groups",
+      "desc": "VPC security groups cover configuring stateful ingress and egress rules for required traffic and evaluating source, destination, and security group references.",
+      "i18n": {
+        "zh": {
+          "name": "VPC 安全组",
+          "desc": "涵盖为所需流量配置有状态的入站与出站规则，并评估来源、目标和安全组引用。"
+        },
+        "es": {
+          "name": "Grupos de seguridad de VPC",
+          "desc": "Abarca reglas de entrada y salida con estado para el tráfico requerido y la evaluación de orígenes, destinos y referencias a grupos de seguridad."
+        },
+        "fr": {
+          "name": "Groupes de sécurité VPC",
+          "desc": "Cette compétence couvre les règles entrantes et sortantes avec suivi d’état, ainsi que les sources, destinations et références à des groupes de sécurité."
+        },
+        "de": {
+          "name": "VPC-Sicherheitsgruppen",
+          "desc": "Diese Fähigkeit umfasst zustandsbehaftete Regeln für eingehenden und ausgehenden Verkehr sowie die Bewertung von Quellen, Zielen und Sicherheitsgruppenreferenzen."
+        },
+        "ja": {
+          "name": "VPC セキュリティグループ",
+          "desc": "必要な通信のためのステートフルなインバウンド・アウトバウンドルールと、送信元、宛先、セキュリティグループ参照の評価を扱います。"
+        },
+        "ru": {
+          "name": "Группы безопасности VPC",
+          "desc": "Навык охватывает правила входящего и исходящего трафика с учётом состояния, а также источники, назначения и ссылки на группы безопасности."
+        },
+        "ko": {
+          "name": "VPC 보안 그룹",
+          "desc": "필요한 트래픽에 대해 상태 저장 인바운드 및 아웃바운드 규칙을 구성하고 출발지, 목적지와 보안 그룹 참조를 평가하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Grupos de segurança de VPC",
+          "desc": "Abrange regras de entrada e saída com estado para o tráfego necessário e avaliação de origens, destinos e referências a grupos de segurança."
+        }
+      }
+    },
+    {
+      "key": "aws/vpc_network_acls",
+      "slug": "vpc_network_acls",
+      "name": "VPC Network ACLs",
+      "desc": "VPC network ACLs cover configuring ordered stateless subnet rules and accounting for both request and return traffic when diagnosing allowed and denied connections.",
+      "i18n": {
+        "zh": {
+          "name": "VPC 网络 ACL",
+          "desc": "涵盖配置有顺序的无状态子网规则，并在排查允许或拒绝的连接时同时考虑请求流量和返回流量。"
+        },
+        "es": {
+          "name": "ACL de red de VPC",
+          "desc": "Abarca reglas ordenadas sin estado para subredes y el análisis del tráfico de ida y retorno al diagnosticar conexiones permitidas o denegadas."
+        },
+        "fr": {
+          "name": "ACL réseau VPC",
+          "desc": "Cette compétence couvre les règles ordonnées sans suivi d’état des sous-réseaux et l’analyse du trafic aller et retour pour diagnostiquer les connexions autorisées ou refusées."
+        },
+        "de": {
+          "name": "VPC-Netzwerk-ACLs",
+          "desc": "Diese Fähigkeit umfasst geordnete zustandslose Subnetzregeln und die Berücksichtigung von Anfrage- und Rückverkehr bei der Diagnose erlaubter und verweigerter Verbindungen."
+        },
+        "ja": {
+          "name": "VPC ネットワーク ACL",
+          "desc": "順序付きのステートレスなサブネットルールを設定し、許可・拒否される接続の診断で往路と復路の両方を考慮する能力を扱います。"
+        },
+        "ru": {
+          "name": "Сетевые ACL VPC",
+          "desc": "Навык охватывает упорядоченные правила подсетей без учёта состояния и анализ прямого и обратного трафика при диагностике разрешённых и запрещённых соединений."
+        },
+        "ko": {
+          "name": "VPC 네트워크 ACL",
+          "desc": "순서가 있는 상태 비저장 서브넷 규칙을 구성하고 허용 및 거부 연결을 진단할 때 요청과 반환 트래픽을 모두 고려하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "ACLs de rede de VPC",
+          "desc": "Abrange regras ordenadas sem estado para sub-redes e análise do tráfego de ida e volta ao diagnosticar conexões permitidas ou negadas."
+        }
+      }
+    },
+    {
+      "key": "aws/vpc_nat_access",
+      "slug": "vpc_nat_access",
+      "name": "VPC NAT Access",
+      "desc": "VPC NAT access covers configuring NAT gateways and private subnet routes for outbound connectivity without exposing private workloads to unsolicited inbound connections.",
+      "i18n": {
+        "zh": {
+          "name": "VPC NAT 访问",
+          "desc": "涵盖配置 NAT 网关和私有子网路由以实现出站连接，同时避免私有工作负载被未经请求的入站连接访问。"
+        },
+        "es": {
+          "name": "Acceso NAT de VPC",
+          "desc": "Abarca puertas de enlace NAT y rutas de subredes privadas para conexiones salientes, sin exponer cargas privadas a conexiones entrantes no solicitadas."
+        },
+        "fr": {
+          "name": "Accès NAT VPC",
+          "desc": "Cette compétence couvre les passerelles NAT et routes privées pour les connexions sortantes, sans exposer les charges privées aux connexions entrantes non sollicitées."
+        },
+        "de": {
+          "name": "VPC-NAT-Zugriff",
+          "desc": "Diese Fähigkeit umfasst NAT-Gateways und private Subnetzrouten für ausgehende Verbindungen, ohne private Workloads für unaufgeforderte eingehende Verbindungen freizugeben."
+        },
+        "ja": {
+          "name": "VPC NAT アクセス",
+          "desc": "NAT ゲートウェイとプライベートサブネットの経路を設定し、未要求のインバウンド接続にワークロードを公開せずにアウトバウンド接続を実現する能力を扱います。"
+        },
+        "ru": {
+          "name": "Доступ через NAT в VPC",
+          "desc": "Навык охватывает NAT-шлюзы и маршруты частных подсетей для исходящих соединений без открытия частных нагрузок для незапрошенных входящих подключений."
+        },
+        "ko": {
+          "name": "VPC NAT 액세스",
+          "desc": "NAT 게이트웨이와 프라이빗 서브넷 경로로 아웃바운드 연결을 구성하되 요청하지 않은 인바운드 연결에 워크로드를 노출하지 않는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Acesso NAT de VPC",
+          "desc": "Abrange gateways NAT e rotas privadas para conexões de saída, sem expor cargas privadas a conexões de entrada não solicitadas."
+        }
+      }
+    },
+    {
+      "key": "aws/vpc_endpoints",
+      "slug": "vpc_endpoints",
+      "name": "VPC Endpoints",
+      "desc": "VPC endpoints cover configuring private service access through gateway or interface endpoints and evaluating the applicable routes, DNS settings, security controls, and endpoint policies.",
+      "i18n": {
+        "zh": {
+          "name": "VPC 端点",
+          "desc": "涵盖通过网关端点或接口端点配置私有服务访问，并评估相关路由、DNS 设置、安全控制和端点策略。"
+        },
+        "es": {
+          "name": "Endpoints de VPC",
+          "desc": "Abarca acceso privado mediante endpoints de puerta de enlace o interfaz y la evaluación de rutas, DNS, controles de seguridad y políticas de endpoint."
+        },
+        "fr": {
+          "name": "Points de terminaison VPC",
+          "desc": "Cette compétence couvre l’accès privé par passerelle ou interface, ainsi que les routes, paramètres DNS, contrôles de sécurité et politiques des points de terminaison."
+        },
+        "de": {
+          "name": "VPC-Endpunkte",
+          "desc": "Diese Fähigkeit umfasst privaten Dienstzugriff über Gateway- oder Schnittstellenendpunkte sowie die Bewertung von Routen, DNS, Sicherheitskontrollen und Endpunktrichtlinien."
+        },
+        "ja": {
+          "name": "VPC エンドポイント",
+          "desc": "ゲートウェイ型またはインターフェイス型エンドポイントによるプライベートアクセスと、経路、DNS、セキュリティ制御、エンドポイントポリシーの評価を扱います。"
+        },
+        "ru": {
+          "name": "Конечные точки VPC",
+          "desc": "Навык охватывает частный доступ через шлюзовые или интерфейсные конечные точки и оценку маршрутов, DNS, защитных механизмов и политик доступа."
+        },
+        "ko": {
+          "name": "VPC 엔드포인트",
+          "desc": "게이트웨이 또는 인터페이스 엔드포인트를 통한 프라이빗 서비스 액세스와 경로, DNS, 보안 제어 및 엔드포인트 정책 평가를 다룹니다."
+        },
+        "pt": {
+          "name": "Endpoints de VPC",
+          "desc": "Abrange acesso privado por endpoints de gateway ou interface e avaliação de rotas, DNS, controles de segurança e políticas de endpoint."
+        }
+      }
+    },
+    {
+      "key": "aws/ec2_instance_lifecycle",
+      "slug": "ec2_instance_lifecycle",
+      "name": "EC2 Instance Lifecycle",
+      "desc": "EC2 instance lifecycle covers selecting AMIs and instance types, launching and inspecting instances, and managing stop, start, termination, and address associations.",
+      "i18n": {
+        "zh": {
+          "name": "EC2 实例生命周期",
+          "desc": "涵盖选择 AMI 和实例类型、启动和检查实例，以及管理停止、启动、终止和地址关联。"
+        },
+        "es": {
+          "name": "Ciclo de vida de instancias EC2",
+          "desc": "Abarca AMI, tipos de instancia, lanzamiento e inspección, además de detención, inicio, terminación y asociaciones de direcciones."
+        },
+        "fr": {
+          "name": "Cycle de vie des instances EC2",
+          "desc": "Cette compétence couvre les AMI, types d’instance, lancement et inspection, ainsi que l’arrêt, le démarrage, la terminaison et les associations d’adresses."
+        },
+        "de": {
+          "name": "EC2-Instance-Lebenszyklus",
+          "desc": "Diese Fähigkeit umfasst AMIs, Instance-Typen, Start und Prüfung sowie Anhalten, erneutes Starten, Beenden und Adresszuordnungen."
+        },
+        "ja": {
+          "name": "EC2 インスタンスのライフサイクル",
+          "desc": "AMI とインスタンスタイプの選択、起動と確認、停止、開始、終了、およびアドレスの関連付けを扱います。"
+        },
+        "ru": {
+          "name": "Жизненный цикл экземпляров EC2",
+          "desc": "Навык охватывает выбор AMI и типов экземпляров, запуск и проверку, остановку, повторный запуск, завершение и привязки адресов."
+        },
+        "ko": {
+          "name": "EC2 인스턴스 수명 주기",
+          "desc": "AMI와 인스턴스 유형 선택, 인스턴스 시작과 확인, 중지된 인스턴스 시작, 종료와 주소 연결 관리를 다룹니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida de instâncias EC2",
+          "desc": "Abrange escolher AMIs e tipos de instância, iniciar e inspecionar instâncias e gerenciar parada, início, encerramento e associações de endereços."
+        }
+      }
+    },
+    {
+      "key": "aws/ec2_bootstrapping",
+      "slug": "ec2_bootstrapping",
+      "name": "EC2 Bootstrapping",
+      "desc": "EC2 bootstrapping covers configuring instance initialization with user data and diagnosing whether the intended workload configuration is applied when an instance launches.",
+      "i18n": {
+        "zh": {
+          "name": "EC2 启动初始化",
+          "desc": "涵盖使用用户数据配置实例初始化，并排查实例启动时是否应用了预期的工作负载配置。"
+        },
+        "es": {
+          "name": "Inicialización de EC2",
+          "desc": "Abarca la inicialización de instancias mediante datos de usuario y el diagnóstico de la configuración de cargas aplicada al iniciarse."
+        },
+        "fr": {
+          "name": "Initialisation EC2",
+          "desc": "Cette compétence couvre l’initialisation par les données utilisateur et le diagnostic de la configuration appliquée aux charges lors du lancement d’une instance."
+        },
+        "de": {
+          "name": "EC2-Initialisierung",
+          "desc": "Diese Fähigkeit umfasst die Instance-Initialisierung mit Benutzerdaten und die Diagnose, ob beim Start die vorgesehene Workload-Konfiguration angewendet wird."
+        },
+        "ja": {
+          "name": "EC2 起動時の初期化",
+          "desc": "ユーザーデータによるインスタンスの初期化と、起動時に意図したワークロード設定が適用されたかの診断を扱います。"
+        },
+        "ru": {
+          "name": "Инициализация EC2",
+          "desc": "Навык охватывает инициализацию экземпляров через пользовательские данные и диагностику применения ожидаемой конфигурации нагрузки при запуске."
+        },
+        "ko": {
+          "name": "EC2 시작 초기화",
+          "desc": "사용자 데이터로 인스턴스를 초기화하고 시작 시 의도한 워크로드 구성이 적용되는지 진단하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Inicialização do EC2",
+          "desc": "Abrange inicializar instâncias com dados do usuário e diagnosticar se a configuração esperada da carga é aplicada no lançamento."
+        }
+      }
+    },
+    {
+      "key": "aws/ec2_instance_profiles",
+      "slug": "ec2_instance_profiles",
+      "name": "EC2 Instance Profiles",
+      "desc": "EC2 instance profiles cover attaching IAM roles to instances and enabling workloads to obtain temporary credentials rather than embedding long-term access keys.",
+      "i18n": {
+        "zh": {
+          "name": "EC2 实例配置文件",
+          "desc": "涵盖通过实例配置文件为实例关联 IAM 角色，使工作负载获取临时凭证，而非嵌入长期访问密钥。"
+        },
+        "es": {
+          "name": "Perfiles de instancia EC2",
+          "desc": "Abarca la asociación de roles de IAM a instancias para que las cargas obtengan credenciales temporales en lugar de incorporar claves de acceso permanentes."
+        },
+        "fr": {
+          "name": "Profils d’instance EC2",
+          "desc": "Cette compétence couvre l’association de rôles IAM aux instances pour fournir des identifiants temporaires aux charges plutôt que des clés d’accès permanentes intégrées."
+        },
+        "de": {
+          "name": "EC2-Instance-Profile",
+          "desc": "Diese Fähigkeit umfasst die Zuweisung von IAM-Rollen zu Instances, damit Workloads temporäre Anmeldeinformationen statt eingebetteter dauerhafter Zugriffsschlüssel erhalten."
+        },
+        "ja": {
+          "name": "EC2 インスタンスプロファイル",
+          "desc": "IAM ロールをインスタンスに関連付け、長期アクセスキーを埋め込まずにワークロードが一時認証情報を取得する能力を扱います。"
+        },
+        "ru": {
+          "name": "Профили экземпляров EC2",
+          "desc": "Навык охватывает присоединение ролей IAM к экземплярам, чтобы нагрузки получали временные учётные данные вместо встроенных постоянных ключей доступа."
+        },
+        "ko": {
+          "name": "EC2 인스턴스 프로파일",
+          "desc": "IAM 역할을 인스턴스에 연결해 워크로드가 장기 액세스 키를 포함하는 대신 임시 자격 증명을 받도록 하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Perfis de instância EC2",
+          "desc": "Abrange associar funções IAM a instâncias para fornecer credenciais temporárias às cargas em vez de incorporar chaves de acesso permanentes."
+        }
+      }
+    },
+    {
+      "key": "aws/ebs_volume_management",
+      "slug": "ebs_volume_management",
+      "name": "EBS Volume Management",
+      "desc": "EBS volume management covers creating, attaching, detaching, and deleting block volumes while accounting for Availability Zone placement and instance termination settings.",
+      "i18n": {
+        "zh": {
+          "name": "EBS 卷管理",
+          "desc": "涵盖创建、附加、分离和删除块存储卷，并考虑可用区位置及实例终止时的卷处理设置。"
+        },
+        "es": {
+          "name": "Gestión de volúmenes EBS",
+          "desc": "Abarca creación, conexión, desconexión y eliminación de volúmenes de bloques, considerando su zona de disponibilidad y el comportamiento al terminar la instancia."
+        },
+        "fr": {
+          "name": "Gestion des volumes EBS",
+          "desc": "Cette compétence couvre la création, l’attachement, le détachement et la suppression de volumes bloc, selon leur zone de disponibilité et les paramètres de terminaison de l’instance."
+        },
+        "de": {
+          "name": "EBS-Volume-Verwaltung",
+          "desc": "Diese Fähigkeit umfasst Erstellen, Anhängen, Trennen und Löschen von Block-Volumes unter Berücksichtigung der Verfügbarkeitszone und der Einstellungen beim Beenden von Instances."
+        },
+        "ja": {
+          "name": "EBS ボリューム管理",
+          "desc": "ブロックボリュームの作成、アタッチ、デタッチ、削除と、アベイラビリティーゾーンおよびインスタンス終了時の設定の考慮を扱います。"
+        },
+        "ru": {
+          "name": "Управление томами EBS",
+          "desc": "Навык охватывает создание, подключение, отключение и удаление блочных томов с учётом зоны доступности и настроек при завершении экземпляра."
+        },
+        "ko": {
+          "name": "EBS 볼륨 관리",
+          "desc": "블록 볼륨 생성, 연결, 분리와 삭제를 다루며 가용 영역 배치와 인스턴스 종료 시 설정을 고려합니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de volumes EBS",
+          "desc": "Abrange criar, anexar, desanexar e excluir volumes de blocos, considerando a zona de disponibilidade e as configurações de encerramento da instância."
+        }
+      }
+    },
+    {
+      "key": "aws/ebs_snapshot_recovery",
+      "slug": "ebs_snapshot_recovery",
+      "name": "EBS Snapshot Recovery",
+      "desc": "EBS snapshot recovery covers creating snapshots and restoring independent volumes, validating recovered data, and accounting for application consistency at snapshot time.",
+      "i18n": {
+        "zh": {
+          "name": "EBS 快照恢复",
+          "desc": "涵盖创建快照、恢复独立卷、验证恢复的数据，并考虑快照时的应用一致性。"
+        },
+        "es": {
+          "name": "Recuperación de instantáneas EBS",
+          "desc": "Abarca crear instantáneas, restaurar volúmenes independientes y validar datos, considerando la coherencia de la aplicación al tomar la instantánea."
+        },
+        "fr": {
+          "name": "Restauration par instantanés EBS",
+          "desc": "Cette compétence couvre les instantanés, la restauration de volumes indépendants et la validation des données, en tenant compte de la cohérence applicative à la capture."
+        },
+        "de": {
+          "name": "EBS-Snapshot-Wiederherstellung",
+          "desc": "Diese Fähigkeit umfasst Snapshots, die Wiederherstellung unabhängiger Volumes und Datenprüfung unter Berücksichtigung der Anwendungskonsistenz zum Aufnahmezeitpunkt."
+        },
+        "ja": {
+          "name": "EBS スナップショット復元",
+          "desc": "スナップショット作成、独立したボリュームへの復元、データ検証、および取得時のアプリケーション整合性の考慮を扱います。"
+        },
+        "ru": {
+          "name": "Восстановление из снимков EBS",
+          "desc": "Навык охватывает снимки, восстановление независимых томов и проверку данных с учётом согласованности приложения на момент создания снимка."
+        },
+        "ko": {
+          "name": "EBS 스냅샷 복구",
+          "desc": "스냅샷 생성, 독립된 볼륨 복원과 데이터 검증을 다루며 스냅샷 시점의 애플리케이션 일관성을 고려합니다."
+        },
+        "pt": {
+          "name": "Recuperação de snapshots EBS",
+          "desc": "Abrange criar snapshots, restaurar volumes independentes e validar dados, considerando a consistência da aplicação no momento da captura."
+        }
+      }
+    },
+    {
+      "key": "aws/alb_request_routing",
+      "slug": "alb_request_routing",
+      "name": "ALB Request Routing",
+      "desc": "ALB request routing covers configuring listeners, listener rules, target groups, and target registration to deliver application requests to the intended backends.",
+      "i18n": {
+        "zh": {
+          "name": "ALB 请求路由",
+          "desc": "涵盖配置监听器、监听器规则、目标组及目标注册，将应用请求送达指定后端。"
+        },
+        "es": {
+          "name": "Enrutamiento de solicitudes en ALB",
+          "desc": "Abarca listeners, reglas, grupos de destino y registro de destinos para dirigir solicitudes de aplicaciones a los backends previstos."
+        },
+        "fr": {
+          "name": "Routage des requêtes ALB",
+          "desc": "Cette compétence couvre les écouteurs, règles, groupes cibles et enregistrements de cibles pour acheminer les requêtes vers les services dorsaux prévus."
+        },
+        "de": {
+          "name": "ALB-Anfragerouting",
+          "desc": "Diese Fähigkeit umfasst Listener, Listener-Regeln, Zielgruppen und Zielregistrierung zur Weiterleitung von Anwendungsanfragen an die vorgesehenen Backends."
+        },
+        "ja": {
+          "name": "ALB リクエストルーティング",
+          "desc": "リスナー、リスナールール、ターゲットグループ、ターゲット登録を設定し、意図したバックエンドにリクエストを届ける能力を扱います。"
+        },
+        "ru": {
+          "name": "Маршрутизация запросов ALB",
+          "desc": "Навык охватывает слушатели, правила, целевые группы и регистрацию целей для доставки запросов нужным серверным компонентам."
+        },
+        "ko": {
+          "name": "ALB 요청 라우팅",
+          "desc": "리스너, 리스너 규칙, 대상 그룹과 대상 등록을 구성해 애플리케이션 요청을 의도한 백엔드로 전달하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Roteamento de solicitações ALB",
+          "desc": "Abrange listeners, regras, grupos de destino e registro de destinos para encaminhar solicitações aos backends previstos."
+        }
+      }
+    },
+    {
+      "key": "aws/alb_health_checks",
+      "slug": "alb_health_checks",
+      "name": "ALB Health Checks",
+      "desc": "ALB health checks cover configuring target checks, interpreting target health and reason codes, and diagnosing how health status affects request routing.",
+      "i18n": {
+        "zh": {
+          "name": "ALB 健康检查",
+          "desc": "涵盖配置目标健康检查、解读健康状态与原因代码，以及诊断健康状态如何影响请求路由。"
+        },
+        "es": {
+          "name": "Comprobaciones de estado de ALB",
+          "desc": "Abarca la configuración de comprobaciones, la interpretación del estado y códigos de motivo de destinos y su efecto en el enrutamiento."
+        },
+        "fr": {
+          "name": "Contrôles d’intégrité ALB",
+          "desc": "Cette compétence couvre les contrôles des cibles, l’interprétation de leur état et des codes de motif, ainsi que leurs effets sur le routage."
+        },
+        "de": {
+          "name": "ALB-Zustandsprüfungen",
+          "desc": "Diese Fähigkeit umfasst Zielprüfungen, Interpretation von Zustands- und Ursachencodes sowie die Diagnose ihrer Auswirkungen auf das Anfragerouting."
+        },
+        "ja": {
+          "name": "ALB ヘルスチェック",
+          "desc": "ターゲットのチェック設定、ヘルス状態と理由コードの解釈、およびヘルス状態がルーティングに与える影響の診断を扱います。"
+        },
+        "ru": {
+          "name": "Проверки работоспособности ALB",
+          "desc": "Навык охватывает настройку проверок целей, интерпретацию состояния и кодов причин и диагностику влияния состояния на маршрутизацию."
+        },
+        "ko": {
+          "name": "ALB 상태 확인",
+          "desc": "대상 상태 확인 구성, 상태와 이유 코드 해석, 상태가 요청 라우팅에 미치는 영향 진단을 다룹니다."
+        },
+        "pt": {
+          "name": "Verificações de integridade ALB",
+          "desc": "Abrange configurar verificações, interpretar a integridade e os códigos de motivo dos destinos e diagnosticar seus efeitos no roteamento."
+        }
+      }
+    },
+    {
+      "key": "aws/auto_scaling_capacity",
+      "slug": "auto_scaling_capacity",
+      "name": "EC2 Auto Scaling Capacity",
+      "desc": "EC2 Auto Scaling capacity covers configuring launch templates and group capacity bounds and evaluating instance replacement and load balancer registration.",
+      "i18n": {
+        "zh": {
+          "name": "EC2 Auto Scaling 容量",
+          "desc": "涵盖配置启动模板和组容量上下限，并评估实例替换与负载均衡器注册行为。"
+        },
+        "es": {
+          "name": "Capacidad de EC2 Auto Scaling",
+          "desc": "Abarca plantillas de lanzamiento, límites de capacidad del grupo y la evaluación de sustituciones de instancias y registro en balanceadores."
+        },
+        "fr": {
+          "name": "Capacité EC2 Auto Scaling",
+          "desc": "Cette compétence couvre les modèles de lancement et limites de capacité des groupes, ainsi que le remplacement d’instances et l’enregistrement auprès des équilibreurs."
+        },
+        "de": {
+          "name": "EC2-Auto-Scaling-Kapazität",
+          "desc": "Diese Fähigkeit umfasst Startvorlagen und Gruppenkapazitätsgrenzen sowie die Bewertung von Instance-Ersatz und Registrierung bei Load Balancern."
+        },
+        "ja": {
+          "name": "EC2 Auto Scaling キャパシティ",
+          "desc": "起動テンプレートとグループの容量制限の設定、インスタンスの置き換え、およびロードバランサーへの登録の評価を扱います。"
+        },
+        "ru": {
+          "name": "Ёмкость EC2 Auto Scaling",
+          "desc": "Навык охватывает шаблоны запуска, границы ёмкости групп, замену экземпляров и регистрацию в балансировщиках нагрузки."
+        },
+        "ko": {
+          "name": "EC2 Auto Scaling 용량",
+          "desc": "시작 템플릿과 그룹 용량 한계를 구성하고 인스턴스 교체 및 로드 밸런서 등록을 평가하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Capacidade do EC2 Auto Scaling",
+          "desc": "Abrange modelos de execução, limites de capacidade dos grupos e avaliação de substituição de instâncias e registro em balanceadores de carga."
+        }
+      }
+    },
+    {
+      "key": "aws/auto_scaling_policies",
+      "slug": "auto_scaling_policies",
+      "name": "EC2 Auto Scaling Policies",
+      "desc": "EC2 Auto Scaling policies cover configuring and evaluating scaling actions, their triggers, and capacity bounds while distinguishing manual execution from metric-driven scaling.",
+      "i18n": {
+        "zh": {
+          "name": "EC2 Auto Scaling 策略",
+          "desc": "涵盖配置和评估扩缩容操作、触发条件及容量边界，并区分手动执行与指标驱动的扩缩容。"
+        },
+        "es": {
+          "name": "Políticas de EC2 Auto Scaling",
+          "desc": "Abarca acciones de escalado, desencadenantes y límites de capacidad, distinguiendo ejecución manual de escalado basado en métricas."
+        },
+        "fr": {
+          "name": "Politiques EC2 Auto Scaling",
+          "desc": "Cette compétence couvre les actions de mise à l’échelle, déclencheurs et limites de capacité, en distinguant exécution manuelle et pilotage par métriques."
+        },
+        "de": {
+          "name": "EC2-Auto-Scaling-Richtlinien",
+          "desc": "Diese Fähigkeit umfasst Skalierungsaktionen, Auslöser und Kapazitätsgrenzen sowie die Unterscheidung manueller Ausführung und metrikgesteuerter Skalierung."
+        },
+        "ja": {
+          "name": "EC2 Auto Scaling ポリシー",
+          "desc": "スケーリング処理、トリガー、容量制限の設定と評価、および手動実行とメトリクス駆動のスケーリングの区別を扱います。"
+        },
+        "ru": {
+          "name": "Политики EC2 Auto Scaling",
+          "desc": "Навык охватывает действия масштабирования, их триггеры и границы ёмкости, отличая ручное выполнение от масштабирования по метрикам."
+        },
+        "ko": {
+          "name": "EC2 Auto Scaling 정책",
+          "desc": "조정 작업, 트리거와 용량 한계를 구성하고 평가하며 수동 실행과 지표 기반 조정을 구분하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Políticas do EC2 Auto Scaling",
+          "desc": "Abrange ações de escalabilidade, acionadores e limites de capacidade, distinguindo execução manual de escalabilidade orientada por métricas."
+        }
+      }
+    },
+    {
+      "key": "aws/rds_instance_configuration",
+      "slug": "rds_instance_configuration",
+      "name": "RDS Instance Configuration",
+      "desc": "RDS instance configuration covers provisioning database instances and configuring engine settings, subnet groups, endpoints, and connectivity for application access.",
+      "i18n": {
+        "zh": {
+          "name": "RDS 实例配置",
+          "desc": "涵盖创建数据库实例，配置引擎设置、子网组、端点及应用访问所需的连接。"
+        },
+        "es": {
+          "name": "Configuración de instancias RDS",
+          "desc": "Abarca aprovisionar instancias de base de datos y configurar el motor, grupos de subredes, endpoints y conectividad para aplicaciones."
+        },
+        "fr": {
+          "name": "Configuration des instances RDS",
+          "desc": "Cette compétence couvre le provisionnement d’instances de base de données, le moteur, les groupes de sous-réseaux, les points de terminaison et la connectivité applicative."
+        },
+        "de": {
+          "name": "RDS-Instance-Konfiguration",
+          "desc": "Diese Fähigkeit umfasst die Bereitstellung von Datenbank-Instances sowie Engine-Einstellungen, Subnetzgruppen, Endpunkte und Konnektivität für Anwendungen."
+        },
+        "ja": {
+          "name": "RDS インスタンス設定",
+          "desc": "データベースインスタンスの作成と、エンジン、サブネットグループ、エンドポイント、アプリケーション接続の設定を扱います。"
+        },
+        "ru": {
+          "name": "Настройка экземпляров RDS",
+          "desc": "Навык охватывает создание экземпляров баз данных, настройку движка, групп подсетей, конечных точек и подключений приложений."
+        },
+        "ko": {
+          "name": "RDS 인스턴스 구성",
+          "desc": "데이터베이스 인스턴스 프로비저닝과 엔진 설정, 서브넷 그룹, 엔드포인트 및 애플리케이션 연결 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Configuração de instâncias RDS",
+          "desc": "Abrange provisionar instâncias de banco de dados e configurar mecanismos, grupos de sub-redes, endpoints e conectividade para aplicações."
+        }
+      }
+    },
+    {
+      "key": "aws/rds_data_recovery",
+      "slug": "rds_data_recovery",
+      "name": "RDS Data Recovery",
+      "desc": "RDS data recovery covers configuring backups, restoring database instances from snapshots or point-in-time recovery, and validating data before redirecting application connections.",
+      "i18n": {
+        "zh": {
+          "name": "RDS 数据恢复",
+          "desc": "涵盖配置备份、通过快照或时间点恢复数据库实例，并在切换应用连接前验证数据。"
+        },
+        "es": {
+          "name": "Recuperación de datos en RDS",
+          "desc": "Abarca copias de seguridad, restauración desde instantáneas o a un momento dado y validación de datos antes de redirigir las conexiones."
+        },
+        "fr": {
+          "name": "Restauration des données RDS",
+          "desc": "Cette compétence couvre les sauvegardes, la restauration par instantané ou à un instant donné et la validation avant de rediriger les connexions applicatives."
+        },
+        "de": {
+          "name": "RDS-Datenwiederherstellung",
+          "desc": "Diese Fähigkeit umfasst Backups, Wiederherstellung aus Snapshots oder zu einem Zeitpunkt sowie Datenprüfung vor der Umleitung von Anwendungsverbindungen."
+        },
+        "ja": {
+          "name": "RDS データ復元",
+          "desc": "バックアップ設定、スナップショットまたは特定時点へのインスタンス復元、およびアプリケーション接続を切り替える前のデータ検証を扱います。"
+        },
+        "ru": {
+          "name": "Восстановление данных RDS",
+          "desc": "Навык охватывает резервные копии, восстановление экземпляров из снимков или на момент времени и проверку данных перед перенаправлением подключений."
+        },
+        "ko": {
+          "name": "RDS 데이터 복구",
+          "desc": "백업 구성, 스냅샷 또는 특정 시점으로 인스턴스 복원, 애플리케이션 연결 전환 전 데이터 검증을 다룹니다."
+        },
+        "pt": {
+          "name": "Recuperação de dados RDS",
+          "desc": "Abrange backups, restauração de instâncias por snapshots ou para um ponto no tempo e validação dos dados antes de redirecionar conexões."
+        }
+      }
+    },
+    {
+      "key": "aws/rds_read_replicas",
+      "slug": "rds_read_replicas",
+      "name": "RDS Read Replicas",
+      "desc": "RDS read replicas cover configuring replicas and directing suitable reads to replica endpoints while accounting for replication lag and distinguishing replication from Multi-AZ standby operation.",
+      "i18n": {
+        "zh": {
+          "name": "RDS 只读副本",
+          "desc": "涵盖配置副本并将适合的读取请求发送到副本端点，同时考虑复制延迟，并区分只读复制与多可用区备用实例。"
+        },
+        "es": {
+          "name": "Réplicas de lectura de RDS",
+          "desc": "Abarca configurar réplicas y dirigir lecturas apropiadas a sus endpoints, considerando el retraso de replicación y distinguiéndolas de instancias en espera Multi-AZ."
+        },
+        "fr": {
+          "name": "Réplicas en lecture RDS",
+          "desc": "Cette compétence couvre les réplicas et l’acheminement des lectures appropriées, en tenant compte du retard de réplication et de la différence avec une instance de secours Multi-AZ."
+        },
+        "de": {
+          "name": "RDS-Lesereplikate",
+          "desc": "Diese Fähigkeit umfasst Replikate und geeignete Lesezugriffe auf deren Endpunkte unter Berücksichtigung von Replikationsverzögerungen und der Abgrenzung zu Multi-AZ-Standby-Instances."
+        },
+        "ja": {
+          "name": "RDS リードレプリカ",
+          "desc": "レプリカ設定と適切な読み取りの転送、レプリケーション遅延の考慮、およびマルチ AZ スタンバイとの区別を扱います。"
+        },
+        "ru": {
+          "name": "Реплики чтения RDS",
+          "desc": "Навык охватывает настройку реплик и направление подходящих операций чтения на их конечные точки с учётом задержки репликации и отличий от резервных экземпляров Multi-AZ."
+        },
+        "ko": {
+          "name": "RDS 읽기 전용 복제본",
+          "desc": "복제본을 구성하고 적절한 읽기를 복제본 엔드포인트로 보내며 복제 지연과 다중 AZ 대기 인스턴스와의 차이를 고려하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Réplicas de leitura RDS",
+          "desc": "Abrange configurar réplicas e direcionar leituras adequadas aos seus endpoints, considerando atraso de replicação e diferenças em relação a instâncias de espera Multi-AZ."
+        }
+      }
+    },
+    {
+      "key": "aws/kms_key_management",
+      "slug": "kms_key_management",
+      "name": "KMS Key Management",
+      "desc": "KMS key management covers managing keys and aliases and configuring key policies and grants to control cryptographic use and key administration.",
+      "i18n": {
+        "zh": {
+          "name": "KMS 密钥管理",
+          "desc": "涵盖管理密钥与别名，通过密钥策略和授权控制加密操作及密钥管理权限。"
+        },
+        "es": {
+          "name": "Gestión de claves KMS",
+          "desc": "Abarca claves, alias, políticas de claves y concesiones para controlar operaciones criptográficas y administración de claves."
+        },
+        "fr": {
+          "name": "Gestion des clés KMS",
+          "desc": "Cette compétence couvre les clés, alias, politiques de clés et octrois pour contrôler l’usage cryptographique et l’administration des clés."
+        },
+        "de": {
+          "name": "KMS-Schlüsselverwaltung",
+          "desc": "Diese Fähigkeit umfasst Schlüssel, Aliasse, Schlüsselrichtlinien und Grants zur Kontrolle kryptografischer Nutzung und Schlüsseladministration."
+        },
+        "ja": {
+          "name": "KMS キー管理",
+          "desc": "キーとエイリアスの管理、キーポリシーとグラントによる暗号処理およびキー管理権限の制御を扱います。"
+        },
+        "ru": {
+          "name": "Управление ключами KMS",
+          "desc": "Навык охватывает ключи, псевдонимы, политики ключей и предоставления прав для контроля криптографических операций и администрирования ключей."
+        },
+        "ko": {
+          "name": "KMS 키 관리",
+          "desc": "키와 별칭, 키 정책과 권한 부여를 관리해 암호화 사용과 키 관리 권한을 제어하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de chaves KMS",
+          "desc": "Abrange chaves, aliases, políticas de chaves e concessões para controlar operações criptográficas e administração de chaves."
+        }
+      }
+    },
+    {
+      "key": "aws/kms_cryptographic_operations",
+      "slug": "kms_cryptographic_operations",
+      "name": "KMS Cryptographic Operations",
+      "desc": "KMS cryptographic operations cover using KMS encryption, decryption, and data key operations while accounting for key identity, encryption context, and permissions.",
+      "i18n": {
+        "zh": {
+          "name": "KMS 加密操作",
+          "desc": "涵盖使用 KMS 加密、解密和数据密钥操作，并考虑密钥标识、加密上下文与权限。"
+        },
+        "es": {
+          "name": "Operaciones criptográficas de KMS",
+          "desc": "Abarca cifrado, descifrado y operaciones con claves de datos, considerando la identidad de la clave, el contexto de cifrado y los permisos."
+        },
+        "fr": {
+          "name": "Opérations cryptographiques KMS",
+          "desc": "Cette compétence couvre le chiffrement, le déchiffrement et les opérations sur les clés de données, selon l’identité de la clé, le contexte de chiffrement et les droits."
+        },
+        "de": {
+          "name": "Kryptografische KMS-Operationen",
+          "desc": "Diese Fähigkeit umfasst Verschlüsselung, Entschlüsselung und Datenschlüsseloperationen unter Berücksichtigung von Schlüsselidentität, Verschlüsselungskontext und Berechtigungen."
+        },
+        "ja": {
+          "name": "KMS 暗号処理",
+          "desc": "KMS の暗号化、復号、データキー操作と、キーの識別、暗号化コンテキスト、権限の考慮を扱います。"
+        },
+        "ru": {
+          "name": "Криптографические операции KMS",
+          "desc": "Навык охватывает шифрование, расшифровку и операции с ключами данных с учётом идентификации ключа, контекста шифрования и разрешений."
+        },
+        "ko": {
+          "name": "KMS 암호화 작업",
+          "desc": "KMS 암호화, 복호화와 데이터 키 작업을 다루며 키 식별, 암호화 컨텍스트와 권한을 고려합니다."
+        },
+        "pt": {
+          "name": "Operações criptográficas KMS",
+          "desc": "Abrange criptografia, descriptografia e operações com chaves de dados, considerando a identidade da chave, o contexto de criptografia e as permissões."
+        }
+      }
+    },
+    {
+      "key": "aws/secrets_manager_access",
+      "slug": "secrets_manager_access",
+      "name": "Secrets Manager Access",
+      "desc": "Secrets Manager access covers storing and retrieving versioned secrets, controlling application access, and handling secret values without exposing them in responses or logs.",
+      "i18n": {
+        "zh": {
+          "name": "Secrets Manager 访问",
+          "desc": "涵盖存储和读取带版本的机密信息、控制应用访问，并避免机密值泄露到响应或日志中。"
+        },
+        "es": {
+          "name": "Acceso a Secrets Manager",
+          "desc": "Abarca almacenar y recuperar secretos con versiones, controlar el acceso de aplicaciones y evitar revelar valores en respuestas o registros."
+        },
+        "fr": {
+          "name": "Accès à Secrets Manager",
+          "desc": "Cette compétence couvre le stockage et la récupération de secrets versionnés, les accès applicatifs et la protection des valeurs dans les réponses et journaux."
+        },
+        "de": {
+          "name": "Secrets-Manager-Zugriff",
+          "desc": "Diese Fähigkeit umfasst das Speichern und Abrufen versionierter Geheimnisse, Anwendungszugriffe und den Schutz geheimer Werte vor Offenlegung in Antworten oder Protokollen."
+        },
+        "ja": {
+          "name": "Secrets Manager アクセス",
+          "desc": "バージョン付きシークレットの保存と取得、アプリケーションアクセスの制御、およびレスポンスやログへの秘密値の漏えい防止を扱います。"
+        },
+        "ru": {
+          "name": "Доступ к Secrets Manager",
+          "desc": "Навык охватывает хранение и получение версионированных секретов, доступ приложений и защиту значений от раскрытия в ответах и журналах."
+        },
+        "ko": {
+          "name": "Secrets Manager 액세스",
+          "desc": "버전이 있는 보안 암호를 저장하고 조회하며 애플리케이션 액세스를 제어하고 응답이나 로그에 값이 노출되지 않도록 하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Acesso ao Secrets Manager",
+          "desc": "Abrange armazenar e recuperar segredos versionados, controlar o acesso de aplicações e evitar exposição de valores em respostas ou logs."
+        }
+      }
+    },
+    {
+      "key": "aws/parameter_store_configuration",
+      "slug": "parameter_store_configuration",
+      "name": "Parameter Store Configuration",
+      "desc": "Parameter Store configuration covers managing hierarchical application parameters, selecting versions, and retrieving String or SecureString values under appropriate IAM and KMS permissions.",
+      "i18n": {
+        "zh": {
+          "name": "Parameter Store 配置",
+          "desc": "涵盖管理分层应用参数、选择版本，以及在适当的 IAM 和 KMS 权限下读取 String 或 SecureString 值。"
+        },
+        "es": {
+          "name": "Configuración de Parameter Store",
+          "desc": "Abarca parámetros jerárquicos, selección de versiones y recuperación de valores String o SecureString con los permisos de IAM y KMS correspondientes."
+        },
+        "fr": {
+          "name": "Configuration de Parameter Store",
+          "desc": "Cette compétence couvre les paramètres hiérarchiques, les versions et la récupération de valeurs String ou SecureString avec les droits IAM et KMS appropriés."
+        },
+        "de": {
+          "name": "Parameter-Store-Konfiguration",
+          "desc": "Diese Fähigkeit umfasst hierarchische Parameter, Versionsauswahl und das Abrufen von String- oder SecureString-Werten mit geeigneten IAM- und KMS-Berechtigungen."
+        },
+        "ja": {
+          "name": "Parameter Store 設定",
+          "desc": "階層的なパラメータの管理、バージョン選択、および適切な IAM と KMS の権限による String または SecureString の取得を扱います。"
+        },
+        "ru": {
+          "name": "Настройка Parameter Store",
+          "desc": "Навык охватывает иерархические параметры, выбор версий и получение String или SecureString с соответствующими разрешениями IAM и KMS."
+        },
+        "ko": {
+          "name": "Parameter Store 구성",
+          "desc": "계층적 파라미터 관리, 버전 선택과 적절한 IAM 및 KMS 권한으로 String 또는 SecureString 값을 조회하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Configuração do Parameter Store",
+          "desc": "Abrange parâmetros hierárquicos, seleção de versões e recuperação de valores String ou SecureString com permissões adequadas de IAM e KMS."
+        }
+      }
+    },
+    {
+      "key": "aws/waf_request_filtering",
+      "slug": "waf_request_filtering",
+      "name": "WAF Request Filtering",
+      "desc": "WAF request filtering covers associating web ACLs with supported entrypoints and configuring rule order and actions to allow, count, or block matching requests.",
+      "i18n": {
+        "zh": {
+          "name": "WAF 请求过滤",
+          "desc": "涵盖将 Web ACL 关联到支持的入口，配置规则顺序及允许、计数或阻止匹配请求的操作。"
+        },
+        "es": {
+          "name": "Filtrado de solicitudes con WAF",
+          "desc": "Abarca asociar ACL web a puntos de entrada compatibles y ordenar reglas para permitir, contar o bloquear solicitudes coincidentes."
+        },
+        "fr": {
+          "name": "Filtrage des requêtes WAF",
+          "desc": "Cette compétence couvre l’association d’ACL web aux points d’entrée compatibles et l’ordre des règles pour autoriser, compter ou bloquer les requêtes correspondantes."
+        },
+        "de": {
+          "name": "WAF-Anfragefilterung",
+          "desc": "Diese Fähigkeit umfasst die Zuordnung von Web-ACLs zu unterstützten Einstiegspunkten und die Regelreihenfolge zum Zulassen, Zählen oder Blockieren passender Anfragen."
+        },
+        "ja": {
+          "name": "WAF リクエストフィルタリング",
+          "desc": "対応する入口へのウェブ ACL の関連付けと、該当リクエストを許可、カウント、ブロックするルールの順序とアクション設定を扱います。"
+        },
+        "ru": {
+          "name": "Фильтрация запросов WAF",
+          "desc": "Навык охватывает привязку веб-ACL к поддерживаемым точкам входа и порядок правил для разрешения, подсчёта или блокировки совпавших запросов."
+        },
+        "ko": {
+          "name": "WAF 요청 필터링",
+          "desc": "웹 ACL을 지원되는 진입점에 연결하고 일치하는 요청을 허용, 집계 또는 차단하는 규칙 순서와 작업을 구성하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Filtragem de solicitações com WAF",
+          "desc": "Abrange associar ACLs da web a pontos de entrada compatíveis e ordenar regras para permitir, contar ou bloquear solicitações correspondentes."
+        }
+      }
+    },
+    {
+      "key": "aws/cloudwatch_logs",
+      "slug": "cloudwatch_logs",
+      "name": "CloudWatch Logs",
+      "desc": "CloudWatch Logs covers managing log groups and streams and retrieving or querying log events to correlate application requests and diagnose failures.",
+      "i18n": {
+        "zh": {
+          "name": "CloudWatch 日志",
+          "desc": "涵盖管理日志组和日志流，以及检索或查询日志事件，以关联应用请求并诊断故障。"
+        },
+        "es": {
+          "name": "Registros de CloudWatch",
+          "desc": "Abarca grupos y flujos de registros, y recuperación o consulta de eventos para correlacionar solicitudes y diagnosticar fallos."
+        },
+        "fr": {
+          "name": "Journaux CloudWatch",
+          "desc": "Cette compétence couvre les groupes et flux de journaux ainsi que la récupération ou la recherche d’événements pour corréler les requêtes et diagnostiquer les pannes."
+        },
+        "de": {
+          "name": "CloudWatch-Protokolle",
+          "desc": "Diese Fähigkeit umfasst Protokollgruppen und -streams sowie das Abrufen oder Abfragen von Ereignissen zur Zuordnung von Anfragen und Fehlerdiagnose."
+        },
+        "ja": {
+          "name": "CloudWatch ログ",
+          "desc": "ロググループとストリームの管理、およびイベントの取得や検索によるリクエストの関連付けと障害診断を扱います。"
+        },
+        "ru": {
+          "name": "Журналы CloudWatch",
+          "desc": "Навык охватывает группы и потоки журналов, получение и поиск событий для сопоставления запросов и диагностики сбоев."
+        },
+        "ko": {
+          "name": "CloudWatch 로그",
+          "desc": "로그 그룹과 스트림을 관리하고 이벤트를 검색하거나 쿼리해 애플리케이션 요청을 연결하고 장애를 진단하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Logs do CloudWatch",
+          "desc": "Abrange grupos e fluxos de logs e recuperação ou consulta de eventos para correlacionar solicitações e diagnosticar falhas."
+        }
+      }
+    },
+    {
+      "key": "aws/cloudwatch_metrics",
+      "slug": "cloudwatch_metrics",
+      "name": "CloudWatch Metrics",
+      "desc": "CloudWatch metrics cover publishing and retrieving metrics with appropriate namespaces, dimensions, units, periods, and statistics to interpret workload behavior.",
+      "i18n": {
+        "zh": {
+          "name": "CloudWatch 指标",
+          "desc": "涵盖使用适当的命名空间、维度、单位、周期和统计量发布与读取指标，以理解工作负载行为。"
+        },
+        "es": {
+          "name": "Métricas de CloudWatch",
+          "desc": "Abarca publicar y recuperar métricas con espacios de nombres, dimensiones, unidades, períodos y estadísticas adecuados para interpretar las cargas de trabajo."
+        },
+        "fr": {
+          "name": "Métriques CloudWatch",
+          "desc": "Cette compétence couvre la publication et la récupération de métriques avec espaces de noms, dimensions, unités, périodes et statistiques adaptés aux charges."
+        },
+        "de": {
+          "name": "CloudWatch-Metriken",
+          "desc": "Diese Fähigkeit umfasst Veröffentlichung und Abruf von Metriken mit geeigneten Namespaces, Dimensionen, Einheiten, Zeiträumen und Statistiken zur Interpretation von Workload-Verhalten."
+        },
+        "ja": {
+          "name": "CloudWatch メトリクス",
+          "desc": "適切な名前空間、ディメンション、単位、期間、統計を用いてメトリクスを発行・取得し、ワークロードの動作を解釈する能力を扱います。"
+        },
+        "ru": {
+          "name": "Метрики CloudWatch",
+          "desc": "Навык охватывает публикацию и получение метрик с подходящими пространствами имён, измерениями, единицами, периодами и статистиками для анализа нагрузок."
+        },
+        "ko": {
+          "name": "CloudWatch 지표",
+          "desc": "적절한 네임스페이스, 차원, 단위, 기간과 통계로 지표를 게시하고 조회해 워크로드 동작을 해석하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Métricas do CloudWatch",
+          "desc": "Abrange publicar e recuperar métricas com namespaces, dimensões, unidades, períodos e estatísticas apropriados para interpretar as cargas de trabalho."
+        }
+      }
+    },
+    {
+      "key": "aws/cloudwatch_alarms",
+      "slug": "cloudwatch_alarms",
+      "name": "CloudWatch Alarms",
+      "desc": "CloudWatch alarms cover configuring metric thresholds, evaluation periods, missing-data treatment, and actions and interpreting alarm state transitions.",
+      "i18n": {
+        "zh": {
+          "name": "CloudWatch 告警",
+          "desc": "涵盖配置指标阈值、评估周期、缺失数据处理和告警操作，以及解读告警状态变化。"
+        },
+        "es": {
+          "name": "Alarmas de CloudWatch",
+          "desc": "Abarca umbrales, períodos de evaluación, tratamiento de datos ausentes y acciones, además de interpretar transiciones de estado de las alarmas."
+        },
+        "fr": {
+          "name": "Alarmes CloudWatch",
+          "desc": "Cette compétence couvre les seuils, périodes d’évaluation, données manquantes et actions, ainsi que l’interprétation des transitions d’état des alarmes."
+        },
+        "de": {
+          "name": "CloudWatch-Alarme",
+          "desc": "Diese Fähigkeit umfasst Schwellenwerte, Auswertungszeiträume, Behandlung fehlender Daten und Aktionen sowie die Interpretation von Alarmzustandsübergängen."
+        },
+        "ja": {
+          "name": "CloudWatch アラーム",
+          "desc": "しきい値、評価期間、欠損データの処理、アクションの設定と、アラームの状態遷移の解釈を扱います。"
+        },
+        "ru": {
+          "name": "Оповещения CloudWatch",
+          "desc": "Навык охватывает пороги, периоды оценки, обработку отсутствующих данных и действия, а также интерпретацию переходов состояния оповещений."
+        },
+        "ko": {
+          "name": "CloudWatch 경보",
+          "desc": "지표 임계값, 평가 기간, 누락 데이터 처리와 작업을 구성하고 경보 상태 변화를 해석하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Alarmes do CloudWatch",
+          "desc": "Abrange limites, períodos de avaliação, tratamento de dados ausentes e ações, além da interpretação de transições de estado dos alarmes."
+        }
+      }
+    },
+    {
+      "key": "aws/cloudtrail_events",
+      "slug": "cloudtrail_events",
+      "name": "CloudTrail Events",
+      "desc": "CloudTrail events cover configuring management or data event collection and inspecting recorded identities, actions, resources, and timestamps to investigate AWS activity.",
+      "i18n": {
+        "zh": {
+          "name": "CloudTrail 事件",
+          "desc": "涵盖配置管理事件或数据事件采集，以及检查记录的身份、操作、资源和时间戳，以调查 AWS 活动。"
+        },
+        "es": {
+          "name": "Eventos de CloudTrail",
+          "desc": "Abarca recopilación de eventos de administración o datos y examen de identidades, acciones, recursos y marcas de tiempo para investigar actividad de AWS."
+        },
+        "fr": {
+          "name": "Événements CloudTrail",
+          "desc": "Cette compétence couvre la collecte d’événements de gestion ou de données et l’examen des identités, actions, ressources et horodatages pour enquêter sur l’activité AWS."
+        },
+        "de": {
+          "name": "CloudTrail-Ereignisse",
+          "desc": "Diese Fähigkeit umfasst die Erfassung von Verwaltungs- oder Datenereignissen und Prüfung aufgezeichneter Identitäten, Aktionen, Ressourcen und Zeitstempel zur Untersuchung von AWS-Aktivitäten."
+        },
+        "ja": {
+          "name": "CloudTrail イベント",
+          "desc": "管理イベントまたはデータイベントの収集設定と、ID、操作、リソース、タイムスタンプを調べて AWS の活動を追跡する能力を扱います。"
+        },
+        "ru": {
+          "name": "События CloudTrail",
+          "desc": "Навык охватывает сбор событий управления или данных и анализ записанных идентификационных сущностей, действий, ресурсов и времени для расследования активности AWS."
+        },
+        "ko": {
+          "name": "CloudTrail 이벤트",
+          "desc": "관리 또는 데이터 이벤트 수집을 구성하고 기록된 주체, 작업, 리소스와 타임스탬프를 확인해 AWS 활동을 조사하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Eventos do CloudTrail",
+          "desc": "Abrange coletar eventos de gerenciamento ou dados e examinar identidades, ações, recursos e horários registrados para investigar atividades AWS."
+        }
+      }
+    },
+    {
+      "key": "aws/cloudformation_templates",
+      "slug": "cloudformation_templates",
+      "name": "CloudFormation Templates",
+      "desc": "CloudFormation templates cover defining resources, parameters, outputs, references, and dependencies to express reusable AWS infrastructure configurations.",
+      "i18n": {
+        "zh": {
+          "name": "CloudFormation 模板",
+          "desc": "涵盖定义资源、参数、输出、引用和依赖，表达可复用的 AWS 基础设施配置。"
+        },
+        "es": {
+          "name": "Plantillas de CloudFormation",
+          "desc": "Abarca definir recursos, parámetros, salidas, referencias y dependencias para expresar configuraciones reutilizables de infraestructura de AWS."
+        },
+        "fr": {
+          "name": "Modèles CloudFormation",
+          "desc": "Cette compétence couvre la définition des ressources, paramètres, sorties, références et dépendances pour exprimer une infrastructure AWS réutilisable."
+        },
+        "de": {
+          "name": "CloudFormation-Vorlagen",
+          "desc": "Diese Fähigkeit umfasst Ressourcen, Parameter, Ausgaben, Referenzen und Abhängigkeiten zur Beschreibung wiederverwendbarer AWS-Infrastrukturkonfigurationen."
+        },
+        "ja": {
+          "name": "CloudFormation テンプレート",
+          "desc": "再利用できる AWS インフラストラクチャを表すため、リソース、パラメータ、出力、参照、依存関係を定義する能力を扱います。"
+        },
+        "ru": {
+          "name": "Шаблоны CloudFormation",
+          "desc": "Навык охватывает ресурсы, параметры, выходные значения, ссылки и зависимости для описания повторно используемой инфраструктуры AWS."
+        },
+        "ko": {
+          "name": "CloudFormation 템플릿",
+          "desc": "리소스, 파라미터, 출력, 참조와 종속성을 정의해 재사용 가능한 AWS 인프라 구성을 표현하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Modelos do CloudFormation",
+          "desc": "Abrange definir recursos, parâmetros, saídas, referências e dependências para expressar configurações reutilizáveis de infraestrutura AWS."
+        }
+      }
+    },
+    {
+      "key": "aws/cloudformation_stack_lifecycle",
+      "slug": "cloudformation_stack_lifecycle",
+      "name": "CloudFormation Stack Lifecycle",
+      "desc": "CloudFormation stack lifecycle covers creating and deleting stacks, interpreting stack events, and applying deletion and replacement retention policies to owned resources.",
+      "i18n": {
+        "zh": {
+          "name": "CloudFormation 堆栈生命周期",
+          "desc": "涵盖创建和删除堆栈、解读堆栈事件，以及对所管理资源应用删除或替换时的保留策略。"
+        },
+        "es": {
+          "name": "Ciclo de vida de pilas de CloudFormation",
+          "desc": "Abarca creación y eliminación de pilas, interpretación de eventos y políticas de conservación de recursos ante eliminación o sustitución."
+        },
+        "fr": {
+          "name": "Cycle de vie des piles CloudFormation",
+          "desc": "Cette compétence couvre la création et suppression des piles, leurs événements et les politiques de conservation des ressources lors des suppressions ou remplacements."
+        },
+        "de": {
+          "name": "CloudFormation-Stack-Lebenszyklus",
+          "desc": "Diese Fähigkeit umfasst Stack-Erstellung und -Löschung, Interpretation von Ereignissen und Ressourcenerhaltung bei Löschung oder Ersatz."
+        },
+        "ja": {
+          "name": "CloudFormation スタックのライフサイクル",
+          "desc": "スタックの作成・削除、イベントの解釈、および管理対象リソースの削除時・置換時の保持ポリシーを扱います。"
+        },
+        "ru": {
+          "name": "Жизненный цикл стеков CloudFormation",
+          "desc": "Навык охватывает создание и удаление стеков, анализ событий и политики сохранения ресурсов при удалении или замене."
+        },
+        "ko": {
+          "name": "CloudFormation 스택 수명 주기",
+          "desc": "스택 생성과 삭제, 스택 이벤트 해석과 관리 대상 리소스의 삭제 및 교체 시 보존 정책 적용을 다룹니다."
+        },
+        "pt": {
+          "name": "Ciclo de vida de pilhas CloudFormation",
+          "desc": "Abrange criar e excluir pilhas, interpretar eventos e aplicar políticas de retenção de recursos em exclusões ou substituições."
+        }
+      }
+    },
+    {
+      "key": "aws/cloudformation_stack_updates",
+      "slug": "cloudformation_stack_updates",
+      "name": "CloudFormation Stack Updates",
+      "desc": "CloudFormation stack updates cover reviewing change sets, evaluating replacement and data impact, applying updates, and diagnosing update or rollback failures.",
+      "i18n": {
+        "zh": {
+          "name": "CloudFormation 堆栈更新",
+          "desc": "涵盖审查变更集、评估资源替换和数据影响、执行更新，以及诊断更新或回滚失败。"
+        },
+        "es": {
+          "name": "Actualizaciones de pilas de CloudFormation",
+          "desc": "Abarca revisar conjuntos de cambios, evaluar sustituciones e impacto en datos, aplicar actualizaciones y diagnosticar fallos de actualización o reversión."
+        },
+        "fr": {
+          "name": "Mises à jour des piles CloudFormation",
+          "desc": "Cette compétence couvre les jeux de modifications, les remplacements et impacts sur les données, l’application des mises à jour et le diagnostic des échecs ou retours arrière."
+        },
+        "de": {
+          "name": "CloudFormation-Stack-Updates",
+          "desc": "Diese Fähigkeit umfasst Änderungssätze, Ersatz- und Datenauswirkungen, Durchführung von Updates sowie Diagnose fehlgeschlagener Updates oder Rollbacks."
+        },
+        "ja": {
+          "name": "CloudFormation スタック更新",
+          "desc": "変更セットの確認、置換とデータへの影響の評価、更新の適用、および更新やロールバック失敗の診断を扱います。"
+        },
+        "ru": {
+          "name": "Обновления стеков CloudFormation",
+          "desc": "Навык охватывает наборы изменений, влияние замены на данные, применение обновлений и диагностику неудачных обновлений или откатов."
+        },
+        "ko": {
+          "name": "CloudFormation 스택 업데이트",
+          "desc": "변경 세트 검토, 교체와 데이터 영향 평가, 업데이트 적용과 업데이트 또는 롤백 실패 진단을 다룹니다."
+        },
+        "pt": {
+          "name": "Atualizações de pilhas CloudFormation",
+          "desc": "Abrange revisar conjuntos de alterações, avaliar substituições e impacto nos dados, aplicar atualizações e diagnosticar falhas de atualização ou reversão."
+        }
+      }
+    },
+    {
+      "key": "aws/dynamodb_item_operations",
+      "slug": "dynamodb_item_operations",
+      "name": "DynamoDB Item Operations",
+      "desc": "DynamoDB item operations cover creating tables with defined primary keys and reading, writing, updating, and deleting typed items with appropriate read consistency.",
+      "i18n": {
+        "zh": {
+          "name": "DynamoDB 项目操作",
+          "desc": "涵盖创建定义了主键的表，以及按适当的读取一致性读取、写入、更新和删除带类型的项目。"
+        },
+        "es": {
+          "name": "Operaciones con elementos en DynamoDB",
+          "desc": "Abarca crear tablas con claves primarias y leer, escribir, actualizar y eliminar elementos tipados con la coherencia de lectura adecuada."
+        },
+        "fr": {
+          "name": "Opérations sur les éléments DynamoDB",
+          "desc": "Cette compétence couvre les tables à clés primaires définies et la lecture, écriture, modification et suppression d’éléments typés avec une cohérence de lecture adaptée."
+        },
+        "de": {
+          "name": "DynamoDB-Elementoperationen",
+          "desc": "Diese Fähigkeit umfasst Tabellen mit definierten Primärschlüsseln sowie Lesen, Schreiben, Ändern und Löschen typisierter Elemente mit geeigneter Lesekonsistenz."
+        },
+        "ja": {
+          "name": "DynamoDB 項目操作",
+          "desc": "主キーを定義したテーブルの作成と、適切な読み取り整合性で型付き項目を読み取り、書き込み、更新、削除する能力を扱います。"
+        },
+        "ru": {
+          "name": "Операции с элементами DynamoDB",
+          "desc": "Навык охватывает таблицы с заданными первичными ключами и чтение, запись, изменение и удаление типизированных элементов с подходящей согласованностью чтения."
+        },
+        "ko": {
+          "name": "DynamoDB 항목 작업",
+          "desc": "기본 키가 정의된 테이블을 생성하고 적절한 읽기 일관성으로 타입이 있는 항목을 읽고 쓰고 업데이트하고 삭제하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Operações com itens DynamoDB",
+          "desc": "Abrange criar tabelas com chaves primárias e ler, gravar, atualizar e excluir itens tipados com consistência de leitura apropriada."
+        }
+      }
+    },
+    {
+      "key": "aws/dynamodb_key_queries",
+      "slug": "dynamodb_key_queries",
+      "name": "DynamoDB Key Queries",
+      "desc": "DynamoDB key queries cover selecting partition and sort keys for access patterns and retrieving bounded results while distinguishing key conditions, filters, and scans.",
+      "i18n": {
+        "zh": {
+          "name": "DynamoDB 键查询",
+          "desc": "涵盖按访问模式选择分区键和排序键、获取限定范围的结果，并区分键条件、筛选条件和扫描。"
+        },
+        "es": {
+          "name": "Consultas por claves en DynamoDB",
+          "desc": "Abarca elegir claves de partición y ordenación según patrones de acceso y obtener resultados acotados, distinguiendo condiciones de clave, filtros y escaneos."
+        },
+        "fr": {
+          "name": "Requêtes par clés DynamoDB",
+          "desc": "Cette compétence couvre les clés de partition et de tri selon les accès, et les résultats délimités, en distinguant conditions de clé, filtres et parcours complets."
+        },
+        "de": {
+          "name": "DynamoDB-Schlüsselabfragen",
+          "desc": "Diese Fähigkeit umfasst Partitions- und Sortierschlüssel für Zugriffsmuster und eingegrenzte Ergebnisse sowie die Unterscheidung von Schlüsselbedingungen, Filtern und Scans."
+        },
+        "ja": {
+          "name": "DynamoDB キークエリ",
+          "desc": "アクセスパターンに応じたパーティションキーとソートキーの選択、範囲を限定した取得、およびキー条件、フィルター、スキャンの区別を扱います。"
+        },
+        "ru": {
+          "name": "Запросы по ключам DynamoDB",
+          "desc": "Навык охватывает выбор ключей раздела и сортировки для моделей доступа и ограниченные выборки, отличая условия ключей, фильтры и сканирование."
+        },
+        "ko": {
+          "name": "DynamoDB 키 쿼리",
+          "desc": "액세스 패턴에 맞는 파티션 키와 정렬 키 선택, 범위가 제한된 결과 조회와 키 조건, 필터 및 스캔의 구분을 다룹니다."
+        },
+        "pt": {
+          "name": "Consultas por chaves DynamoDB",
+          "desc": "Abrange escolher chaves de partição e classificação por padrão de acesso e obter resultados delimitados, distinguindo condições de chave, filtros e varreduras."
+        }
+      }
+    },
+    {
+      "key": "aws/dynamodb_secondary_indexes",
+      "slug": "dynamodb_secondary_indexes",
+      "name": "DynamoDB Secondary Indexes",
+      "desc": "DynamoDB secondary indexes cover defining alternate query keys and projections and evaluating index queries, consistency, and item inclusion.",
+      "i18n": {
+        "zh": {
+          "name": "DynamoDB 二级索引",
+          "desc": "涵盖定义替代查询键和投影，以及评估索引查询、一致性和项目纳入规则。"
+        },
+        "es": {
+          "name": "Índices secundarios de DynamoDB",
+          "desc": "Abarca claves de consulta alternativas y proyecciones, además de evaluar consultas de índices, coherencia e inclusión de elementos."
+        },
+        "fr": {
+          "name": "Index secondaires DynamoDB",
+          "desc": "Cette compétence couvre les clés de requête alternatives et projections, ainsi que les requêtes d’index, leur cohérence et l’inclusion des éléments."
+        },
+        "de": {
+          "name": "DynamoDB-Sekundärindizes",
+          "desc": "Diese Fähigkeit umfasst alternative Abfrageschlüssel und Projektionen sowie die Bewertung von Indexabfragen, Konsistenz und Elementaufnahme."
+        },
+        "ja": {
+          "name": "DynamoDB セカンダリインデックス",
+          "desc": "代替クエリキーと射影の定義、およびインデックスクエリ、整合性、項目が含まれる条件の評価を扱います。"
+        },
+        "ru": {
+          "name": "Вторичные индексы DynamoDB",
+          "desc": "Навык охватывает альтернативные ключи запросов, проекции, запросы индексов, согласованность и условия включения элементов."
+        },
+        "ko": {
+          "name": "DynamoDB 보조 인덱스",
+          "desc": "대체 쿼리 키와 프로젝션을 정의하고 인덱스 쿼리, 일관성과 항목 포함 조건을 평가하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Índices secundários DynamoDB",
+          "desc": "Abrange chaves de consulta alternativas e projeções, além de avaliar consultas de índices, consistência e inclusão de itens."
+        }
+      }
+    },
+    {
+      "key": "aws/dynamodb_conditional_writes",
+      "slug": "dynamodb_conditional_writes",
+      "name": "DynamoDB Conditional Writes",
+      "desc": "DynamoDB conditional writes cover applying condition expressions to protect expected item state and prevent unintended overwrites or duplicate business effects.",
+      "i18n": {
+        "zh": {
+          "name": "DynamoDB 条件写入",
+          "desc": "涵盖使用条件表达式保护预期的项目状态，防止意外覆盖或重复的业务效果。"
+        },
+        "es": {
+          "name": "Escrituras condicionales en DynamoDB",
+          "desc": "Abarca expresiones de condición para proteger el estado esperado de elementos y evitar sobrescrituras imprevistas o efectos de negocio duplicados."
+        },
+        "fr": {
+          "name": "Écritures conditionnelles DynamoDB",
+          "desc": "Cette compétence couvre les expressions de condition pour protéger l’état attendu des éléments et éviter les écrasements involontaires ou effets métier en double."
+        },
+        "de": {
+          "name": "Bedingte DynamoDB-Schreiboperationen",
+          "desc": "Diese Fähigkeit umfasst Bedingungsausdrücke zum Schutz erwarteter Elementzustände und zur Vermeidung unbeabsichtigten Überschreibens oder doppelter Geschäftseffekte."
+        },
+        "ja": {
+          "name": "DynamoDB 条件付き書き込み",
+          "desc": "条件式で項目の期待する状態を保護し、意図しない上書きや業務処理の重複を防ぐ能力を扱います。"
+        },
+        "ru": {
+          "name": "Условные записи DynamoDB",
+          "desc": "Навык охватывает выражения условий для защиты ожидаемого состояния элементов и предотвращения непреднамеренной перезаписи или повторных бизнес-операций."
+        },
+        "ko": {
+          "name": "DynamoDB 조건부 쓰기",
+          "desc": "조건 표현식으로 예상 항목 상태를 보호하고 의도하지 않은 덮어쓰기나 중복 비즈니스 효과를 방지하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Gravações condicionais DynamoDB",
+          "desc": "Abrange expressões de condição para proteger o estado esperado de itens e evitar sobrescritas involuntárias ou efeitos de negócio duplicados."
+        }
+      }
+    },
+    {
+      "key": "aws/dynamodb_ttl",
+      "slug": "dynamodb_ttl",
+      "name": "DynamoDB TTL",
+      "desc": "DynamoDB TTL covers configuring expiration attributes as Unix timestamps in seconds and handling expired items in application reads while accounting for asynchronous service deletion.",
+      "i18n": {
+        "zh": {
+          "name": "DynamoDB TTL",
+          "desc": "涵盖将过期属性配置为以秒为单位的 Unix 时间戳，在应用读取时处理过期项目，并考虑服务异步删除的行为。"
+        },
+        "es": {
+          "name": "TTL de DynamoDB",
+          "desc": "Abarca atributos de caducidad en segundos Unix y tratamiento de elementos caducados en lecturas de aplicaciones, considerando la eliminación asíncrona del servicio."
+        },
+        "fr": {
+          "name": "TTL DynamoDB",
+          "desc": "Cette compétence couvre l’expiration en horodatages Unix exprimés en secondes et les lectures d’éléments expirés, en tenant compte de la suppression asynchrone du service."
+        },
+        "de": {
+          "name": "DynamoDB-TTL",
+          "desc": "Diese Fähigkeit umfasst Ablaufattribute als Unix-Zeitstempel in Sekunden und den Umgang mit abgelaufenen Elementen bei Lesezugriffen unter Berücksichtigung asynchroner Löschung."
+        },
+        "ja": {
+          "name": "DynamoDB TTL",
+          "desc": "有効期限属性を秒単位の Unix タイムスタンプで設定し、サービスによる非同期削除を考慮して期限切れ項目の読み取りを処理する能力を扱います。"
+        },
+        "ru": {
+          "name": "TTL DynamoDB",
+          "desc": "Навык охватывает атрибуты истечения срока в виде Unix-времени в секундах и обработку просроченных элементов при чтении с учётом асинхронного удаления сервисом."
+        },
+        "ko": {
+          "name": "DynamoDB TTL",
+          "desc": "만료 속성을 초 단위 Unix 타임스탬프로 구성하고 서비스의 비동기 삭제를 고려해 애플리케이션 읽기에서 만료 항목을 처리하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "TTL do DynamoDB",
+          "desc": "Abrange atributos de expiração como timestamps Unix em segundos e tratamento de itens expirados nas leituras, considerando a exclusão assíncrona pelo serviço."
+        }
+      }
+    },
+    {
+      "key": "aws/lambda_deployment",
+      "slug": "lambda_deployment",
+      "name": "Lambda Deployment",
+      "desc": "Lambda deployment covers packaging function code and dependencies, selecting runtimes and handlers, and creating or updating deployable functions.",
+      "i18n": {
+        "zh": {
+          "name": "Lambda 部署",
+          "desc": "涵盖打包函数代码和依赖、选择运行时及处理程序，以及创建或更新可部署的函数。"
+        },
+        "es": {
+          "name": "Despliegue de Lambda",
+          "desc": "Abarca empaquetar código y dependencias, seleccionar entornos de ejecución y controladores, y crear o actualizar funciones desplegables."
+        },
+        "fr": {
+          "name": "Déploiement Lambda",
+          "desc": "Cette compétence couvre l’empaquetage du code et des dépendances, les environnements d’exécution et gestionnaires, et la création ou mise à jour des fonctions."
+        },
+        "de": {
+          "name": "Lambda-Bereitstellung",
+          "desc": "Diese Fähigkeit umfasst das Paketieren von Code und Abhängigkeiten, die Auswahl von Laufzeiten und Handlern sowie Erstellung oder Aktualisierung bereitstellbarer Funktionen."
+        },
+        "ja": {
+          "name": "Lambda デプロイ",
+          "desc": "コードと依存関係のパッケージ化、ランタイムとハンドラーの選択、およびデプロイ可能な関数の作成・更新を扱います。"
+        },
+        "ru": {
+          "name": "Развёртывание Lambda",
+          "desc": "Навык охватывает упаковку кода и зависимостей, выбор среды выполнения и обработчика, создание или обновление развёртываемых функций."
+        },
+        "ko": {
+          "name": "Lambda 배포",
+          "desc": "함수 코드와 종속성을 패키징하고 런타임과 핸들러를 선택하며 배포 가능한 함수를 생성하거나 업데이트하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Implantação de Lambda",
+          "desc": "Abrange empacotar código e dependências, escolher runtimes e handlers e criar ou atualizar funções implantáveis."
+        }
+      }
+    },
+    {
+      "key": "aws/lambda_invocation",
+      "slug": "lambda_invocation",
+      "name": "Lambda Invocation",
+      "desc": "Lambda invocation covers invoking functions with event payloads and interpreting computed responses, invocation modes, and execution errors.",
+      "i18n": {
+        "zh": {
+          "name": "Lambda 调用",
+          "desc": "涵盖通过事件负载调用函数，以及解读计算结果、调用模式和执行错误。"
+        },
+        "es": {
+          "name": "Invocación de Lambda",
+          "desc": "Abarca invocar funciones con cargas de eventos e interpretar respuestas calculadas, modos de invocación y errores de ejecución."
+        },
+        "fr": {
+          "name": "Invocation Lambda",
+          "desc": "Cette compétence couvre l’invocation avec des charges d’événements et l’interprétation des réponses calculées, modes d’invocation et erreurs d’exécution."
+        },
+        "de": {
+          "name": "Lambda-Aufruf",
+          "desc": "Diese Fähigkeit umfasst Funktionsaufrufe mit Ereignisdaten und die Interpretation berechneter Antworten, Aufrufmodi und Ausführungsfehler."
+        },
+        "ja": {
+          "name": "Lambda 呼び出し",
+          "desc": "イベントペイロードによる関数呼び出しと、計算結果、呼び出し方式、実行エラーの解釈を扱います。"
+        },
+        "ru": {
+          "name": "Вызов Lambda",
+          "desc": "Навык охватывает вызов функций с данными событий и интерпретацию вычисленных ответов, режимов вызова и ошибок выполнения."
+        },
+        "ko": {
+          "name": "Lambda 호출",
+          "desc": "이벤트 페이로드로 함수를 호출하고 계산된 응답, 호출 방식과 실행 오류를 해석하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Invocação de Lambda",
+          "desc": "Abrange invocar funções com payloads de eventos e interpretar respostas calculadas, modos de invocação e erros de execução."
+        }
+      }
+    },
+    {
+      "key": "aws/lambda_runtime_configuration",
+      "slug": "lambda_runtime_configuration",
+      "name": "Lambda Runtime Configuration",
+      "desc": "Lambda runtime configuration covers setting environment variables, memory, and timeouts and using execution logs to diagnose configuration and runtime failures.",
+      "i18n": {
+        "zh": {
+          "name": "Lambda 运行配置",
+          "desc": "涵盖设置环境变量、内存和超时，以及使用执行日志诊断配置和运行故障。"
+        },
+        "es": {
+          "name": "Configuración de ejecución de Lambda",
+          "desc": "Abarca variables de entorno, memoria y tiempos de espera, y el uso de registros para diagnosticar fallos de configuración y ejecución."
+        },
+        "fr": {
+          "name": "Configuration d’exécution Lambda",
+          "desc": "Cette compétence couvre les variables d’environnement, mémoire et délais, ainsi que l’usage des journaux pour diagnostiquer les problèmes de configuration et d’exécution."
+        },
+        "de": {
+          "name": "Lambda-Laufzeitkonfiguration",
+          "desc": "Diese Fähigkeit umfasst Umgebungsvariablen, Speicher und Zeitlimits sowie Ausführungsprotokolle zur Diagnose von Konfigurations- und Laufzeitfehlern."
+        },
+        "ja": {
+          "name": "Lambda 実行設定",
+          "desc": "環境変数、メモリ、タイムアウトの設定と、実行ログを使った設定・実行時障害の診断を扱います。"
+        },
+        "ru": {
+          "name": "Настройка выполнения Lambda",
+          "desc": "Навык охватывает переменные окружения, память и тайм-ауты, а также журналы для диагностики ошибок конфигурации и выполнения."
+        },
+        "ko": {
+          "name": "Lambda 런타임 구성",
+          "desc": "환경 변수, 메모리와 제한 시간을 설정하고 실행 로그로 구성 및 런타임 장애를 진단하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Configuração de execução de Lambda",
+          "desc": "Abrange variáveis de ambiente, memória e tempos limite, além de logs para diagnosticar falhas de configuração e execução."
+        }
+      }
+    },
+    {
+      "key": "aws/lambda_service_permissions",
+      "slug": "lambda_service_permissions",
+      "name": "Lambda Service Permissions",
+      "desc": "Lambda service permissions cover configuring execution roles for outbound resource access and resource-based invocation permissions for callers and event sources.",
+      "i18n": {
+        "zh": {
+          "name": "Lambda 服务权限",
+          "desc": "涵盖配置执行角色以访问外部资源，以及通过基于资源的调用权限允许调用者和事件源调用函数。"
+        },
+        "es": {
+          "name": "Permisos de servicio de Lambda",
+          "desc": "Abarca roles de ejecución para acceder a recursos externos y permisos de invocación basados en recursos para invocadores y fuentes de eventos."
+        },
+        "fr": {
+          "name": "Autorisations de service Lambda",
+          "desc": "Cette compétence couvre les rôles d’exécution pour accéder aux ressources externes et les autorisations d’invocation fondées sur les ressources pour appelants et sources d’événements."
+        },
+        "de": {
+          "name": "Lambda-Dienstberechtigungen",
+          "desc": "Diese Fähigkeit umfasst Ausführungsrollen für externe Ressourcenzugriffe und ressourcenbasierte Aufrufberechtigungen für Aufrufer und Ereignisquellen."
+        },
+        "ja": {
+          "name": "Lambda サービス権限",
+          "desc": "外部リソースにアクセスする実行ロールと、呼び出し元やイベントソースに対するリソースベースの呼び出し権限を扱います。"
+        },
+        "ru": {
+          "name": "Разрешения сервисов Lambda",
+          "desc": "Навык охватывает роли выполнения для доступа к внешним ресурсам и разрешения вызова на основе ресурсов для вызывающих субъектов и источников событий."
+        },
+        "ko": {
+          "name": "Lambda 서비스 권한",
+          "desc": "외부 리소스 액세스용 실행 역할과 호출자 및 이벤트 소스에 대한 리소스 기반 호출 권한 구성을 다룹니다."
+        },
+        "pt": {
+          "name": "Permissões de serviço de Lambda",
+          "desc": "Abrange funções de execução para acesso a recursos externos e permissões de invocação baseadas em recursos para chamadores e fontes de eventos."
+        }
+      }
+    },
+    {
+      "key": "aws/lambda_event_integration",
+      "slug": "lambda_event_integration",
+      "name": "Lambda Event Integration",
+      "desc": "Lambda event integration covers connecting service notifications or event source mappings to functions and accounting for payload formats, filtering, batching, and delivery failures.",
+      "i18n": {
+        "zh": {
+          "name": "Lambda 事件集成",
+          "desc": "涵盖将服务通知或事件源映射连接到函数，并考虑负载格式、筛选、批处理和投递失败。"
+        },
+        "es": {
+          "name": "Integración de eventos con Lambda",
+          "desc": "Abarca conectar notificaciones o asignaciones de fuentes de eventos con funciones, considerando formatos, filtros, lotes y fallos de entrega."
+        },
+        "fr": {
+          "name": "Intégration d’événements Lambda",
+          "desc": "Cette compétence couvre les notifications et mappages de sources d’événements vers les fonctions, en tenant compte des formats, filtres, lots et échecs de livraison."
+        },
+        "de": {
+          "name": "Lambda-Ereignisintegration",
+          "desc": "Diese Fähigkeit umfasst Dienstbenachrichtigungen oder Ereignisquellenzuordnungen für Funktionen unter Berücksichtigung von Datenformaten, Filtern, Stapeln und Zustellfehlern."
+        },
+        "ja": {
+          "name": "Lambda イベント連携",
+          "desc": "サービス通知やイベントソースマッピングを関数に接続し、ペイロード形式、フィルタリング、バッチ処理、配信失敗を考慮する能力を扱います。"
+        },
+        "ru": {
+          "name": "Интеграция событий Lambda",
+          "desc": "Навык охватывает уведомления и сопоставления источников событий с функциями, учитывая форматы данных, фильтры, пакетную обработку и сбои доставки."
+        },
+        "ko": {
+          "name": "Lambda 이벤트 통합",
+          "desc": "서비스 알림이나 이벤트 소스 매핑을 함수에 연결하고 페이로드 형식, 필터, 배치 처리와 전송 실패를 고려하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Integração de eventos com Lambda",
+          "desc": "Abrange conectar notificações ou mapeamentos de fontes de eventos às funções, considerando formatos, filtros, lotes e falhas de entrega."
+        }
+      }
+    },
+    {
+      "key": "aws/lambda_versions_aliases",
+      "slug": "lambda_versions_aliases",
+      "name": "Lambda Versions and Aliases",
+      "desc": "Lambda versions and aliases cover publishing immutable function versions and managing alias targets and traffic weights to release or restore function behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Lambda 版本与别名",
+          "desc": "涵盖发布不可变函数版本，并管理别名指向和流量权重，以发布或恢复函数行为。"
+        },
+        "es": {
+          "name": "Versiones y alias de Lambda",
+          "desc": "Abarca publicar versiones inmutables y gestionar destinos de alias y pesos de tráfico para lanzar o restaurar comportamientos de funciones."
+        },
+        "fr": {
+          "name": "Versions et alias Lambda",
+          "desc": "Cette compétence couvre les versions immuables et la gestion des cibles d’alias et pondérations de trafic pour publier ou restaurer le comportement d’une fonction."
+        },
+        "de": {
+          "name": "Lambda-Versionen und -Aliasse",
+          "desc": "Diese Fähigkeit umfasst unveränderliche Funktionsversionen sowie Aliasziele und Verkehrsgewichtungen zur Veröffentlichung oder Wiederherstellung von Funktionsverhalten."
+        },
+        "ja": {
+          "name": "Lambda バージョンとエイリアス",
+          "desc": "変更不可の関数バージョンを発行し、エイリアスの対象とトラフィックの重みを管理して関数動作をリリース・復元する能力を扱います。"
+        },
+        "ru": {
+          "name": "Версии и псевдонимы Lambda",
+          "desc": "Навык охватывает неизменяемые версии функций, цели псевдонимов и веса трафика для выпуска или восстановления поведения функций."
+        },
+        "ko": {
+          "name": "Lambda 버전과 별칭",
+          "desc": "변경 불가능한 함수 버전을 게시하고 별칭 대상과 트래픽 가중치를 관리해 함수 동작을 출시하거나 복원하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Versões e aliases de Lambda",
+          "desc": "Abrange publicar versões imutáveis e gerenciar destinos de aliases e pesos de tráfego para lançar ou restaurar comportamentos de funções."
+        }
+      }
+    },
+    {
+      "key": "aws/http_api_integration",
+      "slug": "http_api_integration",
+      "name": "HTTP API Integration",
+      "desc": "HTTP API integration covers configuring API Gateway routes, stages, integrations, and payload mappings to connect HTTP requests with backend responses.",
+      "i18n": {
+        "zh": {
+          "name": "HTTP API 集成",
+          "desc": "涵盖配置 API Gateway 路由、阶段、集成和负载映射，将 HTTP 请求连接到后端响应。"
+        },
+        "es": {
+          "name": "Integración de API HTTP",
+          "desc": "Abarca rutas, etapas, integraciones y asignaciones de cargas de API Gateway para conectar solicitudes HTTP con respuestas de backends."
+        },
+        "fr": {
+          "name": "Intégration d’API HTTP",
+          "desc": "Cette compétence couvre les routes, étapes, intégrations et mappages de charges API Gateway reliant requêtes HTTP et réponses des services dorsaux."
+        },
+        "de": {
+          "name": "HTTP-API-Integration",
+          "desc": "Diese Fähigkeit umfasst API-Gateway-Routen, Stages, Integrationen und Nutzdatenzuordnungen zur Verbindung von HTTP-Anfragen mit Backend-Antworten."
+        },
+        "ja": {
+          "name": "HTTP API 統合",
+          "desc": "API Gateway のルート、ステージ、統合、ペイロードマッピングを設定して HTTP リクエストとバックエンド応答を接続する能力を扱います。"
+        },
+        "ru": {
+          "name": "Интеграция HTTP API",
+          "desc": "Навык охватывает маршруты, этапы, интеграции и преобразования данных API Gateway, соединяющие HTTP-запросы с ответами серверных компонентов."
+        },
+        "ko": {
+          "name": "HTTP API 통합",
+          "desc": "API Gateway 경로, 스테이지, 통합과 페이로드 매핑을 구성해 HTTP 요청과 백엔드 응답을 연결하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Integração de API HTTP",
+          "desc": "Abrange rotas, estágios, integrações e mapeamentos de payload do API Gateway para conectar solicitações HTTP às respostas dos backends."
+        }
+      }
+    },
+    {
+      "key": "aws/http_api_cors",
+      "slug": "http_api_cors",
+      "name": "HTTP API CORS",
+      "desc": "HTTP API CORS covers configuring allowed browser origins, methods, and headers and checking preflight and response behavior without treating CORS as authorization.",
+      "i18n": {
+        "zh": {
+          "name": "HTTP API CORS",
+          "desc": "涵盖配置允许的浏览器来源、方法和请求头，检查预检与响应行为，并理解 CORS 不等同于授权。"
+        },
+        "es": {
+          "name": "CORS de API HTTP",
+          "desc": "Abarca orígenes, métodos y cabeceras permitidos para navegadores y comprobaciones previas y respuestas, sin confundir CORS con autorización."
+        },
+        "fr": {
+          "name": "CORS des API HTTP",
+          "desc": "Cette compétence couvre les origines, méthodes et en-têtes autorisés, les requêtes préliminaires et réponses, sans assimiler CORS à une autorisation."
+        },
+        "de": {
+          "name": "HTTP-API-CORS",
+          "desc": "Diese Fähigkeit umfasst erlaubte Browser-Ursprünge, Methoden und Header sowie Preflight- und Antwortverhalten, ohne CORS als Autorisierung zu behandeln."
+        },
+        "ja": {
+          "name": "HTTP API CORS",
+          "desc": "ブラウザーに許可するオリジン、メソッド、ヘッダーとプリフライト・応答の動作を設定・確認し、CORS を認可と区別する能力を扱います。"
+        },
+        "ru": {
+          "name": "CORS для HTTP API",
+          "desc": "Навык охватывает разрешённые источники браузерных запросов, методы, заголовки, предварительные запросы и ответы, отличая CORS от авторизации."
+        },
+        "ko": {
+          "name": "HTTP API CORS",
+          "desc": "허용할 브라우저 오리진, 메서드와 헤더를 구성하고 사전 요청 및 응답 동작을 확인하며 CORS를 권한 부여와 구분하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "CORS de API HTTP",
+          "desc": "Abrange origens, métodos e cabeçalhos permitidos para navegadores e verificações preliminares e respostas, sem confundir CORS com autorização."
+        }
+      }
+    },
+    {
+      "key": "aws/http_api_jwt_authorization",
+      "slug": "http_api_jwt_authorization",
+      "name": "HTTP API JWT Authorization",
+      "desc": "HTTP API JWT authorization covers applying authorizers and route scopes and evaluating token signatures, issuers, audiences, and validity times before backend access.",
+      "i18n": {
+        "zh": {
+          "name": "HTTP API JWT 授权",
+          "desc": "涵盖配置授权器和路由作用域，并在访问后端前验证令牌签名、签发者、受众及有效时间。"
+        },
+        "es": {
+          "name": "Autorización JWT de API HTTP",
+          "desc": "Abarca autorizadores y ámbitos de rutas, y comprobación de firmas, emisores, audiencias y vigencia de tokens antes de acceder al backend."
+        },
+        "fr": {
+          "name": "Autorisation JWT des API HTTP",
+          "desc": "Cette compétence couvre les mécanismes d’autorisation et portées de routes, ainsi que signatures, émetteurs, audiences et validité des jetons avant l’accès au backend."
+        },
+        "de": {
+          "name": "HTTP-API-JWT-Autorisierung",
+          "desc": "Diese Fähigkeit umfasst Autorisierer und Routen-Scopes sowie Token-Signaturen, Aussteller, Zielgruppen und Gültigkeitszeiten vor dem Backend-Zugriff."
+        },
+        "ja": {
+          "name": "HTTP API JWT 認可",
+          "desc": "オーソライザーとルートのスコープを設定し、バックエンドアクセス前にトークンの署名、発行者、対象者、有効期間を検証する能力を扱います。"
+        },
+        "ru": {
+          "name": "JWT-авторизация HTTP API",
+          "desc": "Навык охватывает авторизаторы, области доступа маршрутов и проверку подписей, издателей, аудиторий и сроков действия токенов перед доступом к backend."
+        },
+        "ko": {
+          "name": "HTTP API JWT 권한 부여",
+          "desc": "권한 부여자와 경로 범위를 설정하고 백엔드 접근 전에 토큰 서명, 발급자, 대상과 유효 시간을 검증하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Autorização JWT de API HTTP",
+          "desc": "Abrange autorizadores, escopos de rotas e verificação de assinaturas, emissores, públicos-alvo e validade de tokens antes do acesso ao backend."
+        }
+      }
+    },
+    {
+      "key": "aws/cognito_user_pools",
+      "slug": "cognito_user_pools",
+      "name": "Cognito User Pools",
+      "desc": "Cognito user pools cover configuring user directories, app clients, user attributes, and authentication settings for application identities separately from IAM identities.",
+      "i18n": {
+        "zh": {
+          "name": "Cognito 用户池",
+          "desc": "涵盖为应用身份配置用户目录、应用客户端、用户属性和认证设置，并与 IAM 身份区分。"
+        },
+        "es": {
+          "name": "Grupos de usuarios de Cognito",
+          "desc": "Abarca directorios, clientes de aplicaciones, atributos de usuario y autenticación para identidades de aplicaciones, diferenciadas de las identidades de IAM."
+        },
+        "fr": {
+          "name": "Groupes d’utilisateurs Cognito",
+          "desc": "Cette compétence couvre les annuaires, clients d’application, attributs et paramètres d’authentification des identités applicatives, distinctes des identités IAM."
+        },
+        "de": {
+          "name": "Cognito-Benutzerpools",
+          "desc": "Diese Fähigkeit umfasst Benutzerverzeichnisse, App-Clients, Attribute und Authentifizierungseinstellungen für Anwendungsidentitäten, getrennt von IAM-Identitäten."
+        },
+        "ja": {
+          "name": "Cognito ユーザープール",
+          "desc": "IAM アイデンティティとは別のアプリケーションユーザー向けに、ユーザーディレクトリ、アプリクライアント、属性、認証設定を構成する能力を扱います。"
+        },
+        "ru": {
+          "name": "Пулы пользователей Cognito",
+          "desc": "Навык охватывает каталоги пользователей, клиенты приложений, атрибуты и настройки аутентификации прикладных идентификационных сущностей, отличных от IAM."
+        },
+        "ko": {
+          "name": "Cognito 사용자 풀",
+          "desc": "IAM 주체와 구분되는 애플리케이션 주체를 위해 사용자 디렉터리, 앱 클라이언트, 사용자 속성과 인증 설정을 구성하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Pools de usuários Cognito",
+          "desc": "Abrange diretórios, clientes de aplicações, atributos e configurações de autenticação para identidades de aplicações, distintas das identidades IAM."
+        }
+      }
+    },
+    {
+      "key": "aws/cognito_authentication",
+      "slug": "cognito_authentication",
+      "name": "Cognito Authentication",
+      "desc": "Cognito authentication covers implementing user pool sign-in and token refresh and interpreting ID, access, and refresh tokens and authentication failures.",
+      "i18n": {
+        "zh": {
+          "name": "Cognito 认证",
+          "desc": "涵盖实现用户池登录和令牌刷新，以及理解 ID 令牌、访问令牌、刷新令牌和认证失败。"
+        },
+        "es": {
+          "name": "Autenticación con Cognito",
+          "desc": "Abarca inicio de sesión y renovación de tokens de grupos de usuarios, distinguiendo tokens de ID, acceso y actualización y errores de autenticación."
+        },
+        "fr": {
+          "name": "Authentification Cognito",
+          "desc": "Cette compétence couvre la connexion et le renouvellement de jetons des groupes d’utilisateurs, les jetons d’identité, d’accès et de rafraîchissement et les échecs d’authentification."
+        },
+        "de": {
+          "name": "Cognito-Authentifizierung",
+          "desc": "Diese Fähigkeit umfasst Benutzerpool-Anmeldung und Token-Erneuerung sowie die Interpretation von ID-, Zugriffs- und Aktualisierungstokens und Authentifizierungsfehlern."
+        },
+        "ja": {
+          "name": "Cognito 認証",
+          "desc": "ユーザープールのサインインとトークン更新、ID・アクセス・リフレッシュトークンの解釈、および認証失敗の処理を扱います。"
+        },
+        "ru": {
+          "name": "Аутентификация Cognito",
+          "desc": "Навык охватывает вход в пулы пользователей, обновление токенов, различение токенов ID, доступа и обновления и ошибок аутентификации."
+        },
+        "ko": {
+          "name": "Cognito 인증",
+          "desc": "사용자 풀 로그인과 토큰 갱신을 구현하고 ID, 액세스, 갱신 토큰과 인증 실패를 해석하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Autenticação com Cognito",
+          "desc": "Abrange login e renovação de tokens dos pools de usuários e interpretação de tokens de ID, acesso e atualização e falhas de autenticação."
+        }
+      }
+    },
+    {
+      "key": "aws/sqs_message_operations",
+      "slug": "sqs_message_operations",
+      "name": "SQS Message Operations",
+      "desc": "SQS message operations cover creating queues and sending, receiving, and deleting messages while distinguishing message identifiers from receipt handles.",
+      "i18n": {
+        "zh": {
+          "name": "SQS 消息操作",
+          "desc": "涵盖创建队列、发送、接收和删除消息，并区分消息标识符与接收句柄。"
+        },
+        "es": {
+          "name": "Operaciones de mensajes en SQS",
+          "desc": "Abarca crear colas y enviar, recibir y eliminar mensajes, distinguiendo identificadores de mensajes de identificadores de recepción."
+        },
+        "fr": {
+          "name": "Opérations sur les messages SQS",
+          "desc": "Cette compétence couvre les files, l’envoi, la réception et la suppression de messages, en distinguant identifiants de message et descripteurs de réception."
+        },
+        "de": {
+          "name": "SQS-Nachrichtenoperationen",
+          "desc": "Diese Fähigkeit umfasst Warteschlangenerstellung sowie Senden, Empfangen und Löschen von Nachrichten mit Unterscheidung von Nachrichtenkennungen und Empfangs-Handles."
+        },
+        "ja": {
+          "name": "SQS メッセージ操作",
+          "desc": "キューの作成とメッセージの送信、受信、削除、およびメッセージ ID と受信ハンドルの区別を扱います。"
+        },
+        "ru": {
+          "name": "Операции с сообщениями SQS",
+          "desc": "Навык охватывает создание очередей, отправку, получение и удаление сообщений, отличая идентификаторы сообщений от дескрипторов получения."
+        },
+        "ko": {
+          "name": "SQS 메시지 작업",
+          "desc": "큐 생성과 메시지 전송, 수신, 삭제를 다루며 메시지 식별자와 수신 핸들을 구분합니다."
+        },
+        "pt": {
+          "name": "Operações de mensagens SQS",
+          "desc": "Abrange criar filas e enviar, receber e excluir mensagens, distinguindo identificadores de mensagens de identificadores de recebimento."
+        }
+      }
+    },
+    {
+      "key": "aws/sqs_delivery_control",
+      "slug": "sqs_delivery_control",
+      "name": "SQS Delivery Control",
+      "desc": "SQS delivery control covers configuring visibility timeouts, delays, long polling, and FIFO ordering and deduplication while accounting for redelivery and processing time.",
+      "i18n": {
+        "zh": {
+          "name": "SQS 投递控制",
+          "desc": "涵盖配置可见性超时、延迟、长轮询及 FIFO 排序与去重，并考虑重新投递和处理耗时。"
+        },
+        "es": {
+          "name": "Control de entrega de SQS",
+          "desc": "Abarca tiempos de visibilidad, retrasos, sondeo largo y ordenación y deduplicación FIFO, considerando reentregas y tiempo de procesamiento."
+        },
+        "fr": {
+          "name": "Contrôle de livraison SQS",
+          "desc": "Cette compétence couvre les délais de visibilité, retards, interrogations longues et ordre et déduplication FIFO, en tenant compte des nouvelles livraisons et du traitement."
+        },
+        "de": {
+          "name": "SQS-Zustellungssteuerung",
+          "desc": "Diese Fähigkeit umfasst Sichtbarkeitszeitlimits, Verzögerungen, Long Polling und FIFO-Reihenfolge und -Deduplizierung unter Berücksichtigung erneuter Zustellung und Verarbeitungsdauer."
+        },
+        "ja": {
+          "name": "SQS 配信制御",
+          "desc": "可視性タイムアウト、遅延、ロングポーリング、FIFO の順序と重複排除を設定し、再配信と処理時間を考慮する能力を扱います。"
+        },
+        "ru": {
+          "name": "Управление доставкой SQS",
+          "desc": "Навык охватывает тайм-ауты видимости, задержки, длительный опрос, порядок и дедупликацию FIFO, учитывая повторную доставку и длительность обработки."
+        },
+        "ko": {
+          "name": "SQS 전송 제어",
+          "desc": "가시성 제한 시간, 지연, 롱 폴링과 FIFO 순서 및 중복 제거를 구성하고 재전송과 처리 시간을 고려하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Controle de entrega SQS",
+          "desc": "Abrange tempos de visibilidade, atrasos, sondagem longa e ordenação e desduplicação FIFO, considerando reentregas e tempo de processamento."
+        }
+      }
+    },
+    {
+      "key": "aws/sqs_failure_recovery",
+      "slug": "sqs_failure_recovery",
+      "name": "SQS Failure Recovery",
+      "desc": "SQS failure recovery covers configuring dead letter queues and redrive policies and coordinating retries and idempotent consumers to recover failed message processing.",
+      "i18n": {
+        "zh": {
+          "name": "SQS 故障恢复",
+          "desc": "涵盖配置死信队列和重驱策略，并结合重试与幂等消费者恢复失败的消息处理。"
+        },
+        "es": {
+          "name": "Recuperación de fallos en SQS",
+          "desc": "Abarca colas de mensajes fallidos (DLQ), políticas de redirección, reintentos y consumidores idempotentes para recuperar el procesamiento fallido."
+        },
+        "fr": {
+          "name": "Récupération après échec SQS",
+          "desc": "Cette compétence couvre les files de lettres mortes, politiques de remise en traitement, nouvelles tentatives et consommateurs idempotents pour récupérer les traitements échoués."
+        },
+        "de": {
+          "name": "SQS-Fehlerbehebung",
+          "desc": "Diese Fähigkeit umfasst Dead-Letter-Warteschlangen, Redrive-Richtlinien, Wiederholungen und idempotente Consumer zur Wiederherstellung fehlgeschlagener Nachrichtenverarbeitung."
+        },
+        "ja": {
+          "name": "SQS 障害復旧",
+          "desc": "デッドレターキューと再処理ポリシーを設定し、再試行と冪等なコンシューマーを組み合わせて失敗したメッセージ処理を復旧する能力を扱います。"
+        },
+        "ru": {
+          "name": "Восстановление после сбоев SQS",
+          "desc": "Навык охватывает очереди необработанных сообщений (DLQ), политики повторной обработки, повторные попытки и идемпотентных потребителей для восстановления обработки."
+        },
+        "ko": {
+          "name": "SQS 장애 복구",
+          "desc": "데드 레터 큐와 재처리 정책을 구성하고 재시도 및 멱등 소비자를 조율해 실패한 메시지 처리를 복구하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Recuperação de falhas SQS",
+          "desc": "Abrange filas de mensagens não processadas (DLQ), políticas de reprocessamento, novas tentativas e consumidores idempotentes para recuperar o processamento com falha."
+        }
+      }
+    },
+    {
+      "key": "aws/sns_subscriptions",
+      "slug": "sns_subscriptions",
+      "name": "SNS Subscriptions",
+      "desc": "SNS subscriptions cover configuring topics, subscribers, subscription filters, and delivery permissions to distribute messages to the intended destinations.",
+      "i18n": {
+        "zh": {
+          "name": "SNS 订阅",
+          "desc": "涵盖配置主题、订阅者、订阅筛选和投递权限，将消息分发到指定目标。"
+        },
+        "es": {
+          "name": "Suscripciones de SNS",
+          "desc": "Abarca temas, suscriptores, filtros y permisos de entrega para distribuir mensajes a los destinos previstos."
+        },
+        "fr": {
+          "name": "Abonnements SNS",
+          "desc": "Cette compétence couvre les rubriques, abonnés, filtres et autorisations de livraison pour distribuer les messages aux destinations prévues."
+        },
+        "de": {
+          "name": "SNS-Abonnements",
+          "desc": "Diese Fähigkeit umfasst Themen, Abonnenten, Filter und Zustellberechtigungen zur Verteilung von Nachrichten an die vorgesehenen Ziele."
+        },
+        "ja": {
+          "name": "SNS サブスクリプション",
+          "desc": "トピック、購読者、フィルター、配信権限を設定し、意図した送信先にメッセージを配布する能力を扱います。"
+        },
+        "ru": {
+          "name": "Подписки SNS",
+          "desc": "Навык охватывает темы, подписчиков, фильтры и разрешения доставки для распространения сообщений заданным получателям."
+        },
+        "ko": {
+          "name": "SNS 구독",
+          "desc": "주제, 구독자, 구독 필터와 전송 권한을 구성해 메시지를 지정된 대상으로 배포하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Assinaturas SNS",
+          "desc": "Abrange tópicos, assinantes, filtros e permissões de entrega para distribuir mensagens aos destinos previstos."
+        }
+      }
+    },
+    {
+      "key": "aws/eventbridge_event_routing",
+      "slug": "eventbridge_event_routing",
+      "name": "EventBridge Event Routing",
+      "desc": "EventBridge event routing covers configuring event buses, matching rules, targets, delivery permissions, and input transformations to route events to consumers.",
+      "i18n": {
+        "zh": {
+          "name": "EventBridge 事件路由",
+          "desc": "涵盖配置事件总线、匹配规则、目标、投递权限和输入转换，将事件路由到消费者。"
+        },
+        "es": {
+          "name": "Enrutamiento de eventos de EventBridge",
+          "desc": "Abarca buses, reglas de coincidencia, destinos, permisos de entrega y transformaciones de entrada para dirigir eventos a consumidores."
+        },
+        "fr": {
+          "name": "Routage d’événements EventBridge",
+          "desc": "Cette compétence couvre les bus, règles de correspondance, cibles, droits de livraison et transformations d’entrée pour acheminer les événements vers les consommateurs."
+        },
+        "de": {
+          "name": "EventBridge-Ereignisrouting",
+          "desc": "Diese Fähigkeit umfasst Ereignisbusse, passende Regeln, Ziele, Zustellberechtigungen und Eingabetransformationen zur Weiterleitung an Consumer."
+        },
+        "ja": {
+          "name": "EventBridge イベントルーティング",
+          "desc": "イベントバス、照合ルール、ターゲット、配信権限、入力変換を設定し、コンシューマーにイベントを届ける能力を扱います。"
+        },
+        "ru": {
+          "name": "Маршрутизация событий EventBridge",
+          "desc": "Навык охватывает шины событий, правила сопоставления, цели, разрешения доставки и преобразования входных данных для направления событий потребителям."
+        },
+        "ko": {
+          "name": "EventBridge 이벤트 라우팅",
+          "desc": "이벤트 버스, 일치 규칙, 대상, 전송 권한과 입력 변환을 구성해 이벤트를 소비자로 전달하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Roteamento de eventos EventBridge",
+          "desc": "Abrange barramentos, regras de correspondência, destinos, permissões de entrega e transformações de entrada para encaminhar eventos aos consumidores."
+        }
+      }
+    },
+    {
+      "key": "aws/step_functions_workflows",
+      "slug": "step_functions_workflows",
+      "name": "Step Functions Workflows",
+      "desc": "Step Functions workflows cover defining state machine tasks, choices, and data flow and interpreting executions to coordinate service operations.",
+      "i18n": {
+        "zh": {
+          "name": "Step Functions 工作流",
+          "desc": "涵盖定义状态机任务、选择分支和数据流，以及解读执行情况以协调服务操作。"
+        },
+        "es": {
+          "name": "Flujos de trabajo de Step Functions",
+          "desc": "Abarca tareas de máquinas de estados, decisiones, flujo de datos e interpretación de ejecuciones para coordinar operaciones de servicios."
+        },
+        "fr": {
+          "name": "Flux de travail Step Functions",
+          "desc": "Cette compétence couvre les tâches et choix des machines à états, les flux de données et l’interprétation des exécutions pour coordonner les services."
+        },
+        "de": {
+          "name": "Step-Functions-Workflows",
+          "desc": "Diese Fähigkeit umfasst Zustandsautomaten mit Aufgaben, Entscheidungen und Datenfluss sowie die Interpretation von Ausführungen zur Koordination von Diensten."
+        },
+        "ja": {
+          "name": "Step Functions ワークフロー",
+          "desc": "ステートマシンのタスク、選択分岐、データフローを定義し、実行状況を解釈してサービス操作を連携させる能力を扱います。"
+        },
+        "ru": {
+          "name": "Рабочие процессы Step Functions",
+          "desc": "Навык охватывает задачи и ветвления автоматов состояний, потоки данных и анализ выполнений для координации сервисных операций."
+        },
+        "ko": {
+          "name": "Step Functions 워크플로",
+          "desc": "상태 머신 작업, 선택 분기와 데이터 흐름을 정의하고 실행을 해석해 서비스 작업을 조율하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Fluxos de trabalho Step Functions",
+          "desc": "Abrange tarefas e escolhas de máquinas de estado, fluxo de dados e interpretação de execuções para coordenar operações de serviços."
+        }
+      }
+    },
+    {
+      "key": "aws/step_functions_failure_handling",
+      "slug": "step_functions_failure_handling",
+      "name": "Step Functions Failure Handling",
+      "desc": "Step Functions failure handling covers configuring retries, backoff, timeouts, and catch transitions and coordinating idempotent tasks to recover workflow failures.",
+      "i18n": {
+        "zh": {
+          "name": "Step Functions 故障处理",
+          "desc": "涵盖配置重试、退避、超时和异常捕获转换，并协调幂等任务以恢复失败的工作流。"
+        },
+        "es": {
+          "name": "Gestión de fallos de Step Functions",
+          "desc": "Abarca reintentos, esperas progresivas, tiempos de espera y transiciones de captura de errores, coordinando tareas idempotentes para recuperar flujos fallidos."
+        },
+        "fr": {
+          "name": "Gestion des échecs Step Functions",
+          "desc": "Cette compétence couvre les nouvelles tentatives, attentes progressives, délais et transitions de capture d’erreurs, et la coordination de tâches idempotentes pour récupérer les flux échoués."
+        },
+        "de": {
+          "name": "Step-Functions-Fehlerbehandlung",
+          "desc": "Diese Fähigkeit umfasst Wiederholungen, Backoff, Zeitlimits und Fehlerfangübergänge sowie idempotente Aufgaben zur Wiederherstellung fehlgeschlagener Workflows."
+        },
+        "ja": {
+          "name": "Step Functions エラー処理",
+          "desc": "再試行、バックオフ、タイムアウト、エラー捕捉による遷移を設定し、冪等なタスクを連携させて失敗したワークフローを復旧する能力を扱います。"
+        },
+        "ru": {
+          "name": "Обработка сбоев Step Functions",
+          "desc": "Навык охватывает повторные попытки, задержки между ними, тайм-ауты и переходы перехвата ошибок, координируя идемпотентные задачи для восстановления процессов."
+        },
+        "ko": {
+          "name": "Step Functions 오류 처리",
+          "desc": "재시도, 백오프, 제한 시간과 오류 포착 전이를 구성하고 멱등 작업을 조율해 실패한 워크플로를 복구하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Tratamento de falhas Step Functions",
+          "desc": "Abrange novas tentativas, recuo progressivo, tempos limite e transições de captura de erros, coordenando tarefas idempotentes para recuperar fluxos com falha."
+        }
+      }
+    },
+    {
+      "key": "aws/route53_dns_records",
+      "slug": "route53_dns_records",
+      "name": "Route 53 DNS Records",
+      "desc": "Route 53 DNS records cover configuring hosted zones, record values, aliases, and routing policies and diagnosing DNS answers and delegation.",
+      "i18n": {
+        "zh": {
+          "name": "Route 53 DNS 记录",
+          "desc": "涵盖配置托管区域、记录值、别名和路由策略，以及诊断 DNS 应答与委派。"
+        },
+        "es": {
+          "name": "Registros DNS de Route 53",
+          "desc": "Abarca zonas alojadas, valores de registros, alias y políticas de enrutamiento, y el diagnóstico de respuestas DNS y delegación."
+        },
+        "fr": {
+          "name": "Enregistrements DNS Route 53",
+          "desc": "Cette compétence couvre les zones hébergées, valeurs d’enregistrements, alias et politiques de routage, ainsi que le diagnostic des réponses DNS et de la délégation."
+        },
+        "de": {
+          "name": "Route-53-DNS-Einträge",
+          "desc": "Diese Fähigkeit umfasst gehostete Zonen, Eintragswerte, Aliasse und Routingrichtlinien sowie die Diagnose von DNS-Antworten und Delegierung."
+        },
+        "ja": {
+          "name": "Route 53 DNS レコード",
+          "desc": "ホストゾーン、レコード値、エイリアス、ルーティングポリシーの設定と、DNS 応答および委任の診断を扱います。"
+        },
+        "ru": {
+          "name": "DNS-записи Route 53",
+          "desc": "Навык охватывает размещённые зоны, значения записей, псевдонимы и политики маршрутизации, диагностику ответов DNS и делегирования."
+        },
+        "ko": {
+          "name": "Route 53 DNS 레코드",
+          "desc": "호스팅 영역, 레코드 값, 별칭과 라우팅 정책 구성 및 DNS 응답과 위임 진단을 다룹니다."
+        },
+        "pt": {
+          "name": "Registros DNS do Route 53",
+          "desc": "Abrange zonas hospedadas, valores de registros, aliases e políticas de roteamento, além de diagnosticar respostas DNS e delegação."
+        }
+      }
+    },
+    {
+      "key": "aws/cloudfront_origins",
+      "slug": "cloudfront_origins",
+      "name": "CloudFront Origins",
+      "desc": "CloudFront origins cover configuring distribution origins and path-based origin selection and restricting supported origin access while distinguishing viewer access from origin access.",
+      "i18n": {
+        "zh": {
+          "name": "CloudFront 源站",
+          "desc": "涵盖配置分发源站、按路径选择源站和受支持的源站访问限制，并区分查看者访问与源站访问。"
+        },
+        "es": {
+          "name": "Orígenes de CloudFront",
+          "desc": "Abarca orígenes de distribuciones, selección por ruta y restricciones de acceso compatibles, distinguiendo el acceso de los usuarios del acceso al origen."
+        },
+        "fr": {
+          "name": "Origines CloudFront",
+          "desc": "Cette compétence couvre les origines des distributions, leur sélection par chemin et les restrictions compatibles, en distinguant accès des utilisateurs et accès aux origines."
+        },
+        "de": {
+          "name": "CloudFront-Ursprünge",
+          "desc": "Diese Fähigkeit umfasst Ursprünge von Verteilungen, pfadbasierte Ursprungsauswahl und unterstützte Zugriffsbeschränkungen sowie die Unterscheidung zwischen Clientzugriff auf die Verteilung und Zugriff auf den Ursprung."
+        },
+        "ja": {
+          "name": "CloudFront オリジン",
+          "desc": "配信元とパスに応じたオリジン選択、対応するアクセス制限の設定を扱い、ビューワーアクセスとオリジンアクセスを区別します。"
+        },
+        "ru": {
+          "name": "Источники контента CloudFront",
+          "desc": "Навык охватывает настройку источников контента CloudFront, их выбор по пути и поддерживаемые ограничения доступа, отличая доступ пользователей от доступа к источнику."
+        },
+        "ko": {
+          "name": "CloudFront 오리진",
+          "desc": "배포 오리진, 경로 기반 오리진 선택과 지원되는 접근 제한을 구성하고 뷰어 액세스와 오리진 액세스를 구분하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Origens CloudFront",
+          "desc": "Abrange origens de distribuições, seleção por caminho e restrições de acesso compatíveis, distinguindo acesso do visualizador e acesso à origem."
+        }
+      }
+    },
+    {
+      "key": "aws/cloudfront_cache_control",
+      "slug": "cloudfront_cache_control",
+      "name": "CloudFront Cache Control",
+      "desc": "CloudFront cache control covers defining cache keys and freshness policies, forwarding required request values, and invalidating objects to manage content reuse and updates.",
+      "i18n": {
+        "zh": {
+          "name": "CloudFront 缓存控制",
+          "desc": "涵盖定义缓存键和新鲜度策略、转发必要的请求值，以及通过对象失效管理内容复用和更新。"
+        },
+        "es": {
+          "name": "Control de caché de CloudFront",
+          "desc": "Abarca claves de caché, políticas de vigencia, reenvío de valores requeridos e invalidación de objetos para controlar reutilización y actualización."
+        },
+        "fr": {
+          "name": "Contrôle du cache CloudFront",
+          "desc": "Cette compétence couvre les clés de cache, politiques de fraîcheur, transmission des valeurs requises et invalidation d’objets pour gérer réutilisation et mises à jour."
+        },
+        "de": {
+          "name": "CloudFront-Cache-Steuerung",
+          "desc": "Diese Fähigkeit umfasst Cache-Schlüssel, Gültigkeitsrichtlinien, Weiterleitung benötigter Anfragewerte und Objektinvalidierung zur Verwaltung von Inhaltswiederverwendung und Aktualisierung."
+        },
+        "ja": {
+          "name": "CloudFront キャッシュ制御",
+          "desc": "キャッシュキーと鮮度ポリシー、必要なリクエスト値の転送、オブジェクトの無効化を通じたコンテンツの再利用と更新を扱います。"
+        },
+        "ru": {
+          "name": "Управление кешем CloudFront",
+          "desc": "Навык охватывает ключи кеша, политики актуальности, передачу необходимых значений запросов и инвалидацию объектов для повторного использования и обновления содержимого."
+        },
+        "ko": {
+          "name": "CloudFront 캐시 제어",
+          "desc": "캐시 키와 신선도 정책, 필요한 요청 값 전달과 객체 무효화로 콘텐츠 재사용과 업데이트를 관리하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Controle de cache CloudFront",
+          "desc": "Abrange chaves de cache, políticas de validade, encaminhamento de valores necessários e invalidação de objetos para controlar reutilização e atualização de conteúdo."
+        }
+      }
+    },
+    {
+      "key": "aws/acm_certificate_integration",
+      "slug": "acm_certificate_integration",
+      "name": "ACM Certificate Integration",
+      "desc": "ACM certificate integration covers requesting or importing certificates, completing applicable validation, and associating certificates with supported endpoints under service-specific Region requirements.",
+      "i18n": {
+        "zh": {
+          "name": "ACM 证书集成",
+          "desc": "涵盖申请或导入证书、完成适用的验证，并按服务特定的区域要求为支持的端点关联证书。"
+        },
+        "es": {
+          "name": "Integración de certificados ACM",
+          "desc": "Abarca solicitar o importar certificados, completar su validación y asociarlos a endpoints compatibles según los requisitos regionales de cada servicio."
+        },
+        "fr": {
+          "name": "Intégration de certificats ACM",
+          "desc": "Cette compétence couvre les demandes ou imports de certificats, leur validation et leur association aux points de terminaison compatibles selon les exigences régionales du service."
+        },
+        "de": {
+          "name": "ACM-Zertifikatintegration",
+          "desc": "Diese Fähigkeit umfasst Beantragung oder Import, Validierung und Zuordnung von Zertifikaten zu unterstützten Endpunkten gemäß dienstspezifischen Regionsanforderungen."
+        },
+        "ja": {
+          "name": "ACM 証明書連携",
+          "desc": "証明書の申請・インポートと検証、およびサービス固有のリージョン要件に従った対応エンドポイントへの関連付けを扱います。"
+        },
+        "ru": {
+          "name": "Интеграция сертификатов ACM",
+          "desc": "Навык охватывает запрос или импорт сертификатов, проверку и привязку к поддерживаемым конечным точкам с учётом региональных требований сервисов."
+        },
+        "ko": {
+          "name": "ACM 인증서 통합",
+          "desc": "인증서 요청이나 가져오기, 해당 검증 완료와 서비스별 리전 요구 사항에 따른 지원 엔드포인트 연결을 다룹니다."
+        },
+        "pt": {
+          "name": "Integração de certificados ACM",
+          "desc": "Abrange solicitar ou importar certificados, concluir validações e associá-los a endpoints compatíveis conforme requisitos regionais de cada serviço."
+        }
+      }
+    },
+    {
+      "key": "aws/ecr_image_management",
+      "slug": "ecr_image_management",
+      "name": "ECR Image Management",
+      "desc": "ECR image management covers configuring repositories and access, authenticating registry clients, and publishing, retrieving, and identifying images by tag or digest.",
+      "i18n": {
+        "zh": {
+          "name": "ECR 镜像管理",
+          "desc": "涵盖配置仓库和访问权限、对仓库客户端进行认证，以及发布、获取并通过标签或摘要标识镜像。"
+        },
+        "es": {
+          "name": "Gestión de imágenes ECR",
+          "desc": "Abarca repositorios y acceso, autenticación de clientes del registro y publicación, recuperación e identificación de imágenes mediante etiquetas o resúmenes criptográficos."
+        },
+        "fr": {
+          "name": "Gestion des images ECR",
+          "desc": "Cette compétence couvre les dépôts et droits d’accès, l’authentification des clients du registre et la publication, récupération et identification des images par étiquette ou empreinte."
+        },
+        "de": {
+          "name": "ECR-Image-Verwaltung",
+          "desc": "Diese Fähigkeit umfasst Repository-Zugriff, Registry-Client-Authentifizierung sowie Veröffentlichung, Abruf und Identifikation von Images anhand von Tags oder Digests."
+        },
+        "ja": {
+          "name": "ECR イメージ管理",
+          "desc": "リポジトリとアクセス設定、レジストリクライアントの認証、イメージの発行・取得、およびタグやダイジェストによる識別を扱います。"
+        },
+        "ru": {
+          "name": "Управление образами ECR",
+          "desc": "Навык охватывает репозитории и доступ, аутентификацию клиентов реестра, публикацию, получение и идентификацию образов по тегам или дайджестам."
+        },
+        "ko": {
+          "name": "ECR 이미지 관리",
+          "desc": "리포지토리와 액세스 구성, 레지스트리 클라이언트 인증과 이미지 게시, 조회 및 태그나 다이제스트를 통한 식별을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de imagens ECR",
+          "desc": "Abrange repositórios e acesso, autenticação de clientes do registro e publicação, recuperação e identificação de imagens por tags ou digests."
+        }
+      }
+    },
+    {
+      "key": "aws/ecs_task_definitions",
+      "slug": "ecs_task_definitions",
+      "name": "ECS Task Definitions",
+      "desc": "ECS task definitions cover declaring container images, resource requirements, ports, logs, configuration, secrets, and task and execution roles for deployable task revisions.",
+      "i18n": {
+        "zh": {
+          "name": "ECS 任务定义",
+          "desc": "涵盖声明容器镜像、资源需求、端口、日志、配置、机密信息，以及可部署任务修订版的任务角色和执行角色。"
+        },
+        "es": {
+          "name": "Definiciones de tareas ECS",
+          "desc": "Abarca imágenes, recursos, puertos, registros, configuración, secretos y roles de tarea y ejecución para revisiones de tareas desplegables."
+        },
+        "fr": {
+          "name": "Définitions de tâches ECS",
+          "desc": "Cette compétence couvre les images, ressources, ports, journaux, configuration, secrets et rôles de tâche et d’exécution des révisions déployables."
+        },
+        "de": {
+          "name": "ECS-Aufgabendefinitionen",
+          "desc": "Diese Fähigkeit umfasst Images, Ressourcenanforderungen, Ports, Protokolle, Konfiguration, Geheimnisse sowie Aufgaben- und Ausführungsrollen für bereitstellbare Aufgabenrevisionen."
+        },
+        "ja": {
+          "name": "ECS タスク定義",
+          "desc": "デプロイ可能なタスクリビジョンのイメージ、リソース、ポート、ログ、設定、シークレット、タスクロールと実行ロールの定義を扱います。"
+        },
+        "ru": {
+          "name": "Определения задач ECS",
+          "desc": "Навык охватывает образы, ресурсы, порты, журналы, настройки, секреты, роли задач и выполнения для развёртываемых ревизий задач."
+        },
+        "ko": {
+          "name": "ECS 작업 정의",
+          "desc": "배포 가능한 작업 개정의 이미지, 리소스 요구 사항, 포트, 로그, 구성, 보안 암호, 작업 역할과 실행 역할을 정의하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Definições de tarefas ECS",
+          "desc": "Abrange imagens, recursos, portas, logs, configuração, segredos e funções de tarefa e execução para revisões implantáveis."
+        }
+      }
+    },
+    {
+      "key": "aws/ecs_task_execution",
+      "slug": "ecs_task_execution",
+      "name": "ECS Task Execution",
+      "desc": "ECS task execution covers launching and stopping tasks, configuring their networking and compute capacity, and diagnosing task startup and runtime failures.",
+      "i18n": {
+        "zh": {
+          "name": "ECS 任务执行",
+          "desc": "涵盖启动和停止任务、配置网络及计算容量，以及诊断任务启动和运行故障。"
+        },
+        "es": {
+          "name": "Ejecución de tareas ECS",
+          "desc": "Abarca iniciar y detener tareas, configurar redes y capacidad de cómputo y diagnosticar fallos de inicio y ejecución."
+        },
+        "fr": {
+          "name": "Exécution de tâches ECS",
+          "desc": "Cette compétence couvre le lancement et l’arrêt des tâches, leur réseau et capacité de calcul, ainsi que le diagnostic des échecs de démarrage et d’exécution."
+        },
+        "de": {
+          "name": "ECS-Aufgabenausführung",
+          "desc": "Diese Fähigkeit umfasst Start und Stopp von Aufgaben, Netzwerk- und Rechenkapazitätskonfiguration sowie Diagnose von Start- und Laufzeitfehlern."
+        },
+        "ja": {
+          "name": "ECS タスク実行",
+          "desc": "タスクの起動・停止、ネットワークと計算容量の設定、および起動・実行時障害の診断を扱います。"
+        },
+        "ru": {
+          "name": "Выполнение задач ECS",
+          "desc": "Навык охватывает запуск и остановку задач, настройку сети и вычислительных ресурсов и диагностику сбоев запуска и выполнения."
+        },
+        "ko": {
+          "name": "ECS 작업 실행",
+          "desc": "작업 시작과 중지, 네트워크 및 컴퓨팅 용량 구성과 시작 및 런타임 실패 진단을 다룹니다."
+        },
+        "pt": {
+          "name": "Execução de tarefas ECS",
+          "desc": "Abrange iniciar e parar tarefas, configurar rede e capacidade computacional e diagnosticar falhas de inicialização e execução."
+        }
+      }
+    },
+    {
+      "key": "aws/ecs_service_management",
+      "slug": "ecs_service_management",
+      "name": "ECS Service Management",
+      "desc": "ECS service management covers configuring desired task counts, load balancer integration, and health settings and evaluating task replacement and service availability.",
+      "i18n": {
+        "zh": {
+          "name": "ECS 服务管理",
+          "desc": "涵盖配置期望任务数、负载均衡器集成和健康设置，以及评估任务替换与服务可用性。"
+        },
+        "es": {
+          "name": "Gestión de servicios ECS",
+          "desc": "Abarca el número deseado de tareas, integración con balanceadores y ajustes de estado, y la evaluación de sustituciones y disponibilidad."
+        },
+        "fr": {
+          "name": "Gestion des services ECS",
+          "desc": "Cette compétence couvre le nombre souhaité de tâches, l’intégration aux équilibreurs et les paramètres d’intégrité, ainsi que remplacement et disponibilité."
+        },
+        "de": {
+          "name": "ECS-Dienstverwaltung",
+          "desc": "Diese Fähigkeit umfasst gewünschte Aufgabenzahlen, Load-Balancer-Integration und Zustandseinstellungen sowie die Bewertung von Aufgabenersatz und Dienstverfügbarkeit."
+        },
+        "ja": {
+          "name": "ECS サービス管理",
+          "desc": "必要なタスク数、ロードバランサー連携、ヘルス設定の構成と、タスクの置き換えおよび可用性の評価を扱います。"
+        },
+        "ru": {
+          "name": "Управление сервисами ECS",
+          "desc": "Навык охватывает желаемое число задач, интеграцию балансировщиков и настройки работоспособности, а также замену задач и доступность сервиса."
+        },
+        "ko": {
+          "name": "ECS 서비스 관리",
+          "desc": "원하는 작업 수, 로드 밸런서 통합과 상태 설정을 구성하고 작업 교체와 서비스 가용성을 평가하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Gerenciamento de serviços ECS",
+          "desc": "Abrange quantidade desejada de tarefas, integração com balanceadores e configurações de integridade, avaliando substituições e disponibilidade."
+        }
+      }
+    },
+    {
+      "key": "aws/ecs_service_deployments",
+      "slug": "ecs_service_deployments",
+      "name": "ECS Service Deployments",
+      "desc": "ECS service deployments cover releasing task definition revisions, controlling rollout health and capacity, and restoring a known working application release.",
+      "i18n": {
+        "zh": {
+          "name": "ECS 服务部署",
+          "desc": "涵盖发布任务定义修订版、控制滚动发布的健康状态与容量，以及恢复已知可用的应用版本。"
+        },
+        "es": {
+          "name": "Despliegues de servicios ECS",
+          "desc": "Abarca publicar revisiones de tareas, controlar estado y capacidad durante el despliegue y restaurar una versión funcional de la aplicación."
+        },
+        "fr": {
+          "name": "Déploiements de services ECS",
+          "desc": "Cette compétence couvre les nouvelles révisions de tâches, l’intégrité et la capacité pendant le déploiement et la restauration d’une version fonctionnelle."
+        },
+        "de": {
+          "name": "ECS-Dienstbereitstellungen",
+          "desc": "Diese Fähigkeit umfasst Aufgabenrevisionen, Zustands- und Kapazitätssteuerung während der Bereitstellung und Wiederherstellung einer funktionierenden Anwendungsversion."
+        },
+        "ja": {
+          "name": "ECS サービスデプロイ",
+          "desc": "タスク定義のリビジョンをリリースし、展開時のヘルスと容量を制御して、動作確認済みのアプリケーション版に戻す能力を扱います。"
+        },
+        "ru": {
+          "name": "Развёртывания сервисов ECS",
+          "desc": "Навык охватывает выпуск ревизий задач, контроль состояния и ёмкости при развёртывании и восстановление рабочей версии приложения."
+        },
+        "ko": {
+          "name": "ECS 서비스 배포",
+          "desc": "작업 정의 개정을 출시하고 배포 중 상태와 용량을 제어하며 정상 동작이 확인된 애플리케이션 버전으로 복원하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Implantações de serviços ECS",
+          "desc": "Abrange lançar revisões de tarefas, controlar integridade e capacidade durante a implantação e restaurar uma versão funcional da aplicação."
+        }
+      }
+    },
+    {
+      "key": "aws/efs_mount_connectivity",
+      "slug": "efs_mount_connectivity",
+      "name": "EFS Mount Connectivity",
+      "desc": "EFS mount connectivity covers configuring file systems, mount targets, and network access and establishing shared file access from intended clients.",
+      "i18n": {
+        "zh": {
+          "name": "EFS 挂载连接",
+          "desc": "涵盖配置文件系统、挂载目标和网络访问，并让指定客户端建立共享文件访问。"
+        },
+        "es": {
+          "name": "Conectividad de montaje EFS",
+          "desc": "Abarca sistemas de archivos, destinos de montaje y acceso de red para permitir acceso a archivos compartidos desde los clientes previstos."
+        },
+        "fr": {
+          "name": "Connectivité des montages EFS",
+          "desc": "Cette compétence couvre les systèmes de fichiers, cibles de montage et accès réseau permettant aux clients prévus d’accéder aux fichiers partagés."
+        },
+        "de": {
+          "name": "EFS-Mount-Konnektivität",
+          "desc": "Diese Fähigkeit umfasst Dateisysteme, Mount-Ziele und Netzwerkzugriff zur Bereitstellung gemeinsam genutzter Dateien für die vorgesehenen Clients."
+        },
+        "ja": {
+          "name": "EFS マウント接続",
+          "desc": "ファイルシステム、マウントターゲット、ネットワークアクセスを設定し、意図したクライアントから共有ファイルにアクセスする能力を扱います。"
+        },
+        "ru": {
+          "name": "Подключение файловых систем EFS",
+          "desc": "Навык охватывает файловые системы, цели монтирования и сетевой доступ для совместного доступа к файлам с заданных клиентов."
+        },
+        "ko": {
+          "name": "EFS 마운트 연결",
+          "desc": "파일 시스템, 마운트 대상과 네트워크 액세스를 구성해 지정된 클라이언트에서 공유 파일에 접근하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Conectividade de montagem EFS",
+          "desc": "Abrange sistemas de arquivos, destinos de montagem e acesso de rede para fornecer arquivos compartilhados aos clientes previstos."
+        }
+      }
+    },
+    {
+      "key": "aws/efs_access_points",
+      "slug": "efs_access_points",
+      "name": "EFS Access Points",
+      "desc": "EFS access points cover configuring application root directories and enforced POSIX identities and combining access point mounts with file system permissions and IAM access controls.",
+      "i18n": {
+        "zh": {
+          "name": "EFS 访问点",
+          "desc": "涵盖配置应用根目录和强制使用的 POSIX 身份，并将访问点挂载与文件系统权限及 IAM 访问控制结合。"
+        },
+        "es": {
+          "name": "Puntos de acceso EFS",
+          "desc": "Abarca directorios raíz e identidades POSIX impuestas, combinando montajes mediante puntos de acceso con permisos del sistema de archivos y controles de IAM."
+        },
+        "fr": {
+          "name": "Points d’accès EFS",
+          "desc": "Cette compétence couvre les répertoires racines et identités POSIX imposées, en combinant montages par point d’accès, permissions du système de fichiers et contrôles IAM."
+        },
+        "de": {
+          "name": "EFS-Zugriffspunkte",
+          "desc": "Diese Fähigkeit umfasst Anwendungswurzelverzeichnisse und erzwungene POSIX-Identitäten sowie Zugriffspunkt-Mounts in Verbindung mit Dateisystemrechten und IAM-Kontrollen."
+        },
+        "ja": {
+          "name": "EFS アクセスポイント",
+          "desc": "アプリケーションのルートディレクトリと適用する POSIX ID を設定し、アクセスポイント経由のマウントにファイルシステム権限と IAM 制御を組み合わせる能力を扱います。"
+        },
+        "ru": {
+          "name": "Точки доступа EFS",
+          "desc": "Навык охватывает корневые каталоги приложений, принудительные POSIX-идентификаторы и монтирование через точки доступа с правами файловой системы и контролем IAM."
+        },
+        "ko": {
+          "name": "EFS 액세스 포인트",
+          "desc": "애플리케이션 루트 디렉터리와 강제 적용할 POSIX 주체를 설정하고 액세스 포인트 마운트에 파일 시스템 권한과 IAM 제어를 결합하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Pontos de acesso EFS",
+          "desc": "Abrange diretórios raiz e identidades POSIX impostas, combinando montagens por pontos de acesso com permissões do sistema de arquivos e controles IAM."
+        }
+      }
+    },
+    {
+      "key": "aws/elasticache_connectivity",
+      "slug": "elasticache_connectivity",
+      "name": "ElastiCache Connectivity",
+      "desc": "ElastiCache connectivity covers provisioning cache resources and configuring endpoints, network access, authentication, and encryption for application connections.",
+      "i18n": {
+        "zh": {
+          "name": "ElastiCache 连接",
+          "desc": "涵盖创建缓存资源，配置端点、网络访问、认证和加密，以供应用连接。"
+        },
+        "es": {
+          "name": "Conectividad de ElastiCache",
+          "desc": "Abarca aprovisionar cachés y configurar endpoints, acceso de red, autenticación y cifrado para conexiones de aplicaciones."
+        },
+        "fr": {
+          "name": "Connectivité ElastiCache",
+          "desc": "Cette compétence couvre le provisionnement de caches et leurs points de terminaison, accès réseau, authentification et chiffrement pour les connexions applicatives."
+        },
+        "de": {
+          "name": "ElastiCache-Konnektivität",
+          "desc": "Diese Fähigkeit umfasst Cache-Bereitstellung, Endpunkte, Netzwerkzugriff, Authentifizierung und Verschlüsselung für Anwendungsverbindungen."
+        },
+        "ja": {
+          "name": "ElastiCache 接続",
+          "desc": "キャッシュの作成と、アプリケーション接続に必要なエンドポイント、ネットワーク、認証、暗号化の設定を扱います。"
+        },
+        "ru": {
+          "name": "Подключение к ElastiCache",
+          "desc": "Навык охватывает создание кешей, конечные точки, сетевой доступ, аутентификацию и шифрование для подключений приложений."
+        },
+        "ko": {
+          "name": "ElastiCache 연결",
+          "desc": "캐시를 프로비저닝하고 애플리케이션 연결에 필요한 엔드포인트, 네트워크 액세스, 인증과 암호화를 구성하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Conectividade do ElastiCache",
+          "desc": "Abrange provisionar caches e configurar endpoints, acesso de rede, autenticação e criptografia para conexões de aplicações."
+        }
+      }
+    },
+    {
+      "key": "aws/glue_data_catalog",
+      "slug": "glue_data_catalog",
+      "name": "Glue Data Catalog",
+      "desc": "Glue Data Catalog covers defining databases and table metadata whose schemas, formats, and storage locations describe the intended datasets.",
+      "i18n": {
+        "zh": {
+          "name": "Glue 数据目录",
+          "desc": "涵盖定义数据库和表元数据，以通过架构、格式及存储位置描述目标数据集。"
+        },
+        "es": {
+          "name": "Catálogo de datos de Glue",
+          "desc": "Abarca definir bases de datos y metadatos de tablas cuyos esquemas, formatos y ubicaciones describen los conjuntos de datos previstos."
+        },
+        "fr": {
+          "name": "Catalogue de données Glue",
+          "desc": "Cette compétence couvre les bases de données et métadonnées de tables dont les schémas, formats et emplacements décrivent les jeux de données prévus."
+        },
+        "de": {
+          "name": "Glue-Datenkatalog",
+          "desc": "Diese Fähigkeit umfasst Datenbanken und Tabellenmetadaten, deren Schemata, Formate und Speicherorte die vorgesehenen Datensätze beschreiben."
+        },
+        "ja": {
+          "name": "Glue データカタログ",
+          "desc": "対象データセットのスキーマ、形式、保存場所を記述するデータベースとテーブルメタデータの定義を扱います。"
+        },
+        "ru": {
+          "name": "Каталог данных Glue",
+          "desc": "Навык охватывает базы данных и метаданные таблиц, схемы, форматы и расположения которых описывают заданные наборы данных."
+        },
+        "ko": {
+          "name": "Glue 데이터 카탈로그",
+          "desc": "대상 데이터셋의 스키마, 형식과 저장 위치를 설명하는 데이터베이스와 테이블 메타데이터를 정의하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Catálogo de dados Glue",
+          "desc": "Abrange bancos de dados e metadados de tabelas cujos esquemas, formatos e locais de armazenamento descrevem os conjuntos de dados previstos."
+        }
+      }
+    },
+    {
+      "key": "aws/glue_table_partitions",
+      "slug": "glue_table_partitions",
+      "name": "Glue Table Partitions",
+      "desc": "Glue table partitions cover defining partition keys and maintaining partition metadata so query engines can discover and select the intended data locations.",
+      "i18n": {
+        "zh": {
+          "name": "Glue 表分区",
+          "desc": "涵盖定义分区键并维护分区元数据，使查询引擎发现和选择目标数据位置。"
+        },
+        "es": {
+          "name": "Particiones de tablas de Glue",
+          "desc": "Abarca claves y metadatos de particiones para que los motores de consulta descubran y seleccionen las ubicaciones de datos previstas."
+        },
+        "fr": {
+          "name": "Partitions de tables Glue",
+          "desc": "Cette compétence couvre les clés et métadonnées de partition pour que les moteurs de requête découvrent et sélectionnent les emplacements de données prévus."
+        },
+        "de": {
+          "name": "Glue-Tabellenpartitionen",
+          "desc": "Diese Fähigkeit umfasst Partitionsschlüssel und -metadaten, damit Abfrage-Engines die vorgesehenen Datenorte finden und auswählen können."
+        },
+        "ja": {
+          "name": "Glue テーブルパーティション",
+          "desc": "パーティションキーとメタデータを管理し、クエリエンジンが対象のデータ保存場所を検出・選択する能力を扱います。"
+        },
+        "ru": {
+          "name": "Разделы таблиц Glue",
+          "desc": "Навык охватывает ключи и метаданные разделов, позволяющие движкам запросов обнаруживать и выбирать нужные расположения данных."
+        },
+        "ko": {
+          "name": "Glue 테이블 파티션",
+          "desc": "파티션 키와 메타데이터를 관리해 쿼리 엔진이 의도한 데이터 위치를 찾고 선택하도록 하는 능력을 다룹니다."
+        },
+        "pt": {
+          "name": "Partições de tabelas Glue",
+          "desc": "Abrange chaves e metadados de partições para que os mecanismos de consulta descubram e selecionem os locais de dados previstos."
+        }
+      }
+    },
+    {
+      "key": "aws/athena_query_execution",
+      "slug": "athena_query_execution",
+      "name": "Athena Query Execution",
+      "desc": "Athena query execution covers configuring workgroups and result locations, submitting SQL against cataloged data, and retrieving results or diagnosing execution failures.",
+      "i18n": {
+        "zh": {
+          "name": "Athena 查询执行",
+          "desc": "涵盖配置工作组和结果位置、对已编入目录的数据提交 SQL，以及获取结果或诊断执行失败。"
+        },
+        "es": {
+          "name": "Ejecución de consultas Athena",
+          "desc": "Abarca grupos de trabajo, ubicaciones de resultados, envío de SQL sobre datos catalogados y recuperación de resultados o diagnóstico de fallos."
+        },
+        "fr": {
+          "name": "Exécution des requêtes Athena",
+          "desc": "Cette compétence couvre les groupes de travail, emplacements de résultats, requêtes SQL sur les données cataloguées et récupération des résultats ou diagnostic des échecs."
+        },
+        "de": {
+          "name": "Athena-Abfrageausführung",
+          "desc": "Diese Fähigkeit umfasst Arbeitsgruppen, Ergebnisorte, SQL-Anfragen auf katalogisierte Daten sowie Ergebnisabruf oder Diagnose von Ausführungsfehlern."
+        },
+        "ja": {
+          "name": "Athena クエリ実行",
+          "desc": "ワークグループと結果保存先の設定、カタログ化されたデータへの SQL 送信、および結果取得や実行失敗の診断を扱います。"
+        },
+        "ru": {
+          "name": "Выполнение запросов Athena",
+          "desc": "Навык охватывает рабочие группы, расположения результатов, SQL-запросы к каталогизированным данным, получение результатов и диагностику ошибок выполнения."
+        },
+        "ko": {
+          "name": "Athena 쿼리 실행",
+          "desc": "작업 그룹과 결과 위치 구성, 카탈로그 데이터에 대한 SQL 제출, 결과 조회 또는 실행 실패 진단을 다룹니다."
+        },
+        "pt": {
+          "name": "Execução de consultas Athena",
+          "desc": "Abrange grupos de trabalho, locais de resultados, envio de SQL sobre dados catalogados e recuperação de resultados ou diagnóstico de falhas."
+        }
+      }
+    },
+    {
+      "key": "aws/bedrock_model_invocation",
+      "slug": "bedrock_model_invocation",
+      "name": "Bedrock Model Invocation",
+      "desc": "Bedrock model invocation covers selecting accessible models, constructing supported runtime requests, processing generated responses, and handling invocation limits and failures.",
+      "i18n": {
+        "zh": {
+          "name": "Bedrock 模型调用",
+          "desc": "涵盖选择可访问的模型、构造受支持的运行时请求、处理生成的响应，以及应对调用限制和失败。"
+        },
+        "es": {
+          "name": "Invocación de modelos Bedrock",
+          "desc": "Abarca seleccionar modelos accesibles, construir solicitudes compatibles, procesar respuestas generadas y gestionar límites y fallos de invocación."
+        },
+        "fr": {
+          "name": "Invocation de modèles Bedrock",
+          "desc": "Cette compétence couvre les modèles accessibles, requêtes d’exécution compatibles, réponses générées et gestion des limites et échecs d’invocation."
+        },
+        "de": {
+          "name": "Bedrock-Modellaufruf",
+          "desc": "Diese Fähigkeit umfasst zugängliche Modelle, unterstützte Laufzeitanfragen, generierte Antworten und den Umgang mit Aufruflimits und Fehlern."
+        },
+        "ja": {
+          "name": "Bedrock モデル呼び出し",
+          "desc": "利用可能なモデルの選択、対応するランタイムリクエストの構築、生成応答の処理、および呼び出し制限や失敗への対応を扱います。"
+        },
+        "ru": {
+          "name": "Вызов моделей Bedrock",
+          "desc": "Навык охватывает доступные модели, поддерживаемые запросы среды выполнения, обработку сгенерированных ответов и ограничений или ошибок вызова."
+        },
+        "ko": {
+          "name": "Bedrock 모델 호출",
+          "desc": "접근 가능한 모델 선택, 지원되는 런타임 요청 구성, 생성된 응답 처리와 호출 제한 및 실패 대응을 다룹니다."
+        },
+        "pt": {
+          "name": "Invocação de modelos Bedrock",
+          "desc": "Abrange selecionar modelos acessíveis, construir solicitações de runtime compatíveis, processar respostas geradas e tratar limites e falhas de invocação."
+        }
+      }
+    }
+  ]
+}

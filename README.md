@@ -29,7 +29,7 @@ src/                    Optional JSON API implementation
 skilltree.schema.json   JSON Schema for one skill tree file
 ```
 
-The current canonical dataset is `v2`. It contains 27 skill trees and 1,216 skills. The `v1` dataset is retained in the repository for historical reference, but the public API only serves the current canonical dataset.
+The current canonical dataset is `v2`. It contains 28 skill trees and 1,302 skills. The `v1` dataset is retained in the repository for historical reference, but the public API only serves the current canonical dataset.
 
 ## Data Format
 
@@ -193,7 +193,7 @@ npm run validate
 npm run build
 ```
 
-Read [docs/skill-tree-design.md](docs/skill-tree-design.md) and [CONTRIBUTING.md](CONTRIBUTING.md) before making larger model changes.
+Read [docs/skill-tree-design.md](docs/skill-tree-design.md) and [CONTRIBUTING.md](CONTRIBUTING.md) before making larger model changes. The [AWS model rationale](docs/aws-skill-tree-design.md) documents its domain boundary, skill granularity, and assessment coverage.
 
 ## Design Principles
 
