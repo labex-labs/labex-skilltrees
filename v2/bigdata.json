@@ -1,0 +1,1607 @@
+{
+  "key": "bigdata",
+  "slug": "bigdata",
+  "name": "Big Data",
+  "skills": [
+    {
+      "key": "bigdata/hdfs_file_operations",
+      "slug": "hdfs_file_operations",
+      "name": "HDFS File Operations",
+      "desc": "HDFS file operations cover organizing distributed paths and transferring, inspecting, copying, and deleting files while distinguishing HDFS from local storage.",
+      "i18n": {
+        "zh": {
+          "name": "HDFS 文件操作",
+          "desc": "HDFS 文件操作涵盖分布式路径组织及文件传输、查看、复制和删除，并区分 HDFS 与本地存储。"
+        },
+        "es": {
+          "name": "Operaciones de archivos HDFS",
+          "desc": "Las operaciones HDFS abarcan organizar rutas distribuidas y transferir, inspeccionar, copiar y eliminar archivos, distinguiendo HDFS del almacenamiento local."
+        },
+        "fr": {
+          "name": "Opérations sur les fichiers HDFS",
+          "desc": "Les opérations HDFS couvrent les chemins distribués et le transfert, l'inspection, la copie et la suppression de fichiers, en distinguant HDFS du stockage local."
+        },
+        "de": {
+          "name": "HDFS-Dateioperationen",
+          "desc": "HDFS-Dateioperationen umfassen verteilte Pfade sowie Übertragen, Prüfen, Kopieren und Löschen von Dateien und die Abgrenzung zum lokalen Speicher."
+        },
+        "ja": {
+          "name": "HDFS ファイル操作",
+          "desc": "HDFS とローカルストレージを区別し、分散パスの整理とファイルの転送、確認、コピー、削除を行う能力です。"
+        },
+        "ru": {
+          "name": "Файловые операции HDFS",
+          "desc": "Файловые операции HDFS охватывают организацию распределённых путей, перенос, просмотр, копирование и удаление файлов с различением HDFS и локального хранилища."
+        },
+        "ko": {
+          "name": "HDFS 파일 작업",
+          "desc": "HDFS와 로컬 저장소를 구분하며 분산 경로를 정리하고 파일을 전송, 확인, 복사 및 삭제하는 능력입니다."
+        },
+        "pt": {
+          "name": "Operações de arquivos HDFS",
+          "desc": "As operações HDFS abrangem organizar caminhos distribuídos e transferir, inspecionar, copiar e excluir arquivos, distinguindo HDFS do armazenamento local."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hdfs_blocks_replication",
+      "slug": "hdfs_blocks_replication",
+      "name": "HDFS Blocks and Replication",
+      "desc": "HDFS blocks and replication cover inspecting block locations and replica health and relating replication settings to available DataNodes.",
+      "i18n": {
+        "zh": {
+          "name": "HDFS 数据块与副本",
+          "desc": "HDFS 数据块与副本涵盖查看块位置和副本健康状态，并结合可用 DataNode 理解副本配置。"
+        },
+        "es": {
+          "name": "Bloques y replicación HDFS",
+          "desc": "Los bloques y la replicación HDFS abarcan inspeccionar ubicaciones y salud de réplicas y relacionar la configuración con los DataNodes disponibles."
+        },
+        "fr": {
+          "name": "Blocs et réplication HDFS",
+          "desc": "Les blocs et la réplication HDFS couvrent l'inspection des emplacements et de l'état des réplicas ainsi que le lien entre configuration et DataNodes disponibles."
+        },
+        "de": {
+          "name": "HDFS-Blöcke und Replikation",
+          "desc": "HDFS-Blöcke und Replikation umfassen das Prüfen von Blockstandorten und Replikatzuständen sowie den Zusammenhang zwischen Replikationseinstellungen und verfügbaren DataNodes."
+        },
+        "ja": {
+          "name": "HDFS ブロックとレプリケーション",
+          "desc": "ブロックの場所とレプリカの健全性を確認し、利用可能な DataNode とレプリケーション設定の関係を理解する能力です。"
+        },
+        "ru": {
+          "name": "Блоки и репликация HDFS",
+          "desc": "Блоки и репликация HDFS охватывают проверку размещения блоков и состояния реплик и связь настроек репликации с доступными DataNode."
+        },
+        "ko": {
+          "name": "HDFS 블록과 복제",
+          "desc": "블록 위치와 복제본 상태를 확인하고 사용 가능한 DataNode와 복제 설정의 관계를 이해하는 능력입니다."
+        },
+        "pt": {
+          "name": "Blocos e replicação HDFS",
+          "desc": "Blocos e replicação HDFS abrangem inspecionar locais dos blocos e integridade das réplicas e relacionar configurações aos DataNodes disponíveis."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hdfs_permissions",
+      "slug": "hdfs_permissions",
+      "name": "HDFS Permissions",
+      "desc": "HDFS permissions cover controlling ownership and access through permission bits and ACLs while accounting for directory traversal and Hadoop user identity.",
+      "i18n": {
+        "zh": {
+          "name": "HDFS 权限",
+          "desc": "HDFS 权限涵盖通过权限位和 ACL 控制所有权与访问，并考虑目录遍历权限和 Hadoop 用户身份。"
+        },
+        "es": {
+          "name": "Permisos HDFS",
+          "desc": "Los permisos HDFS abarcan controlar propiedad y acceso mediante bits y ACL, considerando el recorrido de directorios y la identidad de usuario Hadoop."
+        },
+        "fr": {
+          "name": "Permissions HDFS",
+          "desc": "Les permissions HDFS couvrent propriété et accès par bits de permission et ACL, en tenant compte de la traversée des répertoires et de l'identité Hadoop."
+        },
+        "de": {
+          "name": "HDFS-Berechtigungen",
+          "desc": "HDFS-Berechtigungen umfassen Eigentum und Zugriff über Berechtigungsbits und ACLs unter Berücksichtigung von Verzeichnisdurchquerung und Hadoop-Benutzeridentität."
+        },
+        "ja": {
+          "name": "HDFS 権限",
+          "desc": "ディレクトリの通過権限と Hadoop のユーザー識別を考慮し、権限ビットと ACL で所有権とアクセスを制御する能力です。"
+        },
+        "ru": {
+          "name": "Права доступа HDFS",
+          "desc": "Права HDFS охватывают управление владельцами и доступом через биты разрешений и ACL с учётом обхода каталогов и идентичности пользователя Hadoop."
+        },
+        "ko": {
+          "name": "HDFS 권한",
+          "desc": "디렉터리 탐색 권한과 Hadoop 사용자 신원을 고려하며 권한 비트와 ACL로 소유권 및 접근을 제어하는 능력입니다."
+        },
+        "pt": {
+          "name": "Permissões HDFS",
+          "desc": "Permissões HDFS abrangem controlar propriedade e acesso por bits de permissão e ACLs, considerando travessia de diretórios e identidade Hadoop."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hdfs_snapshots",
+      "slug": "hdfs_snapshots",
+      "name": "HDFS Snapshots",
+      "desc": "HDFS snapshots cover creating and managing read-only filesystem snapshots and recovering files while distinguishing snapshots from independent backups.",
+      "i18n": {
+        "zh": {
+          "name": "HDFS 快照",
+          "desc": "HDFS 快照涵盖创建和管理只读文件系统快照及恢复文件，并区分快照与独立备份。"
+        },
+        "es": {
+          "name": "Instantáneas HDFS",
+          "desc": "Las instantáneas HDFS abarcan crear y gestionar instantáneas de solo lectura y recuperar archivos, distinguiéndolas de copias de seguridad independientes."
+        },
+        "fr": {
+          "name": "Instantanés HDFS",
+          "desc": "Les instantanés HDFS couvrent la création et la gestion de vues en lecture seule et la restauration de fichiers, distinctes des sauvegardes indépendantes."
+        },
+        "de": {
+          "name": "HDFS-Snapshots",
+          "desc": "HDFS-Snapshots umfassen das Erstellen und Verwalten schreibgeschützter Dateisystemzustände sowie Dateiwiederherstellung und die Abgrenzung zu unabhängigen Backups."
+        },
+        "ja": {
+          "name": "HDFS スナップショット",
+          "desc": "読み取り専用のファイルシステムスナップショットを作成、管理してファイルを復元し、独立したバックアップとの違いを理解する能力です。"
+        },
+        "ru": {
+          "name": "Снимки HDFS",
+          "desc": "Снимки HDFS охватывают создание и управление доступными только для чтения снимками и восстановление файлов с отличием от независимых резервных копий."
+        },
+        "ko": {
+          "name": "HDFS 스냅샷",
+          "desc": "읽기 전용 파일 시스템 스냅샷을 생성하고 관리하여 파일을 복구하며 독립적인 백업과 구분하는 능력입니다."
+        },
+        "pt": {
+          "name": "Snapshots HDFS",
+          "desc": "Snapshots HDFS abrangem criar e gerenciar snapshots somente leitura e recuperar arquivos, distinguindo-os de backups independentes."
+        }
+      }
+    },
+    {
+      "key": "bigdata/mapreduce_record_flow",
+      "slug": "mapreduce_record_flow",
+      "name": "MapReduce Record Flow",
+      "desc": "MapReduce record flow covers implementing key/value mapping and reduction and tracing partitioning, shuffle, and sorting between them.",
+      "i18n": {
+        "zh": {
+          "name": "MapReduce 记录流",
+          "desc": "MapReduce 记录流涵盖实现键值映射与归约，并追踪两者之间的分区、Shuffle 和排序。"
+        },
+        "es": {
+          "name": "Flujo de registros MapReduce",
+          "desc": "El flujo MapReduce abarca implementar mapeo y reducción de claves y valores y seguir el particionado, shuffle y ordenación entre ambos."
+        },
+        "fr": {
+          "name": "Flux d'enregistrements MapReduce",
+          "desc": "Le flux MapReduce couvre le mappage et la réduction de paires clé/valeur ainsi que le suivi du partitionnement, du shuffle et du tri intermédiaires."
+        },
+        "de": {
+          "name": "MapReduce-Datensatzfluss",
+          "desc": "Der MapReduce-Datensatzfluss umfasst Schlüssel-Wert-Abbildung und Reduktion sowie das Nachvollziehen von Partitionierung, Shuffle und Sortierung dazwischen."
+        },
+        "ja": {
+          "name": "MapReduce レコードフロー",
+          "desc": "キーと値のマッピングとリデュースを実装し、その間のパーティション分割、シャッフル、ソートを追跡する能力です。"
+        },
+        "ru": {
+          "name": "Поток записей MapReduce",
+          "desc": "Поток MapReduce охватывает реализацию отображения и свёртки пар ключ/значение и прослеживание разделения, shuffle и сортировки между ними."
+        },
+        "ko": {
+          "name": "MapReduce 레코드 흐름",
+          "desc": "키와 값의 매핑 및 리듀스를 구현하고 그 사이의 파티셔닝, 셔플, 정렬을 추적하는 능력입니다."
+        },
+        "pt": {
+          "name": "Fluxo de registros MapReduce",
+          "desc": "O fluxo MapReduce abrange implementar mapeamento e redução de chaves e valores e acompanhar particionamento, shuffle e ordenação entre ambos."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hadoop_streaming",
+      "slug": "hadoop_streaming",
+      "name": "Hadoop Streaming",
+      "desc": "Hadoop Streaming covers connecting executable mappers and reducers through standard input and output and configuring their job inputs, outputs, and distributed files.",
+      "i18n": {
+        "zh": {
+          "name": "Hadoop Streaming",
+          "desc": "Hadoop Streaming 涵盖通过标准输入输出连接可执行 mapper 和 reducer，并配置作业输入、输出及分发文件。"
+        },
+        "es": {
+          "name": "Hadoop Streaming",
+          "desc": "Hadoop Streaming abarca conectar mappers y reducers ejecutables por entrada y salida estándar y configurar entradas, salidas y archivos distribuidos del trabajo."
+        },
+        "fr": {
+          "name": "Hadoop Streaming",
+          "desc": "Hadoop Streaming couvre la connexion de mappers et reducers exécutables par entrée et sortie standard et la configuration des entrées, sorties et fichiers distribués."
+        },
+        "de": {
+          "name": "Hadoop Streaming",
+          "desc": "Hadoop Streaming umfasst ausführbare Mapper und Reducer über Standardein- und -ausgabe sowie die Konfiguration von Jobeingaben, Ausgaben und verteilten Dateien."
+        },
+        "ja": {
+          "name": "Hadoop Streaming",
+          "desc": "標準入出力で実行可能な mapper と reducer を接続し、ジョブの入力、出力、配布ファイルを設定する能力です。"
+        },
+        "ru": {
+          "name": "Hadoop Streaming",
+          "desc": "Hadoop Streaming охватывает соединение исполняемых mapper и reducer через стандартные потоки и настройку входов, выходов и распространяемых файлов задания."
+        },
+        "ko": {
+          "name": "Hadoop Streaming",
+          "desc": "표준 입출력으로 실행 가능한 mapper와 reducer를 연결하고 작업 입력, 출력 및 배포 파일을 설정하는 능력입니다."
+        },
+        "pt": {
+          "name": "Hadoop Streaming",
+          "desc": "Hadoop Streaming abrange conectar mappers e reducers executáveis por entrada e saída padrão e configurar entradas, saídas e arquivos distribuídos da tarefa."
+        }
+      }
+    },
+    {
+      "key": "bigdata/yarn_applications",
+      "slug": "yarn_applications",
+      "name": "YARN Applications",
+      "desc": "YARN applications cover submitting workloads, tracking application attempts and terminal states, and stopping applications through the resource-management interface.",
+      "i18n": {
+        "zh": {
+          "name": "YARN 应用",
+          "desc": "YARN 应用涵盖提交工作负载、追踪应用尝试及终态，并通过资源管理接口停止应用。"
+        },
+        "es": {
+          "name": "Aplicaciones YARN",
+          "desc": "Las aplicaciones YARN abarcan enviar cargas, seguir intentos y estados finales y detener aplicaciones mediante la interfaz de gestión de recursos."
+        },
+        "fr": {
+          "name": "Applications YARN",
+          "desc": "Les applications YARN couvrent la soumission de traitements, le suivi des tentatives et états finaux et l'arrêt via l'interface de gestion des ressources."
+        },
+        "de": {
+          "name": "YARN-Anwendungen",
+          "desc": "YARN-Anwendungen umfassen das Einreichen von Workloads, Verfolgen von Anwendungsversuchen und Endzuständen sowie Stoppen über die Ressourcenverwaltung."
+        },
+        "ja": {
+          "name": "YARN アプリケーション",
+          "desc": "ワークロードを投入し、アプリケーションの試行と最終状態を追跡して、リソース管理インターフェースから停止する能力です。"
+        },
+        "ru": {
+          "name": "Приложения YARN",
+          "desc": "Приложения YARN охватывают отправку нагрузок, отслеживание попыток и конечных состояний и остановку через интерфейс управления ресурсами."
+        },
+        "ko": {
+          "name": "YARN 애플리케이션",
+          "desc": "워크로드를 제출하고 애플리케이션 시도와 최종 상태를 추적하며 자원 관리 인터페이스로 중지하는 능력입니다."
+        },
+        "pt": {
+          "name": "Aplicações YARN",
+          "desc": "Aplicações YARN abrangem submeter cargas, acompanhar tentativas e estados finais e interromper aplicações pela interface de gerenciamento de recursos."
+        }
+      }
+    },
+    {
+      "key": "bigdata/yarn_resource_allocation",
+      "slug": "yarn_resource_allocation",
+      "name": "YARN Resource Allocation",
+      "desc": "YARN resource allocation covers configuring application memory and CPU requests and interpreting container allocation under queue and node capacity constraints.",
+      "i18n": {
+        "zh": {
+          "name": "YARN 资源分配",
+          "desc": "YARN 资源分配涵盖配置应用内存和 CPU 请求，并结合队列及节点容量约束解释容器分配。"
+        },
+        "es": {
+          "name": "Asignación de recursos YARN",
+          "desc": "La asignación YARN abarca configurar solicitudes de memoria y CPU e interpretar contenedores según los límites de colas y nodos."
+        },
+        "fr": {
+          "name": "Allocation des ressources YARN",
+          "desc": "L'allocation YARN couvre les demandes de mémoire et de CPU et l'interprétation des allocations de conteneurs selon la capacité des files et des nœuds."
+        },
+        "de": {
+          "name": "YARN-Ressourcenzuweisung",
+          "desc": "YARN-Ressourcenzuweisung umfasst Speicher- und CPU-Anforderungen sowie die Interpretation von Containerzuweisungen unter Kapazitätsgrenzen von Warteschlangen und Knoten."
+        },
+        "ja": {
+          "name": "YARN リソース割り当て",
+          "desc": "アプリケーションのメモリと CPU 要求を設定し、キューとノードの容量制約を踏まえてコンテナ割り当てを解釈する能力です。"
+        },
+        "ru": {
+          "name": "Распределение ресурсов YARN",
+          "desc": "Распределение YARN охватывает настройку запросов памяти и CPU и анализ выделения контейнеров с учётом ёмкости очередей и узлов."
+        },
+        "ko": {
+          "name": "YARN 자원 할당",
+          "desc": "애플리케이션 메모리와 CPU 요청을 설정하고 큐 및 노드 용량 제약에 따른 컨테이너 할당을 해석하는 능력입니다."
+        },
+        "pt": {
+          "name": "Alocação de recursos YARN",
+          "desc": "A alocação YARN abrange configurar solicitações de memória e CPU e interpretar contêineres sob restrições de capacidade de filas e nós."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hadoop_diagnostics",
+      "slug": "hadoop_diagnostics",
+      "name": "Hadoop Diagnostics",
+      "desc": "Hadoop diagnostics cover using service status, application logs, and task failures to isolate filesystem, connectivity, resource, and executable problems.",
+      "i18n": {
+        "zh": {
+          "name": "Hadoop 故障诊断",
+          "desc": "Hadoop 故障诊断涵盖利用服务状态、应用日志和任务失败信息定位文件系统、连接、资源及可执行程序问题。"
+        },
+        "es": {
+          "name": "Diagnóstico Hadoop",
+          "desc": "El diagnóstico Hadoop utiliza estados de servicios, registros y fallos de tareas para aislar problemas de archivos, conectividad, recursos y ejecutables."
+        },
+        "fr": {
+          "name": "Diagnostic Hadoop",
+          "desc": "Le diagnostic Hadoop utilise l'état des services, les journaux et les échecs de tâches pour isoler les problèmes de fichiers, de connexion, de ressources et d'exécutables."
+        },
+        "de": {
+          "name": "Hadoop-Diagnose",
+          "desc": "Hadoop-Diagnose nutzt Dienstzustände, Anwendungsprotokolle und Taskfehler zur Eingrenzung von Dateisystem-, Verbindungs-, Ressourcen- und Programmproblemen."
+        },
+        "ja": {
+          "name": "Hadoop 障害診断",
+          "desc": "サービス状態、アプリケーションログ、タスク失敗からファイルシステム、接続、リソース、実行プログラムの問題を切り分ける能力です。"
+        },
+        "ru": {
+          "name": "Диагностика Hadoop",
+          "desc": "Диагностика Hadoop использует состояние служб, журналы и сбои задач для выявления проблем файловой системы, соединений, ресурсов и исполняемых программ."
+        },
+        "ko": {
+          "name": "Hadoop 진단",
+          "desc": "서비스 상태, 애플리케이션 로그와 태스크 실패를 활용하여 파일 시스템, 연결, 자원 및 실행 프로그램 문제를 식별하는 능력입니다."
+        },
+        "pt": {
+          "name": "Diagnóstico Hadoop",
+          "desc": "O diagnóstico Hadoop usa estados de serviços, logs e falhas de tarefas para isolar problemas de arquivos, conexão, recursos e executáveis."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hive_table_metadata",
+      "slug": "hive_table_metadata",
+      "name": "Hive Table Metadata",
+      "desc": "Hive table metadata covers defining and inspecting databases, table schemas, storage locations, and managed or external table ownership semantics.",
+      "i18n": {
+        "zh": {
+          "name": "Hive 表元数据",
+          "desc": "Hive 表元数据涵盖定义和查看数据库、表结构、存储位置，以及托管表和外部表的数据所有权语义。"
+        },
+        "es": {
+          "name": "Metadatos de tablas Hive",
+          "desc": "Los metadatos Hive abarcan definir e inspeccionar bases, esquemas, ubicaciones y la propiedad de datos en tablas administradas o externas."
+        },
+        "fr": {
+          "name": "Métadonnées des tables Hive",
+          "desc": "Les métadonnées Hive couvrent la définition et l'inspection des bases, schémas, emplacements et règles de propriété des tables gérées ou externes."
+        },
+        "de": {
+          "name": "Hive-Tabellenmetadaten",
+          "desc": "Hive-Tabellenmetadaten umfassen Definition und Prüfung von Datenbanken, Schemata, Speicherorten und Dateneigentum bei verwalteten oder externen Tabellen."
+        },
+        "ja": {
+          "name": "Hive テーブルメタデータ",
+          "desc": "データベース、テーブルスキーマ、保存場所と、管理テーブルおよび外部テーブルのデータ所有権の意味を定義、確認する能力です。"
+        },
+        "ru": {
+          "name": "Метаданные таблиц Hive",
+          "desc": "Метаданные Hive охватывают определение и проверку баз, схем, расположений и семантики владения данными управляемых и внешних таблиц."
+        },
+        "ko": {
+          "name": "Hive 테이블 메타데이터",
+          "desc": "데이터베이스, 테이블 스키마, 저장 위치와 관리 및 외부 테이블의 데이터 소유 의미를 정의하고 확인하는 능력입니다."
+        },
+        "pt": {
+          "name": "Metadados de tabelas Hive",
+          "desc": "Metadados Hive abrangem definir e inspecionar bancos, esquemas, locais e a propriedade dos dados em tabelas gerenciadas ou externas."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hive_serialization",
+      "slug": "hive_serialization",
+      "name": "Hive Serialization",
+      "desc": "Hive serialization covers configuring SerDes and row formats to interpret stored records with appropriate delimiters, types, and null representations.",
+      "i18n": {
+        "zh": {
+          "name": "Hive 序列化",
+          "desc": "Hive 序列化涵盖配置 SerDe 和行格式，以适当的分隔符、类型及空值表示解析存储记录。"
+        },
+        "es": {
+          "name": "Serialización Hive",
+          "desc": "La serialización Hive abarca configurar SerDes y formatos de fila para interpretar registros con delimitadores, tipos y representaciones nulas adecuados."
+        },
+        "fr": {
+          "name": "Sérialisation Hive",
+          "desc": "La sérialisation Hive couvre les SerDes et formats de lignes pour interpréter les enregistrements avec les bons séparateurs, types et représentations nulles."
+        },
+        "de": {
+          "name": "Hive-Serialisierung",
+          "desc": "Hive-Serialisierung umfasst SerDes und Zeilenformate zur Interpretation gespeicherter Datensätze mit geeigneten Trennzeichen, Typen und Nullwertdarstellungen."
+        },
+        "ja": {
+          "name": "Hive シリアル化",
+          "desc": "SerDe と行形式を設定し、適切な区切り文字、型、NULL 表現で保存レコードを解釈する能力です。"
+        },
+        "ru": {
+          "name": "Сериализация Hive",
+          "desc": "Сериализация Hive охватывает настройку SerDe и форматов строк для интерпретации записей с подходящими разделителями, типами и представлениями NULL."
+        },
+        "ko": {
+          "name": "Hive 직렬화",
+          "desc": "SerDe와 행 형식을 설정하여 적절한 구분자, 타입 및 null 표현으로 저장된 레코드를 해석하는 능력입니다."
+        },
+        "pt": {
+          "name": "Serialização Hive",
+          "desc": "A serialização Hive abrange configurar SerDes e formatos de linha para interpretar registros com delimitadores, tipos e representações nulas adequados."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hive_row_queries",
+      "slug": "hive_row_queries",
+      "name": "Hive Row Queries",
+      "desc": "Hive row queries cover selecting, filtering, ordering, and transforming table rows with Hive SQL expressions and null-aware predicates.",
+      "i18n": {
+        "zh": {
+          "name": "Hive 行查询",
+          "desc": "Hive 行查询涵盖使用 Hive SQL 表达式及考虑空值的条件选择、筛选、排序和转换表行。"
+        },
+        "es": {
+          "name": "Consultas de filas Hive",
+          "desc": "Las consultas Hive abarcan seleccionar, filtrar, ordenar y transformar filas mediante expresiones SQL y predicados que consideran valores nulos."
+        },
+        "fr": {
+          "name": "Requêtes sur les lignes Hive",
+          "desc": "Les requêtes Hive couvrent sélection, filtrage, tri et transformation des lignes avec des expressions SQL et des prédicats tenant compte des valeurs nulles."
+        },
+        "de": {
+          "name": "Hive-Zeilenabfragen",
+          "desc": "Hive-Zeilenabfragen umfassen Auswahl, Filterung, Sortierung und Transformation mit Hive-SQL-Ausdrücken und Nullwerte berücksichtigenden Bedingungen."
+        },
+        "ja": {
+          "name": "Hive 行クエリ",
+          "desc": "Hive SQL 式と NULL を考慮した条件で、テーブルの行を選択、絞り込み、並べ替え、変換する能力です。"
+        },
+        "ru": {
+          "name": "Запросы строк Hive",
+          "desc": "Запросы строк Hive охватывают выборку, фильтрацию, сортировку и преобразование строк выражениями Hive SQL и предикатами с учётом NULL."
+        },
+        "ko": {
+          "name": "Hive 행 쿼리",
+          "desc": "Hive SQL 표현식과 null을 고려한 조건으로 테이블 행을 선택, 필터링, 정렬 및 변환하는 능력입니다."
+        },
+        "pt": {
+          "name": "Consultas de linhas Hive",
+          "desc": "Consultas Hive abrangem selecionar, filtrar, ordenar e transformar linhas com expressões SQL e predicados que consideram valores nulos."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hive_aggregations",
+      "slug": "hive_aggregations",
+      "name": "Hive Aggregations",
+      "desc": "Hive aggregations cover grouping rows, calculating aggregate values, and filtering groups while accounting for nulls and numeric types.",
+      "i18n": {
+        "zh": {
+          "name": "Hive 聚合",
+          "desc": "Hive 聚合涵盖分组、聚合值计算和组筛选，并考虑空值与数值类型。"
+        },
+        "es": {
+          "name": "Agregaciones Hive",
+          "desc": "Las agregaciones Hive abarcan agrupar filas, calcular agregados y filtrar grupos considerando nulos y tipos numéricos."
+        },
+        "fr": {
+          "name": "Agrégations Hive",
+          "desc": "Les agrégations Hive couvrent le regroupement, le calcul d'agrégats et le filtrage de groupes en tenant compte des valeurs nulles et des types numériques."
+        },
+        "de": {
+          "name": "Hive-Aggregationen",
+          "desc": "Hive-Aggregationen umfassen Gruppierung, Aggregatberechnung und Gruppenfilterung unter Berücksichtigung von Nullwerten und numerischen Typen."
+        },
+        "ja": {
+          "name": "Hive 集計",
+          "desc": "NULL と数値型を考慮し、行のグループ化、集計値の計算、グループの絞り込みを行う能力です。"
+        },
+        "ru": {
+          "name": "Агрегации Hive",
+          "desc": "Агрегации Hive охватывают группировку строк, вычисление агрегатов и фильтрацию групп с учётом NULL и числовых типов."
+        },
+        "ko": {
+          "name": "Hive 집계",
+          "desc": "null과 숫자 타입을 고려하며 행을 그룹화하고 집계 값을 계산하며 그룹을 필터링하는 능력입니다."
+        },
+        "pt": {
+          "name": "Agregações Hive",
+          "desc": "Agregações Hive abrangem agrupar linhas, calcular agregados e filtrar grupos considerando nulos e tipos numéricos."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hive_joins",
+      "slug": "hive_joins",
+      "name": "Hive Joins",
+      "desc": "Hive joins cover combining tables with explicit join conditions and validating unmatched rows, null keys, and duplicate-driven row multiplication.",
+      "i18n": {
+        "zh": {
+          "name": "Hive 连接",
+          "desc": "Hive 连接涵盖通过明确条件关联表，并核查未匹配行、空键及重复键导致的行数膨胀。"
+        },
+        "es": {
+          "name": "Uniones Hive",
+          "desc": "Las uniones Hive combinan tablas con condiciones explícitas y verifican filas sin coincidencia, claves nulas y multiplicación por duplicados."
+        },
+        "fr": {
+          "name": "Jointures Hive",
+          "desc": "Les jointures Hive combinent des tables avec des conditions explicites et vérifient les lignes sans correspondance, clés nulles et multiplications dues aux doublons."
+        },
+        "de": {
+          "name": "Hive-Joins",
+          "desc": "Hive-Joins verbinden Tabellen mit expliziten Bedingungen und prüfen nicht zugeordnete Zeilen, Nullschlüssel und durch Duplikate vervielfachte Zeilen."
+        },
+        "ja": {
+          "name": "Hive 結合",
+          "desc": "明示的な結合条件でテーブルを組み合わせ、未一致行、NULL キー、重複による行数増加を検証する能力です。"
+        },
+        "ru": {
+          "name": "Соединения Hive",
+          "desc": "Соединения Hive объединяют таблицы по явным условиям и проверяют несовпавшие строки, ключи NULL и размножение строк из-за дубликатов."
+        },
+        "ko": {
+          "name": "Hive 조인",
+          "desc": "명시적인 조인 조건으로 테이블을 결합하고 미일치 행, null 키 및 중복으로 인한 행 증가를 검증하는 능력입니다."
+        },
+        "pt": {
+          "name": "Junções Hive",
+          "desc": "Junções Hive combinam tabelas com condições explícitas e verificam linhas sem correspondência, chaves nulas e multiplicação por duplicatas."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hive_partitions",
+      "slug": "hive_partitions",
+      "name": "Hive Partitions",
+      "desc": "Hive partitions cover organizing partitioned tables, registering partition locations, and verifying partition pruning independently of directory existence.",
+      "i18n": {
+        "zh": {
+          "name": "Hive 分区",
+          "desc": "Hive 分区涵盖组织分区表、注册分区位置及验证分区裁剪，并区分元数据注册与目录存在。"
+        },
+        "es": {
+          "name": "Particiones Hive",
+          "desc": "Las particiones Hive abarcan organizar tablas particionadas, registrar ubicaciones y verificar la poda de particiones, distinguiéndola de la existencia de directorios."
+        },
+        "fr": {
+          "name": "Partitions Hive",
+          "desc": "Les partitions Hive couvrent l'organisation des tables, l'enregistrement des emplacements et la vérification de l'élagage, distincts de l'existence des répertoires."
+        },
+        "de": {
+          "name": "Hive-Partitionen",
+          "desc": "Hive-Partitionen umfassen partitionierte Tabellen, registrierte Speicherorte und die Prüfung von Partition Pruning unabhängig vom bloßen Vorhandensein von Verzeichnissen."
+        },
+        "ja": {
+          "name": "Hive パーティション",
+          "desc": "分割テーブルを整理し、パーティションの場所を登録して枝刈りを検証し、単なるディレクトリの存在と区別する能力です。"
+        },
+        "ru": {
+          "name": "Разделы Hive",
+          "desc": "Разделы Hive охватывают организацию таблиц, регистрацию расположений и проверку отсечения разделов отдельно от наличия каталогов."
+        },
+        "ko": {
+          "name": "Hive 파티션",
+          "desc": "파티션 테이블을 구성하고 위치를 등록하며 디렉터리 존재 여부와 별개로 파티션 프루닝을 검증하는 능력입니다."
+        },
+        "pt": {
+          "name": "Partições Hive",
+          "desc": "Partições Hive abrangem organizar tabelas particionadas, registrar locais e verificar a poda de partições, distinguindo-a da existência dos diretórios."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hive_columnar_storage",
+      "slug": "hive_columnar_storage",
+      "name": "Hive Columnar Storage",
+      "desc": "Hive columnar storage covers configuring ORC or Parquet tables and inspecting format, compression, and column-oriented reading behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Hive 列式存储",
+          "desc": "Hive 列式存储涵盖配置 ORC 或 Parquet 表，并查看格式、压缩和按列读取行为。"
+        },
+        "es": {
+          "name": "Almacenamiento columnar Hive",
+          "desc": "El almacenamiento columnar Hive abarca configurar tablas ORC o Parquet e inspeccionar formato, compresión y lectura por columnas."
+        },
+        "fr": {
+          "name": "Stockage en colonnes Hive",
+          "desc": "Le stockage en colonnes Hive couvre les tables ORC ou Parquet et l'inspection du format, de la compression et de la lecture par colonnes."
+        },
+        "de": {
+          "name": "Hive-Spaltenspeicherung",
+          "desc": "Hive-Spaltenspeicherung umfasst ORC- oder Parquet-Tabellen sowie die Prüfung von Format, Kompression und spaltenorientiertem Lesen."
+        },
+        "ja": {
+          "name": "Hive 列指向ストレージ",
+          "desc": "ORC または Parquet テーブルを設定し、形式、圧縮、列指向の読み取り動作を確認する能力です。"
+        },
+        "ru": {
+          "name": "Колоночное хранение Hive",
+          "desc": "Колоночное хранение Hive охватывает настройку таблиц ORC или Parquet и проверку формата, сжатия и чтения по столбцам."
+        },
+        "ko": {
+          "name": "Hive 열 지향 저장",
+          "desc": "ORC 또는 Parquet 테이블을 설정하고 형식, 압축 및 열 지향 읽기 동작을 확인하는 능력입니다."
+        },
+        "pt": {
+          "name": "Armazenamento colunar Hive",
+          "desc": "O armazenamento colunar Hive abrange configurar tabelas ORC ou Parquet e inspecionar formato, compressão e leitura por colunas."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hive_result_writes",
+      "slug": "hive_result_writes",
+      "name": "Hive Result Writes",
+      "desc": "Hive result writes cover persisting query results through table creation, insertion, and overwrite while controlling target scope and repeated-run effects.",
+      "i18n": {
+        "zh": {
+          "name": "Hive 结果写入",
+          "desc": "Hive 结果写入涵盖通过建表、插入和覆盖持久化查询结果，并控制目标范围及重复运行的影响。"
+        },
+        "es": {
+          "name": "Escritura de resultados Hive",
+          "desc": "La escritura Hive persiste resultados mediante creación de tablas, inserción y sobrescritura, controlando destinos y efectos de ejecuciones repetidas."
+        },
+        "fr": {
+          "name": "Écriture des résultats Hive",
+          "desc": "L'écriture Hive persiste les résultats par création de tables, insertion et remplacement, en contrôlant les cibles et les effets des réexécutions."
+        },
+        "de": {
+          "name": "Hive-Ergebnisschreiben",
+          "desc": "Hive-Ergebnisschreiben speichert Abfrageergebnisse durch Tabellenerstellung, Einfügen und Überschreiben mit Kontrolle von Zielumfang und Wiederholungseffekten."
+        },
+        "ja": {
+          "name": "Hive 結果書き込み",
+          "desc": "テーブル作成、挿入、上書きでクエリ結果を永続化し、対象範囲と繰り返し実行の影響を制御する能力です。"
+        },
+        "ru": {
+          "name": "Запись результатов Hive",
+          "desc": "Запись результатов Hive охватывает создание таблиц, вставку и перезапись с контролем целевой области и последствий повторных запусков."
+        },
+        "ko": {
+          "name": "Hive 결과 쓰기",
+          "desc": "테이블 생성, 삽입 및 덮어쓰기로 쿼리 결과를 저장하며 대상 범위와 반복 실행의 영향을 제어하는 능력입니다."
+        },
+        "pt": {
+          "name": "Gravação de resultados Hive",
+          "desc": "A gravação Hive persiste resultados por criação de tabelas, inserção e sobrescrita, controlando o destino e os efeitos de reexecuções."
+        }
+      }
+    },
+    {
+      "key": "bigdata/hive_diagnostics",
+      "slug": "hive_diagnostics",
+      "name": "Hive Diagnostics",
+      "desc": "Hive diagnostics cover comparing table metadata, stored records, and query evidence to isolate parsing errors, incorrect locations, and missing partitions.",
+      "i18n": {
+        "zh": {
+          "name": "Hive 故障诊断",
+          "desc": "Hive 故障诊断涵盖比较表元数据、存储记录和查询证据，定位解析错误、错误位置及缺失分区。"
+        },
+        "es": {
+          "name": "Diagnóstico Hive",
+          "desc": "El diagnóstico Hive compara metadatos, registros almacenados y evidencias de consulta para aislar errores de análisis, ubicaciones incorrectas y particiones ausentes."
+        },
+        "fr": {
+          "name": "Diagnostic Hive",
+          "desc": "Le diagnostic Hive compare métadonnées, enregistrements et résultats de requêtes pour isoler les erreurs d'analyse, emplacements incorrects et partitions manquantes."
+        },
+        "de": {
+          "name": "Hive-Diagnose",
+          "desc": "Hive-Diagnose vergleicht Metadaten, gespeicherte Datensätze und Abfragebelege zur Eingrenzung von Parsingfehlern, falschen Speicherorten und fehlenden Partitionen."
+        },
+        "ja": {
+          "name": "Hive 障害診断",
+          "desc": "テーブルメタデータ、保存レコード、クエリの証拠を比較し、解析エラー、誤った保存場所、未登録パーティションを切り分ける能力です。"
+        },
+        "ru": {
+          "name": "Диагностика Hive",
+          "desc": "Диагностика Hive сравнивает метаданные, сохранённые записи и результаты запросов для выявления ошибок разбора, неверных расположений и отсутствующих разделов."
+        },
+        "ko": {
+          "name": "Hive 진단",
+          "desc": "테이블 메타데이터, 저장 레코드 및 쿼리 증거를 비교하여 파싱 오류, 잘못된 위치와 누락된 파티션을 식별하는 능력입니다."
+        },
+        "pt": {
+          "name": "Diagnóstico Hive",
+          "desc": "O diagnóstico Hive compara metadados, registros armazenados e evidências de consultas para isolar erros de leitura, locais incorretos e partições ausentes."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_dataframe_schemas",
+      "slug": "spark_dataframe_schemas",
+      "name": "Spark DataFrame Schemas",
+      "desc": "Spark DataFrame schemas cover defining column types and nullability and reading structured files with deliberate parsing and schema choices.",
+      "i18n": {
+        "zh": {
+          "name": "Spark DataFrame 结构",
+          "desc": "Spark DataFrame 结构涵盖定义列类型及可空性，并明确选择解析方式和结构来读取结构化文件。"
+        },
+        "es": {
+          "name": "Esquemas de DataFrame Spark",
+          "desc": "Los esquemas de DataFrame Spark definen tipos y nulabilidad de columnas y permiten leer archivos estructurados con elecciones explícitas de análisis y esquema."
+        },
+        "fr": {
+          "name": "Schémas de DataFrame Spark",
+          "desc": "Les schémas de DataFrame Spark définissent types et nullabilité des colonnes et permettent de lire des fichiers avec des choix explicites de schéma et d'analyse."
+        },
+        "de": {
+          "name": "Spark-DataFrame-Schemata",
+          "desc": "Spark-DataFrame-Schemata umfassen Spaltentypen und Nullzulässigkeit sowie das Lesen strukturierter Dateien mit bewusster Schema- und Parsingwahl."
+        },
+        "ja": {
+          "name": "Spark DataFrame スキーマ",
+          "desc": "列の型と NULL 許容性を定義し、解析方法とスキーマを明示的に選択して構造化ファイルを読む能力です。"
+        },
+        "ru": {
+          "name": "Схемы DataFrame Spark",
+          "desc": "Схемы DataFrame Spark охватывают типы и допустимость NULL в столбцах и чтение структурированных файлов с явным выбором схемы и разбора."
+        },
+        "ko": {
+          "name": "Spark DataFrame 스키마",
+          "desc": "열 타입과 null 허용 여부를 정의하고 파싱 방식과 스키마를 명시적으로 선택하여 구조화된 파일을 읽는 능력입니다."
+        },
+        "pt": {
+          "name": "Esquemas de DataFrame Spark",
+          "desc": "Esquemas de DataFrame Spark definem tipos e nulabilidade de colunas e permitem ler arquivos estruturados com escolhas explícitas de esquema e interpretação."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_nested_data",
+      "slug": "spark_nested_data",
+      "name": "Spark Nested Data",
+      "desc": "Spark nested data covers accessing and reshaping structs, arrays, and maps, including expanding nested records without losing their relationships.",
+      "i18n": {
+        "zh": {
+          "name": "Spark 嵌套数据",
+          "desc": "Spark 嵌套数据涵盖访问和重组结构体、数组及映射，并在展开嵌套记录时保留其关联。"
+        },
+        "es": {
+          "name": "Datos anidados Spark",
+          "desc": "Los datos anidados Spark abarcan acceder y reorganizar estructuras, arrays y mapas, expandiendo registros sin perder sus relaciones."
+        },
+        "fr": {
+          "name": "Données imbriquées Spark",
+          "desc": "Les données imbriquées Spark couvrent l'accès et la restructuration des structures, tableaux et maps, en développant les enregistrements sans perdre leurs relations."
+        },
+        "de": {
+          "name": "Verschachtelte Spark-Daten",
+          "desc": "Verschachtelte Spark-Daten umfassen Zugriff und Umformung von Structs, Arrays und Maps sowie das Auflösen von Datensätzen unter Erhalt ihrer Beziehungen."
+        },
+        "ja": {
+          "name": "Spark ネストデータ",
+          "desc": "構造体、配列、マップにアクセスして再構成し、関連を失わずにネストしたレコードを展開する能力です。"
+        },
+        "ru": {
+          "name": "Вложенные данные Spark",
+          "desc": "Вложенные данные Spark охватывают доступ и преобразование структур, массивов и отображений, включая разворачивание записей с сохранением связей."
+        },
+        "ko": {
+          "name": "Spark 중첩 데이터",
+          "desc": "구조체, 배열과 맵에 접근하고 재구성하며 관계를 유지하면서 중첩 레코드를 펼치는 능력입니다."
+        },
+        "pt": {
+          "name": "Dados aninhados Spark",
+          "desc": "Dados aninhados Spark abrangem acessar e reorganizar estruturas, arrays e mapas, expandindo registros sem perder suas relações."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_column_expressions",
+      "slug": "spark_column_expressions",
+      "name": "Spark Column Expressions",
+      "desc": "Spark column expressions cover selecting, filtering, deriving, and casting DataFrame columns with built-in expressions and null-aware conditions.",
+      "i18n": {
+        "zh": {
+          "name": "Spark 列表达式",
+          "desc": "Spark 列表达式涵盖使用内置表达式和考虑空值的条件选择、筛选、派生及转换 DataFrame 列类型。"
+        },
+        "es": {
+          "name": "Expresiones de columnas Spark",
+          "desc": "Las expresiones Spark abarcan seleccionar, filtrar, derivar y convertir columnas DataFrame mediante expresiones integradas y condiciones que consideran nulos."
+        },
+        "fr": {
+          "name": "Expressions de colonnes Spark",
+          "desc": "Les expressions Spark couvrent sélection, filtrage, dérivation et conversion des colonnes DataFrame avec des expressions intégrées et des conditions tenant compte des valeurs nulles."
+        },
+        "de": {
+          "name": "Spark-Spaltenausdrücke",
+          "desc": "Spark-Spaltenausdrücke umfassen Auswahl, Filterung, Ableitung und Typumwandlung von DataFrame-Spalten mit eingebauten Ausdrücken und Nullwertbehandlung."
+        },
+        "ja": {
+          "name": "Spark 列式",
+          "desc": "組み込み式と NULL を考慮した条件を使い、DataFrame の列を選択、絞り込み、派生、型変換する能力です。"
+        },
+        "ru": {
+          "name": "Выражения столбцов Spark",
+          "desc": "Выражения Spark охватывают выбор, фильтрацию, вычисление и приведение типов столбцов DataFrame встроенными выражениями и условиями с учётом NULL."
+        },
+        "ko": {
+          "name": "Spark 열 표현식",
+          "desc": "내장 표현식과 null을 고려한 조건으로 DataFrame 열을 선택, 필터링, 파생 및 타입 변환하는 능력입니다."
+        },
+        "pt": {
+          "name": "Expressões de colunas Spark",
+          "desc": "Expressões Spark abrangem selecionar, filtrar, derivar e converter colunas DataFrame com expressões integradas e condições que consideram nulos."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_data_quality",
+      "slug": "spark_data_quality",
+      "name": "Spark Data Quality",
+      "desc": "Spark data quality covers detecting and handling missing, invalid, and duplicate records with explicit validation rules and verifiable accepted or rejected outputs.",
+      "i18n": {
+        "zh": {
+          "name": "Spark 数据质量",
+          "desc": "Spark 数据质量涵盖通过明确校验规则识别和处理缺失、无效及重复记录，并核验接收或拒绝的输出。"
+        },
+        "es": {
+          "name": "Calidad de datos Spark",
+          "desc": "La calidad de datos Spark detecta y trata registros ausentes, inválidos y duplicados con reglas explícitas y salidas aceptadas o rechazadas verificables."
+        },
+        "fr": {
+          "name": "Qualité des données Spark",
+          "desc": "La qualité des données Spark détecte et traite les données manquantes, invalides et dupliquées avec des règles explicites et des sorties acceptées ou rejetées vérifiables."
+        },
+        "de": {
+          "name": "Spark-Datenqualität",
+          "desc": "Spark-Datenqualität umfasst das Erkennen und Behandeln fehlender, ungültiger und doppelter Datensätze mit expliziten Regeln und überprüfbaren angenommenen oder abgewiesenen Ausgaben."
+        },
+        "ja": {
+          "name": "Spark データ品質",
+          "desc": "明示的な検証ルールで欠損、不正、重複レコードを検出、処理し、受理または拒否した出力を検証する能力です。"
+        },
+        "ru": {
+          "name": "Качество данных Spark",
+          "desc": "Качество данных Spark охватывает выявление и обработку пропусков, неверных записей и дубликатов по явным правилам с проверяемыми принятыми или отклонёнными результатами."
+        },
+        "ko": {
+          "name": "Spark 데이터 품질",
+          "desc": "명시적인 검증 규칙으로 누락, 유효하지 않은 레코드와 중복을 식별하고 처리하며 수용 또는 거부된 출력을 검증하는 능력입니다."
+        },
+        "pt": {
+          "name": "Qualidade de dados Spark",
+          "desc": "A qualidade de dados Spark detecta e trata registros ausentes, inválidos e duplicados com regras explícitas e saídas aceitas ou rejeitadas verificáveis."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_aggregations",
+      "slug": "spark_aggregations",
+      "name": "Spark Aggregations",
+      "desc": "Spark aggregations cover grouping DataFrame records and calculating summaries with deliberate numeric precision and null handling.",
+      "i18n": {
+        "zh": {
+          "name": "Spark 聚合",
+          "desc": "Spark 聚合涵盖分组 DataFrame 记录和计算汇总值，并明确处理数值精度及空值。"
+        },
+        "es": {
+          "name": "Agregaciones Spark",
+          "desc": "Las agregaciones Spark agrupan registros DataFrame y calculan resúmenes con tratamiento explícito de precisión numérica y nulos."
+        },
+        "fr": {
+          "name": "Agrégations Spark",
+          "desc": "Les agrégations Spark regroupent les enregistrements DataFrame et calculent des synthèses en maîtrisant la précision numérique et les valeurs nulles."
+        },
+        "de": {
+          "name": "Spark-Aggregationen",
+          "desc": "Spark-Aggregationen umfassen das Gruppieren von DataFrame-Datensätzen und Berechnen von Zusammenfassungen mit bewusster Zahlenpräzision und Nullwertbehandlung."
+        },
+        "ja": {
+          "name": "Spark 集計",
+          "desc": "数値精度と NULL 処理を明確にし、DataFrame レコードをグループ化して集計値を計算する能力です。"
+        },
+        "ru": {
+          "name": "Агрегации Spark",
+          "desc": "Агрегации Spark охватывают группировку записей DataFrame и вычисление итогов с явным управлением числовой точностью и NULL."
+        },
+        "ko": {
+          "name": "Spark 집계",
+          "desc": "숫자 정밀도와 null 처리를 명확히 하며 DataFrame 레코드를 그룹화하고 요약 값을 계산하는 능력입니다."
+        },
+        "pt": {
+          "name": "Agregações Spark",
+          "desc": "Agregações Spark agrupam registros DataFrame e calculam resumos com tratamento explícito de precisão numérica e nulos."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_joins",
+      "slug": "spark_joins",
+      "name": "Spark Joins",
+      "desc": "Spark joins cover combining DataFrames with appropriate join types and keys and validating cardinality, missing matches, and ambiguous columns.",
+      "i18n": {
+        "zh": {
+          "name": "Spark 连接",
+          "desc": "Spark 连接涵盖选择合适的连接类型和键来关联 DataFrame，并核查结果基数、缺失匹配和歧义列。"
+        },
+        "es": {
+          "name": "Uniones Spark",
+          "desc": "Las uniones Spark combinan DataFrames con tipos y claves adecuados y verifican cardinalidad, coincidencias ausentes y columnas ambiguas."
+        },
+        "fr": {
+          "name": "Jointures Spark",
+          "desc": "Les jointures Spark combinent les DataFrames avec des types et clés adaptés et vérifient cardinalité, correspondances manquantes et colonnes ambiguës."
+        },
+        "de": {
+          "name": "Spark-Joins",
+          "desc": "Spark-Joins verbinden DataFrames mit geeigneten Join-Typen und Schlüsseln und prüfen Kardinalität, fehlende Zuordnungen und mehrdeutige Spalten."
+        },
+        "ja": {
+          "name": "Spark 結合",
+          "desc": "適切な結合種別とキーで DataFrame を組み合わせ、件数関係、未一致、曖昧な列を検証する能力です。"
+        },
+        "ru": {
+          "name": "Соединения Spark",
+          "desc": "Соединения Spark объединяют DataFrame подходящими типами и ключами и проверяют кардинальность, отсутствующие совпадения и неоднозначные столбцы."
+        },
+        "ko": {
+          "name": "Spark 조인",
+          "desc": "적절한 조인 유형과 키로 DataFrame을 결합하고 카디널리티, 누락된 일치 및 모호한 열을 검증하는 능력입니다."
+        },
+        "pt": {
+          "name": "Junções Spark",
+          "desc": "Junções Spark combinam DataFrames com tipos e chaves adequados e verificam cardinalidade, correspondências ausentes e colunas ambíguas."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_sql_views",
+      "slug": "spark_sql_views",
+      "name": "Spark SQL and Views",
+      "desc": "Spark SQL and views cover registering DataFrames for SQL queries and distinguishing temporary view scope from persistent tables and stored data.",
+      "i18n": {
+        "zh": {
+          "name": "Spark SQL 与视图",
+          "desc": "Spark SQL 与视图涵盖注册 DataFrame 供 SQL 查询，并区分临时视图作用域、持久表和存储数据。"
+        },
+        "es": {
+          "name": "Spark SQL y vistas",
+          "desc": "Spark SQL y vistas abarcan registrar DataFrames para consultas y distinguir el ámbito de vistas temporales de tablas persistentes y datos almacenados."
+        },
+        "fr": {
+          "name": "Spark SQL et vues",
+          "desc": "Spark SQL et les vues couvrent l'enregistrement de DataFrames pour SQL et la distinction entre portée des vues temporaires, tables persistantes et données stockées."
+        },
+        "de": {
+          "name": "Spark SQL und Views",
+          "desc": "Spark SQL und Views umfassen die Registrierung von DataFrames für SQL-Abfragen und die Abgrenzung temporärer Sichtbarkeit von persistenten Tabellen und gespeicherten Daten."
+        },
+        "ja": {
+          "name": "Spark SQL とビュー",
+          "desc": "DataFrame を SQL クエリ用に登録し、一時ビューの有効範囲と永続テーブル、保存データを区別する能力です。"
+        },
+        "ru": {
+          "name": "Spark SQL и представления",
+          "desc": "Spark SQL и представления охватывают регистрацию DataFrame для запросов и различение области временных представлений, постоянных таблиц и сохранённых данных."
+        },
+        "ko": {
+          "name": "Spark SQL과 뷰",
+          "desc": "SQL 쿼리를 위해 DataFrame을 등록하고 임시 뷰 범위와 영구 테이블 및 저장 데이터를 구분하는 능력입니다."
+        },
+        "pt": {
+          "name": "Spark SQL e views",
+          "desc": "Spark SQL e views abrangem registrar DataFrames para consultas e distinguir o escopo de views temporárias de tabelas persistentes e dados armazenados."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_parquet_datasets",
+      "slug": "spark_parquet_datasets",
+      "name": "Spark Parquet Datasets",
+      "desc": "Spark Parquet datasets cover reading and writing columnar files, choosing directory partition columns and write modes, and verifying persisted records.",
+      "i18n": {
+        "zh": {
+          "name": "Spark Parquet 数据集",
+          "desc": "Spark Parquet 数据集涵盖读写列式文件、选择目录分区列和写入模式，并核验持久化记录。"
+        },
+        "es": {
+          "name": "Conjuntos Parquet Spark",
+          "desc": "Los conjuntos Parquet Spark abarcan leer y escribir archivos columnares, elegir columnas de partición y modos de escritura y verificar registros persistidos."
+        },
+        "fr": {
+          "name": "Jeux de données Parquet Spark",
+          "desc": "Les jeux Parquet Spark couvrent lecture et écriture de fichiers en colonnes, choix des colonnes de partitionnement des répertoires et modes d'écriture, et vérification des données persistées."
+        },
+        "de": {
+          "name": "Spark-Parquet-Datensätze",
+          "desc": "Spark-Parquet-Datensätze umfassen spaltenorientierte Dateien, Verzeichnispartitionsspalten, Schreibmodi und die Prüfung gespeicherter Datensätze."
+        },
+        "ja": {
+          "name": "Spark Parquet データセット",
+          "desc": "列指向ファイルを読み書きし、ディレクトリ分割列と書き込みモードを選び、永続化したレコードを検証する能力です。"
+        },
+        "ru": {
+          "name": "Наборы Parquet Spark",
+          "desc": "Наборы Parquet Spark охватывают чтение и запись колоночных файлов, выбор столбцов разделения каталогов и режимов записи и проверку сохранённых записей."
+        },
+        "ko": {
+          "name": "Spark Parquet 데이터셋",
+          "desc": "열 지향 파일을 읽고 쓰며 디렉터리 파티션 열과 쓰기 모드를 선택하고 저장된 레코드를 검증하는 능력입니다."
+        },
+        "pt": {
+          "name": "Conjuntos Parquet Spark",
+          "desc": "Conjuntos Parquet Spark abrangem ler e gravar arquivos colunares, escolher colunas de particionamento de diretórios e modos de gravação e verificar registros persistidos."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_execution_plans",
+      "slug": "spark_execution_plans",
+      "name": "Spark Execution Plans",
+      "desc": "Spark execution plans cover relating lazy transformations and actions to logical and physical plans, stages, and tasks when diagnosing execution behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Spark 执行计划",
+          "desc": "Spark 执行计划涵盖在诊断执行行为时，将惰性转换和动作关联到逻辑与物理计划、阶段及任务。"
+        },
+        "es": {
+          "name": "Planes de ejecución Spark",
+          "desc": "Los planes Spark relacionan transformaciones diferidas y acciones con planes lógicos y físicos, etapas y tareas al diagnosticar la ejecución."
+        },
+        "fr": {
+          "name": "Plans d'exécution Spark",
+          "desc": "Les plans Spark relient transformations paresseuses et actions aux plans logiques et physiques, étapes et tâches pour diagnostiquer l'exécution."
+        },
+        "de": {
+          "name": "Spark-Ausführungspläne",
+          "desc": "Spark-Ausführungspläne verbinden verzögerte Transformationen und Aktionen mit logischen und physischen Plänen, Stages und Tasks zur Ausführungsdiagnose."
+        },
+        "ja": {
+          "name": "Spark 実行計画",
+          "desc": "実行動作を診断する際に、遅延変換とアクションを論理計画、物理計画、ステージ、タスクに関連付ける能力です。"
+        },
+        "ru": {
+          "name": "Планы выполнения Spark",
+          "desc": "Планы Spark связывают ленивые преобразования и действия с логическими и физическими планами, стадиями и задачами при диагностике выполнения."
+        },
+        "ko": {
+          "name": "Spark 실행 계획",
+          "desc": "실행 동작을 진단할 때 지연 변환과 액션을 논리 및 물리 계획, 스테이지, 태스크와 연결하는 능력입니다."
+        },
+        "pt": {
+          "name": "Planos de execução Spark",
+          "desc": "Planos Spark relacionam transformações preguiçosas e ações a planos lógicos e físicos, estágios e tarefas ao diagnosticar a execução."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_computation_partitions",
+      "slug": "spark_computation_partitions",
+      "name": "Spark Computation Partitions",
+      "desc": "Spark computation partitions cover controlling task partitioning and shuffle with repartitioning and coalescing while distinguishing execution partitions from directory partitions.",
+      "i18n": {
+        "zh": {
+          "name": "Spark 计算分区",
+          "desc": "Spark 计算分区涵盖通过重新分区与合并控制任务分区和 Shuffle，并区分执行分区与目录分区。"
+        },
+        "es": {
+          "name": "Particiones de cálculo Spark",
+          "desc": "Las particiones de cálculo Spark controlan particionado y shuffle mediante repartición y coalescencia, distinguiendo particiones de ejecución de particiones de directorios."
+        },
+        "fr": {
+          "name": "Partitions de calcul Spark",
+          "desc": "Les partitions de calcul Spark contrôlent tâches et shuffle par repartitionnement et regroupement, en distinguant partitions d'exécution et de répertoires."
+        },
+        "de": {
+          "name": "Spark-Berechnungspartitionen",
+          "desc": "Spark-Berechnungspartitionen steuern Taskaufteilung und Shuffle durch Repartitionierung und Zusammenfassung und unterscheiden Ausführungs- von Verzeichnispartitionen."
+        },
+        "ja": {
+          "name": "Spark 計算パーティション",
+          "desc": "再分割と統合でタスク分割やシャッフルを制御し、実行パーティションとディレクトリ分割を区別する能力です。"
+        },
+        "ru": {
+          "name": "Вычислительные разделы Spark",
+          "desc": "Вычислительные разделы Spark охватывают управление задачами и shuffle через переразбиение и объединение с отличием от разделов каталогов."
+        },
+        "ko": {
+          "name": "Spark 계산 파티션",
+          "desc": "재파티셔닝과 병합으로 태스크 분할 및 셔플을 제어하고 실행 파티션과 디렉터리 파티션을 구분하는 능력입니다."
+        },
+        "pt": {
+          "name": "Partições de cálculo Spark",
+          "desc": "Partições de cálculo Spark controlam tarefas e shuffle por reparticionamento e coalescência, distinguindo partições de execução das de diretórios."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_batch_applications",
+      "slug": "spark_batch_applications",
+      "name": "Spark Batch Applications",
+      "desc": "Spark batch applications cover packaging and submitting parameterized jobs with explicit inputs, outputs, runtime settings, and repeatable result checks.",
+      "i18n": {
+        "zh": {
+          "name": "Spark 批处理应用",
+          "desc": "Spark 批处理应用涵盖组织和提交参数化作业，明确输入、输出、运行配置及可重复的结果检查。"
+        },
+        "es": {
+          "name": "Aplicaciones por lotes Spark",
+          "desc": "Las aplicaciones por lotes Spark abarcan preparar y enviar trabajos parametrizados con entradas, salidas, configuración y comprobaciones repetibles explícitas."
+        },
+        "fr": {
+          "name": "Applications batch Spark",
+          "desc": "Les applications batch Spark couvrent la préparation et soumission de traitements paramétrés avec entrées, sorties, configuration et vérifications répétables explicites."
+        },
+        "de": {
+          "name": "Spark-Batch-Anwendungen",
+          "desc": "Spark-Batch-Anwendungen umfassen das Zusammenstellen und Einreichen parametrisierter Jobs mit expliziten Eingaben, Ausgaben, Laufzeiteinstellungen und wiederholbaren Ergebnisprüfungen."
+        },
+        "ja": {
+          "name": "Spark バッチアプリケーション",
+          "desc": "入力、出力、実行設定、繰り返し可能な結果確認を明示し、パラメーター化したジョブをまとめて投入する能力です。"
+        },
+        "ru": {
+          "name": "Пакетные приложения Spark",
+          "desc": "Пакетные приложения Spark охватывают подготовку и отправку параметризованных заданий с явными входами, выходами, настройками и повторяемыми проверками результатов."
+        },
+        "ko": {
+          "name": "Spark 배치 애플리케이션",
+          "desc": "입력, 출력, 실행 설정과 반복 가능한 결과 검사를 명시하여 매개변수화된 작업을 구성하고 제출하는 능력입니다."
+        },
+        "pt": {
+          "name": "Aplicações em lote Spark",
+          "desc": "Aplicações em lote Spark abrangem preparar e submeter tarefas parametrizadas com entradas, saídas, configurações e verificações repetíveis explícitas."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_caching",
+      "slug": "spark_caching",
+      "name": "Spark Caching",
+      "desc": "Spark caching covers persisting reused datasets, selecting storage levels, inspecting materialization, and releasing cached data while accounting for recomputation.",
+      "i18n": {
+        "zh": {
+          "name": "Spark 缓存",
+          "desc": "Spark 缓存涵盖持久化复用数据集、选择存储级别、查看物化及释放缓存，并考虑重新计算。"
+        },
+        "es": {
+          "name": "Caché Spark",
+          "desc": "La caché Spark abarca persistir datos reutilizados, elegir niveles, inspeccionar materialización y liberar datos considerando el recálculo."
+        },
+        "fr": {
+          "name": "Cache Spark",
+          "desc": "Le cache Spark couvre la persistance des données réutilisées, les niveaux de stockage, la matérialisation et la libération du cache en tenant compte du recalcul."
+        },
+        "de": {
+          "name": "Spark-Caching",
+          "desc": "Spark-Caching umfasst Persistierung wiederverwendeter Datensätze, Speicherstufen, Materialisierungsprüfung und Cachefreigabe unter Berücksichtigung erneuter Berechnung."
+        },
+        "ja": {
+          "name": "Spark キャッシュ",
+          "desc": "再計算を考慮し、再利用するデータセットの永続化、ストレージレベル選択、実体化の確認、キャッシュ解放を行う能力です。"
+        },
+        "ru": {
+          "name": "Кэширование Spark",
+          "desc": "Кэширование Spark охватывает сохранение повторно используемых данных, выбор уровней хранения, проверку материализации и освобождение кэша с учётом пересчёта."
+        },
+        "ko": {
+          "name": "Spark 캐싱",
+          "desc": "재계산을 고려하여 재사용 데이터셋을 영속화하고 저장 수준을 선택하며 구체화를 확인하고 캐시를 해제하는 능력입니다."
+        },
+        "pt": {
+          "name": "Cache Spark",
+          "desc": "O cache Spark abrange persistir dados reutilizados, escolher níveis, inspecionar materialização e liberar dados considerando o recálculo."
+        }
+      }
+    },
+    {
+      "key": "bigdata/spark_structured_streaming",
+      "slug": "spark_structured_streaming",
+      "name": "Spark Structured Streaming",
+      "desc": "Spark Structured Streaming covers defining incremental queries, choosing output modes, and managing checkpoints and event-time watermarks under source and sink guarantees.",
+      "i18n": {
+        "zh": {
+          "name": "Spark Structured Streaming",
+          "desc": "Spark Structured Streaming 涵盖定义增量查询、选择输出模式及管理检查点和事件时间水位线，并考虑来源与接收端的保证。"
+        },
+        "es": {
+          "name": "Spark Structured Streaming",
+          "desc": "Spark Structured Streaming abarca consultas incrementales, modos de salida, checkpoints y marcas de agua de tiempo de evento según las garantías de origen y destino."
+        },
+        "fr": {
+          "name": "Spark Structured Streaming",
+          "desc": "Spark Structured Streaming couvre requêtes incrémentales, modes de sortie, checkpoints et filigranes de temps événementiel selon les garanties des sources et destinations."
+        },
+        "de": {
+          "name": "Spark Structured Streaming",
+          "desc": "Spark Structured Streaming umfasst inkrementelle Abfragen, Ausgabemodi, Checkpoints und Ereigniszeit-Watermarks unter den Garantien von Quellen und Senken."
+        },
+        "ja": {
+          "name": "Spark Structured Streaming",
+          "desc": "ソースとシンクの保証を考慮し、増分クエリ、出力モード、チェックポイント、イベント時刻のウォーターマークを扱う能力です。"
+        },
+        "ru": {
+          "name": "Spark Structured Streaming",
+          "desc": "Spark Structured Streaming охватывает инкрементальные запросы, режимы вывода, контрольные точки и водяные знаки времени событий с учётом гарантий источников и приёмников."
+        },
+        "ko": {
+          "name": "Spark Structured Streaming",
+          "desc": "소스와 싱크의 보장을 고려하여 증분 쿼리, 출력 모드, 체크포인트와 이벤트 시간 워터마크를 관리하는 능력입니다."
+        },
+        "pt": {
+          "name": "Spark Structured Streaming",
+          "desc": "Spark Structured Streaming abrange consultas incrementais, modos de saída, checkpoints e marcas d'água de tempo de evento conforme garantias de origem e destino."
+        }
+      }
+    },
+    {
+      "key": "bigdata/kafka_topics",
+      "slug": "kafka_topics",
+      "name": "Kafka Topics",
+      "desc": "Kafka topics cover creating, inspecting, altering, and deleting topics and interpreting partition leaders, replicas, and in-sync replica metadata.",
+      "i18n": {
+        "zh": {
+          "name": "Kafka 主题",
+          "desc": "Kafka 主题涵盖创建、查看、修改和删除主题，并解读分区 leader、副本及同步副本元数据。"
+        },
+        "es": {
+          "name": "Temas Kafka",
+          "desc": "Los temas Kafka abarcan crear, inspeccionar, modificar y eliminar temas e interpretar líderes, réplicas y metadatos de réplicas sincronizadas."
+        },
+        "fr": {
+          "name": "Topics Kafka",
+          "desc": "Les topics Kafka couvrent création, inspection, modification et suppression ainsi que l'interprétation des leaders, réplicas et réplicas synchronisés."
+        },
+        "de": {
+          "name": "Kafka-Topics",
+          "desc": "Kafka-Topics umfassen Erstellen, Prüfen, Ändern und Löschen sowie die Interpretation von Partitionsleadern, Replikaten und synchronen Replikatmetadaten."
+        },
+        "ja": {
+          "name": "Kafka トピック",
+          "desc": "トピックを作成、確認、変更、削除し、パーティションリーダー、レプリカ、同期状態にあるレプリカのメタデータを解釈する能力です。"
+        },
+        "ru": {
+          "name": "Топики Kafka",
+          "desc": "Топики Kafka охватывают создание, проверку, изменение и удаление, а также интерпретацию лидеров разделов, реплик и синхронных реплик."
+        },
+        "ko": {
+          "name": "Kafka 토픽",
+          "desc": "토픽을 생성, 확인, 수정 및 삭제하고 파티션 리더, 복제본과 동기화된 복제본 메타데이터를 해석하는 능력입니다."
+        },
+        "pt": {
+          "name": "Tópicos Kafka",
+          "desc": "Tópicos Kafka abrangem criar, inspecionar, alterar e excluir tópicos e interpretar líderes, réplicas e metadados de réplicas sincronizadas."
+        }
+      }
+    },
+    {
+      "key": "bigdata/kafka_record_routing",
+      "slug": "kafka_record_routing",
+      "name": "Kafka Record Routing",
+      "desc": "Kafka record routing covers selecting keys and partitioning behavior and verifying record placement and ordering within individual partitions.",
+      "i18n": {
+        "zh": {
+          "name": "Kafka 记录路由",
+          "desc": "Kafka 记录路由涵盖选择键及分区行为，并验证记录位置和各分区内部的顺序。"
+        },
+        "es": {
+          "name": "Enrutamiento de registros Kafka",
+          "desc": "El enrutamiento Kafka abarca elegir claves y comportamiento de particionado y verificar ubicación y orden dentro de cada partición."
+        },
+        "fr": {
+          "name": "Routage des enregistrements Kafka",
+          "desc": "Le routage Kafka couvre le choix des clés et du partitionnement ainsi que la vérification du placement et de l'ordre dans chaque partition."
+        },
+        "de": {
+          "name": "Kafka-Datensatzrouting",
+          "desc": "Kafka-Datensatzrouting umfasst Schlüsselwahl und Partitionierungsverhalten sowie die Prüfung von Platzierung und Reihenfolge innerhalb einzelner Partitionen."
+        },
+        "ja": {
+          "name": "Kafka レコードルーティング",
+          "desc": "キーとパーティション分割の動作を選び、各パーティション内のレコード配置と順序を検証する能力です。"
+        },
+        "ru": {
+          "name": "Маршрутизация записей Kafka",
+          "desc": "Маршрутизация Kafka охватывает выбор ключей и поведения разделения и проверку размещения и порядка записей внутри отдельных разделов."
+        },
+        "ko": {
+          "name": "Kafka 레코드 라우팅",
+          "desc": "키와 파티셔닝 동작을 선택하고 개별 파티션 내부의 레코드 배치와 순서를 검증하는 능력입니다."
+        },
+        "pt": {
+          "name": "Roteamento de registros Kafka",
+          "desc": "O roteamento Kafka abrange escolher chaves e comportamento de particionamento e verificar posição e ordem dentro de cada partição."
+        }
+      }
+    },
+    {
+      "key": "bigdata/kafka_producers",
+      "slug": "kafka_producers",
+      "name": "Kafka Producers",
+      "desc": "Kafka producers cover publishing serialized records, handling asynchronous delivery results, and draining pending work without confusing local enqueueing with broker acknowledgment.",
+      "i18n": {
+        "zh": {
+          "name": "Kafka 生产者",
+          "desc": "Kafka 生产者涵盖发布序列化记录、处理异步投递结果和排空待处理工作，并区分本地入队与 Broker 确认。"
+        },
+        "es": {
+          "name": "Productores Kafka",
+          "desc": "Los productores Kafka publican registros serializados, manejan resultados asíncronos y vacían trabajo pendiente, distinguiendo encolado local de confirmación del bróker."
+        },
+        "fr": {
+          "name": "Producteurs Kafka",
+          "desc": "Les producteurs Kafka publient des enregistrements sérialisés, traitent les résultats asynchrones et vident les envois en attente, en distinguant mise en file locale et acquittement du broker."
+        },
+        "de": {
+          "name": "Kafka-Producer",
+          "desc": "Kafka-Producer veröffentlichen serialisierte Datensätze, behandeln asynchrone Zustellergebnisse und leeren ausstehende Arbeit, ohne lokales Einreihen mit Brokerbestätigung gleichzusetzen."
+        },
+        "ja": {
+          "name": "Kafka プロデューサー",
+          "desc": "シリアル化したレコードを発行し、非同期配信結果と未完了送信を処理して、ローカルのキュー追加とブローカー確認を区別する能力です。"
+        },
+        "ru": {
+          "name": "Производители Kafka",
+          "desc": "Производители Kafka публикуют сериализованные записи, обрабатывают асинхронные результаты и завершают ожидающие отправки, отличая локальную очередь от подтверждения брокера."
+        },
+        "ko": {
+          "name": "Kafka 생산자",
+          "desc": "직렬화된 레코드를 발행하고 비동기 전달 결과와 대기 작업을 처리하며 로컬 큐 등록과 브로커 확인을 구분하는 능력입니다."
+        },
+        "pt": {
+          "name": "Produtores Kafka",
+          "desc": "Produtores Kafka publicam registros serializados, tratam resultados assíncronos e concluem envios pendentes, distinguindo enfileiramento local de confirmação do broker."
+        }
+      }
+    },
+    {
+      "key": "bigdata/kafka_consumers",
+      "slug": "kafka_consumers",
+      "name": "Kafka Consumers",
+      "desc": "Kafka consumers cover subscribing or assigning partitions, polling and decoding records, handling malformed payloads, and closing clients with bounded processing behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Kafka 消费者",
+          "desc": "Kafka 消费者涵盖订阅或分配分区、轮询及解码记录、处理异常负载，并在有运行边界的处理流程中关闭客户端。"
+        },
+        "es": {
+          "name": "Consumidores Kafka",
+          "desc": "Los consumidores Kafka abarcan suscribir o asignar particiones, consultar y decodificar registros, tratar datos malformados y cerrar clientes con procesamiento acotado."
+        },
+        "fr": {
+          "name": "Consommateurs Kafka",
+          "desc": "Les consommateurs Kafka couvrent abonnement ou affectation des partitions, lecture et décodage, traitement des contenus malformés et fermeture avec un traitement borné."
+        },
+        "de": {
+          "name": "Kafka-Consumer",
+          "desc": "Kafka-Consumer umfassen Abonnement oder Partitionszuweisung, Polling und Dekodierung, fehlerhafte Nutzdaten und geregeltes Schließen bei begrenzter Verarbeitung."
+        },
+        "ja": {
+          "name": "Kafka コンシューマー",
+          "desc": "購読またはパーティション割り当て、ポーリング、デコード、不正なペイロードの処理、実行範囲を制限したクライアント終了を行う能力です。"
+        },
+        "ru": {
+          "name": "Потребители Kafka",
+          "desc": "Потребители Kafka охватывают подписку или назначение разделов, опрос и декодирование, обработку неверных данных и закрытие клиентов при ограниченной обработке."
+        },
+        "ko": {
+          "name": "Kafka 소비자",
+          "desc": "구독 또는 파티션 할당, 폴링과 디코딩, 잘못된 페이로드 처리를 수행하고 처리 범위를 제한하며 클라이언트를 종료하는 능력입니다."
+        },
+        "pt": {
+          "name": "Consumidores Kafka",
+          "desc": "Consumidores Kafka abrangem assinatura ou atribuição de partições, consulta e decodificação, tratamento de dados malformados e fechamento com processamento limitado."
+        }
+      }
+    },
+    {
+      "key": "bigdata/kafka_offsets_replay",
+      "slug": "kafka_offsets_replay",
+      "name": "Kafka Offsets and Replay",
+      "desc": "Kafka offsets and replay cover managing per-partition positions, committing next offsets, and seeking or resetting progress to reread retained records.",
+      "i18n": {
+        "zh": {
+          "name": "Kafka 位移与重放",
+          "desc": "Kafka 位移与重放涵盖管理各分区的位置、提交下一条位移，并通过定位或重置进度重新读取保留的记录。"
+        },
+        "es": {
+          "name": "Offsets y repetición Kafka",
+          "desc": "Offsets y repetición Kafka abarcan posiciones por partición, confirmación del siguiente offset y búsqueda o reinicio del progreso para releer registros retenidos."
+        },
+        "fr": {
+          "name": "Offsets et relecture Kafka",
+          "desc": "Les offsets et la relecture Kafka couvrent les positions par partition, la validation du prochain offset et le repositionnement pour relire les enregistrements conservés."
+        },
+        "de": {
+          "name": "Kafka-Offsets und Replay",
+          "desc": "Kafka-Offsets und Replay umfassen Positionen pro Partition, das Bestätigen nächster Offsets und gezieltes Positionieren oder Zurücksetzen zum erneuten Lesen aufbewahrter Datensätze."
+        },
+        "ja": {
+          "name": "Kafka オフセットと再読み取り",
+          "desc": "パーティションごとの位置を管理し、次のオフセットをコミットして、シークや進捗リセットで保持レコードを再読する能力です。"
+        },
+        "ru": {
+          "name": "Смещения и повторное чтение Kafka",
+          "desc": "Смещения Kafka охватывают позиции по разделам, фиксацию следующего смещения и перемещение или сброс прогресса для повторного чтения сохранённых записей."
+        },
+        "ko": {
+          "name": "Kafka 오프셋과 재생",
+          "desc": "파티션별 위치를 관리하고 다음 오프셋을 커밋하며 탐색 또는 진행 상태 초기화로 보존된 레코드를 다시 읽는 능력입니다."
+        },
+        "pt": {
+          "name": "Offsets e releitura Kafka",
+          "desc": "Offsets e releitura Kafka abrangem posições por partição, confirmação do próximo offset e reposicionamento ou reinício do progresso para reler registros retidos."
+        }
+      }
+    },
+    {
+      "key": "bigdata/kafka_consumer_groups",
+      "slug": "kafka_consumer_groups",
+      "name": "Kafka Consumer Groups",
+      "desc": "Kafka consumer groups cover coordinating partition ownership, interpreting assignments and lag, and handling membership changes and rebalances.",
+      "i18n": {
+        "zh": {
+          "name": "Kafka 消费组",
+          "desc": "Kafka 消费组涵盖协调分区归属、解读分配与消费积压，以及处理成员变化和再均衡。"
+        },
+        "es": {
+          "name": "Grupos de consumidores Kafka",
+          "desc": "Los grupos Kafka coordinan propiedad de particiones, interpretan asignaciones y retraso y gestionan cambios de miembros y rebalanceos."
+        },
+        "fr": {
+          "name": "Groupes de consommateurs Kafka",
+          "desc": "Les groupes Kafka coordonnent l'attribution des partitions, interprètent affectations et retard et gèrent les changements de membres et rééquilibrages."
+        },
+        "de": {
+          "name": "Kafka-Consumer-Gruppen",
+          "desc": "Kafka-Consumer-Gruppen koordinieren Partitionszuständigkeit, interpretieren Zuweisungen und Rückstand und behandeln Mitgliedschaftsänderungen und Rebalances."
+        },
+        "ja": {
+          "name": "Kafka コンシューマーグループ",
+          "desc": "パーティションの担当を調整し、割り当てとラグを解釈して、メンバー変更やリバランスに対応する能力です。"
+        },
+        "ru": {
+          "name": "Группы потребителей Kafka",
+          "desc": "Группы Kafka координируют владение разделами, интерпретируют назначения и отставание и обрабатывают изменения состава и перебалансировки."
+        },
+        "ko": {
+          "name": "Kafka 소비자 그룹",
+          "desc": "파티션 소유를 조정하고 할당과 지연을 해석하며 구성원 변경 및 리밸런싱을 처리하는 능력입니다."
+        },
+        "pt": {
+          "name": "Grupos de consumidores Kafka",
+          "desc": "Grupos Kafka coordenam propriedade de partições, interpretam atribuições e atraso e tratam mudanças de membros e rebalanceamentos."
+        }
+      }
+    },
+    {
+      "key": "bigdata/kafka_retention_compaction",
+      "slug": "kafka_retention_compaction",
+      "name": "Kafka Retention and Compaction",
+      "desc": "Kafka retention and compaction cover configuring time or size retention and keyed log compaction, including tombstones and asynchronous cleanup behavior.",
+      "i18n": {
+        "zh": {
+          "name": "Kafka 保留与日志压实",
+          "desc": "Kafka 保留与日志压实涵盖配置时间或大小保留及按键日志压实，包括墓碑记录和异步清理行为。"
+        },
+        "es": {
+          "name": "Retención y compactación Kafka",
+          "desc": "Retención y compactación Kafka abarcan límites por tiempo o tamaño y compactación por clave, incluidos registros tombstone y limpieza asíncrona."
+        },
+        "fr": {
+          "name": "Rétention et compaction Kafka",
+          "desc": "La rétention et la compaction Kafka couvrent les limites de durée ou taille et la compaction par clé, y compris les tombstones et le nettoyage asynchrone."
+        },
+        "de": {
+          "name": "Kafka-Aufbewahrung und Kompaktierung",
+          "desc": "Kafka-Aufbewahrung und Kompaktierung umfassen Zeit- oder Größenlimits und schlüsselbasierte Logkompaktierung einschließlich Tombstones und asynchroner Bereinigung."
+        },
+        "ja": {
+          "name": "Kafka 保持とコンパクション",
+          "desc": "時間またはサイズによる保持とキー単位のログコンパクションを設定し、トゥームストーンと非同期クリーンアップを扱う能力です。"
+        },
+        "ru": {
+          "name": "Хранение и компактизация Kafka",
+          "desc": "Хранение и компактизация Kafka охватывают ограничения по времени или размеру и компактизацию журнала по ключам, включая tombstone и асинхронную очистку."
+        },
+        "ko": {
+          "name": "Kafka 보존과 컴팩션",
+          "desc": "시간 또는 크기 기반 보존과 키 기반 로그 컴팩션을 설정하며 tombstone 레코드와 비동기 정리를 이해하는 능력입니다."
+        },
+        "pt": {
+          "name": "Retenção e compactação Kafka",
+          "desc": "Retenção e compactação Kafka abrangem limites por tempo ou tamanho e compactação por chave, incluindo tombstones e limpeza assíncrona."
+        }
+      }
+    },
+    {
+      "key": "bigdata/kafka_delivery_semantics",
+      "slug": "kafka_delivery_semantics",
+      "name": "Kafka Delivery Semantics",
+      "desc": "Kafka delivery semantics cover coordinating processing, external side effects, and offset commits to reason about loss, redelivery, and idempotent recovery.",
+      "i18n": {
+        "zh": {
+          "name": "Kafka 投递语义",
+          "desc": "Kafka 投递语义涵盖协调处理、外部副作用和位移提交，以分析丢失、重复投递及幂等恢复。"
+        },
+        "es": {
+          "name": "Semántica de entrega Kafka",
+          "desc": "La semántica de entrega Kafka coordina procesamiento, efectos externos y confirmación de offsets para razonar sobre pérdidas, reentregas y recuperación idempotente."
+        },
+        "fr": {
+          "name": "Sémantique de livraison Kafka",
+          "desc": "La sémantique Kafka coordonne traitement, effets externes et validation des offsets pour analyser pertes, nouvelles livraisons et reprise idempotente."
+        },
+        "de": {
+          "name": "Kafka-Zustellsemantik",
+          "desc": "Kafka-Zustellsemantik koordiniert Verarbeitung, externe Seiteneffekte und Offset-Commits zur Analyse von Verlust, erneuter Zustellung und idempotenter Wiederherstellung."
+        },
+        "ja": {
+          "name": "Kafka 配信セマンティクス",
+          "desc": "処理、外部への副作用、オフセットコミットを調整し、損失、再配信、冪等な復旧を分析する能力です。"
+        },
+        "ru": {
+          "name": "Семантика доставки Kafka",
+          "desc": "Семантика Kafka координирует обработку, внешние побочные эффекты и фиксацию смещений для анализа потерь, повторной доставки и идемпотентного восстановления."
+        },
+        "ko": {
+          "name": "Kafka 전달 의미론",
+          "desc": "처리, 외부 부수 효과와 오프셋 커밋을 조정하여 손실, 재전달 및 멱등 복구를 분석하는 능력입니다."
+        },
+        "pt": {
+          "name": "Semântica de entrega Kafka",
+          "desc": "A semântica Kafka coordena processamento, efeitos externos e commits de offsets para analisar perdas, reentregas e recuperação idempotente."
+        }
+      }
+    },
+    {
+      "key": "bigdata/kafka_transactions",
+      "slug": "kafka_transactions",
+      "name": "Kafka Transactions",
+      "desc": "Kafka transactions cover committing or aborting record batches and consumer offsets atomically within Kafka and using isolation settings without extending guarantees to arbitrary external sinks.",
+      "i18n": {
+        "zh": {
+          "name": "Kafka 事务",
+          "desc": "Kafka 事务涵盖在 Kafka 内原子提交或中止记录批次与消费者位移，并使用隔离配置，不将保证扩大到任意外部接收端。"
+        },
+        "es": {
+          "name": "Transacciones Kafka",
+          "desc": "Las transacciones Kafka confirman o abortan registros y offsets atómicamente dentro de Kafka y usan aislamiento sin extender garantías a destinos externos arbitrarios."
+        },
+        "fr": {
+          "name": "Transactions Kafka",
+          "desc": "Les transactions Kafka valident ou annulent atomiquement lots et offsets dans Kafka et utilisent l'isolation sans étendre les garanties à toute destination externe."
+        },
+        "de": {
+          "name": "Kafka-Transaktionen",
+          "desc": "Kafka-Transaktionen bestätigen oder verwerfen Datensatzbatches und Consumer-Offsets atomar innerhalb Kafkas und nutzen Isolation ohne pauschale Garantien für externe Senken."
+        },
+        "ja": {
+          "name": "Kafka トランザクション",
+          "desc": "Kafka 内でレコードバッチとコンシューマーオフセットを原子的にコミットまたは中止し、任意の外部シンクに保証を拡張せず隔離設定を使う能力です。"
+        },
+        "ru": {
+          "name": "Транзакции Kafka",
+          "desc": "Транзакции Kafka атомарно фиксируют или отменяют пакеты записей и смещения внутри Kafka и используют изоляцию без распространения гарантий на произвольные внешние приёмники."
+        },
+        "ko": {
+          "name": "Kafka 트랜잭션",
+          "desc": "Kafka 내부에서 레코드 배치와 소비자 오프셋을 원자적으로 커밋하거나 중단하고 임의의 외부 싱크로 보장을 확대하지 않으며 격리 설정을 사용하는 능력입니다."
+        },
+        "pt": {
+          "name": "Transações Kafka",
+          "desc": "Transações Kafka confirmam ou abortam lotes e offsets atomicamente no Kafka e usam isolamento sem estender garantias a destinos externos arbitrários."
+        }
+      }
+    }
+  ]
+}
